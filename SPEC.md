@@ -3,7 +3,11 @@
 Version: **1** (`schemaVersion: 1`)
 
 This document specifies how to structure a repository of components so it can be
-consumed by the VoltDocs documentation software.
+consumed by the VoltDocs documentation software. Any repository that conforms to
+this specification can be dropped in behind the
+[`FsGitRepositoryAdapter`](./src/adapters/fs-git/index.ts) — or any adapter that
+implements the [`RepositoryAdapter`](./src/types/adapter.ts) contract — with no
+changes to the application.
 
 The goal is **bring-your-own-repository**: an organisation can keep its patented
 components and specifications in a private git repository and still use VoltDocs,
@@ -11,7 +15,44 @@ provided the repository follows the contract below.
 
 ---
 
-## 1. Git repository layout
+## 1. The adapter contract (the seam)
+
+VoltDocs never talks to a store directly. It talks to a `RepositoryAdapter`:
+
+```ts
+interface RepositoryAdapter {
+  setup(): Promise<RepositoryInfo>;
+  search(query: Query): Promise<SearchResult>;
+  getEntry(id: EntryId, options?: GetEntryOptions): Promise<Entry | null>;
+  listVersions(id: EntryId): Promise<readonly VersionInfo[]>;
+  resolveAsset?(entryId, assetId, version?): Promise<AssetContent>;
+  teardown?(): Promise<void>;
+}
+```
+
+The three mandatory operations map onto the three tasks in the brief:
+
+| Task | Operation |
+|---|---|
+| **Setup** | `setup()` — connect, validate, build the search index, report capabilities |
+| **Search / filter** | `search(query)` — one `Query` model understood by every backend |
+| **Get an entry by id** | `getEntry(id, { version? })` |
+
+`search` returns lightweight `EntrySummary` projections; callers hydrate full
+`Entry` objects (fields, body, assets) with `getEntry`. This keeps listing cheap
+regardless of how large individual entries are.
+
+Backends declare what they can do via `RepositoryInfo.capabilities`
+(`versioning`, `fullTextSearch`, `assetResolution`, `writable`) so the
+application can degrade gracefully rather than assume every store is equally
+capable. Adapters that cannot evaluate a predicate natively fall back to the
+shared [`runQuery`](./src/query-engine.ts) engine, so `text`, `tags` and
+`fields` filtering behave **identically** across a git tree, a database or a
+REST API.
+
+---
+
+## 2. Git repository layout
 
 ```
 <repo-root>/
@@ -36,7 +77,8 @@ provided the repository follows the contract below.
 ```
 
 Folders are **organisational only**. They group entries for humans and provide
-inheritable defaults; they carry no identity.
+inheritable defaults; they carry no identity. See
+[`examples/sample-repo`](./examples/sample-repo) for a complete, working tree.
 
 ### 2.1 Repository manifest — `voltdocs.config.yaml`
 
@@ -47,6 +89,10 @@ entriesDir: entries
 ```
 
 ### 2.2 Entry manifest — `entry.yaml`
+
+The manifest is close to the [domain model](./src/types/model.ts) but is
+validated defensively — a repository is user-authored and never trusted to be
+well-formed.
 
 ```yaml
 id: passive.resistor.rc0402-10k   # stable, repo-unique, decoupled from the path
@@ -62,9 +108,11 @@ fields:                            # structured, category-specific parameters
   tolerance_pct: 1
   package: "0402"
   power_w: 0.063
+highlights: [resistance_ohm, power_w]  # headline `fields` keys; see §2.3
 body: index.md                     # relative path to the body document
 assets: [ … ]                      # see §4
 references: [ … ]                  # typed links to other entries
+guides: [ … ]                      # long-form articles; see §2.4
 versions:                          # metadata for versions under versions/
   - id: "1.0.0"
     releasedAt: "2023-01-01"
@@ -74,6 +122,39 @@ versions:                          # metadata for versions under versions/
 **Identity rule:** `id` is authoritative. The folder name is a human-readable
 slug and may be renamed freely; links must use `id`, never the path. This is
 what lets a repository be reorganised without breaking references.
+
+### 2.3 Headline parameters — `highlights`
+
+`fields` is an open, unordered map, so nothing in it says which parameters a
+reader wants first. `highlights` is an ordered list of `fields` keys the
+repository considers headline figures.
+
+It is a **presentation hint only**: a renderer MAY surface these ahead of the
+full specification table and MUST ignore keys that do not resolve, so pruning a
+field can never break a manifest. Ordering is significant.
+
+### 2.4 Guides — long-form articles
+
+Where `body` is the reference documentation for a component, a guide is a
+project-oriented walkthrough ("wire this to an ESP32 and read a tag"). Guides
+are their own collection rather than an asset kind because they are editorial
+content with their own prose, tags and reading metadata, and are rendered as
+pages rather than downloaded.
+
+```yaml
+guides:
+  - id: esp32-spi              # unique within the entry; used as the URL slug
+    title: Reading a card UID with an ESP32
+    summary: Wire the reader over SPI and read a tag from ESP-IDF.
+    minutes: 25                # estimated reading time
+    level: intermediate        # beginner | intermediate | advanced
+    tags: [esp-idf, spi, c]
+    body: guides/esp32-spi.md  # required; resolved like any repo path (§4)
+```
+
+`id` must be unique within the entry and `title` and `body` are required; the
+rest are optional. A guide whose body file is missing keeps its metadata and
+renders without content, matching how a missing entry `body` is handled.
 
 ---
 
@@ -121,6 +202,13 @@ it here" link, a 3D model — may live **inside** the repository, on an external
 CDN/object store, or be embedded inline. Rather than a distinct rule per folder
 or per kind, **every** artefact is one `Asset` with a discriminated `location`:
 
+```ts
+type AssetLocation =
+  | { type: 'inline';   data: string; encoding: 'utf8' | 'base64' }
+  | { type: 'repo';     path: string }      // tracked inside the repository
+  | { type: 'external'; url: string };      // CDN, object store, vendor site
+```
+
 ```yaml
 assets:
   - id: datasheet
@@ -134,12 +222,19 @@ assets:
     location: { type: inline, encoding: utf8, data: "<svg…/>" }
 ```
 
+Because the shape is uniform, media, downloads and links all flow through the
+same indexing, rendering and `resolveAsset()` path — no folder needs a bespoke
+case. `resolveAsset()` returns bytes for `inline`/`repo` locations and hands back
+the URL for `external` ones (the caller decides whether to fetch or redirect).
+
 **In-repo path resolution:** a `repo` path is relative to the entry folder by
 default; a leading `/` makes it repo-root-relative (for shared assets). Paths
 that escape the repository root are rejected.
 
 **Large binaries** (STEP models, gerbers, high-res renders) should prefer
-`external` object storage.
+`external` object storage or **Git LFS**; keeping multi-megabyte binaries in git
+history bloats every clone. The `bytes` and `checksum` fields let the UI show
+sizes and verify integrity without downloading.
 
 ---
 

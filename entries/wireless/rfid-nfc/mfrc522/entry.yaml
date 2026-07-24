@@ -25,6 +25,12 @@ fields:
   fifo_bytes: 64
   typical_read_range_mm: 50
   nrnd: true
+highlights:
+  - frequency_mhz
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - fifo_bytes
+  - typical_read_range_mm
 body: index.md
 assets:
   - id: datasheet
@@ -36,6 +42,16 @@ assets:
   - id: product-page
     kind: reference
     location: { type: external, url: "https://www.nxp.com/products/rfid-nfc/nfc-hf/nfc-readers/standard-performance-mifare-and-ntag-frontend:MFRC52202HN1" }
+guides:
+  - id: esp32-spi
+    title: Reading a card UID with an ESP32
+    summary: >-
+      Wire the RC522 breakout to an ESP32 over SPI and read a MIFARE Classic UID
+      from ESP-IDF, driving the registers directly instead of using Arduino.
+    minutes: 25
+    level: intermediate
+    tags: [esp-idf, spi, c, uid]
+    body: guides/esp32-spi.md
 versions:
   - id: "1.0"
     status: deprecated
