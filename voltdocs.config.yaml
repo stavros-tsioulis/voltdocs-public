@@ -1,0 +1,5 @@
+# Repository manifest — read once at setup().
+schemaVersion: 1
+name: VoltDocs Public Library
+# Directory (relative to this file) that entries are discovered under.
+entriesDir: entries

@@ -1,0 +1,23 @@
+id: ic.wireless.mfrc522
+version: "1.0"
+title: MFRC522 — 13.56 MHz Contactless Reader IC (v1.0)
+category: wireless/rfid-nfc
+tags: [rfid, nfc, iso14443a, mifare, spi, i2c, uart, nxp]
+status: deprecated
+summary: >-
+  Original MFRC52201HN1 silicon revision. Superseded by v2.0
+  (MFRC52202HN1), which adds stability and timer improvements.
+fields:
+  manufacturer: NXP Semiconductors
+  ic_part_numbers: [MFRC52201HN1]
+  package: HVQFN32 (SOT617-1)
+  protocol: ISO/IEC 14443 A / MIFARE
+  frequency_mhz: 13.56
+  supply_voltage_min_v: 2.5
+  supply_voltage_max_v: 3.6
+  interfaces: [SPI, I2C, UART]
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf" }

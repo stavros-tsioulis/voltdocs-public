@@ -1,0 +1,41 @@
+id: ic.wireless.mfrc522
+version: "2.0"
+title: MFRC522 — 13.56 MHz Contactless Reader IC
+category: wireless/rfid-nfc
+tags: [rfid, nfc, iso14443a, mifare, spi, i2c, uart, nxp]
+status: published
+summary: >-
+  NXP 13.56 MHz ISO/IEC 14443 A/MIFARE reader/writer IC with SPI, I2C and
+  UART host interfaces; widely sold as the low-cost "RC522" breakout module.
+updatedAt: "2026-07-24"
+fields:
+  manufacturer: NXP Semiconductors
+  ic_part_numbers: [MFRC52201HN1, MFRC52202HN1]
+  package: HVQFN32 (SOT617-1)
+  protocol: ISO/IEC 14443 A / MIFARE
+  frequency_mhz: 13.56
+  supply_voltage_min_v: 2.5
+  supply_voltage_max_v: 3.6
+  operating_temp_min_c: -25
+  operating_temp_max_c: 85
+  interfaces: [SPI, I2C, UART]
+  spi_max_mbit_s: 10
+  i2c_max_kbit_s: 3400
+  uart_max_kbit_s: 1228.8
+  fifo_bytes: 64
+  typical_read_range_mm: 50
+  nrnd: true
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf" }
+  - id: antenna-design-guide
+    kind: manual
+    location: { type: external, url: "https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/nfc/3055/1/AN1445-2010%20-%20Antenna%20design%20guide%20for%20MFRC52x,%20PN51x,%20PN53x.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nxp.com/products/rfid-nfc/nfc-hf/nfc-readers/standard-performance-mifare-and-ntag-frontend:MFRC52202HN1" }
+versions:
+  - id: "1.0"
+    status: deprecated
