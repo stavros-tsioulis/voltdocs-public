@@ -7,7 +7,7 @@ status: published
 summary: >-
   NXP 13.56 MHz ISO/IEC 14443 A/MIFARE reader/writer IC with SPI, I2C and
   UART host interfaces; widely sold as the low-cost "RC522" breakout module.
-updatedAt: "2026-07-24"
+updatedAt: "2026-07-25"
 fields:
   manufacturer: NXP Semiconductors
   ic_part_numbers: [MFRC52201HN1, MFRC52202HN1]
