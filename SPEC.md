@@ -3,56 +3,11 @@
 Version: **1** (`schemaVersion: 1`)
 
 This document specifies how to structure a repository of components so it can be
-consumed by the VoltDocs documentation software. Any repository that conforms to
-this specification can be dropped in behind the
-[`FsGitRepositoryAdapter`](./src/adapters/fs-git/index.ts) — or any adapter that
-implements the [`RepositoryAdapter`](./src/types/adapter.ts) contract — with no
-changes to the application.
-
-The goal is **bring-your-own-repository**: an organisation can keep its patented
-components and specifications in a private git repository and still use VoltDocs,
-provided the repository follows the contract below.
+consumed by the VoltDocs documentation software.
 
 ---
 
-## 1. The adapter contract (the seam)
-
-VoltDocs never talks to a store directly. It talks to a `RepositoryAdapter`:
-
-```ts
-interface RepositoryAdapter {
-  setup(): Promise<RepositoryInfo>;
-  search(query: Query): Promise<SearchResult>;
-  getEntry(id: EntryId, options?: GetEntryOptions): Promise<Entry | null>;
-  listVersions(id: EntryId): Promise<readonly VersionInfo[]>;
-  resolveAsset?(entryId, assetId, version?): Promise<AssetContent>;
-  teardown?(): Promise<void>;
-}
-```
-
-The three mandatory operations map onto the three tasks in the brief:
-
-| Task | Operation |
-|---|---|
-| **Setup** | `setup()` — connect, validate, build the search index, report capabilities |
-| **Search / filter** | `search(query)` — one `Query` model understood by every backend |
-| **Get an entry by id** | `getEntry(id, { version? })` |
-
-`search` returns lightweight `EntrySummary` projections; callers hydrate full
-`Entry` objects (fields, body, assets) with `getEntry`. This keeps listing cheap
-regardless of how large individual entries are.
-
-Backends declare what they can do via `RepositoryInfo.capabilities`
-(`versioning`, `fullTextSearch`, `assetResolution`, `writable`) so the
-application can degrade gracefully rather than assume every store is equally
-capable. Adapters that cannot evaluate a predicate natively fall back to the
-shared [`runQuery`](./src/query-engine.ts) engine, so `text`, `tags` and
-`fields` filtering behave **identically** across a git tree, a database or a
-REST API.
-
----
-
-## 2. Git repository layout
+## 1. Git repository layout
 
 ```
 <repo-root>/
@@ -77,10 +32,9 @@ REST API.
 ```
 
 Folders are **organisational only**. They group entries for humans and provide
-inheritable defaults; they carry no identity. See
-[`examples/sample-repo`](./examples/sample-repo) for a complete, working tree.
+inheritable defaults; they carry no identity.
 
-### 2.1 Repository manifest — `voltdocs.config.yaml`
+### 1.1 Repository manifest — `voltdocs.config.yaml`
 
 ```yaml
 schemaVersion: 1
@@ -88,14 +42,12 @@ name: Example Component Library
 entriesDir: entries
 ```
 
-### 2.2 Entry manifest — `entry.yaml`
+### 1.2 Entry manifest — `entry.yaml`
 
-The manifest is close to the [domain model](./src/types/model.ts) but is
-validated defensively — a repository is user-authored and never trusted to be
-well-formed.
+The manifest is validated defensively.
 
 ```yaml
-id: passive.resistor.rc0402-10k   # stable, repo-unique, decoupled from the path
+id: passive.resistor.rc0402-10k    # stable, repo-unique, decoupled from the path
 version: "1.1.0"                   # the version THIS manifest represents
 title: RC0402 10kΩ ±1% Thin-Film Resistor
 category: passives/resistors       # optional; usually inherited from _folder.yaml
@@ -123,7 +75,7 @@ versions:                          # metadata for versions under versions/
 slug and may be renamed freely; links must use `id`, never the path. This is
 what lets a repository be reorganised without breaking references.
 
-### 2.3 Headline parameters — `highlights`
+### 1.3 Headline parameters — `highlights`
 
 `fields` is an open, unordered map, so nothing in it says which parameters a
 reader wants first. `highlights` is an ordered list of `fields` keys the
@@ -133,7 +85,7 @@ It is a **presentation hint only**: a renderer MAY surface these ahead of the
 full specification table and MUST ignore keys that do not resolve, so pruning a
 field can never break a manifest. Ordering is significant.
 
-### 2.4 Guides — long-form articles
+### 1.4 Guides — long-form articles
 
 Where `body` is the reference documentation for a component, a guide is a
 project-oriented walkthrough ("wire this to an ESP32 and read a tag"). Guides
@@ -156,9 +108,33 @@ guides:
 rest are optional. A guide whose body file is missing keeps its metadata and
 renders without content, matching how a missing entry `body` is handled.
 
+### 1.5 Primary image — cover art for the sidebar
+
+An entry may declare product photos, renders or symbols as ordinary `assets`
+(§4) with `kind: image`. The **first** such asset, in declaration order, is the
+entry's **primary image**: a renderer MAY surface it prominently — e.g. as
+cover art in a sidebar — the same way `datasheet` is promoted out of the
+assets list into the page header (§2.2).
+
+```yaml
+assets:
+  - id: photo
+    kind: image
+    title: Product photo
+    mimeType: image/webp        # required for repo/inline bytes to be served correctly
+    location: { type: repo, path: assets/photo.webp }
+```
+
+Like `highlights`, this is a **presentation hint only**: it introduces no new
+field or schema, an entry with no `kind: image` asset simply has no primary
+image, and a renderer MUST NOT treat its absence as an error. `mimeType` is not
+inferred from the file extension (see §4), so `repo`/`inline` image assets must
+declare it explicitly or the served bytes will fall back to
+`application/octet-stream`.
+
 ---
 
-## 3. Making every entry discoverable — regardless of depth
+## 2. Making every entry discoverable — regardless of depth
 
 **Discovery is marker-based.** A directory *is* an entry if and only if it
 contains an `entry.yaml`. The adapter walks the entire tree under `entriesDir`
@@ -178,7 +154,7 @@ Rules that keep this unambiguous:
   `id`. Search operates over that flat index, so folder depth has zero effect on
   whether an entry is found — it only affects the `category` used for grouping.
 
-### 3.1 Folder defaults — `_folder.yaml`
+### 2.1 Folder defaults — `_folder.yaml`
 
 To keep deeply-nested entries consistent **without repeating metadata in every
 manifest**, any folder may carry an optional `_folder.yaml`:
@@ -195,7 +171,7 @@ DRY place to declare shared structure per branch of the tree.
 
 ---
 
-## 4. One structure for media, downloads and reference links
+## 3. One structure for media, downloads and reference links
 
 A component's supporting artefacts — a datasheet PDF, a schematic symbol, a "buy
 it here" link, a 3D model — may live **inside** the repository, on an external
@@ -238,7 +214,7 @@ sizes and verify integrity without downloading.
 
 ---
 
-## 5. Versioning
+## 4. Versioning
 
 Two independent axes of history exist; the spec keeps them distinct:
 
@@ -247,7 +223,7 @@ Two independent axes of history exist; the spec keeps them distinct:
 2. **Editorial history** (who fixed a typo when): this is *git's* job — commit
    history — and is deliberately **not** modelled in the manifest.
 
-### 5.1 Component versions on disk
+### 4.1 Component versions on disk
 
 - The entry folder's `entry.yaml` is the **current / default** version. Its
   `version:` field names that version id.
@@ -258,7 +234,7 @@ Two independent axes of history exist; the spec keeps them distinct:
 - Version ids are opaque strings (`"1.1.0"`, `"rev-C"`, `"2024-05"`); ordering
   uses `releasedAt` when present, otherwise the id.
 
-### 5.2 Non-trivial cases the spec must (and does) account for
+### 4.2 Non-trivial cases the spec must (and does) account for
 
 | Case | Handling |
 |---|---|
@@ -275,7 +251,7 @@ Two independent axes of history exist; the spec keeps them distinct:
 
 ---
 
-## 6. Other considerations captured by the spec
+## 5. Other considerations captured by the spec
 
 - **Structured data in a free-form store.** Freedom of folder layout is
   preserved, but every entry must still provide a validated `entry.yaml`. The
@@ -297,7 +273,7 @@ Two independent axes of history exist; the spec keeps them distinct:
 
 ---
 
-## 7. Conformance checklist
+## 6. Conformance checklist
 
 A repository conforms to `schemaVersion: 1` when:
 
