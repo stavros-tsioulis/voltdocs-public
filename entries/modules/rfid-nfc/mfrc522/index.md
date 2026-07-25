@@ -1,5 +1,3 @@
-# MFRC522
-
 ## Overview
 
 The MFRC522 is a highly integrated 13.56 MHz contactless communication card reader/writer IC designed by NXP Semiconductors, most commonly sold on low-cost **RC522** breakout modules. It provides full support for ISO/IEC 14443 A protocol standards and MIFARE card families (including MIFARE Mini, 1K, 4K, Ultralight, and DESFire).
