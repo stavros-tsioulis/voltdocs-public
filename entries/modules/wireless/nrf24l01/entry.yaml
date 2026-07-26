@@ -1,16 +1,16 @@
 id: ic.wireless.nrf24l01
-version: "1.0"
-title: nRF24L01 — 2.4 GHz Single-Chip RF Transceiver
+revision: "2.0"
+title: nRF24L01+ — 2.4 GHz Single-Chip RF Transceiver
 category: wireless/2.4ghz
-tags: [nrf24l01, rf, 2.4ghz, transceiver, spi, nordic]
+tags: [nrf24l01, nrf24l01p, rf, 2.4ghz, transceiver, spi, nordic]
 status: published
 summary: >-
-  Nordic Semiconductor 2.4 GHz ISM band ultra-low power RF transceiver IC with
-  integrated Enhanced ShockBurst hardware protocol engine and SPI interface.
+  Nordic Semiconductor 2.4 GHz ISM band ultra-low power RF transceiver IC (nRF24L01+).
+  Current revision (v2.0 / nRF24L01+) adds 250 kbps mode, -94 dBm sensitivity, RPD, and dynamic payloads.
 updatedAt: "2026-07-26"
 fields:
   manufacturer: Nordic Semiconductor
-  ic_part_numbers: [nRF24L01, nRF24L01P]
+  ic_part_numbers: [nRF24L01P-R7, nRF24L01P-SAMPLE]
   package: QFN20
   frequency_mhz_min: 2400
   frequency_mhz_max: 2525
@@ -44,3 +44,7 @@ assets:
   - id: product-page
     kind: reference
     location: { type: external, url: "https://www.nordicsemi.com/Products/nRF24-Series" }
+revisions:
+  - id: "1.0"
+    releasedAt: "2006-03-01"
+    status: deprecated

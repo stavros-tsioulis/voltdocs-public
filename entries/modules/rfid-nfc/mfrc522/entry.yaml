@@ -1,5 +1,5 @@
 id: ic.wireless.mfrc522
-version: "2.0"
+revision: "2.0"
 title: MFRC522 — 13.56 MHz Contactless Reader IC
 category: wireless/rfid-nfc
 tags: [rfid, nfc, iso14443a, mifare, spi, i2c, uart, nxp]
@@ -57,6 +57,6 @@ guides:
     level: intermediate
     tags: [esp-idf, spi, c, uid]
     body: guides/esp32-spi.md
-versions:
+revisions:
   - id: "1.0"
     status: deprecated

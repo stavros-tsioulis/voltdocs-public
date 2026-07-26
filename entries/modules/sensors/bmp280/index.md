@@ -1,7 +1,3 @@
-# BMP280
-
-> High-precision absolute barometric pressure and temperature sensor IC with I2C/SPI interfaces.
-
 ## Overview
 
 The **BMP280** is an absolute barometric pressure sensor designed specifically for mobile applications by Bosch Sensortec. It succeeds the BMP180 and offers higher accuracy, lower power consumption, and smaller footprint dimensions (2.0 mm × 2.5 mm × 0.95 mm LGA package).
@@ -75,4 +71,8 @@ The sensor integrates piezo-resistive pressure and temperature sensing elements,
 
 ## Notes
 
-- **Altitude calculation:** Relative altitude can be estimated using the hypsometric formula: $h = 44330 \times \left(1 - \left(\frac{P}{P_0}\right)^{\frac{1}{5.255}}\right)$ where $P_0$ is sea level pressure (1013.25 hPa).
+- **Altitude calculation:** Relative altitude can be estimated using the hypsometric formula:
+$$
+h = 44330 \times \left(1 - \left(\frac{P}{P_0}\right)^{\frac{1}{5.255}}\right)
+$$
+where $P_0$ is sea level pressure (1013.25 hPa).

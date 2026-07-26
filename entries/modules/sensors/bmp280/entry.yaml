@@ -1,5 +1,5 @@
 id: sensor.pressure.bmp280
-version: "1.0"
+revision: "1.0"
 title: BMP280 — Digital Barometric Pressure and Temperature Sensor
 category: sensors/pressure
 tags: [bmp280, pressure, temperature, sensor, i2c, spi, bosch]
@@ -32,6 +32,11 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
+  - id: photo
+    kind: image
+    title: BMP280 breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/BMP280.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf" }

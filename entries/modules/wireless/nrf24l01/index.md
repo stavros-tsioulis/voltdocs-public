@@ -1,12 +1,8 @@
-# nRF24L01 / nRF24L01+
-
-> 2.4 GHz ISM band wireless RF transceiver IC with hardware packet handling (Enhanced ShockBurst).
-
 ## Overview
 
-The **nRF24L01+** (and its predecessor nRF24L01) is a single-chip 2.4 GHz transceiver designed for low-power wireless applications. It integrates a 2.4 GHz RF synthesizer, power amplifier, crystal oscillator, demodulator, and the proprietary **Enhanced ShockBurst™** hardware protocol engine.
+The **nRF24L01+** (revision 2.0) is Nordic Semiconductor's current, upgraded revision of the nRF24L01 transceiver IC. It integrates a 2.4 GHz RF synthesizer, power amplifier, crystal oscillator, demodulator, and the proprietary **Enhanced ShockBurst™** hardware protocol engine.
 
-It communicates with a host microcontroller via a standard 4-wire SPI bus plus two control lines (`CE` and `IRQ`). Because Enhanced ShockBurst manages packet framing, preamble, CRC generation, and automatic acknowledgment/retransmission in hardware, the host MCU overhead is minimal.
+Compared to the legacy nRF24L01 (v1.0), the **nRF24L01+** adds a **250 kbps** air data rate mode for significantly extended RF range (-94 dBm sensitivity), dynamic payload length capability, Received Power Detector (RPD), and an increased SPI bus clock speed up to 10 MHz.
 
 ## Quick reference
 
@@ -16,6 +12,7 @@ It communicates with a host microcontroller via a standard 4-wire SPI bus plus t
 | **Operating voltage** | 1.9 V – 3.6 V (5 V tolerant I/O pins) |
 | **Data rates** | 250 kbps, 1 Mbps, 2 Mbps |
 | **Max output power** | 0 dBm (1 mW) |
+| **RX sensitivity** | -94 dBm @ 250 kbps / -85 dBm @ 1 Mbps / -82 dBm @ 2 Mbps |
 | **Current draw (TX @ 0dBm)** | 11.3 mA |
 | **Current draw (RX @ 2Mbps)** | 13.5 mA |
 | **Interface** | SPI (up to 10 MHz) + CE & IRQ |
@@ -46,18 +43,6 @@ It communicates with a host microcontroller via a standard 4-wire SPI bus plus t
 | Power-down current | — | 900 | — | nA | PWR_UP = 0 |
 | Standby-I current | — | 26 | — | µA | PWR_UP = 1, CE = 0 |
 
-## Communication
-
-- **Protocol:** SPI Mode 0 (CPOL = 0, CPHA = 0), MSB first.
-- **Max clock speed:** 10 MHz.
-- **Commands:** SPI commands consist of a 1-byte opcode followed by data bytes.
-  - `R_REGISTER` (`000A AAAA`): Read command/status register.
-  - `W_REGISTER` (`001A AAAA`): Write command/status register.
-  - `R_RX_PAYLOAD` (`0110 0001`): Read RX payload from FIFO.
-  - `W_TX_PAYLOAD` (`1010 0000`): Write TX payload to FIFO.
-  - `FLUSH_TX` (`1110 0001`): Flush TX FIFO.
-  - `FLUSH_RX` (`1110 0010`): Flush RX FIFO.
-
 ## Register map
 
 | Address | Register | Access | Reset | Description |
@@ -70,10 +55,13 @@ It communicates with a host microcontroller via a standard 4-wire SPI bus plus t
 | `0x05` | `RF_CH` | R/W | `0x02` | RF Channel (2400 + channel MHz) |
 | `0x06` | `RF_SETUP` | R/W | `0x0E` | RF Setup (Data rate, RF output power) |
 | `0x07` | `STATUS` | R/W | `0x0E` | Status register (RX_DR, TX_DS, MAX_RT) |
+| `0x09` | `RPD` | R | `0x00` | Received Power Detector (> -64 dBm) |
+| `0x1C` | `DYNPD` | R/W | `0x00` | Enable dynamic payload length per pipe |
+| `0x1D` | `FEATURE` | R/W | `0x00` | Feature register (Dynamic payload, ACK payload) |
 
 ## Wiring
 
-| nRF24L01 Module | → | Microcontroller (e.g. Arduino / ESP32) |
+| nRF24L01+ Module | → | Microcontroller (e.g. Arduino / ESP32) |
 |---|---|---|
 | `VCC` | | **3.3 V** (Do NOT connect to 5V!) |
 | `GND` | | GND |
@@ -83,15 +71,15 @@ It communicates with a host microcontroller via a standard 4-wire SPI bus plus t
 | `MOSI` | | SPI MOSI (e.g., D11 / GPIO 23) |
 | `MISO` | | SPI MISO (e.g., D12 / GPIO 19) |
 
-> ⚠️ Connecting `VCC` to a 5 V supply will destroy the nRF24L01 IC. While data pins (`CSN`, `SCK`, `MOSI`, `CE`) are 5 V tolerant, `VCC` must strictly be between 1.9 V and 3.6 V.
+> [!WARNING] Connecting `VCC` to a 5 V supply will destroy the nRF24L01+ IC. While data pins (`CSN`, `SCK`, `MOSI`, `CE`) are 5 V tolerant, `VCC` must strictly be between 1.9 V and 3.6 V.
 
 ## Common mistakes
 
-- **Power supply noise / insufficient decoupling:** The nRF24L01 is sensitive to supply noise and power dips during RF transmission. Always solder a 10 µF electrolytic or tantalum capacitor directly across `VCC` and `GND` on the module header.
+- **Power supply noise / insufficient decoupling:** The nRF24L01+ is sensitive to supply noise and power dips during RF transmission. Always solder a 10 µF electrolytic or tantalum capacitor directly across `VCC` and `GND` on the module header.
 - **Connecting VCC to 5V:** The chip requires 3.3V power.
 - **Mismatched RF channel or data rate:** Both transmitter and receiver must use identical RF channels (`RF_CH`) and data rates (`RF_SETUP`).
-- **Counterfeit/clone chips:** Many low-cost modules use nRF24L01 clones (e.g. Si24R1) which may require higher power output settings or differ slightly in 250 kbps mode.
 
-## Notes
+## Revision history
 
-- **nRF24L01 vs nRF24L01+:** The original nRF24L01 supported 1 Mbps and 2 Mbps rates. The "+" revision added 250 kbps support for longer range and improved RF sensitivity.
+- **v2.0 / nRF24L01+ (Current):** Upgraded silicon revision adding 250 kbps long-range mode (-94 dBm sensitivity), 10 MHz SPI clock, RPD register (`0x09`), and dynamic payload support (`DYNPD` / `FEATURE` registers).
+- **v1.0 (Deprecated):** Original nRF24L01 silicon release — supports 1 Mbps and 2 Mbps rates only. See [revision 1.0](revisions/1.0/index.md).

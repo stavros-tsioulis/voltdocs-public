@@ -1,18 +1,18 @@
 id: opto.led.ws2812b
-version: "1.0"
-title: WS2812B — Intelligent Control Integrated LED Light Source
+revision: "5.0"
+title: WS2812B — Intelligent Control Integrated LED Light Source (v5.0)
 category: optoelectronics/leds
-tags: [ws2812b, neopixel, led, rgb, addressable, worldsemi, nrz]
+tags: [ws2812b, ws2812b-v5, neopixel, led, rgb, addressable, worldsemi, nrz]
 status: published
 summary: >-
-  Worldsemi 5050 SMD RGB LED with integrated control IC, offering 256 grayscale
-  levels per channel (16.7M colors) via a single-wire serial NRZ protocol.
+  Worldsemi 5050 SMD RGB LED with integrated control IC. Current revision (v5.0)
+  adds reverse power connection protection, 12 mA channel constant current, and a 280 µs reset pulse.
 updatedAt: "2026-07-26"
 fields:
   manufacturer: Worldsemi
   ic_part_numbers: [WS2812B, WS2812B-V5]
   package: 5050 SMD
-  supply_voltage_min_v: 3.5
+  supply_voltage_min_v: 3.7
   supply_voltage_max_v: 5.3
   color_channels: 3
   color_depth_bits: 24
@@ -20,14 +20,18 @@ fields:
   green_wavelength_nm: 515
   blue_wavelength_nm: 465
   data_transfer_rate_kbps: 800
+  reset_time_min_us: 280
+  reverse_power_protection: true
+  channel_current_ma: 12
   operating_temp_min_c: -25
   operating_temp_max_c: 85
   interfaces: [Single-wire NRZ]
 highlights:
   - supply_voltage_min_v
   - supply_voltage_max_v
+  - reset_time_min_us
+  - reverse_power_protection
   - data_transfer_rate_kbps
-  - package
 body: index.md
 assets:
   - id: photo
@@ -37,7 +41,20 @@ assets:
     location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/WS2812B.256.webp }
   - id: datasheet
     kind: datasheet
-    location: { type: external, url: "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" }
+    location: { type: external, url: "https://www.worldsemi.com/uploads/soft/20211210/WS2812B-V5_EN.pdf" }
   - id: product-page
     kind: reference
     location: { type: external, url: "https://www.worldsemi.com/detail/108" }
+revisions:
+  - id: "1.0"
+    releasedAt: "2013-05-01"
+    status: deprecated
+  - id: "2.0"
+    releasedAt: "2015-08-10"
+    status: deprecated
+  - id: "3.0"
+    releasedAt: "2017-03-15"
+    status: deprecated
+  - id: "4.0"
+    releasedAt: "2018-11-20"
+    status: deprecated

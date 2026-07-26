@@ -21,7 +21,7 @@ consumed by the VoltDocs documentation software.
     │           ├── index.md         # documentation body
     │           ├── assets/          # in-repo binaries (datasheets, images…)
     │           │   └── datasheet.pdf
-    │           └── versions/        # optional historical versions
+    │           └── revisions/        # optional historical revisions
     │               └── 1.0.0/
     │                   ├── entry.yaml
     │                   └── index.md
@@ -48,7 +48,7 @@ The manifest is validated defensively.
 
 ```yaml
 id: passive.resistor.rc0402-10k    # stable, repo-unique, decoupled from the path
-version: "1.1.0"                   # the version THIS manifest represents
+revision: "1.1.0"                  # the revision THIS manifest represents
 title: RC0402 10kΩ ±1% Thin-Film Resistor
 category: passives/resistors       # optional; usually inherited from _folder.yaml
 tags: ["0402", thin-film]          # merged with inherited tags
@@ -65,7 +65,7 @@ body: index.md                     # relative path to the body document
 assets: [ … ]                      # see §4
 references: [ … ]                  # typed links to other entries
 guides: [ … ]                      # long-form articles; see §2.4
-versions:                          # metadata for versions under versions/
+revisions:                         # metadata for revisions under revisions/
   - id: "1.0.0"
     releasedAt: "2023-01-01"
     status: deprecated
@@ -147,7 +147,7 @@ Rules that keep this unambiguous:
 - **Entries are leaves.** Once discovery finds an `entry.yaml` in a folder, it
   does not descend further looking for nested entries. Nesting is expressed
   through the *path*, not through nested entry folders.
-- **Reserved subfolders** (`versions/`, `assets/`) inside an entry are never
+- **Reserved subfolders** (`revisions/`, `assets/`) inside an entry are never
   treated as entries.
 - **Dot-folders** (`.git`, `.github`, …) are skipped.
 - At `setup()`, all discovered entries are loaded into one flat index keyed by
@@ -214,33 +214,33 @@ sizes and verify integrity without downloading.
 
 ---
 
-## 4. Versioning
+## 4. Revisioning
 
 Two independent axes of history exist; the spec keeps them distinct:
 
-1. **Component version / revision** (user-facing, semantic): silicon rev, spec
-   change, errata. Modelled explicitly with `version` + `versions/<id>/`.
+1. **Component revision** (user-facing, semantic): silicon rev, spec
+   change, errata. Modelled explicitly with `revision` + `revisions/<id>/`.
 2. **Editorial history** (who fixed a typo when): this is *git's* job — commit
    history — and is deliberately **not** modelled in the manifest.
 
-### 4.1 Component versions on disk
+### 4.1 Component revisions on disk
 
-- The entry folder's `entry.yaml` is the **current / default** version. Its
-  `version:` field names that version id.
-- Historical versions live under `versions/<versionId>/`, each with its own full
-  `entry.yaml` (and body/assets). `getEntry(id, { version })` loads from there.
-- `listVersions(id)` unions three sources: the current version, the manifest's
-  declared `versions:` list, and any `versions/*` directories present on disk.
-- Version ids are opaque strings (`"1.1.0"`, `"rev-C"`, `"2024-05"`); ordering
+- The entry folder's `entry.yaml` is the **current / default** revision. Its
+  `revision:` field names that revision id.
+- Historical revisions live under `revisions/<revisionId>/`, each with its own full
+  `entry.yaml` (and body/assets). `getEntry(id, { revision })` loads from there.
+- `listRevisions(id)` unions three sources: the current revision, the manifest's
+  declared `revisions:` list, and any `revisions/*` directories present on disk.
+- Revision ids are opaque strings (`"1.1.0"`, `"rev-C"`, `"2024-05"`); ordering
   uses `releasedAt` when present, otherwise the id.
 
 ### 4.2 Non-trivial cases the spec must (and does) account for
 
 | Case | Handling |
 |---|---|
-| **Variants vs versions** — a part sold in several packages / tolerance grades that coexist *at the same time* | These are **separate entries** (distinct ids), optionally linked with `references` (`relation: variant-of`). Versions are a *time* axis; variants are a *selection* axis — conflating them breaks search. |
-| **Deprecation & supersession** | `status: deprecated \| archived` plus `VersionInfo.supersedes` forms a revision chain; a `references` link with `relation: replaced-by` points to the successor entry. |
-| **Cross-references between components** | `references: [{ targetId, relation, version? }]` — typed, id-based, optionally version-pinned (e.g. `recommended-footprint`, `see-also`). |
+| **Variants vs revisions** — a part sold in several packages / tolerance grades that coexist *at the same time* | These are **separate entries** (distinct ids), optionally linked with `references` (`relation: variant-of`). Revisions are a *time* axis; variants are a *selection* axis — conflating them breaks search. |
+| **Deprecation & supersession** | `status: deprecated \| archived` plus `RevisionInfo.supersedes` forms a revision chain; a `references` link with `relation: replaced-by` points to the successor entry. |
+| **Cross-references between components** | `references: [{ targetId, relation, revision? }]` — typed, id-based, optionally revision-pinned (e.g. `recommended-footprint`, `see-also`). |
 | **Path renames / reorganisation** | Identity is `id`, never the path, so moving a folder never breaks links or search. |
 | **Duplicate ids** | Detected at `setup()` and rejected with a clear error — ids must be unique across the whole repo. |
 | **Draft / unpublished work** | `status: draft`; callers filter with `Query.status`. |
@@ -279,10 +279,10 @@ A repository conforms to `schemaVersion: 1` when:
 
 1. A valid `voltdocs.config.yaml` exists at the root.
 2. Every entry folder contains an `entry.yaml` with a non-empty, unique `id`,
-   `title`, and `version`.
+   `title`, and `revision`.
 3. Entry folders are leaves (no entry nested inside another entry).
 4. All `assets[].location` values are one of `inline` | `repo` | `external`,
    and every `repo` path stays within the repository root.
 5. `references[].targetId` values refer to ids that exist in the repository.
-6. Historical versions, if any, live under `versions/<id>/` with their own
+6. Historical revisions, if any, live under `revisions/<id>/` with their own
    `entry.yaml`.

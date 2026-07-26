@@ -1,5 +1,5 @@
 id: module.wireless.hc-05
-version: "1.0"
+revision: "1.0"
 title: HC-05 — Bluetooth SPP (Serial Port Profile) Module
 category: wireless/bluetooth
 tags: [hc05, hc-05, bluetooth, spp, serial, uart, csr, bc417]
@@ -32,6 +32,11 @@ highlights:
   - range_m
 body: index.md
 assets:
+  - id: photo
+    kind: image
+    title: HC-05 breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/HC-05.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf" }

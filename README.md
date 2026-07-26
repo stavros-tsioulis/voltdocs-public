@@ -12,10 +12,10 @@ entries/                 # component entries, one folder per entry
     entry.yaml            # entry manifest (required)
     index.md               # documentation body
     assets/                 # optional in-repo binaries
-    versions/<versionId>/  # optional historical versions
+    revisions/<revisionId>/ # optional historical revisions
 ```
 
-See [`SPEC.md`](./SPEC.md) for the full contract, including asset handling, versioning, and
+See [`SPEC.md`](./SPEC.md) for the full contract, including asset handling, revisioning, and
 cross-referencing rules. See [`AUTHORING.md`](./AUTHORING.md) for body layout guidelines,
 and [`IMPORTING.md`](./IMPORTING.md) for how to source and import new entries from
 alldatasheet.com.

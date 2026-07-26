@@ -1,5 +1,5 @@
 id: sensor.light.bh1750
-version: "1.0"
+revision: "1.0"
 title: BH1750FVI — Digital 16-bit Serial Output Ambient Light Sensor IC
 category: sensors/light
 tags: [bh1750, lux, ambient-light, sensor, i2c, rohm]
@@ -31,6 +31,11 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
+  - id: photo
+    kind: image
+    title: BH1750 breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/BH1750FVI.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://farnell.com/datasheets/3162624.pdf" }

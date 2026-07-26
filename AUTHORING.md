@@ -55,10 +55,10 @@ or specialise sections — they never shuffle the ones they keep.
 
 Keep the vocabulary small and consistent so readers learn to trust the symbols:
 
-- `⚠️` **Warning** — anything that destroys the part or is unsafe (absolute
+- [!WARNING] — anything that destroys the part or is unsafe (absolute
   maximum ratings, reversed polarity, missing flyback diode).
-- `💡` **Tip** — a practical shortcut or gotcha-avoider.
-- `📌` **Note** — context worth knowing but not urgent.
+- [!INFO] — a practical shortcut or gotcha-avoider.
+- [!NOTE] — context worth knowing but not urgent.
 
 ### Tables and units
 
@@ -100,11 +100,6 @@ this layout leads with the pinout and the interface, and reserves a full
 the thing.
 
 ````markdown
-# <Module name>
-
-> What it is and what it's for.
-<!-- e.g. "13.56 MHz RFID reader/writer breakout, controlled over SPI." -->
-
 ## Overview
 
 <!-- learner + teacher: what it does, why you'd reach for it, the mental model.
@@ -184,7 +179,7 @@ the thing.
 | `GND` | | GND |
 | `SCK` | | 13 |
 
-> ⚠️ <!-- voltage/level warnings, e.g. "Not 5 V tolerant." -->
+> [!WARNING] <!-- voltage/level warnings, e.g. "Not 5 V tolerant." -->
 
 ## Example
 
@@ -216,11 +211,6 @@ conditions the way a datasheet would. Package variants matter here in a way they
 don't for modules.
 
 ````markdown
-# <IC name / part number>
-
-> One sentence: function and family.
-<!-- e.g. "8-bit serial-in, parallel-out shift register." -->
-
 ## Overview
 
 <!-- learner + teacher: the function in plain terms, common use, block-level
@@ -252,7 +242,7 @@ don't for modules.
 
 ## Absolute maximum ratings
 
-> ⚠️ Stresses beyond these values cause permanent damage. These are limits, not
+> [!WARNING] Stresses beyond these values cause permanent damage. These are limits, not
 > operating conditions.
 
 | Parameter | Rating | Unit |
@@ -311,11 +301,6 @@ curves**. It splits the two main jobs — switching and amplifying — because a
 reader almost always shows up wanting one or the other.
 
 ````markdown
-# <Part number>
-
-> One sentence: type, polarity, and headline use.
-<!-- e.g. "Logic-level N-channel MOSFET for low-side switching." -->
-
 ## Overview
 
 <!-- learner + teacher: switch vs. amplifier framing. The one-paragraph mental
@@ -342,7 +327,7 @@ reader almost always shows up wanting one or the other.
 | 2 | | |
 | 3 | | |
 
-> 💡 <!-- e.g. "TO-92 flat side facing you, legs down: E-B-C." -->
+> [!INFO] <!-- e.g. "TO-92 flat side facing you, legs down: E-B-C." -->
 
 ## Key parameters
 
@@ -403,10 +388,6 @@ of type-specific optional rows (a Zener adds `Vz`; an LED adds colour and
 luminous intensity).
 
 ````markdown
-# <Part number>
-
-> One sentence: type and use.
-
 ## Overview
 
 <!-- learner + teacher: the one-way-valve model; for a Zener, the "clamps at Vz"
@@ -427,7 +408,7 @@ luminous intensity).
 <!-- all readers, learner especially. How to find the cathode: the band,
      the flat, the short leg. This is the #1 thing beginners get wrong. -->
 
-> 💡 The band / flat / shorter leg marks the **cathode** (−).
+> [!INFO] The band / flat / shorter leg marks the **cathode** (−).
 
 ## Key parameters
 
@@ -475,10 +456,6 @@ optional blocks. If you'd rather split them into three pages, this same spine
 works for each — the differences are a handful of rows.
 
 ````markdown
-# <Component / series name>
-
-> One sentence: what it does in a circuit.
-
 ## Overview
 
 <!-- learner + teacher: the role (limit current / store charge / oppose current
@@ -504,7 +481,7 @@ works for each — the differences are a handful of rows.
 |---|---|
 | | |
 
-> 💡 <!-- e.g. "3-digit cap code: first two digits + number of zeros, in pF.
+> [!INFO] <!-- e.g. "3-digit cap code: first two digits + number of zeros, in pF.
        104 = 100000 pF = 100 nF." -->
 
 ## Key parameters
@@ -555,10 +532,6 @@ That drive section is warning-flagged because getting it wrong is a classic
 board-killer.
 
 ````markdown
-# <Part name>
-
-> One sentence: what it does mechanically.
-
 ## Overview
 
 <!-- learner + teacher: the physical action (a coil pulls a contact / a coil
@@ -639,10 +612,6 @@ filling the default layout the same way for a kind of part, that's the signal to
 promote it into its own layout.
 
 ````markdown
-# <Component name>
-
-> One sentence: what it is and what it's for.
-
 ## Overview
 
 <!-- learner + teacher: what it does and why. -->

@@ -1,7 +1,3 @@
-# BH1750 (BH1750FVI)
-
-> Digital 16-bit ambient light sensor IC with I2C interface and direct lux output.
-
 ## Overview
 
 The **BH1750FVI** is a digital ambient light sensor IC with an I2C bus interface. It converts light intensity directly into a 16-bit digital number corresponding to illuminance in **lux (lx)** without requiring complex mathematical calibration.

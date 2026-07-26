@@ -1,22 +1,18 @@
-# WS2812B
-
-> Individually addressable RGB LED with integrated control IC (popularized as "NeoPixel").
-
 ## Overview
 
 The **WS2812B** is an intelligent control LED light source that integrates a control circuit and RGB chip into a single 5050 surface-mount package. Its internal structure includes an intelligent digital-port data latch and signal reshaping amplification drive circuit, as well as a precision internal oscillator and a 12V programmable constant-current output driver.
 
-Data transfer uses a single-wire **Non-Return-to-Zero (NRZ)** communication mode. After power-on reset, the control IC receives data from the `DIN` port. The first pixel extracts the first 24-bit color data (8 bits each for Green, Red, and Blue) and passes the remaining data downstream through its `DOUT` pin after reshaping amplification.
+The current major hardware revision (**v5.0 / WS2812B-V5**) includes built-in reverse power protection, 12 mA channel drive current, and requires a **> 280 µs** reset pulse to latch frame data.
 
 ## Quick reference
 
 | | |
 |---|---|
-| **Supply voltage (`VDD`)** | 3.5 V – 5.3 V (Nominal 5.0 V) |
-| **Logic input voltage** | -0.5 V to `VDD` + 0.5 V (0.7 · `VDD` for high) |
+| **Supply voltage (`VDD`)** | 3.7 V – 5.3 V (Nominal 5.0 V) |
+| **Logic input voltage** | 0.7 · `VDD` (High) / 0.3 · `VDD` (Low) |
 | **Color depth** | 24-bit (8 bits per channel: G, R, B) |
-| **Current draw** | ~1 mA idle, ~50–60 mA at full white brightness |
-| **Data rate** | 800 kbps (1.25 µs bit cycle) |
+| **Reset pulse width (`RES`)** | **> 280 µs** (v5.0) / 50 µs (v1.0) |
+| **Reverse power protection** | Integrated (v5.0) |
 | **Package** | 5050 SMD (5.0 mm × 5.0 mm) |
 
 ## Terminals
@@ -25,7 +21,7 @@ Data transfer uses a single-wire **Non-Return-to-Zero (NRZ)** communication mode
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `VDD` | Power | Power supply voltage (5 V DC) |
+| 1 | `VDD` | Power | Power supply voltage (3.7 V – 5.3 V DC) |
 | 2 | `DOUT` | Digital Output | Control data signal output (daisy-chain to next pixel `DIN`) |
 | 3 | `VSS` | Power | Ground (0 V) |
 | 4 | `DIN` | Digital Input | Control data signal input |
@@ -34,13 +30,13 @@ Data transfer uses a single-wire **Non-Return-to-Zero (NRZ)** communication mode
 
 | Parameter | Symbol | Min | Typ | Max | Unit | Conditions |
 |---|---|---|---|---|---|---|
-| Supply Voltage | `VDD` | 3.5 | 5.0 | 5.3 | V | |
+| Supply Voltage | `VDD` | 3.7 | 5.0 | 5.3 | V | |
 | Input High Voltage | `VIH` | 0.7 · `VDD` | — | `VDD` + 0.5 | V | `DIN` pin |
 | Input Low Voltage | `VIL` | -0.5 | — | 0.3 · `VDD` | V | `DIN` pin |
-| Red Wavelength | `λd(R)` | 620 | 625 | 630 | nm | `IF` = 20 mA |
-| Green Wavelength | `λd(G)` | 515 | 520 | 525 | nm | `IF` = 20 mA |
-| Blue Wavelength | `λd(B)` | 465 | 470 | 475 | nm | `IF` = 20 mA |
-| Luminous Intensity | `IV` | — | 1200 (R) / 2800 (G) / 900 (B) | — | mcd | `IF` = 20 mA |
+| Channel Current | `IOUT` | 10.8 | 12.0 | 13.2 | mA | Per channel (v5.0) |
+| Red Wavelength | `λd(R)` | 620 | 622.5 | 625 | nm | `IF` = 12 mA |
+| Green Wavelength | `λd(G)` | 515 | 520 | 525 | nm | `IF` = 12 mA |
+| Blue Wavelength | `λd(B)` | 465 | 467.5 | 470 | nm | `IF` = 12 mA |
 
 ## Communication protocol
 
@@ -51,11 +47,11 @@ Data transfer uses a single-wire **Non-Return-to-Zero (NRZ)** communication mode
 
 | Signal | Description | Min | Typ | Max | Unit |
 |---|---|---|---|---|---|
-| `T0H` | 0-code, high-level time | 220 | 400 | 380 (v5 max: 500) | ns |
-| `T0L` | 0-code, low-level time | 580 | 850 | 1000 | ns |
-| `T1H` | 1-code, high-level time | 580 | 800 | 1000 | ns |
-| `T1L` | 1-code, low-level time | 220 | 450 | 1000 | ns |
-| `RES` | Reset code (low level) | 50 (v5: >280) | — | — | µs |
+| `T0H` | 0-code, high-level time | 220 | 250 | 380 | ns |
+| `T0L` | 0-code, low-level time | 580 | 1000 | 1600 | ns |
+| `T1H` | 1-code, high-level time | 580 | 900 | 1000 | ns |
+| `T1L` | 1-code, low-level time | 220 | 550 | 1000 | ns |
+| `RES` | Reset code (low level) | **280** | — | — | µs |
 
 ## Wiring
 
@@ -65,14 +61,14 @@ Data transfer uses a single-wire **Non-Return-to-Zero (NRZ)** communication mode
 | `VSS` (GND) | | GND (Common Ground with MCU) |
 | `DIN` | | GPIO Pin via **300 Ω – 500 Ω resistor** |
 
-> [!WARNING] Always place a **1000 µF, 6.3V+ electrolytic capacitor** across the power supply (+5V and GND) near the LED strip to prevent inrush voltage spikes from damaging the first pixel's IC.
-
 ## Common mistakes
 
+- **50 µs vs 280 µs reset pulse:** Driving v5.0 LEDs with legacy 50 µs latch timings will cause data corruption or flickering. Ensure software output drivers emit a reset pulse of at least 280 µs.
 - **Missing Common Ground:** Operating the LED strip on an external 5V supply without connecting the power supply ground to the MCU ground causes corrupted signal timing and random flickering.
-- **Driving 5V logic expectations from 3.3V MCUs:** WS2812B inputs specify `VIH` = 0.7 × `VDD` (3.5V when `VDD` = 5V). A 3.3V microcontroller output (ESP32, RP2040, STM32) may be marginally out of spec. Use a high-speed non-inverting level shifter (e.g. 74AHCT125) for long data lines.
-- **Reversed DIN / DOUT direction:** Connecting the MCU signal to `DOUT` instead of `DIN` will not work. Data flows strictly in one direction from `DIN` to `DOUT`.
+- **Driving 5V logic expectations from 3.3V MCUs:** WS2812B inputs specify `VIH` = 0.7 × `VDD`. Use a high-speed non-inverting level shifter (e.g. 74AHCT125) for 3.3V MCUs.
 
-## Notes
+## Revision history
 
-- **WS2812B-V5:** Newer V5 revisions feature improved reverse power protection and require a longer reset pulse (> 280 µs vs 50 µs on earlier revs).
+- **v5.0 / WS2812B-V5 (Current):** Major hardware redesign — adds internal reverse power connection protection, lowers channel current to 12 mA for thermal efficiency, and increases recommended reset pulse to > 280 µs.
+- **v2.0 – v4.0 (Datasheet PDF Revisions):** Incremental Worldsemi datasheet revisions (V2.0, V3.0, V4.0) updating test conditions, ESD ratings, and progressively updating reset pulse guidance from 50 µs to 280 µs ahead of the V5 hardware release.
+- **v1.0 (Deprecated):** Original 4-pin WS2812B silicon release — 20 mA channel current, 50 µs reset pulse. See [revision 1.0](revisions/1.0/index.md).

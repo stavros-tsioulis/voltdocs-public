@@ -1,7 +1,3 @@
-# HC-05
-
-> Bluetooth v2.0+EDR Serial Port Profile (SPP) module with Master/Slave UART interface.
-
 ## Overview
 
 The **HC-05** is a ubiquitous, low-cost Bluetooth Serial Port Profile (SPP) module designed for transparent wireless serial communication. Based on the Cambridge Silicon Radio (CSR) **BC417** Bluetooth chipset paired with an 8 Mbit flash memory, it converts standard UART serial communication into a Bluetooth RF link.
@@ -76,7 +72,7 @@ To configure module settings (name, role, baud rate, passkey), the HC-05 must en
 | `RXD` | | MCU TX via **Voltage Divider** (1kΩ / 2kΩ to GND) |
 | `KEY` | | Digital GPIO or button (Optional, for AT mode) |
 
-> ⚠️ Connecting a 5V MCU TX pin directly to the HC-05 `RXD` pin without a voltage divider can degrade or destroy the 3.3V CSR BC417 input line over time. Use a 1kΩ / 2kΩ resistor voltage divider.
+> [!WARNING] Connecting a 5V MCU TX pin directly to the HC-05 `RXD` pin without a voltage divider can degrade or destroy the 3.3V CSR BC417 input line over time. Use a 1kΩ / 2kΩ resistor voltage divider.
 
 ## Common mistakes
 

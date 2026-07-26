@@ -24,9 +24,9 @@ Before opening a single PDF, decide:
 - **Which manufacturer's part are you actually documenting?** If the repo already has a
   part from one vendor and you're adding a pin-compatible second source, that is a
   **separate entry** (distinct `id`) linked with `references: [{ relation: variant-of }]`
-  — never the same `id` with fields overwritten. See SPEC.md §4.2, "Variants vs versions."
+  — never the same `id` with fields overwritten. See SPEC.md §4.2, "Variants vs revisions."
 - **Is this actually a new revision of a part already in the repo**, not a different
-  manufacturer? That's the `versions/<id>/` axis, not a new entry (SPEC.md §4.1).
+  manufacturer? That's the `revisions/<id>/` axis, not a new entry (SPEC.md §4.1).
 - If several manufacturers make an electrically-identical part and you only intend to
   document one, pick the one whose datasheet you can find a first-party source for (next
   section) — don't default to whichever aggregator row loads first.
@@ -70,7 +70,7 @@ Once you have the manufacturer's PDF open:
    Min/Typ/Max tables in the body per `AUTHORING.md`.
 3. Note the **revision/date** and whether the datasheet marks the part **NRND / obsolete /
    replaced by** anything — that maps to `status: deprecated` plus a `references`
-   `relation: replaced-by` link to the successor entry (SPEC.md §4.2), and/or a `versions/`
+   `relation: replaced-by` link to the successor entry (SPEC.md §4.2), and/or a `revisions/`
    entry if it's the same part's earlier silicon rev.
 4. Note the **package(s)** offered — if a part ships in several packages that coexist
    today, that's the variants case again, not one entry with a list-valued package field.
@@ -117,7 +117,7 @@ the top, prose below — same rule as always.
 
 Same checklist as any other entry (SPEC.md §6 / CLAUDE.md) — nothing about sourcing from
 alldatasheet changes it: unique `id` not colliding with anything in the repo, `references`
-targets resolve, `repo` asset paths stay in-repo, versions live under `versions/<id>/` with
+targets resolve, `repo` asset paths stay in-repo, revisions live under `revisions/<id>/` with
 their own full `entry.yaml`. The only import-specific addition is: **the `datasheet` asset
 URL should resolve to a manufacturer-hosted PDF**, verified by actually opening it, not by
 trusting the aggregator's link text.

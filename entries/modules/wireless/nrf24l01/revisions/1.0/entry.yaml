@@ -1,0 +1,35 @@
+id: ic.wireless.nrf24l01
+revision: "1.0"
+title: nRF24L01 — 2.4 GHz Single-Chip RF Transceiver (Original)
+category: wireless/2.4ghz
+tags: [nrf24l01, rf, 2.4ghz, transceiver, spi, nordic]
+status: deprecated
+summary: >-
+  Original nRF24L01 silicon release. Supports 1 Mbps and 2 Mbps air data rates; lacks 250 kbps mode, Received Power Detector (RPD), and dynamic payload length features.
+fields:
+  manufacturer: Nordic Semiconductor
+  ic_part_numbers: [nRF24L01]
+  package: QFN20
+  frequency_mhz_min: 2400
+  frequency_mhz_max: 2525
+  data_rate_kbps: [1000, 2000]
+  supply_voltage_min_v: 1.9
+  supply_voltage_max_v: 3.6
+  output_power_dbm_max: 0
+  rx_sensitivity_dbm: -85
+  tx_current_ma: 11.3
+  rx_current_ma: 13.5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [SPI]
+  spi_max_mbit_s: 8
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: nRF24L01 breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/nRF24L01.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sparkfun.com/datasheets/Components/SMD/nRF24L01_rev1_1.pdf" }
