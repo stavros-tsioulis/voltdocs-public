@@ -1,0 +1,39 @@
+id: sensor.light.bh1750
+version: "1.0"
+title: BH1750FVI — Digital 16-bit Serial Output Ambient Light Sensor IC
+category: sensors/light
+tags: [bh1750, lux, ambient-light, sensor, i2c, rohm]
+status: published
+summary: >-
+  ROHM Semiconductor 16-bit digital ambient light sensor IC with I2C interface,
+  outputting illuminance directly in lux (1 to 65535 lx) with human-eye spectral response.
+updatedAt: "2026-07-26"
+fields:
+  manufacturer: ROHM Semiconductor
+  ic_part_numbers: [BH1750FVI]
+  package: WSOF6
+  supply_voltage_min_v: 2.4
+  supply_voltage_max_v: 3.6
+  i2c_address_default: "0x23"
+  i2c_address_alternate: "0x5C"
+  measurement_range_lux_min: 1
+  measurement_range_lux_max: 65535
+  peak_wavelength_nm: 560
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+  i2c_max_kbit_s: 400
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - measurement_range_lux_min
+  - measurement_range_lux_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://farnell.com/datasheets/3162624.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.rohm.com/products/sensors-mems/ambient-light-sensors/bh1750fvi-product" }

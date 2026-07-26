@@ -1,0 +1,40 @@
+id: sensor.pressure.bmp280
+version: "1.0"
+title: BMP280 — Digital Barometric Pressure and Temperature Sensor
+category: sensors/pressure
+tags: [bmp280, pressure, temperature, sensor, i2c, spi, bosch]
+status: published
+summary: >-
+  Bosch Sensortec high-precision absolute barometric pressure and temperature
+  sensor with I2C and SPI interfaces, designed for mobile and weather sensing.
+updatedAt: "2026-07-26"
+fields:
+  manufacturer: Bosch Sensortec
+  ic_part_numbers: [BMP280]
+  package: 8-pin LGA
+  supply_voltage_min_v: 1.71
+  supply_voltage_max_v: 3.6
+  pressure_range_hpa_min: 300
+  pressure_range_hpa_max: 1100
+  temperature_range_c_min: -40
+  temperature_range_c_max: 85
+  pressure_resolution_hpa: 0.016
+  temperature_resolution_c: 0.01
+  i2c_address_default: "0x76"
+  i2c_address_alternate: "0x77"
+  interfaces: [I2C, SPI]
+  operating_current_ua: 2.7
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - pressure_range_hpa_min
+  - pressure_range_hpa_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp280/" }

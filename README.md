@@ -16,4 +16,6 @@ entries/                 # component entries, one folder per entry
 ```
 
 See [`SPEC.md`](./SPEC.md) for the full contract, including asset handling, versioning, and
-cross-referencing rules.
+cross-referencing rules. See [`AUTHORING.md`](./AUTHORING.md) for body layout guidelines,
+and [`IMPORTING.md`](./IMPORTING.md) for how to source and import new entries from
+alldatasheet.com.

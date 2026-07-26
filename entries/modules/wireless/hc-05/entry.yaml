@@ -1,0 +1,40 @@
+id: module.wireless.hc-05
+version: "1.0"
+title: HC-05 — Bluetooth SPP (Serial Port Profile) Module
+category: wireless/bluetooth
+tags: [hc05, hc-05, bluetooth, spp, serial, uart, csr, bc417]
+status: published
+summary: >-
+  Popular Bluetooth v2.0+EDR serial port profile (SPP) transceiver module based on
+  CSR BC417 chipset, supporting Master and Slave role switching via AT commands over UART.
+updatedAt: "2026-07-26"
+fields:
+  manufacturer: Generic (CSR BC417)
+  ic_part_numbers: [HC-05, BC417143]
+  package: Breakout PCB
+  supply_voltage_min_v: 3.6
+  supply_voltage_max_v: 6.0
+  logic_level_v: 3.3
+  bluetooth_version: "2.0+EDR"
+  frequency_mhz: 2400
+  default_baud_rate: 9600
+  at_mode_baud_rate: 38400
+  operating_current_ma: 30
+  range_m: 10
+  operating_temp_min_c: -25
+  operating_temp_max_c: 75
+  interfaces: [UART]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bluetooth_version
+  - default_baud_rate
+  - range_m
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.qualcomm.com" }
