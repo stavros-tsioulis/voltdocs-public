@@ -35,11 +35,11 @@ Candidate parts for future import into `entries/`, ranked by how often they turn
 | `BH1750` | Ambient Light Sensor | ROHM | Tier 1 | Cited 6+ times (ESPHome dedicated component, Adafruit, general guides) as the go-to digital I2C lux sensor. | imported |
 | `BMP280` | Barometric Pressure/Temperature Sensor | Bosch Sensortec | Tier 1 | Cited 7+ times as the cheap successor to BMP180/alternative to BME280, in ESPHome, Adafruit, dev.to, kit bundles. | imported |
 | `HC-05` | Bluetooth Serial Module | Generic (CSR BC417 chipset) | Tier 1 | Cited 4+ times as the classic ubiquitous Bluetooth-to-UART bridge for wireless control projects. | imported |
-| `HD44780 (LCD1602)` | Character LCD Controller | Hitachi (and pin-compatible clones) | Tier 1 | Classic 16x2 LCD controller referenced 5+ times, standard in nearly every beginner kit (Elegoo, Arduino Starter Kit, SunFounder). |  |
-| `DS18B20` | Digital Temperature Sensor (1-Wire) | Maxim Integrated/Analog Devices | Tier 1 | Cited 6+ times (Adafruit's longest-running tutorial, ESPHome dallas component, Hackaday 31+ tagged projects) as the standard waterproof 1-Wire probe. |  |
-| `L298N` | Dual H-Bridge Motor Driver Module | STMicroelectronics | Tier 1 | Cited 5+ times as the classic ubiquitous dual motor driver in nearly every Arduino/Pi robot-car build. |  |
-| `NEO-6M` | GPS Module | u-blox | Tier 1 | Cited 5+ times as the classic cheap default GPS module in nearly every Arduino/Pi GPS-tracker tutorial. |  |
-| `MQ-2` | Gas/Smoke Sensor | Winsen | Tier 1 | Cited 6+ times as the classic cheap analog gas/smoke sensor in nearly every hobby gas-detector tutorial. |  |
+| `HD44780 (LCD1602)` | Character LCD Controller | Hitachi (and pin-compatible clones) | Tier 1 | Classic 16x2 LCD controller referenced 5+ times, standard in nearly every beginner kit (Elegoo, Arduino Starter Kit, SunFounder). | imported |
+| `DS18B20` | Digital Temperature Sensor (1-Wire) | Maxim Integrated/Analog Devices | Tier 1 | Cited 6+ times (Adafruit's longest-running tutorial, ESPHome dallas component, Hackaday 31+ tagged projects) as the standard waterproof 1-Wire probe. | imported |
+| `L298N` | Dual H-Bridge Motor Driver Module | STMicroelectronics | Tier 1 | Cited 5+ times as the classic ubiquitous dual motor driver in nearly every Arduino/Pi robot-car build. | imported |
+| `NEO-6M` | GPS Module | u-blox | Tier 1 | Cited 5+ times as the classic cheap default GPS module in nearly every Arduino/Pi GPS-tracker tutorial. | imported |
+| `MQ-2` | Gas/Smoke Sensor | Winsen | Tier 1 | Cited 6+ times as the classic cheap analog gas/smoke sensor in nearly every hobby gas-detector tutorial. | imported |
 | `PCF8574` | I2C GPIO Expander (LCD Backpack) | NXP/Texas Instruments | Tier 1 | Cited 4+ times (ESPHome component, general guides) as the near-ubiquitous I2C backpack chip for HD44780 LCDs. |  |
 | `MPU6050` | IMU (Accelerometer + Gyroscope) | InvenSense/TDK | Tier 1 | The most-cited IMU (9+ mentions) across ESP32, Pi, Hackaday, Adafruit/SparkFun, Elegoo kits — the go-to 6-axis motion sensor. |  |
 | `HX711` | Load Cell Amplifier/ADC | Avia Semiconductor | Tier 1 | Referenced 6+ times across Pi/Arduino sources and SparkFun/ESPHome dedicated components as the standard ADC for DIY scales. |  |

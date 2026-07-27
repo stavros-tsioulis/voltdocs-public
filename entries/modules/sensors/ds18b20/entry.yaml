@@ -1,0 +1,44 @@
+id: sensor.temperature.ds18b20
+revision: "1.0"
+title: DS18B20 — Programmable Resolution 1-Wire Digital Thermometer
+category: sensors/temperature
+tags: [ds18b20, temperature, 1-wire, dallas, maxim, analog-devices, sensor, probe]
+status: published
+summary: >-
+  Maxim Integrated / Analog Devices 1-Wire digital temperature sensor IC providing 9-bit to 12-bit Celsius measurements (±0.5°C accuracy from -10°C to +85°C) over a single data line.
+updatedAt: "2026-07-27"
+fields:
+  manufacturer: Maxim Integrated / Analog Devices
+  ic_part_numbers: [DS18B20, DS18B20+]
+  package: TO-92 / 8-pin SO / Waterproof Stainless Probe
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 5.5
+  temperature_range_c_min: -55
+  temperature_range_c_max: 125
+  accuracy_c: 0.5
+  resolution_bits_min: 9
+  resolution_bits_max: 12
+  conversion_time_ms_max: 750
+  operating_current_ma: 1.5
+  standby_current_ua: 0.75
+  interfaces: [1-Wire]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - accuracy_c
+  - resolution_bits_max
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: DS18B20 sensor in TO-92 package and waterproof probe
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/DS18B20.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/ds18b20.html" }

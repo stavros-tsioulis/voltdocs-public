@@ -1,0 +1,44 @@
+id: sensor.gas.mq2
+revision: "1.0"
+title: MQ-2 — Flammable Gas and Smoke Sensor Module
+category: sensors/gas
+tags: [mq2, mq-2, gas, smoke, lpg, propane, methane, hydrogen, sensor, winsen]
+status: published
+summary: >-
+  Winsen Electronics tin-dioxide (SnO2) semiconductor gas sensor module sensitive to LPG, propane, methane, hydrogen, alcohol, and smoke, providing analog concentration output and digital comparator threshold output.
+updatedAt: "2026-07-27"
+fields:
+  manufacturer: Winsen Electronics
+  ic_part_numbers: [MQ-2]
+  package: 6-pin Bakelite / Breakout PCB
+  heater_voltage_v: 5.0
+  circuit_voltage_v: 5.0
+  load_resistance_kohm: 20.0
+  heater_resistance_ohm: 31.0
+  heater_power_consumption_mw: 800
+  detection_range_ppm_min: 300
+  detection_range_ppm_max: 10000
+  target_gases: [LPG, Propane, Methane, Hydrogen, Smoke]
+  operating_temp_min_c: -20
+  operating_temp_max_c: 50
+  operating_humidity_pct_max: 95
+  interfaces: [Analog Output, Digital Output (LM393 Comparator)]
+highlights:
+  - heater_voltage_v
+  - circuit_voltage_v
+  - detection_range_ppm_min
+  - detection_range_ppm_max
+  - target_gases
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MQ-2 gas sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/MQ-2.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.winsen-sensor.com/d/files/semiconductor/mq-2.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.winsen-sensor.com/sensors/combustible-gas-sensor/mq-2.html" }
