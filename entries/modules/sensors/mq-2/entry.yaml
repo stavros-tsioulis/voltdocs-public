@@ -35,7 +35,7 @@ assets:
     kind: image
     title: MQ-2 gas sensor breakout module
     mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/MQ-2.256.webp }
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/MQ2.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.winsen-sensor.com/d/files/semiconductor/mq-2.pdf" }

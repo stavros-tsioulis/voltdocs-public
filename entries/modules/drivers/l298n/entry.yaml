@@ -33,7 +33,7 @@ assets:
     kind: image
     title: L298N dual H-bridge motor driver module
     mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/L298N.256.webp }
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/l298n.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.st.com/resource/en/datasheet/l298.pdf" }

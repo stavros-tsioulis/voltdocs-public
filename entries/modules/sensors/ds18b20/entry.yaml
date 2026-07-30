@@ -35,7 +35,7 @@ assets:
     kind: image
     title: DS18B20 sensor in TO-92 package and waterproof probe
     mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/DS18B20.256.webp }
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ds18b20.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" }

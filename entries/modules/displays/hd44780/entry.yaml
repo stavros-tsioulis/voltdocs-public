@@ -34,7 +34,7 @@ assets:
     kind: image
     title: HD44780 LCD1602 display module
     mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/HD44780.256.webp }
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hd44780.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.sparkfun.com/datasheets/LCD/HD44780.pdf" }
