@@ -1,0 +1,43 @@
+id: display.lcd.hd44780
+revision: "1.0"
+title: HD44780 — Dot Matrix Liquid Crystal Display Controller/Driver
+category: displays/lcd
+tags: [hd44780, lcd1602, lcd2004, display, character-lcd, hitachi, parallel, i2c]
+status: published
+summary: >-
+  Industry-standard Hitachi character LCD controller chip driving monochrome 16x2 and 20x4 dot-matrix displays via 4-bit/8-bit parallel interface or I2C expander backpacks.
+updatedAt: "2026-07-27"
+fields:
+  manufacturer: Hitachi (and pin-compatible clones)
+  ic_part_numbers: [HD44780U, HD44780]
+  package: 80-pin QFP / COB module
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0
+  display_dimensions: "16x2 / 20x4 characters"
+  character_font: "5x8 / 5x10 dots"
+  cgram_bytes: 64
+  ddram_bytes: 80
+  operating_current_ma: 1.5
+  operating_temp_min_c: -20
+  operating_temp_max_c: 75
+  interfaces: [Parallel (4-bit/8-bit), I2C (via PCF8574 backpack)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - display_dimensions
+  - character_font
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HD44780 LCD1602 display module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hd44780.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.sparkfun.com/datasheets/LCD/HD44780.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.renesas.com" }

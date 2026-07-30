@@ -1,0 +1,42 @@
+id: driver.motor.l298n
+revision: "1.0"
+title: L298N — Dual Full-Bridge Motor Driver IC / Module
+category: drivers/motor
+tags: [l298n, motor-driver, h-bridge, dc-motor, stepper, stmicroelectronics, robotics]
+status: published
+summary: >-
+  STMicroelectronics high-voltage, high-current dual full-bridge driver IC/module capable of driving two DC motors or one bipolar stepper motor up to 46V/2A per channel.
+updatedAt: "2026-07-27"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [L298N, L298]
+  package: Multiwatt15 / Red PCB Breakout Module
+  motor_supply_voltage_min_v: 5.0
+  motor_supply_voltage_max_v: 35.0
+  logic_supply_voltage_v: 5.0
+  peak_output_current_a: 2.0
+  continuous_output_current_a: 2.0
+  total_power_dissipation_w: 25.0
+  channels: 2
+  operating_temp_min_c: -25
+  operating_temp_max_c: 130
+  interfaces: [PWM, Parallel GPIO]
+highlights:
+  - motor_supply_voltage_min_v
+  - motor_supply_voltage_max_v
+  - peak_output_current_a
+  - channels
+  - total_power_dissipation_w
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: L298N dual H-bridge motor driver module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/l298n.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/l298.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/motor-drivers/l298.html" }

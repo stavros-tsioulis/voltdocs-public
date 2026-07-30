@@ -1,0 +1,48 @@
+id: module.gps.neo-6m
+revision: "1.0"
+title: NEO-6M — Standalone High-Performance GPS Receiver Module
+category: wireless/gps
+tags: [neo-6m, gps, location, gnss, nmea, uart, u-blox, module]
+status: published
+summary: >-
+  u-blox standalone GPS receiver module with integrated 50-channel positioning engine, 2.5m accuracy, EEPROM backup, and UART NMEA 0183 output.
+updatedAt: "2026-07-27"
+fields:
+  manufacturer: u-blox
+  ic_part_numbers: [NEO-6M, NEO-6M-0-001]
+  package: 24-pin LCC / Breakout PCB
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 3.6
+  breakout_supply_voltage_min_v: 3.0
+  breakout_supply_voltage_max_v: 5.0
+  logic_level_v: 3.3
+  default_baud_rate: 9600
+  channels: 50
+  position_accuracy_m: 2.5
+  update_rate_hz: 5
+  sensitivity_tracking_dbm: -161
+  cold_start_time_s: 27
+  hot_start_time_s: 1
+  operating_current_ma: 47
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [UART, USB]
+highlights:
+  - breakout_supply_voltage_min_v
+  - breakout_supply_voltage_max_v
+  - default_baud_rate
+  - channels
+  - position_accuracy_m
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: NEO-6M GPS module with ceramic patch antenna
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/NEO-6M.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://content.u-blox.com/sites/default/files/heads/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.u-blox.com/en/product/neo-6-series" }
