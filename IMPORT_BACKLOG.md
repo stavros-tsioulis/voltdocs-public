@@ -40,11 +40,11 @@ Candidate parts for future import into `entries/`, ranked by how often they turn
 | `L298N` | Dual H-Bridge Motor Driver Module | STMicroelectronics | Tier 1 | Cited 5+ times as the classic ubiquitous dual motor driver in nearly every Arduino/Pi robot-car build. | imported |
 | `NEO-6M` | GPS Module | u-blox | Tier 1 | Cited 5+ times as the classic cheap default GPS module in nearly every Arduino/Pi GPS-tracker tutorial. | imported |
 | `MQ-2` | Gas/Smoke Sensor | Winsen | Tier 1 | Cited 6+ times as the classic cheap analog gas/smoke sensor in nearly every hobby gas-detector tutorial. | imported |
-| `PCF8574` | I2C GPIO Expander (LCD Backpack) | NXP/Texas Instruments | Tier 1 | Cited 4+ times (ESPHome component, general guides) as the near-ubiquitous I2C backpack chip for HD44780 LCDs. |  |
-| `MPU6050` | IMU (Accelerometer + Gyroscope) | InvenSense/TDK | Tier 1 | The most-cited IMU (9+ mentions) across ESP32, Pi, Hackaday, Adafruit/SparkFun, Elegoo kits — the go-to 6-axis motion sensor. |  |
-| `HX711` | Load Cell Amplifier/ADC | Avia Semiconductor | Tier 1 | Referenced 6+ times across Pi/Arduino sources and SparkFun/ESPHome dedicated components as the standard ADC for DIY scales. |  |
-| `SG90` | Micro Servo Motor | TowerPro | Tier 1 | Cited 5+ times as the near-universal cheap micro servo bundled across virtually every Arduino/Pi robotics kit. |  |
-| `SSD1306` | OLED Display Driver (0.96" I2C) | Solomon Systech | Tier 1 | Cited 5+ times (Adafruit, ESPHome, general tutorials) as the near-universal driver behind cheap I2C OLED displays. |  |
+| `PCF8574` | I2C GPIO Expander (LCD Backpack) | NXP/Texas Instruments | Tier 1 | Cited 4+ times (ESPHome component, general guides) as the near-ubiquitous I2C backpack chip for HD44780 LCDs. | imported |
+| `MPU6050` | IMU (Accelerometer + Gyroscope) | InvenSense/TDK | Tier 1 | The most-cited IMU (9+ mentions) across ESP32, Pi, Hackaday, Adafruit/SparkFun, Elegoo kits — the go-to 6-axis motion sensor. | imported |
+| `HX711` | Load Cell Amplifier/ADC | Avia Semiconductor | Tier 1 | Referenced 6+ times across Pi/Arduino sources and SparkFun/ESPHome dedicated components as the standard ADC for DIY scales. | imported |
+| `SG90` | Micro Servo Motor | TowerPro | Tier 1 | Cited 5+ times as the near-universal cheap micro servo bundled across virtually every Arduino/Pi robotics kit. | imported |
+| `SSD1306` | OLED Display Driver (0.96" I2C) | Solomon Systech | Tier 1 | Cited 5+ times (Adafruit, ESPHome, general tutorials) as the near-universal driver behind cheap I2C OLED displays. | imported |
 | `HC-SR501` | PIR Motion Sensor | Generic (various clone makers) | Tier 1 | Referenced 6+ times (ElectronicsHub, Adafruit PIR guide, SunFounder/Freenove kits) as the standard cheap PIR motion module. |  |
 | `MFRC522` | RFID/NFC Reader Module | NXP | Tier 1 | Merged from MFRC522, RC522, MFRC522RFID-RC522, 'RC522 (MFRC522)' variants — ~10 mentions; dominant low-cost 13.56MHz RFID reader, also this repo's own worked example. | already in repo |
 | `DS3231` | Real-Time Clock Module | Maxim Integrated/Analog Devices | Tier 1 | Referenced 5+ times as the most accurate/popular RTC for clock and datalogger projects, incl. dedicated ESPHome component. |  |

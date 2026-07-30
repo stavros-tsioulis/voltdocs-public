@@ -1,0 +1,44 @@
+id: gpio.expander.pcf8574
+revision: "1.0"
+title: PCF8574 — Remote 8-Bit I/O Expander for I2C Bus
+category: gpio/expander
+tags: [pcf8574, pcf8574t, pcf8574at, gpio, i2c, expander, lcd-backpack, nxp, ti]
+status: published
+summary: >-
+  NXP / Texas Instruments 8-bit quasi-bidirectional I2C GPIO expander IC with interrupt output, widely used standalone or as an I2C backpack for HD44780 LCD displays.
+updatedAt: "2026-07-30"
+fields:
+  manufacturer: NXP Semiconductors / Texas Instruments
+  ic_part_numbers: [PCF8574, PCF8574T, PCF8574AT, PCF8574P, PCF8574AP]
+  package: DIP-16 / SO16 / SSOP20 / I2C Backpack Module
+  supply_voltage_min_v: 2.5
+  supply_voltage_max_v: 6.0
+  standby_current_ua: 10.0
+  gpio_pins: 8
+  i2c_address_default_pcf8574: "0x20"
+  i2c_address_default_pcf8574a: "0x38"
+  i2c_max_kbit_s: 100
+  sink_current_max_ma: 25.0
+  source_current_max_ma: 0.3
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - gpio_pins
+  - i2c_address_default_pcf8574
+  - i2c_address_default_pcf8574a
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: PCF8574 I2C LCD backpack module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/PCF8574.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nxp.com/products/interfaces/ic-bus-portfolio/ic-general-purpose-i-o/remote-8-bit-i-o-expander-for-i2c-bus:PCF8574" }
