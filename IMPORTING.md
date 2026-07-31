@@ -105,9 +105,9 @@ the top, prose below — same rule as always.
 
 ## 5. Assets checklist
 
-- `datasheet` asset → manufacturer's own PDF URL (external), not alldatasheet's mirror,
+- `datasheet` asset :i-lucide-move-right: manufacturer's own PDF URL (external), not alldatasheet's mirror,
   per §2 above.
-- `product-page` asset (`kind: reference`) → the manufacturer's product page, often linked
+- `product-page` asset (`kind: reference`) :i-lucide-move-right: the manufacturer's product page, often linked
   right next to the PDF on the aggregator page — useful for buy links / part status.
 - Product photo, if used, still needs its own hosting (`kind: image`, first declared image
   asset becomes the primary image per SPEC.md §1.5) — alldatasheet doesn't provide usable

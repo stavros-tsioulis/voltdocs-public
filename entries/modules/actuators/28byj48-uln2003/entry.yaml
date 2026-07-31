@@ -35,7 +35,7 @@ assets:
     kind: image
     title: 28BYJ-48 stepper motor with ULN2003 driver breakout board
     mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/28byj48.256.webp }
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/28BYJ-48-ULN2003.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.ti.com/lit/ds/symlink/uln2003a.pdf" }

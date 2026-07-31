@@ -54,7 +54,7 @@ The sensor integrates piezo-resistive pressure and temperature sensing elements,
 
 ## Wiring (I2C Mode)
 
-| BMP280 Breakout | → | Microcontroller (Arduino / ESP32) |
+| BMP280 Breakout | :i-lucide-move-right: | Microcontroller (Arduino / ESP32) |
 |---|---|---|
 | `VCC` | | 3.3 V |
 | `GND` | | GND |

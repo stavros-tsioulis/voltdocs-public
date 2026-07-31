@@ -65,7 +65,7 @@ DOUT : D23  D22  D21 ... D0
 
 ### Standard Strain Gauge Load Cell Wire Colors to HX711 Module
 
-| Load Cell Wire | → | HX711 Module Pin | Signal Name |
+| Load Cell Wire | :i-lucide-move-right: | HX711 Module Pin | Signal Name |
 |---|---|---|---|
 | Red Wire | | `E+` / `VCC` | Excitation Voltage + |
 | Black Wire | | `E-` / `GND` | Excitation Voltage - |
@@ -74,7 +74,7 @@ DOUT : D23  D22  D21 ... D0
 
 ### HX711 Module to Microcontroller (Arduino Uno)
 
-| HX711 Module Pin | → | Arduino Uno Pin | Notes |
+| HX711 Module Pin | :i-lucide-move-right: | Arduino Uno Pin | Notes |
 |---|---|---|---|
 | `VCC` | | `5V` | Logic & Excitation Power |
 | `GND` | | `GND` | Ground |

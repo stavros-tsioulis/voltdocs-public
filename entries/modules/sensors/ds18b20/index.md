@@ -67,7 +67,7 @@ $$\text{Temperature }(^\circ\text{C}) = \frac{\text{Raw 16-bit Value}}{16}$$
 
 ### Standard Local Power Setup
 
-| DS18B20 | → | Microcontroller (Arduino / ESP32) | Notes |
+| DS18B20 | :i-lucide-move-right: | Microcontroller (Arduino / ESP32) | Notes |
 |---|---|---|---|
 | `GND` (Black) | | `GND` | Ground |
 | `DQ` (Yellow) | | Digital GPIO Pin | Connected to GPIO; **4.7 kΩ pull-up resistor** to $V_{DD}$ |

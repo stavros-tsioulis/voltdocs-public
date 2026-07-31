@@ -76,7 +76,7 @@ Where $R_s$ is the current sense resistor value on the module (typically $0.05\ 
 
 ## Wiring
 
-| A4988 Carrier Pin | → | Arduino Uno Pin | External Component |
+| A4988 Carrier Pin | :i-lucide-move-right: | Arduino Uno Pin | External Component |
 |---|---|---|---|
 | `VMOT` | | — | Motor Power `+12V` / `+24V` (with 100 µF Cap to GND) |
 | `GND` (Pin 15) | | — | Motor Power Ground |

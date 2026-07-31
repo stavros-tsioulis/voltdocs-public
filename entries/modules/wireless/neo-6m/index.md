@@ -65,7 +65,7 @@ $GPRMC,123519.00,A,4807.038,N,01131.000,E,022.4,084.4,230326,003.1,W*6A
 
 ## Wiring
 
-| NEO-6M Pin | → | Microcontroller (Arduino Uno / ESP32) | Notes |
+| NEO-6M Pin | :i-lucide-move-right: | Microcontroller (Arduino Uno / ESP32) | Notes |
 |---|---|---|---|
 | `VCC` | | `5V` or `3.3V` | Supply power to onboard LDO |
 | `GND` | | `GND` | Ground |

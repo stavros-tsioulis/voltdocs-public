@@ -42,7 +42,7 @@ assets:
     kind: image
     title: BME280 environmental sensor breakout module (I2C/SPI)
     mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bme280.256.webp }
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/BME280.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf" }

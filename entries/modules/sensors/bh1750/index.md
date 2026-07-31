@@ -61,7 +61,7 @@ $$\text{Illuminance (lx)} = \frac{\text{Raw Data (16-bit)}}{1.2}$$
 
 ## Wiring
 
-| BH1750 Module | → | Microcontroller (Arduino / ESP32) |
+| BH1750 Module | :i-lucide-move-right: | Microcontroller (Arduino / ESP32) |
 |---|---|---|
 | `VCC` | | 3.3 V (or 5 V if module has 662K regulator) |
 | `GND` | | GND |

@@ -120,7 +120,7 @@ Host microcontrollers communicate with the module primarily over SPI (up to 10 M
 
 ## Wiring
 
-| Module (RC522) | → | MCU (e.g. Arduino Uno) | Notes |
+| Module (RC522) | :i-lucide-move-right: | MCU (e.g. Arduino Uno) | Notes |
 |---|---|---|---|
 | `3.3V` | | `3.3V` | **Never connect to 5V power supply!** |
 | `RST` | | `D9` | Configurable reset pin |

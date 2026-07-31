@@ -61,7 +61,7 @@ Compared to the legacy nRF24L01 (v1.0), the **nRF24L01+** adds a **250 kbps** ai
 
 ## Wiring
 
-| nRF24L01+ Module | → | Microcontroller (e.g. Arduino / ESP32) |
+| nRF24L01+ Module | :i-lucide-move-right: | Microcontroller (e.g. Arduino / ESP32) |
 |---|---|---|
 | `VCC` | | **3.3 V** (Do NOT connect to 5V!) |
 | `GND` | | GND |

@@ -70,7 +70,7 @@ To rotate the motor shaft, activate the input pins `IN1`–`IN4` in sequence.
 
 ## Wiring
 
-| ULN2003 Board Pin | → | Arduino Uno Pin | External Power Supply |
+| ULN2003 Board Pin | :i-lucide-move-right: | Arduino Uno Pin | External Power Supply |
 |---|---|---|---|
 | `IN1` | | Pin `8` | — |
 | `IN2` | | Pin `9` | — |

@@ -58,7 +58,7 @@ Time and date values are stored in binary-coded decimal (BCD) format across regi
 
 ## Wiring
 
-| DS3231 Module Pin | → | Microcontroller (Arduino Uno / ESP32) |
+| DS3231 Module Pin | :i-lucide-move-right: | Microcontroller (Arduino Uno / ESP32) |
 |---|---|---|
 | `VCC` | | 5V (or 3.3V) |
 | `GND` | | GND |

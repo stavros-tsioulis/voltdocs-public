@@ -77,7 +77,7 @@ The internal $128 \times 64$ bit Graphic Display Data RAM (GDDRAM) is divided in
 
 ### I2C Mode (Arduino Uno)
 
-| SSD1306 Module Pin | → | Arduino Uno Pin | Notes |
+| SSD1306 Module Pin | :i-lucide-move-right: | Arduino Uno Pin | Notes |
 |---|---|---|---|
 | `GND` | | `GND` | Ground |
 | `VCC` | | `5V` (or `3.3V`) | Supply Power |

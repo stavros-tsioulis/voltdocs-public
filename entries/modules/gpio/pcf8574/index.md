@@ -68,7 +68,7 @@ The 7-bit I2C slave address is formed by combining fixed high bits with the logi
 
 ### Standard PCF8574 I2C LCD Backpack to Arduino Uno
 
-| PCF8574 Backpack Pin | → | Arduino Uno Pin | Notes |
+| PCF8574 Backpack Pin | :i-lucide-move-right: | Arduino Uno Pin | Notes |
 |---|---|---|---|
 | `GND` | | `GND` | Power Ground |
 | `VCC` | | `5V` | Power Supply |

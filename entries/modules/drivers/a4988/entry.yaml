@@ -33,7 +33,7 @@ assets:
     kind: image
     title: A4988 stepper motor driver breakout module (Pololu form factor)
     mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/a4988.256.webp }
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/A4988.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.allegromicro.com/-/media/files/datasheets/a4988-datasheet.pdf" }

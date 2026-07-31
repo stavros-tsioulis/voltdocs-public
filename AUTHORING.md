@@ -173,7 +173,7 @@ the thing.
 <!-- learner + teacher: a concrete hookup to one common MCU. A table or a short
      list beats a paragraph. -->
 
-| Module | → | MCU (e.g. Arduino Uno) |
+| Module | :i-lucide-move-right: | MCU (e.g. Arduino Uno) |
 |---|---|---|
 | `VCC` | | 3.3 V |
 | `GND` | | GND |
@@ -653,7 +653,7 @@ promote it into its own layout.
 
 - **Start from a stub.** A page with frontmatter, a title, and a one-line
   summary is a legitimate, mergeable page. Fill the rest as you learn the part.
-  The `status` field (`stub → draft → reviewed → complete`) tells readers how far
+  The `status` field (`stub :i-lucide-move-right: draft :i-lucide-move-right: reviewed :i-lucide-move-right: complete`) tells readers how far
   to trust it.
 - **Delete freely, reorder rarely.** Dropping a section that doesn't apply keeps
   the page honest. Reordering the shared spine breaks the muscle memory that

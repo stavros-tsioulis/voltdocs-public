@@ -59,7 +59,7 @@ Commonly available on the low-cost **GY-521** breakout module (which includes a 
 
 ## Wiring
 
-| GY-521 Module | → | Microcontroller (Arduino Uno / ESP32) |
+| GY-521 Module | :i-lucide-move-right: | Microcontroller (Arduino Uno / ESP32) |
 |---|---|---|
 | `VCC` | | 5V (or 3.3V) |
 | `GND` | | GND |

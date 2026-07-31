@@ -55,7 +55,7 @@ Designed for low-power mobile applications, home automation climate nodes, and w
 
 ## Wiring
 
-| BME280 Module Pin | → | Microcontroller (Arduino Uno / ESP32) |
+| BME280 Module Pin | :i-lucide-move-right: | Microcontroller (Arduino Uno / ESP32) |
 |---|---|---|
 | `VCC` | | 3.3V (or 5V if module has 662K LDO) |
 | `GND` | | GND |

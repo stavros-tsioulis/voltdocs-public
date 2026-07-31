@@ -64,7 +64,7 @@ To configure module settings (name, role, baud rate, passkey), the HC-05 must en
 
 ## Wiring
 
-| HC-05 Breakout | → | Microcontroller (e.g. Arduino Uno / ESP32) |
+| HC-05 Breakout | :i-lucide-move-right: | Microcontroller (e.g. Arduino Uno / ESP32) |
 |---|---|---|
 | `VCC` | | 5 V |
 | `GND` | | GND |

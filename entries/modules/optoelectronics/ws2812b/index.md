@@ -55,7 +55,7 @@ The current major hardware revision (**v5.0 / WS2812B-V5**) includes built-in re
 
 ## Wiring
 
-| WS2812B Strip / Board | → | Power Supply / MCU |
+| WS2812B Strip / Board | :i-lucide-move-right: | Power Supply / MCU |
 |---|---|---|
 | `VDD` (+5V) | | +5 V External Power Supply |
 | `VSS` (GND) | | GND (Common Ground with MCU) |

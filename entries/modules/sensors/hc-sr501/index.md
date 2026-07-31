@@ -61,7 +61,7 @@ OUT Pin         : ____/‾‾‾‾‾‾‾‾‾‾‾‾\_____[Locked]____
 
 ## Wiring
 
-| HC-SR501 Pin | → | Microcontroller (Arduino / ESP32) |
+| HC-SR501 Pin | :i-lucide-move-right: | Microcontroller (Arduino / ESP32) |
 |---|---|---|
 | `VCC` | | 5V |
 | `OUT` | | Digital GPIO Pin (e.g. Pin `2` / GPIO`13`) |

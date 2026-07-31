@@ -54,7 +54,7 @@ where $m$ and $b$ are derived from the datasheet's sensitivity characteristic cu
 
 ## Wiring
 
-| MQ-2 Module | → | Microcontroller (Arduino Uno / ESP32) | Notes |
+| MQ-2 Module | :i-lucide-move-right: | Microcontroller (Arduino Uno / ESP32) | Notes |
 |---|---|---|---|
 | `VCC` | | `5V` | Must be 5V DC (3.3V will not heat element sufficiently) |
 | `GND` | | `GND` | Ground |

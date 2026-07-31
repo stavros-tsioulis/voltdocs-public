@@ -34,7 +34,7 @@ assets:
     kind: image
     title: DS3231 RTC breakout module (ZS-042) with CR2032 battery holder
     mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ds3231.256.webp }
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/DS3231.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://datasheets.maximintegrated.com/en/ds/DS3231.pdf" }

@@ -70,7 +70,7 @@ The angular position of the output horn is determined by the duration of a posit
 
 ## Wiring
 
-| SG90 Lead | → | External 5V Power Supply | Microcontroller |
+| SG90 Lead | :i-lucide-move-right: | External 5V Power Supply | Microcontroller |
 |---|---|---|---|
 | Brown / Black (`GND`) | | `GND` | `GND` (Common Ground) |
 | Red (`VCC`) | | `+5V Output` | — |

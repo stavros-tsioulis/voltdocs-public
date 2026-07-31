@@ -59,7 +59,7 @@ The breakout module features an onboard 78M05 5V linear voltage regulator (which
 
 ### Dual DC Motor Wiring (Arduino Uno)
 
-| L298N Module | → | External / Arduino Uno | Description |
+| L298N Module | :i-lucide-move-right: | External / Arduino Uno | Description |
 |---|---|---|---|
 | `12V` | | External Battery (+7V to +12V) | Motor power supply |
 | `GND` | | Battery (-) & Arduino `GND` | Common ground reference |

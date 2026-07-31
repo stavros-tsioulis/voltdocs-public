@@ -68,7 +68,7 @@ HD44780 accepts commands when `RS = 0` and `RW = 0`. Data is latched on the **fa
 
 ### 4-Bit Parallel Mode (Arduino Uno)
 
-| HD44780 Pin | → | Arduino Uno Pin | Notes |
+| HD44780 Pin | :i-lucide-move-right: | Arduino Uno Pin | Notes |
 |---|---|---|---|
 | 1 (`VSS`) | | `GND` | Ground |
 | 2 (`VDD`) | | `5V` | Power |
