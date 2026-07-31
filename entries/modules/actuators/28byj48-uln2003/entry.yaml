@@ -1,0 +1,44 @@
+id: actuator.stepper.28byj48
+revision: "1.0"
+title: 28BYJ-48 + ULN2003 — 5V Geared Stepper Motor and Darlington Driver Board
+category: actuators/stepper
+tags: [28byj-48, uln2003, stepper-motor, darlington, driver, motor, 5v, robotics]
+status: published
+summary: >-
+  Ubiquitous 5V DC 4-phase 5-wire unipolar geared stepper motor paired with a ULN2003 Darlington transistor array driver board with LED status indicators.
+updatedAt: "2026-07-30"
+fields:
+  manufacturer: Generic / Texas Instruments (ULN2003)
+  ic_part_numbers: [28BYJ-48, ULN2003A]
+  package: Can-stack Motor + Green PCB Driver Breakout (31 x 35 mm)
+  supply_voltage_v: 5.0
+  operating_current_ma: 240
+  coil_resistance_ohm: 50.0
+  phases: 4
+  gear_ratio: 64.0
+  step_angle_deg: 5.625
+  steps_per_revolution_half_step: 4096
+  steps_per_revolution_full_step: 2048
+  pull_in_torque_mn_m: 34.3
+  operating_temp_min_c: -10
+  operating_temp_max_c: 60
+  interfaces: [4-Bit Parallel GPIO]
+highlights:
+  - supply_voltage_v
+  - gear_ratio
+  - steps_per_revolution_half_step
+  - pull_in_torque_mn_m
+  - coil_resistance_ohm
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 28BYJ-48 stepper motor with ULN2003 driver breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/28byj48.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/uln2003a.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/858" }

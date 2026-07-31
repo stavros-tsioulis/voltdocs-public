@@ -1,0 +1,45 @@
+id: sensor.motion.hcsr501
+revision: "1.0"
+title: HC-SR501 — Pyroelectric Infrared (PIR) Motion Sensor Module
+category: sensors/motion
+tags: [hc-sr501, pir, motion, infrared, pyroelectric, sensor, bis0001]
+status: published
+summary: >-
+  Generic BISS0001-based pyroelectric infrared (PIR) motion sensor breakout module with adjustable sensitivity and delay time, providing a 3.3V digital HIGH output upon motion detection.
+updatedAt: "2026-07-30"
+fields:
+  manufacturer: Generic / BISS0001
+  ic_part_numbers: [HC-SR501, BISS0001]
+  package: Plastic Fresnel Lens / Green PCB Module (32 x 24 mm)
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 20.0
+  output_voltage_high_v: 3.3
+  output_voltage_low_v: 0.0
+  quiescent_current_ua: 50.0
+  detection_distance_m_min: 3.0
+  detection_distance_m_max: 7.0
+  delay_time_s_min: 0.3
+  delay_time_s_max: 300.0
+  sensing_angle_deg: 120
+  operating_temp_min_c: -15
+  operating_temp_max_c: 70
+  interfaces: [Digital Output]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - detection_distance_m_max
+  - delay_time_s_max
+  - sensing_angle_deg
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HC-SR501 PIR motion sensor module with Fresnel lens
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hc-sr501.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.mpja.com/download/31227sc.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.sparkfun.com/products/13285" }

@@ -1,0 +1,42 @@
+id: driver.stepper.a4988
+revision: "1.0"
+title: A4988 — DMOS Microstepping Driver with Translator and Overcurrent Protection
+category: drivers/stepper
+tags: [a4988, stepper-driver, microstepping, 3d-printer, reprap, cnc, allegro, pololu]
+status: published
+summary: >-
+  Allegro MicroSystems complete microstepping motor driver IC/carrier board with built-in translator for easy operation of bipolar stepper motors up to 35V / 2A.
+updatedAt: "2026-07-30"
+fields:
+  manufacturer: Allegro MicroSystems
+  ic_part_numbers: [A4988, A4988SETTR-T]
+  package: 28-pin QFN (5x5 mm) / Pololu-Style 16-pin Carrier Module
+  motor_supply_voltage_min_v: 8.0
+  motor_supply_voltage_max_v: 35.0
+  logic_supply_voltage_min_v: 3.0
+  logic_supply_voltage_max_v: 5.5
+  continuous_current_a: 1.0
+  peak_current_a: 2.0
+  microstep_resolutions: [1, 2, 4, 8, 16]
+  operating_temp_min_c: -20
+  operating_temp_max_c: 85
+  interfaces: [STEP / DIR]
+highlights:
+  - motor_supply_voltage_min_v
+  - motor_supply_voltage_max_v
+  - continuous_current_a
+  - microstep_resolutions
+  - logic_supply_voltage_min_v
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: A4988 stepper motor driver breakout module (Pololu form factor)
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/a4988.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.allegromicro.com/-/media/files/datasheets/a4988-datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.pololu.com/product/1182" }
