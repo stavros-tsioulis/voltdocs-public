@@ -12,7 +12,9 @@ fields:
   ic_part_numbers: [TL072, TL072CP, TL072CD, TL072IP]
   package: 8-pin DIP / SOIC-8 / TSSOP-8
   opamp_channels: 2 (Dual Op-Amp)
-  supply_voltage_split_v_min: -3.0
+  supply_voltage_single_v_min: 6.0
+  supply_voltage_single_v_max: 36.0
+  supply_voltage_split_v_min: 3.0
   supply_voltage_split_v_max: 18.0
   gain_bandwidth_product_mhz: 3.0
   slew_rate_v_us: 13.0
@@ -25,8 +27,8 @@ fields:
   interfaces: [Dual Op-Amp Analog Terminals]
 highlights:
   - opamp_channels
-  - supply_voltage_split_v_min
-  - supply_voltage_split_v_max
+  - supply_voltage_single_v_min
+  - supply_voltage_single_v_max
   - gain_bandwidth_product_mhz
   - slew_rate_v_us
   - equivalent_input_noise_nv_hz
