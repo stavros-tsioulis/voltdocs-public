@@ -1,0 +1,46 @@
+id: power.boost.mt3608
+revision: "1.0"
+title: MT3608 — 2A 1.2MHz Step-Up (Boost) Converter
+category: power/boost
+tags: [mt3608, boost, step-up, regulator, dc-dc, power, aerosemi, 2a, sot23-6, module]
+status: published
+summary: >-
+  Aerosemi 2A step-up (boost) DC-DC converter IC operating at 1.2MHz switching frequency in SOT23-6 package or compact boost breakout board, boosting low DC voltages (2V-24V) up to 28V.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Aerosemi / Generic
+  ic_part_numbers: [MT3608, MT3608-SOT23-6]
+  package: SOT23-6 / Adjustable Boost Breakout Module
+  regulator_type: Step-Up (Boost) DC-DC Converter
+  input_voltage_v_min: 2.0
+  input_voltage_v_max: 24.0
+  output_voltage_v_min: 2.0
+  output_voltage_v_max: 28.0
+  output_current_a_max: 2.0
+  switching_frequency_mhz: 1.2
+  efficiency_pct: 93 - 97
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [DC Input, DC Output]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_mhz
+  - efficiency_pct
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MT3608 DC-DC step-up boost converter module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mt3608.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.components-store.com/datasheet/49-MT3608.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.aerosemi.com" }

@@ -1,0 +1,47 @@
+id: sensor.distance.hc-sr04
+revision: "1.0"
+title: HC-SR04 — Ultrasonic Ranging Module
+category: sensors/distance
+tags: [hc-sr04, ultrasonic, distance, rangefinder, sonar, obstacle-avoidance, robotics]
+status: published
+summary: >-
+  Generic 40 kHz ultrasonic distance ranging module providing non-contact measurement from 2 cm to 400 cm with a 3 mm range accuracy using pulse-echo timing.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (Cytron / various clone makers)
+  ic_part_numbers: [HC-SR04]
+  package: 45 x 20 x 15 mm PCB with dual transducers
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0
+  ultrasonic_frequency_khz: 40
+  range_min_cm: 2
+  range_max_cm: 400
+  range_accuracy_mm: 3
+  measuring_angle_deg: 15
+  trigger_pulse_min_us: 10
+  operating_current_ma: 15
+  quiescent_current_ma: 2
+  operating_temp_min_c: -15
+  operating_temp_max_c: 70
+  interfaces: [Digital Input (Trig), Digital Output (Echo)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - range_min_cm
+  - range_max_cm
+  - ultrasonic_frequency_khz
+  - trigger_pulse_min_us
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HC-SR04 ultrasonic distance sensor
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hc-sr04.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.sparkfun.com/datasheets/Sensors/Proximity/HC-SR04.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.sparkfun.com/products/15569" }

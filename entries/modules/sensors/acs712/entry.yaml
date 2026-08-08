@@ -1,0 +1,45 @@
+id: sensor.current.acs712
+revision: "1.0"
+title: ACS712 — Fully Integrated Hall-Effect Linear Current Sensor IC
+category: sensors/current
+tags: [acs712, current, hall-effect, ac-current, dc-current, power, allegro, 5a, 20a, 30a]
+status: published
+summary: >-
+  Allegro MicroSystems fully integrated, Hall-effect-based linear current sensor IC providing galvanic isolation (2.1 kV RMS) and analog voltage output proportional to AC or DC current.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Allegro MicroSystems
+  ic_part_numbers: [ACS712ELCTR-05B-T, ACS712ELCTR-20A-T, ACS712ELCTR-30A-T]
+  package: 8-pin SOIC / Breakout Board with Screw Terminal
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0
+  current_ranges_a: [5.0, 20.0, 30.0]
+  sensitivity_mv_per_a_5a: 185.0
+  sensitivity_mv_per_a_20a: 100.0
+  sensitivity_mv_per_a_30a: 66.0
+  zero_current_offset_v: 2.5
+  isolation_voltage_vrms: 2100
+  internal_conductor_resistance_mohm: 1.2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Analog Output]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - current_ranges_a
+  - zero_current_offset_v
+  - isolation_voltage_vrms
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ACS712 current sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/acs712.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.allegromicro.com/-/media/files/datasheets/acs712-datasheet.ashx" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.allegromicro.com" }

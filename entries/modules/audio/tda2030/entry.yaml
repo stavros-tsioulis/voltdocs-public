@@ -1,0 +1,43 @@
+id: audio.amplifier.tda2030
+revision: "1.0"
+title: TDA2030 — 14W Hi-Fi Audio Power Amplifier
+category: audio/amplifier
+tags: [tda2030, tda2030a, audio, amplifier, hi-fi, pentawatt, stmicroelectronics, speaker, amp]
+status: published
+summary: >-
+  STMicroelectronics 14W monolithic audio power amplifier IC providing high output current and low harmonic distortion, widely used in Hi-Fi audio systems, active speakers, and DIY amplifier modules.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [TDA2030, TDA2030A, TDA2030V, TDA2030H]
+  package: Pentawatt (TO-220-5 variant) / Module
+  supply_voltage_min_v: 12.0
+  supply_voltage_max_v: 36.0
+  output_power_w: 14.0
+  quiescent_current_ma: 50.0
+  thd_pct: 0.5
+  frequency_response_hz: 20 - 140000
+  speaker_impedance_ohm: 4 - 8
+  operating_temp_min_c: -40
+  operating_temp_max_c: 150
+  interfaces: [Analog Audio Input, Speaker Out]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_power_w
+  - thd_pct
+  - speaker_impedance_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TDA2030 audio power amplifier IC in Pentawatt 5-pin package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tda2030.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/tda2030.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/audio-ics/tda2030.html" }

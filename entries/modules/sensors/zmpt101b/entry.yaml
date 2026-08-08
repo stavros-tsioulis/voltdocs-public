@@ -1,0 +1,40 @@
+id: sensor.voltage.zmpt101b
+revision: "1.0"
+title: ZMPT101B — Single-Phase AC Voltage Sensor Module
+category: sensors/power
+tags: [zmpt101b, ac-voltage, transformer, sensor, voltage, analog, mains, isolation, electricity, op-amp, lm358]
+status: published
+summary: >-
+  Galvanically isolated active single-phase AC voltage sensor module featuring a ZMPT101B micro precision voltage transformer and LM358 op-amp conditioning circuit, outputting a centered analog sine wave up to 250V RMS.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic / Green-T
+  ic_part_numbers: [ZMPT101B, LM358]
+  package: PCB Module with Micro Transformer (4-pin header + screw terminal)
+  operating_voltage_min_v: 5.0
+  operating_voltage_max_v: 5.0
+  ac_input_voltage_max_v_rms: 250.0
+  output_type: Analog AC Sine Wave (centered at VCC/2)
+  turns_ratio: "1000 : 1000"
+  phase_error_deg: <= 20
+  operating_temp_min_c: -40
+  operating_temp_max_c: 70
+  interfaces: [Analog Output]
+highlights:
+  - operating_voltage_min_v
+  - ac_input_voltage_max_v_rms
+  - output_type
+  - turns_ratio
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ZMPT101B AC voltage sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/zmpt101b.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.zeming-e.com/upload/pdf/2020-05/ZMPT101B-specification.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.zeming-e.com" }

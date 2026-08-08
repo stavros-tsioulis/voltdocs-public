@@ -1,0 +1,46 @@
+id: transistor.bjt.s8050
+revision: "1.0"
+title: S8050 — Low-Voltage High-Current NPN BJT Transistor (25V, 700mA)
+category: transistors/bjt
+tags: [s8050, npn, bjt, transistor, to-92, switching, elegoo, starter-kit, low-voltage]
+status: published
+summary: >-
+  Generic TO-92 plastic package low-voltage high-current NPN silicon BJT rated for 25V collector-emitter voltage (VCEO) and 700 mA collector current (IC) for small motors and relays.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (Micro Commercial Components / Unisonic / Changjiang)
+  ic_part_numbers: [S8050, SS8050, J3Y]
+  package: TO-92 (EBC Pinout) / SOT-23 (SMD Marking J3Y)
+  transistor_type: NPN Bipolar Junction Transistor (BJT)
+  collector_emitter_voltage_vceo_v: 25
+  collector_base_voltage_vcbo_v: 40
+  emitter_base_voltage_vebo_v: 5.0
+  continuous_collector_current_ic_ma: 700
+  dc_current_gain_hfe_min: 120
+  dc_current_gain_hfe_max: 400
+  transition_frequency_ft_mhz: 150
+  power_dissipation_mw: 1000
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Base Current Drive]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: S8050 NPN BJT transistor TO-92 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/s8050.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.mccsemi.com/pdf/Products/S8050(TO-92).pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.mccsemi.com" }

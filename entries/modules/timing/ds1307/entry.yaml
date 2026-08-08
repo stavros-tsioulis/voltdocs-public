@@ -1,0 +1,44 @@
+id: timing.rtc.ds1307
+revision: "1.0"
+title: DS1307 — Serial Real-Time Clock (RTC) with 56-Byte NV RAM
+category: timing/rtc
+tags: [ds1307, rtc, real-time-clock, clock, calendar, i2c, maxim, analog-devices, tiny-rtc]
+status: published
+summary: >-
+  Maxim Integrated / Analog Devices low-power, full binary-coded decimal (BCD) real-time clock IC with 56 bytes of nonvolatile SRAM, maintaining seconds, minutes, hours, day, date, month, and year over I2C.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Maxim Integrated / Analog Devices
+  ic_part_numbers: [DS1307, DS1307N, DS1307Z]
+  package: 8-pin DIP, SOIC-8 / Tiny RTC Breakout Board with CR2032 Battery
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0
+  backup_battery_voltage_v: 3.0
+  backup_battery_current_ua: 0.5
+  oscillator_frequency_khz: 32.768
+  nv_sram_bytes: 56
+  i2c_address_default: "0x68"
+  square_wave_output_frequencies_hz: [1, 4096, 8192, 32768]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, SQW/OUT Square Wave Pin]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - backup_battery_voltage_v
+  - nv_sram_bytes
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: DS1307 Tiny RTC module with coin cell battery
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ds1307.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/DS1307.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/ds1307.html" }

@@ -1,0 +1,43 @@
+id: diode.rectifier.1n4007
+revision: "1.0"
+title: 1N4007 — General-Purpose Rectifier Diode (1000V, 1A)
+category: diodes/rectifier
+tags: [1n4007, diode, rectifier, flyback, do-41, silicon, reverse-voltage, elegoo, starter-kit]
+status: published
+summary: >-
+  Standard DO-41 axial-lead silicon rectifier diode rated for 1000V peak repetitive reverse voltage (VRRM) and 1.0A forward current (IF(AV)) for flyback inductive protection and AC rectification.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (Onsemi / Diodes Inc / Vishay)
+  ic_part_numbers: [1N4007, 1N4007-TP, 1N4007G]
+  package: DO-41 (DO-204AL) Axial Package
+  diode_type: Silicon Junction Rectifier
+  peak_repetitive_reverse_voltage_vrrm_v: 1000
+  average_rectified_forward_current_if_a: 1.0
+  non_repetitive_peak_forward_surge_current_ifsm_a: 30
+  forward_voltage_drop_vf_v: 1.1
+  reverse_leakage_current_ir_ua: 5.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [2-Terminal Passive Anode/Cathode]
+highlights:
+  - diode_type
+  - peak_repetitive_reverse_voltage_vrrm_v
+  - average_rectified_forward_current_if_a
+  - non_repetitive_peak_forward_surge_current_ifsm_a
+  - forward_voltage_drop_vf_v
+  - reverse_leakage_current_ir_ua
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 1N4007 rectifier diode DO-41 package with silver cathode band
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/1n4007.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/1n4001-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discretes-drivers/diodes-rectifiers/rectifiers/1n4007" }

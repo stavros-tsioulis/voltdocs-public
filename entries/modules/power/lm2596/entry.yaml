@@ -1,0 +1,47 @@
+id: power.buck.lm2596
+revision: "1.0"
+title: LM2596 — 3A 150kHz Step-Down (Buck) Switching Regulator
+category: power/buck
+tags: [lm2596, lm2596s, buck, step-down, regulator, switching, power, 3a, ti, module]
+status: published
+summary: >-
+  Texas Instruments 3A step-down (buck) switching regulator IC operating at 150kHz switching frequency with >80% efficiency across fixed (3.3V, 5V, 12V) and ADJ versions.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor
+  ic_part_numbers: [LM2596, LM2596S-ADJ, LM2596S-5.0, LM2596S-3.3, LM2596S-12]
+  package: TO-263 (D2PAK) 5-Pin / TO-220-5 / Adjustable Buck Module
+  regulator_type: Monolithic Step-Down (Buck) Switching Regulator
+  input_voltage_v_min: 4.5
+  input_voltage_v_max: 40.0
+  output_voltage_v_min: 1.23
+  output_voltage_v_max: 37.0
+  output_current_a_max: 3.0
+  switching_frequency_khz: 150
+  efficiency_pct: 80 - 90
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [5-Terminal Switching Output]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: LM2596 DC-DC step-down buck converter module with potentiometer
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm2596.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm2596.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM2596" }

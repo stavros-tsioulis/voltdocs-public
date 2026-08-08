@@ -1,0 +1,47 @@
+id: transistor.bjt.bc557
+revision: "1.0"
+title: BC557 — General-Purpose PNP Bipolar Junction Transistor
+category: transistors/bjt
+tags: [bc557, bc557b, bc557c, pnp, bjt, transistor, to-92, stmicroelectronics, onsemi, complementary, CBE]
+status: published
+summary: >-
+  STMicroelectronics / ON Semiconductor European standard general-purpose PNP BJT in TO-92 package rated for -45V VCEO, -100mA IC, and complementary pairing with BC547 NPN.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: STMicroelectronics / ON Semiconductor / Fairchild
+  ic_part_numbers: [BC557, BC557A, BC557B, BC557C, BC558, BC559]
+  package: TO-92 Plastic / SOT-23 (BC857)
+  transistor_type: General-Purpose PNP BJT
+  collector_emitter_voltage_vceo_v: -45
+  collector_base_voltage_vcbo_v: -50
+  emitter_base_voltage_vebo_v: -5.0
+  continuous_collector_current_ic_ma: -100
+  dc_current_gain_hfe_min: 110 (BC557A) / 200 (BC557B) / 420 (BC557C)
+  dc_current_gain_hfe_max: 220 (BC557A) / 450 (BC557B) / 800 (BC557C)
+  transition_frequency_ft_mhz: 300
+  total_power_dissipation_mw: 500
+  pinout_order: "C-B-E (1: Collector, 2: Base, 3: Emitter)"
+  operating_temp_min_c: -65
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base Junction (High-Side Switch)]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: STMicroelectronics BC557 PNP transistor in TO-92 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bc557.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/bc556b-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com" }

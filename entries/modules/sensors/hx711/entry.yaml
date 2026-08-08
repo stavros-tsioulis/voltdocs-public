@@ -1,0 +1,42 @@
+id: sensor.weight.hx711
+revision: "1.0"
+title: HX711 — 24-Bit Analog-to-Digital Converter for Weigh Scales
+category: sensors/weight
+tags: [hx711, load-cell, scale, adc, weight, 24-bit, strain-gauge, avia]
+status: published
+summary: >-
+  Avia Semiconductor precision 24-bit analog-to-digital converter (ADC) designed for weigh scales and industrial control applications to interface directly with a bridge sensor.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Avia Semiconductor
+  ic_part_numbers: [HX711]
+  package: SOP-16L / Breakout Module
+  supply_voltage_min_v: 2.6
+  supply_voltage_max_v: 5.5
+  adc_resolution_bits: 24
+  selectable_gains: [32, 64, 128]
+  data_rate_sps: [10, 80]
+  operating_current_ma: 1.5
+  power_down_current_ua: 1
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [2-Wire Serial (PD_SCK, DOUT)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - adc_resolution_bits
+  - data_rate_sps
+  - selectable_gains
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HX711 load cell ADC module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hx711.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.aviaic.com" }

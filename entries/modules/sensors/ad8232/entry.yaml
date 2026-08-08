@@ -1,0 +1,43 @@
+id: sensor.biomedical.ad8232
+revision: "1.0"
+title: AD8232 — Single-Lead Heart Rate Monitor Front-End Module
+category: sensors/biomedical
+tags: [ad8232, ecg, ekg, heart-rate, biomedical, sensor, analog-devices, fitness]
+status: published
+summary: >-
+  Analog Devices integrated signal conditioning block for ECG and other biopotential measurement applications, designed to extract, amplify, and filter small biopotential signals in noisy conditions.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Analog Devices
+  ic_part_numbers: [AD8232, AD8232ACPZ]
+  package: 20-lead LFCSP (4 x 4 mm) / SparkFun Breakout Board
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 3.5
+  operating_voltage_v: 3.3
+  supply_current_ua: 170
+  cmrr_db: 80
+  high_pass_filter: "2-pole hardware filter"
+  low_pass_filter: "3-pole adjustable filter"
+  lead_off_detection: true
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Analog Output, Digital Leads Off (LO+, LO-)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - supply_current_ua
+  - cmrr_db
+  - lead_off_detection
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: AD8232 ECG heart rate monitor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ad8232.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8232.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/ad8232.html" }

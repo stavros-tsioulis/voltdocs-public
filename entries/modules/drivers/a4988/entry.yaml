@@ -1,0 +1,43 @@
+id: driver.stepper.a4988
+revision: "1.0"
+title: A4988 — DMOS Microstepping Driver with Translator
+category: drivers/stepper
+tags: [a4988, stepper, driver, microstepping, 3d-printer, cnc, allegro, pololu]
+status: published
+summary: >-
+  Allegro MicroSystems complete microstepping motor driver with built-in translator for driving bipolar stepper motors up to 35 V and ±2 A in full-, 1/2-, 1/4-, 1/8-, and 1/16-step modes.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Allegro MicroSystems
+  ic_part_numbers: [A4988SETTR-T, A4988]
+  package: 28-lead QFN (5x5mm) / StepStick Module
+  load_voltage_min_v: 8.0
+  load_voltage_max_v: 35.0
+  logic_voltage_min_v: 3.0
+  logic_voltage_max_v: 5.5
+  continuous_current_per_phase_a: 1.0
+  max_current_with_cooling_a: 2.0
+  microstep_resolutions: [Full, 1/2, 1/4, 1/8, 1/16]
+  rds_on_mohm: 430
+  operating_temp_min_c: -20
+  operating_temp_max_c: 85
+  interfaces: [STEP/DIR Control]
+highlights:
+  - load_voltage_min_v
+  - load_voltage_max_v
+  - logic_voltage_min_v
+  - continuous_current_per_phase_a
+  - microstep_resolutions
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: A4988 StepStick stepper driver module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/a4988.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.allegromicro.com/-/media/files/datasheets/a4988-datasheet.ashx" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.allegromicro.com/en/products/motor-drivers/bipolar-stepper-motor-drivers/a4988" }

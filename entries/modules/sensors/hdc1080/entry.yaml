@@ -1,0 +1,50 @@
+id: sensor.humidity.hdc1080
+revision: "1.0"
+title: HDC1080 — Low-Power High-Accuracy Digital Humidity & Temperature Sensor
+category: sensors/humidity
+tags: [hdc1080, temperature, humidity, sensor, i2c, ti, texas-instruments, esphome]
+status: published
+summary: >-
+  Texas Instruments low-power 14-bit digital humidity and temperature sensor with ±2% RH humidity accuracy, ±0.2°C temperature accuracy, internal heater, and I2C output (0x40).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [HDC1080, HDC1080DABR]
+  package: 6-pin WSON (3.0 x 3.0 x 0.95 mm) / Breakout Module
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  temperature_range_c_min: -40
+  temperature_range_c_max: 125
+  temperature_accuracy_c: 0.2
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  humidity_accuracy_pct: 2.0
+  resolution_bits: 14
+  i2c_address_default: "0x40"
+  operating_current_ua: 1.3
+  sleep_current_ua: 0.7
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - temperature_accuracy_c
+  - humidity_accuracy_pct
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HDC1080 digital humidity and temperature sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hdc1080.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/hdc1080.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/HDC1080" }

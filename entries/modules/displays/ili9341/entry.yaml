@@ -1,0 +1,45 @@
+id: display.tft.ili9341
+revision: "1.0"
+title: ILI9341 — 240RGB x 320 Single-Chip Color TFT-LCD Controller
+category: displays/tft
+tags: [ili9341, tft, lcd, display, driver, 240x320, rgb, spi, ilitek, 2.4-inch, 2.8-inch, touch]
+status: published
+summary: >-
+  ILITEK a-Si TFT LCD driver IC supporting 240x320 QVGA resolution and 262K colors, standard on 2.2-inch, 2.4-inch, and 2.8-inch color display modules with SPI and resistive touch controller (XPT2046).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ILITEK (ILI Technology)
+  ic_part_numbers: [ILI9341, ILI9341V]
+  package: COG (Chip-On-Glass) / 2.4-inch & 2.8-inch TFT Shield & Module
+  supply_voltage_min_v: 2.3
+  supply_voltage_max_v: 3.3
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  resolution_pixels: "240 x 320 (QVGA)"
+  color_depth_bits: 16
+  colors_supported: 65536
+  spi_clock_max_mhz: 10
+  operating_current_ma: 15
+  backlight_current_ma: 80
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [4-Wire SPI, 8-Bit Parallel, 16-Bit Parallel]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - colors_supported
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ILI9341 2.8-inch TFT LCD display module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ili9341.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.cdn-adafruit.com/datasheets/ILI9341.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.ilitek.com" }

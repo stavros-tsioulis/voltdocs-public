@@ -1,0 +1,42 @@
+id: interface.logic.74hc04
+revision: "1.0"
+title: 74HC04 — Hex Inverter
+category: interface/logic
+tags: [74hc04, sn74hc04, inverter, not-gate, hex-inverter, cmos, texas-instruments, nexperia, dip-14]
+status: published
+summary: >-
+  High-speed CMOS IC containing six independent inverting buffer gates (NOT gates) for logic inversion, signal buffering, and crystal oscillator circuits.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC04, SN74HC04N, 74HC04D, 74HCT04, 74HCU04]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  inverters_count: 6 (Hex Inverter)
+  propagation_delay_ns: 7
+  output_drive_current_ma: 5.2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [6x Independent NOT Gates (1A->1Y, 2A->2Y, 3A->3Y, 4A->4Y, 5A->5Y, 6A->6Y)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - inverters_count
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 74HC04 hex inverter IC in 14-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/74hc04.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC04" }

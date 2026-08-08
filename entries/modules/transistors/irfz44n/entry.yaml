@@ -1,0 +1,45 @@
+id: transistor.mosfet.irfz44n
+revision: "1.0"
+title: IRFZ44N — N-Channel Power MOSFET (55V, 49A)
+category: transistors/mosfet
+tags: [irfz44n, mosfet, n-channel, 55v, 49a, to-220, infineon, ir, power-switch, motor-control, solar]
+status: published
+summary: >-
+  Infineon / IR TO-220 N-channel power MOSFET rated for 55V VDS, 49A continuous drain current, and ultra-low 17.5mΩ RDS(on) at 10V VGS for DC motor controllers and solar switches.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Infineon / International Rectifier
+  ic_part_numbers: [IRFZ44N, IRFZ44NPBF]
+  package: TO-220AB
+  transistor_type: N-Channel Power MOSFET
+  drain_source_voltage_vdss_v: 55
+  continuous_drain_current_id_a: 49
+  gate_threshold_voltage_vgs_th_min_v: 2.0
+  gate_threshold_voltage_vgs_th_max_v: 4.0
+  rds_on_vgs_10v_mohm: 17.5
+  total_gate_charge_nq: 63
+  max_power_dissipation_w: 94
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [Gate-Source Voltage Drive (10V VGS Nominal)]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_10v_mohm
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: IRFZ44N N-channel power MOSFET in TO-220 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/irfz44n.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/power-mosfet/n-channel/irfz44n/" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com" }

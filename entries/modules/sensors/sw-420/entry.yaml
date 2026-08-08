@@ -1,0 +1,42 @@
+id: sensor.vibration.sw420
+revision: "1.0"
+title: SW-420 — Normally Closed Vibration / Shock Sensor Module
+category: sensors/vibration
+tags: [sw-420, sw420, vibration, shock, tilt, motion, lm393, digital, alarm, generic]
+status: published
+summary: >-
+  Generic vibration and shock detection module built around an SW-420 roller-ball vibration switch paired with an LM393 comparator and potentiometer, outputting a digital signal (DO) on motion.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic / SunFounder
+  ic_part_numbers: [SW-420, SW420, LM393]
+  package: 3-pin / 4-pin PCB Breakout Module with SW-420 Switch Cylinder
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.5
+  switch_type: Normally Closed (NC) Vibration Switch
+  vibration_sensitivity: Adjustable via Onboard Multi-Turn Potentiometer
+  output_type: Digital LM393 Output (DO)
+  operating_current_ma: 15
+  operating_temp_min_c: -20
+  operating_temp_max_c: 70
+  interfaces: [Digital LM393 Output (DO)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - switch_type
+  - vibration_sensitivity
+  - output_type
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: SW-420 vibration sensor breakout module with LM393 comparator
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sw-420.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensorkit.joy-it.net/en/sensors/ky-002" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://joy-it.net/en/products/SEN-KY002" }

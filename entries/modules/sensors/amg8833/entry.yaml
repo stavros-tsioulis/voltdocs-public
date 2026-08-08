@@ -1,0 +1,52 @@
+id: sensor.thermal.amg8833
+revision: "1.0"
+title: AMG8833 — 8x8 Grid-EYE Infrared Thermal Array Sensor
+category: sensors/thermal
+tags: [amg8833, grid-eye, thermal, camera, infrared, temperature, i2c, panasonic, array, thermopile]
+status: published
+summary: >-
+  Panasonic 64-pixel (8x8) MEMS thermopile infrared array sensor measuring surface temperature distributions over I2C up to 10 Hz for thermal imaging, human presence detection, and temperature mapping.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Panasonic
+  ic_part_numbers: [AMG8833, AMG8834, Grid-EYE]
+  package: 14-pin Surface Mount (11.6 x 8.0 x 4.3 mm) / Breakout Module
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  pixels_x: 8
+  pixels_y: 8
+  temperature_range_c_min: 0
+  temperature_range_c_max: 80
+  temperature_accuracy_c: 2.5
+  frame_rate_fps: 10
+  field_of_view_deg: 60
+  i2c_address_default: "0x69"
+  i2c_address_alternate: "0x68"
+  operating_current_ma: 4.5
+  standby_current_ma: 0.2
+  operating_temp_min_c: 0
+  operating_temp_max_c: 80
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - pixels_x
+  - temperature_range_c_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: AMG8833 Grid-EYE thermal camera breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/amg8833.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://industrial.panasonic.com/cdbs/www-data/pdf/AFA4000/AFA4000C108.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://industrial.panasonic.com/ww/products/pt/grid-eye" }

@@ -1,0 +1,48 @@
+id: sensor.temperature.dht11
+revision: "1.0"
+title: DHT11 — Basic Digital Temperature and Humidity Sensor
+category: sensors/temperature
+tags: [dht11, temperature, humidity, sensor, single-bus, aosong, starter-kit]
+status: published
+summary: >-
+  Aosong Electronics low-cost basic digital temperature and humidity sensor with a custom single-bus 1-wire serial protocol outputting 8-bit integer relative humidity and temperature readings.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Aosong Electronics
+  ic_part_numbers: [DHT11]
+  package: 4-pin single in-line plastic package / 3-pin Breakout Board
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 5.5
+  temperature_range_c_min: 0
+  temperature_range_c_max: 50
+  humidity_range_pct_min: 20
+  humidity_range_pct_max: 90
+  temperature_accuracy_c: 2.0
+  humidity_accuracy_pct: 5.0
+  sampling_period_s: 1.0
+  measuring_current_ma: 1.5
+  standby_current_ua: 100
+  operating_temp_min_c: 0
+  operating_temp_max_c: 50
+  interfaces: [Custom Single-Bus 1-Wire Serial]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - humidity_range_pct_min
+  - humidity_range_pct_max
+  - sampling_period_s
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: DHT11 sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/dht11.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.mouser.com/datasheet/2/758/DHT11-technical-data-sheet-translated-by-Aosong-3165345.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.aosong.com" }

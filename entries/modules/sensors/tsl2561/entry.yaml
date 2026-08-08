@@ -1,0 +1,44 @@
+id: sensor.light.tsl2561
+revision: "1.0"
+title: TSL2561 — Digital Luminosity Light Sensor
+category: sensors/light
+tags: [tsl2561, lux, ambient-light, luminosity, sensor, i2c, ams, taos]
+status: published
+summary: >-
+  ams / TAOS dual-diode (visible and infrared) digital light-to-digital converter IC that calculates illuminance in lux across a wide dynamic range (0.1 to 40,000+ lux).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ams OSRAM / TAOS
+  ic_part_numbers: [TSL2561, TSL2561FN, TSL2561T]
+  package: 6-pin Dual Flat No-Lead (DFN) / Breakout Board
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 3.6
+  measurement_range_lux_min: 0.1
+  measurement_range_lux_max: 40000
+  adc_resolution_bits: 16
+  i2c_address_default: "0x39"
+  i2c_address_selectable: ["0x29", "0x39", "0x49"]
+  operating_current_ua: 240
+  shutdown_current_ua: 3.2
+  operating_temp_min_c: -30
+  operating_temp_max_c: 70
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - measurement_range_lux_min
+  - measurement_range_lux_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TSL2561 ambient light sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tsl2561.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn-shop.adafruit.com/datasheets/TSL2561.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://ams.com" }

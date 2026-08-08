@@ -1,0 +1,46 @@
+id: sensor.imu.mpu6050
+revision: "1.0"
+title: MPU-6050 — 6-Axis MotionTracking Device (Gyroscope + Accelerometer)
+category: sensors/imu
+tags: [mpu6050, mpu-6050, imu, accelerometer, gyroscope, 6-axis, i2c, invensense, dmp, gy-521]
+status: published
+summary: >-
+  InvenSense 6-axis MotionTracking IC combining a 3-axis MEMS gyroscope, 3-axis MEMS accelerometer, and an onboard Digital Motion Processor (DMP) communicating over I2C.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: InvenSense / TDK
+  ic_part_numbers: [MPU-6050]
+  package: 24-pin QFN (4x4x0.9mm) / GY-521 Breakout
+  supply_voltage_min_v: 2.375
+  supply_voltage_max_v: 3.46
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  gyro_full_scale_dps: [250, 500, 1000, 2000]
+  accel_full_scale_g: [2, 4, 8, 16]
+  adc_resolution_bits: 16
+  i2c_clock_max_khz: 400
+  i2c_address_default: "0x68"
+  i2c_address_alternate: "0x69"
+  operating_current_ma: 3.8
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, Auxiliary I2C]
+highlights:
+  - gyro_full_scale_dps
+  - accel_full_scale_g
+  - adc_resolution_bits
+  - i2c_address_default
+  - i2c_clock_max_khz
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MPU-6050 GY-521 breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mpu6050.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/" }

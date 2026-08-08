@@ -1,0 +1,42 @@
+id: diode.rectifier.1n4001
+revision: "1.0"
+title: 1N4001 — 50V 1A General-Purpose Rectifier Diode
+category: diodes/rectifier
+tags: [1n4001, diode, rectifier, 50v, 1a, do-41, onsemi, power, flyback, protection]
+status: published
+summary: >-
+  ON Semiconductor / Vishay standard 1.0A silicon rectifier diode in axial DO-41 package rated for 50V peak repetitive reverse voltage and 30A surge current.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ON Semiconductor / Vishay / Diodes Incorporated
+  ic_part_numbers: [1N4001, 1N4001-E3/54, 1N4001G]
+  package: DO-41 (DO-204AL) Axial Glass/Plastic
+  diode_type: Silicon Power Rectifier Diode
+  peak_repetitive_reverse_voltage_vrrm_v: 50
+  average_forward_rectified_current_if_a: 1.0
+  non_repetitive_peak_forward_surge_current_ifsm_a: 30
+  forward_voltage_drop_vf_v: 1.0 (at IF = 1.0A)
+  maximum_reverse_current_ir_ua: 5.0 (at VR = 50V)
+  operating_temp_min_c: -65
+  operating_temp_max_c: 175
+  interfaces: [2-Terminal Axial Passive (Anode, Cathode)]
+highlights:
+  - diode_type
+  - peak_repetitive_reverse_voltage_vrrm_v
+  - average_forward_rectified_current_if_a
+  - non_repetitive_peak_forward_surge_current_ifsm_a
+  - forward_voltage_drop_vf_v
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 1N4001 1A 50V silicon rectifier diode in axial DO-41 package with cathode silver band
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/1n4001.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/1n4001-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com" }

@@ -1,0 +1,45 @@
+id: power.regulator.lm7805
+revision: "1.0"
+title: LM7805 — Fixed +5V 1.5A Positive Linear Voltage Regulator
+category: power/regulator
+tags: [lm7805, l7805cv, 7805, voltage-regulator, linear, 5v, power, to-220, ti, stmicroelectronics, onsemi]
+status: published
+summary: >-
+  STMicroelectronics / Texas Instruments / ON Semiconductor iconic 3-terminal fixed +5.0V positive linear voltage regulator delivering over 1.5A output current from inputs up to 35V DC.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: STMicroelectronics / Texas Instruments / ON Semiconductor
+  ic_part_numbers: [LM7805, L7805CV, LM7805CT, MC7805]
+  package: TO-220 / TO-263 / DPAK / TO-3
+  regulator_type: Fixed Positive Linear Voltage Regulator
+  output_voltage_v: 5.0
+  output_voltage_tolerance_pct: 4.0
+  input_voltage_v_min: 7.0
+  input_voltage_v_max: 35.0
+  dropout_voltage_v: 2.0
+  output_current_a_max: 1.5
+  quiescent_current_ma: 4.2
+  operating_temp_min_c: 0
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Passive (Input, Ground, Output)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: L7805CV / LM7805 5V linear voltage regulator in TO-220 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm7805.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/l78.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-management/l7805.html" }

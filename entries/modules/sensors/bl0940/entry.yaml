@@ -1,0 +1,43 @@
+id: sensor.power.bl0940
+revision: "1.0"
+title: BL0940 — Single-Phase Energy Measurement IC (UART / Pulse)
+category: sensors/power
+tags: [bl0940, energy, power, metering, belling, tasmota, esphome, smart-plug, uart]
+status: published
+summary: >-
+  Shanghai Belling single-phase power metering IC with dual 16-bit ADCs and UART interface (4800 bps), measuring active power, RMS voltage, RMS current, and energy consumption in smart plugs.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Shanghai Belling
+  ic_part_numbers: [BL0940, BL0940-SSOP10]
+  package: 10-pin SSOP / Smart Plug Internal PCB
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 3.6
+  measurement_channels: 2 (1 Voltage + 1 Current)
+  adc_resolution_bits: 16
+  baud_rate_bps: 4800
+  measurement_accuracy_pct: 0.5
+  operating_current_ma: 3.5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Optocoupled TTL UART, Frequency Pulse Output]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - measurement_channels
+  - baud_rate_bps
+  - measurement_accuracy_pct
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: BL0940 power metering IC SSOP-10 package and smart plug PCB
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bl0940.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.belling.com.cn/media/file_object/bel_product/BL0940/BL0940_V1.1_en.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.belling.com.cn" }

@@ -1,0 +1,45 @@
+id: sensor.adc.mcp3208
+revision: "1.0"
+title: MCP3208 — 12-Bit 8-Channel SPI ADC
+category: sensors/adc
+tags: [mcp3208, mcp3204, adc, analog, spi, 12-bit, microchip, raspberry-pi, breakout]
+status: published
+summary: >-
+  Microchip 12-bit Analog-to-Digital Converter (ADC) IC featuring 8 single-ended or 4 pseudo-differential input channels, 100 ksps sampling rate, and 4-wire SPI interface.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [MCP3208, MCP3208-CI/P, MCP3208-BI/P]
+  package: 16-pin DIP / SOIC / Breakout Module
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  resolution_bits: 12
+  channels_single_ended: 8
+  channels_differential: 4
+  sampling_rate_ksps: 100
+  spi_clock_max_mhz: 2.0
+  operating_current_ua: 400
+  standby_current_na: 500
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - resolution_bits
+  - channels_single_ended
+  - sampling_rate_ksps
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MCP3208 12-bit 8-channel SPI ADC IC
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mcp3208.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/21298e.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/mcp3208" }

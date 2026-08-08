@@ -1,0 +1,54 @@
+id: sensor.temperature.max31856
+revision: "1.0"
+title: MAX31856 — Precision Thermocouple-to-Digital Converter (Multi-Type)
+category: sensors/temperature
+tags: [max31856, thermocouple, k-type, j-type, rtd, temperature, precision, spi, maxim, adafruit, esphome]
+status: published
+summary: >-
+  Maxim Integrated 19-bit precision cold-junction compensated thermocouple-to-digital converter supporting K, J, N, R, S, T, E, and B type thermocouples with SPI interface.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Maxim Integrated (Analog Devices)
+  ic_part_numbers: [MAX31856, MAX31856MUD+T]
+  package: 14-pin TSSOP / Breakout Board with Screw Terminals
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  supported_thermocouple_types: [K-Type, J-Type, N-Type, R-Type, S-Type, T-Type, E-Type, B-Type]
+  temperature_range_c_min: -210
+  temperature_range_c_max: 1800
+  resolution_bits: 19
+  resolution_c: 0.0078125
+  cold_junction_accuracy_c: 0.7
+  spi_clock_max_mhz: 5.0
+  line_noise_rejection_hz: [50, 60]
+  operating_current_ma: 1.2
+  shutdown_current_ua: 2.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [SPI (Bi-Directional Read/Write)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - supported_thermocouple_types
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - resolution_bits
+  - resolution_c
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MAX31856 multi-type precision thermocouple breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/max31856.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31856.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/3263" }

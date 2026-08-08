@@ -1,0 +1,46 @@
+id: sensor.current.sct-013-030
+revision: "1.0"
+title: SCT-013-030 — Non-Invasive Split-Core AC Current Transformer (0–30A)
+category: sensors/current
+tags: [sct-013-030, sct013, current-clamp, split-core, ac-current, ct, yhdc, energy, esphome, openenergymonitor]
+status: published
+summary: >-
+  YHDC non-invasive split-core current transformer clamp measuring 0 to 30A AC RMS without stripping live wiring, outputting 0 to 1V AC RMS voltage via internal burden resistor.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: YHDC (Beijing Yaohua Dechang Electronic)
+  ic_part_numbers: [SCT-013-030, SCT-013-000]
+  package: Blue Ferrite Split-Core Clamp with 3.5mm Audio Jack (1m Cable)
+  input_current_ac_rms_max_a: 30
+  output_voltage_ac_rms_max_v: 1.0
+  turn_ratio: 1800:1
+  internal_burden_resistor_ohm: 62
+  non_linearity_pct: 1.0
+  operating_frequency_hz_min: 50
+  operating_frequency_hz_max: 60
+  dielectric_strength_kv: 6.0
+  operating_temp_min_c: -25
+  operating_temp_max_c: 70
+  interfaces: [AC Analog Voltage Output (3.5mm Jack)]
+highlights:
+  - input_current_ac_rms_max_a
+  - output_voltage_ac_rms_max_v
+  - turn_ratio
+  - internal_burden_resistor_ohm
+  - non_linearity_pct
+  - operating_frequency_hz_min
+  - operating_frequency_hz_max
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: YHDC SCT-013-030 split-core current clamp sensor with 3.5mm jack
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sct-013-030.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.yhdc.com/files/2019/08/SCT013030.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.yhdc.com/en/product/342/" }

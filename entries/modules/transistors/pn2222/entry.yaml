@@ -1,0 +1,46 @@
+id: transistor.bjt.pn2222
+revision: "1.0"
+title: PN2222A — General-Purpose NPN Bipolar Junction Transistor
+category: transistors/bjt
+tags: [pn2222, pn2222a, 2n2222, npn, bjt, transistor, to-92, switching, amplifier, elegoo, starter-kit]
+status: published
+summary: >-
+  Standard TO-92 plastic package NPN silicon switching BJT rated for 40V collector-emitter voltage (VCEO) and 600 mA collector current (IC) for relays, buzzers, and DC motors.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (Onsemi / Fairchild / ST)
+  ic_part_numbers: [PN2222, PN2222A, 2N2222, 2N2222A]
+  package: TO-92 (EBC Pinout)
+  transistor_type: NPN Bipolar Junction Transistor (BJT)
+  collector_emitter_voltage_vceo_v: 40
+  collector_base_voltage_vcbo_v: 75
+  emitter_base_voltage_vebo_v: 6.0
+  continuous_collector_current_ic_ma: 600
+  dc_current_gain_hfe_min: 100
+  dc_current_gain_hfe_max: 300
+  transition_frequency_ft_mhz: 300
+  power_dissipation_mw: 625
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Base Current Drive]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: PN2222A NPN BJT transistor TO-92 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pn2222.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/pn2222-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discretes-drivers/general-purpose-and-low-vcesat-transistors/pn2222a" }

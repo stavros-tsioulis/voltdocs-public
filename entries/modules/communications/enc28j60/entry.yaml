@@ -1,0 +1,48 @@
+id: communication.ethernet.enc28j60
+revision: "1.0"
+title: ENC28J60 — Standalone Ethernet Controller with SPI Interface
+category: communications/ethernet
+tags: [enc28j60, ethernet, spi, microchip, mac, phy, networking, rj45, lan, arduino, raspberry-pi, breakout]
+status: published
+summary: >-
+  Microchip 28-pin IEEE 802.3 10BASE-T Ethernet controller featuring integrated MAC, 10Mb PHY, 8 KB dual-port SRAM packet buffer, and 20 MHz SPI interface for wired networking.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [ENC28J60, ENC28J60-I/SO, ENC28J60-I/SP]
+  package: 28-pin SPDIP / SOIC / Breakout Board with MagJack RJ45
+  supply_voltage_min_v: 3.1
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  ethernet_speed_mbps: 10
+  ieee_standard: IEEE 802.3 10BASE-T
+  internal_sram_buffer_kb: 8
+  spi_clock_max_mhz: 20.0
+  operating_current_ma: 160
+  standby_current_ua: 2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - ethernet_speed_mbps
+  - internal_sram_buffer_kb
+  - spi_clock_max_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ENC28J60 Ethernet breakout module with RJ45 MagJack
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/enc28j60.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/39662e.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/enc28j60" }

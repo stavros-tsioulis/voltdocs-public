@@ -1,0 +1,45 @@
+id: sensor.motion.hc-sr505
+revision: "1.0"
+title: HC-SR505 — Miniature Passive Infrared (PIR) Motion Sensor
+category: sensors/motion
+tags: [hc-sr505, hcsr505, pir, motion, presence, infrared, mini, automatic, digital, arduino]
+status: published
+summary: >-
+  Miniature 4.5V to 20V PIR motion detector module featuring an integrated Fresnel lens (100° cone up to 3 meters range), automatic repeatable trigger delay (~8s), and <60 µA current.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic
+  ic_part_numbers: [HC-SR505, EG8010]
+  package: Miniature PCB Module with Cylindrical Fresnel Lens (40 x 10 mm)
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 20.0
+  sensing_distance_m_max: 3.0
+  sensing_angle_deg: 100
+  delay_time_sec: 8.0
+  quiescent_current_ua: 60
+  output_high_voltage_v: 3.3
+  operating_temp_min_c: -20
+  operating_temp_max_c: 80
+  interfaces: [3.3V Digital Output (Active High)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - sensing_distance_m_max
+  - sensing_angle_deg
+  - delay_time_sec
+  - quiescent_current_ua
+  - output_high_voltage_v
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HC-SR505 mini PIR motion sensor module with cylindrical lens
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hc-sr505.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.electroschematics.com/wp-content/uploads/2015/06/HC-SR505-Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.electroschematics.com/hc-sr505-mini-pir-motion-sensor/" }

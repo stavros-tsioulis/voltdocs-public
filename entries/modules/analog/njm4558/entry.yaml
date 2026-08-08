@@ -1,0 +1,46 @@
+id: analog.opamp.njm4558
+revision: "1.0"
+title: NJM4558 — Dual High-Gain Operational Amplifier
+category: analog/opamp
+tags: [njm4558, jrc4558, 4558, op-amp, operational-amplifier, dual, audio, tube-screamer, guitar-pedal, njr, dip-8]
+status: published
+summary: >-
+  New Japan Radio high-performance dual operational amplifier pin-compatible with MC1458/LM358, famous for its smooth clipping tone in legendary audio circuits like the Ibanez Tube Screamer overdrive pedal.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: New Japan Radio (NJR / Nisshinbo) / Various
+  ic_part_numbers: [NJM4558, NJM4558D, JRC4558, RC4558]
+  package: 8-pin DIP / SOIC-8
+  opamp_channels: 2 (Dual Op-Amp)
+  supply_voltage_split_v_min: -4.0
+  supply_voltage_split_v_max: 18.0
+  gain_bandwidth_product_mhz: 3.0
+  slew_rate_v_us: 1.0
+  input_offset_voltage_mv: 2.0
+  input_bias_current_na: 50.0
+  voltage_gain_db: 100.0
+  quiescent_current_ma: 3.5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Dual Op-Amp Analog Terminals]
+highlights:
+  - opamp_channels
+  - supply_voltage_split_v_min
+  - supply_voltage_split_v_max
+  - gain_bandwidth_product_mhz
+  - slew_rate_v_us
+  - voltage_gain_db
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: NJM4558 / JRC4558 dual operational amplifier IC in 8-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/njm4558.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/NJM4558_E.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nisshinbo-microdevices.co.jp/en/products/operational-amplifier/spec/?product=njm4558" }

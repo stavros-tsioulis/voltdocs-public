@@ -1,0 +1,45 @@
+id: audio.amplifier.pam8403
+revision: "1.0"
+title: PAM8403 — 3W Filterless Stereo Class-D Audio Amplifier
+category: audio/amplifier
+tags: [pam8403, audio, amplifier, class-d, stereo, 3w, speaker, low-power, diodess-inc, module]
+status: published
+summary: >-
+  Diodes Incorporated 3W+3W filterless dual-channel stereo Class-D audio power amplifier IC delivering 3W into 4-ohm speakers at 5V supply with 90% efficiency.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Diodes Incorporated (PAM)
+  ic_part_numbers: [PAM8403, PAM8403DR]
+  package: 16-pin SOP / Micro Stereo Amplifier Breakout Module
+  supply_voltage_min_v: 2.5
+  supply_voltage_max_v: 5.5
+  output_power_w_per_channel: 3.0 (into 4Ω speaker at 5.0V VCC)
+  channels: 2 (Stereo L + R)
+  efficiency_pct: 90
+  thd_plus_noise_pct: 0.1
+  quiescent_current_ma: 10.0
+  speaker_impedance_ohm: 4 - 8
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Dual Analog Audio Input (L/R), Dual Bridge-Tied Load (BTL) Speaker Outputs]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_power_w_per_channel
+  - channels
+  - efficiency_pct
+  - speaker_impedance_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: PAM8403 3W+3W stereo class-D audio amplifier breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pam8403.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.diodes.com/assets/Datasheets/PAM8403.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.diodes.com/products/analog/audio-amplifiers/class-d-amplifiers/low-power-class-d-amplifiers/pam8403/" }

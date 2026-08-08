@@ -1,0 +1,45 @@
+id: sensor.motion.am312
+revision: "1.0"
+title: AM312 — Ultra-Miniature Low-Power PIR Motion Sensor
+category: sensors/motion
+tags: [am312, pir, motion, presence, infrared, low-power, mini, battery, esphome, smart-home]
+status: published
+summary: >-
+  Compact 13x10mm low-power pyroelectric infrared (PIR) motion detection module operating at 2.7V to 12V DC with 15 µA standby current and 3.3V digital output for battery-powered IoT.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (Nanyang Senba Optical)
+  ic_part_numbers: [AM312, AM312-Digital-PIR]
+  package: Miniature PCB Module with White Dome Fresnel Lens (13 x 10 mm)
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 12.0
+  sensing_distance_m_max: 5.0
+  sensing_angle_deg: 100
+  delay_time_sec: 2.3
+  standby_current_ua: 15
+  output_high_voltage_v: 3.3
+  operating_temp_min_c: -20
+  operating_temp_max_c: 80
+  interfaces: [3.3V Digital Output (Active High)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - sensing_distance_m_max
+  - sensing_angle_deg
+  - delay_time_sec
+  - standby_current_ua
+  - output_high_voltage_v
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: AM312 ultra-miniature PIR motion sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/am312.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://nanyangsenba.com/upload/202104/1618471415.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://nanyangsenba.com" }

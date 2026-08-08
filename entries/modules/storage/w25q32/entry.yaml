@@ -1,0 +1,52 @@
+id: storage.flash.w25q32
+revision: "1.0"
+title: W25Q32 — 32-Mbit (4MB) SPI NOR Serial Flash Memory
+category: storage/flash
+tags: [w25q32, winbond, flash, spi, memory, 4mb, storage, data-logging, spiffs, littlefs]
+status: published
+summary: >-
+  Winbond 32-Mbit (4MB) SPI NOR serial flash memory IC featuring Dual/Quad SPI clock rates up to 104 MHz (208/416 MHz equivalent), 100,000 erase/program cycles, and 20-year data retention.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Winbond Electronics
+  ic_part_numbers: [W25Q32, W25Q32JV, W25Q32FV, W25Q32BV]
+  package: 8-pin SOIC (208 mil) / WSON / Breakout Module
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 3.6
+  capacity_mbit: 32
+  capacity_mbyte: 4
+  spi_clock_max_mhz: 104.0
+  dual_quad_spi_support: true
+  page_program_size_bytes: 256
+  sector_erase_size_kb: 4
+  block_erase_size_kb: 64
+  endurance_cycles: 100000
+  data_retention_years: 20
+  operating_current_ma: 4.0
+  power_down_current_ua: 1.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Standard SPI, Dual SPI, Quad SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - capacity_mbit
+  - capacity_mbyte
+  - spi_clock_max_mhz
+  - dual_quad_spi_support
+  - endurance_cycles
+  - data_retention_years
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: W25Q32 32Mbit SPI NOR flash memory breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/w25q32.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.winbond.com/resource-files/w25q32jv%20spi%20revg%2003272018%20plus.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=en&partNo=W25Q32JV" }

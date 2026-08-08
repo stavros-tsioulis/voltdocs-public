@@ -1,0 +1,48 @@
+id: sensor.temperature.dht22
+revision: "1.0"
+title: DHT22 (AM2302) — High-Precision Digital Temperature and Humidity Sensor
+category: sensors/temperature
+tags: [dht22, am2302, temperature, humidity, sensor, single-bus, aosong, precision]
+status: published
+summary: >-
+  Aosong Electronics higher-accuracy digital temperature and humidity sensor with a custom single-bus 1-wire protocol delivering 16-bit resolution across wide temperature (-40°C to +80°C) and humidity (0-100%) ranges.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Aosong Electronics
+  ic_part_numbers: [DHT22, AM2302]
+  package: 4-pin single in-line plastic package / 3-pin Breakout Board
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 6.0
+  temperature_range_c_min: -40
+  temperature_range_c_max: 80
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  temperature_accuracy_c: 0.5
+  humidity_accuracy_pct: 2.0
+  sampling_period_s: 2.0
+  measuring_current_ma: 1.5
+  standby_current_ua: 50
+  operating_temp_min_c: -40
+  operating_temp_max_c: 80
+  interfaces: [Custom Single-Bus 1-Wire Serial]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - humidity_range_pct_min
+  - humidity_range_pct_max
+  - sampling_period_s
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: DHT22 (AM2302) sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/dht22.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.aosong.com" }

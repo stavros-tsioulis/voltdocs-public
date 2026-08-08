@@ -1,0 +1,50 @@
+id: sensor.proximity.vcnl4010
+revision: "1.0"
+title: VCNL4010 — Fully Integrated Proximity & Ambient Light Sensor
+category: sensors/proximity
+tags: [vcnl4010, proximity, light, lux, ir, emitter, photodiode, vishay, i2c, adafruit]
+status: published
+summary: >-
+  Vishay fully integrated proximity and ambient light sensor combining an IR emitter, proximity photodiode, ambient light photodiode, 16-bit ADC, and I2C interface (0x13) for 1 to 200 mm distances.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Vishay Intertechnology
+  ic_part_numbers: [VCNL4010, VCNL4010-GS08]
+  package: 12-pin QFN (3.95 x 3.95 x 0.75 mm) / Breakout Module
+  supply_voltage_min_v: 2.5
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  proximity_distance_mm_min: 1
+  proximity_distance_mm_max: 200
+  ir_emitter_wavelength_nm: 890
+  adc_resolution_bits: 16
+  i2c_address_default: "0x13"
+  operating_current_ma: 1.5
+  standby_current_ua: 1.5
+  operating_temp_min_c: -25
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - proximity_distance_mm_min
+  - proximity_distance_mm_max
+  - ir_emitter_wavelength_nm
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: VCNL4010 proximity and ambient light sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/vcnl4010.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.vishay.com/docs/83462/vcnl4010.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/466" }

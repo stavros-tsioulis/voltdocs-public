@@ -1,0 +1,48 @@
+id: sensor.temperature.mlx90614
+revision: "1.0"
+title: MLX90614 — Non-Contact Infrared Temperature Sensor
+category: sensors/temperature
+tags: [mlx90614, mlx90614esf, temperature, ir, infrared, non-contact, thermometer, melexis, smbus, i2c]
+status: published
+summary: >-
+  Melexis non-contact infrared thermometer IC integrating a thermopile detector, low-noise amplifier, 17-bit ADC, and DSP for accurate ambient and object temperature measurement via SMBus / I2C.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Melexis
+  ic_part_numbers: [MLX90614ESF-AAA, MLX90614ESF-BAA, MLX90614ESF-DCC]
+  package: 4-pin TO-39 Metal Can / GY-906 Breakout Board
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 3.6
+  5v_variant_supply_voltage_min_v: 4.5
+  5v_variant_supply_voltage_max_v: 5.5
+  ambient_temperature_range_c_min: -40
+  ambient_temperature_range_c_max: 125
+  object_temperature_range_c_min: -70
+  object_temperature_range_c_max: 380
+  temperature_accuracy_c: 0.5
+  resolution_c: 0.02
+  smbus_address_default: "0x5A"
+  operating_current_ma: 1.5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [SMBus, PWM]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - object_temperature_range_c_min
+  - object_temperature_range_c_max
+  - temperature_accuracy_c
+  - smbus_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MLX90614 non-contact IR temperature sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mlx90614.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.melexis.com/en/product/MLX90614" }

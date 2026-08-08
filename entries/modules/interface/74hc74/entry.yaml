@@ -1,0 +1,43 @@
+id: interface.logic.74hc74
+revision: "1.0"
+title: 74HC74 — Dual D-Type Positive-Edge-Triggered Flip-Flop
+category: interface/logic
+tags: [74hc74, sn74hc74, flip-flop, d-flip-flop, latch, frequency-divider, cmos, texas-instruments, nexperia, dip-14]
+status: published
+summary: >-
+  High-speed CMOS dual D-type flip-flop IC with individual data (D), clock (CLK), set (PRE), and reset (CLR) inputs, widely used for latching, frequency division, and pulse edge detection.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC74, SN74HC74N, 74HC74D, 74HCT74]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  channels: 2 Independent Flip-Flops
+  max_clock_frequency_mhz: 35
+  propagation_delay_ns: 15
+  output_drive_current_ma: 5.2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Dual D, CLK, /PRE, /CLR, Q, /Q]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - channels
+  - max_clock_frequency_mhz
+  - propagation_delay_ns
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 74HC74 dual D flip-flop IC in 14-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/74hc74.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC74" }

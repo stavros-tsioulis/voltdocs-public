@@ -1,0 +1,45 @@
+id: driver.pwm.tlc5940
+revision: "1.0"
+title: TLC5940 — 16-Channel LED Driver with Dot Correction and 12-Bit PWM
+category: drivers/pwm
+tags: [tlc5940, tlc5940nt, pwm, led-driver, constant-current, 12-bit, texas-instruments, dip-28, daisy-chain]
+status: published
+summary: >-
+  Texas Instruments 16-channel constant-current LED driver IC featuring 12-bit (4096-step) grayscale PWM control per channel, 6-bit (64-step) dot correction, serial interface up to 30 MHz, and adjustable current up to 120 mA.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TLC5940, TLC5940NT, TLC5940PWP, TLC5940RHBR]
+  package: 28-pin DIP / HTSSOP-28 / QFN-32
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 5.5
+  output_voltage_max_v: 17.0
+  channels: 16 Constant-Current Sink Outputs
+  output_current_per_channel_ma_max: 120 (VCC > 3.6V)
+  pwm_resolution_bits: 12 (4096 Grayscale Steps)
+  dot_correction_bits: 6 (64 Adjustment Levels)
+  max_serial_data_rate_mhz: 30.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Serial Shift Interface (SIN, SCLK, XLAT, BLANK, GSCLK, SOUT)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_voltage_max_v
+  - channels
+  - output_current_per_channel_ma_max
+  - pwm_resolution_bits
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TLC5940 16-channel PWM LED driver IC in DIP-28 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tlc5940.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tlc5940.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TLC5940" }

@@ -1,0 +1,46 @@
+id: display.tft.st7789
+revision: "1.0"
+title: ST7789 — Single-Chip Color TFT-LCD Controller
+category: displays/tft
+tags: [st7789, st7789vi, tft, lcd, display, driver, 240x240, 240x320, rgb, spi, sitronix, ips]
+status: published
+summary: >-
+  Sitronix single-chip controller/driver for 262K-color graphic TFT-LCD displays, driving high-resolution 240x240, 240x280, and 240x320 IPS panels over high-speed 4-wire SPI up to 62.5 MHz.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sitronix Technology
+  ic_part_numbers: [ST7789, ST7789V, ST7789VI]
+  package: COG (Chip-On-Glass) / 1.3-inch, 1.54-inch, 2.0-inch TFT Breakout Module
+  supply_voltage_min_v: 2.4
+  supply_voltage_max_v: 3.3
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  resolution_pixels: "240 x 240 (or 240 x 320)"
+  color_depth_bits: 16
+  colors_supported: 65536
+  spi_clock_max_mhz: 62.5
+  operating_current_ma: 12
+  backlight_current_ma: 50
+  operating_temp_min_c: -30
+  operating_temp_max_c: 85
+  interfaces: [4-Wire SPI (CS, DC, SDA, SCL, RES)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - colors_supported
+  - spi_clock_max_mhz
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ST7789 1.3-inch 240x240 IPS TFT LCD display module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/st7789.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.crystalfontz.com/controllers/Sitronix/ST7789V/320/" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.sitronix.com.tw" }

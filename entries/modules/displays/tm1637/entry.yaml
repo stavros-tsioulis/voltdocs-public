@@ -1,0 +1,42 @@
+id: display.led.tm1637
+revision: "1.0"
+title: TM1637 — 4-Digit 7-Segment LED Display Driver Module
+category: displays/led
+tags: [tm1637, 7-segment, led, display, driver, titan-micro, 4-digit, clock-display]
+status: published
+summary: >-
+  Titan Micro Electronics 2-wire serial LED driver IC controlling 4-digit (or up to 6-digit) 7-segment LED displays with 8-level adjustable brightness.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Titan Micro Electronics
+  ic_part_numbers: [TM1637]
+  package: SOP20 / 0.36" & 0.56" 4-Digit LED Module
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0
+  display_digits: 4
+  segment_drive_current_ma: 50
+  brightness_levels: 8
+  key_scan_inputs: 16
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [2-Wire Serial (CLK, DIO)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - display_digits
+  - brightness_levels
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TM1637 4-digit 7-segment display module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tm1637.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.mouser.com/datasheet/2/758/TM1637_V2.4_EN-3185329.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.titanmicro.com" }

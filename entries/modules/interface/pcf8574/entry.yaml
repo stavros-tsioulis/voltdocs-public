@@ -1,0 +1,42 @@
+id: interface.gpio.pcf8574
+revision: "1.0"
+title: PCF8574 — Remote 8-Bit I/O Expander for I2C Bus
+category: interface/gpio
+tags: [pcf8574, pcf8574a, i2c, gpio, expander, lcd-backpack, nxp, ti]
+status: published
+summary: >-
+  NXP and Texas Instruments remote 8-bit I/O expander for I2C-bus, featuring quasi-bidirectional I/O ports, an open-drain interrupt output, and 3 hardware address selection pins.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: NXP Semiconductors / Texas Instruments
+  ic_part_numbers: [PCF8574, PCF8574A, PCF8574P, PCF8574T, PCF8574AT]
+  package: DIP16, SO16, SSOP20
+  supply_voltage_min_v: 2.5
+  supply_voltage_max_v: 6.0
+  i2c_clock_max_khz: 100
+  io_pins: 8
+  i2c_address_base_hex: "0x20"
+  i2c_address_pcf8574a_base_hex: "0x38"
+  standby_current_max_ua: 10
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - i2c_clock_max_khz
+  - io_pins
+  - i2c_address_base_hex
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: PCF8574 I2C breakout / LCD backpack board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pcf8574.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nxp.com/products/interfaces/ic-bus-portfolio/ic-general-purpose-i-o/remote-8-bit-i-o-expander-for-i2c-bus:PCF8574" }

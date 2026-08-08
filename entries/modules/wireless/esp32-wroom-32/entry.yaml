@@ -1,0 +1,50 @@
+id: module.wireless.esp32-wroom-32
+revision: "1.0"
+title: ESP32-WROOM-32 — Wi-Fi + Bluetooth / BLE MCU Module
+category: wireless/wifi
+tags: [esp32, esp32-wroom-32, wifi, bluetooth, ble, espressif, xtensa, dual-core, iot]
+status: published
+summary: >-
+  Espressif Systems powerful, generic Wi-Fi + Bluetooth + Bluetooth LE MCU module powered by the dual-core 32-bit Xtensa LX6 ESP32-D0WDQ6 chip for high-performance IoT applications.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Espressif Systems
+  ic_part_numbers: [ESP32-WROOM-32, ESP32-WROOM-32D, ESP32-WROOM-32E]
+  package: 38-pin SMD module (18 x 25.5 mm) / DevKit Breakout
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 3.6
+  cpu_frequency_mhz: 240
+  cpu_cores: 2
+  flash_memory_bytes: 4194304
+  sram_bytes: 524288
+  wifi_standard: "802.11 b/g/n (2.4 GHz)"
+  bluetooth_version: "Bluetooth v4.2 BR/EDR and BLE"
+  gpio_pins: 32
+  adc_channels: 18
+  dac_channels: 2
+  touch_pad_channels: 10
+  peak_tx_current_ma: 240
+  deep_sleep_current_ua: 5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [UART, SPI, I2C, I2S, PWM, ADC, DAC, CAN 2.0, Capacitive Touch]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - cpu_frequency_mhz
+  - cpu_cores
+  - flash_memory_bytes
+  - sram_bytes
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ESP32-WROOM-32 development board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/esp32.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.espressif.com/en/products/modules/esp32" }

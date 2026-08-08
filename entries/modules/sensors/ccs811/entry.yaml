@@ -1,0 +1,48 @@
+id: sensor.environmental.ccs811
+revision: "1.0"
+title: CCS811 — Digital Gas Sensor for Indoor Air Quality
+category: sensors/environmental
+tags: [ccs811, sensor, voc, eco2, air-quality, gas, i2c, ams, indoor-air-quality, environmental, TVOC]
+status: published
+summary: >-
+  ams OSRAM ultra-low power digital gas sensor monitoring Total Volatile Organic Compounds (TVOC) and equivalent CO2 (eCO2) levels with onboard MCU processing and I2C output.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ams OSRAM
+  ic_part_numbers: [CCS811, CCS811B]
+  package: 10-pin LGA (2.7 x 4.0 x 1.1 mm) / Breakout Module
+  supply_voltage_min_v: 1.8
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  tvoc_range_ppb_min: 0
+  tvoc_range_ppb_max: 1187
+  eco2_range_ppm_min: 400
+  eco2_range_ppm_max: 8192
+  i2c_address_default: "0x5A"
+  i2c_address_alternate: "0x5B"
+  operating_current_ma: 26
+  operating_temp_min_c: -5
+  operating_temp_max_c: 50
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - eco2_range_ppm_min
+  - eco2_range_ppm_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: CCS811 indoor air quality gas sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ccs811.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ams.com/documents/20143/36005/CCS811_DS000459_7-00.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://ams.com/ccs811" }

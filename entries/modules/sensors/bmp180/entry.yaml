@@ -1,0 +1,47 @@
+id: sensor.pressure.bmp180
+revision: "1.0"
+title: BMP180 — Digital Barometric Pressure Sensor
+category: sensors/pressure
+tags: [bmp180, pressure, temperature, altitude, sensor, i2c, bosch, gy-68]
+status: published
+summary: >-
+  Bosch Sensortec digital barometric pressure sensor IC for altitude tracking, weather forecasting, and indoor navigation over an I2C interface.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Bosch Sensortec
+  ic_part_numbers: [BMP180]
+  package: 7-pin LCC (3.6 x 3.8 x 0.93 mm) / GY-68 Breakout Board
+  supply_voltage_min_v: 1.8
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  pressure_range_hpa_min: 300
+  pressure_range_hpa_max: 1100
+  temperature_range_c_min: -40
+  temperature_range_c_max: 85
+  pressure_accuracy_hpa: 1.0
+  i2c_address_default: "0x77"
+  peak_current_ua: 650
+  standby_current_ua: 0.1
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - pressure_range_hpa_min
+  - pressure_range_hpa_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: BMP180 barometric pressure sensor breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bmp180.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.bosch-sensortec.com" }

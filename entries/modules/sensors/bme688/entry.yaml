@@ -1,0 +1,53 @@
+id: sensor.environmental.bme688
+revision: "1.0"
+title: BME688 — 4-in-1 Environmental & Gas Sensor with AI
+category: sensors/environmental
+tags: [bme688, bme680, bosch, environmental, gas, voc, temperature, pressure, humidity, ai, bsec, i2c, spi, adafruit]
+status: published
+summary: >-
+  Bosch Sensortec 4-in-1 environmental sensor measuring gas (VOCs, VSCs, odor signatures), barometric pressure, humidity, and temperature over I2C/SPI with BSEC 2.0 AI software support.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Bosch Sensortec
+  ic_part_numbers: [BME688]
+  package: 8-pin LGA (3.0 x 3.0 x 0.93 mm) / Breakout Module
+  supply_voltage_min_v: 1.71
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  temperature_range_c_min: -40
+  temperature_range_c_max: 85
+  pressure_range_hpa_min: 300
+  pressure_range_hpa_max: 1100
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  i2c_address_default: "0x77"
+  i2c_address_alternate: "0x76"
+  operating_current_ma: 3.9
+  sleep_current_ua: 0.15
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, 3-Wire SPI, 4-Wire SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - pressure_range_hpa_min
+  - pressure_range_hpa_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: BME688 4-in-1 AI environmental sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bme688.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme688/" }

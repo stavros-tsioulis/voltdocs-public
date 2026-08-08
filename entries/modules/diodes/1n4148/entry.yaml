@@ -1,0 +1,44 @@
+id: diode.switching.1n4148
+revision: "1.0"
+title: 1N4148 — Fast Small-Signal Switching Diode (100V, 200mA)
+category: diodes/switching
+tags: [1n4148, 1n914, diode, switching, small-signal, do-35, onsemi, signal, fast-recovery]
+status: published
+summary: >-
+  Industry-standard fast small-signal silicon switching diode in DO-35 axial package, rated 100V reverse and ~200mA forward, with 4ns reverse recovery for high-speed logic, clamping, and protection.
+updatedAt: "2026-08-04"
+fields:
+  manufacturer: ON Semiconductor / Vishay / Nexperia / Generic
+  ic_part_numbers: [1N4148, 1N4148TR, 1N914, 1N4448]
+  package: DO-35 (DO-204AH) Axial Glass
+  diode_type: Silicon Small-Signal Switching Diode
+  peak_repetitive_reverse_voltage_vrrm_v: 100
+  average_forward_current_if_ma: 200
+  non_repetitive_peak_forward_surge_current_ifsm_a: 1.0
+  forward_voltage_drop_vf_v: 1.0
+  reverse_recovery_time_trr_ns: 4
+  reverse_leakage_current_ir_ua: 5.0
+  junction_capacitance_pf: 4
+  operating_temp_min_c: -65
+  operating_temp_max_c: 175
+  interfaces: [2-Terminal Axial Passive (Anode, Cathode)]
+highlights:
+  - diode_type
+  - peak_repetitive_reverse_voltage_vrrm_v
+  - average_forward_current_if_ma
+  - reverse_recovery_time_trr_ns
+  - forward_voltage_drop_vf_v
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 1N4148 small-signal switching diode in DO-35 glass package with cathode band
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/1n4148.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/download/data-sheet/pdf/1n914-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discrete-power-modules/small-signal-switching-diodes/1n4148" }

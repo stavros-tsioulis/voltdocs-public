@@ -1,0 +1,43 @@
+id: sensor.color.tcs3200
+revision: "1.0"
+title: TCS3200 — Programmable Color Light-to-Frequency Converter
+category: sensors/color
+tags: [tcs3200, tcs230, color, rgb, frequency, photodiode, ams, taos, sorting-robot]
+status: published
+summary: >-
+  AMS/TAOS programmable color light-to-frequency converter combining an 8x8 array of filtered photodiodes (Red, Green, Blue, Clear) with a square-wave frequency output proportional to light intensity.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: AMS OSRAM / TAOS
+  ic_part_numbers: [TCS3200, TCS3200D, TCS230]
+  package: 8-pin SOIC / Breakout Board with 4 White LEDs
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  output_type: Square-Wave Frequency (50% duty cycle)
+  output_frequency_scaling_pct: [2, 20, 100]
+  photodiode_array_size: "8 x 8 (64 photodiodes)"
+  filters: [Red, Green, Blue, Clear]
+  operating_current_ma: 2.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Digital Frequency Output (OUT, S0-S3 Control)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_type
+  - photodiode_array_size
+  - filters
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TCS3200 color sensor module with white illumination LEDs
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tcs3200.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ams.com/documents/20143/36005/TCS3200_DS000122_3-00.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://ams.com" }

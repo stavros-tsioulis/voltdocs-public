@@ -1,0 +1,40 @@
+id: interface.counter.cd4017
+revision: "1.0"
+title: CD4017B — 5-Stage Johnson Decade Counter with 10 Decoded Outputs
+category: interface/logic
+tags: [cd4017, cd4017b, 74hc4017, decade-counter, johnson-counter, chaser, sequencer, leds, cmos, texas-instruments, dip-16]
+status: published
+summary: >-
+  CMOS 5-stage Johnson decade counter IC with 10 active-high decoded outputs, CARRY OUT signal, and clock inhibit/reset, famous for LED chaser circuits, frequency division, and sequential control.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4017B, CD4017BE, CD4017BM, 74HC4017]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: CMOS 4000 Series / High-Speed CMOS (74HC)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  outputs_count: 10 Decoded Active-High Outputs (Q0-Q9)
+  max_clock_frequency_mhz: 5.5 (at 10V) / 2.5 (at 5V)
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [CLOCK, CLOCK INHIBIT, RESET, CARRY OUT, Q0-Q9]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - outputs_count
+  - max_clock_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: CD4017B decade counter IC in 16-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/cd4017.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4017b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4017B" }

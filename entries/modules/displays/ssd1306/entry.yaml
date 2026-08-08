@@ -1,0 +1,47 @@
+id: display.oled.ssd1306
+revision: "1.0"
+title: SSD1306 — 128x64 Dot Matrix OLED/PLED Controller/Driver
+category: displays/oled
+tags: [ssd1306, oled, display, 128x64, 128x32, i2c, spi, solomon-systech]
+status: published
+summary: >-
+  Solomon Systech single-chip CMOS OLED/PLED driver with controller for 128x64 dot-matrix graphic display systems, supporting I2C and SPI interfaces.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Solomon Systech
+  ic_part_numbers: [SSD1306, SSD1306BZ]
+  package: COG / 0.96" and 0.91" OLED Breakout Board
+  resolution: "128x64 / 128x32 dots"
+  logic_voltage_min_v: 1.65
+  logic_voltage_max_v: 3.3
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  vcc_display_min_v: 7.0
+  vcc_display_max_v: 15.0
+  gram_bytes: 1024
+  i2c_address_default: "0x3C"
+  i2c_address_alternate: "0x3D"
+  i2c_clock_max_khz: 400
+  spi_clock_max_mhz: 10
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, 4-Wire SPI, 3-Wire SPI, 8-bit Parallel]
+highlights:
+  - resolution
+  - logic_voltage_min_v
+  - logic_voltage_max_v
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: SSD1306 0.96" I2C OLED module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ssd1306.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.cdn-sparkfun.com/datasheets/Displays/OLED/SSD1306.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.solomon-systech.com" }

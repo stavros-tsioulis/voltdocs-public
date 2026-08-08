@@ -1,0 +1,49 @@
+id: display.epaper.waveshare-2in13
+revision: "1.0"
+title: Waveshare 2.13-Inch E-Paper Display HAT (250x122)
+category: displays/e-paper
+tags: [waveshare, epaper, e-ink, display, hat, spi, raspberry-pi, low-power, electronic-paper, dashboard]
+status: published
+summary: >-
+  Waveshare 2.13-inch ultra-low-power electronic paper (E-Ink) display module featuring 250x122 resolution, 3-wire/4-wire SPI interface, partial refresh support, and 40-pin Raspberry Pi GPIO header compatibility.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Waveshare
+  ic_part_numbers: [SSD1680, Waveshare-2.13inch-e-Paper-HAT]
+  package: Display Module PCB with 40-pin Pi Header
+  operating_voltage_min_v: 3.3
+  operating_voltage_max_v: 5.0
+  display_resolution_x: 250
+  display_resolution_y: 122
+  display_size_inch: 2.13
+  display_colors: Black and White (or Red/Yellow tricolor variants)
+  interface: 3-Wire SPI / 4-Wire SPI
+  full_refresh_time_s: 2.0
+  partial_refresh_time_s: 0.3
+  refresh_power_mw: 26.4
+  standby_power_mw: 0.017
+  operating_temp_min_c: 0
+  operating_temp_max_c: 50
+  interfaces: [SPI]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - display_resolution_x
+  - display_resolution_y
+  - display_size_inch
+  - full_refresh_time_s
+  - partial_refresh_time_s
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Waveshare 2.13-inch e-Paper HAT mounted on Raspberry Pi
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/waveshare-2in13-epaper.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.waveshare.com/w/upload/e/e6/2.13inch_e-Paper_HAT_V4_Specification.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.waveshare.com/2.13inch-e-paper-hat.htm" }

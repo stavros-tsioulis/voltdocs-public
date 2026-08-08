@@ -1,0 +1,45 @@
+id: audio.amplifier.lm386
+revision: "1.0"
+title: LM386 — Low Voltage Audio Power Amplifier
+category: audio/amplifier
+tags: [lm386, lm386n, audio, amplifier, speaker, amp, gain, dip-8, ti, elegoo, starter-kit]
+status: published
+summary: >-
+  Texas Instruments low-voltage audio power amplifier IC delivering up to 1.0W into 8-ohm speakers with internally set voltage gain of 20 (expandable to 200 via external capacitor).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor
+  ic_part_numbers: [LM386, LM386N-1, LM386N-3, LM386N-4, LM386M-1]
+  package: 8-pin DIP / SOIC-8 / Breakout Module with Potentiometer
+  supply_voltage_min_v: 4.0
+  supply_voltage_max_v: 12.0
+  output_power_w: 0.70 (LM386N-1 at 9V, 8Ω) / 1.0 (LM386N-4 at 16V)
+  voltage_gain_default: 20 (26 dB)
+  voltage_gain_max: 200 (46 dB)
+  thd_pct: 0.2
+  quiescent_current_ma: 4.0
+  speaker_impedance_ohm: 4 - 32
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Analog Audio Input, Speaker Out]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_power_w
+  - voltage_gain_default
+  - voltage_gain_max
+  - speaker_impedance_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: LM386 audio amplifier IC in 8-pin DIP package and module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm386.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm386.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM386" }

@@ -1,0 +1,48 @@
+id: expansion.hat.raspberry-pi-sense
+revision: "1.0"
+title: Raspberry Pi Sense HAT — Astro Pi Multi-Sensor & LED Matrix Board
+category: expansion/hats
+tags: [raspberry-pi, sense-hat, astro-pi, hat, imu, barometer, humidity, temperature, led-matrix, joystick, stem]
+status: published
+summary: >-
+  Official Raspberry Pi Foundation multi-sensor HAT featuring an 8x8 RGB LED matrix, 5-button joystick, 9-DOF IMU (LSM9DS1), pressure/temp sensor (LPS25H), and humidity/temp sensor (HTS221) over I2C.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Raspberry Pi Foundation
+  ic_part_numbers: [LSM9DS1, LPS25H, HTS221, ATTINY88]
+  package: Raspberry Pi 40-pin HAT (65 x 56 mm)
+  operating_voltage_min_v: 4.8
+  operating_voltage_max_v: 5.25
+  matrix_size: 8x8 RGB LED Matrix (LED2472G driver)
+  imu_sensor: "LSM9DS1 (9-DOF: Accel + Gyro + Magnetometer)"
+  pressure_sensor: LPS25H (260-1260 hPa Barometer + Temp)
+  humidity_sensor: HTS221 (0-100% Relative Humidity + Temp)
+  joystick: 5-Button Miniature Joystick (Up, Down, Left, Right, Click)
+  i2c_addresses: ["0x1C (Mag)", "0x6A (Accel/Gyro)", "0x5C (Baro)", "0x5F (Humid)", "0x46 (MCU/LED/Joy)"]
+  operating_current_ma: 450
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [I2C, Raspberry Pi 40-pin GPIO]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - matrix_size
+  - imu_sensor
+  - pressure_sensor
+  - humidity_sensor
+  - joystick
+  - i2c_addresses
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Raspberry Pi Sense HAT mounted on Raspberry Pi GPIO header
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/raspberry-pi-sense-hat.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://datasheets.raspberrypi.com/sense-hat/sense-hat-product-brief.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.raspberrypi.com/products/sense-hat/" }

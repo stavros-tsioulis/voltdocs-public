@@ -1,0 +1,42 @@
+id: sensor.flex.flex-sensor-22
+revision: "1.0"
+title: Flex Sensor (2.2") — Variable Resistance Bend Sensor
+category: sensors/flex
+tags: [flex-sensor, bend-sensor, spectra-symbol, adafruit, sparkfun, analog, resistance, glove, wearables, robotics]
+status: published
+summary: >-
+  Spectra Symbol 2.2-inch flexible carbon resistive strip sensor that increases resistance as it bends (10 kΩ flat to ~30-40 kΩ at 90° bend) for VR gloves, robotics, and wearables.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Spectra Symbol / SparkFun
+  ic_part_numbers: [SEN-10264, FS-L-0054-252-ST]
+  package: Flexible Substrate Strip (2-pin 0.1" Header)
+  length_inch: 2.2
+  length_mm: 55.88
+  flat_resistance_kohm: 10.0
+  bend_resistance_90deg_kohm: 30.0 - 40.0
+  continuous_power_rating_w: 0.5
+  bend_life_cycles: "> 1000000"
+  operating_temp_min_c: -35
+  operating_temp_max_c: 80
+  interfaces: [2-Terminal Passive Resistance]
+highlights:
+  - length_inch
+  - flat_resistance_kohm
+  - bend_resistance_90deg_kohm
+  - continuous_power_rating_w
+  - bend_life_cycles
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Spectra Symbol 2.2-inch flex bend sensor
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/flex-sensor-22.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/FlexSensor.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.sparkfun.com/products/10264" }

@@ -1,0 +1,50 @@
+id: sensor.distance.vl6180x
+revision: "1.0"
+title: VL6180X — Time-of-Flight (ToF) Proximity & Ambient Light Sensor
+category: sensors/distance
+tags: [vl6180x, tof, time-of-flight, distance, proximity, ambient-light, lux, stmicroelectronics, i2c, adafruit]
+status: published
+summary: >-
+  STMicroelectronics FlightSense 3-in-1 optical sensor integrating an 850nm VCSEL laser emitter, ToF proximity rangefinder (0 to 10cm / 40cm), 16-bit ambient light sensor (ALS), and I2C output (0x29).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [VL6180X, VL6180XV0NR/1]
+  package: 12-pin Optical LGA (4.8 x 2.8 x 1.0 mm) / Breakout Board
+  supply_voltage_min_v: 2.6
+  supply_voltage_max_v: 3.0
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  proximity_range_mm_min: 0
+  proximity_range_mm_max: 100 (up to 400 in dark conditions)
+  emitter_wavelength_nm: 850 (VCSEL Laser)
+  ambient_light_range_lux: 0.1 - 100000
+  i2c_address_default: "0x29"
+  operating_current_ma: 15
+  standby_current_ua: 1
+  operating_temp_min_c: -20
+  operating_temp_max_c: 70
+  interfaces: [I2C (Fast-Mode up to 400kHz)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - proximity_range_mm_max
+  - emitter_wavelength_nm
+  - ambient_light_range_lux
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: VL6180X ToF proximity and ambient light sensor breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/vl6180x.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/vl6180x.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/3318" }

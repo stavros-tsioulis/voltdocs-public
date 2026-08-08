@@ -1,0 +1,44 @@
+id: sensor.power.pzem-004t
+revision: "1.0"
+title: PZEM-004T — AC Energy & Power Monitoring Module
+category: sensors/power
+tags: [pzem-004t, pzem004t, power, energy, ac-meter, voltage, current, power-factor, uart, optocoupled, peacefair, esphome]
+status: published
+summary: >-
+  Peacefair single-phase AC energy monitoring module featuring optocoupled TTL UART output, measuring AC voltage (80-260V), current (0-100A via current transformer), active power, energy consumption, frequency, and power factor.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Peacefair
+  ic_part_numbers: [PZEM-004T, PZEM-004T-100A, PZEM-004T-V3.0]
+  package: Enclosed Plastic Module with CT Coil (4-pin TTL Header)
+  ac_voltage_range_v_min: 80.0
+  ac_voltage_range_v_max: 260.0
+  ac_current_range_a_max: 100.0
+  power_range_w_max: 23000
+  energy_range_kwh_max: 99999
+  frequency_range_hz_min: 45.0
+  frequency_range_hz_max: 65.0
+  power_factor_range: 0.00 - 1.00
+  measurement_accuracy_pct: 1.0
+  baud_rate_bps: 9600
+  interfaces: [Optocoupled TTL UART (Modbus-RTU)]
+highlights:
+  - ac_voltage_range_v_min
+  - ac_voltage_range_v_max
+  - ac_current_range_a_max
+  - power_range_w_max
+  - measurement_accuracy_pct
+  - baud_rate_bps
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: PZEM-004T AC power monitoring module with split-core CT transformer
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pzem-004t.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://innovatorsguru.com/wp-content/uploads/2019/06/PZEM-004T-V3.0-Datasheet-User-Manual.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.peacefair.cn" }

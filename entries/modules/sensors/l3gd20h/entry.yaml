@@ -1,0 +1,49 @@
+id: sensor.gyroscope.l3gd20h
+revision: "1.0"
+title: L3GD20H — 3-Axis Digital Angular Rate Sensor (Gyroscope)
+category: sensors/gyroscope
+tags: [l3gd20h, l3gd20, gyroscope, gyro, imu, motion, 3-axis, angular-rate, i2c, spi, stmicroelectronics]
+status: published
+summary: >-
+  STMicroelectronics 3-axis digital angular rate sensor (gyroscope) measuring angular velocity up to ±2000 dps with I2C/SPI interfaces, integrated temperature sensor, and low-pass filter choices.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [L3GD20H, L3GD20HTR]
+  package: 16-pin LGA (3 x 3 x 1 mm) / Breakout Module
+  supply_voltage_min_v: 2.2
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  gyro_full_scale_dps: [245, 500, 2000]
+  adc_resolution_bits: 16
+  data_rate_hz_min: 12.5
+  data_rate_hz_max: 800
+  operating_current_ma: 6.0
+  sleep_current_ma: 2.0
+  power_down_current_ua: 5.0
+  i2c_address_default: "0x6B"
+  i2c_address_alternate: "0x6A"
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, 3-Wire SPI, 4-Wire SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - gyro_full_scale_dps
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: L3GD20H 3-axis gyroscope breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/l3gd20h.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/l3gd20h.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/mems-and-sensors/l3gd20h.html" }

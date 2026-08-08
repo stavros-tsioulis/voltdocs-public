@@ -1,0 +1,45 @@
+id: power.regulator.ams1117-33
+revision: "1.0"
+title: AMS1117-3.3 — 800mA Fixed 3.3V Low Dropout (LDO) Regulator
+category: power/regulator
+tags: [ams1117, ams1117-3.3, ldo, regulator, linear, 3.3v, sot-223, power, ams, arduino, esp32]
+status: published
+summary: >-
+  Advanced Monolithic Systems low dropout (LDO) positive linear voltage regulator providing fixed +3.3V DC output at up to 800mA with 1.1V dropout, ubiquitous on Arduino and ESP development boards.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Advanced Monolithic Systems / Generic
+  ic_part_numbers: [AMS1117-3.3, AMS1117-5.0, AMS1117-ADJ, LM1117-3.3]
+  package: SOT-223 / TO-252 (DPAK) / 3-pin Breakout Board
+  regulator_type: Low Dropout (LDO) Positive Linear Regulator
+  output_voltage_v: 3.3
+  output_voltage_accuracy_pct: 1.5
+  input_voltage_v_min: 4.5
+  input_voltage_v_max: 15.0
+  dropout_voltage_v: 1.1
+  output_current_a_max: 0.8
+  quiescent_current_ma: 5.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Passive (GND/ADJ, VOUT, VIN)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: AMS1117-3.3 LDO regulator in SOT-223 package and breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ams1117-33.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "http://www.advanced-monolithic.com/pdf/ds1117.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.advanced-monolithic.com" }

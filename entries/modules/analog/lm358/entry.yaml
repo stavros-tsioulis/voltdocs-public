@@ -1,0 +1,47 @@
+id: analog.opamp.lm358
+revision: "1.0"
+title: LM358 — Dual Low-Power General-Purpose Operational Amplifier
+category: analog/opamp
+tags: [lm358, lm358n, op-amp, operational-amplifier, dual, analog, ti, onsemi, stmicroelectronics]
+status: published
+summary: >-
+  Texas Instruments / ON Semiconductor industry-standard dual operational amplifier operating from single (3V to 32V) or split (±1.5V to ±16V) supplies with low 500µA current draw.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / STMicroelectronics
+  ic_part_numbers: [LM358, LM358N, LM358P, LM358D]
+  package: 8-pin DIP / SOIC-8
+  opamp_channels: 2 (Dual Op-Amp)
+  supply_voltage_single_v_min: 3.0
+  supply_voltage_single_v_max: 32.0
+  supply_voltage_split_v_min: -1.5
+  supply_voltage_split_v_max: 16.0
+  gain_bandwidth_product_mhz: 1.0
+  slew_rate_v_us: 0.3
+  input_offset_voltage_mv: 2.0
+  input_bias_current_na: 45.0
+  quiescent_current_ua: 500
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Dual Op-Amp Analog Terminals]
+highlights:
+  - opamp_channels
+  - supply_voltage_single_v_min
+  - supply_voltage_single_v_max
+  - gain_bandwidth_product_mhz
+  - slew_rate_v_us
+  - input_offset_voltage_mv
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: LM358 dual operational amplifier IC in 8-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm358.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm358.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM358" }

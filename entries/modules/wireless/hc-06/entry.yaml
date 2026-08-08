@@ -1,0 +1,45 @@
+id: module.wireless.hc-06
+revision: "1.0"
+title: HC-06 — Bluetooth 2.0 Serial Port Module (Slave Only)
+category: wireless/bluetooth
+tags: [hc-06, hc06, bluetooth, serial, uart, wireless, csr, slave]
+status: published
+summary: >-
+  Generic slave-only Bluetooth 2.0 + EDR serial pass-through module based on the CSR BC417 chipset for wireless UART serial communication with smartphones and PCs.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (CSR BC417 chipset)
+  ic_part_numbers: [BC417143, HC-06]
+  package: 34-pin castellation module / 4-pin Baseboard
+  supply_voltage_min_v: 3.6
+  supply_voltage_max_v: 6.0
+  operating_voltage_v: 5.0
+  logic_level_v: 3.3
+  bluetooth_version: "Bluetooth v2.0 + EDR"
+  default_baud_rate: 9600
+  operating_mode: "Slave Only"
+  operating_current_ma: 30
+  connected_current_ma: 10
+  range_m: 10
+  operating_temp_min_c: -25
+  operating_temp_max_c: 75
+  interfaces: [UART]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bluetooth_version
+  - default_baud_rate
+  - operating_mode
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HC-06 Bluetooth serial module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hc-06.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.olimex.com/Products/Components/RF/BLUETOOTH-SERIAL-HC-06/resources/hc-06.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.olimex.com" }

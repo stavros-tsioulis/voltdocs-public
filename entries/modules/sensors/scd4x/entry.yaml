@@ -1,0 +1,50 @@
+id: sensor.environmental.scd4x
+revision: "1.0"
+title: SCD40 / SCD41 — Miniature Photoacoustic NDIR CO2 Sensor
+category: sensors/environmental
+tags: [scd40, scd41, scd4x, co2, photoacoustic, ndir, carbon-dioxide, sensirion, i2c, air-quality]
+status: published
+summary: >-
+  Sensirion ultra-compact (101 mm³) photoacoustic NDIR CO2 sensor module delivering high-precision carbon dioxide readings (up to 40,000 ppm on SCD41) with temperature and humidity outputs.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sensirion
+  ic_part_numbers: [SCD40-2K-RE, SCD41-2K-RE]
+  package: 20-pin PAS (10.1 x 10.1 x 6.5 mm) / Breakout Board
+  supply_voltage_min_v: 2.4
+  supply_voltage_max_v: 5.5
+  scd40_co2_range_ppm_max: 2000
+  scd41_co2_range_ppm_max: 40000
+  co2_accuracy_ppm: 40
+  co2_accuracy_pct: 5.0
+  temperature_range_c_min: -10
+  temperature_range_c_max: 60
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  i2c_address_default: "0x62"
+  peak_current_ma: 205
+  average_current_ma: 18
+  low_power_current_ma: 3.2
+  operating_temp_min_c: 0
+  operating_temp_max_c: 50
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - scd40_co2_range_ppm_max
+  - scd41_co2_range_ppm_max
+  - co2_accuracy_ppm
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Sensirion SCD40 / SCD41 CO2 sensor breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/scd4x.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensirion.com/media/documents/E0D04250/61E9A4B7/Sensirion_CO2_Sensors_SCD4x_Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://sensirion.com/products/catalog/SCD41/" }

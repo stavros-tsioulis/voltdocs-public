@@ -1,0 +1,47 @@
+id: expansion.hat.pijuice
+revision: "1.0"
+title: PiJuice HAT — Uninterruptible Power Supply (UPS) & Battery HAT
+category: expansion/hat
+tags: [pijuice, pijuice-hat, ups, battery, power, raspberry-pi, hat, lipo, solar, i2c, pi-supply]
+status: published
+summary: >-
+  Pi Supply intelligent hardware UPS HAT for Raspberry Pi featuring an integrated 1820mAh LiPo battery, onboard MCU power management, real-time clock (RTC), solar charging input, and I2C telemetry (0x14).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Pi Supply (Nebra)
+  ic_part_numbers: [PiJuice HAT, STM32F030C8T6 MCU, BQ24160 Charger, LC709203F Fuel Gauge]
+  package: Standard Raspberry Pi 40-Pin GPIO HAT with 1820mAh BP6X LiPo Battery
+  input_voltage_v_min: 4.2
+  input_voltage_v_max: 10.0
+  output_voltage_v: 5.2
+  output_current_a_max: 2.5
+  battery_capacity_mah: 1820 (Included BP6X cell, expandable to 12000mAh+)
+  battery_chemistry: Lithium Polymer (LiPo) / Lithium Ion (Li-Ion)
+  real_time_clock: Onboard Hardware RTC with Battery Backup
+  solar_panel_charging_support: True (Dedicated Solar Input Header)
+  i2c_address_default: "0x14"
+  interfaces: [I2C, GPIO Power Pins, Micro-USB / USB-C Charge Port]
+highlights:
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v
+  - output_current_a_max
+  - battery_capacity_mah
+  - battery_chemistry
+  - real_time_clock
+  - solar_panel_charging_support
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: PiJuice HAT UPS with BP6X LiPo battery mounted on Raspberry Pi GPIO header
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pijuice-hat.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://github.com/PiSupply/PiJuice/raw/master/Hardware/PiJuice-HAT-V1.0-Schematic.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://uk.pi-supply.com/products/pijuice-hat" }

@@ -1,0 +1,42 @@
+id: driver.display.lm3914
+revision: "1.0"
+title: LM3914 — Dot/Bar Display Driver (Linear)
+category: drivers/display
+tags: [lm3914, lm3914n, led-driver, bar-graph, vu-meter, dot-bar, linear, analog, texas-instruments, dip-18]
+status: published
+summary: >-
+  Texas Instruments monolithic integrated circuit that senses analog voltage levels and drives a 10-LED dot or bar graph display linearly with an internal adjustable reference and regulated LED current.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor
+  ic_part_numbers: [LM3914, LM3914N-1, LM3914V]
+  package: 18-pin DIP / PLCC-20
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 25.0
+  outputs_count: 10 Regulated Current Outputs (LED1-LED10)
+  display_modes: [Bar Graph, Moving Dot]
+  reference_voltage_v: 1.25 (Adjustable up to 12V)
+  led_drive_current_ma: 2 to 30 (Programmed via single resistor)
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Analog Signal In (SIG), Mode Select (MODE), Ref Out, Ref Adj, RLO, RHI, 10x LED Outputs]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - outputs_count
+  - display_modes
+  - reference_voltage_v
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: LM3914 linear LED bar graph driver IC in 18-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm3914.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm3914.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM3914" }

@@ -1,0 +1,43 @@
+id: sensor.power.hlw8012
+revision: "1.0"
+title: HLW8012 — Single-Phase Energy Monitoring IC
+category: sensors/power
+tags: [hlw8012, energy, power, metering, sonoff, sonoff-pow, esphome, tasmota, smart-plug, pulse-output]
+status: published
+summary: >-
+  HLW single-phase electricity metering IC featuring dual frequency pulse outputs (CF for active power, CF1 for voltage or current select), embedded inside Sonoff POW smart switches.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: HLW (Zhongshan Belling)
+  ic_part_numbers: [HLW8012, HLW8012-SOP8]
+  package: 8-pin SOP / Smart Switch Internal PCB
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  measurement_channels: 2 (1 Voltage/Current Select + 1 Power)
+  adc_resolution_bits: 16
+  output_type: Dual Frequency Pulse Outputs (CF, CF1)
+  measurement_accuracy_pct: 0.5
+  operating_current_ma: 3.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Pulse Frequency Output (CF, CF1, SEL Select)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - measurement_channels
+  - output_type
+  - measurement_accuracy_pct
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HLW8012 energy monitoring IC SOP-8 package and Sonoff POW PCB
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hlw8012.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://github.com/xoseperez/hlw8012/raw/master/docs/HLW8012_datasheet_en.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.sz-hlw.com" }

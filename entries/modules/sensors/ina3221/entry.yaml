@@ -1,0 +1,51 @@
+id: sensor.power.ina3221
+revision: "1.0"
+title: INA3221 — Triple-Channel High-Side Current & Bus Voltage Monitor
+category: sensors/power
+tags: [ina3221, power, current, voltage, monitor, shunt, triple-channel, i2c, ti, texas-instruments, esphome]
+status: published
+summary: >-
+  Texas Instruments 3-channel high-side current and bus voltage monitor measuring currents up to ±3.2A and bus voltages from 0V to 26V across three independent channels over I2C (0x40).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [INA3221, INA3221AIRGVR]
+  package: 16-pin QFN (4.0 x 4.0 mm) / Breakout Module with Terminal Blocks
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  bus_voltage_range_v_min: 0
+  bus_voltage_range_v_max: 26
+  channels: 3 Independent Shunt & Bus Voltage Channels
+  onboard_shunt_resistor_ohm: 0.1 (100 mΩ)
+  max_current_per_channel_a: 3.2
+  adc_resolution_bits: 13
+  i2c_address_default: "0x40"
+  i2c_address_options: ["0x40", "0x41", "0x42", "0x43"]
+  operating_current_ua: 350
+  power_down_current_ua: 5.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C, SMBus]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bus_voltage_range_v_min
+  - bus_voltage_range_v_max
+  - channels
+  - onboard_shunt_resistor_ohm
+  - max_current_per_channel_a
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: INA3221 3-channel current and voltage monitor breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ina3221.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/ina3221.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/INA3221" }

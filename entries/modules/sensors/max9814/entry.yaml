@@ -1,0 +1,44 @@
+id: sensor.audio.max9814
+revision: "1.0"
+title: MAX9814 — Electret Microphone Amplifier with Automatic Gain Control (AGC)
+category: sensors/audio
+tags: [max9814, microphone, electret, audio, agc, amplifier, maxim, analog-devices, sound]
+status: published
+summary: >-
+  Maxim Integrated / Analog Devices low-cost, high-performance electret microphone amplifier with Automatic Gain Control (AGC) and low-noise microphone bias for sound-reactive and voice projects.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Maxim Integrated / Analog Devices
+  ic_part_numbers: [MAX9814, MAX9814ETD+T]
+  package: 14-pin TDFN (3 x 3 mm) / Adafruit Breakout Board
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  selectable_gain_db: [40, 50, 60]
+  automatic_gain_control: true
+  attack_release_ratio_selectable: ["1:500", "1:2000", "1:4000"]
+  mic_bias_voltage_v: 2.0
+  operating_current_ma: 3.0
+  shutdown_current_ua: 20
+  thd_plus_noise_pct: 0.04
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Analog Output, Gain Control Pin, Action/Release Control Pin]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - selectable_gain_db
+  - automatic_gain_control
+  - mic_bias_voltage_v
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MAX9814 electret microphone amplifier breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/max9814.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX9814.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/max9814.html" }

@@ -1,0 +1,44 @@
+id: sensor.adc.pcf8591
+revision: "1.0"
+title: PCF8591 — 8-Bit 4-Channel ADC and 1-Channel DAC Module
+category: sensors/adc
+tags: [pcf8591, adc, dac, i2c, 8-bit, nxp, breakout, module, analog]
+status: published
+summary: >-
+  NXP single-chip low-power 8-bit CMOS data acquisition device featuring 4 analog inputs, 1 analog output (DAC), and I2C bus interface, commonly sold as a beginner breakout board with onboard thermistor, LDR, and potentiometer.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: NXP Semiconductors
+  ic_part_numbers: [PCF8591, PCF8591P, PCF8591T]
+  package: 16-pin DIP / SOIC / Blue Breakout Module
+  supply_voltage_min_v: 2.5
+  supply_voltage_max_v: 6.0
+  resolution_bits: 8
+  adc_channels: 4
+  dac_channels: 1
+  i2c_address_default: "0x48"
+  operating_current_ua: 250
+  standby_current_ua: 10
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - resolution_bits
+  - adc_channels
+  - dac_channels
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: PCF8591 ADC/DAC breakout module with onboard sensors
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pcf8591.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/PCF8591.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nxp.com/products/PCF8591" }

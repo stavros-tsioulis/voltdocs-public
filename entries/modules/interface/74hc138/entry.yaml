@@ -1,0 +1,44 @@
+id: interface.decoder.74hc138
+revision: "1.0"
+title: 74HC138 — 3-to-8 Line Decoder / Demultiplexer
+category: interface/logic
+tags: [74hc138, sn74hc138, decoder, demultiplexer, address-decoder, 3-to-8, cmos, texas-instruments, nexperia, dip-16]
+status: published
+summary: >-
+  High-speed CMOS 3-to-8 line decoder/demultiplexer IC with 3 active-low and active-high enable inputs, designed for high-performance memory address decoding and bus demultiplexing.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC138, SN74HC138N, 74HC138D, 74HCT138]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  address_inputs: 3 (A0, A1, A2)
+  decoded_outputs: 8 Active-Low Outputs (/Y0 - /Y7)
+  enable_inputs: 3 (G1 Active-High, /G2A and /G2B Active-Low)
+  propagation_delay_ns: 15
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [3 Address Inputs, 3 Enable Lines, 8 Active-Low Decoded Outputs]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - address_inputs
+  - decoded_outputs
+  - enable_inputs
+  - propagation_delay_ns
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 74HC138 3-to-8 decoder IC in 16-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/74hc138.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc138.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC138" }

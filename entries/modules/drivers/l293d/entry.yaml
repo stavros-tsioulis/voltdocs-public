@@ -1,0 +1,42 @@
+id: driver.motor.l293d
+revision: "1.0"
+title: L293D — Quadruple Half-H Drivers / Dual H-Bridge Motor Driver
+category: drivers/motor
+tags: [l293d, motor-driver, h-bridge, dc-motor, stepper, texas-instruments, stmicroelectronics]
+status: published
+summary: >-
+  Texas Instruments / STMicroelectronics quadruple high-current half-H driver IC designed to drive bidirectional DC motors, steppers, or relays at voltages up to 36 V and currents up to 600 mA per channel with internal clamp diodes.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics
+  ic_part_numbers: [L293D, L293NE]
+  package: 16-pin DIP / PowerDIP, SOIC-16
+  motor_supply_voltage_min_v: 4.5
+  motor_supply_voltage_max_v: 36.0
+  logic_supply_voltage_v: 5.0
+  continuous_current_per_channel_ma: 600
+  peak_current_per_channel_a: 1.2
+  channels: 4 Half-H Drivers (2 Full H-Bridges)
+  internal_clamp_diodes: true
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [4 Input Lines, 2 Enable Lines]
+highlights:
+  - motor_supply_voltage_min_v
+  - motor_supply_voltage_max_v
+  - logic_supply_voltage_v
+  - continuous_current_per_channel_ma
+  - channels
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: L293D DIP-16 motor driver IC
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/l293d.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/l293d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/L293D" }

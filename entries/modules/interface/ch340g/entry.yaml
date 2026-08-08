@@ -1,0 +1,44 @@
+id: interface.usb-uart.ch340g
+revision: "1.0"
+title: CH340G — USB to UART Serial Converter IC
+category: interface/usb-uart
+tags: [ch340, ch340g, usb-to-serial, uart, bridge, converter, wch, sop-16, arduino-clone]
+status: published
+summary: >-
+  WCH (Nanjing Qinheng Microelectronics) low-cost USB 2.0 full-speed to UART bridge controller IC in a SOP-16 package, requiring an external 12 MHz crystal, widely used on budget Arduino clones and USB-serial adapters.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: WCH (Nanjing Qinheng Microelectronics)
+  ic_part_numbers: [CH340G, CH340]
+  package: SOP-16
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.0
+  operating_voltage_v: 5.0 / 3.3
+  max_baud_rate_bps: 2000000
+  crystal_frequency_mhz: 12.0
+  usb_interface: USB 2.0 Full-Speed (12 Mbps)
+  hardware_flow_control: True (RTS, CTS, DTR, DSR, DCD, RI)
+  operating_current_ma: 12
+  standby_current_ua: 150
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [USB 2.0 Full Speed, Full-Duplex UART, Modem Control Signals]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - max_baud_rate_bps
+  - crystal_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: CH340G USB to UART bridge IC in SOP-16 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ch340g.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.wch-ic.com/downloads/CH340DS1_PDF.html" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.wch-ic.com/products/CH340.html" }

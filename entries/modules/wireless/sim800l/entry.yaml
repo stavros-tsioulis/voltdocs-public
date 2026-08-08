@@ -1,0 +1,44 @@
+id: module.wireless.sim800l
+revision: "1.0"
+title: SIM800L — Quad-Band GSM / GPRS Cellular Module
+category: wireless/cellular
+tags: [sim800l, sim800, gsm, gprs, cellular, 2g, sms, call, iot, simcom]
+status: published
+summary: >-
+  SIMCom quad-band GSM/GPRS module operating at 850/900/1800/1900 MHz for transmitting voice, SMS text messages, and GPRS data packets in compact IoT cellular applications.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: SIMCom Wireless Solutions
+  ic_part_numbers: [SIM800L]
+  package: 88-pin LGA (15.8 x 17.8 x 2.4 mm) / Micro-SIM Breakout Board
+  supply_voltage_min_v: 3.4
+  supply_voltage_max_v: 4.4
+  recommended_supply_voltage_v: 4.0
+  frequency_bands_mhz: [850, 900, 1800, 1900]
+  gprs_multislot_class: "Class 12 / 10"
+  peak_burst_current_a: 2.0
+  sleep_current_ma: 0.7
+  sim_card_type: "Micro-SIM"
+  default_baud_rate: 115200
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [UART, SIM Card, Speaker, Microphone, Antenna]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - recommended_supply_voltage_v
+  - peak_burst_current_a
+  - default_baud_rate
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: SIM800L cellular module breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sim800l.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.simcom.com/product/SIM800L.html" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.simcom.com" }

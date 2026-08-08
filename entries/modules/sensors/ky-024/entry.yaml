@@ -1,0 +1,41 @@
+id: sensor.hall.ky024
+revision: "1.0"
+title: KY-024 — Linear Hall Effect Magnetic Sensor Module
+category: sensors/hall
+tags: [ky-024, ky024, hall-effect, magnetic, sensor, lm393, analog, digital, 49e, keyes]
+status: published
+summary: >-
+  Keyes KY-024 linear magnetic field detection module combining a 49E linear Hall sensor element with an LM393 comparator, providing dual analog voltage and digital threshold outputs.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Keyes / Generic
+  ic_part_numbers: [KY-024, KY024, 49E, SS49E, LM393]
+  package: PCB Module with 49E Sensor (4-pin Header)
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.5
+  magnetic_sensitivity_mv_g: 1.4 - 3.0
+  quiescent_voltage_v: 2.5
+  output_type: Dual Analog Voltage (AO) and Digital Threshold (DO)
+  operating_current_ma: 15
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Analog Output (AO), Digital LM393 Output (DO)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - magnetic_sensitivity_mv_g
+  - quiescent_voltage_v
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: KY-024 linear Hall effect magnetic sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ky-024.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensorkit.joy-it.net/en/sensors/ky-024" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://joy-it.net/en/products/SEN-KY024" }

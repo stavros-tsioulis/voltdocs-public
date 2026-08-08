@@ -1,0 +1,40 @@
+id: sensor.moisture.capacitive-soil
+revision: "1.0"
+title: Capacitive Soil Moisture Sensor v1.2 / v2.0
+category: sensors/moisture
+tags: [soil-moisture, capacitive, sensor, moisture, analog, 555-timer, dfrobot, plant-monitoring, corrosion-resistant]
+status: published
+summary: >-
+  Corrosion-resistant analog soil moisture sensor using an onboard 555 timer circuit to measure dielectric permittivity in soil without exposed metal contacts.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (DFRobot / clones)
+  ic_part_numbers: [Capacitive Soil Moisture Sensor v1.2, v2.0, TL555I, NE555]
+  package: PCB Probe Module (3-pin PH2.0 / 0.1" header)
+  operating_voltage_min_v: 3.3
+  operating_voltage_max_v: 5.5
+  output_type: Analog Voltage
+  output_voltage_dry_v: ~3.0
+  output_voltage_wet_v: ~1.2
+  operating_current_ma: 5.0
+  operating_temp_min_c: -10
+  operating_temp_max_c: 50
+  interfaces: [Analog Output]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - output_type
+  - operating_current_ma
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Capacitive soil moisture sensor v1.2 probe
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/capacitive-soil-moisture.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://wiki.dfrobot.com/Capacitive_Soil_Moisture_Sensor_SKU_SEN0193" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.dfrobot.com/product-1385.html" }

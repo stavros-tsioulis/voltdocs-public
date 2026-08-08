@@ -1,0 +1,47 @@
+id: sensor.light.veml7700
+revision: "1.0"
+title: VEML7700 — High-Accuracy I2C Digital Ambient Light Sensor
+category: sensors/light
+tags: [veml7700, light, sensor, lux, ambient, i2c, vishay, filtron, precision, adafruit]
+status: published
+summary: >-
+  Vishay 16-bit high-accuracy digital ambient light sensor integrating Filtron spectral response technology, 120,000 Lux dynamic range, and I2C output (0x10).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Vishay Semiconductors
+  ic_part_numbers: [VEML7700, VEML7700-TR]
+  package: 4-pin OPLGA (6.8 x 2.35 x 3.0 mm) / Breakout Module
+  supply_voltage_min_v: 2.5
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  lux_range_min: 0.0036
+  lux_range_max: 120000.0
+  adc_resolution_bits: 16
+  i2c_address_default: "0x10"
+  operating_current_ua: 45
+  shutdown_current_ua: 0.5
+  operating_temp_min_c: -25
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - lux_range_min
+  - lux_range_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: VEML7700 high-accuracy light sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/veml7700.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.vishay.com/docs/84286/veml7700.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.vishay.com/ppg?84286" }

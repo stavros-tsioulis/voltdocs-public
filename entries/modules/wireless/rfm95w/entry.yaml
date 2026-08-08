@@ -1,0 +1,45 @@
+id: module.wireless.rfm95w
+revision: "1.0"
+title: RFM95W — LoRa 868/915 MHz Long-Range Wireless Transceiver
+category: wireless/lora
+tags: [rfm95w, rfm95, lora, lorawan, sx1276, hoperf, 868mhz, 915mhz, spi, wireless]
+status: published
+summary: >-
+  HopeRF ultra-long range transceiver module based on the Semtech SX1276 LoRa chip, operating in the 868 MHz / 915 MHz ISM band with +20 dBm output power and high interference immunity.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: HopeRF / Semtech
+  ic_part_numbers: [RFM95W, RFM95W-868S2, RFM95W-915S2, SX1276]
+  package: 16-pin SMD castellation (16 x 16 mm) / Adafruit Breakout Board
+  supply_voltage_min_v: 1.8
+  supply_voltage_max_v: 3.7
+  operating_voltage_v: 3.3
+  frequency_bands_mhz: [868.0, 915.0]
+  max_transmit_power_dbm: 20.0
+  receiver_sensitivity_dbm: -148
+  max_data_rate_kbps: 300
+  transmit_current_ma: 120
+  receive_current_ma: 10.3
+  sleep_current_ua: 0.2
+  operating_temp_min_c: -20
+  operating_temp_max_c: 70
+  interfaces: [SPI, DIO0-DIO5 Interrupts]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - frequency_bands_mhz
+  - max_transmit_power_dbm
+  - receiver_sensitivity_dbm
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: RFM95W LoRa transceiver module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/rfm95w.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.hoperf.com/data/upload/portal/20190306/RFM95W-V2.0.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.hoperf.com" }

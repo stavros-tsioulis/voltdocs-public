@@ -1,0 +1,49 @@
+id: sensor.temperature.mcp9808
+revision: "1.0"
+title: MCP9808 — High-Accuracy Digital Temperature Sensor (±0.25°C Accuracy)
+category: sensors/temperature
+tags: [mcp9808, temperature, sensor, precision, i2c, microchip, adafruit, esphome]
+status: published
+summary: >-
+  Microchip high-accuracy 16-bit digital temperature sensor with ±0.25°C typical accuracy from -40°C to +125°C, user-selectable resolution (0.0625°C default), alert output, and I2C output (0x18).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [MCP9808, MCP9808-E/MS, MCP9808-E/MC]
+  package: 8-pin MSOP / DFN / Breakout Module
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  temperature_range_c_min: -40
+  temperature_range_c_max: 125
+  temperature_accuracy_c: 0.25
+  resolution_bits: 16
+  resolution_c: 0.0625
+  i2c_address_default: "0x18"
+  i2c_address_options: ["0x18", "0x19", "0x1A", "0x1B", "0x1C", "0x1D", "0x1E", "0x1F"]
+  operating_current_ua: 200
+  shutdown_current_ua: 0.1
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C, SMBus]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - temperature_accuracy_c
+  - resolution_c
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MCP9808 high-accuracy digital temperature sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mcp9808.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/25095D.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/mcp9808" }

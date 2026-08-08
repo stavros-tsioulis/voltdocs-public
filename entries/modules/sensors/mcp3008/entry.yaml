@@ -1,0 +1,45 @@
+id: sensor.adc.mcp3008
+revision: "1.0"
+title: MCP3008 — 10-Bit 8-Channel SPI ADC
+category: sensors/adc
+tags: [mcp3008, mcp3004, adc, analog, spi, 10-bit, microchip, raspberry-pi, breakout]
+status: published
+summary: >-
+  Microchip 10-bit Analog-to-Digital Converter (ADC) IC featuring 8 single-ended input channels, 200 ksps sampling rate, and 4-wire SPI interface, universally used for reading analog sensors on Raspberry Pi.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [MCP3008, MCP3008-I/P, MCP3008-I/SL]
+  package: 16-pin DIP / SOIC / Breakout Module
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  resolution_bits: 10
+  channels_single_ended: 8
+  channels_differential: 4
+  sampling_rate_ksps: 200
+  spi_clock_max_mhz: 3.6
+  operating_current_ua: 425
+  standby_current_na: 500
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - resolution_bits
+  - channels_single_ended
+  - sampling_rate_ksps
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MCP3008 10-bit 8-channel SPI ADC IC
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mcp3008.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/mcp3008" }

@@ -1,0 +1,40 @@
+id: interface.logic.cd4001
+revision: "1.0"
+title: CD4001B — Quad 2-Input NOR Gate
+category: interface/logic
+tags: [cd4001, cd4001b, nor-gate, logic-gate, quad-nor, cmos, 4000-series, texas-instruments, dip-14]
+status: published
+summary: >-
+  CMOS 4000-series IC containing four independent 2-input NOR logic gates operating over a wide supply voltage range from 3V to 18V DC with extremely low power consumption.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4001B, CD4001BE, CD4001BM, HEF4001B]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  logic_family: CMOS 4000 Series (CD4000)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  gates_count: 4 (Quad 2-Input NOR)
+  propagation_delay_ns: 60
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [4x Independent 2-Input NOR Gates (1A/1B->/1Y, 2A/2B->/2Y, 3A/3B->/3Y, 4A/4B->/4Y)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - gates_count
+  - propagation_delay_ns
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: CD4001B quad 2-input NOR gate IC in 14-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/cd4001.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4001b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4001B" }

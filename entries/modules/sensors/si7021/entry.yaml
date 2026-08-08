@@ -1,0 +1,54 @@
+id: sensor.humidity.si7021
+revision: "1.0"
+title: Si7021 — High-Accuracy Digital Humidity & Temperature Sensor
+category: sensors/humidity
+tags: [si7021, silicon-labs, humidity, temperature, sensor, i2c, weather-station, adafruit, esphome]
+status: published
+summary: >-
+  Silicon Labs high-accuracy digital relative humidity and temperature sensor with ±3% RH humidity accuracy, ±0.4°C temperature accuracy, integrated PTFE protective filter option, and I2C output (0x40).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Silicon Labs (Skyworks Solutions)
+  ic_part_numbers: [Si7021, Si7021-A20-GM1, HTU21D-compatible]
+  package: 6-pin DFN (3.0 x 3.0 x 0.75 mm) / Breakout Board
+  supply_voltage_min_v: 1.9
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  temperature_range_c_min: -40
+  temperature_range_c_max: 125
+  temperature_accuracy_c: 0.4
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  humidity_accuracy_pct: 3.0
+  resolution_bits: 14
+  i2c_address_default: "0x40"
+  operating_current_ua: 150
+  sleep_current_ua: 0.06
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - temperature_accuracy_c
+  - humidity_accuracy_pct
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Silicon Labs Si7021 temperature and humidity sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/si7021.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.silabs.com/documents/public/data-sheets/Si7021-A20.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/3251" }

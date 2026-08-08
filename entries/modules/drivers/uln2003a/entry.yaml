@@ -1,0 +1,42 @@
+id: driver.darlington.uln2003a
+revision: "1.0"
+title: ULN2003A — 7-Channel Darlington Transistor Array
+category: drivers/darlington
+tags: [uln2003a, uln2003, darlington, array, stepper, 28byj-48, driver, relay, solenoid, ti, stmicroelectronics]
+status: published
+summary: >-
+  High-voltage, high-current 7-channel NPN Darlington transistor array IC rated for 500mA output current per channel and 50V with internal flyback clamp diodes for driving steppers and relays.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [ULN2003A, ULN2003, ULN2003D, ULN2003AN]
+  package: 16-pin DIP / SOIC-16 / 28BYJ-48 Stepper Driver Breakout PCB
+  output_voltage_v_max: 50.0
+  continuous_collector_current_ma_per_channel: 500
+  input_voltage_v_max: 30.0
+  input_base_resistor_kohm: 2.7 (Direct 5V TTL / CMOS compatibility)
+  channels: 7 Independent Darlington Pairs
+  integrated_flyback_diodes: True (Common Free-Wheeling Clamp Diodes)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [7-Channel Digital In / Open-Collector Out]
+highlights:
+  - output_voltage_v_max
+  - continuous_collector_current_ma_per_channel
+  - input_base_resistor_kohm
+  - channels
+  - integrated_flyback_diodes
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ULN2003A Darlington array IC in DIP-16 package and stepper driver module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/uln2003a.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/uln2003a.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/ULN2003A" }

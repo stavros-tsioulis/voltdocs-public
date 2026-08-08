@@ -1,0 +1,51 @@
+id: sensor.imu.lsm9ds1
+revision: "1.0"
+title: LSM9DS1 — 9-Axis Motion Sensor Module
+category: sensors/imu
+tags: [lsm9ds1, imu, motion, 9-axis, 9-dof, accelerometer, gyroscope, magnetometer, i2c, spi, stmicroelectronics]
+status: published
+summary: >-
+  STMicroelectronics 9-degrees-of-freedom (9-DoF) System-in-Package featuring a 3-axis accelerometer, 3-axis gyroscope, and 3-axis magnetometer with I2C and SPI digital interfaces for 3D orientation tracking.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [LSM9DS1, LSM9DS1TR]
+  package: 24-pin LGA (3.5 x 3.0 x 1.0 mm) / Breakout Module
+  supply_voltage_min_v: 1.9
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  accel_full_scale_g: [2, 4, 8, 16]
+  gyro_full_scale_dps: [245, 500, 2000]
+  mag_full_scale_gauss: [4, 8, 12, 16]
+  adc_resolution_bits: 16
+  i2c_address_accel_gyro: "0x6B"
+  i2c_address_mag: "0x1E"
+  operating_current_ma: 4.6
+  power_down_current_ua: 4.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, 3-Wire SPI, 4-Wire SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - accel_full_scale_g
+  - gyro_full_scale_dps
+  - mag_full_scale_gauss
+  - i2c_address_accel_gyro
+  - i2c_address_mag
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: LSM9DS1 9-axis IMU breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lsm9ds1.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/lsm9ds1.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/mems-and-sensors/lsm9ds1.html" }

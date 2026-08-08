@@ -1,0 +1,53 @@
+id: sensor.distance.vl53l1x
+revision: "1.0"
+title: VL53L1X — Long-Range Time-of-Flight (ToF) Distance Sensor (Up to 4m)
+category: sensors/distance
+tags: [vl53l1x, tof, time-of-flight, distance, laser, rangefinder, stmicroelectronics, i2c, adafruit, esphome]
+status: published
+summary: >-
+  STMicroelectronics FlightSense 2nd-generation Time-of-Flight (ToF) laser distance sensor measuring up to 4 meters at up to 50 Hz with programmable Region of Interest (ROI) over I2C (0x29).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [VL53L1X, VL53L1CXV0FY/1]
+  package: 12-pin Optical LGA (4.9 x 2.5 x 1.56 mm) / Breakout Board (Qwiic / STEMMA QT)
+  supply_voltage_min_v: 2.6
+  supply_voltage_max_v: 3.5
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  distance_range_mm_min: 40
+  distance_range_mm_max: 4000
+  emitter_wavelength_nm: 940 (VCSEL Laser)
+  field_of_view_deg: 27
+  sample_rate_hz_max: 50
+  i2c_address_default: "0x29"
+  operating_current_ma: 20
+  shutdown_current_ua: 5
+  operating_temp_min_c: -20
+  operating_temp_max_c: 85
+  interfaces: [I2C (Fast-Mode up to 400kHz)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - distance_range_mm_min
+  - distance_range_mm_max
+  - emitter_wavelength_nm
+  - field_of_view_deg
+  - sample_rate_hz_max
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: VL53L1X long-range time-of-flight distance sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/vl53l1x.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/vl53l1x.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/4109" }

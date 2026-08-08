@@ -1,0 +1,47 @@
+id: sensor.environmental.mhz19b
+revision: "1.0"
+title: MH-Z19B — NDIR Infrared Carbon Dioxide (CO2) Sensor Module
+category: sensors/environmental
+tags: [mh-z19, mh-z19b, co2, ndir, carbon-dioxide, winsen, uart, pwm, air-quality]
+status: published
+summary: >-
+  Winsen Electronics NDIR infrared carbon dioxide sensor module providing calibrated CO2 concentration measurements (400 to 5,000 ppm) over UART serial and PWM outputs.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Winsen Electronics
+  ic_part_numbers: [MH-Z19, MH-Z19B, MH-Z19C]
+  package: 7-pin Gold Module (33 x 20 x 9 mm)
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0
+  co2_measurement_range_ppm_min: 400
+  co2_measurement_range_ppm_max: 5000
+  co2_accuracy_ppm: 50
+  co2_accuracy_pct: 3.0
+  warmup_time_s: 180
+  default_baud_rate: 9600
+  average_current_ma: 40
+  peak_current_ma: 150
+  operating_temp_min_c: 0
+  operating_temp_max_c: 50
+  interfaces: [UART (9600 baud), PWM]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - co2_measurement_range_ppm_min
+  - co2_measurement_range_ppm_max
+  - co2_accuracy_ppm
+  - default_baud_rate
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Winsen MH-Z19B NDIR CO2 sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mh-z19b.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19b-co2-ver1_0.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.winsen-sensor.com/sensors/co2-sensor/mh-z19b.html" }

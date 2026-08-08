@@ -1,0 +1,47 @@
+id: sensor.color.tcs34725
+revision: "1.0"
+title: TCS34725 — Color Light-to-Digital Converter with IR Filter
+category: sensors/color
+tags: [tcs34725, tcs3472, color, rgb, clear, lux, color-temperature, ams, taos, i2c]
+status: published
+summary: >-
+  ams OSRAM / TAOS color light-to-digital converter IC featuring Red, Green, Blue, and Clear (RGBC) light sensing with an integrated IR-blocking filter for accurate color measurement and color temperature calculation.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ams OSRAM / TAOS
+  ic_part_numbers: [TCS34725, TCS34725FN]
+  package: 6-pin Dual Flat No-Lead (DFN) / Breakout Board with White LED
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  dynamic_range: "3800000:1"
+  ir_blocking_filter: true
+  selectable_gain: ["1x", "4x", "16x", "60x"]
+  integration_time_ms_min: 2.4
+  integration_time_ms_max: 614.4
+  i2c_address_default: "0x29"
+  operating_current_ua: 235
+  sleep_current_ua: 2.5
+  operating_temp_min_c: -30
+  operating_temp_max_c: 70
+  interfaces: [I2C, Interrupt]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - dynamic_range
+  - ir_blocking_filter
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TCS34725 RGB color sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tcs34725.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn-shop.adafruit.com/datasheets/TCS34725.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://ams.com" }

@@ -1,0 +1,43 @@
+id: timing.timer.ne556
+revision: "1.0"
+title: NE556 — Dual Precision CMOS/Bipolar Timer IC
+category: timing/timer
+tags: [ne556, lm556, 556, timer, dual-timer, astable, monostable, oscillator, pwm, texas-instruments, dip-14]
+status: published
+summary: >-
+  Dual version of the industry-standard 555 timer IC in a 14-pin DIP package, containing two fully independent timing circuits capable of operating in astable, monostable, and PWM modes from 4.5V to 16V.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [NE556, NE556N, SA556, SE556]
+  package: 14-pin DIP / SOIC-14
+  timer_channels: 2 Independent Timers
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 16.0
+  output_current_ma_max: 200.0
+  max_frequency_khz: 500
+  timing_modes: [Astable Oscillator, Monostable Pulse, PWM, Bistable Flip-Flop]
+  quiescent_current_ma: 6.0
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Dual DISCH, TRIG, RES, CONTROL, THRES, OUT]
+highlights:
+  - timer_channels
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_current_ma_max
+  - timing_modes
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: NE556 dual precision timer IC in 14-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ne556.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/ne556.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/NE556" }

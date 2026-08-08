@@ -1,0 +1,43 @@
+id: sensor.light.ky018
+revision: "1.0"
+title: KY-018 — Photoresistor (LDR) Light Sensor Module
+category: sensors/light
+tags: [ky-018, ky018, ldr, photoresistor, light, sensor, analog, keyes, elegoo, starter-kit]
+status: published
+summary: >-
+  Keyes KY-018 light sensing breakout module featuring a CdS photoresistor (LDR) in a voltage divider circuit with a 10 kΩ resistor, producing an analog voltage output (AO).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Keyes / Generic
+  ic_part_numbers: [KY-018, KY018, 5528-LDR]
+  package: 3-pin PCB Breakout Module with 5mm CdS Photoresistor
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.5
+  dark_resistance_mohm: 1.0 - 10.0
+  light_resistance_10lux_kohm: 10.0 - 20.0
+  peak_spectral_wavelength_nm: 540
+  output_type: Analog Voltage Divider (AO)
+  operating_current_ma: 0.5
+  operating_temp_min_c: -30
+  operating_temp_max_c: 70
+  interfaces: [Analog Voltage Output (AO)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - dark_resistance_mohm
+  - light_resistance_10lux_kohm
+  - peak_spectral_wavelength_nm
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: KY-018 photoresistor LDR light sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ky-018.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensorkit.joy-it.net/en/sensors/ky-018" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://joy-it.net/en/products/SEN-KY018" }

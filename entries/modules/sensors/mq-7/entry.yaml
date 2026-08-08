@@ -1,0 +1,45 @@
+id: sensor.gas.mq7
+revision: "1.0"
+title: MQ-7 — Carbon Monoxide (CO) Gas Sensor Module
+category: sensors/gas
+tags: [mq7, mq-7, gas, carbon-monoxide, co, safety, sensor, winsen]
+status: published
+summary: >-
+  Winsen Electronics semiconductor carbon monoxide (CO) sensor module utilizing high-low temperature cycling (5V / 1.4V) to detect toxic CO gas concentrations from 20 to 2000 ppm.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Winsen Electronics
+  ic_part_numbers: [MQ-7]
+  package: 6-pin Bakelite / Breakout PCB
+  heater_voltage_high_v: 5.0
+  heater_voltage_low_v: 1.4
+  circuit_voltage_v: 5.0
+  load_resistance_kohm: 10.0
+  heater_resistance_ohm: 33.0
+  heater_power_consumption_mw: 350
+  detection_range_ppm_min: 20
+  detection_range_ppm_max: 2000
+  target_gases: [Carbon Monoxide (CO)]
+  operating_temp_min_c: -20
+  operating_temp_max_c: 50
+  operating_humidity_pct_max: 95
+  interfaces: [Analog Output, Digital Output (LM393 Comparator)]
+highlights:
+  - heater_voltage_high_v
+  - heater_voltage_low_v
+  - detection_range_ppm_min
+  - detection_range_ppm_max
+  - target_gases
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MQ-7 carbon monoxide sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mq7.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.winsen-sensor.com/d/files/semiconductor/mq-7.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.winsen-sensor.com/sensors/co-sensor/mq-7.html" }

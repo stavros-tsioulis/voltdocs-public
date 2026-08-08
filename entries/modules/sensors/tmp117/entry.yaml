@@ -1,0 +1,48 @@
+id: sensor.temperature.tmp117
+revision: "1.0"
+title: TMP117 — High-Precision Digital Temperature Sensor (±0.1°C Accuracy)
+category: sensors/temperature
+tags: [tmp117, temperature, sensor, precision, medical, i2c, texas-instruments, esphome, adafruit, nist]
+status: published
+summary: >-
+  Texas Instruments medical-grade high-precision 16-bit digital temperature sensor featuring ±0.1°C accuracy across -20°C to +50°C (0.0078125°C resolution), NIST traceability, and I2C output (0x48).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TMP117, TMP117AIDRVR, TMP117AIYBHR]
+  package: 6-pin WSON (2.0 x 2.0 mm) / Breakout Module
+  supply_voltage_min_v: 1.8
+  supply_voltage_max_v: 5.5
+  temperature_range_c_min: -55
+  temperature_range_c_max: 150
+  temperature_accuracy_c: 0.1
+  resolution_bits: 16
+  resolution_c: 0.0078125
+  i2c_address_default: "0x48"
+  i2c_address_options: ["0x48", "0x49", "0x4A", "0x4B"]
+  operating_current_ua: 3.5
+  shutdown_current_ua: 0.15
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [I2C, SMBus]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - temperature_accuracy_c
+  - resolution_c
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TMP117 high-precision temperature sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tmp117.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tmp117.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TMP117" }

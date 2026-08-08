@@ -1,0 +1,42 @@
+id: interface.shift-register.74hc595
+revision: "1.0"
+title: 74HC595 — 8-Bit Serial-In/Parallel-Out Shift Register
+category: interface/gpio
+tags: [74hc595, shift-register, gpio, expansion, serial-to-parallel, texas-instruments, nxp, leds, breakout]
+status: published
+summary: >-
+  High-speed CMOS 8-bit serial-input parallel-output shift register IC/module with storage register and 3-state outputs, widely used to expand digital output pins for driving LEDs, 7-segment displays, and relays over 3 control wires.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments / Generic
+  ic_part_numbers: [74HC595N, SN74HC595N, 74HC595D]
+  package: 16-pin DIP / SOIC / Breakout Module
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  logic_family: High-Speed CMOS (HC)
+  output_channels: 8
+  max_output_current_ma: 35
+  max_clock_frequency_mhz: 25
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [3-Wire SPI / Serial GPIO (SER, SRCLK, RCLK)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_channels
+  - max_output_current_ma
+  - max_clock_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 74HC595 8-bit shift register DIP-16 IC
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/74hc595.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC595" }

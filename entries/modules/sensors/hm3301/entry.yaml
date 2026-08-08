@@ -1,0 +1,48 @@
+id: sensor.environmental.hm3301
+revision: "1.0"
+title: HM3301 — Laser PM2.5 / PM10 Particulate Matter Sensor
+category: sensors/environmental
+tags: [hm3301, pm2.5, pm10, particulate, dust, laser, seeed, grove, i2c, esphome, air-quality]
+status: published
+summary: >-
+  Seeed Studio Grove laser scattering particulate matter sensor continuously outputting real-time mass concentrations of PM1.0, PM2.5, and PM10 (µg/m³) over an I2C interface (0x40).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Seeed Studio / Generic
+  ic_part_numbers: [HM3301, HM-3301]
+  package: Enclosed Metal Chamber with Internal Fan and Grove Connector
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.5
+  particle_measurement_range_ugm3_min: 1
+  particle_measurement_range_ugm3_max: 1000
+  particle_size_detection_um_min: 0.3
+  particle_size_detection_um_max: 10.0
+  i2c_address_default: "0x40"
+  warmup_time_sec: 30
+  operating_current_ma: 120
+  standby_current_ma: 2
+  operating_temp_min_c: -10
+  operating_temp_max_c: 60
+  interfaces: [I2C (Grove Connector)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - particle_measurement_range_ugm3_min
+  - particle_measurement_range_ugm3_max
+  - particle_size_detection_um_min
+  - particle_size_detection_um_max
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Seeed Studio Grove HM3301 laser PM2.5 particle sensor
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hm3301.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://files.seeedstudio.com/wiki/Grove-Laser_PM2.5_Sensor-HM3301/res/HM3301_Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.seeedstudio.com/Grove-Laser-PM2-5-Sensor-HM-3301-p-3087.html" }

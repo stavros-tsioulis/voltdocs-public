@@ -1,0 +1,51 @@
+id: sensor.temperature.max31865
+revision: "1.0"
+title: MAX31865 — RTD Platinum Resistance Temperature Detector Converter
+category: sensors/temperature
+tags: [max31865, rtd, pt100, pt1000, temperature, precision, spi, maxim, adafruit, esphome]
+status: published
+summary: >-
+  Maxim Integrated 15-bit precision resistance-to-digital converter optimized for 2-wire, 3-wire, and 4-wire Platinum Resistance Temperature Detectors (PT100 and PT1000 RTDs) with SPI output.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Maxim Integrated (Analog Devices)
+  ic_part_numbers: [MAX31865, MAX31865ATP+T]
+  package: 20-pin TQFN (5 x 5 mm) / Breakout Board with Terminal Blocks
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  rtd_types: [PT100, PT1000]
+  rtd_wiring_modes: [2-Wire, 3-Wire, 4-Wire]
+  resolution_bits: 15
+  resolution_c: 0.03125
+  temperature_accuracy_c: 0.5
+  spi_clock_max_mhz: 5.0
+  operating_current_ma: 2.0
+  shutdown_current_ua: 1.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - rtd_types
+  - rtd_wiring_modes
+  - resolution_bits
+  - resolution_c
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MAX31865 PT100/PT1000 RTD amplifier breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/max31865.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/3328" }

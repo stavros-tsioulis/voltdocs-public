@@ -1,0 +1,49 @@
+id: sensor.imu.bmi160
+revision: "1.0"
+title: BMI160 — 6-Axis Ultra-Low Power Inertial Measurement Unit
+category: sensors/imu
+tags: [bmi160, imu, motion, 6-axis, accelerometer, gyroscope, i2c, spi, bosch, low-power, step-counter]
+status: published
+summary: >-
+  Bosch Sensortec ultra-low power 16-bit 6-axis IMU combining a 3-axis accelerometer (±2g to ±16g) and 3-axis gyroscope (±125 to ±2000 dps) with 950 µA full active current, hardware FIFO, and step counter.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Bosch Sensortec
+  ic_part_numbers: [BMI160]
+  package: 14-pin LGA (2.5 x 3.0 x 0.83 mm) / Breakout Board
+  supply_voltage_min_v: 1.71
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  accel_full_scale_g: [2, 4, 8, 16]
+  gyro_full_scale_dps: [125, 250, 500, 1000, 2000]
+  adc_resolution_bits: 16
+  i2c_address_default: "0x68"
+  i2c_address_alternate: "0x69"
+  operating_current_ua: 950
+  suspend_current_ua: 3
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, 3-Wire SPI, 4-Wire SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - accel_full_scale_g
+  - gyro_full_scale_dps
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: BMI160 6-axis IMU breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bmi160.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi160-ds000.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.bosch-sensortec.com/products/motion-sensors/imus/bmi160/" }

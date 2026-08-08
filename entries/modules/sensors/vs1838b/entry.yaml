@@ -1,0 +1,44 @@
+id: sensor.ir.vs1838b
+revision: "1.0"
+title: VS1838B — 38 kHz Infrared Receiver Sensor Module
+category: sensors/ir
+tags: [vs1838b, hx1838, ir, infrared, receiver, remote, 38khz, ky-022, nec, demux]
+status: published
+summary: >-
+  Generic 38 kHz miniaturized infrared receiver module integrating a PIN photodiode and preamplifier outputting active-LOW demodulated digital pulses for IR remote controls (NEC, Sony, RC-5 protocols).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (Vishay / Everlight compatible)
+  ic_part_numbers: [VS1838B, HX1838, TSOP1838]
+  package: 3-pin Metal Shielded Epoxy Package / KY-022 Breakout Board
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0
+  carrier_frequency_khz: 38.0
+  reception_distance_m: 18
+  reception_angle_deg: 90
+  output_logic: "Active-LOW demodulated output"
+  quiescent_current_ma: 0.5
+  peak_sensitivity_wavelength_nm: 940
+  operating_temp_min_c: -25
+  operating_temp_max_c: 80
+  interfaces: [Digital Output]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - carrier_frequency_khz
+  - reception_distance_m
+  - output_logic
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: VS1838B IR receiver sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/vs1838b.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.vishay.com/docs/82459/tsop382.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.vishay.com" }

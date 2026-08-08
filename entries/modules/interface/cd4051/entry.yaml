@@ -1,0 +1,44 @@
+id: interface.multiplexer.cd4051
+revision: "1.0"
+title: CD4051B — Single 8-Channel Analog Multiplexer / Demultiplexer
+category: interface/gpio
+tags: [cd4051, cd4051b, 74hc4051, multiplexer, demultiplexer, analog-mux, 8-channel, texas-instruments, cmos, dip-16]
+status: published
+summary: >-
+  Texas Instruments single 8-channel analog multiplexer/demultiplexer IC controlled by 3 binary address lines (A, B, C) and an INHIBIT enable input, featuring low ON resistance and support for signals up to 20V peak-to-peak.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / NXP
+  ic_part_numbers: [CD4051B, CD4051BE, CD4051BM, 74HC4051]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  supply_voltage_single_v_min: 3.0
+  supply_voltage_single_v_max: 20.0
+  supply_voltage_split_vdd_v: 5.0
+  supply_voltage_split_vee_v: -5.0
+  channels: 8 (Single-Ended 8:1 Mux/Demux)
+  on_resistance_ohm_typ: 80 (at VDD-VEE = 15V)
+  off_leakage_current_na: 0.1
+  bandwidth_mhz: 20.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [Parallel Select (A, B, C), INHIBIT, Common I/O (COM), 8 Analog Channels (CH0-CH7)]
+highlights:
+  - supply_voltage_single_v_min
+  - supply_voltage_single_v_max
+  - channels
+  - on_resistance_ohm_typ
+  - bandwidth_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: CD4051B 8-channel analog multiplexer IC in DIP-16 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/cd4051.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4051b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4051B" }

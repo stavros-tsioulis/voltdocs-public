@@ -1,0 +1,48 @@
+id: display.tft.hx8357
+revision: "1.0"
+title: HX8357 — 320x480 Color TFT LCD Controller Driver IC
+category: displays/tft
+tags: [hx8357, hx8357c, hx8357d, tft, display, lcd, spi, 8-bit, adafruit, 3.5in, graphics]
+status: published
+summary: >-
+  Himax single-chip 320x480 resolution 65K/262K-color TFT LCD controller driver supporting SPI, 8-bit, and 16-bit parallel interfaces for 3.5" color display screens.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Himax Technologies
+  ic_part_numbers: [HX8357, HX8357-C, HX8357-D]
+  package: COG (Chip-on-Glass) / 3.5" TFT Display Modules
+  supply_voltage_min_v: 2.4
+  supply_voltage_max_v: 3.3
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  resolution_pixels_x: 320
+  resolution_pixels_y: 480
+  color_depth_bits: 16 (65K colors RGB565) / 18 (262K colors)
+  spi_clock_max_mhz: 30.0
+  gram_buffer_kb: 460.8
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [4-Wire SPI, 8-Bit Parallel, 16-Bit Parallel]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - resolution_pixels_x
+  - resolution_pixels_y
+  - color_depth_bits
+  - spi_clock_max_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HX8357D 3.5-inch 320x480 TFT LCD display module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hx8357.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn-shop.adafruit.com/datasheets/HX8357-D_DS_v01.01.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/2050" }

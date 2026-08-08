@@ -1,0 +1,47 @@
+id: mcu.arm.stm32f103c8t6
+revision: "1.0"
+title: STM32F103C8T6 — ARM Cortex-M3 32-Bit Microcontroller
+category: mcu/arm
+tags: [stm32f103c8t6, stm32, arm, cortex-m3, blue-pill, mcu, stmicroelectronics, 72mhz, 64kb, usb, i2c, spi, uart]
+status: published
+summary: >-
+  STMicroelectronics mainstream 32-bit ARM Cortex-M3 MCU running at 72MHz with 64KB Flash, 20KB SRAM, USB 2.0, 12-bit ADC, and timers, powering the iconic Blue Pill board.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [STM32F103C8T6, STM32F103C8T6TR, STM32F103CB]
+  package: 48-pin LQFP (7 x 7 mm) / Blue Pill Module Board
+  core: ARM 32-bit Cortex-M3
+  max_clock_speed_mhz: 72
+  flash_memory_kb: 64
+  sram_memory_kb: 20
+  operating_voltage_min_v: 2.0
+  operating_voltage_max_v: 3.6
+  gpio_count: 37
+  adc_channels: 10 (12-bit resolution)
+  timers: 4 (16-bit)
+  interfaces: [USB 2.0 Full-Speed, 2x I2C, 2x SPI, 3x USART, CAN]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_kb
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: STM32F103C8T6 ARM Cortex-M3 microcontroller on Blue Pill development board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/stm32f103c8t6.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html" }

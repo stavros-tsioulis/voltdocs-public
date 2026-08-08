@@ -1,0 +1,42 @@
+id: sensor.emg.myoware
+revision: "1.0"
+title: MyoWare Muscle Sensor — Surface Electromyography (EMG) Sensor
+category: sensors/biomedical
+tags: [myoware, emg, muscle, biosignal, sensor, analog, sparkfun, prosthetics, biomedical, wearable]
+status: published
+summary: >-
+  Advancer Technologies / SparkFun surface electromyography (EMG) muscle sensor that measures filtered, rectified electrical activity of contracting muscles, outputting raw EMG waveforms and analog envelope signals.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Advancer Technologies / SparkFun
+  ic_part_numbers: [AT-04-001, MyoWare v1.0, MyoWare 2.0]
+  package: Wearable PCB with Onboard Snap Connectors (3-pin Header)
+  supply_voltage_min_v: 2.9
+  supply_voltage_max_v: 5.7
+  output_type: Analog Envelope Voltage (0V to VCC) / Raw EMG Signal
+  gain_adjustment: Trimmer Potentiometer
+  reverse_voltage_protection: true
+  operating_current_ma: 9.0
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Dual Analog Outputs (SIG, RAW)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_type
+  - reverse_voltage_protection
+  - operating_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MyoWare muscle sensor with snap electrodes
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/myoware-muscle-sensor.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn.sparkfun.com/datasheets/Sensors/Biomedical/MyowareUserManualAT-04-001.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.sparkfun.com/products/13723" }

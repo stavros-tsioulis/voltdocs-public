@@ -1,0 +1,45 @@
+id: sensor.motion.rcwl0516
+revision: "1.0"
+title: RCWL-0516 — Microwave Doppler Radar Motion Sensor
+category: sensors/motion
+tags: [rcwl0516, rcwl-0516, radar, microwave, doppler, motion, presence, sensor, 3.18ghz]
+status: published
+summary: >-
+  Generic doppler radar microwave motion sensor module operating at 3.18 GHz, capable of detecting movement through walls, glass, and plastic obstacles with a 360-degree detection angle.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (RCWL)
+  ic_part_numbers: [RCWL-0516, RCWL-9196 IC]
+  package: Breakout PCB (35.9 x 17.3 mm)
+  supply_voltage_min_v: 4.0
+  supply_voltage_max_v: 28.0
+  operating_voltage_v: 5.0
+  regulated_output_voltage_v: 3.3
+  operating_frequency_ghz: 3.18
+  detection_distance_m: 7.0
+  detection_angle_deg: 360
+  output_type: "Digital TTL High (3.3V) on motion trigger"
+  output_delay_time_s: 2.0
+  operating_current_ma: 3.0
+  operating_temp_min_c: -20
+  operating_temp_max_c: 80
+  interfaces: [Digital Output, 3.3V Power Out, CDS Light Sensor Connection]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - operating_frequency_ghz
+  - detection_distance_m
+  - detection_angle_deg
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: RCWL-0516 microwave doppler radar sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/rcwl0516.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://github.com/jdesbonnet/RCWL-0516" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://github.com/jdesbonnet/RCWL-0516" }

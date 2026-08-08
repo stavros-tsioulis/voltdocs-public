@@ -1,0 +1,46 @@
+id: sensor.motion.hc-sr501
+revision: "1.0"
+title: HC-SR501 — Pyroelectric Infrared (PIR) Motion Sensor Module
+category: sensors/motion
+tags: [hc-sr501, pir, motion, infrared, pyroelectric, biss0001, sr501, sensor]
+status: published
+summary: >-
+  Generic pyroelectric infrared (PIR) motion sensor module based on the BISS0001 micro-power PIR IC, detecting infrared radiation emitted by human bodies or moving heat sources.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (BISS0001 controller)
+  ic_part_numbers: [BISS0001, HC-SR501]
+  package: 32 x 24 mm module with Fresnel lens
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 20.0
+  output_high_voltage_v: 3.3
+  output_low_voltage_v: 0.0
+  quiescent_current_ua: 50
+  detection_distance_m_min: 3
+  detection_distance_m_max: 7
+  detection_angle_deg: 120
+  delay_time_s_min: 0.5
+  delay_time_s_max: 300
+  trigger_modes: [Single Trigger (L), Repeatable Trigger (H)]
+  operating_temp_min_c: -15
+  operating_temp_max_c: 70
+  interfaces: [Digital Output (3.3V TTL)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_high_voltage_v
+  - detection_distance_m_max
+  - detection_angle_deg
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HC-SR501 PIR motion sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hc-sr501.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.mpja.com/download/31227sc.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/189" }

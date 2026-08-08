@@ -1,0 +1,47 @@
+id: sensor.light.si1145
+revision: "1.0"
+title: SI1145 — Digital UV Index, IR & Visible Light Sensor
+category: sensors/light
+tags: [si1145, uv, uv-index, ir, light, proximity, sensor, silicon-labs, i2c, adafruit]
+status: published
+summary: >-
+  Silicon Labs low-power multi-band optical sensor calculating solar UV index from integrated IR and visible photodiodes, with proximity sensing (0 to 50cm) and I2C output (0x60).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Silicon Labs (Skyworks Solutions)
+  ic_part_numbers: [SI1145, Si1145-A10-GMR]
+  package: 10-pin QFN (2.0 x 2.0 mm) / Breakout Module
+  supply_voltage_min_v: 1.71
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  light_wavelength_range_nm: 280 - 950 (UV, Visible, and IR)
+  proximity_range_cm: 0 - 50 (Requires external IR LED)
+  i2c_address_default: "0x60"
+  operating_current_ua: 500
+  standby_current_ua: 0.5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - light_wavelength_range_nm
+  - proximity_range_cm
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Silicon Labs SI1145 UV index and optical light sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/si1145.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.silabs.com/documents/public/data-sheets/Si1145-46-47.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/1777" }

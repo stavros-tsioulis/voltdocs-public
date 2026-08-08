@@ -1,0 +1,49 @@
+id: mcu.avr.attiny85
+revision: "1.0"
+title: ATtiny85 — 8-Bit AVR Microcontroller in 8-Pin Package
+category: mcu/avr
+tags: [attiny85, attiny, avr, microchip, atmel, 8-pin, dip-8, digispark, low-power, 8kb, 20mhz]
+status: published
+summary: >-
+  Microchip (Atmel) low-power 8-bit AVR RISC MCU in a compact 8-pin DIP package with 8KB Flash, 512B SRAM, 512B EEPROM, USI (SPI/I2C), and 10-bit ADC.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Microchip Technology / Atmel
+  ic_part_numbers: [ATtiny85, ATtiny85-20PU, ATtiny85-20SU, ATtiny85V-10PU]
+  package: 8-pin DIP (DIP-8) / 8-pin SOIC / Digispark USB Module Board
+  core: 8-bit AVR RISC
+  max_clock_speed_mhz: 20 (Internal 8MHz / 16MHz PLL oscillator)
+  flash_memory_kb: 8
+  sram_memory_bytes: 512
+  eeprom_memory_bytes: 512
+  operating_voltage_min_v: 1.8 (ATtiny85V) / 2.7 (ATtiny85)
+  operating_voltage_max_v: 5.5
+  gpio_count: 6 (PB0 to PB5)
+  pwm_channels: 4 (including High-Speed 64MHz PLL PWM)
+  adc_channels: 4 (10-bit resolution)
+  interfaces: [USI (Universal Serial Interface - I2C/SPI), Software UART]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_bytes
+  - eeprom_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Microchip ATtiny85-20PU microcontroller in 8-pin DIP package and Digispark PCB
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/attiny85.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/ATtiny85" }

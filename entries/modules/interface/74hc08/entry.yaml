@@ -1,0 +1,42 @@
+id: interface.logic.74hc08
+revision: "1.0"
+title: 74HC08 — Quad 2-Input AND Gate
+category: interface/logic
+tags: [74hc08, sn74hc08, and-gate, logic-gate, quad-and, cmos, texas-instruments, nexperia, dip-14]
+status: published
+summary: >-
+  High-speed CMOS IC containing four independent 2-input AND logic gates with standard push-pull outputs operating from 2V to 6V DC.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC08, SN74HC08N, 74HC08D, 74HCT08]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  gates_count: 4 (Quad 2-Input AND)
+  propagation_delay_ns: 7
+  output_drive_current_ma: 5.2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [4x Independent 2-Input AND Gates (1A/1B->1Y, 2A/2B->2Y, 3A/3B->3Y, 4A/4B->4Y)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - gates_count
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 74HC08 quad 2-input AND gate IC in 14-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/74hc08.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC08" }

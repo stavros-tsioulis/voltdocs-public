@@ -1,0 +1,47 @@
+id: display.led-matrix.pimoroni-unicorn
+revision: "1.0"
+title: Pimoroni Unicorn HAT — 8x8 RGB LED Matrix HAT for Raspberry Pi
+category: displays/led-matrix
+tags: [pimoroni, unicorn-hat, raspberry-pi, hat, led-matrix, ws2812b, rgb, light-art, display]
+status: published
+summary: >-
+  Pimoroni 8x8 matrix of 64 individually addressable surface-mount WS2812B RGB LEDs driven directly from Raspberry Pi PWM/DMA GPIO 18, providing 24-bit color depth for pixel art and status indicators.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Pimoroni
+  ic_part_numbers: [WS2812B, Pimoroni-Unicorn-HAT]
+  package: Raspberry Pi 40-pin HAT (65 x 56 mm)
+  operating_voltage_min_v: 4.8
+  operating_voltage_max_v: 5.2
+  matrix_size_x: 8
+  matrix_size_y: 8
+  total_leds: 64
+  color_depth_bits: 24 (8-bit per channel)
+  control_gpio: 18 (PWM / PCM DMA channel)
+  max_current_ma: 2000
+  operating_temp_min_c: 0
+  operating_temp_max_c: 60
+  interfaces: [Raspberry Pi GPIO 18 (PWM/DMA)]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - matrix_size_x
+  - matrix_size_y
+  - total_leds
+  - color_depth_bits
+  - control_gpio
+  - max_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Pimoroni Unicorn HAT 8x8 RGB LED matrix mounted on Raspberry Pi
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pimoroni-unicorn-hat.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://pinout.xyz/pinout/unicorn_hat" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://shop.pimoroni.com/products/unicorn-hat" }

@@ -1,0 +1,48 @@
+id: sensor.environmental.sgp30
+revision: "1.0"
+title: SGP30 — Multi-Pixel Indoor Air Quality Gas Sensor
+category: sensors/environmental
+tags: [sgp30, sensor, voc, eco2, air-quality, gas, i2c, sensirion, environmental, TVOC, MEMS]
+status: published
+summary: >-
+  Sensirion multi-pixel metal-oxide (MOX) gas sensor measuring Total Volatile Organic Compounds (TVOC) and equivalent CO2 (eCO2) with internal calibration algorithms, dynamic baseline compensation, and I2C output.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sensirion
+  ic_part_numbers: [SGP30, SGP30-2.5K]
+  package: 6-pin DFN (2.45 x 2.45 x 0.9 mm) / Breakout Module
+  supply_voltage_min_v: 1.62
+  supply_voltage_max_v: 1.98
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  tvoc_range_ppb_min: 0
+  tvoc_range_ppb_max: 60000
+  eco2_range_ppm_min: 400
+  eco2_range_ppm_max: 60000
+  i2c_address_default: "0x58"
+  operating_current_ma: 48.2
+  standby_current_ua: 2.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - eco2_range_ppm_min
+  - eco2_range_ppm_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: SGP30 air quality sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sgp30.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensirion.com/media/documents/98B4424A/61976077/Sensirion_Gas_Sensors_Datasheet_SGP30.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://sensirion.com/products/catalog/SGP30/" }

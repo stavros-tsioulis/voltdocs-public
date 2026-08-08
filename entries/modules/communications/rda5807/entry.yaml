@@ -1,0 +1,46 @@
+id: communication.rf.rda5807
+revision: "1.0"
+title: RDA5807M — Single-Chip CMOS Stereo FM Radio Tuner
+category: communications/rf
+tags: [rda5807, rda5807m, fm-radio, radio, tuner, rds, i2c, audio, receiver, rda, breakout]
+status: published
+summary: >-
+  RDA Microelectronics single-chip CMOS stereo FM broadcast radio receiver IC (50 MHz to 108 MHz) featuring integrated digital synthesizer, RDS/RBDS decoder, bass boost, and I2C control.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: RDA Microelectronics
+  ic_part_numbers: [RDA5807M, RDA5807FP, RDA5807NP]
+  package: 10-pin MSOP / RRD-102 V2.0 Module (0.1" Header)
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 3.6
+  frequency_range_mhz_min: 50.0
+  frequency_range_mhz_max: 108.0
+  audio_output: Direct Headphone / Line Out (32 Ohm Drive)
+  rds_rbds_support: true
+  i2c_address_direct: "0x11"
+  i2c_address_sequential: "0x10"
+  operating_current_ma: 20
+  operating_temp_min_c: -20
+  operating_temp_max_c: 75
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - frequency_range_mhz_min
+  - frequency_range_mhz_max
+  - rds_rbds_support
+  - i2c_address_direct
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: RDA5807M stereo FM radio receiver module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/rda5807.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.mikrocontroller.net/attachment/259160/RDA5807M_Datasheet_v1.1.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.rdamicro.com" }

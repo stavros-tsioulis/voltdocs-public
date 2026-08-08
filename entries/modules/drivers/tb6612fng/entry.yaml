@@ -1,0 +1,43 @@
+id: driver.motor.tb6612fng
+revision: "1.0"
+title: TB6612FNG — Dual DC Motor Driver Module
+category: drivers/motor
+tags: [tb6612fng, motor-driver, h-bridge, mosfet, toshiba, dc-motor, robotics, pololu]
+status: published
+summary: >-
+  Toshiba low-heat MOSFET-based dual DC motor driver IC capable of driving two DC motors or one bipolar stepper motor at up to 15 V and 1.2 A continuous (3.2 A peak) per channel.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Toshiba
+  ic_part_numbers: [TB6612FNG]
+  package: 24-pin SSOP (0.65mm pitch) / Pololu Breakout Board
+  motor_supply_voltage_min_v: 2.5
+  motor_supply_voltage_max_v: 13.5
+  logic_supply_voltage_min_v: 2.7
+  logic_supply_voltage_max_v: 5.5
+  continuous_current_per_channel_a: 1.2
+  peak_current_per_channel_a: 3.2
+  pwm_frequency_max_khz: 100
+  ron_mohm: 500
+  operating_temp_min_c: -20
+  operating_temp_max_c: 85
+  interfaces: [IN1/IN2/PWM Direction & Speed Control, Standby]
+highlights:
+  - motor_supply_voltage_min_v
+  - motor_supply_voltage_max_v
+  - logic_supply_voltage_min_v
+  - continuous_current_per_channel_a
+  - pwm_frequency_max_khz
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TB6612FNG motor driver breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tb6612fng.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://toshiba.semicon-storage.com/info/docget.jsp?did=10660" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://toshiba.semicon-storage.com/ap-en/semiconductor/product/motor-driver-ics/dh-bridge-ics/detail.TB6612FNG.html" }

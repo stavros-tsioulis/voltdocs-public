@@ -1,0 +1,46 @@
+id: power.boost.xl6009
+revision: "1.0"
+title: XL6009 — 4A 400kHz Step-Up (Boost) DC-DC Converter
+category: power/boost
+tags: [xl6009, xl6009e1, boost, step-up, regulator, dc-dc, power, xlsemi, 4a, to-263, module]
+status: published
+summary: >-
+  XLSEMI 4A 400kHz step-up (boost) switching regulator IC with built-in N-channel power MOSFET, commonly used on high-power DC-DC boost modules up to 38V output.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: XLSEMI
+  ic_part_numbers: [XL6009, XL6009E1]
+  package: TO-263-5L (D2PAK) / Adjustable Boost Breakout Board
+  regulator_type: Step-Up (Boost) DC-DC Switching Regulator
+  input_voltage_v_min: 5.0
+  input_voltage_v_max: 32.0
+  output_voltage_v_min: 5.0
+  output_voltage_v_max: 38.0
+  output_current_a_max: 4.0
+  switching_frequency_khz: 400
+  efficiency_pct: 90 - 94
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [DC Input, DC Output]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: XL6009 high-current DC-DC boost converter module with potentiometer
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/xl6009.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "http://www.xlsemi.com/datasheet/XL6009%20datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.xlsemi.com/product.html" }

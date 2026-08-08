@@ -1,0 +1,46 @@
+id: sensor.adc.ads1115
+revision: "1.0"
+title: ADS1115 — Ultra-Small 16-Bit Precision I2C ADC with PGA
+category: sensors/adc
+tags: [ads1115, adc, 16-bit, precision, pga, i2c, texas-instruments, analog-input]
+status: published
+summary: >-
+  Texas Instruments precision 16-bit analog-to-digital converter (ADC) with an onboard programmable gain amplifier (PGA), low-drift voltage reference, internal oscillator, and I2C interface.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [ADS1115, ADS1115IDGSR]
+  package: 10-pin VSSOP / Breakout Board
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 5.5
+  adc_resolution_bits: 16
+  input_channels: 4 Single-Ended / 2 Differential
+  pga_gains: [2/3, 1, 2, 4, 8, 16]
+  full_scale_ranges_v: [6.144, 4.096, 2.048, 1.024, 0.512, 0.256]
+  sample_rate_sps_min: 8
+  sample_rate_sps_max: 860
+  i2c_address_default: "0x48"
+  operating_current_ua: 150
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - adc_resolution_bits
+  - input_channels
+  - sample_rate_sps_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ADS1115 ADC breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ads1115.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/ads1115.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/ADS1115" }

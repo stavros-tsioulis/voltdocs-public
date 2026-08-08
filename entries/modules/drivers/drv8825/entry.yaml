@@ -1,0 +1,43 @@
+id: driver.stepper.drv8825
+revision: "1.0"
+title: DRV8825 — Stepper Motor Driver Module
+category: drivers/stepper
+tags: [drv8825, stepper, driver, microstepping, 3d-printer, cnc, texas-instruments, pololu, stepstick]
+status: published
+summary: >-
+  Texas Instruments DRV8825 microstepping bipolar stepper motor driver breakout module supporting 8.2V to 45V motor supply, up to 2.2A per phase with cooling, and 1/32 microstepping.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [DRV8825PWPR, DRV8825]
+  package: 28-pin HTSSOP / StepStick Module
+  load_voltage_min_v: 8.2
+  load_voltage_max_v: 45.0
+  logic_voltage_min_v: 2.5
+  logic_voltage_max_v: 5.25
+  continuous_current_per_phase_a: 1.5
+  max_current_with_cooling_a: 2.2
+  microstep_resolutions: [Full, 1/2, 1/4, 1/8, 1/16, 1/32]
+  rds_on_mohm: 300
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [STEP/DIR Control]
+highlights:
+  - load_voltage_min_v
+  - load_voltage_max_v
+  - continuous_current_per_phase_a
+  - max_current_with_cooling_a
+  - microstep_resolutions
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: DRV8825 StepStick stepper driver module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/drv8825.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/drv8825.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/DRV8825" }

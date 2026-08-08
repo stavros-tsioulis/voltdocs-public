@@ -1,0 +1,48 @@
+id: sensor.temperature.lm75a
+revision: "1.0"
+title: LM75A — Digital Temperature Sensor and Thermal Watchdog
+category: sensors/temperature
+tags: [lm75a, lm75, temperature, sensor, thermal, watchdog, i2c, nxp, ti, esphome]
+status: published
+summary: >-
+  NXP / TI 11-bit digital temperature sensor and thermal watchdog featuring I2C interface (0x48 default), measuring temperatures from -55°C to +125°C with 0.125°C resolution and open-drain OS alarm output.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: NXP Semiconductors / Texas Instruments
+  ic_part_numbers: [LM75A, LM75ADP, LM75AD]
+  package: 8-pin SOIC / TSSOP / Breakout Board
+  supply_voltage_min_v: 2.8
+  supply_voltage_max_v: 5.5
+  temperature_range_c_min: -55
+  temperature_range_c_max: 125
+  temperature_accuracy_c: 2.0
+  resolution_bits: 11
+  resolution_c: 0.125
+  i2c_address_default: "0x48"
+  i2c_address_options: ["0x48", "0x49", "0x4A", "0x4B", "0x4C", "0x4D", "0x4E", "0x4F"]
+  operating_current_ua: 250
+  shutdown_current_ua: 1.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - temperature_accuracy_c
+  - resolution_c
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: LM75A digital temperature sensor breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm75a.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/LM75A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nxp.com/products/LM75A" }

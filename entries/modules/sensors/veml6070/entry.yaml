@@ -1,0 +1,43 @@
+id: sensor.light.veml6070
+revision: "1.0"
+title: VEML6070 — Digital Ultraviolet (UV) Light Sensor
+category: sensors/light
+tags: [veml6070, uv, ultraviolet, uva, light, sensor, solar, i2c, vishay, adafruit, esphome]
+status: published
+summary: >-
+  Vishay high-sensitivity CMOS digital UV light sensor tuned to UVA radiation (320 to 400nm) featuring active photodiode array, 16-bit ADC, and dual I2C slave addresses (0x38 & 0x39).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Vishay Intertechnology
+  ic_part_numbers: [VEML6070]
+  package: 6-pin OPLGA (2.35 x 1.8 x 1.0 mm) / Breakout Module
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  uv_spectral_range_nm: 320 - 400 (UVA peak at 355nm)
+  integration_time_ms: 62.5 - 500 (1/2T, 1T, 2T, 4T selectable)
+  i2c_addresses: ["0x38 (LSB)", "0x39 (MSB)"]
+  operating_current_ua: 100
+  shutdown_current_ua: 1
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - uv_spectral_range_nm
+  - integration_time_ms
+  - i2c_addresses
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Vishay VEML6070 digital UV light sensor breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/veml6070.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.vishay.com/docs/84277/veml6070.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/2899" }

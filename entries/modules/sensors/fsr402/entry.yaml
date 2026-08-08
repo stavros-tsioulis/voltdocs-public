@@ -1,0 +1,44 @@
+id: sensor.force.fsr402
+revision: "1.0"
+title: FSR 402 — Round Force Sensitive Resistor (0.2N – 20N)
+category: sensors/force
+tags: [fsr402, fsr, force, pressure, resistor, interlink, analog, touch, push, wearable, robot-gripper]
+status: published
+summary: >-
+  Interlink Electronics 0.5" (12.7 mm) active diameter single-zone Force Sensitive Resistor (FSR) that decreases resistance (>1 MΩ unpressed to <1 kΩ under full load) as applied force increases.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Interlink Electronics
+  ic_part_numbers: [FSR 402, FSR-402, 30-81794]
+  package: Round Thin Polymer Sensor (2-pin 0.1" Solder Tabs)
+  active_area_diameter_mm: 12.7
+  force_sensitivity_range_n_min: 0.2
+  force_sensitivity_range_n_max: 20.0
+  break_force_g: 20
+  unpressed_resistance_mohm: 1.0
+  full_load_resistance_kohm: 1.0
+  continuous_power_rating_w: 0.5
+  operating_temp_min_c: -30
+  operating_temp_max_c: 70
+  interfaces: [2-Terminal Passive Resistance]
+highlights:
+  - active_area_diameter_mm
+  - force_sensitivity_range_n_min
+  - force_sensitivity_range_n_max
+  - break_force_g
+  - unpressed_resistance_mohm
+  - full_load_resistance_kohm
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Interlink FSR 402 round force sensitive resistor
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/fsr402.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.interlinkelectronics.com/hubfs/FSR402-Data-Sheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.interlinkelectronics.com/fsr-402" }

@@ -1,0 +1,44 @@
+id: time.rtc.ds1302
+revision: "1.0"
+title: DS1302 — Trickle-Charge Real-Time Clock Module
+category: modules/rtc
+tags: [ds1302, rtc, clock, calendar, trickle-charge, maxim, 3-wire, elegoo, starter-kit]
+status: published
+summary: >-
+  Maxim Integrated trickle-charge real-time clock chip packaged as a 5-pin breakout module with CR2032 battery holder, managing timekeeping over a 3-wire serial interface (CE, IO, SCLK).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Maxim Integrated (Analog Devices)
+  ic_part_numbers: [DS1302, DS1302N, DS1302S]
+  package: 8-pin DIP / SOIC / Breakout Module with CR2032 Battery Holder
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 5.5
+  clock_crystal_frequency_khz: 32.768
+  backup_current_ua: 0.3
+  timekeeper_ram_bytes: 31
+  trickle_charger: Built-in Software Programmable Trickle Charger
+  serial_interface: 3-Wire Serial (CE / RST, I/O / DAT, SCLK / CLK)
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [3-Wire Serial Interface]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - clock_crystal_frequency_khz
+  - backup_current_ua
+  - timekeeper_ram_bytes
+  - serial_interface
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: DS1302 RTC module with CR2032 coin cell battery holder
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ds1302.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/DS1302.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/ds1302.html" }

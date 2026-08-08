@@ -1,0 +1,44 @@
+id: driver.display.ht16k33
+revision: "1.0"
+title: HT16K33 — RAM Mapping 16x8 LED Driver / Matrix Controller with I2C
+category: drivers/display
+tags: [ht16k33, led-driver, matrix, 16x8, 7-segment, 14-segment, i2c, adafruit, backpack, holtek, sop-28]
+status: published
+summary: >-
+  Holtek memory-mapped multi-function LED controller IC driving up to 128 LEDs (16x8 matrix or 4-digit 7-segment / 14-segment displays) with 16-step dimming over I2C interface, widely used in Adafruit LED backpacks.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Holtek Semiconductors
+  ic_part_numbers: [HT16K33, HT16K33-SOP28, HT16K33-SOP24]
+  package: 28-pin SOP / 24-pin SOP / Adafruit LED Backpack Breakout Module
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0 (3.3V I2C logic compatible)
+  led_matrix_size: 16x8 (Up to 128 individual LEDs or 8x 7-segment digits)
+  keyscan_matrix_size: 13x3 (Up to 39 key switches)
+  dimming_steps: 16 (4-bit PWM brightness control)
+  i2c_speed_khz: 400
+  i2c_addresses: [0x70, 0x71, 0x72, 0x73, 0x74, 0x75, 0x76, 0x77]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C (SDA, SCL), 16 Anode/Segment outputs (A0-A15), 8 Cathode/COM outputs (C0-C7)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - led_matrix_size
+  - dimming_steps
+  - i2c_speed_khz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HT16K33 I2C 16x8 LED matrix driver breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ht16k33.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.holtek.com/documents/10179/116711/HT16K33v120.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.holtek.com/productdetail/-/vg/HT16K33" }

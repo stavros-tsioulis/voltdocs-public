@@ -1,0 +1,46 @@
+id: sensor.touch.mpr121
+revision: "1.0"
+title: MPR121 — 12-Channel Proximity Capacitive Touch Controller
+category: sensors/touch
+tags: [mpr121, touch, capacitive, proximity, i2c, nxp, adafruit, hat, breakout, keyboard]
+status: published
+summary: >-
+  NXP 12-channel capacitive touch sensing controller featuring I2C interface, independent baseline autocalibration, 8 LED driver GPIO pins, and programmable touch/release thresholds for touch keypads.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: NXP Semiconductors
+  ic_part_numbers: [MPR121, MPR121QR2]
+  package: 20-pin QFN (3 x 3 mm) / Breakout Board / Pi HAT
+  supply_voltage_min_v: 1.71
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  touch_channels: 12
+  gpio_led_driver_channels: 8
+  i2c_address_default: "0x5A"
+  i2c_address_options: ["0x5A", "0x5B", "0x5C", "0x5D"]
+  operating_current_ua: 29
+  standby_current_ua: 3
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - touch_channels
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MPR121 12-channel capacitive touch breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mpr121.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/MPR121.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nxp.com/products/MPR121" }

@@ -1,0 +1,43 @@
+id: sensor.temperature.lm35
+revision: "1.0"
+title: LM35 — Precision Centigrade Temperature Sensor
+category: sensors/temperature
+tags: [lm35, lm35dz, temperature, analog, sensor, texas-instruments, centigrade]
+status: published
+summary: >-
+  Texas Instruments precision integrated-circuit temperature sensor whose output voltage is linearly proportional to the Celsius (Centigrade) temperature (10 mV/°C).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [LM35, LM35DZ, LM35CZ, LM35AH]
+  package: TO-92, SOIC-8, TO-46
+  supply_voltage_min_v: 4.0
+  supply_voltage_max_v: 30.0
+  temperature_range_c_min: -55
+  temperature_range_c_max: 150
+  temperature_accuracy_c: 0.5
+  scale_factor_mv_per_c: 10.0
+  quiescent_current_ua: 60
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Analog Output]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - scale_factor_mv_per_c
+  - temperature_accuracy_c
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: LM35 TO-92 temperature sensor IC
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm35.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm35.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM35" }

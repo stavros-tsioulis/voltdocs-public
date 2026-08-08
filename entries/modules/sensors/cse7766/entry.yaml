@@ -1,0 +1,43 @@
+id: sensor.power.cse7766
+revision: "1.0"
+title: CSE7766 — Single-Phase Energy Monitoring IC with UART
+category: sensors/power
+tags: [cse7766, energy, power, metering, sonoff, sonoff-s31, pow-r2, uart, silergy, esphome, tasmota]
+status: published
+summary: >-
+  China Silergy / CSE single-phase power metering IC with 4,800 baud optocoupled UART interface, outputting raw RMS voltage, RMS current, active power, and energy telemetry frames in Sonoff S31 and POW R2 smart plugs.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: China Silergy / CSE
+  ic_part_numbers: [CSE7766, CSE7766-SOP8]
+  package: 8-pin SOP / Smart Plug Internal PCB
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  measurement_channels: 2 (1 Voltage + 1 Current)
+  adc_resolution_bits: 16
+  baud_rate_bps: 4800
+  measurement_accuracy_pct: 0.5
+  operating_current_ma: 3.5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Optocoupled TTL UART (4800 bps)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - measurement_channels
+  - baud_rate_bps
+  - measurement_accuracy_pct
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: CSE7766 power monitoring IC inside Sonoff S31 smart plug PCB
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/cse7766.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://tasmota.github.io/docs/files/CSE7766_protocol.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.silergy.com" }

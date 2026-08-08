@@ -1,0 +1,46 @@
+id: sensor.environmental.pms5003
+revision: "1.0"
+title: PMS5003 — Laser Particulate Matter (PM1.0, PM2.5, PM10) Air Quality Sensor
+category: sensors/environmental
+tags: [pms5003, pms7003, pm2.5, pm1.0, pm10, particulate-matter, dust, air-quality, plantower, uart]
+status: published
+summary: >-
+  Plantower digital universal particle concentration sensor using laser scattering to measure real-time PM1.0, PM2.5, and PM10 mass concentration (µg/m³) over a UART serial interface.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Plantower
+  ic_part_numbers: [PMS5003, PMS7003, PMS3003]
+  package: 10-pin Metallic Module (50 x 38 x 12 mm)
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0
+  particle_size_detection_um_min: 0.3
+  particle_size_detection_um_max: 10.0
+  pm25_concentration_range_ug_m3_max: 500
+  counting_efficiency_pct: 98
+  response_time_s: 1
+  default_baud_rate: 9600
+  operating_current_ma: 100
+  standby_current_ma: 0.2
+  operating_temp_min_c: -10
+  operating_temp_max_c: 60
+  interfaces: [UART (9600 baud), Reset, Set]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - particle_size_detection_um_min
+  - pm25_concentration_range_ug_m3_max
+  - default_baud_rate
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Plantower PMS5003 laser PM2.5 dust sensor
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pms5003.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.plantower.com/en/products_33.html" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.plantower.com" }

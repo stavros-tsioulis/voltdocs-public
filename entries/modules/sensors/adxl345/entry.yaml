@@ -1,0 +1,47 @@
+id: sensor.accelerometer.adxl345
+revision: "1.0"
+title: ADXL345 — 3-Axis Ultra-Low Power Digital MEMS Accelerometer
+category: sensors/accelerometer
+tags: [adxl345, accelerometer, imu, motion, 3-axis, i2c, spi, analog-devices, gravity]
+status: published
+summary: >-
+  Analog Devices small, thin, ultra-low power 3-axis MEMS accelerometer with high-resolution (13-bit) measurement up to ±16 g outputting digital data formatted over I2C or SPI.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Analog Devices
+  ic_part_numbers: [ADXL345, ADXL345BCCZ]
+  package: 14-terminal LGA (3 x 5 x 1 mm) / GY-291 Breakout Board
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  accel_full_scale_g: [2, 4, 8, 16]
+  adc_resolution_bits: 13
+  data_rate_hz_min: 0.1
+  data_rate_hz_max: 3200
+  measurement_current_ua: 145
+  standby_current_ua: 0.1
+  i2c_address_default: "0x53"
+  i2c_address_alternate: "0x1D"
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, 3-Wire SPI, 4-Wire SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - accel_full_scale_g
+  - adc_resolution_bits
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ADXL345 breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/adxl345.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/adxl345.html" }

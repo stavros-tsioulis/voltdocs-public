@@ -1,0 +1,41 @@
+id: driver.stepper.tb6600
+revision: "1.0"
+title: TB6600 — 4.0A Stepper Motor Driver Module
+category: drivers/stepper
+tags: [tb6600, tb67s109aftg, stepper, driver, microstepping, cnc, toshiba, high-power, industrial]
+status: published
+summary: >-
+  Toshiba-based high-power enclosed stepper motor driver module providing 9V to 42V DC supply, up to 4.0A peak current, optocoupler-isolated control inputs, and DIP switch settings for NEMA 17/23/24 stepper motors.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Toshiba
+  ic_part_numbers: [TB6600HG, TB67S109AFTG, TB6600]
+  package: Enclosed Aluminum Heatsink Box Module
+  load_voltage_min_v: 9.0
+  load_voltage_max_v: 42.0
+  logic_voltage_v: 5.0 (Optocoupled)
+  peak_output_current_a: 4.0
+  adjustable_current_range_a: 0.5 - 3.5 A
+  microstep_resolutions: [Full, 1/2, 1/4, 1/8, 1/16, 1/32]
+  isolation: Optocoupler isolated signal inputs
+  operating_temp_min_c: -10
+  operating_temp_max_c: 45
+  interfaces: [PUL/DIR/ENA Optocoupled Inputs]
+highlights:
+  - load_voltage_min_v
+  - load_voltage_max_v
+  - peak_output_current_a
+  - microstep_resolutions
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TB6600 enclosed stepper motor driver module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tb6600.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://toshiba.semicon-storage.com/info/docget.jsp?did=15344" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://toshiba.semicon-storage.com/ap-en/semiconductor/product/motor-driver-ics/stepper-motor-driver-ics.html" }

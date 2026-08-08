@@ -1,0 +1,47 @@
+id: sensor.adc.nau7802
+revision: "1.0"
+title: NAU7802 — 24-Bit Dual-Channel Load Cell ADC with I2C
+category: sensors/adc
+tags: [nau7802, adc, load-cell, scale, weight, nuvoton, i2c, 24-bit, pga, sparkfun, qwiic, esphome]
+status: published
+summary: >-
+  Nuvoton NAU7802 precision 24-bit Sigma-Delta ADC with low-noise PGA (1x to 128x), dual differential input channels, onboard LDO voltage regulator, and I2C output (0x2A) for weigh scales.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Nuvoton Technology
+  ic_part_numbers: [NAU7802, NAU7802SGI, NAU7802KGI]
+  package: 16-pin SOP / DIP / Qwiic Breakout Board
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  resolution_bits: 24
+  pga_gain_options: [1, 2, 4, 8, 16, 32, 64, 128]
+  differential_input_channels: 2
+  sample_rate_sps: [10, 20, 40, 80, 320]
+  i2c_address_default: "0x2A"
+  operating_current_ma: 2.1
+  power_down_current_ua: 1
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - resolution_bits
+  - pga_gain_options
+  - differential_input_channels
+  - sample_rate_sps
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: NAU7802 24-bit load cell ADC Qwiic breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/nau7802.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nuvoton.com/export/resource-files/NAU7802_Data_Sheet_EN_V1.7.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.sparkfun.com/products/15242" }

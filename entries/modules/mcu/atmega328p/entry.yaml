@@ -1,0 +1,49 @@
+id: mcu.avr.atmega328p
+revision: "1.0"
+title: ATmega328P — 8-Bit AVR Microcontroller with 32KB Flash
+category: mcu/avr
+tags: [atmega328p, atmega328, avr, microchip, atmel, arduino, uno, nano, 8-bit, dip-28, 16mhz]
+status: published
+summary: >-
+  Microchip (Atmel) high-performance 8-bit AVR RISC microcontroller with 32KB Flash, 2KB SRAM, 1KB EEPROM, 10-bit ADC, powering Arduino Uno R3 and Arduino Nano.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Microchip Technology / Atmel
+  ic_part_numbers: [ATmega328P, ATmega328P-PU, ATmega328P-AU, ATmega328P-MU]
+  package: 28-pin DIP (DIP-28) / 32-pin TQFP / 32-pin QFN
+  core: 8-bit AVR RISC
+  max_clock_speed_mhz: 20 (16MHz nominal on Arduino)
+  flash_memory_kb: 32 (0.5KB reserved for Optiboot bootloader)
+  sram_memory_kb: 2
+  eeprom_memory_kb: 1
+  operating_voltage_min_v: 1.8
+  operating_voltage_max_v: 5.5
+  gpio_count: 23
+  pwm_channels: 6 (8-bit resolution)
+  adc_channels: 6 (DIP) / 8 (TQFP) (10-bit resolution)
+  interfaces: [UART/USART, SPI, I2C/TWI]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_kb
+  - eeprom_memory_kb
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Microchip ATmega328P-PU microcontroller in 28-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/atmega328p.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328P-Data-Sheet-40002061B.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/ATmega328P" }

@@ -1,0 +1,44 @@
+id: power.regulator.tl431
+revision: "1.0"
+title: TL431 — Adjustable Precision Shunt Regulator
+category: power/regulators
+tags: [tl431, tl431a, tl431b, shunt-regulator, voltage-reference, zener, texas-instruments, stmicroelectronics, to-92]
+status: published
+summary: >-
+  Texas Instruments / STMicroelectronics industry-standard three-terminal adjustable shunt regulator IC with thermal stability and output programmable from Vref (2.495 V) to 36 V using two external resistors.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [TL431, TL431A, TL431B, TL431C, TL431I, TL431ALP]
+  package: TO-92 / SOT-23 / SOIC-8
+  reference_voltage_v: 2.495
+  output_voltage_min_v: 2.495
+  output_voltage_max_v: 36.0
+  cathode_current_min_ma: 1.0
+  cathode_current_max_ma: 100.0
+  reference_input_current_ua: 2.0
+  dynamic_output_impedance_ohm: 0.2
+  voltage_reference_accuracy_pct: 0.5 (B-grade) / 1.0 (A-grade) / 2.0 (Standard)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Shunt (Anode, Cathode, Reference)]
+highlights:
+  - reference_voltage_v
+  - output_voltage_min_v
+  - output_voltage_max_v
+  - cathode_current_max_ma
+  - dynamic_output_impedance_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TL431 adjustable precision shunt regulator IC in TO-92 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tl431.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tl431.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TL431" }

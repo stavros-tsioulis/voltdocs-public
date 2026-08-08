@@ -1,0 +1,48 @@
+id: sensor.camera.ov2640
+revision: "1.0"
+title: OV2640 — 2MP UXGA Color CMOS Camera Sensor
+category: sensors/camera
+tags: [ov2640, camera, image-sensor, omnivision, esp32-cam, jpeg, parallel-dvp, 2mp, vision, iot-camera]
+status: published
+summary: >-
+  OmniVision 1/4" 2-megapixel UXGA (1600x1200) CMOS image sensor featuring an integrated hardware JPEG compression engine and parallel DVP interface, universally bundled with ESP32-CAM boards.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: OmniVision Technologies
+  ic_part_numbers: [OV2640, OV02640]
+  package: 24-pin FPC Flex Ribbon (24-pin 0.5mm Pitch Socket)
+  supply_voltage_digital_v: 1.2
+  supply_voltage_analog_v: 2.8
+  supply_voltage_io_v: 2.8
+  optical_format: 1/4-inch
+  active_pixels_x: 1600
+  active_pixels_y: 1200
+  pixel_size_um: 2.2
+  frame_rate_max_fps: 15 (UXGA) / 30 (SVGA) / 60 (CIF)
+  i2c_control_address: "0x30"
+  hardware_jpeg_encoder: true
+  interface_data: 8-Bit Parallel DVP (Y0-Y9, PCLK, VSYNC, HREF)
+  operating_temp_min_c: -30
+  operating_temp_max_c: 70
+  interfaces: [Parallel DVP, I2C Control (SCCB)]
+highlights:
+  - optical_format
+  - active_pixels_x
+  - active_pixels_y
+  - pixel_size_um
+  - frame_rate_max_fps
+  - hardware_jpeg_encoder
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: OV2640 camera module on ESP32-CAM development board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ov2640.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.uctronics.com/download/Cam_Module/OV2640_DS.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ovt.com/products/ov2640/" }

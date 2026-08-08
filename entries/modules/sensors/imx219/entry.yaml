@@ -1,0 +1,46 @@
+id: sensor.camera.imx219
+revision: "1.0"
+title: IMX219 — 8MP CMOS Image Sensor (Raspberry Pi Camera v2)
+category: sensors/camera
+tags: [imx219, camera, image-sensor, sony, raspberry-pi, mipi-csi, 8mp, 1080p, vision, computer-vision]
+status: published
+summary: >-
+  Sony 1/4" 8.08-megapixel back-illuminated stacked CMOS image sensor (IMX219PQ) with 2-lane MIPI CSI-2 interface, driving the Raspberry Pi Camera Module v2 (3280x2464 stills, 1080p30 video).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sony / Raspberry Pi Foundation
+  ic_part_numbers: [IMX219, IMX219PQ]
+  package: Camera Module PCB (15-pin FPC Ribbon Cable)
+  supply_voltage_digital_v: 1.2
+  supply_voltage_analog_v: 2.8
+  supply_voltage_io_v: 1.8
+  optical_format: 1/4-inch
+  active_pixels_x: 3280
+  active_pixels_y: 2464
+  pixel_size_um: 1.12
+  frame_rate_max_fps: 30 (8MP) / 60 (1080p) / 90 (720p)
+  i2c_control_address: "0x10"
+  interface_data: 2-Lane MIPI CSI-2
+  operating_temp_min_c: -20
+  operating_temp_max_c: 60
+  interfaces: [MIPI CSI-2, I2C Control (CCI)]
+highlights:
+  - optical_format
+  - active_pixels_x
+  - active_pixels_y
+  - pixel_size_um
+  - frame_rate_max_fps
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Raspberry Pi Camera Module v2 featuring Sony IMX219 sensor
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/imx219.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://github.com/raspberrypi/documentation/raw/develop/documentation/asciidoc/computers/camera/IMX219.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.raspberrypi.com/products/camera-module-v2/" }

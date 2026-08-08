@@ -1,0 +1,44 @@
+id: sensor.gas.mq135
+revision: "1.0"
+title: MQ-135 — Hazardous Gas and Air Quality Sensor Module
+category: sensors/gas
+tags: [mq135, mq-135, gas, air-quality, nh3, nox, alcohol, benzene, smoke, co2-proxy, winsen]
+status: published
+summary: >-
+  Winsen Electronics tin-dioxide (SnO2) semiconductor gas sensor sensitive to NH3, NOx, alcohol, benzene, smoke, and CO2, providing analog output and digital threshold comparator output.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Winsen Electronics
+  ic_part_numbers: [MQ-135]
+  package: 6-pin Bakelite / Breakout PCB
+  heater_voltage_v: 5.0
+  circuit_voltage_v: 5.0
+  load_resistance_kohm: 20.0
+  heater_resistance_ohm: 31.0
+  heater_power_consumption_mw: 800
+  detection_range_ppm_min: 10
+  detection_range_ppm_max: 1000
+  target_gases: [NH3, NOx, Alcohol, Benzene, Smoke, CO2]
+  operating_temp_min_c: -10
+  operating_temp_max_c: 45
+  operating_humidity_pct_max: 95
+  interfaces: [Analog Output, Digital Output (LM393 Comparator)]
+highlights:
+  - heater_voltage_v
+  - circuit_voltage_v
+  - detection_range_ppm_min
+  - detection_range_ppm_max
+  - target_gases
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MQ-135 air quality gas sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mq135.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.winsen-sensor.com/d/files/semiconductor/mq-135.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.winsen-sensor.com/sensors/air-quality-gas-sensor/mq-135.html" }

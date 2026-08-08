@@ -1,0 +1,46 @@
+id: transistor.mosfet.irlz44n
+revision: "1.0"
+title: IRLZ44N — Logic-Level N-Channel Power MOSFET (55V, 47A)
+category: transistors/mosfet
+tags: [irlz44n, mosfet, n-channel, logic-level, 55v, 47a, to-220, infineon, ir, power-switch, pwm]
+status: published
+summary: >-
+  Infineon / IR TO-220 logic-level N-channel power MOSFET with ultra-low VGS(th) (1.0V to 2.0V) allowing full 55V/47A switching directly from 3.3V and 5V microcontroller GPIO pins.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Infineon / International Rectifier
+  ic_part_numbers: [IRLZ44N, IRLZ44NPBF]
+  package: TO-220AB
+  transistor_type: N-Channel MOSFET (Logic-Level)
+  drain_source_voltage_vdss_v: 55
+  continuous_drain_current_id_a: 47
+  gate_threshold_voltage_vgs_th_min_v: 1.0
+  gate_threshold_voltage_vgs_th_max_v: 2.0
+  rds_on_vgs_5v_mohm: 22
+  rds_on_vgs_4v_mohm: 25
+  total_gate_charge_nq: 48
+  max_power_dissipation_w: 110
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [Gate-Source Voltage Drive]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_5v_mohm
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: IRLZ44N N-channel power MOSFET TO-220 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/irlz44n.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/Infineon-IRLZ44N-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015356ec8f672765" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/power-mosfet/n-channel/irlz44n/" }

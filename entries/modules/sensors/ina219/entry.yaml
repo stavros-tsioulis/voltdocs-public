@@ -1,0 +1,43 @@
+id: sensor.power.ina219
+revision: "1.0"
+title: INA219 — Zero-Drift, Bidirectional Current / Power Monitor with I2C Interface
+category: sensors/power
+tags: [ina219, current, power, voltage, sensor, i2c, texas-instruments, shunt, power-monitor]
+status: published
+summary: >-
+  Texas Instruments high-side current and power monitor IC with an I2C interface that measures shunt voltage drop across a precision sense resistor, bus voltage up to 26 V, and calculates current and power onboard.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [INA219, INA219BIDR, INA219AIDR]
+  package: SOT23-8, SOIC-8 / Breakout Board
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 5.5
+  bus_voltage_max_v: 26.0
+  max_current_a: 3.2
+  shunt_resistor_ohm: 0.1
+  adc_resolution_bits: 12
+  i2c_address_default: "0x40"
+  operating_current_ma: 1.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bus_voltage_max_v
+  - max_current_a
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: INA219 current power monitor breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ina219.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/ina219.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/INA219" }

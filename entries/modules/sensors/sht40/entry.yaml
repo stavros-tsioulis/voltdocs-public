@@ -1,0 +1,54 @@
+id: sensor.humidity.sht40
+revision: "1.0"
+title: SHT40 — 4th Generation Digital Relative Humidity & Temperature Sensor
+category: sensors/humidity
+tags: [sht40, sht4x, sensirion, humidity, temperature, sensor, i2c, ultra-low-power, adafruit, esphome]
+status: published
+summary: >-
+  Sensirion 4th-generation ultra-low-power digital relative humidity and temperature sensor featuring ±1.8% RH humidity accuracy, ±0.2°C temperature accuracy, high-power heater, and I2C output (0x44).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sensirion AG
+  ic_part_numbers: [SHT40, SHT40-AD1B, SHT41, SHT45]
+  package: 4-pin DFN (1.5 x 1.5 x 0.55 mm) / Breakout Board (STEMMA QT / Qwiic)
+  supply_voltage_min_v: 1.08
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  temperature_range_c_min: -40
+  temperature_range_c_max: 125
+  temperature_accuracy_c: 0.2
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  humidity_accuracy_pct: 1.8
+  resolution_bits: 16
+  i2c_address_default: "0x44"
+  operating_current_ua: 80.0
+  sleep_current_ua: 0.08
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - temperature_accuracy_c
+  - humidity_accuracy_pct
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Sensirion SHT40 humidity and temperature sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sht40.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensirion.com/media/documents/31B48E64/61676608/Sensirion_Humidity_Sensors_SHT4x_Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://sensirion.com/products/catalog/SHT40/" }

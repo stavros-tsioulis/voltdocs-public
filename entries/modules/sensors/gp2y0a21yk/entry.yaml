@@ -1,0 +1,43 @@
+id: sensor.distance.gp2y0a21yk
+revision: "1.0"
+title: GP2Y0A21YK0F — Analog IR Distance Measuring Sensor (10–80 cm)
+category: sensors/distance
+tags: [gp2y0a21yk, sharp, distance, ir, infrared, triangulation, analog, proximity, robotics, obstacle-avoidance]
+status: published
+summary: >-
+  Sharp optical distance sensor integrating an infrared emitter, Position Sensitive Detector (PSD), and signal processing circuit, outputting a non-linear analog voltage for 10 cm to 80 cm distance measurement.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sharp Microelectronics
+  ic_part_numbers: [GP2Y0A21YK0F, GP2Y0A21]
+  package: Plastic Housing with Optical Lenses (3-pin JST-PH Connector)
+  operating_voltage_min_v: 4.5
+  operating_voltage_max_v: 5.5
+  distance_range_cm_min: 10.0
+  distance_range_cm_max: 80.0
+  output_type: Non-linear Analog Voltage
+  output_voltage_diff_v: 1.9
+  operating_current_ma: 30
+  operating_temp_min_c: -10
+  operating_temp_max_c: 60
+  interfaces: [Analog Output]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - distance_range_cm_min
+  - distance_range_cm_max
+  - output_type
+  - operating_current_ma
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: GP2Y0A21YK Sharp analog IR distance sensor
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/gp2y0a21yk.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://global.sharp/products/device/" }

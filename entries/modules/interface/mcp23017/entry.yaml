@@ -1,0 +1,42 @@
+id: interface.gpio.mcp23017
+revision: "1.0"
+title: MCP23017 — 16-Bit I2C I/O Expander with Serial Interface
+category: interface/gpio
+tags: [mcp23017, gpio, expander, i2c, microchip, 16-bit, interrupt, io-expander]
+status: published
+summary: >-
+  Microchip 16-bit parallel I/O expander for I2C bus featuring two 8-bit ports (PORTA and PORTB), configurable pull-ups, polarity inversion, and dual interrupt outputs.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [MCP23017-E/P, MCP23017-E/SO, MCP23017-E/SS]
+  package: DIP28, SOIC28, SSOP28
+  supply_voltage_min_v: 1.8
+  supply_voltage_max_v: 5.5
+  i2c_clock_max_khz: 1700
+  io_pins: 16
+  max_source_sink_current_ma: 25
+  i2c_address_base_hex: "0x20"
+  standby_current_ua: 1
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - i2c_clock_max_khz
+  - io_pins
+  - i2c_address_base_hex
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MCP23017 I2C GPIO expander IC
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mcp23017.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/mcp23017" }

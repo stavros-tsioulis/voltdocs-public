@@ -1,0 +1,51 @@
+id: sensor.gps.pa1010d
+revision: "1.0"
+title: PA1010D — Mini GPS / GNSS Module with Integrated Patch Antenna
+category: sensors/gps
+tags: [pa1010d, gps, gnss, location, navigation, i2c, uart, adafruit, stemma-qt, mtk3333]
+status: published
+summary: >-
+  GlobalTop / Adafruit 99-channel MTK3333 GNSS receiver module featuring an integrated ceramic patch antenna, simultaneous GPS/GLONASS tracking, NMEA-0183 output over I2C (0x10) or UART.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: GlobalTop / Adafruit
+  ic_part_numbers: [PA1010D, MTK3333]
+  package: 12 x 12 x 4 mm Module / STEMMA QT Breakout Board
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 4.3
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  channels: 99
+  tracking_sensitivity_dbm: -165
+  position_accuracy_m: 2.5
+  update_rate_hz_max: 10
+  baud_rate_bps_default: 9600
+  i2c_address_default: "0x10"
+  operating_current_ma: 25
+  standby_current_ua: 30
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, TTL UART]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - channels
+  - tracking_sensitivity_dbm
+  - position_accuracy_m
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: PA1010D mini GPS STEMMA QT breakout module with patch antenna
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pa1010d.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn-shop.adafruit.com/product-files/4415/PA1010D_Datasheet_v0.1.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/4415" }

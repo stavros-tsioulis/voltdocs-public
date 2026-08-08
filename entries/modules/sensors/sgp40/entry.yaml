@@ -1,0 +1,48 @@
+id: sensor.gas.sgp40
+revision: "1.0"
+title: SGP40 — Digital Volatile Organic Compound (VOC) Gas Sensor
+category: sensors/environmental
+tags: [sgp40, voc, gas, air-quality, sensirion, cmosens, voc-index, i2c, adafruit, esphome]
+status: published
+summary: >-
+  Sensirion MOX multi-pixel digital VOC gas sensor generating a real-time VOC Index (0 to 500) for indoor air quality monitoring via Sensirion's VOC Index Algorithm over I2C (0x59).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sensirion AG
+  ic_part_numbers: [SGP40, SGP40-2.5K-RE]
+  package: 6-pin DFN (2.44 x 2.44 x 0.85 mm) / Breakout Board (STEMMA QT / Qwiic)
+  supply_voltage_min_v: 1.7
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  target_gases: Volatile Organic Compounds (VOCs / Solvents / Alcohols / Smoke)
+  voc_index_output_range: 0 - 500 (100 = Normal Clean Air Baseline)
+  i2c_address_default: "0x59"
+  warmup_time_sec: 10
+  operating_current_ma: 2.6
+  sleep_current_ua: 3.0
+  operating_temp_min_c: -20
+  operating_temp_max_c: 55
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - target_gases
+  - voc_index_output_range
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Sensirion SGP40 VOC air quality sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sgp40.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensirion.com/media/documents/44B541C4/61E5E778/Sensirion_Gas_Sensors_SGP40_Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://sensirion.com/products/catalog/SGP40/" }

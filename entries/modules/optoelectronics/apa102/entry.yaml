@@ -1,0 +1,41 @@
+id: optoelectronics.led.apa102
+revision: "1.0"
+title: APA102 — SPI-Clocked Addressable RGB LED (DotStar)
+category: optoelectronics/leds
+tags: [apa102, apa102c, dotstar, led, addressable-led, rgb, spi, optoelectronics, fastled, pixel-strip]
+status: published
+summary: >-
+  Individually addressable 5050 RGB LED with integrated CMOS control driver using a 2-wire SPI (Clock and Data) interface, eliminating tight PWM timing constraints and achieving refresh rates up to 20 MHz.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (Opsco / Taiwan APA)
+  ic_part_numbers: [APA102, APA102C, APA102-2020]
+  package: 5050 SMD (5.0 x 5.0 x 1.4 mm) / LED Strip Module
+  operating_voltage_min_v: 4.5
+  operating_voltage_max_v: 5.5
+  color_depth_bits: 24 (8-bit per channel + 5-bit global brightness)
+  colors_supported: 16777216
+  max_clock_frequency_mhz: 20.0
+  operating_current_ma: 60
+  operating_temp_min_c: -40
+  operating_temp_max_c: 70
+  interfaces: [2-Wire SPI (CLK, DATA)]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - color_depth_bits
+  - max_clock_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: APA102 DotStar addressable RGB LED strip
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/apa102.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn-shop.adafruit.com/datasheets/APA102.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/category/885" }

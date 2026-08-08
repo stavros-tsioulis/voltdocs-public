@@ -1,0 +1,44 @@
+id: sensor.temperature.tmp36
+revision: "1.0"
+title: TMP36 — Low Voltage Precision Centigrade Temperature Sensor
+category: sensors/temperature
+tags: [tmp36, tmp35, tmp37, temperature, analog, sensor, analog-devices]
+status: published
+summary: >-
+  Analog Devices low voltage, precision centigrade temperature sensor providing a linear 10 mV/°C output voltage with a 500 mV offset for sub-zero measurements from a 2.7 V to 5.5 V supply.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Analog Devices
+  ic_part_numbers: [TMP36, TMP36GT9Z, TMP36GRT]
+  package: TO-92, SOIC-8, SOT-23
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  temperature_range_c_min: -40
+  temperature_range_c_max: 125
+  temperature_accuracy_c: 1.0
+  scale_factor_mv_per_c: 10.0
+  zero_deg_offset_mv: 500
+  quiescent_current_ua: 50
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Analog Output]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - scale_factor_mv_per_c
+  - zero_deg_offset_mv
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TMP36 TO-92 temperature sensor IC
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tmp36.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/tmp36.html" }

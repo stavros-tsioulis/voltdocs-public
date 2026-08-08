@@ -1,0 +1,54 @@
+id: sensor.humidity.shtc3
+revision: "1.0"
+title: SHTC3 — Ultra-Low Power Digital Humidity & Temperature Sensor
+category: sensors/humidity
+tags: [shtc3, sensirion, humidity, temperature, sensor, i2c, low-power, wearables, esphome]
+status: published
+summary: >-
+  Sensirion miniature 2.0x2.0mm DFN digital relative humidity and temperature sensor tailored for battery-driven wearables and mobile IoT, featuring ±2% RH accuracy and I2C output (0x70).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sensirion AG
+  ic_part_numbers: [SHTC3]
+  package: 4-pin DFN (2.0 x 2.0 x 0.75 mm) / Breakout Module
+  supply_voltage_min_v: 1.62
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  temperature_range_c_min: -40
+  temperature_range_c_max: 125
+  temperature_accuracy_c: 0.2
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  humidity_accuracy_pct: 2.0
+  resolution_bits: 16
+  i2c_address_default: "0x70"
+  operating_current_ua: 270
+  sleep_current_ua: 0.15
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - temperature_accuracy_c
+  - humidity_accuracy_pct
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Sensirion SHTC3 compact humidity and temperature sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/shtc3.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensirion.com/media/documents/643F9C8E/61654575/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://sensirion.com/products/catalog/SHTC3/" }

@@ -1,0 +1,45 @@
+id: sensor.acoustic.max4466
+revision: "1.0"
+title: MAX4466 — Electret Microphone Amplifier with Adjustable Gain
+category: sensors/acoustic
+tags: [max4466, microphone, audio, electret, amplifier, analog, maxim, adafruit, sound, voice, fft]
+status: published
+summary: >-
+  Maxim Integrated low-noise electret condenser microphone amplifier IC featuring high power-supply rejection (112 dB PSRR), single-ended analog output, and onboard 25x-125x trimmer potentiometer gain adjustment.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Maxim Integrated (Analog Devices)
+  ic_part_numbers: [MAX4466, MAX4466EXK]
+  package: 5-pin SC70 / Breakout Module with Electret Capsule
+  supply_voltage_min_v: 2.4
+  supply_voltage_max_v: 5.5
+  output_type: Analog AC Audio Signal (centered at VCC/2)
+  gain_range: 25x to 125x (adjustable via trimmer potentiometer)
+  psrr_db: 112
+  gain_bandwidth_product_khz: 600
+  operating_current_ua: 24
+  shutdown_current_na: 5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Analog Audio Output]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_type
+  - gain_range
+  - psrr_db
+  - operating_current_ua
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MAX4466 electret microphone amplifier breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/max4466.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX4465-MAX4469.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/max4466.html" }

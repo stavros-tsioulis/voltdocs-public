@@ -1,0 +1,42 @@
+id: timing.timer.ne555
+revision: "1.0"
+title: NE555 — Precision Timer IC
+category: timing/timer
+tags: [ne555, lm555, 555, timer, astable, monostable, oscillator, pwm, texas-instruments, dip-8]
+status: published
+summary: >-
+  Texas Instruments industry-standard precision timer producing accurate delays or oscillation in monostable or astable modes, with TTL-compatible output able to sink or source up to 200 mA.
+updatedAt: "2026-08-04"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / Signetics legacy
+  ic_part_numbers: [NE555, NE555P, NE555D, LM555, SA555, NA555, SE555]
+  package: 8-pin PDIP / SOIC-8 / TSSOP-8
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 16
+  output_current_ma: 200
+  quiescent_current_ma: 3
+  timing_range: microseconds to hours
+  threshold_fraction_vcc: 0.667
+  trigger_fraction_vcc: 0.333
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Analog Timing (TRIG, THRES, DISCH, CONT, RESET, OUT)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_current_ma
+  - timing_range
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: NE555 precision timer IC in 8-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ne555.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/ne555.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/NE555" }

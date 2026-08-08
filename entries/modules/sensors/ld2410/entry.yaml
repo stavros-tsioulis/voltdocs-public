@@ -1,0 +1,44 @@
+id: sensor.motion.ld2410
+revision: "1.0"
+title: LD2410 — 24GHz mmWave Human Presence Radar Sensor
+category: sensors/motion
+tags: [ld2410, ld2410b, ld2410c, sensor, mmwave, radar, motion, presence, micro-motion, uart, home-assistant, esphome, hilink]
+status: published
+summary: >-
+  Hi-Link 24GHz FMCW millimeter-wave radar module capable of detecting moving, stationary, micro-motion, and breathing human presence up to 5 meters over UART or binary OUT pin.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Hi-Link (Shenzhen HLK-Tech)
+  ic_part_numbers: [LD2410, LD2410B, LD2410C]
+  package: Compact PCB Module (5-pin 0.1" header)
+  supply_voltage_min_v: 5.0
+  supply_voltage_max_v: 12.0
+  frequency_ghz: 24.0
+  detection_distance_m_min: 0.75
+  detection_distance_m_max: 6.0
+  azimuth_angle_deg: 60
+  elevation_angle_deg: 60
+  baud_rate_bps: 256000
+  operating_current_ma: 79
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [UART, Digital GPIO Output]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - frequency_ghz
+  - detection_distance_m_max
+  - baud_rate_bps
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: LD2410 24GHz mmWave radar module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ld2410.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.hlktech.net/index.php?id=1073" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.hlktech.net/index.php?id=1073" }

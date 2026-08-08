@@ -1,0 +1,49 @@
+id: sensor.environmental.sps30
+revision: "1.0"
+title: SPS30 — Optical Particulate Matter Sensor (PM1.0, PM2.5, PM4, PM10)
+category: sensors/environmental
+tags: [sps30, sensirion, particulate, pm2.5, pm10, dust, laser, contamination-resistance, i2c, uart, esphome]
+status: published
+summary: >-
+  Sensirion high-precision optical PM sensor measuring PM1.0, PM2.5, PM4, and PM10 mass and number concentrations with 10+ year lifetime via contamination-resistant technology and automatic fan cleaning.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sensirion AG
+  ic_part_numbers: [SPS30]
+  package: Enclosed Shielded Plastic/Metal Box with 5-pin JST-ZH Connector
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  particle_measurement_range_ugm3_min: 0
+  particle_measurement_range_ugm3_max: 1000
+  mass_concentration_categories: [PM1.0, PM2.5, PM4.0, PM10.0]
+  number_concentration_categories: [PM0.5, PM1.0, PM2.5, PM4.0, PM10.0]
+  i2c_address_default: "0x69"
+  uart_baud_rate_bps: 115200
+  lifetime_years: "> 10"
+  operating_current_ma: 55
+  sleep_current_ua: 50
+  operating_temp_min_c: -10
+  operating_temp_max_c: 60
+  interfaces: [I2C, TTL UART]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - particle_measurement_range_ugm3_min
+  - particle_measurement_range_ugm3_max
+  - mass_concentration_categories
+  - number_concentration_categories
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Sensirion SPS30 optical particulate matter sensor
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sps30.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensirion.com/media/documents/8600E58/616542A5/Sensirion_Dust_Sensors_SPS30_Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://sensirion.com/products/catalog/SPS30/" }

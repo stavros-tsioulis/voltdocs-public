@@ -1,0 +1,44 @@
+id: sensor.hall.a3144
+revision: "1.0"
+title: A3144 — Unipolar Digital Hall Effect Switch
+category: sensors/hall
+tags: [a3144, hall, magnetic, switch, rpm, tachometer, door-sensor, open-collector, allegro]
+status: published
+summary: >-
+  Allegro non-latching unipolar digital Hall effect switch IC (TO-92 / breakout module) that pulls its open-collector output Low when exposed to a South magnetic pole, ideal for RPM tachometers and door sensors.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Allegro MicroSystems / Generic
+  ic_part_numbers: [A3144, A3144EUA, A3144LUA, 3144]
+  package: 3-pin TO-92 / 3-pin SOT-23 / Breakout Module
+  operating_voltage_min_v: 4.5
+  operating_voltage_max_v: 24.0
+  magnetic_type: Unipolar South Pole Sensitive
+  output_type: Open-Collector NPN Transistor (Active Low)
+  operating_point_gauss_max: 350
+  release_point_gauss_min: 10
+  hysteresis_gauss_typ: 55
+  max_output_sink_current_ma: 25
+  operating_temp_min_c: -40
+  operating_temp_max_c: 150
+  interfaces: [Digital Open-Collector Output]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - magnetic_type
+  - output_type
+  - max_output_sink_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: A3144 digital Hall effect sensor in TO-92 package and breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/a3144.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.allegromicro.com/-/media/files/datasheets/a3141-2-3-4-datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.allegromicro.com" }

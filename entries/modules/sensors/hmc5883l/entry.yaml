@@ -1,0 +1,45 @@
+id: sensor.compass.hmc5883l
+revision: "1.0"
+title: HMC5883L — 3-Axis Digital Magnetometer / Compass IC
+category: sensors/compass
+tags: [hmc5883l, qmc5883l, magnetometer, compass, 3-axis, i2c, honeywell, gy-271]
+status: published
+summary: >-
+  Honeywell surface-mount 3-axis digital compass / magnetoresistive magnetometer IC providing 12-bit magnetic field measurements over an I2C interface.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Honeywell
+  ic_part_numbers: [HMC5883L]
+  package: 16-pin LPCC (3 x 3 x 0.9 mm) / GY-271 Breakout Board
+  supply_voltage_min_v: 2.16
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  field_range_gauss: [0.88, 1.3, 1.9, 2.5, 4.0, 4.7, 5.6, 8.1]
+  adc_resolution_bits: 12
+  output_rate_hz_max: 160
+  measurement_current_ua: 100
+  idle_current_ua: 2
+  i2c_address_default: "0x1E"
+  operating_temp_min_c: -30
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - field_range_gauss
+  - adc_resolution_bits
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: HMC5883L / QMC5883L magnetometer module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hmc5883l.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn-shop.adafruit.com/datasheets/HMC5883L_3-Axis_Digital_Compass_IC.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://sensing.honeywell.com" }

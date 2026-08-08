@@ -1,0 +1,47 @@
+id: module.gps.neo-m8n
+revision: "1.0"
+title: NEO-M8N — Concurrent GNSS (GPS, GLONASS, BeiDou, QZSS) Module
+category: wireless/gps
+tags: [neo-m8n, neo-8m, gps, gnss, glonass, beidou, u-blox, positioning, navigation, drone]
+status: published
+summary: >-
+  u-blox concurrent GNSS receiver module capable of simultaneously tracking GPS, GLONASS, BeiDou, and QZSS constellations for high-accuracy positioning in drones, trackers, and navigation systems.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: u-blox
+  ic_part_numbers: [NEO-M8N, NEO-M8N-0-10]
+  package: 24-pin LCC (12.2 x 16.0 x 2.4 mm) / GY-GPS6MV2 Breakout Board
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  horizontal_position_accuracy_m: 2.5
+  max_navigation_update_rate_hz: 10
+  tracking_sensitivity_dbm: -167
+  time_to_first_fix_cold_start_s: 26
+  default_baud_rate: 9600
+  supported_constellations: [GPS, GLONASS, BeiDou, QZSS, SBAS]
+  operating_current_ma: 67
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [UART, SPI, DDC (I2C)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - horizontal_position_accuracy_m
+  - tracking_sensitivity_dbm
+  - max_navigation_update_rate_hz
+  - default_baud_rate
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: NEO-M8N GPS / GNSS module with antenna
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/neo-m8n.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.u-blox.com/en/product/neo-m8-series" }

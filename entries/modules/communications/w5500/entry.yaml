@@ -1,0 +1,50 @@
+id: communication.ethernet.w5500
+revision: "1.0"
+title: W5500 — Hardware TCP/IP Ethernet Controller Module
+category: communications/ethernet
+tags: [w5500, ethernet, wiznet, spi, tcp-ip, mac, phy, rj45, 100mbps, arduino, esp32, breakout]
+status: published
+summary: >-
+  WIZnet hardwired TCP/IP Ethernet controller featuring integrated 10/100 PHY, 32 KB internal socket memory, 8 independent hardware sockets, and high-speed 80 MHz SPI interface.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: WIZnet
+  ic_part_numbers: [W5500]
+  package: 48-pin LQFP / Breakout Module with RJ45 MagJack
+  supply_voltage_min_v: 2.97
+  supply_voltage_max_v: 3.63
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  ethernet_speed_mbps: 100
+  ieee_standard: IEEE 802.3 / 802.3u 100BASE-TX
+  internal_sram_buffer_kb: 32
+  hardware_sockets: 8
+  spi_clock_max_mhz: 80.0
+  operating_current_ma: 132
+  power_down_current_ma: 13
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - ethernet_speed_mbps
+  - internal_sram_buffer_kb
+  - hardware_sockets
+  - spi_clock_max_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: W5500 Ethernet breakout module with RJ45 connector
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/w5500.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v109e.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.wiznet.io/product-item/w5500/" }

@@ -1,0 +1,41 @@
+id: storage.sd.microsd-module
+revision: "1.0"
+title: MicroSD Card Module — SPI SD Card Breakout
+category: storage/sd
+tags: [microsd, sd-card, spi, storage, breakout, module, datalogger, 74lvc125, arduino]
+status: published
+summary: >-
+  Generic MicroSD card breakout module featuring SPI communication, onboard 3.3V LDO regulator, and 5V-to-3.3V level shifter IC for datalogging with 5V or 3.3V microcontrollers.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic
+  ic_part_numbers: [MicroSD Breakout, 74LVC125A]
+  package: Breakout Module (6-pin 0.1" header)
+  operating_voltage_min_v: 3.3
+  operating_voltage_max_v: 5.5
+  logic_level_v: 3.3V / 5V (onboard level shifter)
+  supported_cards: MicroSD (<= 2GB), MicroSDHC (<= 32GB)
+  file_systems: FAT16, FAT32
+  operating_current_ma: 80
+  operating_temp_min_c: -20
+  operating_temp_max_c: 70
+  interfaces: [SPI]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - logic_level_v
+  - supported_cards
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MicroSD card SPI breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/microsd-module.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.microchip.com/content/dam/mchp/documents/OTH/ProductDetail/SpecSheets/74LVC125A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/254" }

@@ -1,0 +1,46 @@
+id: transistor.bjt.2n2222
+revision: "1.0"
+title: 2N2222 — General-Purpose NPN Bipolar Junction Transistor
+category: transistors/bjt
+tags: [2n2222, 2n2222a, npn, bjt, transistor, to-18, to-92, switching, amplifier, high-speed, general-purpose]
+status: published
+summary: >-
+  Iconic general-purpose NPN bipolar junction transistor (BJT) housed in TO-18 metal can or TO-92 plastic package rated for 40V VCEO, 800mA IC, and 300MHz transition frequency.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ON Semiconductor / Microchip / STMicroelectronics / Fairchild
+  ic_part_numbers: [2N2222, 2N2222A, P2N2222A, MPS2222A]
+  package: TO-18 Metal Can / TO-92 Plastic (PN2222A)
+  transistor_type: General-Purpose NPN BJT
+  collector_emitter_voltage_vceo_v: 40 (2N2222A) / 30 (2N2222)
+  collector_base_voltage_vcbo_v: 75 (2N2222A) / 60 (2N2222)
+  emitter_base_voltage_vebo_v: 6.0
+  continuous_collector_current_ic_ma: 800
+  dc_current_gain_hfe_min: 100 (at IC = 150mA, VCE = 10V)
+  dc_current_gain_hfe_max: 300
+  transition_frequency_ft_mhz: 300
+  total_power_dissipation_mw: 500 (TO-92) / 1800 (TO-18 Metal Can with heatsink)
+  operating_temp_min_c: -65
+  operating_temp_max_c: 200
+  interfaces: [Current-Driven Base Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 2N2222 / 2N2222A NPN BJT in TO-18 metal can and TO-92 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/2n2222.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com" }

@@ -1,0 +1,45 @@
+id: module.wireless.esp8266
+revision: "1.0"
+title: ESP8266 — Wi-Fi Microcontroller Module (ESP-01 / ESP-12E / NodeMCU)
+category: wireless/wifi
+tags: [esp8266, esp-01, esp-12e, nodemcu, wifi, microcontroller, espressif, iot, xtensa]
+status: published
+summary: >-
+  Espressif Systems low-cost Wi-Fi micro-module integrating a 32-bit Tensilica Xtensa L106 MCU core, full TCP/IP stack, and 802.11 b/g/n Wi-Fi radio.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Espressif Systems
+  ic_part_numbers: [ESP8266EX, ESP-01, ESP-12F]
+  package: ESP-01 8-pin header / ESP-12F SMD castellations / NodeMCU Dev Board
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 3.6
+  cpu_frequency_mhz: 80
+  flash_memory_bytes: 4194304
+  sram_bytes: 81920
+  wifi_standard: "802.11 b/g/n (2.4 GHz)"
+  gpio_pins: 17
+  adc_channels: 1
+  peak_tx_current_ma: 170
+  deep_sleep_current_ua: 20
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [UART, SPI, I2C, PWM, ADC, GPIO]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - cpu_frequency_mhz
+  - flash_memory_bytes
+  - wifi_standard
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ESP8266 ESP-12F NodeMCU module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/esp8266.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.espressif.com/en/products/socs/esp8266" }

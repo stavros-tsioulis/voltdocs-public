@@ -1,0 +1,46 @@
+id: interface.touch.xpt2046
+revision: "1.0"
+title: XPT2046 — 4-Wire Resistive Touchscreen Controller
+category: interface/touch
+tags: [xpt2046, touch, touchscreen, resistive, spi, adc, tft, ili9341, display]
+status: published
+summary: >-
+  4-wire resistive touchscreen controller IC integrating a 12-bit SAR ADC, auxiliary analog inputs (temperature & battery voltage), and SPI interface (up to 2.5 MHz), paired with ILI9341 TFT displays.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Shenzhen XPT / Generic (ADS7843 compatible)
+  ic_part_numbers: [XPT2046, ADS7843, HR2046]
+  package: 16-pin TSSOP / VQFN / Integrated on TFT LCD Breakout PCBs
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  adc_resolution_bits: 12
+  supported_touch_panels: 4-Wire Resistive Touch Panels (X+, X-, Y+, Y-)
+  sample_rate_sps_max: 125000
+  spi_clock_max_mhz: 2.5
+  auxiliary_inputs: 2 (Battery Voltage + Temperature)
+  operating_current_ua: 350
+  power_down_current_ua: 1
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - adc_resolution_bits
+  - supported_touch_panels
+  - sample_rate_sps_max
+  - spi_clock_max_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: XPT2046 touch controller IC on ILI9341 2.8-inch TFT LCD module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/xpt2046.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.sparkfun.com/datasheets/LCD/HDAG24064R-1.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com" }

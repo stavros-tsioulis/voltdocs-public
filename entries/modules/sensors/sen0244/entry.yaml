@@ -1,0 +1,49 @@
+id: sensor.water.sen0244
+revision: "1.0"
+title: SEN0244 — Analog TDS (Total Dissolved Solids) Water Quality Sensor
+category: sensors/water
+tags: [sen0244, tds, water-quality, total-dissolved-solids, ec, electrical-conductivity, dfrobot, analog, hydroponics, aquarium]
+status: published
+summary: >-
+  DFRobot SEN0244 analog Total Dissolved Solids (TDS) meter sensor kit measuring water purity from 0 to 1000 ppm for hydroponics, aquariums, and water quality testing with AC excitation probe.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: DFRobot / Generic
+  ic_part_numbers: [SEN0244, Gravity-TDS]
+  package: 3-pin Gravity Signal Adapter Board with 2-Pin Waterproof Probe
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.5
+  output_voltage_v_min: 0.0
+  output_voltage_v_max: 2.3
+  tds_measurement_range_ppm_min: 0
+  tds_measurement_range_ppm_max: 1000
+  tds_accuracy_pct: 10.0
+  probe_excitation_signal: AC Signal (Prevents Probe Polarization)
+  probe_waterproof: True (Submersible IP68 Probe)
+  operating_current_ma: 6.0
+  operating_temp_min_c: 0
+  operating_temp_max_c: 55
+  interfaces: [Analog Voltage Output (A/V)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - tds_measurement_range_ppm_min
+  - tds_measurement_range_ppm_max
+  - tds_accuracy_pct
+  - probe_waterproof
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: DFRobot SEN0244 analog TDS water quality sensor board and probe
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sen0244.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://wiki.dfrobot.com/Gravity__Analog_TDS_Sensor___Meter_For_Arduino_SKU__SEN0244" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.dfrobot.com/product-1662.html" }

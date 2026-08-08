@@ -1,0 +1,42 @@
+id: driver.motor.l9110s
+revision: "1.0"
+title: L9110S — Dual-Channel Motor Driver IC / Module
+category: drivers/motor
+tags: [l9110s, l9110, motor-driver, h-bridge, dc-motor, stepper, robot-car, sop-8, breakout]
+status: published
+summary: >-
+  Low-voltage dual-channel H-bridge motor driver IC operating from 2.5V to 12V DC, delivering 800mA continuous current per channel for small DC motors and 2-phase steppers in mini robot cars.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Generic / Various
+  ic_part_numbers: [L9110S, L9110, L9110H]
+  package: 8-pin SOP-8 / DIP-8 / Dual Motor Breakout Module
+  motor_supply_voltage_min_v: 2.5
+  motor_supply_voltage_max_v: 12.0
+  continuous_output_current_a: 0.8
+  peak_output_current_a: 1.5
+  quiescent_current_ua: 2.0
+  channels: 2 Independent H-Bridges
+  operating_temp_min_c: -20
+  operating_temp_max_c: 85
+  interfaces: [4-Wire Logic Inputs (IA1, IB1, IA2, IB2), Screw Terminals (MOTOR A, MOTOR B)]
+highlights:
+  - motor_supply_voltage_min_v
+  - motor_supply_voltage_max_v
+  - continuous_output_current_a
+  - peak_output_current_a
+  - channels
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: L9110S dual DC motor driver module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/l9110s.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.elecrow.com/wiki/images/2/20/L9110_2-Channel_motor_driver.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.elecrow.com" }

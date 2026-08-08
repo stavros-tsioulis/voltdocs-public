@@ -1,0 +1,45 @@
+id: display.oled.sh1106
+revision: "1.0"
+title: SH1106 — 128x64 Dot Matrix OLED / PLED Display Driver
+category: displays/oled
+tags: [sh1106, oled, display, driver, 128x64, i2c, spi, sino-wealth, 1.3-inch]
+status: published
+summary: >-
+  Sino Wealth single-chip CMOS OLED/PLED driver for 132x64 dot matrix displays, universally used on 1.3-inch 128x64 OLED modules over I2C or 4-wire SPI.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sino Wealth Microelectronic
+  ic_part_numbers: [SH1106, SH1106G]
+  package: COG (Chip-On-Glass) / 1.3-inch OLED Module
+  supply_voltage_min_v: 1.65
+  supply_voltage_max_v: 3.5
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  resolution_pixels: "128 x 64 (132 x 64 RAM frame matrix)"
+  display_size_inches: 1.3
+  i2c_address_default: "0x3C"
+  i2c_address_alternate: "0x3D"
+  operating_current_ma: 15
+  sleep_current_ua: 5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, 4-Wire SPI, 3-Wire SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: SH1106 1.3-inch OLED display module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sh1106.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.displayfuture.com/Display/datasheet/controller/SH1106.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.sinowealth.com" }

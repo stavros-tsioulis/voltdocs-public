@@ -1,0 +1,48 @@
+id: sensor.power.ina226
+revision: "1.0"
+title: INA226 — High-Precision Bidirectional Current and Power Monitor
+category: sensors/power
+tags: [ina226, power, current, voltage, i2c, high-side, low-side, texas-instruments, esphome, precision, breakout]
+status: published
+summary: >-
+  Texas Instruments 16-bit high-precision bidirectional current and power monitor with I2C interface, measuring shunt voltages (±81.92 mV) and bus voltages (0V to 36V) with 10 µV LSB resolution.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [INA226, INA226AIDGSR]
+  package: 10-pin VSSOP (3 x 3 mm) / Breakout Module
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  bus_voltage_range_v_max: 36.0
+  shunt_voltage_range_mv_max: 81.92
+  adc_resolution_bits: 16
+  offset_voltage_max_uv: 10
+  gain_error_max_pct: 0.1
+  i2c_address_default: "0x40"
+  i2c_address_options: ["0x40", "0x41", "0x44", "0x45"]
+  operating_current_ua: 330
+  power_down_current_ua: 2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C, SMBus]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bus_voltage_range_v_max
+  - shunt_voltage_range_mv_max
+  - adc_resolution_bits
+  - gain_error_max_pct
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: INA226 high-precision power monitor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ina226.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/ina226.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/INA226" }

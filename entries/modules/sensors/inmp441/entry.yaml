@@ -1,0 +1,44 @@
+id: sensor.audio.inmp441
+revision: "1.0"
+title: INMP441 — Omnidirectional I2S Digital MEMS Microphone
+category: sensors/audio
+tags: [inmp441, microphone, mems, i2s, audio, invensense, tdk, esp32, voice]
+status: published
+summary: >-
+  InvenSense / TDK high-performance, low-power, digital-output omnidirectional MEMS microphone with an integrated I2S interface for high-quality audio recording and voice control.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: InvenSense / TDK
+  ic_part_numbers: [INMP441, INMP441ACEZ]
+  package: 9-pin LGA (4.72 x 3.76 x 1.0 mm) / Breakout Board
+  supply_voltage_min_v: 1.8
+  supply_voltage_max_v: 3.3
+  sensitivity_dbfs: -26
+  snr_dba: 61
+  frequency_response_hz_min: 60
+  frequency_response_hz_max: 15000
+  max_acoustic_input_db_spl: 120
+  operating_current_ua: 1400
+  sleep_current_ua: 17
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2S (SCK, WS, SD)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - sensitivity_dbfs
+  - snr_dba
+  - max_acoustic_input_db_spl
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: INMP441 I2S MEMS microphone breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/inmp441.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://invensense.tdk.com" }

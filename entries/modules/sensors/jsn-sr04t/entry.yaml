@@ -1,0 +1,48 @@
+id: sensor.distance.jsn-sr04t
+revision: "1.0"
+title: JSN-SR04T — Waterproof Ultrasonic Distance Ranging Sensor
+category: sensors/distance
+tags: [jsn-sr04t, jsn-sr04t-v2, jsn-sr04t-v3, ultrasonic, distance, waterproof, sonar, tank-level, parking, trigger-echo, serial]
+status: published
+summary: >-
+  Sealed waterproof ultrasonic transducer module measuring distance from 20 cm to 600 cm (6 meters) for outdoor, industrial, and liquid tank level applications over HC-SR04 Trigger/Echo or UART modes.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic / JSN
+  ic_part_numbers: [JSN-SR04T, JSN-SR04T-V2.0, JSN-SR04T-V3.0, AJ-SR04M]
+  package: 4-pin Processing Board with Sealed 2.5m Waterproof Transducer Probe
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 5.5
+  distance_range_cm_min: 20
+  distance_range_cm_max: 600
+  ultrasonic_frequency_khz: 40
+  measurement_resolution_mm: 5
+  sensing_angle_deg: 45 - 75
+  operating_modes: [Mode 0 (HC-SR04 Trigger/Echo), Mode 1 (Automatic Serial UART), Mode 2 (Controlled Serial UART)]
+  operating_current_ma: 30
+  standby_current_ua: 5
+  operating_temp_min_c: -20
+  operating_temp_max_c: 70
+  interfaces: [Pulse Width Trigger/Echo, TTL UART Serial]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - distance_range_cm_min
+  - distance_range_cm_max
+  - ultrasonic_frequency_khz
+  - sensing_angle_deg
+  - operating_modes
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: JSN-SR04T waterproof ultrasonic distance sensor module and transducer probe
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/jsn-sr04t.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://drazzy.com/e/datasheets/JSN-SR04T.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.makerguides.com/jsn-sr04t-arduino-tutorial/" }

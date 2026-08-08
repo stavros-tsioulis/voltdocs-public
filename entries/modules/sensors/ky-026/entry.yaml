@@ -1,0 +1,45 @@
+id: sensor.environmental.ky026
+revision: "1.0"
+title: KY-026 — Infrared Flame & Fire Detection Sensor Module
+category: sensors/environmental
+tags: [ky-026, ky026, flame, fire, sensor, infrared, photodiode, lm393, analog, digital, keyes]
+status: published
+summary: >-
+  Keyes KY-026 infrared flame detection module incorporating a high-speed NPN phototransistor sensitive to fire IR wavelengths (760nm to 1100nm) with dual analog voltage and digital threshold outputs.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Keyes / Generic
+  ic_part_numbers: [KY-026, KY026, LM393]
+  package: PCB Module with Black IR Photodiode Lens (4-pin Header)
+  operating_voltage_min_v: 3.3
+  operating_voltage_max_v: 5.5
+  wavelength_detection_range_nm_min: 760
+  wavelength_detection_range_nm_max: 1100
+  detection_angle_deg: 60
+  detection_distance_cm_max: 100
+  output_type: Dual Analog Voltage (AO) and Digital Threshold (DO)
+  operating_current_ma: 15
+  operating_temp_min_c: -25
+  operating_temp_max_c: 85
+  interfaces: [Analog Output (AO), Digital LM393 Output (DO)]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - wavelength_detection_range_nm_min
+  - wavelength_detection_range_nm_max
+  - detection_angle_deg
+  - detection_distance_cm_max
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: KY-026 flame sensor module with LM393 comparator
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ky-026.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensorkit.joy-it.net/en/sensors/ky-026" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://joy-it.net/en/products/SEN-KY026" }

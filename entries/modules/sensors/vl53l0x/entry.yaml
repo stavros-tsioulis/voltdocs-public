@@ -1,0 +1,47 @@
+id: sensor.distance.vl53l0x
+revision: "1.0"
+title: VL53L0X — Time-of-Flight (ToF) Laser Ranging Sensor
+category: sensors/distance
+tags: [vl53l0x, sensor, distance, tof, laser, lidar, i2c, stmicroelectronics, flight-sense, proximity, robotics]
+status: published
+summary: >-
+  STMicroelectronics FlightSense Time-of-Flight (ToF) laser ranging module using a 940nm VCSEL emitter and SPAD array to measure absolute distances up to 2 meters independent of target color or surface reflectance.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [VL53L0X]
+  package: 12-pin LGA (4.4 x 2.4 x 1.0 mm) / Breakout Module
+  supply_voltage_min_v: 2.6
+  supply_voltage_max_v: 3.5
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  ranging_distance_mm_min: 30
+  ranging_distance_mm_max: 2000
+  emitter_wavelength_nm: 940
+  i2c_address_default: "0x29"
+  operating_current_ma: 20
+  standby_current_ua: 5.0
+  operating_temp_min_c: -20
+  operating_temp_max_c: 70
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - ranging_distance_mm_min
+  - ranging_distance_mm_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: VL53L0X ToF distance sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/vl53l0x.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/vl53l0x.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html" }

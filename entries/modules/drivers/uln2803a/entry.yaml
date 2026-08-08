@@ -1,0 +1,42 @@
+id: driver.darlington.uln2803a
+revision: "1.0"
+title: ULN2803A — 8-Channel Darlington Transistor Array
+category: drivers/darlington
+tags: [uln2803a, uln2803, darlington, array, driver, relay, solenoid, stepper, texas-instruments, stmicroelectronics, dip-18]
+status: published
+summary: >-
+  High-voltage, high-current 8-channel NPN Darlington transistor array IC rated for 500mA per output with internal free-wheeling clamp diodes, used to drive relays, solenoids, steppers, and lamps.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / Toshiba
+  ic_part_numbers: [ULN2803A, ULN2803APG, ULN2803ADW, ULN2803N]
+  package: 18-pin DIP / SOIC-18
+  output_voltage_v_max: 50.0
+  continuous_collector_current_ma_per_channel: 500
+  input_voltage_v_max: 30.0
+  input_base_resistor_kohm: 2.7 (Direct 5V TTL / CMOS compatibility)
+  channels: 8 Independent Darlington Pairs
+  integrated_flyback_diodes: True (Common Free-Wheeling Clamp Diodes)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [8-Channel Digital In (1B-8B) / Open-Collector Out (1C-8C), COM]
+highlights:
+  - output_voltage_v_max
+  - continuous_collector_current_ma_per_channel
+  - input_base_resistor_kohm
+  - channels
+  - integrated_flyback_diodes
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ULN2803A 8-channel Darlington array IC in 18-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/uln2803a.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/uln2803a.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/ULN2803A" }

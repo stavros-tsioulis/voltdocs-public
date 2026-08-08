@@ -1,0 +1,45 @@
+id: sensor.compass.qmc5883l
+revision: "1.0"
+title: QMC5883L — 3-Axis Magnetic Sensor IC
+category: sensors/compass
+tags: [qmc5883l, magnetometer, compass, 3-axis, i2c, qst, gy-271]
+status: published
+summary: >-
+  QST Corporation multi-chip 3-axis magnetic sensor IC providing 16-bit high-resolution magnetic field measurements over I2C, designed as a modern replacement for the HMC5883L.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: QST Corporation
+  ic_part_numbers: [QMC5883L]
+  package: 16-pin LCC (3 x 3 x 0.9 mm) / GY-271 Breakout Board
+  supply_voltage_min_v: 2.16
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  field_range_gauss: [2.0, 8.0]
+  adc_resolution_bits: 16
+  output_rate_hz_max: 200
+  measurement_current_ua: 75
+  standby_current_ua: 3
+  i2c_address_default: "0x0D"
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - field_range_gauss
+  - adc_resolution_bits
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: QMC5883L magnetometer module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/qmc5883l.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://mouser.com/datasheet/2/827/QMC5883L_Datasheet-1-1-1884501.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.qstcorp.com" }

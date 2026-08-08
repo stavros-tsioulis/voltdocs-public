@@ -1,0 +1,43 @@
+id: sensor.acoustic.ky038
+revision: "1.0"
+title: KY-038 — Sound Detection Sensor Module
+category: sensors/acoustic
+tags: [ky-038, ky038, sound, microphone, acoustic, lm393, analog, digital, clap-switch, keyes]
+status: published
+summary: >-
+  Keyes KY-038 acoustic sound sensing breakout module combining an electret condenser microphone with an LM393 comparator and potentiometer, outputting analog (AO) and digital (DO) signals.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Keyes / Generic
+  ic_part_numbers: [KY-038, KY038, LM393]
+  package: 4-pin PCB Module with Electret Condenser Microphone
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.5
+  microphone_type: Electret Condenser Microphone
+  frequency_response_hz_min: 50
+  frequency_response_hz_max: 20000
+  output_type: Dual Analog Voltage (AO) and Digital Threshold (DO)
+  operating_current_ma: 10
+  operating_temp_min_c: -20
+  operating_temp_max_c: 70
+  interfaces: [Analog Output (AO), Digital LM393 Output (DO)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - microphone_type
+  - frequency_response_hz_min
+  - frequency_response_hz_max
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: KY-038 sound detection sensor module with microphone and LM393
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ky-038.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensorkit.joy-it.net/en/sensors/ky-038" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://joy-it.net/en/products/SEN-KY038" }

@@ -1,0 +1,47 @@
+id: sensor.biometric.as608
+revision: "1.0"
+title: AS608 — Optical Fingerprint Reader Sensor Module
+category: sensors/biometric
+tags: [as608, fingerprint, biometric, optical, sensor, security, uart, adafruit, flash, access-control]
+status: published
+summary: >-
+  Generic optical fingerprint sensor module integrating a high-performance DSP image processing chip, internal flash memory for 300 templates, and TTL UART interface for biometric access control.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (Synochip / Hangzhou AiSen)
+  ic_part_numbers: [AS608, AS606, ZW70]
+  package: Optical Sensor Assembly with Prism and Blue LED (6-pin Connector)
+  supply_voltage_min_v: 3.6
+  supply_voltage_max_v: 6.0
+  fingerprint_capacity: 300
+  image_resolution_dpi: 500
+  baud_rate_bps_default: 57600
+  search_time_sec: < 0.3
+  false_acceptance_rate: < 0.001%
+  false_rejection_rate: < 1.0%
+  operating_current_ma: 60
+  peak_current_ma: 120
+  operating_temp_min_c: -20
+  operating_temp_max_c: 50
+  interfaces: [TTL UART, USB 1.1]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - fingerprint_capacity
+  - image_resolution_dpi
+  - baud_rate_bps_default
+  - search_time_sec
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: AS608 optical fingerprint sensor module with blue LED window
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/as608.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn-shop.adafruit.com/datasheets/ZFM_user_manual.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/751" }

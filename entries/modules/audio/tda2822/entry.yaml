@@ -1,0 +1,42 @@
+id: audio.amplifier.tda2822
+revision: "1.0"
+title: TDA2822 — Dual Low-Voltage Audio Power Amplifier
+category: audio/amplifier
+tags: [tda2822, tda2822m, audio, amplifier, stereo, btl, speaker, headphone, stmicroelectronics, dip-8]
+status: published
+summary: >-
+  STMicroelectronics dual low-voltage monolithic audio power amplifier IC operating down to 1.8V supply, delivering up to 1W per channel in stereo or 2W in bridge-tied load (BTL) mono configuration.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: STMicroelectronics / Generic
+  ic_part_numbers: [TDA2822, TDA2822M, TDA2822D]
+  package: 8-pin DIP / SOIC-8 / Module
+  supply_voltage_min_v: 1.8
+  supply_voltage_max_v: 15.0
+  output_power_w_stereo: 0.65 (at 6V, 4Ω) / 1.0 (at 9V, 4Ω)
+  output_power_w_bridge: 2.0 (at 9V, 8Ω BTL)
+  quiescent_current_ma: 6.0
+  thd_pct: 0.2
+  operating_temp_min_c: -20
+  operating_temp_max_c: 85
+  interfaces: [Dual Analog Audio Inputs, Dual Speaker / Headphone Outputs]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_power_w_stereo
+  - output_power_w_bridge
+  - quiescent_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TDA2822M dual audio power amplifier IC in DIP-8 package and module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tda2822.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/tda2822.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/audio-ics/tda2822.html" }

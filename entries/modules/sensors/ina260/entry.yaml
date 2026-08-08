@@ -1,0 +1,48 @@
+id: sensor.power.ina260
+revision: "1.0"
+title: INA260 — Precision Current & Power Monitor with Integrated Shunt
+category: sensors/power
+tags: [ina260, power, current, voltage, i2c, integrated-shunt, 15a, texas-instruments, adafruit, precision]
+status: published
+summary: >-
+  Texas Instruments digital current, voltage, and power monitor featuring an integrated 2 mΩ precision shunt resistor for continuous 15A current measurement from 0V to 36V over I2C.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [INA260, INA260AIPWR]
+  package: 16-pin TSSOP (5 x 4.4 mm) / Breakout Module
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  bus_voltage_range_v_max: 36.0
+  continuous_current_a_max: 15.0
+  integrated_shunt_resistance_mohm: 2.0
+  adc_resolution_bits: 16
+  current_lsb_ma: 1.25
+  bus_voltage_lsb_mv: 1.25
+  i2c_address_default: "0x40"
+  i2c_address_options: ["0x40", "0x41", "0x44", "0x45"]
+  operating_current_ua: 310
+  power_down_current_ua: 2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C, SMBus]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bus_voltage_range_v_max
+  - continuous_current_a_max
+  - integrated_shunt_resistance_mohm
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: INA260 high-precision power monitor breakout board with integrated shunt
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ina260.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/ina260.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/INA260" }

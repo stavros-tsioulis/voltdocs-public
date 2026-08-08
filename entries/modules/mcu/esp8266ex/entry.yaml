@@ -1,0 +1,48 @@
+id: mcu.wifi.esp8266ex
+revision: "1.0"
+title: ESP8266EX — High-Integration Wi-Fi System-on-Chip (SoC)
+category: mcu/esp8266
+tags: [esp8266ex, esp8266, wifi, soc, mcu, espressif, xtensa, 80mhz, 160mhz, esp-01, nodemcu, iot]
+status: published
+summary: >-
+  Espressif 32-bit Tensilica L106 Wi-Fi SoC operating at 80MHz to 160MHz with integrated 802.11b/g/n RF transceiver, power amplifier, LNA, and TCP/IP stack.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Espressif Systems
+  ic_part_numbers: [ESP8266EX, ESP8266]
+  package: 32-pin QFN (5 x 5 mm) / ESP-01 / NodeMCU / ESP-12F Module
+  core: 32-bit Tensilica L106 RISC Processor
+  max_clock_speed_mhz: 160 (80MHz default)
+  sram_memory_kb: 160 (80KB User Data RAM / 32KB Instruction RAM)
+  external_flash_support: Up to 16MB via SPI (1MB to 4MB nominal)
+  operating_voltage_min_v: 2.5
+  operating_voltage_max_v: 3.6
+  wifi_standards: 802.11 b/g/n (2.4 GHz)
+  tx_power_dbm: 20 (802.11b at 11Mbps)
+  gpio_count: 17
+  adc_channels: 1 (10-bit resolution, 0V to 1V input range)
+  interfaces: [Wi-Fi 802.11 b/g/n, SPI, SDIO, I2C, UART, PWM, I2S]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - sram_memory_kb
+  - external_flash_support
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - wifi_standards
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Espressif ESP8266EX Wi-Fi SoC IC and ESP-12F module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/esp8266ex.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.espressif.com/en/products/socs/esp8266" }

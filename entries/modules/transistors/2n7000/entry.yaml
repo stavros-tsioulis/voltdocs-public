@@ -1,0 +1,46 @@
+id: transistor.mosfet.2n7000
+revision: "1.0"
+title: 2N7000 — Small-Signal N-Channel Enhancement Mode MOSFET
+category: transistors/mosfet
+tags: [2n7000, mosfet, n-channel, small-signal, 60v, 200ma, to-92, onsemi, level-shift, switching]
+status: published
+summary: >-
+  ON Semiconductor / Microchip ubiquitous small-signal N-channel FET in TO-92 package rated for 60V VDS, 200mA drain current, and 5Ω RDS(on) for low-power switching and logic level shifters.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ON Semiconductor / Microchip / STMicroelectronics
+  ic_part_numbers: [2N7000, 2N7000TA, BS170]
+  package: TO-92 / SOT-23 (2N7002)
+  transistor_type: Small-Signal N-Channel MOSFET
+  drain_source_voltage_vdss_v: 60
+  continuous_drain_current_id_ma: 200
+  pulsed_drain_current_id_ma: 500
+  gate_threshold_voltage_vgs_th_min_v: 0.8
+  gate_threshold_voltage_vgs_th_max_v: 3.0
+  rds_on_vgs_10v_ohm: 5.0
+  rds_on_vgs_4.5v_ohm: 5.3
+  total_power_dissipation_mw: 400
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Gate-Source Logic Drive (3.3V and 5V Compatible)]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_ma
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_10v_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ON Semiconductor 2N7000 N-channel small-signal MOSFET in TO-92 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/2n7000.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/2n7000-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discretes-drivers/mosfets/2n7000" }

@@ -1,0 +1,46 @@
+id: sensor.gesture.apds9960
+revision: "1.0"
+title: APDS-9960 — Digital RGB, Ambient Light, Proximity, and Gesture Sensor
+category: sensors/gesture
+tags: [apds9960, apds-9960, gesture, proximity, color, rgb, ambient-light, i2c, broadcom, avago]
+status: published
+summary: >-
+  Broadcom / Avago Technologies integrated multi-function sensor combining 3D gesture recognition (directional swipes), proximity detection, ambient light sensing, and RGB color sensing over I2C.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Broadcom / Avago Technologies
+  ic_part_numbers: [APDS-9960]
+  package: 8-pin SMD (3.94 x 2.36 x 1.35 mm) / Breakout Board
+  supply_voltage_min_v: 2.4
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  proximity_detection_range_mm: 100
+  gesture_detection_directions: [UP, DOWN, LEFT, RIGHT, NEAR, FAR]
+  color_channels: [Red, Green, Blue, Clear]
+  i2c_address_default: "0x39"
+  i2c_clock_max_khz: 400
+  operating_current_ua: 100
+  sleep_current_ua: 1
+  operating_temp_min_c: -30
+  operating_temp_max_c: 85
+  interfaces: [I2C, Interrupt]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - proximity_detection_range_mm
+  - gesture_detection_directions
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: APDS-9960 gesture proximity color sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/apds9960.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.broadcom.com/products/optical-sensors/integrated-ambient-light-and-proximity-sensors/apds-9960" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.broadcom.com" }

@@ -1,0 +1,47 @@
+id: sensor.biomedical.max30102
+revision: "1.0"
+title: MAX30102 — Pulse Oximeter and Heart-Rate Sensor Module
+category: sensors/biomedical
+tags: [max30102, max30100, spo2, heart-rate, pulse, oximeter, biomedical, maxim, analog-devices, i2c]
+status: published
+summary: >-
+  Maxim Integrated / Analog Devices integrated pulse oximetry and heart-rate monitor module combining red and infrared LEDs, photodetectors, optical elements, and low-noise electronics with ambient light rejection over I2C.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Maxim Integrated / Analog Devices
+  ic_part_numbers: [MAX30102, MAX30102EFD+T]
+  package: 14-pin OLGA (5.6 x 3.3 x 1.55 mm) / Breakout Board
+  supply_voltage_min_v: 1.7
+  supply_voltage_max_v: 2.0
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  led_power_supply_voltage_v: 3.3
+  led_peak_wavelength_red_nm: 660
+  led_peak_wavelength_ir_nm: 880
+  adc_resolution_bits: 18
+  sample_rate_sps_max: 3200
+  i2c_address_default: "0x57"
+  operating_current_ua: 600
+  shutdown_current_ua: 0.7
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, Interrupt]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - led_peak_wavelength_red_nm
+  - led_peak_wavelength_ir_nm
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MAX30102 pulse oximeter sensor breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/max30102.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30102.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/max30102.html" }

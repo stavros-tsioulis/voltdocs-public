@@ -1,0 +1,45 @@
+id: sensor.flow.yf-s201
+revision: "1.0"
+title: YF-S201 — Hall-Effect Water Flow Sensor (1–30 L/min)
+category: sensors/flow
+tags: [yf-s201, yfs201, flow-sensor, water-meter, hall-effect, turbine, pulse, analog, irrigation, liquid, esphome]
+status: published
+summary: >-
+  Generic 1/2" DN15 inline liquid flow meter combining a nylon turbine with a magnetic pin and internal digital Hall effect sensor, outputting square-wave pulses (7.5 Hz per L/min) for 1 to 30 L/min flow rates.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (Sea Water Flow / YHDC)
+  ic_part_numbers: [YF-S201, YF-S401]
+  package: Black Nylon Housing with 1/2" G Threads (3-pin Header)
+  operating_voltage_min_v: 4.5
+  operating_voltage_max_v: 18.0
+  flow_rate_range_lmin_min: 1.0
+  flow_rate_range_lmin_max: 30.0
+  flow_pulse_characteristic: 7.5 Hz per L/min
+  water_pressure_max_mpa: 1.75
+  output_type: Open-Collector Digital Square Wave
+  operating_current_ma: 15
+  operating_temp_min_c: -25
+  operating_temp_max_c: 80
+  interfaces: [Pulse Frequency Output]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - flow_rate_range_lmin_min
+  - flow_rate_range_lmin_max
+  - flow_pulse_characteristic
+  - water_pressure_max_mpa
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: YF-S201 Hall-effect 1/2-inch water flow sensor
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/yf-s201.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.adafruit.com/datasheets/828_spec.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/828" }

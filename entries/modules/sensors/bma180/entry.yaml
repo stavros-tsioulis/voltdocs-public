@@ -1,0 +1,47 @@
+id: sensor.accelerometer.bma180
+revision: "1.0"
+title: BMA180 — 14-Bit 3-Axis Ultra-High Performance Accelerometer
+category: sensors/accelerometer
+tags: [bma180, accelerometer, imu, motion, 3-axis, i2c, spi, bosch, sparkfun, precision]
+status: published
+summary: >-
+  Bosch Sensortec 14-bit 3-axis digital MEMS accelerometer offering selectable full-scale ranges from ±1g to ±16g, low noise, integrated temperature sensor, and I2C/SPI interfaces.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Bosch Sensortec
+  ic_part_numbers: [BMA180]
+  package: 12-pin LGA (3 x 3 x 0.9 mm) / Breakout Module
+  supply_voltage_min_v: 1.62
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  accel_full_scale_g: [1, 1.5, 2, 3, 4, 8, 16]
+  adc_resolution_bits: 14
+  data_rate_hz_min: 10
+  data_rate_hz_max: 1200
+  measurement_current_ua: 650
+  standby_current_ua: 0.1
+  i2c_address_default: "0x40"
+  i2c_address_alternate: "0x41"
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, 4-Wire SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - accel_full_scale_g
+  - adc_resolution_bits
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: BMA180 3-axis accelerometer breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bma180.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.sparkfun.com/datasheets/Sensors/Accelerometers/BST-BMA180-DS000-03.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.bosch-sensortec.com" }

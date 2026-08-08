@@ -1,0 +1,45 @@
+id: sensor.accelerometer.adxl335
+revision: "1.0"
+title: ADXL335 — 3-Axis Low-Power Analog MEMS Accelerometer
+category: sensors/accelerometer
+tags: [adxl335, accelerometer, imu, motion, 3-axis, analog, analog-devices, gy-61, gravity, tilt]
+status: published
+summary: >-
+  Analog Devices small, low-power 3-axis MEMS accelerometer providing ratiometric analog voltage outputs (X, Y, Z) for ±3g acceleration measurement in robotics and tilt sensing.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Analog Devices
+  ic_part_numbers: [ADXL335, ADXL335BCPZ]
+  package: 16-lead LFCSP (4 x 4 x 1.45 mm) / GY-61 Breakout Board
+  supply_voltage_min_v: 1.8
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  accel_full_scale_g: [3]
+  output_type: Ratiometric Analog Voltage (VCC/2 zero-g bias)
+  sensitivity_mv_g: 300
+  bandwidth_hz_max: 1600
+  operating_current_ua: 350
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [3-Channel Analog Output (X, Y, Z)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - output_type
+  - sensitivity_mv_g
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ADXL335 3-axis analog accelerometer breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/adxl335.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/adxl335.html" }

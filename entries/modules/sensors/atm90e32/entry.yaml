@@ -1,0 +1,45 @@
+id: sensor.power.atm90e32
+revision: "1.0"
+title: ATM90E32 — 3-Phase Polyphase Energy Metering IC
+category: sensors/power
+tags: [atm90e32, atm90e26, energy, power, metering, 3-phase, polyphase, spi, microchip, esphome, circuit-monitor]
+status: published
+summary: >-
+  Microchip 3-phase high-performance polyphase AFE energy metering IC featuring 6 independent 16-bit ADCs for simultaneous current and voltage sampling across 3 lines over SPI.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Microchip Technology (Atmel)
+  ic_part_numbers: [ATM90E32, ATM90E32AS, ATM90E36]
+  package: 48-pin TQFP (7 x 7 mm) / Breakout Module
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 3.6
+  measurement_channels_voltage: 3
+  measurement_channels_current: 3 (or 4 with neutral)
+  adc_resolution_bits: 16
+  dynamic_range: "6000 : 1"
+  metering_accuracy_class: 0.2
+  spi_clock_max_mhz: 2.0
+  operating_current_ma: 13.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - measurement_channels_voltage
+  - measurement_channels_current
+  - metering_accuracy_class
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ATM90E32 3-phase energy monitoring breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/atm90e32.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46003-SE-M90E32AS-Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/ATM90E32AS" }

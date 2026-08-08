@@ -1,0 +1,45 @@
+id: actuator.servo.sg90
+revision: "1.0"
+title: SG90 — Micro 9g Analog Servo Motor
+category: actuators/servo
+tags: [sg90, servo, micro-servo, motor, pwm, towerpro, 9g, robotics]
+status: published
+summary: >-
+  TowerPro lightweight 9-gram analog micro servo motor providing ~180° rotation controlled via 50 Hz PWM position signals.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: TowerPro
+  ic_part_numbers: [SG90]
+  package: 23 x 12.2 x 29 mm plastic housing
+  operating_voltage_min_v: 4.8
+  operating_voltage_max_v: 6.0
+  stall_torque_kg_cm: 1.8
+  operating_speed_s_60deg: 0.12
+  weight_g: 9.0
+  rotation_angle_deg: 180
+  pwm_frequency_hz: 50
+  pulse_width_min_us: 500
+  pulse_width_max_us: 2400
+  dead_band_width_us: 7
+  operating_temp_min_c: 0
+  operating_temp_max_c: 55
+  interfaces: [PWM]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - stall_torque_kg_cm
+  - operating_speed_s_60deg
+  - weight_g
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: SG90 9g micro servo motor
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sg90.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.towerpro.com.tw/wp-content/uploads/2016/03/SG90-datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.towerpro.com.tw/product/sg90-7/" }

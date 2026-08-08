@@ -1,0 +1,47 @@
+id: sensor.light.tsl2591
+revision: "1.0"
+title: TSL2591 — High Dynamic Range I2C Digital Light Sensor
+category: sensors/light
+tags: [tsl2591, light, sensor, lux, ambient, infrared, i2c, ams, taos, adafruit, 600m-lux, precision]
+status: published
+summary: >-
+  ams / TAOS ultra-high dynamic range (600,000,000:1) digital ambient light sensor with dual photodiodes (Visible+IR, IR-only), 16-bit resolution (188 µLux limit up to 88,000 Lux), and I2C output (0x29).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ams OSRAM (TAOS)
+  ic_part_numbers: [TSL2591, TSL25911, TSL25911FN]
+  package: 6-pin Dual Flat No-Lead (2.0 x 2.4 mm) / Breakout Module
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  lux_range_min: 0.000188
+  lux_range_max: 88000.0
+  adc_resolution_bits: 16
+  i2c_address_default: "0x29"
+  operating_current_ua: 250
+  power_down_current_ua: 3
+  operating_temp_min_c: -30
+  operating_temp_max_c: 80
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - lux_range_min
+  - lux_range_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TSL2591 high dynamic range light sensor breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tsl2591.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://ams.com" }

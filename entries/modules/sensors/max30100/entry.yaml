@@ -1,0 +1,48 @@
+id: sensor.biomedical.max30100
+revision: "1.0"
+title: MAX30100 — Pulse Oximeter & Heart-Rate Sensor IC
+category: sensors/biomedical
+tags: [max30100, spo2, heart-rate, pulse, oximeter, biomedical, maxim, i2c]
+status: published
+summary: >-
+  Maxim Integrated pulse oximetry and heart-rate monitor sensor combining Red (660nm) and IR (880nm) LEDs, photodetector, low-noise analog processing, 16-bit ADC, and I2C output (0x57).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Maxim Integrated (Analog Devices)
+  ic_part_numbers: [MAX30100, MAX30100EFD+T]
+  package: 14-pin OESIP (5.6 x 2.8 x 1.2 mm) / Breakout Module
+  supply_voltage_min_v: 1.7
+  supply_voltage_max_v: 2.0
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  led_wavelengths_nm: [660 (Red), 880 (IR)]
+  adc_resolution_bits: 16
+  sample_rate_sps_max: 1000
+  i2c_address_default: "0x57"
+  operating_current_ma: 0.6
+  shutdown_current_ua: 0.7
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - led_wavelengths_nm
+  - adc_resolution_bits
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MAX30100 pulse oximeter heart-rate sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/max30100.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30100.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/max30100.html" }

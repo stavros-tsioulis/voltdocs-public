@@ -1,0 +1,45 @@
+id: actuator.servo.mg996r
+revision: "1.0"
+title: MG996R — High-Torque Metal Gear Standard Servo Motor
+category: actuators/servo
+tags: [mg996r, servo, standard-servo, metal-gear, motor, pwm, towerpro, robotics, high-torque]
+status: published
+summary: >-
+  TowerPro upgraded high-torque metal-gear standard servo motor providing up to 11 kg·cm stall torque and 180° rotation for heavy-duty robotics, RC models, and mechanical actuators.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: TowerPro
+  ic_part_numbers: [MG996R, MG995]
+  package: 40.7 x 19.7 x 42.9 mm metal-gear housing
+  operating_voltage_min_v: 4.8
+  operating_voltage_max_v: 7.2
+  stall_torque_kg_cm: 11.0
+  operating_speed_s_60deg: 0.17
+  weight_g: 55.0
+  rotation_angle_deg: 180
+  pwm_frequency_hz: 50
+  pulse_width_min_us: 500
+  pulse_width_max_us: 2400
+  dead_band_width_us: 5
+  operating_temp_min_c: 0
+  operating_temp_max_c: 55
+  interfaces: [PWM]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - stall_torque_kg_cm
+  - operating_speed_s_60deg
+  - weight_g
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MG996R high-torque metal gear servo motor
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mg996r.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.towerpro.com.tw/wp-content/uploads/2016/03/MG996R-datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.towerpro.com.tw/product/mg996r-2/" }

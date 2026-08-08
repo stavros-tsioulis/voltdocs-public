@@ -1,0 +1,48 @@
+id: sensor.environmental.zmod4410
+revision: "1.0"
+title: ZMOD4410 — TVOC & Indoor Air Quality Sensor Module
+category: sensors/environmental
+tags: [zmod4410, sensor, voc, eco2, air-quality, gas, i2c, renesas, idt, iaq, environmental, tasmota]
+status: published
+summary: >-
+  Renesas software-configurable TVOC and indoor air quality (IAQ) gas sensor featuring a MEMS metal-oxide (MOX) element, embedded ASIC conditioning, and calibrated I2C output.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Renesas Electronics (IDT)
+  ic_part_numbers: [ZMOD4410, ZMOD4410AI1V]
+  package: 12-pin LGA (3.0 x 3.0 x 0.7 mm) / Breakout Module
+  supply_voltage_min_v: 1.7
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  tvoc_range_mg_m3_min: 0.0
+  tvoc_range_mg_m3_max: 10.0
+  eco2_range_ppm_min: 400
+  eco2_range_ppm_max: 2000
+  i2c_address_default: "0x32"
+  operating_current_ma: 10.0
+  standby_current_ua: 0.2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 65
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - eco2_range_ppm_min
+  - eco2_range_ppm_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ZMOD4410 gas sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/zmod4410.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.renesas.com/en/document/dst/zmod4410-datasheet" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.renesas.com/en/products/sensor-products/gas-sensors/zmod4410-indoor-air-quality-sensor-platform" }

@@ -1,0 +1,46 @@
+id: mcu.arm.rp2040
+revision: "1.0"
+title: RP2040 — Dual-Core ARM Cortex-M0+ Microcontroller IC
+category: mcu/arm
+tags: [rp2040, raspberry-pi, pico, dual-core, cortex-m0, pio, mcu, 133mhz, qfn-56, usb]
+status: published
+summary: >-
+  Raspberry Pi dual-core 32-bit ARM Cortex-M0+ microcontroller IC running at 133MHz with 264KB SRAM, 8 Programmable I/O (PIO) state machines, USB 1.1, and QSPI interface.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Raspberry Pi Ltd
+  ic_part_numbers: [RP2040, RP2040-B2]
+  package: 56-pin QFN (7 x 7 mm) with exposed thermal pad / Raspberry Pi Pico
+  core: Dual-Core ARM Cortex-M0+
+  max_clock_speed_mhz: 133 (Overclockable to 250MHz+)
+  sram_memory_kb: 264 (Multi-bank SRAM)
+  external_flash_support: Up to 16MB via QSPI (Execute-In-Place / XIP)
+  operating_voltage_core_v: 1.1
+  operating_voltage_io_v: 3.3
+  gpio_count: 30 (4 with 12-bit ADC capability)
+  pio_state_machines: 8 (2 PIO blocks x 4 state machines)
+  adc_channels: 4 (12-bit resolution)
+  interfaces: [USB 1.1 Host/Device, 2x UART, 2x SPI, 2x I2C, 16x PWM Channels, 8x PIO]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - sram_memory_kb
+  - external_flash_support
+  - gpio_count
+  - pio_state_machines
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Raspberry Pi RP2040 dual-core ARM Cortex-M0+ microcontroller IC
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/rp2040.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.raspberrypi.com/products/rp2040/" }

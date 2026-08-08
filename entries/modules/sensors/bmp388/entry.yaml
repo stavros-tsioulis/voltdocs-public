@@ -1,0 +1,50 @@
+id: sensor.pressure.bmp388
+revision: "1.0"
+title: BMP388 — High-Precision Digital Barometric Pressure Sensor
+category: sensors/pressure
+tags: [bmp388, bmp380, pressure, altitude, barometer, i2c, spi, bosch, drone, altimeter, environmental]
+status: published
+summary: >-
+  Bosch Sensortec 24-bit high-precision digital barometric pressure and temperature sensor featuring ultra-low noise (0.08 Pa resolution), ±0.5 m relative altitude accuracy, and I2C/SPI interfaces.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Bosch Sensortec
+  ic_part_numbers: [BMP388, BMP380]
+  package: 10-pin LGA (2.0 x 2.0 x 0.75 mm) / Breakout Module
+  supply_voltage_min_v: 1.65
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  pressure_range_hpa_min: 300
+  pressure_range_hpa_max: 1250
+  pressure_resolution_pa: 0.08
+  pressure_relative_accuracy_pa: 8
+  temperature_range_c_min: -40
+  temperature_range_c_max: 85
+  i2c_address_default: "0x77"
+  i2c_address_alternate: "0x76"
+  operating_current_ua: 3.4
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, 3-Wire SPI, 4-Wire SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - pressure_range_hpa_min
+  - pressure_range_hpa_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: BMP388 barometric pressure sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bmp388.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp388-ds001.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp388/" }

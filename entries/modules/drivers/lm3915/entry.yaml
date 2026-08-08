@@ -1,0 +1,43 @@
+id: driver.display.lm3915
+revision: "1.0"
+title: LM3915 — Dot/Bar Display Driver (Logarithmic 3dB/Step)
+category: drivers/display
+tags: [lm3915, lm3915n, led-driver, bar-graph, vu-meter, dot-bar, logarithmic, audio, texas-instruments, dip-18]
+status: published
+summary: >-
+  Texas Instruments monolithic IC that senses analog audio voltage levels and drives a 10-LED dot or bar graph display logarithmically with a 3dB/step range (30dB total), ideal for audio VU meters and power indicators.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor
+  ic_part_numbers: [LM3915, LM3915N-1, LM3915V]
+  package: 18-pin DIP / PLCC-20
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 25.0
+  outputs_count: 10 Regulated Current Outputs (LED1-LED10)
+  display_modes: [Bar Graph, Moving Dot]
+  dynamic_range_db: 30.0 (3dB per step)
+  reference_voltage_v: 1.25
+  led_drive_current_ma: 2 to 30 (Programmed via single resistor)
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Analog Audio Signal In (SIG), Mode Select (MODE), Ref Out, Ref Adj, RLO, RHI, 10x LED Outputs]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - outputs_count
+  - display_modes
+  - dynamic_range_db
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: LM3915 logarithmic audio VU meter LED driver IC in 18-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm3915.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm3915.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM3915" }

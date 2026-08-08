@@ -1,0 +1,47 @@
+id: sensor.temperature.sht31
+revision: "1.0"
+title: SHT31 — High-Accuracy Digital Humidity & Temperature Sensor
+category: sensors/temperature
+tags: [sht31, sht30, sht35, sensor, temperature, humidity, i2c, sensirion, environmental, weather, precision]
+status: published
+summary: >-
+  Sensirion high-precision digital humidity and temperature sensor featuring ±2% RH and ±0.2°C accuracy, dual I2C addresses (0x44/0x45), hardware alert pin, and integrated heating element for condensation removal.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sensirion
+  ic_part_numbers: [SHT31-DIS-B, SHT31, SHT30, SHT35]
+  package: 8-pin DFN (2.5 x 2.5 x 0.9 mm) / Breakout Module
+  supply_voltage_min_v: 2.15
+  supply_voltage_max_v: 5.5
+  temperature_range_c_min: -40
+  temperature_range_c_max: 125
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  temperature_accuracy_c: 0.2
+  humidity_accuracy_pct: 2.0
+  i2c_address_default: "0x44"
+  i2c_address_alternate: "0x45"
+  operating_current_ma: 0.8
+  standby_current_ua: 0.2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - temperature_accuracy_c
+  - humidity_accuracy_pct
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: SHT31 temperature and humidity sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sht31.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensirion.com/media/documents/213E37BC/639414B8/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://sensirion.com/products/catalog/SHT31-DIS-B/" }

@@ -1,0 +1,53 @@
+id: sensor.temperature.max31855
+revision: "1.0"
+title: MAX31855 — Cold-Junction Compensated Thermocouple-to-Digital Converter
+category: sensors/temperature
+tags: [max31855, thermocouple, k-type, temperature, precision, spi, maxim, adafruit, esphome]
+status: published
+summary: >-
+  Maxim Integrated 14-bit cold-junction compensated thermocouple-to-digital converter measuring temperatures from -270°C to +1372°C with 0.25°C resolution and SPI read-only output.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Maxim Integrated (Analog Devices)
+  ic_part_numbers: [MAX31855, MAX31855KASA+, MAX31855JASA+, MAX31855TASA+]
+  package: 8-pin SOIC / Breakout Board with Terminal Block
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  thermocouple_type: K-Type (J, N, R, S, T, E variants available)
+  temperature_range_c_min: -270
+  temperature_range_c_max: 1372
+  resolution_bits: 14
+  resolution_c: 0.25
+  cold_junction_accuracy_c: 2.0
+  spi_clock_max_mhz: 5.0
+  operating_current_ma: 1.5
+  shutdown_current_ua: 2.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [SPI (Read-Only 32-Bit Frame)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - thermocouple_type
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - resolution_bits
+  - resolution_c
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MAX31855 K-type thermocouple breakout board with screw terminals
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/max31855.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31855.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/269" }

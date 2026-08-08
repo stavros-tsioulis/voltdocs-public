@@ -1,0 +1,45 @@
+id: power.charger.tp4056
+revision: "1.0"
+title: TP4056 — 1A Standalone Linear Li-Ion / LiPo Battery Charger IC
+category: power/charger
+tags: [tp4056, battery-charger, lipo, li-ion, 18650, linear, 1a, micro-usb, usb-c, top-power, module]
+status: published
+summary: >-
+  NanJing Top Power complete constant-current/constant-voltage (CC/CV) 1A linear charger IC for single-cell 3.7V Lithium-Ion and LiPo batteries with automatic recharge and dual status LEDs.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: NanJing Top Power / Generic
+  ic_part_numbers: [TP4056, TP4056E, DW01A (Protection Pair), FS8205A (Protection MOS)]
+  package: 8-pin SOP-8 (Thermal Pad) / Micro-USB & USB-C Charger Breakout Board
+  charger_type: Constant-Current / Constant-Voltage (CC/CV) Linear Charger
+  input_voltage_v_min: 4.0
+  input_voltage_v_max: 8.0
+  module_input_voltage_v: 5.0 (USB)
+  final_charge_voltage_v: 4.2
+  charge_voltage_accuracy_pct: 1.5
+  max_charge_current_a: 1.0 (Programmable via RPROG resistor)
+  default_rprog_resistor_kohm: 1.2 (Sets 1000mA charge current)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Dual LED Charge Status Outputs (CHRG, STDBY), PROG Current Programming]
+highlights:
+  - charger_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - final_charge_voltage_v
+  - max_charge_current_a
+  - default_rprog_resistor_kohm
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TP4056 1A LiPo/18650 battery charger module with USB-C and DW01A protection
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tp4056.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.makerguides.com/tp4056-battery-charger-module-user-guide/" }

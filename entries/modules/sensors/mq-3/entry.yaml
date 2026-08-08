@@ -1,0 +1,42 @@
+id: sensor.gas.mq3
+revision: "1.0"
+title: MQ-3 — Semiconductor Alcohol / Ethanol Gas Sensor
+category: sensors/environmental
+tags: [mq3, mq-3, gas, sensor, alcohol, ethanol, breathalyzer, winsen, analog, digital, lm393]
+status: published
+summary: >-
+  Winsen tin-dioxide (SnO2) semiconductor alcohol gas sensor module providing high sensitivity to ethanol vapor (0.05 mg/L to 10 mg/L) with dual analog voltage and digital threshold outputs for DIY breathalyzers.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Winsen Electronics
+  ic_part_numbers: [MQ-3, MQ3]
+  package: 6-pin Bakelite / Metal Cap Module (4-pin Header)
+  operating_voltage_min_v: 5.0
+  operating_voltage_max_v: 5.0
+  target_gases: Ethanol / Alcohol Vapor
+  detection_range: 0.05 mg/L - 10 mg/L (Alcohol)
+  heater_voltage_v: 5.0
+  heater_resistance_ohm: 31
+  heater_consumption_mw: 800
+  operating_temp_min_c: -10
+  operating_temp_max_c: 50
+  interfaces: [Analog Output, Digital LM393 Comparator Output]
+highlights:
+  - operating_voltage_min_v
+  - target_gases
+  - detection_range
+  - heater_consumption_mw
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MQ-3 alcohol sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mq-3.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.winsen-sensor.com/d/files/semiconductor/mq-3.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.winsen-sensor.com/sensors/mq-3.html" }

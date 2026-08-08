@@ -1,0 +1,43 @@
+id: interface.bus.74hc245
+revision: "1.0"
+title: 74HC245 — Octal 3-State Bus Transceiver
+category: interface/bus
+tags: [74hc245, sn74hc245, bus-transceiver, level-shifter, buffer, 3-state, gpio, texas-instruments, nexperia, dip-20]
+status: published
+summary: >-
+  High-speed CMOS 8-bit non-inverting 3-state bidirectional bus transceiver IC with direction control pin (DIR) and output enable pin (OE), widely used for logic-level translation and bus buffering in 5V/3.3V microcomputer systems.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / Nexperia
+  ic_part_numbers: [74HC245, SN74HC245N, 74HC245D, 74HCT245]
+  package: 20-pin DIP / SOIC-20 / TSSOP-20 / Module
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  bus_width_bits: 8
+  max_output_current_ma: 35
+  propagation_delay_ns: 13
+  max_clock_frequency_mhz: 35
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [8-Bit Bidirectional Bus (A1-A8 <-> B1-B8), DIR, OE]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bus_width_bits
+  - max_output_current_ma
+  - propagation_delay_ns
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 74HC245 octal 3-state bus transceiver IC in 20-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/74hc245.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc245.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC245" }

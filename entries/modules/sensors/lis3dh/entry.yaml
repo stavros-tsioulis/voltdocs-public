@@ -1,0 +1,48 @@
+id: sensor.accelerometer.lis3dh
+revision: "1.0"
+title: LIS3DH — Ultra-Low-Power 3-Axis MEMS Accelerometer
+category: sensors/accelerometer
+tags: [lis3dh, accelerometer, imu, motion, 3-axis, i2c, spi, stmicroelectronics, low-power, click-detection]
+status: published
+summary: >-
+  STMicroelectronics ultra-low-power 3-axis linear accelerometer featuring selectable scales (±2g/±4g/±8g/±16g), I2C/SPI interfaces, 16-bit output, and hardware interrupt generators for motion and tap detection.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [LIS3DH, LIS3DHTR]
+  package: 16-pin LGA (3 x 3 x 1 mm) / Breakout Module
+  supply_voltage_min_v: 1.71
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  accel_full_scale_g: [2, 4, 8, 16]
+  adc_resolution_bits: 16
+  data_rate_hz_min: 1.0
+  data_rate_hz_max: 5376
+  measurement_current_ua: 11
+  standby_current_ua: 0.5
+  i2c_address_default: "0x18"
+  i2c_address_alternate: "0x19"
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, 3-Wire SPI, 4-Wire SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - accel_full_scale_g
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: LIS3DH 3-axis accelerometer breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lis3dh.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/lis3dh.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/mems-and-sensors/lis3dh.html" }

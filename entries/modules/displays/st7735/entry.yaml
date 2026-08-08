@@ -1,0 +1,45 @@
+id: display.tft.st7735
+revision: "1.0"
+title: ST7735 — 132RGB x 162 Single-Chip Color TFT-LCD Controller
+category: displays/tft
+tags: [st7735, st7735s, st7735r, tft, lcd, display, driver, 128x160, rgb, spi, sitronix, 1.8-inch]
+status: published
+summary: >-
+  Sitronix single-chip controller/driver for 262K-color graphic TFT-LCD displays, driving 128x160 and 80x160 resolution panels over a high-speed 4-wire SPI interface.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sitronix Technology
+  ic_part_numbers: [ST7735, ST7735S, ST7735R]
+  package: COG (Chip-On-Glass) / 1.8-inch & 0.96-inch TFT Breakout Module
+  supply_voltage_min_v: 2.3
+  supply_voltage_max_v: 3.3
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  resolution_pixels: "128 x 160 (or 80 x 160)"
+  color_depth_bits: 16
+  colors_supported: 65536
+  spi_clock_max_mhz: 15
+  operating_current_ma: 10
+  backlight_current_ma: 40
+  operating_temp_min_c: -30
+  operating_temp_max_c: 85
+  interfaces: [4-Wire SPI (CS, DC, SDA, SCL, RES)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - colors_supported
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ST7735 1.8-inch TFT LCD display module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/st7735.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.displayfuture.com/Display/datasheet/controller/ST7735.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.sitronix.com.tw" }

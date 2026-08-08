@@ -1,0 +1,46 @@
+id: sensor.imu.mpu9250
+revision: "1.0"
+title: MPU9250 — 9-Axis MotionTracking MEMS IMU (Gyro, Accel, Mag)
+category: sensors/imu
+tags: [mpu9250, mpu-9250, imu, gyro, accelerometer, magnetometer, compass, 9-dof, i2c, spi, invensense, tdk]
+status: published
+summary: >-
+  InvenSense / TDK 9-axis MotionTracking device combining a 3-axis gyroscope, 3-axis accelerometer, and AK8963 3-axis digital compass / magnetometer in a single QFN package with I2C and SPI interfaces.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: InvenSense / TDK
+  ic_part_numbers: [MPU-9250, MPU9250]
+  package: 24-pin QFN (3 x 3 x 1 mm) / GY-9250 Breakout Board
+  supply_voltage_min_v: 2.4
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  accel_ranges_g: [2, 4, 8, 16]
+  gyro_ranges_dps: [250, 500, 1000, 2000]
+  mag_range_ut: 4900
+  adc_resolution_bits: 16
+  i2c_address_default: "0x68"
+  i2c_address_alternate: "0x69"
+  operating_current_ma: 3.5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - accel_ranges_g
+  - gyro_ranges_dps
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MPU9250 9-axis IMU breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mpu9250.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://invensense.tdk.com" }

@@ -1,0 +1,53 @@
+id: sensor.thermal.mlx90640
+revision: "1.0"
+title: MLX90640 — 32x24 Pixel FIR Thermal Imaging Camera Array
+category: sensors/thermal
+tags: [mlx90640, melexis, thermal, thermal-imaging, infrared, thermopile, camera, i2c, sparkfun, esphome]
+status: published
+summary: >-
+  Melexis 768-pixel (32x24) Far-Infrared (FIR) thermopile thermal imaging array camera sensor measuring non-contact object temperatures from -40°C to +300°C over I2C (0x33).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Melexis
+  ic_part_numbers: [MLX90640, MLX90640ESF-BAB, MLX90640ESF-BAA]
+  package: 4-pin TO-39 Metal Can / Breakout Board (Qwiic / STEMMA QT)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  thermal_resolution_pixels: 768 (32 x 24 array)
+  target_temperature_range_c_min: -40
+  target_temperature_range_c_max: 300
+  thermal_accuracy_c: 1.0
+  field_of_view_deg: 55x35 (BAB) / 110x75 (BAA)
+  refresh_rate_hz_max: 64
+  i2c_address_default: "0x33"
+  i2c_clock_max_khz: 1000
+  operating_current_ma: 23.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C (Fast-Mode Plus up to 1MHz)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - thermal_resolution_pixels
+  - target_temperature_range_c_min
+  - target_temperature_range_c_max
+  - field_of_view_deg
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MLX90640 32x24 thermal imaging sensor array breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mlx90640.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.sparkfun.com/products/14844" }

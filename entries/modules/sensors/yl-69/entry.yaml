@@ -1,0 +1,41 @@
+id: sensor.soil.yl69
+revision: "1.0"
+title: YL-69 / FC-28 — Resistive Soil Moisture Sensor Module
+category: sensors/soil
+tags: [yl69, yl-69, fc28, fc-28, soil, moisture, resistive, garden, irrigation, lm393]
+status: published
+summary: >-
+  Generic 2-prong resistive soil moisture sensor probe bundled with an LM393 comparator driver board, providing analog resistance voltage output and digital threshold output for plant watering systems.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic
+  ic_part_numbers: [YL-69, FC-28, YL-38 driver PCB]
+  package: 2-Prong PCB Probe (60 x 20 mm) + Driver Board
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.0
+  sensing_method: "Resistive conduction"
+  operating_current_ma: 15
+  dry_soil_voltage_v: 5.0
+  wet_soil_voltage_v: 1.2
+  operating_temp_min_c: 0
+  operating_temp_max_c: 50
+  interfaces: [Analog Output, Digital Output (LM393 Comparator)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - sensing_method
+  - dry_soil_voltage_v
+  - wet_soil_voltage_v
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: YL-69 resistive soil moisture sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/yl69.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.sparkfun.com/products/13322" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.sparkfun.com" }

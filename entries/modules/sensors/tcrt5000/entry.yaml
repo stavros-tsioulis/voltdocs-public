@@ -1,0 +1,44 @@
+id: sensor.optocoupler.tcrt5000
+revision: "1.0"
+title: TCRT5000 — Reflective Optical Sensor Module
+category: sensors/optocoupler
+tags: [tcrt5000, ir, reflective, line-follower, phototransistor, vishay, robotics, line-sensor]
+status: published
+summary: >-
+  Vishay reflective optical sensor integrating an 950 nm infrared emitting diode and NPN phototransistor in a leaded package, widely used for line-following robots and object position sensing.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Vishay Intertechnology
+  ic_part_numbers: [TCRT5000, TCRT5000L]
+  package: 4-pin Leaded Package / Breakout Module with LM393
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.0
+  emitter_forward_current_max_ma: 60
+  emitter_forward_voltage_v: 1.25
+  detector_collector_emitter_voltage_v: 70
+  sensing_distance_mm_min: 0.2
+  sensing_distance_mm_optimum: 2.5
+  sensing_distance_mm_max: 15.0
+  peak_wavelength_nm: 950
+  operating_temp_min_c: -25
+  operating_temp_max_c: 85
+  interfaces: [Analog Output, Digital Output (LM393 Comparator)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - sensing_distance_mm_optimum
+  - sensing_distance_mm_max
+  - peak_wavelength_nm
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TCRT5000 reflective optical sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tcrt5000.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.vishay.com/docs/83760/tcrt5000.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.vishay.com" }

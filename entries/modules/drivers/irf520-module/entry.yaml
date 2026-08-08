@@ -1,0 +1,44 @@
+id: driver.mosfet.irf520-module
+revision: "1.0"
+title: IRF520 MOSFET Driver Module (0–24V / 5A)
+category: drivers/mosfet
+tags: [irf520, mosfet, driver, module, 24v, 5a, pwm, solenoid, motor, relay-replacement, breakout, elegoo, sunfounder]
+status: published
+summary: >-
+  Popular 3-pin breakout module incorporating an IRF520 N-channel power MOSFET, onboard gate driver transistor circuit, and screw terminal blocks for switching 0V to 24V DC loads up to 5A.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Generic (Elegoo / SunFounder / Keyes)
+  ic_part_numbers: [IRF520, IRF520N]
+  package: Breakout PCB with TO-220 MOSFET and Screw Terminals
+  input_signal_voltage_min_v: 3.3
+  input_signal_voltage_max_v: 5.0
+  output_load_voltage_min_v: 0.0
+  output_load_voltage_max_v: 24.0
+  max_continuous_load_current_a: 5.0
+  max_peak_load_current_a: 9.2
+  output_switching_type: Low-Side N-Channel MOSFET (Sinking)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Digital PWM Signal Input (SIG), Screw Terminal Block]
+highlights:
+  - input_signal_voltage_min_v
+  - input_signal_voltage_max_v
+  - output_load_voltage_min_v
+  - output_load_voltage_max_v
+  - max_continuous_load_current_a
+  - max_peak_load_current_a
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: IRF520 MOSFET driver module with screw terminal block
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/irf520-module.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.vishay.com/docs/91017/91017.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.sunfounder.com/products/irf520-mosfet-driver-module" }

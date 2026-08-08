@@ -1,0 +1,44 @@
+id: driver.display.max7219
+revision: "1.0"
+title: MAX7219 — Serially Interfaced, 8-Digit LED Display Driver
+category: drivers/display
+tags: [max7219, max7221, led, display, driver, 7-segment, matrix, 8x8, spi, maxim, analog-devices]
+status: published
+summary: >-
+  Maxim Integrated / Analog Devices compact serial input/output common-cathode display driver that interfaces microcontrollers to 7-segment numeric LED displays (up to 8 digits) or 8x8 dot matrix LED displays.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Maxim Integrated / Analog Devices
+  ic_part_numbers: [MAX7219, MAX7219CNG, MAX7219CWG]
+  package: 24-pin DIP, SOIC-24 / 8x8 Dot Matrix Module
+  supply_voltage_min_v: 4.0
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0
+  digits_supported: 8
+  segment_drive_current_ma: 40
+  brightness_control_levels: 16
+  scan_rate_hz: 800
+  spi_clock_max_mhz: 10
+  shutdown_current_ua: 150
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [3-Wire SPI / Serial (DIN, CS, CLK)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - digits_supported
+  - brightness_control_levels
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MAX7219 8x8 LED dot matrix module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/max7219.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7219-MAX7221.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/max7219.html" }

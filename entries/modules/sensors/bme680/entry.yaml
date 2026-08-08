@@ -1,0 +1,47 @@
+id: sensor.environmental.bme680
+revision: "1.0"
+title: BME680 — 4-in-1 Environmental Sensor (Gas, Pressure, Humidity, Temp)
+category: sensors/environmental
+tags: [bme680, sensor, voc, gas, temperature, humidity, pressure, air-quality, bosch, i2c]
+status: published
+summary: >-
+  Bosch Sensortec 4-in-1 digital environmental sensor integrating a MOX metal-oxide gas sensor for VOC detection alongside high-accuracy humidity, pressure, and temperature sensors.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Bosch Sensortec
+  ic_part_numbers: [BME680]
+  package: 8-pin LGA (3.0 x 3.0 x 0.93 mm) / Breakout Module
+  supply_voltage_min_v: 1.71
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  temperature_range_c_min: -40
+  temperature_range_c_max: 85
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  pressure_range_hpa_min: 300
+  pressure_range_hpa_max: 1100
+  gas_sensor_type: "MOX Metal-Oxide VOC sensor"
+  i2c_address_default: "0x77"
+  i2c_address_alternate: "0x76"
+  interfaces: [I2C, 3-Wire SPI, 4-Wire SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - pressure_range_hpa_min
+  - pressure_range_hpa_max
+  - gas_sensor_type
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: BME680 4-in-1 environmental sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bme680.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme680/" }

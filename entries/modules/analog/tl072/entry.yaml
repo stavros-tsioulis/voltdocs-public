@@ -1,0 +1,46 @@
+id: analog.opamp.tl072
+revision: "1.0"
+title: TL072 — Dual Low-Noise JFET-Input Operational Amplifier
+category: analog/opamp
+tags: [tl072, tl072c, tl072cp, op-amp, operational-amplifier, jfet, low-noise, audio, guitar-pedal, texas-instruments, dip-8]
+status: published
+summary: >-
+  Texas Instruments high-speed JFET-input dual operational amplifier featuring low noise, low input bias current, fast 13V/µs slew rate, and 3MHz bandwidth, widely used in audio preamps, active filters, and guitar effects pedals.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [TL072, TL072CP, TL072CD, TL072IP]
+  package: 8-pin DIP / SOIC-8 / TSSOP-8
+  opamp_channels: 2 (Dual Op-Amp)
+  supply_voltage_split_v_min: -3.0
+  supply_voltage_split_v_max: 18.0
+  gain_bandwidth_product_mhz: 3.0
+  slew_rate_v_us: 13.0
+  equivalent_input_noise_nv_hz: 18.0
+  input_bias_current_pa: 65.0
+  input_offset_voltage_mv: 3.0
+  quiescent_current_ma: 2.8
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Dual Op-Amp Analog Terminals]
+highlights:
+  - opamp_channels
+  - supply_voltage_split_v_min
+  - supply_voltage_split_v_max
+  - gain_bandwidth_product_mhz
+  - slew_rate_v_us
+  - equivalent_input_noise_nv_hz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TL072 low-noise JFET dual operational amplifier IC in 8-pin DIP package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tl072.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tl072.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TL072" }

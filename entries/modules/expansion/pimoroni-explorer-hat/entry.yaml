@@ -1,0 +1,44 @@
+id: expansion.hat.pimoroni-explorer
+revision: "1.0"
+title: Pimoroni Explorer HAT Pro — Multifunction I/O & Motor HAT for Raspberry Pi
+category: expansion/hats
+tags: [pimoroni, explorer-hat, raspberry-pi, hat, gpio, motor-driver, adc, touch, expansion, robotics]
+status: published
+summary: >-
+  Pimoroni multifunction Raspberry Pi add-on board integrating a dual H-bridge motor driver (DRV8833), 4-channel 5V analog inputs (ADS1015), 4 capacitive touch pads (CAP1204), 4 buffered 5V outputs, and status LEDs.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Pimoroni
+  ic_part_numbers: [DRV8833, ADS1015, CAP1204]
+  package: Raspberry Pi 40-pin HAT (65 x 56 mm)
+  operating_voltage_min_v: 4.8
+  operating_voltage_max_v: 5.2
+  motor_channels: 2 (Dual H-Bridge DRV8833)
+  motor_current_ma_per_channel: 200
+  analog_input_channels: 4 (ADS1015 12-bit ADC, 0-5V input)
+  buffered_outputs: 4 (5V sinking/sourcing 500mA total)
+  capacitive_touch_pads: 4 (CAP1204 I2C touch controller)
+  status_leds: 4 (Blue, Green, Yellow, Red)
+  interfaces: [I2C, Raspberry Pi GPIO]
+highlights:
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - motor_channels
+  - motor_current_ma_per_channel
+  - analog_input_channels
+  - buffered_outputs
+  - capacitive_touch_pads
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Pimoroni Explorer HAT Pro mounted on Raspberry Pi GPIO header
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pimoroni-explorer-hat.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://pinout.xyz/pinout/explorer_hat_pro" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://shop.pimoroni.com/products/explorer-hat-pro" }

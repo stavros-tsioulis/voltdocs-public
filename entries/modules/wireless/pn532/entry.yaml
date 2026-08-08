@@ -1,0 +1,46 @@
+id: module.wireless.pn532
+revision: "1.0"
+title: PN532 — Near Field Communication (NFC) / RFID Controller Module
+category: wireless/nfc
+tags: [pn532, nfc, rfid, 13.56mhz, mifare, nxp, i2c, spi, hsu, uart]
+status: published
+summary: >-
+  NXP highly integrated transceiver IC for 13.56 MHz Near Field Communication (NFC) and RFID, supporting reader/writer, peer-to-peer, and MIFARE card emulation modes over I2C, SPI, or HSU (High-Speed UART).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: NXP Semiconductors
+  ic_part_numbers: [PN532, PN5321A3HN]
+  package: 40-pin HVQFN (6 x 6 mm) / Red PCB Breakout Board with DIP switches
+  supply_voltage_min_v: 2.7
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0
+  carrier_frequency_mhz: 13.56
+  operating_distance_mm: 50
+  supported_cards: [MIFARE 1K, MIFARE 4K, NTAG213/215/216, Ultralight, FeliCa, ISO/IEC 14443A/B]
+  supported_modes: [Reader/Writer, Peer-to-Peer (P2P), Card Emulation]
+  i2c_address_default: "0x24"
+  hsu_baud_rate: 115200
+  operating_current_ma: 100
+  power_down_current_ua: 1
+  operating_temp_min_c: -30
+  operating_temp_max_c: 85
+  interfaces: [I2C, SPI, HSU (High Speed UART)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - carrier_frequency_mhz
+  - operating_distance_mm
+  - supported_modes
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: PN532 NFC RFID breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pn532.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nxp.com/docs/en/nxp/data-sheets/PN532_C1.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nxp.com/products/rfid-nfc/nfc/pn532:PN532" }

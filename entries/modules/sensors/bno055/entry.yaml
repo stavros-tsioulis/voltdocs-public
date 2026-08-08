@@ -1,0 +1,45 @@
+id: sensor.imu.bno055
+revision: "1.0"
+title: BNO055 — 9-DOF Absolute Orientation Sensor with Sensor Fusion
+category: sensors/imu
+tags: [bno055, imu, orientation, sensor-fusion, quaternion, euler, 9-dof, bosch, i2c]
+status: published
+summary: >-
+  Bosch Sensortec System in Package (SiP) integrating a 3-axis 14-bit accelerometer, 3-axis 16-bit gyroscope, 3-axis geomagnetic sensor, and 32-bit Cortex-M0+ MCU running sensor fusion software.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Bosch Sensortec
+  ic_part_numbers: [BNO055]
+  package: 28-pin LGA (3.8 x 5.2 x 1.1 mm) / Breakout Board
+  supply_voltage_min_v: 2.4
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  dof_channels: 9
+  output_formats: [Quaternions, Euler Angles, Rotation Matrix, Linear Acceleration, Gravity]
+  i2c_address_default: "0x28"
+  i2c_address_alternate: "0x29"
+  i2c_clock_max_khz: 400
+  operating_current_ma: 12.5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, UART]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - dof_channels
+  - output_formats
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: BNO055 9-DOF orientation sensor module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bno055.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.bosch-sensortec.com/products/smart-sensors/bno055/" }

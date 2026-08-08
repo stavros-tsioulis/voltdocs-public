@@ -1,0 +1,43 @@
+id: power.converter.mc34063a
+revision: "1.0"
+title: MC34063A — 1.5A Universal DC-DC Converter
+category: power/converter
+tags: [mc34063a, mc34063, buck, boost, inverting, dc-dc, converter, switching, regulator, onsemi, ti, dip-8]
+status: published
+summary: >-
+  ON Semiconductor / Texas Instruments 1.5A peak current monolithic control IC designed for step-down (buck), step-up (boost), and voltage-inverting DC-DC converters operating up to 100kHz.
+updatedAt: "2026-08-08"
+fields:
+  manufacturer: ON Semiconductor / Texas Instruments / STMicroelectronics
+  ic_part_numbers: [MC34063A, MC34063AP, MC34063AD, MC33063A]
+  package: 8-pin DIP / SOIC-8
+  regulator_type: Universal DC-DC Converter (Buck / Boost / Inverting)
+  input_voltage_v_min: 3.0
+  input_voltage_v_max: 40.0
+  switch_current_a_max: 1.5
+  switching_frequency_khz: 100
+  reference_voltage_v: 1.25
+  quiescent_current_ma: 2.5
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [DC Power Switching]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - switch_current_a_max
+  - switching_frequency_khz
+  - reference_voltage_v
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: MC34063A 1.5A universal DC-DC converter IC in DIP-8 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mc34063a.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/mc34063a-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/power-management/dc-dc-power-conversion/converters/mc34063a" }

@@ -1,0 +1,46 @@
+id: sensor.environmental.as3935
+revision: "1.0"
+title: AS3935 — Franklin Lightning Sensor IC
+category: sensors/environmental
+tags: [as3935, lightning, storm, sensor, franklin, ams, i2c, spi, esphome, weather-station, sparkfun]
+status: published
+summary: >-
+  ams AS3935 programmable Franklin lightning sensor IC detecting the presence and distance (1 km to 40 km) of cloud-to-ground and cloud-to-cloud lightning strikes by analyzing 500 kHz RF emissions over I2C/SPI.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ams OSRAM (TAOS)
+  ic_part_numbers: [AS3935, AS3935-BQFT]
+  package: 16-pin MLPQ (4 x 4 mm) / Breakout Module with 500kHz Coil
+  supply_voltage_min_v: 2.4
+  supply_voltage_max_v: 5.5
+  lightning_detection_range_km_min: 1
+  lightning_detection_range_km_max: 40
+  rf_tuning_frequency_khz: 500
+  i2c_address_default: "0x03"
+  i2c_address_alternate: "0x00"
+  operating_current_ua: 60
+  power_down_current_ua: 2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - lightning_detection_range_km_min
+  - lightning_detection_range_km_max
+  - rf_tuning_frequency_khz
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: AS3935 Franklin lightning sensor breakout module with 500kHz inductor coil
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/as3935.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ams.com/documents/20143/36005/AS3935_DS000339_5-00.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://ams.com" }

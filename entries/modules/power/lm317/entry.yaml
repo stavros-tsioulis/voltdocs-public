@@ -1,0 +1,45 @@
+id: power.regulator.lm317
+revision: "1.0"
+title: LM317 — 1.5A Adjustable Positive Voltage Regulator
+category: power/regulator
+tags: [lm317, lm317t, voltage-regulator, linear, adjustable, power, to-220, ti, onsemi, bench-power]
+status: published
+summary: >-
+  Texas Instruments / ON Semiconductor iconic 3-terminal adjustable positive linear voltage regulator delivering over 1.5A across 1.25V to 37V with internal thermal protection.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / STMicroelectronics
+  ic_part_numbers: [LM317, LM317T, LM317K, LM317HV]
+  package: TO-220 / TO-263 (D2PAK) / SOT-223
+  regulator_type: Adjustable Positive Linear Regulator
+  output_voltage_v_min: 1.25
+  output_voltage_v_max: 37.0
+  input_output_voltage_diff_v_max: 40.0
+  output_current_a_max: 1.5
+  reference_voltage_v: 1.25
+  line_regulation_pct: 0.01
+  load_regulation_pct: 0.1
+  operating_temp_min_c: 0
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Passive (Adjust, Output, Input)]
+highlights:
+  - regulator_type
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - input_output_voltage_diff_v_max
+  - output_current_a_max
+  - reference_voltage_v
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: LM317T adjustable voltage regulator in TO-220 package with heatsink tab
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm317.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm317.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM317" }

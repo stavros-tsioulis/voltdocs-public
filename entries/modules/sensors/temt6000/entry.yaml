@@ -1,0 +1,41 @@
+id: sensor.light.temt6000
+revision: "1.0"
+title: TEMT6000 — Silicon NPN Phototransistor Ambient Light Sensor
+category: sensors/light
+tags: [temt6000, light, sensor, phototransistor, analog, vishay, ambient, illuminance, sparkfun, photoresistor-alternative]
+status: published
+summary: >-
+  Vishay high-sensitivity silicon NPN phototransistor mounted on an analog breakout module converting ambient light level into a linear output voltage matching human eye spectral sensitivity (570nm peak).
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Vishay Semiconductors
+  ic_part_numbers: [TEMT6000, TEMT6000X01]
+  package: 1206 SMD (3.2 x 1.6 x 1.1 mm) / Breakout Module
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.0
+  output_type: Analog Current / Voltage
+  peak_sensitivity_wavelength_nm: 570
+  collector_light_current_ua: 50
+  angle_of_half_sensitivity_deg: 60
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Analog Output]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_type
+  - peak_sensitivity_wavelength_nm
+  - angle_of_half_sensitivity_deg
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: TEMT6000 ambient light sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/temt6000.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.vishay.com/docs/81579/temt6000.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.vishay.com/ppg?81579" }

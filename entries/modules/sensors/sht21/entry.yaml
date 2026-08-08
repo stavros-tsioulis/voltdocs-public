@@ -1,0 +1,54 @@
+id: sensor.humidity.sht21
+revision: "1.0"
+title: SHT21 — Digital Relative Humidity & Temperature Sensor
+category: sensors/humidity
+tags: [sht21, sensirion, humidity, temperature, sensor, i2c, CMOSens, esphome]
+status: published
+summary: >-
+  Sensirion CMOSens digital relative humidity and temperature sensor delivering ±2% RH humidity accuracy and ±0.3°C temperature accuracy over I2C (0x40) with low 150 µA active current.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Sensirion AG
+  ic_part_numbers: [SHT21, SHT21P, SHT21S]
+  package: 6-pin DFN (3.0 x 3.0 x 1.1 mm) / Breakout Module
+  supply_voltage_min_v: 2.1
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  temperature_range_c_min: -40
+  temperature_range_c_max: 125
+  temperature_accuracy_c: 0.3
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  humidity_accuracy_pct: 2.0
+  resolution_bits: 14
+  i2c_address_default: "0x40"
+  operating_current_ua: 150
+  sleep_current_ua: 0.15
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [I2C, PWM, SDM]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - temperature_range_c_min
+  - temperature_range_c_max
+  - temperature_accuracy_c
+  - humidity_accuracy_pct
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: Sensirion SHT21 digital humidity and temperature sensor breakout board
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sht21.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sensirion.com/media/documents/122BEE26/61654521/Sensirion_Humidity_Sensors_SHT21_Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://sensirion.com" }

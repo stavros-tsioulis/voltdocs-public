@@ -1,0 +1,46 @@
+id: sensor.temperature.aht20
+revision: "1.0"
+title: AHT20 — Temperature and Humidity Sensor
+category: sensors/temperature
+tags: [aht20, aht10, sensor, temperature, humidity, i2c, asair, mems, environmental, weather]
+status: published
+summary: >-
+  ASAIR MEMS semiconductor digital temperature and humidity sensor with calibrated I2C output, high accuracy (±0.3°C, ±2% RH), low power consumption, and standard 0x38 I2C address.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ASAIR (Guangzhou Aosong Electronics)
+  ic_part_numbers: [AHT20, AHT10]
+  package: SMD Flat No-Lead (3.0 x 3.0 x 1.0 mm) / Breakout Module
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 5.5
+  temperature_range_c_min: -40
+  temperature_range_c_max: 85
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  temperature_accuracy_c: 0.3
+  humidity_accuracy_pct: 2.0
+  i2c_address_default: "0x38"
+  operating_current_ma: 0.98
+  standby_current_ua: 0.25
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - temperature_accuracy_c
+  - humidity_accuracy_pct
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: AHT20 temperature and humidity sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/aht20.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://cdn-learn.adafruit.com/assets/assets/000/091/676/original/AHT20-datasheet-2020-4-16.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.adafruit.com/product/4566" }

@@ -1,0 +1,48 @@
+id: sensor.environmental.bme280
+revision: "1.0"
+title: BME280 — Combined Humidity, Barometric Pressure, and Temperature Sensor
+category: sensors/environmental
+tags: [bme280, sensor, temperature, humidity, pressure, altitude, i2c, spi, bosch, weather]
+status: published
+summary: >-
+  Bosch Sensortec digital 3-in-1 environmental sensor combining high-linearity, high-accuracy pressure, humidity, and temperature measurement in an ultra-compact LGA package.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: Bosch Sensortec
+  ic_part_numbers: [BME280]
+  package: 8-pin LGA (2.5 x 2.5 x 0.93 mm) / Breakout Module
+  supply_voltage_min_v: 1.71
+  supply_voltage_max_v: 3.6
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  temperature_range_c_min: -40
+  temperature_range_c_max: 85
+  humidity_range_pct_min: 0
+  humidity_range_pct_max: 100
+  pressure_range_hpa_min: 300
+  pressure_range_hpa_max: 1100
+  temperature_accuracy_c: 0.5
+  humidity_accuracy_pct: 3.0
+  pressure_accuracy_hpa: 1.0
+  i2c_address_default: "0x76"
+  i2c_address_alternate: "0x77"
+  interfaces: [I2C, 3-Wire SPI, 4-Wire SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - pressure_range_hpa_min
+  - pressure_range_hpa_max
+  - i2c_address_default
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: BME280 environmental sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bme280.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/" }

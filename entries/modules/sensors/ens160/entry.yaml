@@ -1,0 +1,51 @@
+id: sensor.environmental.ens160
+revision: "1.0"
+title: ENS160 — Digital Multi-Gas Indoor Air Quality Sensor
+category: sensors/environmental
+tags: [ens160, sciosense, air-quality, tvoc, eco2, aqi, gas, i2c, spi, sparkfun, adafruit]
+status: published
+summary: >-
+  ScioSense multi-gas indoor air quality sensor built on 4 independent MOX micro-hotplate sensing elements, outputting AQI (1-5), TVOC (ppb), and eCO2 (ppm) over I2C/SPI with automatic baseline compensation.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ScioSense (ams OSRAM spin-off)
+  ic_part_numbers: [ENS160, ENS160-AQM]
+  package: 12-pin LGA (3.0 x 3.0 x 0.9 mm) / Breakout Module
+  supply_voltage_min_v: 1.71
+  supply_voltage_max_v: 1.98
+  module_supply_voltage_min_v: 3.3
+  module_supply_voltage_max_v: 5.0
+  tvoc_range_ppb_min: 0
+  tvoc_range_ppb_max: 65000
+  eco2_range_ppm_min: 400
+  eco2_range_ppm_max: 65000
+  aqi_range_min: 1
+  aqi_range_max: 5
+  i2c_address_default: "0x53"
+  i2c_address_alternate: "0x52"
+  operating_current_ma: 29.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C, SPI]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - module_supply_voltage_min_v
+  - module_supply_voltage_max_v
+  - tvoc_range_ppb_max
+  - eco2_range_ppm_max
+  - i2c_address_default
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: ENS160 indoor air quality sensor breakout module
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ens160.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.sciosense.com/wp-content/uploads/downloads/2023/07/ENS160-Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.sciosense.com/products/environmental-sensors/ens160-digital-multi-gas-sensor/" }

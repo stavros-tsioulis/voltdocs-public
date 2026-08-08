@@ -1,0 +1,47 @@
+id: transistor.bjt.2n3904
+revision: "1.0"
+title: 2N3904 — General-Purpose NPN Bipolar Junction Transistor
+category: transistors/bjt
+tags: [2n3904, npn, bjt, transistor, to-92, onsemi, switching, amplifier, general-purpose, EBC]
+status: published
+summary: >-
+  ON Semiconductor / Fairchild industry-standard general-purpose NPN BJT in TO-92 package rated for 40V VCEO, 200mA IC, and 300MHz transition frequency.
+updatedAt: "2026-08-03"
+fields:
+  manufacturer: ON Semiconductor / Microchip / STMicroelectronics / Fairchild
+  ic_part_numbers: [2N3904, 2N3904TA, MMBT3904]
+  package: TO-92 Plastic / SOT-23 (MMBT3904)
+  transistor_type: General-Purpose NPN BJT
+  collector_emitter_voltage_vceo_v: 40
+  collector_base_voltage_vcbo_v: 60
+  emitter_base_voltage_vebo_v: 6.0
+  continuous_collector_current_ic_ma: 200
+  dc_current_gain_hfe_min: 100 (at IC = 10mA, VCE = 1.0V)
+  dc_current_gain_hfe_max: 300
+  transition_frequency_ft_mhz: 300
+  total_power_dissipation_mw: 625
+  pinout_order: "E-B-C (1: Emitter, 2: Base, 3: Collector)"
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: photo
+    kind: image
+    title: 2N3904 NPN general-purpose BJT transistor in TO-92 package
+    mimeType: image/webp
+    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/2n3904.256.webp }
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/2n3903-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com" }
