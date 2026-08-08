@@ -33,11 +33,6 @@ highlights:
   - i2c_clock_max_khz
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MPU-6050 GY-521 breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mpu6050.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf" }

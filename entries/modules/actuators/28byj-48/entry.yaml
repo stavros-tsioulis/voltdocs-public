@@ -30,11 +30,6 @@ highlights:
   - pull_in_torque_g_cm
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: 28BYJ-48 stepper motor with ULN2003 driver board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/28byj48.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.sparkfun.com/datasheets/Robotics/sub-heading1.pdf" }

@@ -29,11 +29,6 @@ highlights:
   - i2c_address_base_hex
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: PCF8574 I2C breakout / LCD backpack board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pcf8574.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf" }

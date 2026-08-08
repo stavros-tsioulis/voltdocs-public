@@ -29,11 +29,6 @@ highlights:
   - selectable_gains
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: HX711 load cell ADC module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hx711.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf" }

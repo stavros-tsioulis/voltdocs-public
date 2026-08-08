@@ -30,11 +30,6 @@ highlights:
   - battery_backup_current_ua
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: DS3231 RTC breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ds3231.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://datasheets.maximintegrated.com/en/ds/DS3231.pdf" }
