@@ -29,11 +29,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: 74HC08 quad 2-input AND gate IC in 14-pin DIP package
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/74hc08.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf" }

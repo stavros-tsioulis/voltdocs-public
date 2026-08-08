@@ -31,11 +31,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Interlink FSR 402 round force sensitive resistor
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/fsr402.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.interlinkelectronics.com/hubfs/FSR402-Data-Sheet.pdf" }

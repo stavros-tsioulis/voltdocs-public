@@ -40,11 +40,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MLX90640 32x24 thermal imaging sensor array breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mlx90640.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf" }

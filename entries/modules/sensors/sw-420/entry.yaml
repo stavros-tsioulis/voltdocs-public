@@ -29,11 +29,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: SW-420 vibration sensor breakout module with LM393 comparator
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sw-420.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://sensorkit.joy-it.net/en/sensors/ky-002" }

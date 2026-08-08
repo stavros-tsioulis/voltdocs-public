@@ -32,11 +32,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: ATM90E32 3-phase energy monitoring breakout board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/atm90e32.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46003-SE-M90E32AS-Datasheet.pdf" }

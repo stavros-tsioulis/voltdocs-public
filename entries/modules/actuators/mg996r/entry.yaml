@@ -32,11 +32,6 @@ highlights:
   - weight_g
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MG996R high-torque metal gear servo motor
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mg996r.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.towerpro.com.tw/wp-content/uploads/2016/03/MG996R-datasheet.pdf" }

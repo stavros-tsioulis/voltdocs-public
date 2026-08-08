@@ -28,11 +28,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MicroSD card SPI breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/microsd-module.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.microchip.com/content/dam/mchp/documents/OTH/ProductDetail/SpecSheets/74LVC125A.pdf" }

@@ -31,11 +31,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: DS1307 Tiny RTC module with coin cell battery
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ds1307.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/DS1307.pdf" }

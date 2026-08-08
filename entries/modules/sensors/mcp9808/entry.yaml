@@ -36,11 +36,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MCP9808 high-accuracy digital temperature sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mcp9808.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/25095D.pdf" }

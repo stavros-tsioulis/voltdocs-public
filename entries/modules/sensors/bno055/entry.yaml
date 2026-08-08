@@ -32,11 +32,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: BNO055 9-DOF orientation sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bno055.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf" }

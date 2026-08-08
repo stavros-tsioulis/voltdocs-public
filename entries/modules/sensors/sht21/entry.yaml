@@ -41,11 +41,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Sensirion SHT21 digital humidity and temperature sensor breakout board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sht21.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://sensirion.com/media/documents/122BEE26/61654521/Sensirion_Humidity_Sensors_SHT21_Datasheet.pdf" }

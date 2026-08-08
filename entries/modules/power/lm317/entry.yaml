@@ -32,11 +32,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: LM317T adjustable voltage regulator in TO-220 package with heatsink tab
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm317.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm317.pdf" }

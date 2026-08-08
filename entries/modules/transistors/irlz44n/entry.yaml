@@ -33,11 +33,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: IRLZ44N N-channel power MOSFET TO-220 package
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/irlz44n.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.infineon.com/dgdl/Infineon-IRLZ44N-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015356ec8f672765" }

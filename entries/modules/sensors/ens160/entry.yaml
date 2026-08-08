@@ -38,11 +38,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: ENS160 indoor air quality sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ens160.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.sciosense.com/wp-content/uploads/downloads/2023/07/ENS160-Datasheet.pdf" }

@@ -31,11 +31,6 @@ highlights:
   - peak_wavelength_nm
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: TCRT5000 reflective optical sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tcrt5000.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.vishay.com/docs/83760/tcrt5000.pdf" }

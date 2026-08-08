@@ -41,11 +41,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Sensirion SHT40 humidity and temperature sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sht40.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://sensirion.com/media/documents/31B48E64/61676608/Sensirion_Humidity_Sensors_SHT4x_Datasheet.pdf" }

@@ -38,11 +38,6 @@ highlights:
   - i2c_address_mag
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: LSM9DS1 9-axis IMU breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lsm9ds1.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.st.com/resource/en/datasheet/lsm9ds1.pdf" }

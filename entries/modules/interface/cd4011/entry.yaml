@@ -27,11 +27,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: CD4011B quad 2-input NAND gate IC in 14-pin DIP package
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/cd4011.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4011b.pdf" }

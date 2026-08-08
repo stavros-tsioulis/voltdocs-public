@@ -31,11 +31,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: A3144 digital Hall effect sensor in TO-92 package and breakout board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/a3144.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.allegromicro.com/-/media/files/datasheets/a3141-2-3-4-datasheet.pdf" }

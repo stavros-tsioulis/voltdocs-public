@@ -29,11 +29,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: ULN2003A Darlington array IC in DIP-16 package and stepper driver module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/uln2003a.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.ti.com/lit/ds/symlink/uln2003a.pdf" }

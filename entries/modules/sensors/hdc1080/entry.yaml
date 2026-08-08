@@ -37,11 +37,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: HDC1080 digital humidity and temperature sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hdc1080.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.ti.com/lit/ds/symlink/hdc1080.pdf" }

@@ -30,11 +30,6 @@ highlights:
   - reference_voltage_v
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MC34063A 1.5A universal DC-DC converter IC in DIP-8 package
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mc34063a.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/mc34063a-d.pdf" }

@@ -32,11 +32,6 @@ highlights:
   - target_gases
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MQ-7 carbon monoxide sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mq7.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.winsen-sensor.com/d/files/semiconductor/mq-7.pdf" }

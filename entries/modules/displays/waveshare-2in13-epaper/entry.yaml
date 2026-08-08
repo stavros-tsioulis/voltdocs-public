@@ -36,11 +36,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Waveshare 2.13-inch e-Paper HAT mounted on Raspberry Pi
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/waveshare-2in13-epaper.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.waveshare.com/w/upload/e/e6/2.13inch_e-Paper_HAT_V4_Specification.pdf" }

@@ -32,11 +32,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: L7812CV / LM7812 +12V linear voltage regulator in TO-220 package
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm7812.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.st.com/resource/en/datasheet/l78.pdf" }

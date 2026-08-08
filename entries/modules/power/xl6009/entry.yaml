@@ -33,11 +33,6 @@ highlights:
   - efficiency_pct
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: XL6009 high-current DC-DC boost converter module with potentiometer
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/xl6009.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "http://www.xlsemi.com/datasheet/XL6009%20datasheet.pdf" }

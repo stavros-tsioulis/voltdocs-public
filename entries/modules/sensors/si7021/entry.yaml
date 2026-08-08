@@ -41,11 +41,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Silicon Labs Si7021 temperature and humidity sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/si7021.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.silabs.com/documents/public/data-sheets/Si7021-A20.pdf" }

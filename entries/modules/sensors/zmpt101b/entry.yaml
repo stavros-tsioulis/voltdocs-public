@@ -27,11 +27,6 @@ highlights:
   - turns_ratio
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: ZMPT101B AC voltage sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/zmpt101b.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.zeming-e.com/upload/pdf/2020-05/ZMPT101B-specification.pdf" }

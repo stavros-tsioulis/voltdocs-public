@@ -33,11 +33,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: 2N2222 / 2N2222A NPN BJT in TO-18 metal can and TO-92 package
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/2n2222.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf" }

@@ -32,11 +32,6 @@ highlights:
   - detection_angle_deg
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: RCWL-0516 microwave doppler radar sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/rcwl0516.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://github.com/jdesbonnet/RCWL-0516" }

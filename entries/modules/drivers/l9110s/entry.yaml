@@ -29,11 +29,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: L9110S dual DC motor driver module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/l9110s.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.elecrow.com/wiki/images/2/20/L9110_2-Channel_motor_driver.pdf" }

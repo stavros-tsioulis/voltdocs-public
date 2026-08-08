@@ -28,11 +28,6 @@ highlights:
   - microstep_resolutions
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: TB6600 enclosed stepper motor driver module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tb6600.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://toshiba.semicon-storage.com/info/docget.jsp?did=15344" }

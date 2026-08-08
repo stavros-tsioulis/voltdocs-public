@@ -31,11 +31,6 @@ highlights:
   - baud_rate_bps
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: LD2410 24GHz mmWave radar module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ld2410.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.hlktech.net/index.php?id=1073" }

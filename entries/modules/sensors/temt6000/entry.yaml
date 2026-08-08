@@ -28,11 +28,6 @@ highlights:
   - angle_of_half_sensitivity_deg
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: TEMT6000 ambient light sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/temt6000.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.vishay.com/docs/81579/temt6000.pdf" }

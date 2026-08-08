@@ -31,11 +31,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: HT16K33 I2C 16x8 LED matrix driver breakout board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ht16k33.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.holtek.com/documents/10179/116711/HT16K33v120.pdf" }

@@ -36,11 +36,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: SX1278 Ra-02 433MHz LoRa wireless transceiver module with IPEX connector
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sx1278.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://semtech.my.salesforce.com/sfc/p/#E0000000JaoG/a/2R0000001Rbr/652.7v5S76hV2k39w.xZ4L1" }

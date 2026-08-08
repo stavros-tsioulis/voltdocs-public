@@ -33,11 +33,6 @@ highlights:
   - detection_angle_deg
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: HC-SR501 PIR motion sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hc-sr501.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.mpja.com/download/31227sc.pdf" }

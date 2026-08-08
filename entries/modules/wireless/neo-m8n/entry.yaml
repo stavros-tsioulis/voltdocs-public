@@ -34,11 +34,6 @@ highlights:
   - default_baud_rate
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: NEO-M8N GPS / GNSS module with antenna
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/neo-m8n.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf" }

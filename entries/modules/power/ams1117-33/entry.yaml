@@ -32,11 +32,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: AMS1117-3.3 LDO regulator in SOT-223 package and breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ams1117-33.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "http://www.advanced-monolithic.com/pdf/ds1117.pdf" }

@@ -32,11 +32,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: YF-S201 Hall-effect 1/2-inch water flow sensor
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/yf-s201.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.adafruit.com/datasheets/828_spec.pdf" }

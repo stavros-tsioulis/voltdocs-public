@@ -35,11 +35,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: SGP30 air quality sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sgp30.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://sensirion.com/media/documents/98B4424A/61976077/Sensirion_Gas_Sensors_Datasheet_SGP30.pdf" }

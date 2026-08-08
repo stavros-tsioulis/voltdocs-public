@@ -27,11 +27,6 @@ highlights:
   - operating_current_ma
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Capacitive soil moisture sensor v1.2 probe
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/capacitive-soil-moisture.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://wiki.dfrobot.com/Capacitive_Soil_Moisture_Sensor_SKU_SEN0193" }

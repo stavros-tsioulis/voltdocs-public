@@ -34,11 +34,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Silicon Labs SI1145 UV index and optical light sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/si1145.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.silabs.com/documents/public/data-sheets/Si1145-46-47.pdf" }

@@ -31,11 +31,6 @@ highlights:
   - output_logic
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: VS1838B IR receiver sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/vs1838b.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.vishay.com/docs/82459/tsop382.pdf" }

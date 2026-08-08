@@ -32,11 +32,6 @@ highlights:
   - sensitivity_mv_g
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: ADXL335 3-axis analog accelerometer breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/adxl335.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf" }

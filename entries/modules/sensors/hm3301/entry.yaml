@@ -35,11 +35,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Seeed Studio Grove HM3301 laser PM2.5 particle sensor
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hm3301.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://files.seeedstudio.com/wiki/Grove-Laser_PM2.5_Sensor-HM3301/res/HM3301_Datasheet.pdf" }

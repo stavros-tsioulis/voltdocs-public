@@ -31,11 +31,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: 1N4148 small-signal switching diode in DO-35 glass package with cathode band
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/1n4148.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.onsemi.com/download/data-sheet/pdf/1n914-d.pdf" }

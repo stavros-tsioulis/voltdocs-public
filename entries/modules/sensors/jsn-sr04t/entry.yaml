@@ -35,11 +35,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: JSN-SR04T waterproof ultrasonic distance sensor module and transducer probe
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/jsn-sr04t.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://drazzy.com/e/datasheets/JSN-SR04T.pdf" }

@@ -34,11 +34,6 @@ highlights:
   - trigger_pulse_min_us
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: HC-SR04 ultrasonic distance sensor
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hc-sr04.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.sparkfun.com/datasheets/Sensors/Proximity/HC-SR04.pdf" }

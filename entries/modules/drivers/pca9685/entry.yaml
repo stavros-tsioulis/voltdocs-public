@@ -32,11 +32,6 @@ highlights:
   - i2c_address_base_hex
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: PCA9685 16-channel PWM servo driver board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pca9685.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf" }

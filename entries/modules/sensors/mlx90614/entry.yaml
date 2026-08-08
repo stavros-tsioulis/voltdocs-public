@@ -35,11 +35,6 @@ highlights:
   - smbus_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MLX90614 non-contact IR temperature sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mlx90614.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf" }

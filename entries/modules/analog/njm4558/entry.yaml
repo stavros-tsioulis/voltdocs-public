@@ -35,11 +35,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: NJM4558 / JRC4558 dual operational amplifier IC in 8-pin DIP package
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/njm4558.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/NJM4558_E.pdf" }

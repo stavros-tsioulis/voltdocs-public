@@ -33,11 +33,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: AS3935 Franklin lightning sensor breakout module with 500kHz inductor coil
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/as3935.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://ams.com/documents/20143/36005/AS3935_DS000339_5-00.pdf" }

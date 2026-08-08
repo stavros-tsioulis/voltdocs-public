@@ -33,11 +33,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: ON Semiconductor 2N7000 N-channel small-signal MOSFET in TO-92 package
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/2n7000.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/2n7000-d.pdf" }

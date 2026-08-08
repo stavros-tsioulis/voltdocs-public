@@ -29,11 +29,6 @@ highlights:
   - i2c_address_base_hex
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MCP23017 I2C GPIO expander IC
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mcp23017.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" }

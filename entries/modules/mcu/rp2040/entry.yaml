@@ -33,11 +33,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Raspberry Pi RP2040 dual-core ARM Cortex-M0+ microcontroller IC
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/rp2040.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf" }

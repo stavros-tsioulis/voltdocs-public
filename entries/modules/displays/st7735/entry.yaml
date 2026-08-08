@@ -32,11 +32,6 @@ highlights:
   - colors_supported
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: ST7735 1.8-inch TFT LCD display module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/st7735.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.displayfuture.com/Display/datasheet/controller/ST7735.pdf" }

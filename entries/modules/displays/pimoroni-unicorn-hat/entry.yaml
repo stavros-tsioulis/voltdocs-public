@@ -34,11 +34,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Pimoroni Unicorn HAT 8x8 RGB LED matrix mounted on Raspberry Pi
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pimoroni-unicorn-hat.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://pinout.xyz/pinout/unicorn_hat" }

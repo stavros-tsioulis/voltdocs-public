@@ -36,11 +36,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: DFRobot SEN0244 analog TDS water quality sensor board and probe
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sen0244.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://wiki.dfrobot.com/Gravity__Analog_TDS_Sensor___Meter_For_Arduino_SKU__SEN0244" }

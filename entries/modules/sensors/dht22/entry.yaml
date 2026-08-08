@@ -35,11 +35,6 @@ highlights:
   - sampling_period_s
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: DHT22 (AM2302) sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/dht22.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf" }

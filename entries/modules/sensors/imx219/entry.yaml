@@ -33,11 +33,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Raspberry Pi Camera Module v2 featuring Sony IMX219 sensor
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/imx219.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://github.com/raspberrypi/documentation/raw/develop/documentation/asciidoc/computers/camera/IMX219.pdf" }

@@ -36,11 +36,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Sensirion SCD30 NDIR CO2 sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/scd30.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://sensirion.com/media/documents/4E043D21/616558A4/Sensirion_CO2_Sensors_SCD30_Datasheet.pdf" }

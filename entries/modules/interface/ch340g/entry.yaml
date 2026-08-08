@@ -31,11 +31,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: CH340G USB to UART bridge IC in SOP-16 package
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ch340g.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.wch-ic.com/downloads/CH340DS1_PDF.html" }

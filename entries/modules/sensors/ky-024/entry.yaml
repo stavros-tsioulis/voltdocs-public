@@ -28,11 +28,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: KY-024 linear Hall effect magnetic sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ky-024.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://sensorkit.joy-it.net/en/sensors/ky-024" }

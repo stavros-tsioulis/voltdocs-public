@@ -28,11 +28,6 @@ highlights:
   - wet_soil_voltage_v
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: YL-69 resistive soil moisture sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/yl69.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.sparkfun.com/products/13322" }

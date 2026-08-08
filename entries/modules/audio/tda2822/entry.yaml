@@ -29,11 +29,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: TDA2822M dual audio power amplifier IC in DIP-8 package and module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tda2822.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.st.com/resource/en/datasheet/tda2822.pdf" }

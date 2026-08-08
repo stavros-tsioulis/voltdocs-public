@@ -36,11 +36,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Sensirion SPS30 optical particulate matter sensor
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sps30.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://sensirion.com/media/documents/8600E58/616542A5/Sensirion_Dust_Sensors_SPS30_Datasheet.pdf" }

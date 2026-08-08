@@ -35,11 +35,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: OV2640 camera module on ESP32-CAM development board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ov2640.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.uctronics.com/download/Cam_Module/OV2640_DS.pdf" }

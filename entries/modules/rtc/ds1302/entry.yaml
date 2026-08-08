@@ -31,11 +31,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: DS1302 RTC module with CR2032 coin cell battery holder
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ds1302.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/DS1302.pdf" }

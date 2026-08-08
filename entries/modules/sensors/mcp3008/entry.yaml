@@ -32,11 +32,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MCP3008 10-bit 8-channel SPI ADC IC
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mcp3008.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" }

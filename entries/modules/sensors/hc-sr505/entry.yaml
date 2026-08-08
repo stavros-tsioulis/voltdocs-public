@@ -32,11 +32,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: HC-SR505 mini PIR motion sensor module with cylindrical lens
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hc-sr505.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.electroschematics.com/wp-content/uploads/2015/06/HC-SR505-Datasheet.pdf" }

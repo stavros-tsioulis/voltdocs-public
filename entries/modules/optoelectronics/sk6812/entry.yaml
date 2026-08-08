@@ -33,11 +33,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: SK6812 RGBW 5050 SMD addressable LED
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sk6812.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.opsco-led.com/upfile/201905/20190523100523_465.pdf" }

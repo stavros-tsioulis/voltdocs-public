@@ -29,11 +29,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: 1N4001 1A 50V silicon rectifier diode in axial DO-41 package with cathode silver band
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/1n4001.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/1n4001-d.pdf" }

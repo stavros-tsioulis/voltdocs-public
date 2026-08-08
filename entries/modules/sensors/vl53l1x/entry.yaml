@@ -40,11 +40,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: VL53L1X long-range time-of-flight distance sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/vl53l1x.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.st.com/resource/en/datasheet/vl53l1x.pdf" }

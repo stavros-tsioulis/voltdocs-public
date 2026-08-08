@@ -33,11 +33,6 @@ highlights:
   - spi_clock_max_mhz
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: ST7789 1.3-inch 240x240 IPS TFT LCD display module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/st7789.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.crystalfontz.com/controllers/Sitronix/ST7789V/320/" }

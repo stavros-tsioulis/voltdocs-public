@@ -30,11 +30,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: HLW8012 energy monitoring IC SOP-8 package and Sonoff POW PCB
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hlw8012.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://github.com/xoseperez/hlw8012/raw/master/docs/HLW8012_datasheet_en.pdf" }

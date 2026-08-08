@@ -34,11 +34,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: VEML7700 high-accuracy light sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/veml7700.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.vishay.com/docs/84286/veml7700.pdf" }

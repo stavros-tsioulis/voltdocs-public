@@ -33,11 +33,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: YHDC SCT-013-030 split-core current clamp sensor with 3.5mm jack
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sct-013-030.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.yhdc.com/files/2019/08/SCT013030.pdf" }

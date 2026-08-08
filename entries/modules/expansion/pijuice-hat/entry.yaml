@@ -34,11 +34,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: PiJuice HAT UPS with BP6X LiPo battery mounted on Raspberry Pi GPIO header
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pijuice-hat.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://github.com/PiSupply/PiJuice/raw/master/Hardware/PiJuice-HAT-V1.0-Schematic.pdf" }

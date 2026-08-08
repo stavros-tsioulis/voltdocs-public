@@ -33,11 +33,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: RDA5807M stereo FM radio receiver module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/rda5807.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.mikrocontroller.net/attachment/259160/RDA5807M_Datasheet_v1.1.pdf" }

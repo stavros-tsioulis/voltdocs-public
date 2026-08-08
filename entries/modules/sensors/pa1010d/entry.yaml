@@ -38,11 +38,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: PA1010D mini GPS STEMMA QT breakout module with patch antenna
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pa1010d.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://cdn-shop.adafruit.com/product-files/4415/PA1010D_Datasheet_v0.1.pdf" }

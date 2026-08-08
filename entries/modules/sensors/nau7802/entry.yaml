@@ -34,11 +34,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: NAU7802 24-bit load cell ADC Qwiic breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/nau7802.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.nuvoton.com/export/resource-files/NAU7802_Data_Sheet_EN_V1.7.pdf" }

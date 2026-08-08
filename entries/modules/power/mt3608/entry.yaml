@@ -33,11 +33,6 @@ highlights:
   - efficiency_pct
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MT3608 DC-DC step-up boost converter module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mt3608.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.components-store.com/datasheet/49-MT3608.pdf" }

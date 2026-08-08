@@ -32,11 +32,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: KY-026 flame sensor module with LM393 comparator
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ky-026.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://sensorkit.joy-it.net/en/sensors/ky-026" }

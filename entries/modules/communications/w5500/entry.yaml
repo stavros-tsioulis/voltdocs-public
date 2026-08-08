@@ -37,11 +37,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: W5500 Ethernet breakout module with RJ45 connector
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/w5500.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v109e.pdf" }

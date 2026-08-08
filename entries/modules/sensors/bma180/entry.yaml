@@ -34,11 +34,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: BMA180 3-axis accelerometer breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bma180.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.sparkfun.com/datasheets/Sensors/Accelerometers/BST-BMA180-DS000-03.pdf" }

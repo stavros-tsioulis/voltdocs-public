@@ -31,11 +31,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: IRF520 MOSFET driver module with screw terminal block
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/irf520-module.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.vishay.com/docs/91017/91017.pdf" }

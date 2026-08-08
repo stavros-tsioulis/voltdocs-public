@@ -35,11 +35,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: CCS811 indoor air quality gas sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/ccs811.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://ams.com/documents/20143/36005/CCS811_DS000459_7-00.pdf" }

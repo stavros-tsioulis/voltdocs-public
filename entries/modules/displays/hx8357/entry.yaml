@@ -35,11 +35,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: HX8357D 3.5-inch 320x480 TFT LCD display module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/hx8357.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://cdn-shop.adafruit.com/datasheets/HX8357-D_DS_v01.01.pdf" }

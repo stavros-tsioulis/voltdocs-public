@@ -31,11 +31,6 @@ highlights:
   - max_acoustic_input_db_spl
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: INMP441 I2S MEMS microphone breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/inmp441.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf" }

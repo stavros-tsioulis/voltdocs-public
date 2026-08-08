@@ -35,11 +35,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Espressif ESP8266EX Wi-Fi SoC IC and ESP-12F module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/esp8266ex.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf" }

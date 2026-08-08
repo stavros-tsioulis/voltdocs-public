@@ -34,11 +34,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: SHT31 temperature and humidity sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sht31.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://sensirion.com/media/documents/213E37BC/639414B8/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf" }

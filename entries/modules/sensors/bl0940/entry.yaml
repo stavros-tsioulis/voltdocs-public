@@ -30,11 +30,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: BL0940 power metering IC SSOP-10 package and smart plug PCB
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/bl0940.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.belling.com.cn/media/file_object/bel_product/BL0940/BL0940_V1.1_en.pdf" }

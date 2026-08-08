@@ -31,11 +31,6 @@ highlights:
   - default_baud_rate
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: SIM800L cellular module breakout board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/sim800l.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.simcom.com/product/SIM800L.html" }

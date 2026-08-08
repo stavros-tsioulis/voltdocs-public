@@ -37,11 +37,6 @@ highlights:
   - sram_bytes
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: ESP32-WROOM-32 development board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/esp32.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" }

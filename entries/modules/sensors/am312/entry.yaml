@@ -32,11 +32,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: AM312 ultra-miniature PIR motion sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/am312.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://nanyangsenba.com/upload/202104/1618471415.pdf" }

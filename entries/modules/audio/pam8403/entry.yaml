@@ -32,11 +32,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: PAM8403 3W+3W stereo class-D audio amplifier breakout board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pam8403.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.diodes.com/assets/Datasheets/PAM8403.pdf" }

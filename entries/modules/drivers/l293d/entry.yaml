@@ -29,11 +29,6 @@ highlights:
   - channels
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: L293D DIP-16 motor driver IC
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/l293d.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.ti.com/lit/ds/symlink/l293d.pdf" }

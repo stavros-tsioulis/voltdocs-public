@@ -33,11 +33,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Raspberry Pi High Quality Camera featuring Sony IMX477 sensor
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/imx477.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://datasheets.raspberrypi.com/camera/high-quality-camera-product-brief.pdf" }

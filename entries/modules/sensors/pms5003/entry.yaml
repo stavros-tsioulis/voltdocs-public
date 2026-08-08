@@ -33,11 +33,6 @@ highlights:
   - default_baud_rate
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Plantower PMS5003 laser PM2.5 dust sensor
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/pms5003.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.plantower.com/en/products_33.html" }

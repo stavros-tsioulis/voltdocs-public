@@ -37,11 +37,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MAX6675 K-type thermocouple converter breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/max6675.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX6675.pdf" }

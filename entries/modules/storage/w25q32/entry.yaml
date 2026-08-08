@@ -39,11 +39,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: W25Q32 32Mbit SPI NOR flash memory breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/w25q32.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.winbond.com/resource-files/w25q32jv%20spi%20revg%2003272018%20plus.pdf" }

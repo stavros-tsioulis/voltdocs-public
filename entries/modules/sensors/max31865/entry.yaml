@@ -38,11 +38,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MAX31865 PT100/PT1000 RTD amplifier breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/max31865.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf" }

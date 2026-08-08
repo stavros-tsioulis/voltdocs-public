@@ -32,11 +32,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: TP4056 1A LiPo/18650 battery charger module with USB-C and DW01A protection
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tp4056.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf" }

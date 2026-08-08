@@ -35,11 +35,6 @@ highlights:
   - sampling_period_s
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: DHT11 sensor module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/dht11.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.mouser.com/datasheet/2/758/DHT11-technical-data-sheet-translated-by-Aosong-3165345.pdf" }

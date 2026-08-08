@@ -37,11 +37,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Sensirion SCD40 / SCD41 CO2 sensor breakout board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/scd4x.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://sensirion.com/media/documents/E0D04250/61E9A4B7/Sensirion_CO2_Sensors_SCD4x_Datasheet.pdf" }

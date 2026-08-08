@@ -29,11 +29,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: Spectra Symbol 2.2-inch flex bend sensor
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/flex-sensor-22.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/FlexSensor.pdf" }

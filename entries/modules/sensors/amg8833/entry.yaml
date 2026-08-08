@@ -39,11 +39,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: AMG8833 Grid-EYE thermal camera breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/amg8833.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://industrial.panasonic.com/cdbs/www-data/pdf/AFA4000/AFA4000C108.pdf" }

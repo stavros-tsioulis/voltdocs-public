@@ -33,11 +33,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: APDS-9960 gesture proximity color sensor breakout module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/apds9960.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.broadcom.com/products/optical-sensors/integrated-ambient-light-and-proximity-sensors/apds-9960" }

@@ -33,11 +33,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: MPU9250 9-axis IMU breakout board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/mpu9250.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf" }

@@ -35,11 +35,6 @@ highlights:
   - i2c_address_default
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: LM75A digital temperature sensor breakout board
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/lm75a.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/LM75A.pdf" }

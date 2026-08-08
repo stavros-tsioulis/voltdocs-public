@@ -28,11 +28,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: APA102 DotStar addressable RGB LED strip
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/apa102.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://cdn-shop.adafruit.com/datasheets/APA102.pdf" }

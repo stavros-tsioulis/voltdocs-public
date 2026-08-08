@@ -29,11 +29,6 @@ highlights:
   - interfaces
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: TM1637 4-digit 7-segment display module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/tm1637.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.mouser.com/datasheet/2/758/TM1637_V2.4_EN-3185329.pdf" }

@@ -32,11 +32,6 @@ highlights:
   - receiver_sensitivity_dbm
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: RFM95W LoRa transceiver module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/rfm95w.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.hoperf.com/data/upload/portal/20190306/RFM95W-V2.0.pdf" }

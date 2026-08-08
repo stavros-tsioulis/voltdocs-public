@@ -32,11 +32,6 @@ highlights:
   - wifi_standard
 body: index.md
 assets:
-  - id: photo
-    kind: image
-    title: ESP8266 ESP-12F NodeMCU module
-    mimeType: image/webp
-    location: { type: external, url: https://cdn-m.voltdocs.dev/voltdocs/esp8266.256.webp }
   - id: datasheet
     kind: datasheet
     location: { type: external, url: "https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf" }
