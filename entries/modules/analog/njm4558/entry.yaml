@@ -2,7 +2,7 @@ id: analog.opamp.njm4558
 revision: "1.0"
 title: NJM4558 — Dual High-Gain Operational Amplifier
 category: analog/opamp
-tags: [njm4558, jrc4558, 4558, op-amp, operational-amplifier, dual, audio, tube-screamer, guitar-pedal, njr, dip-8]
+tags: [njm4558, jrc4558, "4558", op-amp, operational-amplifier, dual, audio, tube-screamer, guitar-pedal, njr, dip-8]
 status: published
 summary: >-
   New Japan Radio high-performance dual operational amplifier pin-compatible with MC1458/LM358, famous for its smooth clipping tone in legendary audio circuits like the Ibanez Tube Screamer overdrive pedal.

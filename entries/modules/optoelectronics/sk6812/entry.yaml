@@ -2,7 +2,7 @@ id: opto.led.sk6812
 revision: "1.0"
 title: SK6812 — Smart Integrated Control RGB / RGBW LED Light Source
 category: optoelectronics/leds
-tags: [sk6812, sk6812rgbw, led, rgb, rgbw, addressable, opsco, neopixel, nrz, 5050]
+tags: [sk6812, sk6812rgbw, led, rgb, rgbw, addressable, opsco, neopixel, nrz, "5050"]
 status: published
 summary: >-
   Opsco Optoelectronics smart individually addressable 5050 SMD LED with integrated control driver supporting 24-bit RGB or 32-bit RGBW color channels, WS2812B-compatible 800 kbps single-wire NRZ timing, and built-in signal reshaping.

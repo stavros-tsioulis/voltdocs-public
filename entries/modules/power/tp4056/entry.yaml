@@ -2,7 +2,7 @@ id: power.charger.tp4056
 revision: "1.0"
 title: TP4056 — 1A Standalone Linear Li-Ion / LiPo Battery Charger IC
 category: power/charger
-tags: [tp4056, battery-charger, lipo, li-ion, 18650, linear, 1a, micro-usb, usb-c, top-power, module]
+tags: [tp4056, battery-charger, lipo, li-ion, "18650", linear, 1a, micro-usb, usb-c, top-power, module]
 status: published
 summary: >-
   NanJing Top Power complete constant-current/constant-voltage (CC/CV) 1A linear charger IC for single-cell 3.7V Lithium-Ion and LiPo batteries with automatic recharge and dual status LEDs.

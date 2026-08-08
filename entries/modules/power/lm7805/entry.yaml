@@ -2,7 +2,7 @@ id: power.regulator.lm7805
 revision: "1.0"
 title: LM7805 — Fixed +5V 1.5A Positive Linear Voltage Regulator
 category: power/regulator
-tags: [lm7805, l7805cv, 7805, voltage-regulator, linear, 5v, power, to-220, ti, stmicroelectronics, onsemi]
+tags: [lm7805, l7805cv, "7805", voltage-regulator, linear, 5v, power, to-220, ti, stmicroelectronics, onsemi]
 status: published
 summary: >-
   STMicroelectronics / Texas Instruments / ON Semiconductor iconic 3-terminal fixed +5.0V positive linear voltage regulator delivering over 1.5A output current from inputs up to 35V DC.

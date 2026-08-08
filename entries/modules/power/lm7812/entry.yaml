@@ -2,7 +2,7 @@ id: power.regulator.lm7812
 revision: "1.0"
 title: LM7812 — Fixed +12V 1.5A Positive Linear Voltage Regulator
 category: power/regulator
-tags: [lm7812, l7812cv, 7812, voltage-regulator, linear, 12v, power, to-220, stmicroelectronics, ti, onsemi]
+tags: [lm7812, l7812cv, "7812", voltage-regulator, linear, 12v, power, to-220, stmicroelectronics, ti, onsemi]
 status: published
 summary: >-
   STMicroelectronics / Texas Instruments 3-terminal fixed +12.0V positive linear voltage regulator delivering over 1.5A output current from input voltages up to 35V DC with internal thermal overload and short-circuit protection.

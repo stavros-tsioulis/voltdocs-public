@@ -2,7 +2,7 @@ id: timing.timer.ne555
 revision: "1.0"
 title: NE555 — Precision Timer IC
 category: timing/timer
-tags: [ne555, lm555, 555, timer, astable, monostable, oscillator, pwm, texas-instruments, dip-8]
+tags: [ne555, lm555, "555", timer, astable, monostable, oscillator, pwm, texas-instruments, dip-8]
 status: published
 summary: >-
   Texas Instruments industry-standard precision timer producing accurate delays or oscillation in monostable or astable modes, with TTL-compatible output able to sink or source up to 200 mA.

@@ -2,7 +2,7 @@ id: timing.timer.ne556
 revision: "1.0"
 title: NE556 — Dual Precision CMOS/Bipolar Timer IC
 category: timing/timer
-tags: [ne556, lm556, 556, timer, dual-timer, astable, monostable, oscillator, pwm, texas-instruments, dip-14]
+tags: [ne556, lm556, "556", timer, dual-timer, astable, monostable, oscillator, pwm, texas-instruments, dip-14]
 status: published
 summary: >-
   Dual version of the industry-standard 555 timer IC in a 14-pin DIP package, containing two fully independent timing circuits capable of operating in astable, monostable, and PWM modes from 4.5V to 16V.
