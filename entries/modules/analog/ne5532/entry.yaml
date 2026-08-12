@@ -1,0 +1,43 @@
+id: analog.opamp.ne5532
+revision: "1.0"
+title: NE5532 — Low-Noise Dual Operational Amplifier
+category: analog/opamp
+tags: [ne5532, ne5532p, op-amp, operational-amplifier, low-noise, audio, preamp, mixer, texas-instruments, dip-8]
+status: published
+summary: >-
+  Texas Instruments iconic dual high-performance operational amplifier featuring ultra-low input noise voltage (5 nV/√Hz), 10 MHz unity-gain bandwidth, and high output drive capability for professional audio preamps and mixers.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / NXP
+  ic_part_numbers: [NE5532, NE5532P, NE5532D, SA5532]
+  package: 8-pin DIP / SOIC-8
+  opamp_channels: 2 (Dual Op-Amp)
+  supply_voltage_single_v_min: 6.0
+  supply_voltage_single_v_max: 40.0
+  supply_voltage_split_v_min: 3.0
+  supply_voltage_split_v_max: 20.0
+  gain_bandwidth_product_mhz: 10.0
+  slew_rate_v_us: 9.0
+  equivalent_input_noise_nv_hz: 5.0
+  input_bias_current_na: 200.0
+  input_offset_voltage_mv: 0.5
+  quiescent_current_ma: 8.0
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Dual Op-Amp Analog Terminals]
+highlights:
+  - opamp_channels
+  - supply_voltage_split_v_min
+  - supply_voltage_split_v_max
+  - gain_bandwidth_product_mhz
+  - slew_rate_v_us
+  - equivalent_input_noise_nv_hz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/ne5532.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/NE5532" }

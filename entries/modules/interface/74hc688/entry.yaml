@@ -1,0 +1,35 @@
+id: interface.comparator.74hc688
+revision: "1.0"
+title: 74HC688 — 8-Bit Magnitude / Identity Comparator
+category: interface/comparator
+tags: [74hc688, sn74hc688, comparator, 8-bit, magnitude-comparator, identity-comparator, address-decoder, cmos, ti, dip-20]
+status: published
+summary: >-
+  High-speed CMOS 8-bit magnitude identity comparator IC comparing two 8-bit binary words (P and Q) and outputting active-low P=Q when identical.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC688, SN74HC688N, 74HC688D, 74HCT688]
+  package: 20-pin DIP / SOIC-20 / TSSOP-20
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  word_size_bits: 8
+  propagation_delay_ns: 17
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [8-Bit Word P (P0-P7), 8-Bit Word Q (Q0-Q7), Enable G, Output P=Q]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - word_size_bits
+  - propagation_delay_ns
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc688.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC688" }

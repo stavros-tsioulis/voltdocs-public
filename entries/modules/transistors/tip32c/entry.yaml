@@ -1,0 +1,41 @@
+id: transistor.bjt.tip32c
+revision: "1.0"
+title: TIP32C — PNP Power Bipolar Junction Transistor
+category: transistors/bjt
+tags: [tip32c, tip32, bjt, pnp, power-transistor, "-100v", "-3a", to-220, stmicroelectronics, onsemi, audio, amplifier, switching]
+status: published
+summary: >-
+  STMicroelectronics / ON Semiconductor -100V, -3A PNP power BJT in TO-220 package, complementary to TIP31C for linear power supplies, audio power amplifiers, and high-side load switching.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [TIP32C, TIP32C-G]
+  package: TO-220AB
+  transistor_type: PNP Power BJT
+  collector_emitter_voltage_vceo_v: -100
+  collector_base_voltage_vcbo_v: -100
+  emitter_base_voltage_vebo_v: -5.0
+  continuous_collector_current_ic_a: -3.0
+  pulsed_collector_current_ic_a: -5.0
+  dc_current_gain_hfe: 25 to 50 (at IC = -1A)
+  transition_frequency_ft_mhz: 3.0
+  collector_saturation_voltage_vce_sat_v: -1.2
+  total_power_dissipation_w: 40.0
+  operating_temp_min_c: -65
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base BJT Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_a
+  - dc_current_gain_hfe
+  - collector_saturation_voltage_vce_sat_v
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/tip32c.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-transistors/tip32c.html" }

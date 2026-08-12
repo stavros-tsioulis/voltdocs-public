@@ -1,0 +1,41 @@
+id: transistor.bjt.bc337
+revision: "1.0"
+title: BC337 — NPN General Purpose Bipolar Junction Transistor
+category: transistors/bjt
+tags: [bc337, bc337-40, bc337-25, bjt, npn, transistor, "45v", "800ma", to-92, onsemi, nexperia, driver, switching]
+status: published
+summary: >-
+  ON Semiconductor / Nexperia general-purpose NPN silicon BJT in TO-92 package featuring high 800mA collector current rating for driving relay coils, small motors, and LEDs.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: ON Semiconductor / Nexperia / STMicroelectronics
+  ic_part_numbers: [BC337, BC337-16, BC337-25, BC337-40]
+  package: TO-92
+  transistor_type: NPN BJT
+  collector_emitter_voltage_vceo_v: 45
+  collector_base_voltage_vcbo_v: 50
+  emitter_base_voltage_vebo_v: 5.0
+  continuous_collector_current_ic_ma: 800
+  pulsed_collector_current_ic_ma: 1000
+  dc_current_gain_hfe: "100 to 630 (Rank -40: 250-630)"
+  transition_frequency_ft_mhz: 100.0
+  collector_saturation_voltage_vce_sat_mv: 700
+  total_power_dissipation_mw: 625
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base BJT Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe
+  - transition_frequency_ft_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/bc337-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discretes-drivers/bipolar-transistors/bc337" }

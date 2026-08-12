@@ -1,0 +1,36 @@
+id: interface.mux.cd4053
+revision: "1.0"
+title: CD4053 — Triple 2-Channel Analog Multiplexer / Demultiplexer
+category: interface/mux
+tags: [cd4053, cd4053b, hef4053b, 74hc4053, multiplexer, demultiplexer, analog-switch, triple-2-channel, spdt, ti, dip-16]
+status: published
+summary: >-
+  Texas Instruments triple 2-channel (SPDT) analog multiplexer/demultiplexer IC independently routing 3 separate analog/audio channels using binary control inputs.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4053, CD4053B, HEF4053B, 74HC4053]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  mux_channels: Triple 2-Channel (3x SPDT Switches)
+  on_state_resistance_ohm: 125
+  bandwidth_mhz: 60.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [3x Independent SPDT Analog Switched Terminals (a0/a1, b0/b1, c0/c1), Common Terminals a, b, c, Select Inputs A, B, C, Inhibit INH]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - mux_channels
+  - on_state_resistance_ohm
+  - bandwidth_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4053b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4053B" }

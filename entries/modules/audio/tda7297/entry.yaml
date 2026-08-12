@@ -1,0 +1,39 @@
+id: audio.amplifier.tda7297
+revision: "1.0"
+title: TDA7297 — 15W + 15W Dual Bridge Audio Power Amplifier
+category: audio/amplifier
+tags: [tda7297, tda7297v, audio, amplifier, stereo, btl, dual-bridge, speaker-amp, stmicroelectronics, multiwatt-15]
+status: published
+summary: >-
+  STMicroelectronics 15W+15W dual BTL class-AB stereo audio power amplifier IC with built-in mute and standby functions for 12V speaker systems.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [TDA7297, TDA7297V]
+  package: Multiwatt-15 (15-pin Vertical Power Package) / Stereo Amp Module
+  audio_type: Dual Bridge-Tied Load (BTL) Audio Amplifier
+  supply_voltage_min_v: 6.0
+  supply_voltage_max_v: 18.0
+  output_power_w_per_channel: 15
+  load_impedance_ohm: 8
+  thd_pct: 0.1
+  snr_db: 90
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Dual Stereo Audio IN (IN1, IN2), BTL Speaker Outputs (OUT1+, OUT1-, OUT2+, OUT2-), MUTE, ST-BY]
+highlights:
+  - audio_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_power_w_per_channel
+  - load_impedance_ohm
+  - thd_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/tda7297.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/audio-ics/tda7297.html" }

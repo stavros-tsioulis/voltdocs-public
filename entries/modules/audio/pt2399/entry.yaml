@@ -1,0 +1,41 @@
+id: audio.processor.pt2399
+revision: "1.0"
+title: PT2399 — CMOS Digital Audio Echo / Delay Processor
+category: audio/processor
+tags: [pt2399, audio, echo, delay, reverb, dsp, audio-processor, guitar-pedal, karaoke, dip-16]
+status: published
+summary: >-
+  Princeton Technology CMOS digital audio delay processor IC with 44K-bit SRAM, integrated ADC/DAC, and adjustable delay time (30ms to 340ms) for guitar effect pedals and karaoke systems.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Princeton Technology Corp.
+  ic_part_numbers: [PT2399, PT2399-S, PT2399-P]
+  package: 16-pin DIP / SOIC-16
+  audio_type: Digital Echo / Delay Audio Processor
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  delay_time_ms_min: 31.2
+  delay_time_ms_max: 342.0
+  sram_memory_bits: 44000
+  thd_pct: 0.4
+  snr_db: 90
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Analog Audio IN/OUT, Delay Time Control VCO, Filter OP Amps]
+highlights:
+  - audio_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - delay_time_ms_min
+  - delay_time_ms_max
+  - thd_pct
+  - snr_db
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.princeton.com.tw/Portals/0/Product/PT2399_v1.7.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.princeton.com.tw" }

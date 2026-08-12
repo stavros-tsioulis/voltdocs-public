@@ -1,0 +1,37 @@
+id: analog.opamp.lm747
+revision: "1.0"
+title: LM747 — Dual General-Purpose Operational Amplifier (Dual 741)
+category: analog/opamp
+tags: [lm747, lm747n, lm747j, op-amp, dual-741, general-purpose, vintage-analog, offset-null, ti, fairchild, dip-14]
+status: published
+summary: >-
+  Texas Instruments / Fairchild vintage dual general-purpose operational amplifier featuring two independent 741-type op-amps in a 14-pin DIP package with offset null pins.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / Fairchild / National Semiconductor
+  ic_part_numbers: [LM747, LM747N, LM747C, LM747J, uA747]
+  package: 14-pin PDIP / CDIP-14
+  opamp_channels: 2
+  supply_voltage_v_min: 6.0
+  supply_voltage_v_max: 36.0
+  gain_bandwidth_mhz: 1.0
+  slew_rate_v_us: 0.5
+  quiescent_current_ma: 3.4
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Dual Op-Amp Terminals (1IN+, 1IN-, 1OUT, 2IN+, 2IN-, 2OUT), Dual Offset Null Pins]
+highlights:
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - quiescent_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm747.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM747" }

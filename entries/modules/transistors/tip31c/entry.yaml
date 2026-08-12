@@ -1,0 +1,41 @@
+id: transistor.bjt.tip31c
+revision: "1.0"
+title: TIP31C — NPN Power Bipolar Junction Transistor
+category: transistors/bjt
+tags: [tip31c, tip31, bjt, npn, power-transistor, "100v", "3a", to-220, stmicroelectronics, onsemi, audio, amplifier, switching]
+status: published
+summary: >-
+  STMicroelectronics / ON Semiconductor 100V, 3A NPN power BJT in TO-220 package, widely used in linear power supplies, audio power amplifiers, and medium-power DC load switching.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [TIP31C, TIP31C-G]
+  package: TO-220AB
+  transistor_type: NPN Power BJT
+  collector_emitter_voltage_vceo_v: 100
+  collector_base_voltage_vcbo_v: 100
+  emitter_base_voltage_vebo_v: 5.0
+  continuous_collector_current_ic_a: 3.0
+  pulsed_collector_current_ic_a: 5.0
+  dc_current_gain_hfe: 25 to 50 (at IC = 1A)
+  transition_frequency_ft_mhz: 3.0
+  collector_saturation_voltage_vce_sat_v: 1.2
+  total_power_dissipation_w: 40.0
+  operating_temp_min_c: -65
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base BJT Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_a
+  - dc_current_gain_hfe
+  - collector_saturation_voltage_vce_sat_v
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/tip31c.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-transistors/tip31c.html" }

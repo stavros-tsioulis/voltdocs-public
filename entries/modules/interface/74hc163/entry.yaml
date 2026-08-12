@@ -1,0 +1,38 @@
+id: interface.counter.74hc163
+revision: "1.0"
+title: 74HC163 — Synchronous Presettable 4-Bit Binary Counter
+category: interface/counter
+tags: ["74hc163", sn74hc163, counter, binary-counter, 4-bit, synchronous, cmos, texas-instruments, nexperia, dip-16]
+status: published
+summary: >-
+  High-speed CMOS 4-bit synchronous binary up counter IC featuring synchronous parallel load, synchronous clear, and ripple carry output for cascading.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC163, SN74HC163N, 74HC163D, 74HCT163]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: High-Speed CMOS (74HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  counter_bits: 4
+  counting_mode: Synchronous Binary Up Counter
+  clock_frequency_mhz: 40.0
+  propagation_delay_ns: 18
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Clock Input CLK, 4-Bit Parallel Inputs A-D, Synchronous Clear /CLR, Synchronous Load /LOAD, Enable Inputs ENP & ENT, 4-Bit Outputs QA-QD, Ripple Carry Output RCO]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - counter_bits
+  - counting_mode
+  - clock_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc163.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC163" }

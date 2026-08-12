@@ -1,0 +1,42 @@
+id: power.buck-boost.ltc3440
+revision: "1.0"
+title: LTC3440 — 600mA Synchronous Buck-Boost DC-DC Converter
+category: power/buck-boost
+tags: [ltc3440, ltc3440ems8, analog-devices, linear-technology, buck-boost, step-up-step-down, regulator, power, 600ma, msop-8]
+status: published
+summary: >-
+  Analog Devices 600mA high-efficiency synchronous buck-boost DC-DC converter regulating output voltage above, below, or equal to input voltage.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Analog Devices / Linear Technology
+  ic_part_numbers: [LTC3440, LTC3440EMS8, LTC3440EDD]
+  package: MSOP-8 / 10-Lead DFN
+  regulator_type: Synchronous Buck-Boost DC-DC Converter
+  input_voltage_v_min: 2.5
+  input_voltage_v_max: 5.5
+  output_voltage_v_min: 2.5
+  output_voltage_v_max: 5.5
+  output_current_a_max: 0.6
+  switching_frequency_khz: 2000
+  efficiency_pct: 90 - 96
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [DC Input, DC Output, Dual Switch Nodes SW1 & SW2]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/3440fd.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/ltc3440.html" }

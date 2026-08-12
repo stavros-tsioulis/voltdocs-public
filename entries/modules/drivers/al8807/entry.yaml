@@ -1,0 +1,39 @@
+id: driver.led.al8807
+revision: "1.0"
+title: AL8807 — 30V 1A Step-Down Buck Constant-Current LED Driver
+category: drivers/led
+tags: [al8807, al8807mp-13, al8807w5-7, diodes-inc, led-driver, buck-led, constant-current, 30v, 1a, sot-25, msop-8]
+status: published
+summary: >-
+  Diodes Incorporated 30V 1A step-down buck constant-current LED driver IC with 1.0MHz switching frequency, PWM/analog dimming, and 96% efficiency.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Diodes Incorporated
+  ic_part_numbers: [AL8807, AL8807MP-13, AL8807W5-7]
+  package: SOT-25 (SOT-23-5) / MSOP-8EP
+  supply_voltage_min_v: 6.0
+  supply_voltage_max_v: 30.0
+  output_current_max_a: 1.0
+  switching_frequency_mhz: 1.0
+  current_accuracy_pct: 5
+  efficiency_pct: 96
+  dimming_support: PWM Dimming & DC Analog Dimming via CTRL Pin
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Supply Input VIN, Switch Output SW, Current Sense Input SET, Control/Dimming Pin CTRL]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_current_max_a
+  - switching_frequency_mhz
+  - efficiency_pct
+  - dimming_support
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.diodes.com/assets/Datasheets/AL8807.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.diodes.com/products/power-management/led-drivers/low-voltage-dc-dc-led-drivers/part/AL8807" }

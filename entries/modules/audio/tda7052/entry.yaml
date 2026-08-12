@@ -1,0 +1,38 @@
+id: audio.amplifier.tda7052
+revision: "1.0"
+title: TDA7052 — 1W Mono BTL Audio Power Amplifier
+category: audio/amplifier
+tags: [tda7052, tda7052a, audio-amplifier, power-amplifier, 1w, btl, mono-amplifier, battery-powered, nxp, dip-8]
+status: published
+summary: >-
+  NXP Semiconductors (Philips) 1W mono Bridge-Tied Load (BTL) audio power amplifier IC operating from 3V to 18V DC without needing output coupling capacitors.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: NXP Semiconductors / Philips
+  ic_part_numbers: [TDA7052, TDA7052A, TDA7052AT]
+  package: 8-pin DIP / SOIC-8
+  supply_voltage_single_v_min: 3.0
+  supply_voltage_single_v_max: 18.0
+  output_power_rms_w: 1.2
+  load_impedance_ohm: 8
+  voltage_gain_db: 39
+  quiescent_current_ma: 4.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Single Signal Input IN+, Differential BTL Speaker Outputs OUT1 and OUT2]
+highlights:
+  - supply_voltage_single_v_min
+  - supply_voltage_single_v_max
+  - output_power_rms_w
+  - load_impedance_ohm
+  - voltage_gain_db
+  - quiescent_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/TDA7052.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nxp.com/products/audio/audio-amplifiers/1w-mono-btl-audio-amplifier:TDA7052" }

@@ -1,0 +1,43 @@
+id: mcu.avr.atmega32u4
+revision: "1.0"
+title: ATmega32U4 — 8-Bit AVR Microcontroller with USB 2.0
+category: mcu/avr
+tags: [atmega32u4, avr, microchip, atmel, arduino, leonardo, pro-micro, usb, qmk, "8-bit", "16mhz", qfn-44, tqfp-44]
+status: published
+summary: >-
+  Microchip (Atmel) 8-bit AVR RISC microcontroller featuring full-speed USB 2.0 controller, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, and 12-channel ADC, powering Arduino Leonardo, Pro Micro, and custom mechanical keyboards.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Microchip Technology / Atmel
+  ic_part_numbers: [ATmega32U4, ATmega32U4-AU, ATmega32U4-MU]
+  package: 44-pin TQFP / 44-pin QFN / Arduino Leonardo / Pro Micro Board
+  core: 8-bit AVR RISC
+  max_clock_speed_mhz: 16
+  flash_memory_kb: 32 (4KB reserved for DFU/Caterina bootloader)
+  sram_memory_kb: 2.5
+  eeprom_memory_kb: 1
+  operating_voltage_min_v: 2.7
+  operating_voltage_max_v: 5.5
+  gpio_count: 26
+  pwm_channels: 7
+  adc_channels: 12 (10-bit resolution)
+  interfaces: [USB 2.0 Full-Speed Device, UART, SPI, I2C/TWI, JTAG]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_kb
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/ATmega32U4" }

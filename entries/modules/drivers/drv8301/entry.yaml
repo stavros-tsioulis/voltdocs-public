@@ -1,0 +1,38 @@
+id: driver.motor.drv8301
+revision: "1.0"
+title: DRV8301 — 3-Phase BLDC Gate Driver with Buck Regulator
+category: drivers/motor
+tags: [drv8301, drv8301dcar, texas-instruments, bldc, gate-driver, 3-phase, vesc, electric-skateboard, spi, current-shunt-amp]
+status: published
+summary: >-
+  Texas Instruments 60V 3-phase brushless DC gate driver featuring 1.7A/2.3A peak drive current, dual programmable current-shunt amplifiers, 1.5A buck regulator, and SPI interface.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [DRV8301, DRV8301DCAR]
+  package: 56-pin HTSSOP (PowerPAD)
+  supply_voltage_min_v: 6.0
+  supply_voltage_max_v: 60.0
+  gate_drive_current_source_a: 1.7
+  gate_drive_current_sink_a: 2.3
+  integrated_buck_regulator_output_a: 1.5
+  current_shunt_amplifiers_count: 2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [3-Phase Half-Bridge Gate Drivers (6x PWM Inputs), 4-Wire SPI (SDI, SDO, SCLK, SCS), 2x Differential Current Sense Outputs (SO1, SO2)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - gate_drive_current_source_a
+  - gate_drive_current_sink_a
+  - integrated_buck_regulator_output_a
+  - current_shunt_amplifiers_count
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/drv8301.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/DRV8301" }

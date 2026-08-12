@@ -1,0 +1,39 @@
+id: interface.opto.pc817
+revision: "1.0"
+title: PC817 — General Purpose 4-Pin Photocoupler / Optocoupler
+category: interface/opto
+tags: [pc817, pc817x, optocoupler, photocoupler, isolator, galvanic-isolation, "5000vrms", "80v", sharp, dip-4]
+status: published
+summary: >-
+  Sharp Microelectronics / Lite-On 4-pin DIP photocoupler featuring 5000V RMS galvanic isolation, 80V VCEO phototransistor, and 50% to 600% CTR for noise isolation and micro-to-mains feedback.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Sharp Microelectronics / LITE-ON / Everlight
+  ic_part_numbers: [PC817, PC817X, PC81710NSZ0F, LTV-817]
+  package: 4-pin DIP / 4-pin SMD
+  isolation_voltage_vrms: 5000
+  collector_emitter_voltage_vceo_v: 80
+  emitter_collector_voltage_veco_v: 6.0
+  forward_current_if_ma: 50
+  collector_current_ic_ma: 50
+  current_transfer_ratio_ctr_pct: "50 to 600 (Rank B: 130-260%, Rank C: 200-400%)"
+  rise_time_us: 4.0
+  fall_time_us: 3.0
+  operating_temp_min_c: -30
+  operating_temp_max_c: 100
+  interfaces: [Infrared LED Input to NPN Phototransistor Output]
+highlights:
+  - isolation_voltage_vrms
+  - collector_emitter_voltage_vceo_v
+  - forward_current_if_ma
+  - collector_current_ic_ma
+  - current_transfer_ratio_ctr_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://sharp-world.com/products/device/lineup/data/pdf/datasheet/pc817x_e.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://global.sharp/products/device/lineup/selection/opto/photocoupler/" }

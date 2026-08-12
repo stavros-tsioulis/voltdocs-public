@@ -1,0 +1,38 @@
+id: power.converter.icl7660
+revision: "1.0"
+title: ICL7660 — CMOS Switched-Capacitor Voltage Converter
+category: power/converter
+tags: [icl7660, icl7660cba, tc7660, charge-pump, voltage-inverter, voltage-doubler, negative-rail, renesas, intersil, dip-8]
+status: published
+summary: >-
+  Renesas/Intersil CMOS switched-capacitor charge pump voltage converter IC generating negative supply rails (-VIN) or voltage doubling (2xVIN) without inductors.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Renesas (Intersil) / Microchip / Texas Instruments
+  ic_part_numbers: [ICL7660, ICL7660CBA, ICL7660CPA, TC7660, ICL7660A]
+  package: 8-pin PDIP / SOIC-8
+  converter_type: Switched-Capacitor Charge Pump Voltage Inverter / Doubler
+  supply_voltage_min_v: 1.5
+  supply_voltage_max_v: 10.0
+  output_current_ma_max: 20
+  switching_frequency_khz: 10
+  efficiency_pct: 99.9
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [DC Input, Inverted Output VOUT, Charge Pump Caps CAP+ & CAP-]
+highlights:
+  - converter_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_current_ma_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.renesas.com/en/document/dst/icl7660-icl7660a-datasheet" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.renesas.com/en/products/power-management/boost-buck-boost-converters/charge-pumps/icl7660-cmos-switched-capacitor-voltage-converter" }

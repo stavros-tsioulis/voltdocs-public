@@ -1,0 +1,38 @@
+id: driver.led.hv9911
+revision: "1.0"
+title: HV9911 — High-Power Switch-Mode LED Driver Controller
+category: drivers/led
+tags: [hv9911, hv9911ng-g, microchip, supertex, led-driver, controller, high-voltage, buck-boost, 250v, 1a-gate-drive, soic-16]
+status: published
+summary: >-
+  Microchip (Supertex) universal high-voltage switch-mode LED driver controller featuring closed-loop current control, 1A gate driver, and 9V-250V input voltage capability.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Microchip Technology (Supertex)
+  ic_part_numbers: [HV9911, HV9911NG-G]
+  package: 16-lead SOIC / 24-lead QFN
+  supply_voltage_min_v: 9.0
+  supply_voltage_max_v: 250.0
+  supported_topologies: [Buck, Boost, SEPIC, Buck-Boost]
+  gate_drive_current_a: 1.0
+  closed_loop_control: Closed-Loop Peak Current-Mode Control
+  dimming_support: Linear Analog Dimming & High-Contrast PWM Dimming
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [High-Voltage Input VIN, External MOSFET Gate Output GATE, Current Sense Input CS, Feedback Sense FDBK, PWM Dimming Input PWM, Analog Dimming Input LD]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - supported_topologies
+  - gate_drive_current_a
+  - closed_loop_control
+  - dimming_support
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/20005574A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/HV9911" }

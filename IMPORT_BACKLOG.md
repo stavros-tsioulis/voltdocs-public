@@ -307,129 +307,129 @@ Candidate parts for future import into `entries/`, ranked by how often they turn
 | `74HC02` | Logic Gate - NOR | TI/Nexperia | Tier 2 | Quad 2-input NOR, standard basic logic IC. | imported |
 | `CD4001` | Logic Gate - NOR | TI/ON Semi/Renesas | Tier 2 | Quad 2-input NOR, one of the most widely stocked CD4000 series parts in hobby kits. | imported |
 | `74HC32` | Logic Gate - OR | TI/Nexperia | Tier 2 | Quad 2-input OR, commonly stocked basic gate. | imported |
-| `74HC14` | Logic Gate - Schmitt Inverter | TI/Nexperia | Tier 2 | Hex Schmitt-trigger inverter appears twice; favorite for cleaning noisy sensor signals. |  |
-| `NE5532` | Low-noise Dual Op-amp | Texas Instruments | Tier 2 | Popular low-noise dual op-amp favored in DIY audio preamps/mixers, appears multiple times. |  |
-| `STM32F401CCU6` | MCU - ARM Cortex-M4 | STMicroelectronics | Tier 2 | Chip used in the 'Black Pill' board, popular for higher-performance hobbyist ARM builds. |  |
-| `nRF52832` | MCU - ARM Cortex-M4 BLE SoC | Nordic Semiconductor | Tier 2 | Popular bare BLE SoC used in custom hobbyist wearables/BLE gadgets. |  |
-| `ATmega2560` | MCU - AVR 8-bit | Microchip/Atmel | Tier 2 | High pin-count AVR used in Arduino Mega clones for I/O-heavy projects. |  |
-| `ATmega32U4` | MCU - AVR 8-bit with USB | Microchip/Atmel | Tier 2 | AVR with native USB used bare in Leonardo/Pro Micro clones and custom keyboard/HID builds. |  |
-| `RP2350` | MCU - Dual Cortex-M33/Hazard3 | Raspberry Pi | Tier 2 | Successor to RP2040 used bare in newer Pico 2-based designs. |  |
-| `PIC16F877A` | MCU - PIC 8-bit | Microchip | Tier 2 | Classic 40-pin PIC widely used in hobbyist/educational PIC projects. |  |
-| `ESP32-C3` | MCU - RISC-V Wi-Fi/BLE SoC | Espressif | Tier 2 | Low-cost single-core RISC-V Wi-Fi/BLE chip popular in newer budget IoT designs. |  |
-| `ESP32-S3-WROOM-1` | MCU Module - Wi-Fi/BLE SoC | Espressif | Tier 2 | Newer ESP32 variant with USB-OTG/AI acceleration, popular for custom camera/audio boards. |  |
-| `2N7002` | N-channel MOSFET, SOT-23 | Fairchild/ON Semi/Multi | Tier 2 | Extremely common small-signal SMD MOSFET for logic-level switching. |  |
-| `AO3400` | N-channel MOSFET, SOT-23 | Alpha & Omega Semi | Tier 2 | Very popular low-cost SMD MOSFET in hobbyist SMD assortment kits for load switching. |  |
-| `BSS138` | N-channel MOSFET, SOT-23 | ON Semi/Multi | Tier 2 | Ubiquitous in DIY logic-level shifter modules used with Arduino/I2C circuits. |  |
+| `74HC14` | Logic Gate - Schmitt Inverter | TI/Nexperia | Tier 2 | Hex Schmitt-trigger inverter appears twice; favorite for cleaning noisy sensor signals. | imported |
+| `NE5532` | Low-noise Dual Op-amp | Texas Instruments | Tier 2 | Popular low-noise dual op-amp favored in DIY audio preamps/mixers, appears multiple times. | imported |
+| `STM32F401CCU6` | MCU - ARM Cortex-M4 | STMicroelectronics | Tier 2 | Chip used in the 'Black Pill' board, popular for higher-performance hobbyist ARM builds. | imported |
+| `nRF52832` | MCU - ARM Cortex-M4 BLE SoC | Nordic Semiconductor | Tier 2 | Popular bare BLE SoC used in custom hobbyist wearables/BLE gadgets. | imported |
+| `ATmega2560` | MCU - AVR 8-bit | Microchip/Atmel | Tier 2 | High pin-count AVR used in Arduino Mega clones for I/O-heavy projects. | imported |
+| `ATmega32U4` | MCU - AVR 8-bit with USB | Microchip/Atmel | Tier 2 | AVR with native USB used bare in Leonardo/Pro Micro clones and custom keyboard/HID builds. | imported |
+| `RP2350` | MCU - Dual Cortex-M33/Hazard3 | Raspberry Pi | Tier 2 | Successor to RP2040 used bare in newer Pico 2-based designs. | imported |
+| `PIC16F877A` | MCU - PIC 8-bit | Microchip | Tier 2 | Classic 40-pin PIC widely used in hobbyist/educational PIC projects. | imported |
+| `ESP32-C3` | MCU - RISC-V Wi-Fi/BLE SoC | Espressif | Tier 2 | Low-cost single-core RISC-V Wi-Fi/BLE chip popular in newer budget IoT designs. | imported |
+| `ESP32-S3-WROOM-1` | MCU Module - Wi-Fi/BLE SoC | Espressif | Tier 2 | Newer ESP32 variant with USB-OTG/AI acceleration, popular for custom camera/audio boards. | imported |
+| `2N7002` | N-channel MOSFET, SOT-23 | Fairchild/ON Semi/Multi | Tier 2 | Extremely common small-signal SMD MOSFET for logic-level switching. | imported |
+| `AO3400` | N-channel MOSFET, SOT-23 | Alpha & Omega Semi | Tier 2 | Very popular low-cost SMD MOSFET in hobbyist SMD assortment kits for load switching. | imported |
+| `BSS138` | N-channel MOSFET, SOT-23 | ON Semi/Multi | Tier 2 | Ubiquitous in DIY logic-level shifter modules used with Arduino/I2C circuits. | imported |
  | `IRF520` | N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 2 | Extremely common in cheap Arduino MOSFET driver modules for motor/LED switching. | imported | 
-| `IRF540N` | N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 2 | Popular higher-current standard-level MOSFET for hobby power switching, appears multiple times. |  |
+| `IRF540N` | N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 2 | Popular higher-current standard-level MOSFET for hobby power switching, appears multiple times. | imported |
  | `BS170` | N-channel MOSFET, TO-92 | ON Semi/Multi | Tier 2 | Extremely common small-signal N-channel MOSFET for low-current switching, appears twice. | imported | 
-| `2SC1815` | NPN BJT, TO-92 | Toshiba (legacy) | Tier 2 | Classic Japanese general-purpose NPN, very common historically in audio/hobby projects. |  |
-| `BC337` | NPN BJT, TO-92 | Multi | Tier 2 | Merges BC337/BC337-40; general-purpose NPN with higher current rating than BC547, popular for driving small loads. |  |
+| `2SC1815` | NPN BJT, TO-92 | Toshiba (legacy) | Tier 2 | Classic Japanese general-purpose NPN, very common historically in audio/hobby projects. | imported |
+| `BC337` | NPN BJT, TO-92 | Multi | Tier 2 | Merges BC337/BC337-40; general-purpose NPN with higher current rating than BC547, popular for driving small loads. | imported |
  | `BC548` | NPN BJT, TO-92 | Multi | Tier 2 | Often the first transistor hobbyists encounter, widely available. | imported | 
  | `S8050` | NPN BJT, TO-92 | Multi (Chinese manufacturers) | Tier 2 | Extremely common cheap NPN in hobbyist kits and imported electronics. | imported | 
-| `TIP120` | NPN Darlington, TO-220 | ON Semi/STMicro | Tier 2 | Iconic Darlington used to drive motors/relays directly from MCU logic pins, appears multiple times, listed in 'best 4 transistors' kit essential. |  |
-| `TIP31C` | NPN Power BJT, TO-220 | ON Semi/STMicro | Tier 2 | Common power NPN transistor for switching/amplifier hobby projects, appears multiple times. |  |
-| `2N3055` | NPN Power BJT, TO-3 | ON Semi/Multi | Tier 2 | Legendary power transistor for class AB audio amplifiers/power supplies, appears twice. |  |
-| `LM741` | Op-amp | TI/Fairchild | Tier 2 | Classic historic single op-amp, still referenced/taught frequently but largely superseded by modern parts in practice. |  |
-| `PC817` | Optocoupler | Sharp/generic | Tier 2 | Ubiquitous cheap optocoupler appearing in nearly every hobbyist IC assortment kit found. |  |
-| `2N2907` | PNP BJT, TO-18 | ON Semi/Multi | Tier 2 | Merges 2N2907/2N2907A; PNP complement of 2N2222, common in classic amp/switch designs. |  |
-| `2SA1015` | PNP BJT, TO-92 | Toshiba (legacy) | Tier 2 | PNP complement to 2SC1815, common in classic audio hobby circuits. |  |
-| `BC327` | PNP BJT, TO-92 | Multi | Tier 2 | PNP complement to BC337, common in same assortment kits. |  |
- | `BC558` | PNP BJT, TO-92 | Multi | Tier 2 | PNP complement to BC548, general-purpose small-signal switching. | imported | 
-| `S8550` | PNP BJT, TO-92 | Multi (Chinese manufacturers) | Tier 2 | Common cheap PNP complement to S8050 found in hobbyist kits. |  |
-| `TIP32C` | PNP Power BJT, TO-220 | ON Semi/STMicro | Tier 2 | PNP complement of TIP31C, common pairing. |  |
-| `LM339` | Quad Comparator | Texas Instruments | Tier 2 | Merges LM339/LM339N; appears multiple times for multi-channel threshold detection. |  |
+| `TIP120` | NPN Darlington, TO-220 | ON Semi/STMicro | Tier 2 | Iconic Darlington used to drive motors/relays directly from MCU logic pins, appears multiple times, listed in 'best 4 transistors' kit essential. | imported |
+| `TIP31C` | NPN Power BJT, TO-220 | ON Semi/STMicro | Tier 2 | Common power NPN transistor for switching/amplifier hobby projects, appears multiple times. | imported |
+| `2N3055` | NPN Power BJT, TO-3 | ON Semi/Multi | Tier 2 | Legendary power transistor for class AB audio amplifiers/power supplies, appears twice. | imported |
+| `LM741` | Op-amp | TI/Fairchild | Tier 2 | Classic historic single op-amp, still referenced/taught frequently but largely superseded by modern parts in practice. | imported |
+| `PC817` | Optocoupler | Sharp/generic | Tier 2 | Ubiquitous cheap optocoupler appearing in nearly every hobbyist IC assortment kit found. | imported |
+| `2N2907` | PNP BJT, TO-18 | ON Semi/Multi | Tier 2 | Merges 2N2907/2N2907A; PNP complement of 2N2222, common in classic amp/switch designs. | imported |
+| `2SA1015` | PNP BJT, TO-92 | Toshiba (legacy) | Tier 2 | PNP complement to 2SC1815, common in classic audio hobby circuits. | imported |
+| `BC327` | PNP BJT, TO-92 | Multi | Tier 2 | PNP complement to BC337, common in same assortment kits. | imported |
+  | `BC558` | PNP BJT, TO-92 | Multi | Tier 2 | PNP complement to BC548, general-purpose small-signal switching. | imported | 
+| `S8550` | PNP BJT, TO-92 | Multi (Chinese manufacturers) | Tier 2 | Common cheap PNP complement to S8050 found in hobbyist kits. | imported |
+| `TIP32C` | PNP Power BJT, TO-220 | ON Semi/STMicro | Tier 2 | PNP complement of TIP31C, common pairing. | imported |
+| `LM339` | Quad Comparator | Texas Instruments | Tier 2 | Merges LM339/LM339N; appears multiple times for multi-channel threshold detection. | imported |
 | `MFRC522` | RFID/NFC Reader IC | NXP Semiconductors | Tier 2 | Merges MFRC522/RC522; the bare RFID reader IC behind the near-universal hobbyist MFRC522 module, already a modeled entry in this repo. | already in repo |
-| `MAX232` | RS-232 Level Shifter | Texas Instruments/Maxim | Tier 2 | Classic chip used to interface MCU UART logic levels with RS-232 devices, appears twice. |  |
+| `MAX232` | RS-232 Level Shifter | Texas Instruments/Maxim | Tier 2 | Classic chip used to interface MCU UART logic levels with RS-232 devices, appears twice. | imported |
 | `DS1307` | Real-Time Clock IC | Analog Devices (Maxim) | Tier 2 | Older, cheaper RTC chip still extremely common in beginner clock modules. | imported |
 | `DS3231` | Real-Time Clock IC | Analog Devices (Maxim) | Tier 2 | The most common precision RTC chip used bare in hobbyist clock/datalogging projects. | imported |
-| `74HC165` | Shift Register | TI/Nexperia | Tier 2 | Merges 74HC165/74HC165D; very common for reading multiple button/switch inputs into a microcontroller, appears 3+ times. |  |
- | `TB6600` | Stepper Motor Driver | Toshiba (clone modules widely sold) | Tier 2 | High-current stepper driver module popular for CNC routers/NEMA23 motors, appears twice. | imported | 
-| `TMC2208` | Stepper Motor Driver | Trinamic | Tier 2 | Silent stepper driver widely retrofitted into 3D printers for quiet operation. |  |
-| `TMC2209` | Stepper Motor Driver | Trinamic | Tier 2 | UART-configurable quiet stepper driver, current default upgrade choice in 3D printer/CNC community. |  |
+| `74HC165` | Shift Register | TI/Nexperia | Tier 2 | Merges 74HC165/74HC165D; very common for reading multiple button/switch inputs into a microcontroller, appears 3+ times. | imported |
+  | `TB6600` | Stepper Motor Driver | Toshiba (clone modules widely sold) | Tier 2 | High-current stepper driver module popular for CNC routers/NEMA23 motors, appears twice. | imported | 
+| `TMC2208` | Stepper Motor Driver | Trinamic | Tier 2 | Silent stepper driver widely retrofitted into 3D printers for quiet operation. | imported |
+| `TMC2209` | Stepper Motor Driver | Trinamic | Tier 2 | UART-configurable quiet stepper driver, current default upgrade choice in 3D printer/CNC community. | imported |
  | `ILI9341` | TFT LCD Display Driver | Ilitek | Tier 2 | Very widely used TFT LCD controller chip in hobbyist touchscreen display projects. | imported | 
  | `ST7789` | TFT LCD Display Driver | Sitronix | Tier 2 | Common display driver IC in low-cost hobbyist color TFT LCD modules. | imported | 
-| `CP2102` | USB-to-UART Bridge | Silicon Labs | Tier 2 | One of the most common USB-serial bridge chips used bare on custom Arduino-clone/MCU boards. |  |
-| `FT232RL` | USB-to-UART Bridge | FTDI | Tier 2 | Long-standard USB-serial IC used bare in custom hobbyist USB-to-serial adapters/MCU boards. |  |
-| `TLC5947` | 24-Channel PWM LED Driver | Texas Instruments | Tier 3 | 24-channel 12-bit PWM LED driver in Adafruit breakout boards, niche vs TLC5940. |  |
-| `DRV8301` | 3-Phase BLDC Gate Driver | Texas Instruments | Tier 3 | 3-phase gate driver with current sense used in VESC-style open-source BLDC designs, niche. |  |
-| `DRV8302` | 3-Phase BLDC Gate Driver | Texas Instruments | Tier 3 | Widely used in VESC-based electric skateboard/robotics controllers, niche. |  |
-| `MBI6001` | AC Mains LED Driver | Macroblock | Tier 3 | AC-mains-input LED driver for mains-powered LED bulb/strip projects, niche. |  |
+| `CP2102` | USB-to-UART Bridge | Silicon Labs | Tier 2 | One of the most common USB-serial bridge chips used bare on custom Arduino-clone/MCU boards. | imported |
+| `FT232RL` | USB-to-UART Bridge | FTDI | Tier 2 | Long-standard USB-serial IC used bare in custom hobbyist USB-to-serial adapters/MCU boards. | imported |
+| `TLC5947` | 24-Channel PWM LED Driver | Texas Instruments | Tier 3 | 24-channel 12-bit PWM LED driver in Adafruit breakout boards, niche vs TLC5940. | imported |
+| `DRV8301` | 3-Phase BLDC Gate Driver | Texas Instruments | Tier 3 | 3-phase gate driver with current sense used in VESC-style open-source BLDC designs, niche. | imported |
+| `DRV8302` | 3-Phase BLDC Gate Driver | Texas Instruments | Tier 3 | Widely used in VESC-based electric skateboard/robotics controllers, niche. | imported |
+| `MBI6001` | AC Mains LED Driver | Macroblock | Tier 3 | AC-mains-input LED driver for mains-powered LED bulb/strip projects, niche. | imported |
 | `ADXL345` | Accelerometer | Analog Devices | Tier 3 | Popular bare digital 3-axis accelerometer chip for motion-sensing projects, niche vs MPU6050. | imported |
-| `74HC283` | Adder | TI/Nexperia | Tier 3 | 4-bit binary full adder, classic discrete-logic arithmetic part, niche today. |  |
-| `LM337` | Adjustable Negative Regulator | Texas Instruments | Tier 3 | Merges LM337/LM337T; negative-voltage complement to LM317, niche dual-rail use. |  |
+| `74HC283` | Adder | TI/Nexperia | Tier 3 | 4-bit binary full adder, classic discrete-logic arithmetic part, niche today. | imported |
+| `LM337` | Adjustable Negative Regulator | Texas Instruments | Tier 3 | Merges LM337/LM337T; negative-voltage complement to LM317, niche dual-rail use. | imported |
  | `74HC4051` | Analog Multiplexer | TI/Nexperia | Tier 3 | 8-channel analog mux/demux to expand MCU analog inputs, niche. | imported | 
-| `CD4052` | Analog Multiplexer | TI/ON Semi/Renesas | Tier 3 | Dual 4-channel analog mux/demux, niche vs CD4051. |  |
-| `CD4053` | Analog Multiplexer | TI/ON Semi/Renesas | Tier 3 | Triple 2-channel analog mux/demux for audio switching, niche. |  |
-| `CD4066` | Analog Switch | TI/ON Semi/Renesas | Tier 3 | Quad bilateral analog switch for audio/analog signal switching, niche. |  |
-| `LM1875` | Audio Power Amplifier | Texas Instruments | Tier 3 | Popular 20W audio power amp IC for DIY hi-fi builds, niche. |  |
-| `TDA2003` | Audio Power Amplifier | STMicroelectronics | Tier 3 | Car-radio style audio amp IC for DIY speaker amplifier projects, niche. |  |
-| `TDA7052` | Audio Power Amplifier | NXP | Tier 3 | Mono audio amplifier IC for simple battery-powered speaker projects, niche. |  |
-| `CD4553` | BCD Counter | TI/ON Semi | Tier 3 | 3-digit BCD counter for counting/display projects, niche. |  |
-| `74HC4511` | BCD-to-7-segment Decoder | TI/Nexperia | Tier 3 | BCD-to-7-seg decoder/driver, favorite for display projects but still niche. |  |
-| `CD4511` | BCD-to-7-segment Decoder | TI/ON Semi/Renesas | Tier 3 | Common CD4000 driver for 7-seg displays, niche vs whole-repo scope. |  |
-| `CD4543` | BCD-to-7-segment Decoder | TI/ON Semi | Tier 3 | BCD decoder driver for LCDs, niche. |  |
-| `CD4028` | BCD-to-Decimal Decoder | TI/ON Semi | Tier 3 | BCD decoder for counter output decoding, niche. |  |
-| `74HC163` | Binary Counter | TI/Nexperia | Tier 3 | Synchronous 4-bit counter, common in counter/divider circuits, niche. |  |
-| `74HC393` | Binary Counter | TI/Nexperia | Tier 3 | Dual 4-bit binary counter, niche kit part. |  |
-| `CD4020` | Binary Counter | TI/ON Semi | Tier 3 | 14-stage ripple counter/divider for timing circuits, niche. |  |
-| `CD4040` | Binary Counter | TI/ON Semi | Tier 3 | 12-stage binary ripple counter, niche use. |  |
-| `CD4060` | Binary Counter/Oscillator | TI/ON Semi/Renesas | Tier 3 | 14-stage counter with built-in oscillator for long-duration timers, niche. |  |
-| `CAT4238` | Boost LED Driver | ON Semiconductor | Tier 3 | Boost-topology white LED driver for battery-powered flashlight/backlight projects, niche. |  |
-| `MAX1771CSA` | Boost Switching Controller, High Efficiency | Analog Devices (Maxim) | Tier 3 | High-voltage boost projects (DIY nixie/HV supplies), niche. |  |
-| `LM2577` | Boost Switching Regulator, Adjustable | Texas Instruments | Tier 3 | Merges LM2577/LM2577T-ADJ; classic simple-switcher boost IC, niche. |  |
-| `LM2587T-ADJ` | Boost Switching Regulator, High Power | Texas Instruments | Tier 3 | Higher-power boost IC than LM2577, niche. |  |
-| `LT8362` | Boost Switching Regulator, Low EMI | Analog Devices | Tier 3 | Higher-voltage LED driver/boost projects needing low EMI, niche. |  |
-| `ADP1613ARMZ` | Boost Switching Regulator, Low-power | Analog Devices | Tier 3 | Small boost converter designs for sensor/LED supplies, niche. |  |
-| `XL6001` | Boost/Buck LED Driver | XLSEMI | Tier 3 | General-purpose DC-DC LED driver in inexpensive hobbyist modules, niche. |  |
-| `AL8807` | Buck Constant-Current LED Driver | Diodes Incorporated | Tier 3 | Low-cost buck driver for DIY high-power LED flashlight/spotlight circuits, niche. |  |
-| `CN7511` | Buck Constant-Current LED Driver | Consonance Electronic | Tier 3 | 1.5A dimmable driver with PWM-enable for high-power LED builds, niche. |  |
-| `HV9911` | Buck Constant-Current LED Driver | Microchip (Supertex) | Tier 3 | Popular high-power LED driver controller for DIY LED lighting, niche. |  |
-| `MBI6651` | Buck Constant-Current LED Driver | Macroblock | Tier 3 | Simple 1A step-down constant-current driver for DIY high-power LED lamps, niche. |  |
-| `NCL30100` | Buck Constant-Current LED Driver | ON Semiconductor | Tier 3 | Compact high-current LED driver for flashlight/lamp builds, niche. |  |
-| `PT4115` | Buck Constant-Current LED Driver | Power Trend Micro | Tier 3 | Very common budget 1.2A step-down driver used in countless DIY high-power LED modules on AliExpress, niche category but high volume. |  |
-| `RT8125B` | Buck Switching Regulator | Richtek | Tier 3 | Found on inexpensive Chinese buck converter modules, niche. |  |
-| `ME2108A33` | Buck Switching Regulator, 3.3V | MicroOne | Tier 3 | Inexpensive buck IC on hobbyist step-down modules, niche. |  |
-| `LM2576T-ADJ` | Buck Switching Regulator, 3A | Texas Instruments | Tier 3 | Predecessor of LM2596 still used occasionally, niche. |  |
-| `MP1584EN` | Buck Switching Regulator, 3A | Monolithic Power Systems | Tier 3 | Compact efficient buck IC as LM2596 replacement in small modules, niche. |  |
-| `MP2307DN` | Buck Switching Regulator, 3A | Monolithic Power Systems | Tier 3 | Common buck IC on hobbyist step-down modules similar to MP1584, niche. |  |
-| `TPS5430DDA` | Buck Switching Regulator, 3A | Texas Instruments | Tier 3 | TI SWIFT buck alternative to LM2596, niche. |  |
-| `TPS54331DR` | Buck Switching Regulator, 3A | Texas Instruments | Tier 3 | Used in DIY PCB power stages needing small efficient buck, niche. |  |
-| `LM2678` | Buck Switching Regulator, 5A | Texas Instruments | Tier 3 | Merges LM2678S-5.0/LM2678SX-ADJ; higher-current buck for supplies beyond LM2596, niche. |  |
-| `XL4005E1` | Buck Switching Regulator, 5A | XLSEMI | Tier 3 | High-current buck IC on cheap step-down modules, niche. |  |
-| `XL4015E1` | Buck Switching Regulator, 5A | XLSEMI | Tier 3 | High-current buck IC for modules needing more current than LM2596, niche. |  |
-| `LTC3440EMS8` | Buck-boost Switching Regulator | Analog Devices | Tier 3 | Buck-boost choice for single Li-ion cell to fixed rail, niche. |  |
-| `S-8254AA` | Buck-boost Switching Regulator | ABLIC | Tier 3 | Used in Pololu/Adafruit buck-boost breakout boards, niche. |  |
-| `TPS61200DRCT` | Buck-boost Switching Regulator | Texas Instruments | Tier 3 | For battery projects needing stable output as input sags/rises, niche. |  |
-| `TPS63000DRCR` | Buck-boost Switching Regulator | Texas Instruments | Tier 3 | Common choice for steady 3.3V/5V from discharging Li-ion cell, niche. |  |
-| `TPS63020` | Buck-boost Switching Regulator, High Current | Texas Instruments | Tier 3 | Higher-current buck-boost for portable power designs, niche. |  |
-| `CD4503` | Buffer | TI/ON Semi | Tier 3 | Hex non-inverting tri-state buffer, niche kit part. |  |
-| `74HCT245` | Bus Transceiver | TI/Nexperia | Tier 3 | TTL-input-compatible octal bus transceiver, niche vs 74HC245. |  |
-| `TLC555` | CMOS Timer IC | Texas Instruments | Tier 3 | Low-power CMOS 555 variant, niche battery-powered use case. |  |
-| `ICL7660` | Charge Pump Voltage Converter | Renesas (orig. Intersil) | Tier 3 | Merges ICL7660/TC7660; popular for generating negative supply rails in op-amp circuits, niche but recurring. |  |
-| `74HC688` | Comparator | TI/Nexperia | Tier 3 | 8-bit magnitude comparator, niche digital comparison use. |  |
-| `UC3842` | Current-mode PWM Controller | Texas Instruments | Tier 3 | Companion PWM controller variant, niche. |  |
-| `UC3843` | Current-mode PWM Controller | TI/onsemi | Tier 3 | Merges UC3843/UC3843AN; widely used for building/repairing flyback SMPS, niche. |  |
-| `74HC174` | D Flip-Flop | TI/Nexperia | Tier 3 | Hex D-type flip-flop, standard kit part, niche. |  |
-| `CD4013` | D Flip-Flop | TI/ON Semi/Renesas | Tier 3 | Dual D flip-flop for toggle/counting circuits, niche. |  |
-| `CD4026` | Decade Counter w/ 7-seg Decoder | Texas Instruments | Tier 3 | Popular counter directly driving 7-segment displays, still specialized. |  |
-| `74HC139` | Decoder/Demux | TI/Nexperia | Tier 3 | Dual 2-to-4 decoder, common companion to 74HC138 but more niche. |  |
-| `PT2399` | Digital Echo/Delay Processor | Princeton Technology | Tier 3 | Popular DIY audio-effects chip in assortment kits, niche. |  |
-| `LM4562` | Dual Audio Op-amp | Texas Instruments | Tier 3 | High-performance audio op-amp for headphone amp/DAC upgrades, audiophile niche. |  |
-| `NJM2068` | Dual Audio Op-amp | New Japan Radio (NJR) | Tier 3 | Low-noise op-amp rolling upgrade in DIY audio gear, niche. |  |
-| `OPA2134` | Dual Audio Op-amp | Texas Instruments | Tier 3 | High-quality FET audio op-amp for DIY hi-fi/headphone amps, niche audiophile use. |  |
-| `TDA7297` | Dual Audio Power Amplifier | STMicroelectronics | Tier 3 | Dual-bridge audio amplifier IC for DIY stereo speaker amp boards, niche. |  |
-| `A4950` | Dual H-Bridge Motor Driver | Allegro MicroSystems | Tier 3 | Full-bridge motor driver in Pololu dual motor driver carriers, niche. |  |
-| `DRV8848` | Dual H-Bridge Motor Driver | Texas Instruments | Tier 3 | Dual full-bridge driver in Adafruit motor breakout boards, niche. |  |
-| `LM13700` | Dual OTA | Texas Instruments | Tier 3 | Popular OTA for DIY analog synth VCA/filter circuits, specialized niche. |  |
-| `LM258` | Dual Op-amp | Texas Instruments | Tier 3 | Low-power variant of LM358 in one assortment kit listing, niche. |  |
-| `LM2904` | Dual Op-amp | STMicroelectronics/TI | Tier 3 | Automotive-grade equivalent of LM358, occasionally substituted. |  |
-| `LM747` | Dual Op-amp | Texas Instruments | Tier 3 | Dual 741-equivalent, vintage-style analog circuits, niche. |  |
-| `MCP602` | Dual Rail-to-rail Op-amp | Microchip | Tier 3 | Low-cost rail-to-rail dual op-amp for 5V sensor interfacing, moderate niche use. |  |
-| `24LC256` | EEPROM (I2C) | Microchip | Tier 3 | Widely used bare I2C EEPROM chip for external non-volatile storage, niche. |  |
-| `AT24C32` | EEPROM (I2C) | Microchip/Atmel | Tier 3 | Small I2C EEPROM commonly paired with DS3231 RTC modules, niche. |  |
-| `TLV2372` | Fast Rail-to-rail Dual Op-amp | Texas Instruments | Tier 3 | Recommended fast op-amp for signal conditioning, specialized recommendation. |  |
-| `LT1963A-3.3` | Fast-transient LDO, 1.5A | Analog Devices | Tier 3 | Clean fast-response 3.3V rail for audio/RF projects, niche. |  |
+| `CD4052` | Analog Multiplexer | TI/ON Semi/Renesas | Tier 3 | Dual 4-channel analog mux/demux, niche vs CD4051. | imported |
+| `CD4053` | Analog Multiplexer | TI/ON Semi/Renesas | Tier 3 | Triple 2-channel analog mux/demux for audio switching, niche. | imported |
+| `CD4066` | Analog Switch | TI/ON Semi/Renesas | Tier 3 | Quad bilateral analog switch for audio/analog signal switching, niche. | imported |
+| `LM1875` | Audio Power Amplifier | Texas Instruments | Tier 3 | Popular 20W audio power amp IC for DIY hi-fi builds, niche. | imported |
+| `TDA2003` | Audio Power Amplifier | STMicroelectronics | Tier 3 | Car-radio style audio amp IC for DIY speaker amplifier projects, niche. | imported |
+| `TDA7052` | Audio Power Amplifier | NXP | Tier 3 | Mono audio amplifier IC for simple battery-powered speaker projects, niche. | imported |
+| `CD4553` | BCD Counter | TI/ON Semi | Tier 3 | 3-digit BCD counter for counting/display projects, niche. | imported |
+| `74HC4511` | BCD-to-7-segment Decoder | TI/Nexperia | Tier 3 | BCD-to-7-seg decoder/driver, favorite for display projects but still niche. | imported |
+| `CD4511` | BCD-to-7-segment Decoder | TI/ON Semi/Renesas | Tier 3 | Common CD4000 driver for 7-seg displays, niche vs whole-repo scope. | imported |
+| `CD4543` | BCD-to-7-segment Decoder | TI/ON Semi | Tier 3 | BCD decoder driver for LCDs, niche. | imported |
+| `CD4028` | BCD-to-Decimal Decoder | TI/ON Semi | Tier 3 | BCD decoder for counter output decoding, niche. | imported |
+| `74HC163` | Binary Counter | TI/Nexperia | Tier 3 | Synchronous 4-bit counter, common in counter/divider circuits, niche. | imported |
+| `74HC393` | Binary Counter | TI/Nexperia | Tier 3 | Dual 4-bit binary counter, niche kit part. | imported |
+| `CD4020` | Binary Counter | TI/ON Semi | Tier 3 | 14-stage ripple counter/divider for timing circuits, niche. | imported |
+| `CD4040` | Binary Counter | TI/ON Semi | Tier 3 | 12-stage binary ripple counter, niche use. | imported |
+| `CD4060` | Binary Counter/Oscillator | TI/ON Semi/Renesas | Tier 3 | 14-stage counter with built-in oscillator for long-duration timers, niche. | imported |
+| `CAT4238` | Boost LED Driver | ON Semiconductor | Tier 3 | Boost-topology white LED driver for battery-powered flashlight/backlight projects, niche. | imported |
+| `MAX1771CSA` | Boost Switching Controller, High Efficiency | Analog Devices (Maxim) | Tier 3 | High-voltage boost projects (DIY nixie/HV supplies), niche. | imported |
+| `LM2577` | Boost Switching Regulator, Adjustable | Texas Instruments | Tier 3 | Merges LM2577/LM2577T-ADJ; classic simple-switcher boost IC, niche. | imported |
+| `LM2587T-ADJ` | Boost Switching Regulator, High Power | Texas Instruments | Tier 3 | Higher-power boost IC than LM2577, niche. | imported |
+| `LT8362` | Boost Switching Regulator, Low EMI | Analog Devices | Tier 3 | Higher-voltage LED driver/boost projects needing low EMI, niche. | imported |
+| `ADP1613ARMZ` | Boost Switching Regulator, Low-power | Analog Devices | Tier 3 | Small boost converter designs for sensor/LED supplies, niche. | imported |
+| `XL6001` | Boost/Buck LED Driver | XLSEMI | Tier 3 | General-purpose DC-DC LED driver in inexpensive hobbyist modules, niche. | imported |
+| `AL8807` | Buck Constant-Current LED Driver | Diodes Incorporated | Tier 3 | Low-cost buck driver for DIY high-power LED flashlight/spotlight circuits, niche. | imported |
+| `CN7511` | Buck Constant-Current LED Driver | Consonance Electronic | Tier 3 | 1.5A dimmable driver with PWM-enable for high-power LED builds, niche. | imported |
+| `HV9911` | Buck Constant-Current LED Driver | Microchip (Supertex) | Tier 3 | Popular high-power LED driver controller for DIY LED lighting, niche. | imported |
+| `MBI6651` | Buck Constant-Current LED Driver | Macroblock | Tier 3 | Simple 1A step-down constant-current driver for DIY high-power LED lamps, niche. | imported |
+| `NCL30100` | Buck Constant-Current LED Driver | ON Semiconductor | Tier 3 | Compact high-current LED driver for flashlight/lamp builds, niche. | imported |
+| `PT4115` | Buck Constant-Current LED Driver | Power Trend Micro | Tier 3 | Very common budget 1.2A step-down driver used in countless DIY high-power LED modules on AliExpress, niche category but high volume. | imported |
+| `RT8125B` | Buck Switching Regulator | Richtek | Tier 3 | Found on inexpensive Chinese buck converter modules, niche. | imported |
+| `ME2108A33` | Buck Switching Regulator, 3.3V | MicroOne | Tier 3 | Inexpensive buck IC on hobbyist step-down modules, niche. | imported |
+| `LM2576T-ADJ` | Buck Switching Regulator, 3A | Texas Instruments | Tier 3 | Predecessor of LM2596 still used occasionally, niche. | imported |
+| `MP1584EN` | Buck Switching Regulator, 3A | Monolithic Power Systems | Tier 3 | Compact efficient buck IC as LM2596 replacement in small modules, niche. | imported |
+| `MP2307DN` | Buck Switching Regulator, 3A | Monolithic Power Systems | Tier 3 | Common buck IC on hobbyist step-down modules similar to MP1584, niche. | imported |
+| `TPS5430DDA` | Buck Switching Regulator, 3A | Texas Instruments | Tier 3 | TI SWIFT buck alternative to LM2596, niche. | imported |
+| `TPS54331DR` | Buck Switching Regulator, 3A | Texas Instruments | Tier 3 | Used in DIY PCB power stages needing small efficient buck, niche. | imported |
+| `LM2678` | Buck Switching Regulator, 5A | Texas Instruments | Tier 3 | Merges LM2678S-5.0/LM2678SX-ADJ; higher-current buck for supplies beyond LM2596, niche. | imported |
+| `XL4005E1` | Buck Switching Regulator, 5A | XLSEMI | Tier 3 | High-current buck IC on cheap step-down modules, niche. | imported |
+| `XL4015E1` | Buck Switching Regulator, 5A | XLSEMI | Tier 3 | High-current buck IC for modules needing more current than LM2596, niche. | imported |
+| `LTC3440EMS8` | Buck-boost Switching Regulator | Analog Devices | Tier 3 | Buck-boost choice for single Li-ion cell to fixed rail, niche. | imported |
+| `S-8254AA` | Buck-boost Switching Regulator | ABLIC | Tier 3 | Used in Pololu/Adafruit buck-boost breakout boards, niche. | imported |
+| `TPS61200DRCT` | Buck-boost Switching Regulator | Texas Instruments | Tier 3 | For battery projects needing stable output as input sags/rises, niche. | imported |
+| `TPS63000DRCR` | Buck-boost Switching Regulator | Texas Instruments | Tier 3 | Common choice for steady 3.3V/5V from discharging Li-ion cell, niche. | imported |
+| `TPS63020` | Buck-boost Switching Regulator, High Current | Texas Instruments | Tier 3 | Higher-current buck-boost for portable power designs, niche. | imported |
+| `CD4503` | Buffer | TI/ON Semi | Tier 3 | Hex non-inverting tri-state buffer, niche kit part. | imported |
+| `74HCT245` | Bus Transceiver | TI/Nexperia | Tier 3 | TTL-input-compatible octal bus transceiver, niche vs 74HC245. | imported |
+| `TLC555` | CMOS Timer IC | Texas Instruments | Tier 3 | Low-power CMOS 555 variant, niche battery-powered use case. | imported |
+| `ICL7660` | Charge Pump Voltage Converter | Renesas (orig. Intersil) | Tier 3 | Merges ICL7660/TC7660; popular for generating negative supply rails in op-amp circuits, niche but recurring. | imported |
+| `74HC688` | Comparator | TI/Nexperia | Tier 3 | 8-bit magnitude comparator, niche digital comparison use. | imported |
+| `UC3842` | Current-mode PWM Controller | Texas Instruments | Tier 3 | Companion PWM controller variant, niche. | imported |
+| `UC3843` | Current-mode PWM Controller | TI/onsemi | Tier 3 | Merges UC3843/UC3843AN; widely used for building/repairing flyback SMPS, niche. | imported |
+| `74HC174` | D Flip-Flop | TI/Nexperia | Tier 3 | Hex D-type flip-flop, standard kit part, niche. | imported |
+| `CD4013` | D Flip-Flop | TI/ON Semi/Renesas | Tier 3 | Dual D flip-flop for toggle/counting circuits, niche. | imported |
+| `CD4026` | Decade Counter w/ 7-seg Decoder | Texas Instruments | Tier 3 | Popular counter directly driving 7-segment displays, still specialized. | imported |
+| `74HC139` | Decoder/Demux | TI/Nexperia | Tier 3 | Dual 2-to-4 decoder, common companion to 74HC138 but more niche. | imported |
+| `PT2399` | Digital Echo/Delay Processor | Princeton Technology | Tier 3 | Popular DIY audio-effects chip in assortment kits, niche. | imported |
+| `LM4562` | Dual Audio Op-amp | Texas Instruments | Tier 3 | High-performance audio op-amp for headphone amp/DAC upgrades, audiophile niche. | imported |
+| `NJM2068` | Dual Audio Op-amp | New Japan Radio (NJR) | Tier 3 | Low-noise op-amp rolling upgrade in DIY audio gear, niche. | imported |
+| `OPA2134` | Dual Audio Op-amp | Texas Instruments | Tier 3 | High-quality FET audio op-amp for DIY hi-fi/headphone amps, niche audiophile use. | imported |
+| `TDA7297` | Dual Audio Power Amplifier | STMicroelectronics | Tier 3 | Dual-bridge audio amplifier IC for DIY stereo speaker amp boards, niche. | imported |
+| `A4950` | Dual H-Bridge Motor Driver | Allegro MicroSystems | Tier 3 | Full-bridge motor driver in Pololu dual motor driver carriers, niche. | imported |
+| `DRV8848` | Dual H-Bridge Motor Driver | Texas Instruments | Tier 3 | Dual full-bridge driver in Adafruit motor breakout boards, niche. | imported |
+| `LM13700` | Dual OTA | Texas Instruments | Tier 3 | Popular OTA for DIY analog synth VCA/filter circuits, specialized niche. | imported |
+| `LM258` | Dual Op-amp | Texas Instruments | Tier 3 | Low-power variant of LM358 in one assortment kit listing, niche. | imported |
+| `LM2904` | Dual Op-amp | STMicroelectronics/TI | Tier 3 | Automotive-grade equivalent of LM358, occasionally substituted. | imported |
+| `LM747` | Dual Op-amp | Texas Instruments | Tier 3 | Dual 741-equivalent, vintage-style analog circuits, niche. | imported |
+| `MCP602` | Dual Rail-to-rail Op-amp | Microchip | Tier 3 | Low-cost rail-to-rail dual op-amp for 5V sensor interfacing, moderate niche use. | imported |
+| `24LC256` | EEPROM (I2C) | Microchip | Tier 3 | Widely used bare I2C EEPROM chip for external non-volatile storage, niche. | imported |
+| `AT24C32` | EEPROM (I2C) | Microchip/Atmel | Tier 3 | Small I2C EEPROM commonly paired with DS3231 RTC modules, niche. | imported |
+| `TLV2372` | Fast Rail-to-rail Dual Op-amp | Texas Instruments | Tier 3 | Recommended fast op-amp for signal conditioning, specialized recommendation. | imported |
+| `LT1963A-3.3` | Fast-transient LDO, 1.5A | Analog Devices | Tier 3 | Clean fast-response 3.3V rail for audio/RF projects, niche. | imported |
 | `LM7815` | Fixed 15V Linear Regulator | STMicroelectronics | Tier 3 | 78xx variant for op-amp dual supplies, niche. |  |
 | `LM7824` | Fixed 24V Linear Regulator | STMicroelectronics | Tier 3 | 78xx variant for regulated 24V motor/relay supplies, niche. |  |
 | `LM7809` | Fixed 9V Linear Regulator | STMicroelectronics | Tier 3 | 78xx variant for 9V pedal/effects/audio power rails, niche. |  |

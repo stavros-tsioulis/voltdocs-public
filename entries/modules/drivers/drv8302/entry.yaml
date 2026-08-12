@@ -1,0 +1,38 @@
+id: driver.motor.drv8302
+revision: "1.0"
+title: DRV8302 — 3-Phase BLDC Gate Driver with Buck Regulator (Hardware Mode)
+category: drivers/motor
+tags: [drv8302, drv8302dcar, texas-instruments, bldc, gate-driver, 3-phase, vesc, electric-skateboard, hardware-control, current-shunt-amp]
+status: published
+summary: >-
+  Texas Instruments 60V 3-phase brushless DC gate driver featuring 1.7A/2.3A peak drive current, hardware pin configuration (no SPI required), dual current-shunt amplifiers, and 1.5A buck regulator.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [DRV8302, DRV8302DCAR]
+  package: 56-pin HTSSOP (PowerPAD)
+  supply_voltage_min_v: 6.0
+  supply_voltage_max_v: 60.0
+  gate_drive_current_source_a: 1.7
+  gate_drive_current_sink_a: 2.3
+  integrated_buck_regulator_output_a: 1.5
+  current_shunt_amplifiers_count: 2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [3-Phase Half-Bridge Gate Drivers (6x PWM Inputs), Hardware Pin Configuration (GAIN, M_PWM, M_OC, OC_ADJ), 2x Differential Current Sense Outputs (SO1, SO2)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - gate_drive_current_source_a
+  - gate_drive_current_sink_a
+  - integrated_buck_regulator_output_a
+  - current_shunt_amplifiers_count
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/drv8302.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/DRV8302" }

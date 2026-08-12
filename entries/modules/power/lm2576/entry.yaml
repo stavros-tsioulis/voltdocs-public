@@ -1,0 +1,42 @@
+id: power.buck.lm2576
+revision: "1.0"
+title: LM2576 — 3A 52kHz Step-Down (Buck) Switching Regulator
+category: power/buck
+tags: [lm2576, lm2576t-adj, lm2576s-adj, buck, step-down, regulator, switching, power, 3a, ti, module]
+status: published
+summary: >-
+  Texas Instruments 3A step-down (buck) switching regulator IC operating at 52kHz switching frequency across fixed (3.3V, 5V, 12V, 15V) and ADJ versions.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / National Semiconductor
+  ic_part_numbers: [LM2576, LM2576T-ADJ, LM2576S-ADJ, LM2576T-5.0, LM2576T-3.3, LM2576T-12, LM2576HV]
+  package: TO-220-5 / TO-263-5 (D2PAK)
+  regulator_type: Monolithic Step-Down (Buck) Switching Regulator
+  input_voltage_v_min: 4.0
+  input_voltage_v_max: 40.0
+  output_voltage_v_min: 1.23
+  output_voltage_v_max: 37.0
+  output_current_a_max: 3.0
+  switching_frequency_khz: 52
+  efficiency_pct: 75 - 88
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [5-Terminal Switching Output]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm2576.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM2576" }

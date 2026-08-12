@@ -1,0 +1,37 @@
+id: interface.display.74hc4511
+revision: "1.0"
+title: 74HC4511 — High-Speed CMOS BCD-to-7-Segment Latch/Decoder/Driver
+category: interface/display
+tags: ["74hc4511", cd74hc4511, bcd-to-7segment, decoder, driver, latch, 7-segment, cmos, texas-instruments, nexperia, dip-16]
+status: published
+summary: >-
+  High-speed CMOS IC converting 4-bit BCD input signals to active-HIGH 7-segment LED display outputs with internal data storage latches and 25mA segment drive current.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC4511, CD74HC4511E, 74HC4511D, 74HCT4511]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: High-Speed CMOS (74HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  bcd_input_bits: 4 (Inputs A, B, C, D)
+  display_outputs: 7 Active-HIGH Segments (a, b, c, d, e, f, g)
+  segment_output_current_ma: 25.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [4-Bit BCD Inputs A-D, 7-Segment Active-HIGH Outputs a-g, Latch Enable /LE, Lamp Test /LT, Blanking /BL]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bcd_input_bits
+  - display_outputs
+  - segment_output_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd74hc4511.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD74HC4511" }

@@ -1,0 +1,38 @@
+id: interface.usb.cp2102
+revision: "1.0"
+title: CP2102 — Single-Chip USB-to-UART Bridge Controller
+category: interface/usb
+tags: [cp2102, cp2102n, silicon-labs, usb, uart, serial-bridge, usb-to-uart, nodemcu, qfn-28]
+status: published
+summary: >-
+  Silicon Labs highly integrated USB 2.0 Full-Speed to UART bridge controller IC featuring an integrated oscillator, internal 5V-to-3.3V LDO, and 12 Mbps USB PHY.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Silicon Labs (Silicon Laboratories)
+  ic_part_numbers: [CP2102, CP2102-GM, CP2102N, CP2102N-A02-GQFN28]
+  package: 28-pin QFN (5 x 5 mm)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 3.6
+  integrated_ldo_output_v: 3.3
+  usb_version: USB 2.0 Full-Speed (12 Mbps)
+  max_baud_rate_bps: 921600 (3 Mbps for CP2102N)
+  tx_rx_buffer_bytes: 512
+  clock_source: Integrated Internal Oscillator (No external crystal required)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [USB 2.0 Full-Speed D+/D- Bus, Full Modem Control UART (TXD, RXD, RTS, CTS, DTR, DSR, DCD, RI)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - usb_version
+  - max_baud_rate_bps
+  - clock_source
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.silabs.com/interface/usb-bridges/classic-usb-bridges/device.cp2102-gm" }

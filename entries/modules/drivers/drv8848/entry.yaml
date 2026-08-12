@@ -1,0 +1,40 @@
+id: driver.motor.drv8848
+revision: "1.0"
+title: DRV8848 — Dual H-Bridge Motor Driver
+category: drivers/motor
+tags: [drv8848, drv8848pwp, motor-driver, h-bridge, dual-h-bridge, dc-motor, stepper-motor, texas-instruments, adafruit, htssop-16]
+status: published
+summary: >-
+  Texas Instruments dual full-bridge motor driver IC (2A peak per bridge, 4V to 18V) driving two DC motors or one stepper motor with internal PWM current regulation.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [DRV8848, DRV8848PWP, DRV8848PWPR]
+  package: HTSSOP-16 with Thermal Pad (PWP) / Adafruit DRV8848 Breakout
+  driver_type: Dual Full-Bridge PWM Motor Driver
+  motor_type: Dual DC Motors / Single Bipolar Stepper Motor / Solenoids
+  supply_voltage_min_v: 4.0
+  supply_voltage_max_v: 18.0
+  peak_output_current_a: 2.0
+  rms_output_current_a: 1.0
+  rds_on_ohm: 0.51
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Dual Bridge Inputs (AIN1, AIN2, BIN1, BIN2), Dual Outputs (AOUT1, AOUT2, BOUT1, BOUT2), ~nSLEEP~, ~nFAULT~, VREF]
+highlights:
+  - driver_type
+  - motor_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - peak_output_current_a
+  - rms_output_current_a
+  - rds_on_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/drv8848.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/DRV8848" }

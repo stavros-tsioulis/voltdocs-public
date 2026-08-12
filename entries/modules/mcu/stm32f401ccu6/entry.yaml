@@ -1,0 +1,42 @@
+id: mcu.arm.stm32f401ccu6
+revision: "1.0"
+title: STM32F401CCU6 — ARM Cortex-M4 32-Bit Microcontroller
+category: mcu/arm
+tags: [stm32f401ccu6, stm32, arm, cortex-m4, black-pill, mcu, stmicroelectronics, 84mhz, 256kb, usb-otg, i2c, spi, usart]
+status: published
+summary: >-
+  STMicroelectronics high-performance 32-bit ARM Cortex-M4 MCU with FPU running at 84MHz with 256KB Flash, 64KB SRAM, USB 2.0 OTG, and 12-bit ADC, powering the popular Black Pill development board.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [STM32F401CCU6, STM32F401CCU6TR, STM32F401CEU6]
+  package: 48-pin UFQFPN (7 x 7 mm) / Black Pill V3.0 Board
+  core: ARM 32-bit Cortex-M4 with FPU and DSP
+  max_clock_speed_mhz: 84
+  flash_memory_kb: 256
+  sram_memory_kb: 64
+  operating_voltage_min_v: 1.7
+  operating_voltage_max_v: 3.6
+  gpio_count: 36
+  adc_channels: 16 (12-bit resolution)
+  timers: 11 (16-bit and 32-bit)
+  interfaces: [USB 2.0 OTG FS, 3x I2C, 4x SPI/I2S, 3x USART]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_kb
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/stm32f401cc.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/microcontrollers-microprocessors/stm32f401cc.html" }

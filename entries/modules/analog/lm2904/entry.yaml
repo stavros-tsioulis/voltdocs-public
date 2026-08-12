@@ -1,0 +1,37 @@
+id: analog.opamp.lm2904
+revision: "1.0"
+title: LM2904 — Automotive-Grade Dual Operational Amplifier
+category: analog/opamp
+tags: [lm2904, lm2904n, lm2904d, op-amp, automotive, aec-q100, dual-opamp, analog, stmicroelectronics, ti, dip-8]
+status: published
+summary: >-
+  STMicroelectronics / Texas Instruments automotive-qualified (AEC-Q100) dual operational amplifier operating from -40°C to +125°C ambient temperature.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: STMicroelectronics / Texas Instruments / ON Semiconductor
+  ic_part_numbers: [LM2904, LM2904N, LM2904D, LM2904DT, LM2904WYDT, LM2904AVQDR]
+  package: 8-pin PDIP / SOIC-8 / TSSOP-8
+  opamp_channels: 2
+  supply_voltage_v_min: 3.0
+  supply_voltage_v_max: 26.0
+  gain_bandwidth_mhz: 1.1
+  slew_rate_v_us: 0.6
+  quiescent_current_ma: 0.7
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Dual Op-Amp Terminals (1IN+, 1IN-, 1OUT, 2IN+, 2IN-, 2OUT)]
+highlights:
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - quiescent_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/lm2904.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/amplifiers-and-comparators/lm2904.html" }

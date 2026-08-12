@@ -1,0 +1,41 @@
+id: transistor.bjt.2n2907
+revision: "1.0"
+title: 2N2907 — PNP General Purpose Bipolar Junction Transistor
+category: transistors/bjt
+tags: [2n2907, 2n2907a, pn2907, bjt, pnp, transistor, "60v", "600ma", to-92, to-18, onsemi, switching, high-speed]
+status: published
+summary: >-
+  ON Semiconductor / Microchip general-purpose PNP silicon BJT in TO-92 (PN2907) or TO-18 metal can package, complementary to 2N2222, rated for 60V VCEO and 600mA collector current.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: ON Semiconductor / Microchip / STMicroelectronics
+  ic_part_numbers: [2N2907, 2N2907A, PN2907, MMBT2907A]
+  package: TO-92 / TO-18 / SOT-23
+  transistor_type: PNP BJT
+  collector_emitter_voltage_vceo_v: -60
+  collector_base_voltage_vcbo_v: -60
+  emitter_base_voltage_vebo_v: -5.0
+  continuous_collector_current_ic_ma: -600
+  pulsed_collector_current_ic_ma: -1000
+  dc_current_gain_hfe: 100 to 300 (at IC = -150mA)
+  transition_frequency_ft_mhz: 200.0
+  collector_saturation_voltage_vce_sat_mv: -400
+  total_power_dissipation_mw: 625
+  operating_temp_min_c: -65
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base BJT Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe
+  - transition_frequency_ft_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/p2n2907a-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discretes-drivers/bipolar-transistors/2n2907a" }

@@ -1,0 +1,38 @@
+id: driver.led.xl6001
+revision: "1.0"
+title: XL6001 — 60V 4A Switching Constant-Current LED Driver
+category: drivers/led
+tags: [xl6001, xl6001e1, xlsemi, led-driver, boost-led, buck-boost-led, 60v, 4a, constant-current, to-263-5, ddpak]
+status: published
+summary: >-
+  XLSEMI 220kHz 60V 4A switching constant-current LED driver IC with 220mV low-loss feedback reference for high-power LED spotlight and solar lighting builds.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: XLSEMI (Shanghai XLSEMI Semiconductor)
+  ic_part_numbers: [XL6001, XL6001E1]
+  package: TO-263-5L (DDPAK) / SOP-8L
+  supply_voltage_min_v: 5.0
+  supply_voltage_max_v: 32.0
+  output_switch_voltage_max_v: 60.0
+  switch_current_limit_a: 4.0
+  feedback_reference_voltage_mv: 220
+  switching_frequency_khz: 220
+  efficiency_pct: 93
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Supply Input VIN, Switch Terminal SW, Ground GND, Feedback Sense FB, Enable Pin EN]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_switch_voltage_max_v
+  - switch_current_limit_a
+  - switching_frequency_khz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "http://www.xlsemi.com/datasheet/XL6001%20datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.xlsemi.com/product.html" }

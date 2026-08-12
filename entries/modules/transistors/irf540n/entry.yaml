@@ -1,0 +1,40 @@
+id: transistor.mosfet.irf540n
+revision: "1.0"
+title: IRF540N — N-Channel Power HEXFET MOSFET
+category: transistors/mosfet
+tags: [irf540n, irf540, mosfet, n-channel, power-mosfet, "100v", "33a", to-220, infineon, hexfet, motor-driver, switching]
+status: published
+summary: >-
+  Infineon (International Rectifier) 100V, 33A N-channel power HEXFET MOSFET in TO-220AB package featuring ultra-low 44mΩ on-resistance for high-power DC motor control, solenoids, and power switching.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Infineon Technologies / International Rectifier
+  ic_part_numbers: [IRF540N, IRF540NPBF]
+  package: TO-220AB
+  transistor_type: N-Channel Power MOSFET
+  drain_source_voltage_vdss_v: 100
+  continuous_drain_current_id_a: 33.0
+  pulsed_drain_current_id_a: 110.0
+  gate_threshold_voltage_vgs_th_min_v: 2.0
+  gate_threshold_voltage_vgs_th_max_v: 4.0
+  rds_on_vgs_10v_mohm: 44.0
+  total_power_dissipation_w: 130.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [Standard 10V Gate Drive Recommended (Requires Gate Driver for 3.3V/5V MCUs)]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_10v_mohm
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/Infineon-IRF540N-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015355e396cb199f" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/irf540n/" }

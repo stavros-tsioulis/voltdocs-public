@@ -1,0 +1,42 @@
+id: transistor.mosfet.ao3400
+revision: "1.0"
+title: AO3400 — N-Channel Logic-Level Enhancement Mode MOSFET (SOT-23)
+category: transistors/mosfet
+tags: [ao3400, ao3400a, mosfet, n-channel, logic-level, "30v", "5.7a", sot-23, alpha-and-omega, low-rdson, smd, load-switch]
+status: published
+summary: >-
+  Alpha & Omega Semiconductor ultra-low RDS(on) (28mΩ) N-channel logic-level MOSFET in SOT-23 package, supporting 30V VDS and up to 5.7A drain current for compact power switching.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Alpha & Omega Semiconductor
+  ic_part_numbers: [AO3400, AO3400A]
+  package: SOT-23 (3-pin SMD)
+  transistor_type: N-Channel Logic-Level MOSFET
+  drain_source_voltage_vdss_v: 30
+  continuous_drain_current_id_a: 5.7
+  pulsed_drain_current_id_a: 30.0
+  gate_threshold_voltage_vgs_th_min_v: 0.6
+  gate_threshold_voltage_vgs_th_max_v: 1.5
+  rds_on_vgs_10v_mohm: 28.0
+  rds_on_vgs_4.5v_mohm: 33.0
+  rds_on_vgs_2.5v_mohm: 52.0
+  total_power_dissipation_w: 1.4
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Sub-1.8V to 10V Gate Drive Compatible]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_4.5v_mohm
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "http://www.aosmd.com/res/data_sheets/AO3400A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.aosmd.com/products/mosfets/n-channel/AO3400A" }

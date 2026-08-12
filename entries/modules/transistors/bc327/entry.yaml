@@ -1,0 +1,41 @@
+id: transistor.bjt.bc327
+revision: "1.0"
+title: BC327 — PNP General Purpose Bipolar Junction Transistor
+category: transistors/bjt
+tags: [bc327, bc327-40, bc327-25, bjt, pnp, transistor, "-45v", "-800ma", to-92, onsemi, nexperia, high-side, driver]
+status: published
+summary: >-
+  ON Semiconductor / Nexperia general-purpose PNP silicon BJT in TO-92 package rated for -45V VCEO and -800mA collector current, complementary to BC337 for high-side switching and audio output stages.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: ON Semiconductor / Nexperia / STMicroelectronics
+  ic_part_numbers: [BC327, BC327-16, BC327-25, BC327-40]
+  package: TO-92
+  transistor_type: PNP BJT
+  collector_emitter_voltage_vceo_v: -45
+  collector_base_voltage_vcbo_v: -50
+  emitter_base_voltage_vebo_v: -5.0
+  continuous_collector_current_ic_ma: -800
+  pulsed_collector_current_ic_ma: -1000
+  dc_current_gain_hfe: "100 to 630 (Rank -40: 250-630)"
+  transition_frequency_ft_mhz: 100.0
+  collector_saturation_voltage_vce_sat_mv: -700
+  total_power_dissipation_mw: 625
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base BJT Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe
+  - transition_frequency_ft_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/bc327-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discretes-drivers/bipolar-transistors/bc327" }

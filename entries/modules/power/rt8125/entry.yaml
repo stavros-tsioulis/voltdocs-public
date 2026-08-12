@@ -1,0 +1,38 @@
+id: power.regulator.rt8125
+revision: "1.0"
+title: RT8125 — Synchronous Buck Step-Down PWM Controller
+category: power/regulators
+tags: [rt8125, rt8125a, rt8125b, richtek, buck-controller, synchronous-buck, step-down, pwm-controller, wdfn-10, sop-8]
+status: published
+summary: >-
+  Richtek single-phase 300kHz synchronous buck step-down PWM controller IC with dual N-channel MOSFET gate drivers and 0.8V reference for high-efficiency DC-DC converters.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Richtek Technology
+  ic_part_numbers: [RT8125, RT8125A, RT8125B, RT8125AGQW, RT8125BGQW]
+  package: WDFN-10L (3 x 3 mm) / SOP-8
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 13.2
+  output_voltage_min_v: 0.8
+  switching_frequency_khz: 300
+  reference_voltage_v: 0.8
+  gate_driver_type: Dual N-Channel MOSFET Gate Drivers (High-Side UGATE & Low-Side LGATE)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Supply Inputs VCC & PVCC, High-Side Gate UGATE, Low-Side Gate LGATE, Phase Node PHASE, Feedback FB, Enable EN, Bootstrapped Drive BOOT]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_voltage_min_v
+  - switching_frequency_khz
+  - reference_voltage_v
+  - gate_driver_type
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.richtek.com/assets/product_file/RT8125A~RT8125B/DS8125AB-04.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.richtek.com/Products/Switching%20Regulators/DC_DC%20Controller/RT8125A" }

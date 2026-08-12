@@ -1,0 +1,47 @@
+id: module.wireless.esp32-s3-wroom-1
+revision: "1.0"
+title: ESP32-S3-WROOM-1 — Wi-Fi + Bluetooth 5 (LE) MCU Module with Vector Instructions
+category: wireless/wifi
+tags: [esp32-s3, esp32-s3-wroom-1, wifi, bluetooth, ble, espressif, xtensa, dual-core, ai, vector-instructions, usb-otg, iot]
+status: published
+summary: >-
+  Espressif Systems powerful dual-core 32-bit Xtensa LX7 Wi-Fi + Bluetooth 5 (LE) MCU module running at 240MHz with AI vector instructions, USB 2.0 OTG, 4MB to 16MB Flash, and optional PSRAM.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Espressif Systems
+  ic_part_numbers: [ESP32-S3-WROOM-1, ESP32-S3-WROOM-1-N4, ESP32-S3-WROOM-1-N8R8, ESP32-S3-WROOM-1-N16R8]
+  package: 41-pin SMD module (18 x 25.5 mm) / ESP32-S3-DevKitC-1
+  core: Dual-Core 32-bit Xtensa LX7 with Vector Instructions
+  max_clock_speed_mhz: 240
+  sram_memory_kb: 512
+  rom_memory_kb: 384
+  flash_memory_bytes: 4194304
+  external_psram_bytes: 8388608
+  operating_voltage_min_v: 3.0
+  operating_voltage_max_v: 3.6
+  wifi_standards: 802.11 b/g/n (2.4 GHz)
+  bluetooth_version: "Bluetooth 5.0 LE and Bluetooth Mesh"
+  gpio_count: 36
+  adc_channels: 20 (12-bit resolution)
+  interfaces: [Wi-Fi 802.11 b/g/n, BLE 5.0, USB 2.0 OTG, DVP Camera, LCD, 4x SPI, 2x I2C, 3x UART, 2x I2S, SD/MMC]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - sram_memory_kb
+  - flash_memory_bytes
+  - external_psram_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - wifi_standards
+  - bluetooth_version
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_esp32-s3-wroom-1u_datasheet_en.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.espressif.com/en/products/modules/esp32-s3" }

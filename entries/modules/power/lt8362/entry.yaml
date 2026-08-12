@@ -1,0 +1,39 @@
+id: power.regulator.lt8362
+revision: "1.0"
+title: LT8362 — Low EMI Boost/SEPIC/Inverting DC-DC Converter (60V, 2A)
+category: power/regulators
+tags: [lt8362, lt8362emse, lt8362hdd, analog-devices, linear-technology, boost, sepic, inverting, 60v, 2a, silent-switcher, low-emi]
+status: published
+summary: >-
+  Analog Devices (Linear Technology) 60V, 2A low-EMI Silent Switcher boost/SEPIC/inverting DC-DC converter IC with 9uA quiescent current and 2.0MHz programmable switching frequency.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Analog Devices (Linear Technology)
+  ic_part_numbers: [LT8362, LT8362EMSE, LT8362HMSE, LT8362HDD]
+  package: 16-lead MSOP (Thermally Enhanced) / 10-lead DFN (3 x 3 mm)
+  supply_voltage_min_v: 2.8
+  supply_voltage_max_v: 60.0
+  output_voltage_max_v: 60.0
+  switch_current_limit_a: 2.0
+  quiescent_current_ua: 9
+  programmable_frequency_mhz: 0.3 to 2.0
+  supported_topologies: [Boost, SEPIC, Inverting (Negative Voltage Output)]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 150
+  interfaces: [Supply Input VIN, Switch Terminal SW, Feedback Pin FB, Enable/UVLO Pin EN/UVLO, Frequency Sync Pin SYNC/MODE]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_voltage_max_v
+  - switch_current_limit_a
+  - quiescent_current_ua
+  - supported_topologies
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/LT8362.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/lt8362.html" }

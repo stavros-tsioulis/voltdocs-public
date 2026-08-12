@@ -1,0 +1,37 @@
+id: interface.logic.74hc165
+revision: "1.0"
+title: 74HC165 — 8-Bit Parallel-In / Serial-Out Shift Register
+category: interface/logic
+tags: ["74hc165", sn74hc165, shift-register, parallel-in-serial-out, piso, gpio-expander, cmos, texas-instruments, nexperia, dip-16]
+status: published
+summary: >-
+  High-speed CMOS IC containing an 8-bit parallel-load shift register for reading up to 8 digital inputs or push-buttons into a microcontroller using only 3 SPI/GPIO lines.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC165, SN74HC165N, 74HC165D, 74HCT165]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  parallel_input_bits: 8 (Inputs A-H / D0-D7)
+  propagation_delay_ns: 15
+  output_drive_current_ma: 5.2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [8-Bit Parallel Load Inputs, Serial Output Q7 and /Q7, Cascading Serial Input SER]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - parallel_input_bits
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc165a.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC165A" }

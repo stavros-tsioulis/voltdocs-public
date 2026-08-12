@@ -1,0 +1,41 @@
+id: power.ldo.lt1963a-3.3
+revision: "1.0"
+title: LT1963A-3.3 — 1.5A Low-Noise Fast Transient Response LDO Regulator
+category: power/ldo
+tags: [lt1963a, lt1963a-3.3, ldo, regulator, linear-regulator, low-noise, 3.3v, analog-devices, linear-technology, to-263]
+status: published
+summary: >-
+  Analog Devices 1.5A low-noise (40µVrms), fast transient response 3.3V fixed low dropout (LDO) linear regulator for high-speed RF, ADC, and audio power rails.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Analog Devices / Linear Technology
+  ic_part_numbers: [LT1963A-3.3, LT1963EQ-3.3, LT1963ET-3.3, LT1963EST-3.3]
+  package: TO-263-5 (DDPAK-5) / SOT-223 / TO-220-5 / SOIC-8 EP
+  regulator_type: Low-Dropout Linear Voltage Regulator (LDO)
+  input_voltage_v_min: 3.8
+  input_voltage_v_max: 20.0
+  output_voltage_v_fixed: 3.3
+  output_current_a_max: 1.5
+  dropout_voltage_mv: 340
+  output_noise_uvrms: 40
+  quiescent_current_ma: 1.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [DC Input (IN), Fixed 3.3V Output (OUT), ~SHDN~, SENSE]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_fixed
+  - output_current_a_max
+  - dropout_voltage_mv
+  - output_noise_uvrms
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/1963fc.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/lt1963a.html" }

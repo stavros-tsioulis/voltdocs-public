@@ -1,0 +1,39 @@
+id: driver.led.mbi6651
+revision: "1.0"
+title: MBI6651 — 36V 1.2A Step-Down Constant-Current LED Driver
+category: drivers/led
+tags: [mbi6651, mbi6651gsd, macroblock, led-driver, buck-led, constant-current, 36v, 1.2a, sot-23-6, to-252-5]
+status: published
+summary: >-
+  Macroblock 36V 1.2A step-down constant-current LED driver IC featuring high-side current sensing with 100mV reference voltage and PWM/analog dimming.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Macroblock
+  ic_part_numbers: [MBI6651, MBI6651GSD]
+  package: SOT-23-6 / TO-252-5 / SOP-8
+  supply_voltage_min_v: 9.0
+  supply_voltage_max_v: 36.0
+  output_current_max_a: 1.2
+  current_sense_voltage_mv: 100
+  switching_frequency_mhz: 1.0
+  efficiency_pct: 96
+  dimming_support: PWM Dimming & DC Analog Voltage Dimming via DIM Pin
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Supply Input VIN, Switch Output SW, Current Sense SEN, Dimming Input DIM, Ground GND]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_current_max_a
+  - current_sense_voltage_mv
+  - efficiency_pct
+  - dimming_support
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.mblock.com.tw/upload/MBI6651_V1.03-EN.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.mblock.com.tw/product.php?i=53" }

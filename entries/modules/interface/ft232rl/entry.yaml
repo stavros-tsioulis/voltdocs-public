@@ -1,0 +1,40 @@
+id: interface.usb.ft232rl
+revision: "1.0"
+title: FT232RL — USB 2.0 to Full-Handshake UART Interface IC
+category: interface/usb
+tags: [ft232rl, ft232, ftdi, usb, uart, serial-bridge, usb-to-serial, ssop-28, internal-eeprom]
+status: published
+summary: >-
+  FTDI industry-standard USB 2.0 Full-Speed to UART interface IC with integrated clock generator, 128-byte EEPROM, and full modem handshake lines.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: FTDI (Future Technology Devices International)
+  ic_part_numbers: [FT232RL, FT232RL-REEL, FT232RQ]
+  package: 28-pin SSOP / 32-pin QFN
+  supply_voltage_min_v: 3.3
+  supply_voltage_max_v: 5.25
+  integrated_ldo_output_v: 3.3
+  usb_version: USB 2.0 Full-Speed (12 Mbps)
+  max_baud_rate_bps: 3000000
+  tx_rx_buffer_bytes: 256
+  internal_eeprom_bytes: 128
+  clock_source: Integrated Internal FTDIChip-Synthesis Clock (No external crystal required)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [USB 2.0 Full-Speed D+/D- Bus, Full Modem Control UART (TXD, RXD, RTS, CTS, DTR, DSR, DCD, RI), CBUS Configurable GPIO Pins]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - usb_version
+  - max_baud_rate_bps
+  - internal_eeprom_bytes
+  - clock_source
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232R.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://ftdichip.com/products/ft232rl/" }

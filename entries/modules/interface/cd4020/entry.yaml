@@ -1,0 +1,36 @@
+id: interface.counter.cd4020
+revision: "1.0"
+title: CD4020 — 14-Stage Binary Ripple Counter / Divider
+category: interface/counter
+tags: [cd4020, cd4020b, hef4020b, 74hc4020, counter, binary-counter, 14-stage, ripple-counter, frequency-divider, ti, dip-16]
+status: published
+summary: >-
+  Texas Instruments 14-stage binary ripple counter and frequency divider IC dividing input clock frequencies by up to 16,384 across 12 buffered stage outputs.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4020, CD4020B, HEF4020B, 74HC4020]
+  package: 16-pin DIP / SOIC-16
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  divider_stages: 14 Stages (Divide by up to 16,384)
+  clock_trigger: Negative-Edge Triggered (/CLK)
+  max_clock_frequency_mhz: 12.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [Negative-Edge Clock Input /CLK, Active-HIGH Master Reset RESET, 12x Stage Outputs Q1 & Q4-Q14]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - divider_stages
+  - clock_trigger
+  - max_clock_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4020b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4020B" }

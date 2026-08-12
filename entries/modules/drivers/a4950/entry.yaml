@@ -1,0 +1,38 @@
+id: driver.motor.a4950
+revision: "1.0"
+title: A4950 — 3.5A 40V Full-Bridge DMOS PWM Motor Driver
+category: drivers/motor
+tags: [a4950, a4950elptr-t, motor-driver, h-bridge, full-bridge, dc-motor, pwm, allegro, pololu, soic-8]
+status: published
+summary: >-
+  Allegro MicroSystems 3.5A peak 40V full-bridge DMOS PWM motor driver IC with internal current limiting and overcurrent protection.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Allegro MicroSystems
+  ic_part_numbers: [A4950, A4950ELPTR-T, A4950KLPTR-T]
+  package: SOIC-8 EP (Exposed Thermal Pad) / Pololu A4950 Carrier
+  driver_type: Full-Bridge DMOS PWM Motor Driver
+  motor_type: Brushed DC Motor / Solenoid
+  supply_voltage_min_v: 8.0
+  supply_voltage_max_v: 40.0
+  peak_output_current_a: 3.5
+  rds_on_ohm: 0.3
+  operating_temp_min_c: -40
+  operating_temp_max_c: 105
+  interfaces: [Dual PWM Inputs (IN1, IN2), Dual Outputs (OUT1, OUT2), VREF, ISEN]
+highlights:
+  - driver_type
+  - motor_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - peak_output_current_a
+  - rds_on_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.allegromicro.com/-/media/files/datasheets/a4950-datasheet.ashx" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.allegromicro.com/en/products/motor-drivers/bushed-dc-motor-drivers/a4950" }

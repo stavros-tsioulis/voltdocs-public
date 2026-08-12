@@ -1,0 +1,38 @@
+id: driver.led.cn7511
+revision: "1.0"
+title: CN7511 — 1.5A Dimmable Buck Constant-Current LED Driver
+category: drivers/led
+tags: [cn7511, consonance, led-driver, buck-led, constant-current, 30v, 1.5a, pwm-dimming, sop-8]
+status: published
+summary: >-
+  Consonance Electronics 1.5A step-down constant-current LED driver IC operating from 6V to 30V DC with 100mV low-loss sense voltage and PWM/analog dimming.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Consonance Electronics
+  ic_part_numbers: [CN7511]
+  package: SOP-8 (SOP-8-EP)
+  supply_voltage_min_v: 6.0
+  supply_voltage_max_v: 30.0
+  output_current_max_a: 1.5
+  current_sense_voltage_mv: 100
+  efficiency_pct: 95
+  dimming_support: High-Frequency PWM Dimming & DC Analog Voltage Dimming
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Supply Input VIN, Switch Output SW, Current Sense CS, Enable/Dimming Input EN]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_current_max_a
+  - current_sense_voltage_mv
+  - efficiency_pct
+  - dimming_support
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "http://www.consonance-elec.com/pdf/datasheet/CN7511.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.consonance-elec.com/product_detail.php?id=38" }

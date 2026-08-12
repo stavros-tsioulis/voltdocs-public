@@ -1,0 +1,36 @@
+id: interface.switch.cd4066
+revision: "1.0"
+title: CD4066 — Quad Bilateral Analog Switch
+category: interface/switch
+tags: [cd4066, cd4066b, hef4066b, 74hc4066, analog-switch, bilateral-switch, spst, ti, dip-14, audio-switch]
+status: published
+summary: >-
+  Texas Instruments quad bilateral analog switch IC featuring four independent SPST CMOS switches with low 80Ω on-resistance for analog and digital signal routing.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4066, CD4066B, HEF4066B, 74HC4066]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  switches_count: 4 Independent SPST Bilateral Switches
+  on_state_resistance_ohm: 80
+  bandwidth_mhz: 40.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [4x Independent Bilateral Analog Signal Terminals (IN/OUT A-D), 4x Active-HIGH Digital Control Inputs (CONTROL A-D)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - switches_count
+  - on_state_resistance_ohm
+  - bandwidth_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4066b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4066B" }

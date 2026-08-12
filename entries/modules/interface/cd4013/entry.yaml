@@ -1,0 +1,37 @@
+id: interface.logic.cd4013
+revision: "1.0"
+title: CD4013 — CMOS Dual D-Type Flip-Flop with Set and Reset
+category: interface/logic
+tags: [cd4013, cd4013b, cd4013be, flip-flop, d-flip-flop, dual-flip-flop, latch, toggle-switch, cmos, 4000-series, ti, dip-14]
+status: published
+summary: >-
+  High-voltage CMOS dual D-type flip-flop IC featuring independent Set and Reset inputs, complementary outputs (Q and ~Q), and 3V to 18V supply range.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4013, CD4013B, CD4013BE, CD4013BM, HEF4013B]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  logic_family: High-Voltage CMOS (4000B Series)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  flip_flop_count: 2
+  propagation_delay_ns: 65
+  max_clock_frequency_mhz: 12
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [Dual D Flip-Flops (D, CLK, SET, RESET, Q, ~Q)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - flip_flop_count
+  - propagation_delay_ns
+  - max_clock_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4013b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4013B" }

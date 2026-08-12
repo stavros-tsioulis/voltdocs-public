@@ -1,0 +1,35 @@
+id: analog.ota.lm13700
+revision: "1.0"
+title: LM13700 — Dual Operational Transconductance Amplifier (OTA)
+category: analog/ota
+tags: [lm13700, lm13700n, lm13700m, ota, transconductance, vca, vcf, vco, synthesizer, analog-audio, ti, dip-16]
+status: published
+summary: >-
+  Texas Instruments dual operational transconductance amplifier (OTA) with linearizing input diodes and output buffers for synthesizer VCAs, VCFs, and voltage-controlled amplifiers.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / National Semiconductor
+  ic_part_numbers: [LM13700, LM13700N, LM13700M, LM13700MX]
+  package: 16-pin PDIP / SOIC-16
+  ota_channels: 2
+  supply_voltage_v_min: 9.5
+  supply_voltage_v_max: 36.0
+  transconductance_us_max: 10000
+  bias_current_max_ma: 2.0
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Dual OTA Inputs (+IN, -IN, I_ABC), Linearizing Diode Bias, Dual Output Buffers]
+highlights:
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - transconductance_us_max
+  - bias_current_max_ma
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm13700.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM13700" }

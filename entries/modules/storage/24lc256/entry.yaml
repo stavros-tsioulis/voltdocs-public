@@ -1,0 +1,42 @@
+id: storage.eeprom.24lc256
+revision: "1.0"
+title: 24LC256 — 256-Kbit (32KB) I2C Serial EEPROM
+category: storage/eeprom
+tags: [24lc256, 24lc256-i/p, 24lc256-i/sn, eeprom, i2c, non-volatile, storage, 32kb, microchip, dip-8]
+status: published
+summary: >-
+  Microchip 256-Kbit (32K x 8) I2C non-volatile serial EEPROM IC with 400kHz Fast-mode I2C, 64-byte page write, and 1,000,000 write cycle endurance.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [24LC256, 24LC256-I/P, 24LC256-I/SN, 24AA256, 24FC256]
+  package: 8-pin PDIP / SOIC-8 / TSSOP-8
+  supply_voltage_min_v: 2.5
+  supply_voltage_max_v: 5.5
+  capacity_kbit: 256
+  capacity_kbyte: 32
+  i2c_clock_max_khz: 400
+  page_write_size_bytes: 64
+  write_cycle_time_ms: 5.0
+  endurance_cycles: 1000000
+  data_retention_years: 200
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C (SDA, SCL), Hardware Address (A0, A1, A2), Write Protect (WP)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - capacity_kbit
+  - capacity_kbyte
+  - i2c_clock_max_khz
+  - endurance_cycles
+  - data_retention_years
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/21203R.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/24LC256" }

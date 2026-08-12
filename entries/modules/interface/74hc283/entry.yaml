@@ -1,0 +1,38 @@
+id: interface.logic.74hc283
+revision: "1.0"
+title: 74HC283 — 4-Bit Binary Full Adder with Fast Carry
+category: interface/logic
+tags: ["74hc283", sn74hc283, adder, binary-adder, 4-bit, arithmetic, cmos, texas-instruments, nexperia, dip-16]
+status: published
+summary: >-
+  High-speed CMOS 4-bit binary full adder IC calculating the arithmetic sum of two 4-bit numbers and carry-in, featuring fast internal look-ahead carry generation.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC283, SN74HC283N, 74HC283D, 74HCT283]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: High-Speed CMOS (74HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  operand_bits: 4 (Inputs A1-A4 and B1-B4)
+  sum_output_bits: 4 (Outputs S1-S4)
+  propagation_delay_ns: 16
+  output_drive_current_ma: 5.2
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [4-Bit Operand A Inputs, 4-Bit Operand B Inputs, Carry Input C0, 4-Bit Sum Outputs S1-S4, Carry Output C4]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - operand_bits
+  - sum_output_bits
+  - propagation_delay_ns
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc283.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC283" }

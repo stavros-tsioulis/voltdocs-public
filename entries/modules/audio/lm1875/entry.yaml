@@ -1,0 +1,42 @@
+id: audio.amplifier.lm1875
+revision: "1.0"
+title: LM1875 — 20W Monolithic Hi-Fi Audio Power Amplifier
+category: audio/amplifier
+tags: [lm1875, lm1875t, audio-amplifier, power-amplifier, 20w, hi-fi, gainclone, texas-instruments, to-220-5, pentawatt]
+status: published
+summary: >-
+  Texas Instruments 20W monolithic high-fidelity audio power amplifier IC delivering 0.015% THD into 4-ohm or 8-ohm loads with thermal shutdown and short-circuit protection.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments (National Semiconductor)
+  ic_part_numbers: [LM1875, LM1875T, LM1875T/NOPB]
+  package: 5-lead TO-220 (TO-220-5 Pentawatt)
+  supply_voltage_split_v_min: 8.0
+  supply_voltage_split_v_max: 30.0
+  supply_voltage_single_v_min: 16.0
+  supply_voltage_single_v_max: 60.0
+  output_power_rms_w: 20
+  load_impedance_ohm: 4 to 8
+  thd_pct: 0.015
+  open_loop_gain_db: 90
+  gain_bandwidth_product_mhz: 5.5
+  quiescent_current_ma: 70
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Non-Inverting Input (+IN), Inverting Input (-IN), Single or Split Power Supply Inputs, Speaker Output OUT]
+highlights:
+  - supply_voltage_split_v_min
+  - supply_voltage_split_v_max
+  - output_power_rms_w
+  - load_impedance_ohm
+  - thd_pct
+  - open_loop_gain_db
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm1875.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM1875" }

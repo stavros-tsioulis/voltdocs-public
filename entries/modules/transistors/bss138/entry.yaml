@@ -1,0 +1,41 @@
+id: transistor.mosfet.bss138
+revision: "1.0"
+title: BSS138 — N-Channel Logic-Level Enhancement Mode MOSFET (SOT-23)
+category: transistors/mosfet
+tags: [bss138, mosfet, n-channel, logic-level, "50v", "220ma", sot-23, onsemi, level-shift, i2c, smd]
+status: published
+summary: >-
+  ON Semiconductor / Fairchild low-threshold N-channel logic-level MOSFET in SOT-23 package, widely used in bidirectional 3.3V to 5V I2C logic level shifter breakout boards.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: ON Semiconductor / Fairchild / Diodes Incorporated
+  ic_part_numbers: [BSS138, BSS138LT1G, BSS138TA, BSS138W]
+  package: SOT-23 (3-pin SMD)
+  transistor_type: N-Channel Logic-Level MOSFET
+  drain_source_voltage_vdss_v: 50
+  continuous_drain_current_id_ma: 220
+  pulsed_drain_current_id_ma: 880
+  gate_threshold_voltage_vgs_th_min_v: 0.8
+  gate_threshold_voltage_vgs_th_max_v: 1.5
+  rds_on_vgs_10v_ohm: 3.5
+  rds_on_vgs_4.5v_ohm: 6.0
+  total_power_dissipation_mw: 360
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Bidirectional I2C Level Shifter Compatible]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_ma
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_4.5v_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/bss138-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discretes-drivers/mosfets/bss138" }

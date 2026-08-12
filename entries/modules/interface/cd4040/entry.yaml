@@ -1,0 +1,36 @@
+id: interface.counter.cd4040
+revision: "1.0"
+title: CD4040 — 12-Stage Binary Ripple Counter / Divider
+category: interface/counter
+tags: [cd4040, cd4040b, hef4040b, 74hc4040, counter, binary-counter, 12-stage, ripple-counter, frequency-divider, ti, dip-16]
+status: published
+summary: >-
+  Texas Instruments 12-stage binary ripple counter and frequency divider IC with all 12 stage outputs (Q1 to Q12) available on external pins for division ratios up to 4,096.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4040, CD4040B, HEF4040B, 74HC4040]
+  package: 16-pin DIP / SOIC-16
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  divider_stages: 12 Stages (Divide by up to 4,096)
+  clock_trigger: Negative-Edge Triggered (/CLK)
+  max_clock_frequency_mhz: 12.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [Negative-Edge Clock Input /CLK, Active-HIGH Master Reset RESET, All 12x Stage Outputs Q1-Q12]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - divider_stages
+  - clock_trigger
+  - max_clock_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4040b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4040B" }

@@ -1,0 +1,38 @@
+id: driver.led.ncl30100
+revision: "1.0"
+title: NCL30100 — 70V High-Side Buck Constant-Current LED Driver
+category: drivers/led
+tags: [ncl30100, ncl30100snt1g, onsemi, led-driver, buck-led, 70v, high-voltage, constant-current, tsot-23-5]
+status: published
+summary: >-
+  ON Semiconductor 70V peak current-controlled step-down constant-current LED driver IC in TSOT-23-5 package for high-voltage industrial and automotive LED lighting.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: ON Semiconductor
+  ic_part_numbers: [NCL30100, NCL30100SNT1G]
+  package: TSOT-23 5-lead (SOT-23-5)
+  supply_voltage_min_v: 6.0
+  supply_voltage_max_v: 70.0
+  switch_voltage_max_v: 70.0
+  control_architecture: Hysteretic / Constant Off-Time Peak Current Control
+  efficiency_pct: 95
+  dimming_support: Dedicated PWM Dimming Input (PWM Pin)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Supply Input VIN, Switch Terminal SW, Current Sense CS, Dimming Input PWM, Ground GND]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - switch_voltage_max_v
+  - control_architecture
+  - efficiency_pct
+  - dimming_support
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/ncl30100-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/power-management/led-drivers/boost-led-drivers/ncl30100" }

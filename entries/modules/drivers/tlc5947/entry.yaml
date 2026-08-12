@@ -1,0 +1,40 @@
+id: driver.led.tlc5947
+revision: "1.0"
+title: TLC5947 — 24-Channel 12-Bit PWM Constant-Current LED Driver
+category: drivers/led
+tags: [tlc5947, tlc5947dap, led-driver, pwm, 12-bit, 24-channel, constant-current, texas-instruments, adafruit, htssop-32]
+status: published
+summary: >-
+  Texas Instruments 24-channel constant-current sink LED driver with 12-bit (4096-step) PWM grayscale control per channel, internal oscillator, and 30MHz serial interface.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TLC5947, TLC5947DAP, TLC5947RHBT]
+  package: 32-pin HTSSOP / 32-pin QFN
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 5.5
+  output_voltage_max_v: 30.0
+  led_channels: 24 (OUT0 to OUT23 Constant Current Sink Outputs)
+  pwm_resolution_bits: 12 (4096 Grayscale Steps per channel)
+  constant_current_range_ma: 2 to 30
+  serial_clock_frequency_mhz: 30
+  internal_oscillator_mhz: 4.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [4-Wire Serial Interface (SIN, SCLK, LAT, BLANK), Daisy-Chain Serial Output SOUT]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_voltage_max_v
+  - led_channels
+  - pwm_resolution_bits
+  - constant_current_range_ma
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tlc5947.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TLC5947" }

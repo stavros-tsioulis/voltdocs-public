@@ -1,0 +1,42 @@
+id: power.buck-boost.tps63000
+revision: "1.0"
+title: TPS63000 — High-Efficiency Single-Inductor Buck-Boost Converter
+category: power/buck-boost
+tags: [tps63000, tps63000drcr, ti, buck-boost, step-up-step-down, single-inductor, li-ion, vson-10]
+status: published
+summary: >-
+  Texas Instruments 1.8V-5.5V input single-inductor buck-boost converter delivering up to 1200mA at 96% efficiency for Li-Ion battery powered designs.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TPS63000, TPS63000DRCR, TPS63001, TPS63002]
+  package: VSON-10 (DRC / 3 x 3 mm)
+  regulator_type: Synchronous Single-Inductor Buck-Boost Converter
+  input_voltage_v_min: 1.8
+  input_voltage_v_max: 5.5
+  output_voltage_v_min: 1.2
+  output_voltage_v_max: 5.5
+  output_current_a_max: 1.2
+  switching_frequency_khz: 1500
+  efficiency_pct: 90 - 96
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [DC Input, DC Output, Dual Switch Nodes L1 & L2]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tps63000.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TPS63000" }

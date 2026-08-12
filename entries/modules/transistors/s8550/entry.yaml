@@ -1,0 +1,41 @@
+id: transistor.bjt.s8550
+revision: "1.0"
+title: S8550 — PNP Low-Voltage High-Current Bipolar Junction Transistor
+category: transistors/bjt
+tags: [s8550, ss8550, bjt, pnp, transistor, "-25v", "-700ma", to-92, mcc, generic, high-side, driver]
+status: published
+summary: >-
+  Micro Commercial Components / generic low-voltage high-current PNP silicon BJT in TO-92 package rated for -25V VCEO and -700mA collector current, complementary to S8050 in hobby starter kits.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Micro Commercial Components (MCC) / Generic
+  ic_part_numbers: [S8550, SS8550, S8550-D]
+  package: TO-92
+  transistor_type: PNP BJT
+  collector_emitter_voltage_vceo_v: -25
+  collector_base_voltage_vcbo_v: -40
+  emitter_base_voltage_vebo_v: -5.0
+  continuous_collector_current_ic_ma: -700
+  pulsed_collector_current_ic_ma: -1500
+  dc_current_gain_hfe: "120 to 400 (Rank D: 200-400)"
+  transition_frequency_ft_mhz: 150.0
+  collector_saturation_voltage_vce_sat_mv: -600
+  total_power_dissipation_mw: 625
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base BJT Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe
+  - transition_frequency_ft_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.mccsemi.com/pdf/Products/S8550(TO-92).pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.mccsemi.com/Product/Detail/S8550-TP" }

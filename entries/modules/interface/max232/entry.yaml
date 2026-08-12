@@ -1,0 +1,39 @@
+id: interface.serial.max232
+revision: "1.0"
+title: MAX232 — Dual RS-232 Line Driver / Receiver IC
+category: interface/serial
+tags: [max232, max232n, rs232, serial, uart, level-shifter, line-driver, maxim, texas-instruments, dip-16]
+status: published
+summary: >-
+  Texas Instruments / Maxim Integrated iconic dual RS-232 driver and receiver IC with internal capacitive charge pumps generating +10V/-10V rails from a single 5V DC supply.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / Maxim Integrated (Analog Devices)
+  ic_part_numbers: [MAX232, MAX232N, MAX232CPE, MAX232ID]
+  package: 16-pin DIP / SOIC-16
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  data_rate_kbps: 120
+  charge_pump_capacitors: 4x 1.0uF (or 0.1uF for MAX232A)
+  drivers_count: 2
+  receivers_count: 2
+  rs232_output_voltage_v: 9.0
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [2x TTL/CMOS UART Inputs to RS-232 ±9V Outputs, 2x RS-232 Inputs to TTL/CMOS Outputs]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - data_rate_kbps
+  - drivers_count
+  - receivers_count
+  - rs232_output_voltage_v
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/max232.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/MAX232" }

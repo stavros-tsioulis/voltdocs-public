@@ -1,0 +1,44 @@
+id: mcu.avr.atmega2560
+revision: "1.0"
+title: ATmega2560 — 8-Bit AVR Microcontroller with 256KB Flash
+category: mcu/avr
+tags: [atmega2560, avr, microchip, atmel, arduino, mega2560, mega, 8-bit, 16mhz, 256kb, tqfp-100]
+status: published
+summary: >-
+  Microchip (Atmel) high-performance 8-bit AVR RISC microcontroller featuring 256KB Flash, 8KB SRAM, 4KB EEPROM, 86 I/O lines, 4 USARTs, and 16-channel ADC, powering Arduino Mega 2560.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Microchip Technology / Atmel
+  ic_part_numbers: [ATmega2560, ATmega2560-16AU, ATmega2560-16CU]
+  package: 100-pin TQFP (14 x 14 mm) / 100-ball CBGA / Arduino Mega 2560 Board
+  core: 8-bit AVR RISC
+  max_clock_speed_mhz: 16
+  flash_memory_kb: 256
+  sram_memory_kb: 8
+  eeprom_memory_kb: 4
+  operating_voltage_min_v: 4.5
+  operating_voltage_max_v: 5.5
+  gpio_count: 86
+  pwm_channels: 15 (8-bit and 16-bit)
+  adc_channels: 16 (10-bit resolution)
+  interfaces: [4x USART, SPI, I2C/TWI, JTAG]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_kb
+  - eeprom_memory_kb
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega640-1280-1281-2560-2561-Datasheet-DS40002211A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/ATmega2560" }

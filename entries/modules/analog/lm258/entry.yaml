@@ -1,0 +1,37 @@
+id: analog.opamp.lm258
+revision: "1.0"
+title: LM258 — Industrial Dual Operational Amplifier
+category: analog/opamp
+tags: [lm258, lm258n, lm258d, op-amp, industrial, dual-opamp, analog, ti, stmicroelectronics, dip-8]
+status: published
+summary: >-
+  Texas Instruments industrial-grade dual operational amplifier operating from 3V to 32V across an extended -25°C to +85°C temperature range.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [LM258, LM258N, LM258D, LM258P, LM258DGK]
+  package: 8-pin PDIP / SOIC-8 / VSSOP-8
+  opamp_channels: 2
+  supply_voltage_v_min: 3.0
+  supply_voltage_v_max: 32.0
+  gain_bandwidth_mhz: 1.0
+  slew_rate_v_us: 0.5
+  quiescent_current_ma: 0.5
+  operating_temp_min_c: -25
+  operating_temp_max_c: 85
+  interfaces: [Dual Op-Amp Terminals (1IN+, 1IN-, 1OUT, 2IN+, 2IN-, 2OUT)]
+highlights:
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - quiescent_current_ma
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm258.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM258" }

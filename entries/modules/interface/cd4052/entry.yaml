@@ -1,0 +1,36 @@
+id: interface.mux.cd4052
+revision: "1.0"
+title: CD4052 — Dual 4-Channel Analog Multiplexer / Demultiplexer
+category: interface/mux
+tags: [cd4052, cd4052b, hef4052b, 74hc4052, multiplexer, demultiplexer, analog-switch, dual-4-channel, ti, dip-16]
+status: published
+summary: >-
+  Texas Instruments dual 4-channel analog multiplexer/demultiplexer IC independently routing one of four analog/digital signals on two channels (X and Y) using binary select inputs.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4052, CD4052B, HEF4052B, 74HC4052]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  mux_channels: Dual 4-Channel (2x 1-of-4 Mux/Demux)
+  on_state_resistance_ohm: 125
+  bandwidth_mhz: 60.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [Dual 4-Channel Analog Signal Terminals (0X-3X, 0Y-3Y), Common Signal Terminals X and Y, Binary Select Inputs A and B, Inhibit Control INH]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - mux_channels
+  - on_state_resistance_ohm
+  - bandwidth_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4052b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4052B" }

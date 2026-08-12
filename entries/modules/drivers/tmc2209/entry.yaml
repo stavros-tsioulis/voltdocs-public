@@ -1,0 +1,41 @@
+id: driver.stepper.tmc2209
+revision: "1.0"
+title: TMC2209 — Ultra-Silent Stepper Motor Driver with StallGuard4
+category: drivers/stepper
+tags: [tmc2209, tmc2209-la, trinamic, stepper-driver, stealthchop2, stallguard4, coolstep, silentstepstick, 3d-printer, sensorless-homing, uart]
+status: published
+summary: >-
+  Trinamic (Analog Devices) 28V, 2.0A RMS silent stepper driver IC with StallGuard4 sensorless homing, CoolStep energy efficiency, 256-microstep interpolation, and 4-address UART bus control.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Trinamic / Analog Devices
+  ic_part_numbers: [TMC2209, TMC2209-LA, SilentStepStick TMC2209]
+  package: 28-pin QFN (5 x 5 mm) / StepStick Breakout Module
+  motor_supply_voltage_min_v: 4.75
+  motor_supply_voltage_max_v: 28.0
+  logic_supply_voltage_min_v: 3.0
+  logic_supply_voltage_max_v: 5.25
+  phase_current_rms_a: 2.0
+  phase_current_peak_a: 2.8
+  microstep_native_resolutions: [1/1, 1/2, 1/4, 1/8, 1/16, 1/32, 1/64]
+  microstep_interpolated_resolution: 1/256 (MicroPlyer)
+  key_features: [StealthChop2 (Silent), StallGuard4 (Sensorless Homing), CoolStep, SpreadCycle]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [STEP/DIR Interface, Single-Wire UART with 4 Slave Addresses, DIAG Stall Output Pin]
+highlights:
+  - motor_supply_voltage_min_v
+  - motor_supply_voltage_max_v
+  - phase_current_rms_a
+  - phase_current_peak_a
+  - microstep_interpolated_resolution
+  - key_features
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V103.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/tmc2209.html" }

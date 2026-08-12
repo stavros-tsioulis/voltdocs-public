@@ -1,0 +1,41 @@
+id: mcu.arm.rp2350
+revision: "1.0"
+title: RP2350 — Dual-Core Cortex-M33 / Hazard3 RISC-V Microcontroller IC
+category: mcu/arm
+tags: [rp2350, raspberry-pi, pico-2, dual-core, cortex-m33, hazard3, riscv, pio, mcu, 150mhz, qfn-56, qfn-80, usb]
+status: published
+summary: >-
+  Raspberry Pi second-generation dual-architecture microcontroller IC featuring dual 150MHz ARM Cortex-M33 or dual Hazard3 RISC-V cores, 520KB SRAM, 12 PIO state machines, TrustZone security, and QSPI interface.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Raspberry Pi Ltd
+  ic_part_numbers: [RP2350, RP2350A, RP2350B, RP2354A, RP2354B]
+  package: 56-pin QFN (7 x 7 mm) / 80-pin QFN (10 x 10 mm) / Raspberry Pi Pico 2
+  core: Selectable Dual ARM Cortex-M33 or Dual Hazard3 RISC-V
+  max_clock_speed_mhz: 150
+  sram_memory_kb: 520 (10-bank SRAM)
+  external_flash_support: Up to 16MB via QSPI (Execute-In-Place / XIP)
+  operating_voltage_core_v: 1.1
+  operating_voltage_io_v: 3.3
+  gpio_count: 30 (RP2350A) / 48 (RP2350B)
+  pio_state_machines: 12 (3 PIO blocks x 4 state machines)
+  adc_channels: 4 (RP2350A) / 8 (RP2350B) (12-bit resolution)
+  interfaces: [USB 1.1 Host/Device, 2x UART, 2x SPI, 2x I2C, 24x PWM Channels, 12x PIO, HSTX]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - sram_memory_kb
+  - external_flash_support
+  - gpio_count
+  - pio_state_machines
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.raspberrypi.com/products/rp2350/" }

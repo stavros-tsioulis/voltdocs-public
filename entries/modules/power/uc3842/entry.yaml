@@ -1,0 +1,42 @@
+id: power.controller.uc3842
+revision: "1.0"
+title: UC3842 — Current-Mode PWM Controller (16V/10V UVLO)
+category: power/controller
+tags: [uc3842, uc3842n, uc3842b, pwm, controller, current-mode, smps, flyback, offline-power, ti, dip-8]
+status: published
+summary: >-
+  Texas Instruments current-mode PWM controller IC with 16V turn-on / 10V turn-off UVLO thresholds, 1A totem-pole MOSFET gate driver, and 500kHz max frequency for offline SMPS.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [UC3842, UC3842N, UC3842D, UC3842B, UC2842]
+  package: 8-pin PDIP / SOIC-8
+  controller_type: Current-Mode Fixed-Frequency PWM Controller
+  supply_voltage_min_v: 12.0
+  supply_voltage_max_v: 30.0
+  uvlo_turn_on_v: 16.0
+  uvlo_turn_off_v: 10.0
+  gate_output_current_a_peak: 1.0
+  max_duty_cycle_pct: 100
+  switching_frequency_khz: 500
+  reference_voltage_v: 5.0
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Gate Output, Current Sense ISENSE, Feedback VFB, Error Amp COMP, RT/CT]
+highlights:
+  - controller_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - uvlo_turn_on_v
+  - uvlo_turn_off_v
+  - gate_output_current_a_peak
+  - switching_frequency_khz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/uc3842.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/UC3842" }

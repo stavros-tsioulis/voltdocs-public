@@ -1,0 +1,42 @@
+id: power.battery-management.s-8254a
+revision: "1.0"
+title: S-8254A — 3-Series/4-Series Cell Li-Ion Battery Protection IC
+category: power/battery-management
+tags: [s-8254a, s-8254aa, ablic, seiko, battery-protection, bms, li-ion, 3s-4s, tssop-16]
+status: published
+summary: >-
+  ABLIC 3-series or 4-series cell lithium-ion / lithium-polymer battery protection IC with high-accuracy overcharge, overdischarge, and overcurrent detection.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: ABLIC (Seiko Instruments)
+  ic_part_numbers: [S-8254A, S-8254AA, S-8254AAGFT, S-8254AAJFT]
+  package: 16-Pin TSSOP
+  ic_type: Lithium-Ion Battery Protection Controller (3S/4S)
+  supply_voltage_v_min: 2.0
+  supply_voltage_v_max: 24.0
+  cell_count: 3 or 4 Series Cells
+  overcharge_voltage_v: 4.0 - 4.4
+  overdischarge_voltage_v: 2.0 - 3.0
+  operating_current_ua_max: 30.0
+  power_down_current_ua_max: 0.1
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Cell Monitor Pins VC1-VC4, Charge Gate COP, Discharge Gate DOP, Voltage Sense VMP]
+highlights:
+  - ic_type
+  - cell_count
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - overcharge_voltage_v
+  - overdischarge_voltage_v
+  - operating_current_ua_max
+  - power_down_current_ua_max
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ablic.com/en/doc/datasheet/battery_protection/S8254A_E.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ablic.com/en/semicon/products/power-management-ic/lithium-ion-battery-protection-ic/s-8254a/" }

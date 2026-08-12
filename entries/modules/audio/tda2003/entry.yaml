@@ -1,0 +1,38 @@
+id: audio.amplifier.tda2003
+revision: "1.0"
+title: TDA2003 — 10W Automotive Audio Power Amplifier
+category: audio/amplifier
+tags: [tda2003, tda2003v, tda2003h, audio-amplifier, power-amplifier, 10w, automotive, stmicroelectronics, pentawatt, 12v]
+status: published
+summary: >-
+  STMicroelectronics 10W automotive audio power amplifier IC operating from 8V to 18V single DC supply, designed for car radio and 12V battery-powered speaker amplifier builds.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [TDA2003, TDA2003V, TDA2003H]
+  package: 5-lead Pentawatt (TO-220-5)
+  supply_voltage_single_v_min: 8.0
+  supply_voltage_single_v_max: 18.0
+  output_power_rms_w: 10
+  peak_output_current_a: 3.5
+  load_impedance_ohm: 2 to 4
+  thd_pct: 0.15
+  quiescent_current_ma: 44
+  operating_temp_min_c: -40
+  operating_temp_max_c: 150
+  interfaces: [Non-Inverting Input (+IN), Inverting Input (-IN), Single DC Supply Vs, Ground GND, Speaker Output OUT]
+highlights:
+  - supply_voltage_single_v_min
+  - supply_voltage_single_v_max
+  - output_power_rms_w
+  - peak_output_current_a
+  - load_impedance_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/tda2003.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/audio-ics/tda2003.html" }

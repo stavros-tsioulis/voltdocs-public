@@ -1,0 +1,42 @@
+id: power.buck.tps5430
+revision: "1.0"
+title: TPS5430 — 3A 500kHz 36V Step-Down (Buck) Converter
+category: power/buck
+tags: [tps5430, tps5430dda, ti, swift, buck, step-down, regulator, switching, power, 3a, 500khz, powerpad]
+status: published
+summary: >-
+  Texas Instruments 3A 500kHz step-down switching regulator (Swift family) with integrated 110mΩ MOSFET and wide 5.5V to 36V input range.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TPS5430, TPS5430DDA, TPS5430DDAR]
+  package: SO PowerPAD-8 (DDA)
+  regulator_type: Step-Down (Buck) DC-DC Switching Regulator
+  input_voltage_v_min: 5.5
+  input_voltage_v_max: 36.0
+  output_voltage_v_min: 1.221
+  output_voltage_v_max: 32.0
+  output_current_a_max: 3.0
+  switching_frequency_khz: 500
+  efficiency_pct: 90 - 95
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [DC Input, DC Output, High-Frequency Switch Node]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tps5430.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TPS5430" }

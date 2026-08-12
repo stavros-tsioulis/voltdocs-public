@@ -1,0 +1,37 @@
+id: power.regulator.lm2587
+revision: "1.0"
+title: LM2587 — 5A Step-Up / Flyback Voltage Regulator
+category: power/regulators
+tags: [lm2587, lm2587t-adj, lm2587s-adj, regulator, boost-regulator, flyback, simple-switcher, step-up, texas-instruments, to-220-5]
+status: published
+summary: >-
+  Texas Instruments 5A SIMPLE SWITCHER step-up (boost) and flyback voltage regulator IC with integrated 65V NPN power switch, 100kHz oscillator, and soft-start.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments (National Semiconductor)
+  ic_part_numbers: [LM2587, LM2587T-ADJ, LM2587S-ADJ, LM2587T-12, LM2587T-15]
+  package: TO-220-5 / TO-263-5 (DDPAK)
+  supply_voltage_min_v: 4.0
+  supply_voltage_max_v: 40.0
+  output_switch_voltage_max_v: 60.0
+  switch_current_limit_a: 5.0
+  switching_frequency_khz: 100
+  reference_voltage_v: 1.23
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Supply Input VIN, Switch Output SW, Ground GND, Feedback Input FB, Compensation Input COMP]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_switch_voltage_max_v
+  - switch_current_limit_a
+  - switching_frequency_khz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm2587.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM2587" }

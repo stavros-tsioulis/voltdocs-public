@@ -1,0 +1,45 @@
+id: mcu.pic.pic16f877a
+revision: "1.0"
+title: PIC16F877A — 8-Bit CMOS Flash Microcontroller
+category: mcu/pic
+tags: [pic16f877a, pic, microchip, 8-bit, 20mhz, dip-40, tqfp-44, adc, usart, pwm, mcu]
+status: published
+summary: >-
+  Microchip classic 8-bit PIC RISC microcontroller featuring 8K words (14KB) Flash memory, 368 bytes RAM, 256 bytes EEPROM, 8-channel 10-bit ADC, and 33 I/O pins in a 40-pin DIP package.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [PIC16F877A, PIC16F877A-I/P, PIC16F877A-I/PT]
+  package: 40-pin DIP / 44-pin TQFP / 44-pin PLCC
+  core: 8-bit PIC RISC (35 instructions)
+  max_clock_speed_mhz: 20
+  flash_memory_words: 8192 (14.3 KB)
+  sram_memory_bytes: 368
+  eeprom_memory_bytes: 256
+  operating_voltage_min_v: 2.0
+  operating_voltage_max_v: 5.5
+  gpio_count: 33
+  pwm_channels: 2 (CCP modules)
+  adc_channels: 8 (10-bit resolution)
+  timers: 3 (Timer0 8-bit, Timer1 16-bit, Timer2 8-bit)
+  interfaces: [USART, SPI, I2C, 2x CCP]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_words
+  - sram_memory_bytes
+  - eeprom_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/39582b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/PIC16F877A" }

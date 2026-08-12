@@ -1,0 +1,39 @@
+id: analog.opamp.tlv2372
+revision: "1.0"
+title: TLV2372 — Fast Rail-to-Rail Input/Output Dual Operational Amplifier
+category: analog/opamp
+tags: [tlv2372, tlv2372ip, tlv2372id, op-amp, rail-to-rail, high-speed, wide-voltage, ti, dip-8]
+status: published
+summary: >-
+  Texas Instruments 3MHz bandwidth, 2.4V/µs slew rate dual operational amplifier featuring full rail-to-rail input and output swing from 2.7V to 16V supply.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TLV2372, TLV2372IP, TLV2372ID, TLV2372IDGKR]
+  package: 8-pin PDIP / SOIC-8 / VSSOP-8
+  opamp_channels: 2
+  supply_voltage_v_min: 2.7
+  supply_voltage_v_max: 16.0
+  gain_bandwidth_mhz: 3.0
+  slew_rate_v_us: 2.4
+  input_bias_current_pa: 1
+  quiescent_current_ua: 550
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Dual Op-Amp Terminals (1IN+, 1IN-, 1OUT, 2IN+, 2IN-, 2OUT)]
+highlights:
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - input_bias_current_pa
+  - quiescent_current_ua
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tlv2372.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TLV2372" }

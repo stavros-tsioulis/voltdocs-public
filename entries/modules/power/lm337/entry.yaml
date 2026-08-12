@@ -1,0 +1,41 @@
+id: power.regulator.lm337
+revision: "1.0"
+title: LM337 — 3-Terminal Adjustable Negative Voltage Regulator
+category: power/regulators
+tags: [lm337, lm337t, lm337k, regulator, negative-regulator, adjustable-regulator, linear-regulator, texas-instruments, onsemi, to-220]
+status: published
+summary: >-
+  Texas Instruments 1.5A 3-terminal adjustable negative linear voltage regulator supplying -1.25V to -37V DC output, complementary to LM317 for dual split power supplies.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / STMicroelectronics
+  ic_part_numbers: [LM337, LM337T, LM337N, LM337K, LM337IMP]
+  package: TO-220AB / TO-3 / SOT-223
+  regulator_type: Adjustable Negative Linear Regulator
+  input_output_differential_v_min: -40.0
+  input_output_differential_v_max: -3.0
+  output_voltage_min_v: -37.0
+  output_voltage_max_v: -1.25
+  output_current_max_a: 1.5
+  reference_voltage_v: -1.25
+  line_regulation_pct_per_v: 0.01
+  load_regulation_pct: 0.3
+  operating_temp_min_c: 0
+  operating_temp_max_c: 125
+  interfaces: [ADJ Pin Divider Input, IN Pin Unregulated Negative Input, OUT Pin Regulated Negative Output]
+highlights:
+  - regulator_type
+  - input_output_differential_v_min
+  - output_voltage_min_v
+  - output_voltage_max_v
+  - output_current_max_a
+  - reference_voltage_v
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm337-n.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM337-N" }

@@ -1,0 +1,37 @@
+id: interface.decoder.74hc139
+revision: "1.0"
+title: 74HC139 — Dual 2-to-4 Line Decoder/Demultiplexer
+category: interface/decoder
+tags: [74hc139, sn74hc139, decoder, demultiplexer, address-decoder, 2-to-4, dual-decoder, cmos, ti, dip-16]
+status: published
+summary: >-
+  High-speed CMOS dual 2-to-4 line decoder/demultiplexer IC with active-low enable controls and active-low outputs for address decoding and memory chip selection.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC139, SN74HC139N, 74HC139D, 74HCT139]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  decoder_count: 2
+  lines_per_decoder: 2-to-4
+  propagation_delay_ns: 13
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Dual 2-Bit Address Inputs (A0, A1), Dual Enable Pins (1~E~, 2~E~), Active-Low Outputs (1~Y0~-1~Y3~, 2~Y0~-2~Y3~)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - decoder_count
+  - lines_per_decoder
+  - propagation_delay_ns
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc139.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC139" }

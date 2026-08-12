@@ -1,0 +1,42 @@
+id: storage.eeprom.at24c32
+revision: "1.0"
+title: AT24C32 — 32-Kbit (4KB) I2C Serial EEPROM
+category: storage/eeprom
+tags: [at24c32, at24c32d, at24c32n, eeprom, i2c, non-volatile, storage, 4kb, ds3231-module, microchip, atmel, dip-8]
+status: published
+summary: >-
+  Microchip/Atmel 32-Kbit (4K x 8) I2C serial EEPROM IC operating from 1.7V to 5.5V, commonly integrated on DS3231 RTC breakout modules for persistent logging.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Microchip Technology / Atmel
+  ic_part_numbers: [AT24C32, AT24C32D, AT24C32N, AT24C32E]
+  package: 8-pin PDIP / SOIC-8 / TSSOP-8 / RTC Module Component
+  supply_voltage_min_v: 1.7
+  supply_voltage_max_v: 5.5
+  capacity_kbit: 32
+  capacity_kbyte: 4
+  i2c_clock_max_khz: 400
+  page_write_size_bytes: 32
+  write_cycle_time_ms: 5.0
+  endurance_cycles: 1000000
+  data_retention_years: 100
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [I2C (SDA, SCL), Hardware Address (A0, A1, A2), Write Protect (WP)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - capacity_kbit
+  - capacity_kbyte
+  - i2c_clock_max_khz
+  - endurance_cycles
+  - data_retention_years
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8878-SEEPROM-AT24C32D-Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/AT24C32D" }

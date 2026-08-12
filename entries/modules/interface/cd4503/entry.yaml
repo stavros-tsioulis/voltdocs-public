@@ -1,0 +1,35 @@
+id: interface.logic.cd4503
+revision: "1.0"
+title: CD4503 — CMOS Hex Non-Inverting 3-State Buffer
+category: interface/logic
+tags: [cd4503, cd4503b, cd4503be, buffer, 3-state, tri-state, hex-buffer, cmos, 4000-series, ti, dip-16]
+status: published
+summary: >-
+  CMOS 6-channel non-inverting 3-state buffer IC with separate 4-bit and 2-bit active-low output enable controls for bus-oriented digital systems.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor
+  ic_part_numbers: [CD4503, CD4503B, CD4503BE, CD4503BM]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: High-Voltage CMOS (4000B Series)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  bus_width_bits: 6
+  propagation_delay_ns: 75
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [6-Bit Non-Inverting Buffer Inputs/Outputs, DISA (4-Bit Enable), DISB (2-Bit Enable)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bus_width_bits
+  - propagation_delay_ns
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4503b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4503B" }

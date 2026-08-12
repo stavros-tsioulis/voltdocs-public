@@ -1,0 +1,38 @@
+id: power.regulator.me2108
+revision: "1.0"
+title: ME2108 — PFM Step-Up DC-DC Converter (3.3V Fixed Output)
+category: power/regulators
+tags: [me2108, me2108a33, me2108c33, microone, boost-converter, step-up, pfm, 3.3v, battery-power, low-iq, sot-23-3, sot-89]
+status: published
+summary: >-
+  Nanjing Micro One Electronics 3.3V ultra-low quiescent current PFM step-up (boost) DC-DC converter IC operating from 0.9V single-cell battery inputs.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Nanjing Micro One Electronics (MicroOne)
+  ic_part_numbers: [ME2108, ME2108A33, ME2108C33, ME2108A50]
+  package: SOT-23-3 / SOT-89-3 / TO-92
+  supply_voltage_min_v: 0.9
+  supply_voltage_max_v: 5.0
+  output_voltage_v: 3.3
+  output_voltage_accuracy_pct: 2
+  quiescent_current_ua: 5.5
+  max_switching_frequency_khz: 180
+  efficiency_pct: 85
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Ground VSS, Fixed Voltage Output OUT, Switch Node LX]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_voltage_v
+  - quiescent_current_ua
+  - max_switching_frequency_khz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "http://www.microne.com.cn/UploadFiles/pdf/ME2108_V14_EN.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.microne.com.cn/product.html" }

@@ -1,0 +1,42 @@
+id: power.buck.xl4015
+revision: "1.0"
+title: XL4015 — 5A 180kHz 36V Step-Down (Buck) DC-DC Converter
+category: power/buck
+tags: [xl4015, xl4015e1, xlsemi, buck, step-down, regulator, switching, power, 5a, 180khz, to-263, module]
+status: published
+summary: >-
+  XLSEMI 5A 180kHz 36V step-down DC-DC converter IC with built-in power MOSFET and up to 96% efficiency, ubiquitous on 5A CC/CV battery charger modules.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: XLSEMI
+  ic_part_numbers: [XL4015, XL4015E1]
+  package: TO-263-5L (D2PAK) / 5A CC/CV Buck Module
+  regulator_type: High-Current Step-Down (Buck) DC-DC Switching Regulator
+  input_voltage_v_min: 8.0
+  input_voltage_v_max: 36.0
+  output_voltage_v_min: 1.25
+  output_voltage_v_max: 32.0
+  output_current_a_max: 5.0
+  switching_frequency_khz: 180
+  efficiency_pct: 90 - 96
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [DC Input, DC Output, High-Current Switch Node]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "http://www.xlsemi.com/datasheet/XL4015%20datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.xlsemi.com/product.html" }

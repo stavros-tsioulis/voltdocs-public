@@ -1,0 +1,39 @@
+id: analog.opamp.njm2068
+revision: "1.0"
+title: NJM2068 — Low-Noise High-Slew-Rate Dual Audio Operational Amplifier
+category: analog/opamp
+tags: [njm2068, njm2068d, njm2068m, op-amp, audio, low-noise, high-slew-rate, njr, nisshinbo, dip-8]
+status: published
+summary: >-
+  New Japan Radio (Nisshinbo) low-noise (0.44µVrms), high-slew-rate (6V/µs) dual audio operational amplifier optimized for preamplifiers and audio active filters.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: New Japan Radio (NJR / Nisshinbo Micro Devices)
+  ic_part_numbers: [NJM2068, NJM2068D, NJM2068M, NJM2068V]
+  package: 8-pin DIP / DMP-8 / SSOP-8
+  opamp_channels: 2
+  supply_voltage_v_min: 8.0
+  supply_voltage_v_max: 36.0
+  input_noise_voltage_uvrms: 0.44
+  gain_bandwidth_mhz: 27
+  slew_rate_v_us: 6.0
+  thd_pct: 0.001
+  operating_temp_min_c: -20
+  operating_temp_max_c: 75
+  interfaces: [Dual Op-Amp Terminals (A -INPUT, A +INPUT, A OUTPUT, B -INPUT, B +INPUT, B OUTPUT)]
+highlights:
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - input_noise_voltage_uvrms
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - thd_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/NJM2068_E.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nisshinbo-microdevices.co.jp" }

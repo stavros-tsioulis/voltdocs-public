@@ -1,0 +1,41 @@
+id: driver.stepper.tmc2208
+revision: "1.0"
+title: TMC2208 — Ultra-Silent Stepper Motor Driver IC / Module
+category: drivers/stepper
+tags: [tmc2208, tmc2208-la, trinamic, stepper-driver, stealthchop2, spreadcycle, silentstepstick, 3d-printer, silent-driver, uart]
+status: published
+summary: >-
+  Trinamic (Analog Devices) ultra-quiet 2-phase stepper motor driver with StealthChop2 silent PWM algorithm, 1.2A RMS / 2.0A peak current, 256-microstep interpolation, and single-wire UART configuration.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Trinamic / Analog Devices
+  ic_part_numbers: [TMC2208, TMC2208-LA, SilentStepStick TMC2208]
+  package: 28-pin QFN (5 x 5 mm) / StepStick Breakout Module
+  motor_supply_voltage_min_v: 4.75
+  motor_supply_voltage_max_v: 36.0
+  logic_supply_voltage_min_v: 3.0
+  logic_supply_voltage_max_v: 5.25
+  phase_current_rms_a: 1.2
+  phase_current_peak_a: 2.0
+  microstep_native_resolutions: [1/1, 1/2, 1/4, 1/8, 1/16]
+  microstep_interpolated_resolution: 1/256 (MicroPlyer)
+  operating_modes: [StealthChop2 (Silent), SpreadCycle (Dynamic Power)]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [STEP/DIR Interface, Single-Wire UART Configuration, MS1/MS2 Pin Configuration]
+highlights:
+  - motor_supply_voltage_min_v
+  - motor_supply_voltage_max_v
+  - phase_current_rms_a
+  - phase_current_peak_a
+  - microstep_interpolated_resolution
+  - operating_modes
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2202_TMC2208_TMC2224_datasheet_rev1.08.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/tmc2208.html" }

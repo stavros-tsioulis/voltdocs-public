@@ -1,0 +1,36 @@
+id: interface.logic.cd4028
+revision: "1.0"
+title: CD4028 — BCD-to-Decimal / Binary-to-Octal Decoder
+category: interface/logic
+tags: [cd4028, cd4028b, hef4028b, 74hc4028, decoder, bcd-to-decimal, binary-to-octal, nixie, ti, dip-16]
+status: published
+summary: >-
+  Texas Instruments 18V BCD-to-decimal decoder IC converting 4-bit BCD code to 10 mutually exclusive active-HIGH outputs (Q0-Q9) for counter decoding and Nixie drivers.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4028, CD4028B, HEF4028B, 74HC4028]
+  package: 16-pin DIP / SOIC-16
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  bcd_input_bits: 4 (Inputs A, B, C, D)
+  decimal_outputs: 10 Active-HIGH Outputs (Q0 to Q9)
+  propagation_delay_ns: 80
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [4-Bit BCD Inputs A-D, 10x Active-HIGH Decimal Outputs Q0-Q9]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bcd_input_bits
+  - decimal_outputs
+  - propagation_delay_ns
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4028b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4028B" }

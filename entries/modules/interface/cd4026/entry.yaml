@@ -1,0 +1,38 @@
+id: interface.counter.cd4026
+revision: "1.0"
+title: CD4026 — Decade Counter with Decoded 7-Segment Display Outputs
+category: interface/counter
+tags: [cd4026, cd4026b, cd4026be, decade-counter, 7-segment, decoder, display-driver, cmos, 4000-series, ti, dip-16]
+status: published
+summary: >-
+  High-voltage CMOS decade counter IC with integrated 7-segment decoded outputs for directly driving common-cathode LED displays without an external BCD decoder.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor
+  ic_part_numbers: [CD4026, CD4026B, CD4026BE, CD4026BM]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: High-Voltage CMOS (4000B Series)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  counter_type: 5-Stage Johnson Decade Counter
+  output_type: Decoded 7-Segment Outputs (a-g) for Common-Cathode LEDs
+  propagation_delay_ns: 200
+  max_clock_frequency_mhz: 5.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [Decoded 7-Seg Outputs (a-g), CLK, CLK EN, RESET, DE, DEO, COUT]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - counter_type
+  - output_type
+  - max_clock_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4026b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4026B" }

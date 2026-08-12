@@ -1,0 +1,37 @@
+id: interface.logic.74hc174
+revision: "1.0"
+title: 74HC174 — Hex D-Type Flip-Flop with Master Reset
+category: interface/logic
+tags: [74hc174, sn74hc174, flip-flop, d-flip-flop, hex-flip-flop, latch, registers, cmos, ti, dip-16]
+status: published
+summary: >-
+  High-speed CMOS 6-bit D-type flip-flop IC featuring positive-edge clock triggering and common active-low master reset for digital storage and register applications.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC174, SN74HC174N, 74HC174D, 74HCT174]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  flip_flop_count: 6
+  propagation_delay_ns: 14
+  max_clock_frequency_mhz: 35
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [6-Bit Data Inputs (1D-6D), 6-Bit Outputs (1Q-6Q), CLK, MR]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - flip_flop_count
+  - propagation_delay_ns
+  - max_clock_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc174.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC174" }

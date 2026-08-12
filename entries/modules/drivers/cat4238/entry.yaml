@@ -1,0 +1,38 @@
+id: driver.led.cat4238
+revision: "1.0"
+title: CAT4238 — High-Voltage Boost LED Driver (38V Output)
+category: drivers/led
+tags: [cat4238, cat4238td-gt3, led-driver, boost-driver, high-voltage, 38v, 30ma, onsemi, tsot-23, backlight]
+status: published
+summary: >-
+  ON Semiconductor 1.0MHz CMOS boost LED driver IC generating up to 38V output to power up to 10 series-connected white LEDs from a single 2.8V-5.5V Li-ion battery.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: ON Semiconductor
+  ic_part_numbers: [CAT4238, CAT4238TD-GT3]
+  package: TSOT-23 6-lead (SOT-23-6)
+  supply_voltage_min_v: 2.8
+  supply_voltage_max_v: 5.5
+  output_voltage_max_v: 38.0
+  max_output_current_ma: 30
+  feedback_reference_voltage_mv: 300
+  switching_frequency_mhz: 1.0
+  efficiency_pct: 87
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Supply Input VIN, Switch Terminal SW, Feedback Sense FB, Shutdown/PWM Dimming SHDN]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_voltage_max_v
+  - max_output_current_ma
+  - switching_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/cat4238-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/power-management/led-drivers/boost-led-drivers/cat4238" }

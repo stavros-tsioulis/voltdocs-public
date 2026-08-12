@@ -1,0 +1,40 @@
+id: transistor.bjt.tip120
+revision: "1.0"
+title: TIP120 — NPN Power Darlington Transistor
+category: transistors/bjt
+tags: [tip120, bjt, npn, darlington, power-transistor, "60v", "5a", to-220, stmicroelectronics, onsemi, motor-driver, relay-driver]
+status: published
+summary: >-
+  STMicroelectronics / ON Semiconductor high-gain (hFE >= 1000) 60V, 5A NPN Darlington power transistor in TO-220 package, used for driving relays, solenoids, and DC motors directly from MCU logic pins.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: STMicroelectronics / ON Semiconductor / Texas Instruments
+  ic_part_numbers: [TIP120, TIP120TU]
+  package: TO-220AB
+  transistor_type: NPN Power Darlington BJT
+  collector_emitter_voltage_vceo_v: 60
+  collector_base_voltage_vcbo_v: 60
+  emitter_base_voltage_vebo_v: 5.0
+  continuous_collector_current_ic_a: 5.0
+  pulsed_collector_current_ic_a: 8.0
+  dc_current_gain_hfe: 1000 min (at IC = 3A, VCE = 3V)
+  collector_saturation_voltage_vce_sat_v: 2.0
+  total_power_dissipation_w: 65.0
+  operating_temp_min_c: -65
+  operating_temp_max_c: 150
+  interfaces: [Direct MCU Logic Gate Drive Compatible (hFE >= 1000)]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_a
+  - dc_current_gain_hfe
+  - collector_saturation_voltage_vce_sat_v
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/tip120.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-transistors/tip120.html" }

@@ -1,0 +1,38 @@
+id: driver.led.pt4115
+revision: "1.0"
+title: PT4115 — 30V 1.2A Step-Down Constant-Current LED Driver
+category: drivers/led
+tags: [pt4115, pt4115e, powtech, led-driver, buck-led, constant-current, 30v, 1.2a, mr16, sot-89-5]
+status: published
+summary: >-
+  Power Trend Micro 30V 1.2A step-down constant-current LED driver IC with integrated 30V MOSFET, 100mV high-side sense, and multi-function PWM/analog dimming.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Power Trend Microelectronics (PowTech)
+  ic_part_numbers: [PT4115, PT4115E, PT4115B]
+  package: SOT-89-5 / ESOP-8
+  supply_voltage_min_v: 6.0
+  supply_voltage_max_v: 30.0
+  output_current_max_a: 1.2
+  current_sense_voltage_mv: 100
+  efficiency_pct: 97
+  dimming_support: Multi-function DIM Pin (PWM Dimming & DC Analog Dimming)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Supply Input VIN, Switch Terminal SW, High-Side Sense CSN, Dimming Input DIM, Ground GND]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_current_max_a
+  - current_sense_voltage_mv
+  - efficiency_pct
+  - dimming_support
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.powtech.com.cn/uploadfiles/2021/04/PT4115_DS_Rev2.0_EN.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.powtech.com.cn/en/product/detail/47.html" }

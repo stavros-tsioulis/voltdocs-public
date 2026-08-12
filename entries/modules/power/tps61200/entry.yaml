@@ -1,0 +1,42 @@
+id: power.boost.tps61200
+revision: "1.0"
+title: TPS61200 — Low Input Voltage Synchronous Boost Converter with Down-Mode
+category: power/boost
+tags: [tps61200, tps61200drct, ti, boost, buck-boost, down-mode, synchronous, energy-harvesting, vson-10]
+status: published
+summary: >-
+  Texas Instruments synchronous boost converter operating down to 0.3V input (0.5V startup) with Down-Mode for regulating outputs above or below input voltage.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TPS61200, TPS61200DRCT, TPS61200DRCR, TPS61201, TPS61202]
+  package: VSON-10 (DRC / 3 x 3 mm)
+  regulator_type: Synchronous Boost / Down-Mode DC-DC Converter
+  input_voltage_v_min: 0.3
+  input_voltage_v_max: 5.5
+  output_voltage_v_min: 1.8
+  output_voltage_v_max: 5.5
+  output_current_a_max: 0.6
+  switching_frequency_khz: 1500
+  efficiency_pct: 85 - 90
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [DC Input, DC Output, Switch Node SW, VAUX, EN, UVLO]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tps61200.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TPS61200" }

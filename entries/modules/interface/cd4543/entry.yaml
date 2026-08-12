@@ -1,0 +1,36 @@
+id: interface.display.cd4543
+revision: "1.0"
+title: CD4543 — BCD-to-7-Segment Latch/Decoder/Driver for LCD & LED
+category: interface/display
+tags: [cd4543, cd4543b, hef4543b, bcd-to-7segment, decoder, driver, latch, lcd, led, ti, dip-16]
+status: published
+summary: >-
+  Texas Instruments 18V BCD-to-7-segment latch/decoder/driver IC featuring a Phase input (PH) for driving liquid crystal displays (LCD) or common-anode/common-cathode LEDs.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4543, CD4543B, HEF4543B, HCF4543BE]
+  package: 16-pin DIP / SOIC-16
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  bcd_input_bits: 4 (Inputs A, B, C, D)
+  display_outputs: 7 Phase-Controlled Segments (a, b, c, d, e, f, g)
+  display_compatibility: [Liquid Crystal Displays (LCD - AC Square Wave), Common-Cathode LEDs, Common-Anode LEDs]
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [4-Bit BCD Inputs A-D, 7-Segment Outputs a-g, Latch Disable LD, Blanking BL, Phase Control PH]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bcd_input_bits
+  - display_outputs
+  - display_compatibility
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4543b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4543B" }

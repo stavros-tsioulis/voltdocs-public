@@ -1,0 +1,42 @@
+id: power.buck.mp2307
+revision: "1.0"
+title: MP2307 — 3A 340kHz 23V Synchronous Step-Down (Buck) Converter
+category: power/buck
+tags: [mp2307, mp2307dn, mps, buck, step-down, regulator, switching, power, 3a, synchronous, mini360, soic-8]
+status: published
+summary: >-
+  Monolithic Power Systems 3A 340kHz synchronous rectified step-down converter with integrated high and low-side MOSFETs, achieving up to 95% efficiency without external Schottky diode.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Monolithic Power Systems
+  ic_part_numbers: [MP2307, MP2307DN, MP2307DN-LF-Z]
+  package: SOIC-8 EP / Mini360 Buck Module
+  regulator_type: Synchronous Step-Down (Buck) Switching Regulator
+  input_voltage_v_min: 4.75
+  input_voltage_v_max: 23.0
+  output_voltage_v_min: 0.925
+  output_voltage_v_max: 20.0
+  output_current_a_max: 3.0
+  switching_frequency_khz: 340
+  efficiency_pct: 90 - 95
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [DC Input, DC Output, Synchronous Switch Node]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.monolithicpower.com/en/documentview/productdocument/index/doc_url/L2RhdGFzaGVldC9NUDIzMDdfUjEuMS5wZGY=" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.monolithicpower.com/en/mp2307.html" }

@@ -1,0 +1,40 @@
+id: transistor.bjt.2sc1815
+revision: "1.0"
+title: 2SC1815 — NPN General Purpose Bipolar Junction Transistor
+category: transistors/bjt
+tags: [2sc1815, c1815, bjt, npn, transistor, "50v", "150ma", to-92, toshiba, audio, amplifier, switching]
+status: published
+summary: >-
+  Toshiba iconic general-purpose NPN silicon BJT transistor in TO-92 package rated for 50V VCEO and 150mA collector current, famous in audio preamps, oscillators, and signal switching.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Toshiba / UTC / Generic
+  ic_part_numbers: [2SC1815, 2SC1815-O, 2SC1815-Y, 2SC1815-GR, 2SC1815-BL, KSC1815]
+  package: TO-92
+  transistor_type: NPN BJT
+  collector_emitter_voltage_vceo_v: 50
+  collector_base_voltage_vcbo_v: 60
+  emitter_base_voltage_vebo_v: 5.0
+  continuous_collector_current_ic_ma: 150
+  dc_current_gain_hfe: "70 to 700 (Rank Y: 120-240, GR: 200-400)"
+  transition_frequency_ft_mhz: 80.0
+  collector_saturation_voltage_vce_sat_mv: 250
+  total_power_dissipation_mw: 400
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [Current-Driven Base BJT Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe
+  - transition_frequency_ft_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://toshiba.semicon-storage.com/info/docget.jsp?did=10680&prodName=2SC1815" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://toshiba.semicon-storage.com/ap-en/semiconductor/product/bipolar-transistors/detail.2SC1815.html" }

@@ -1,0 +1,39 @@
+id: timing.timer.tlc555
+revision: "1.0"
+title: TLC555 — LinCMOS™ Low-Power Precision Timer
+category: timing/timer
+tags: [tlc555, tlc555ip, tlc555cp, timer, cmos, lincmos, low-power, 555, oscillator, ti, dip-8]
+status: published
+summary: >-
+  Texas Instruments LinCMOS low-power version of the 555 timer IC with ultra-low supply current (170µA at 5V), high input impedance (10^12 Ω), and operation up to 2.1MHz.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TLC555, TLC555IP, TLC555CP, TLC555CD, TLC555ID]
+  package: 8-pin PDIP / SOIC-8 / TSSOP-8
+  logic_family: LinCMOS
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 15.0
+  output_current_sink_ma: 100
+  output_current_source_ma: 10
+  quiescent_current_ua: 170
+  max_frequency_mhz: 2.1
+  threshold_fraction_vdd: 0.667
+  trigger_fraction_vdd: 0.333
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Analog Timing (TRIG, THRES, DISCH, CONT, RESET, OUT)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - quiescent_current_ua
+  - max_frequency_mhz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tlc555.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TLC555" }

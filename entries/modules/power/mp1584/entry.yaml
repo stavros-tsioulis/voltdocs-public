@@ -1,0 +1,42 @@
+id: power.buck.mp1584
+revision: "1.0"
+title: MP1584 — 3A 1.5MHz 28V Step-Down (Buck) Converter
+category: power/buck
+tags: [mp1584, mp1584en, mps, buck, step-down, regulator, switching, power, 3a, high-frequency, soic-8, module]
+status: published
+summary: >-
+  Monolithic Power Systems 3A high-frequency step-down switching regulator operating up to 1.5MHz with internal 100mΩ MOSFET for ultra-compact DC-DC buck modules.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Monolithic Power Systems
+  ic_part_numbers: [MP1584, MP1584EN, MP1584EN-LF-Z]
+  package: SOIC-8 EP / Ultra-Compact Buck Breakout Module
+  regulator_type: High-Frequency Step-Down (Buck) Switching Regulator
+  input_voltage_v_min: 4.5
+  input_voltage_v_max: 28.0
+  output_voltage_v_min: 0.8
+  output_voltage_v_max: 25.0
+  output_current_a_max: 3.0
+  switching_frequency_khz: 1500
+  efficiency_pct: 88 - 92
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [DC Input, DC Output, High-Frequency Switching Output]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.monolithicpower.com/en/documentview/productdocument/index/doc_url/L2RhdGFzaGVldC9NUDE1ODRfUjEuMS5wZGY=" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.monolithicpower.com/en/mp1584.html" }

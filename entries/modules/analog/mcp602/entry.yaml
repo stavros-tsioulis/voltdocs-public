@@ -1,0 +1,39 @@
+id: analog.opamp.mcp602
+revision: "1.0"
+title: MCP602 — Dual Rail-to-Rail Input/Output Operational Amplifier
+category: analog/opamp
+tags: [mcp602, mcp602-i/p, mcp602-i/sn, op-amp, rail-to-rail, cmos, low-power, microchip, dip-8]
+status: published
+summary: >-
+  Microchip low-power (325µA/ch), low bias current (1pA) CMOS dual operational amplifier featuring full rail-to-rail input and output swing for 2.7V to 6.0V single-supply circuits.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [MCP602, MCP602-I/P, MCP602-I/SN, MCP602-I/ST]
+  package: 8-pin PDIP / SOIC-8 / TSSOP-8
+  opamp_channels: 2
+  supply_voltage_v_min: 2.7
+  supply_voltage_v_max: 6.0
+  gain_bandwidth_mhz: 2.8
+  slew_rate_v_us: 2.3
+  input_bias_current_pa: 1
+  quiescent_current_ua: 325
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Dual Op-Amp Terminals (VINA+, VINA-, VOUTA, VINB+, VINB-, VOUTB)]
+highlights:
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - input_bias_current_pa
+  - quiescent_current_ua
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/MCP602" }

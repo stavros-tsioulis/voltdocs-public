@@ -1,0 +1,37 @@
+id: power.regulator.lm2577
+revision: "1.0"
+title: LM2577 — 3A Step-Up (Boost) Voltage Regulator
+category: power/regulators
+tags: [lm2577, lm2577t-adj, lm2577s-adj, regulator, boost-regulator, simple-switcher, step-up, texas-instruments, to-220-5]
+status: published
+summary: >-
+  Texas Instruments 3A SIMPLE SWITCHER step-up (boost) voltage regulator IC with integrated 65V NPN power switch, 52kHz oscillator, and 1.23V feedback reference.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments (National Semiconductor)
+  ic_part_numbers: [LM2577, LM2577T-ADJ, LM2577S-ADJ, LM2577T-12, LM2577T-15]
+  package: TO-220-5 / TO-263-5 (DDPAK)
+  supply_voltage_min_v: 3.5
+  supply_voltage_max_v: 40.0
+  output_switch_voltage_max_v: 60.0
+  switch_current_limit_a: 3.0
+  switching_frequency_khz: 52
+  reference_voltage_v: 1.23
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Supply Input VIN, Switch Output SW, Ground GND, Feedback Input FB, Compensation Input COMP]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_switch_voltage_max_v
+  - switch_current_limit_a
+  - switching_frequency_khz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm2577.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM2577" }

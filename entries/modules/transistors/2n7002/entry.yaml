@@ -1,0 +1,41 @@
+id: transistor.mosfet.2n7002
+revision: "1.0"
+title: 2N7002 — Small-Signal N-Channel Enhancement Mode MOSFET (SOT-23)
+category: transistors/mosfet
+tags: [2n7002, mosfet, n-channel, small-signal, "60v", "115ma", sot-23, onsemi, level-shift, switching, smd]
+status: published
+summary: >-
+  ON Semiconductor / Microchip ubiquitous surface-mount (SOT-23) N-channel FET rated for 60V VDS, 115mA continuous drain current, and low 1.0V to 2.5V gate threshold voltage for SMD logic level shifting and low-power switching.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: ON Semiconductor / Microchip / STMicroelectronics
+  ic_part_numbers: [2N7002, 2N7002LT1G, 2N7002K, 2N7002E]
+  package: SOT-23 (3-pin SMD)
+  transistor_type: Small-Signal N-Channel MOSFET
+  drain_source_voltage_vdss_v: 60
+  continuous_drain_current_id_ma: 115
+  pulsed_drain_current_id_ma: 300
+  gate_threshold_voltage_vgs_th_min_v: 1.0
+  gate_threshold_voltage_vgs_th_max_v: 2.5
+  rds_on_vgs_10v_ohm: 5.0
+  rds_on_vgs_4.5v_ohm: 7.5
+  total_power_dissipation_mw: 350
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Gate-Source Logic Drive (3.3V and 5V Compatible)]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_ma
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_10v_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/2n7002-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discretes-drivers/mosfets/2n7002" }

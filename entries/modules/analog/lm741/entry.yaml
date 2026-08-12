@@ -1,0 +1,43 @@
+id: analog.opamp.lm741
+revision: "1.0"
+title: LM741 — Single General-Purpose Operational Amplifier
+category: analog/opamp
+tags: [lm741, ua741, op-amp, operational-amplifier, single-opamp, texas-instruments, dip-8, analog]
+status: published
+summary: >-
+  Texas Instruments classic single internally compensated operational amplifier IC featuring short-circuit protection, high voltage range, and offset-null capability.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [LM741, LM741CN, uA741, LM741C]
+  package: 8-pin DIP / SOIC-8
+  opamp_channels: 1 (Single Op-Amp)
+  supply_voltage_single_v_min: 10.0
+  supply_voltage_single_v_max: 36.0
+  supply_voltage_split_v_min: 5.0
+  supply_voltage_split_v_max: 18.0
+  gain_bandwidth_product_mhz: 1.0
+  slew_rate_v_us: 0.5
+  equivalent_input_noise_nv_hz: 28.0
+  input_bias_current_na: 80.0
+  input_offset_voltage_mv: 1.0
+  quiescent_current_ma: 1.7
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Single Op-Amp Analog Terminals with Offset Null]
+highlights:
+  - opamp_channels
+  - supply_voltage_split_v_min
+  - supply_voltage_split_v_max
+  - gain_bandwidth_product_mhz
+  - slew_rate_v_us
+  - equivalent_input_noise_nv_hz
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm741.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM741" }

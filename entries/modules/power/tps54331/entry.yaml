@@ -1,0 +1,42 @@
+id: power.buck.tps54331
+revision: "1.0"
+title: TPS54331 — 3A 28V 570kHz Step-Down (Buck) Converter with Eco-mode
+category: power/buck
+tags: [tps54331, tps54331dr, ti, eco-mode, buck, step-down, regulator, switching, power, 3a, 570khz, soic-8]
+status: published
+summary: >-
+  Texas Instruments 3A 28V 570kHz step-down converter with pulse-skipping Eco-mode for high efficiency under light loads and programmable soft-start.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TPS54331, TPS54331DR, TPS54331D, TPS54331DDA]
+  package: SOIC-8 (D) / SO PowerPAD-8 (DDA)
+  regulator_type: Step-Down (Buck) DC-DC Switching Regulator
+  input_voltage_v_min: 3.5
+  input_voltage_v_max: 28.0
+  output_voltage_v_min: 0.8
+  output_voltage_v_max: 25.0
+  output_current_a_max: 3.0
+  switching_frequency_khz: 570
+  efficiency_pct: 88 - 92
+  operating_temp_min_c: -40
+  operating_temp_max_c: 150
+  interfaces: [DC Input, DC Output, High-Frequency Switch Node]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tps54331.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TPS54331" }

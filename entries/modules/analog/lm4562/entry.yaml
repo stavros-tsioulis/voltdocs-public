@@ -1,0 +1,39 @@
+id: analog.opamp.lm4562
+revision: "1.0"
+title: LM4562 — Ultra-Low Distortion Dual Audio Operational Amplifier
+category: analog/opamp
+tags: [lm4562, lm4562ma, lm4562na, op-amp, audio, audiophile, ultra-low-noise, low-distortion, ti, dip-8]
+status: published
+summary: >-
+  Texas Instruments dual high-performance audio operational amplifier with ultra-low distortion (0.00003% THD+N), low noise (2.7nV/√Hz), and 55MHz gain bandwidth for high-fidelity audio.
+updatedAt: "2026-08-12"
+fields:
+  manufacturer: Texas Instruments / National Semiconductor
+  ic_part_numbers: [LM4562, LM4562MA, LM4562NA, LM4562MAX, LME49720]
+  package: 8-pin PDIP / SOIC-8
+  opamp_channels: 2
+  supply_voltage_v_min: 5.0
+  supply_voltage_v_max: 34.0
+  thd_plus_n_pct: 0.00003
+  input_noise_voltage_nv_hz: 2.7
+  gain_bandwidth_mhz: 55
+  slew_rate_v_us: 20
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Dual Op-Amp Terminals (1IN+, 1IN-, 1OUT, 2IN+, 2IN-, 2OUT)]
+highlights:
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - thd_plus_n_pct
+  - input_noise_voltage_nv_hz
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm4562.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM4562" }

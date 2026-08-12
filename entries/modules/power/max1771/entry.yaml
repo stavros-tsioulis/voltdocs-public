@@ -1,0 +1,38 @@
+id: power.regulator.max1771
+revision: "1.0"
+title: MAX1771 — High-Efficiency Step-Up DC-DC Controller
+category: power/regulators
+tags: [max1771, max1771csa, max1771cpa, boost-controller, high-voltage, nixie-power-supply, step-up, maxim, analog-devices, dip-8]
+status: published
+summary: >-
+  Analog Devices (Maxim) high-efficiency current-mode step-up DC-DC controller IC capable of driving an external N-FET to generate 170V-200V DC for Nixie tubes from a 9V-12V input.
+updatedAt: "2026-08-09"
+fields:
+  manufacturer: Analog Devices (Maxim Integrated)
+  ic_part_numbers: [MAX1771, MAX1771CSA, MAX1771CPA, MAX1771ESA]
+  package: 8-pin SOIC / 8-pin DIP
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 16.5
+  output_voltage_max_v: 200.0
+  switching_frequency_khz: 300
+  quiescent_current_ua: 110
+  efficiency_pct: 90
+  reference_voltage_v: 1.5
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [External MOSFET Gate Driver EXT, Feedback Input FB, Current Sense Input CS, Shutdown SHDN]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_voltage_max_v
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1771.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/max1771.html" }
