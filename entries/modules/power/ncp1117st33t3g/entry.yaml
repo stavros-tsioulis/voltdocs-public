@@ -1,0 +1,43 @@
+id: power.regulator.ncp1117-3.3
+revision: "1.0"
+title: NCP1117ST33T3G — 1.0A Fixed 3.3V Low-Dropout Linear Voltage Regulator
+category: power/regulator
+tags: [ncp1117, ncp1117st33t3g, ncp1117-3.3, ldo, regulator, linear, 3.3v, sot-223, onsemi, power, arduino, esp32, 1a]
+status: published
+summary: >-
+  ON Semiconductor 1.0A fixed +3.3V low-dropout (LDO) linear voltage regulator (up to 20V input, 1.07V dropout at 800mA) with internal current limiting and thermal shutdown, high-reliability equivalent to AMS1117-3.3 and LM1117-3.3.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: ON Semiconductor
+  ic_part_numbers: [NCP1117ST33T3G, NCP1117DT33T3G, NCP1117-3.3]
+  package: SOT-223 / DPAK (TO-252)
+  regulator_type: Low-Dropout (LDO) Positive Linear Voltage Regulator
+  output_voltage_v: 3.3
+  output_voltage_accuracy_pct: 1.0
+  input_voltage_v_min: 4.5
+  input_voltage_v_max: 20.0
+  dropout_voltage_v: 1.07
+  output_current_a_max: 1.0
+  quiescent_current_ma: 4.7
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Passive (Ground, VOUT, VIN)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - interfaces
+references:
+  - targetId: power.regulator.ams1117-33
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/ncp1117-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/power-management/linear-regulators-ldo/ncp1117" }

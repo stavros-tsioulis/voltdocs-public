@@ -1,0 +1,44 @@
+id: driver.display.max7221
+revision: "1.0"
+title: MAX7221 — Serially Interfaced, 8-Digit LED Display Driver with SPI Compatibility and EMI Reduction
+category: drivers/display
+tags: [max7221, max7221cng, max7221cwg, led, display, driver, 7-segment, matrix, 8x8, spi, slew-rate-limited, emi, maxim, analog-devices, dip-24]
+status: published
+summary: >-
+  Maxim Integrated / Analog Devices compact SPI/QSPI-compatible serial input/output common-cathode display driver with slew-rate-limited segment drivers for reduced EMI, interfacing microcontrollers to up to 8 digits of 7-segment LED displays or 8x8 dot-matrix arrays.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Maxim Integrated / Analog Devices
+  ic_part_numbers: [MAX7221, MAX7221CNG, MAX7221CWG, MAX7221EAG]
+  package: 24-pin DIP / SOIC-24 / SSOP-24
+  supply_voltage_min_v: 4.0
+  supply_voltage_max_v: 5.5
+  operating_voltage_v: 5.0
+  digits_supported: 8
+  segment_drive_current_ma: 40
+  brightness_control_levels: 16
+  scan_rate_hz: 800
+  spi_clock_max_mhz: 10
+  shutdown_current_ua: 150
+  slew_rate_limited: true
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [4-Wire SPI / Microwire (DIN, ~CS~, CLK, DOUT)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - digits_supported
+  - brightness_control_levels
+  - spi_clock_max_mhz
+  - interfaces
+references:
+  - targetId: driver.display.max7219
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7219-MAX7221.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/max7221.html" }

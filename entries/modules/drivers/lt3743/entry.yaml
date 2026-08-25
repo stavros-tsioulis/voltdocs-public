@@ -1,0 +1,39 @@
+id: driver.led.lt3743
+revision: "1.0"
+title: LT3743 — High-Current Synchronous Step-Down LED Driver Controller (Up to 20A)
+category: drivers/led
+tags: [lt3743, lt3743euf, lt3743efe, led-driver, step-down, buck, synchronous, high-current, 20a, dlp-projector, analog-devices, linear-technology, qfn-28, tssop-28]
+status: published
+summary: >-
+  Analog Devices / Linear Technology synchronous step-down DC/DC LED driver controller (6V to 36V input) delivering up to 20A continuous LED current with fast 3-state PWM dimming (3000:1 ratio) and high efficiency for DLP projectors and high-power illumination.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Analog Devices / Linear Technology
+  ic_part_numbers: [LT3743, LT3743EUFD, LT3743IUFD, LT3743EFE, LT3743IFE]
+  package: 28-lead QFN (4mm × 5mm) / 28-lead TSSOP with Exposed Pad (FE-28)
+  driver_type: Synchronous Step-Down High-Current LED Driver Controller
+  input_voltage_min_v: 6.0
+  input_voltage_max_v: 36.0
+  output_current_max_a: 20.0
+  dimming_ratio: 3000:1
+  switching_frequency_khz_max: 1000
+  efficiency_pct: 94.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [PWM Dimming (PWM, CTRL_SEL, CTRL_L, CTRL_H), Gate Drive Outputs (TG, BG), Current Sense (SENSEP, SENSEN), Output Voltage Sense (VOUT)]
+highlights:
+  - driver_type
+  - input_voltage_min_v
+  - input_voltage_max_v
+  - output_current_max_a
+  - dimming_ratio
+  - efficiency_pct
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/3743fe.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/lt3743.html" }

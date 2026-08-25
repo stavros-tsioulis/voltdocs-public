@@ -1,0 +1,49 @@
+id: mcu.pic.pic18f4550
+revision: "1.0"
+title: PIC18F4550 — High-Performance 8-Bit Flash USB Microcontroller (DIP-40)
+category: mcu/pic
+tags: [pic18f4550, pic18f, pic, microchip, 8-bit, 48mhz, dip-40, usb, native-usb, pickit, 10-bit-adc, eccp]
+status: published
+summary: >-
+  Microchip flagship 8-bit PIC18 RISC microcontroller running at 48MHz with integrated USB 2.0 Full-Speed transceiver, 32KB Flash, 2KB RAM, 13-channel 10-bit ADC, and nanoWatt technology in a 40-pin DIP package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [PIC18F4550-I/P, PIC18F4550-E/P, PIC18F4550-I/PT, PIC18LF4550-I/P]
+  package: 40-pin DIP (DIP-40 / PDIP-40) / 44-pin TQFP / 44-pin QFN
+  core: 8-bit PIC18 RISC (75 instructions + 8 extended)
+  max_clock_speed_mhz: 48 (12 MIPS with internal 96MHz PLL)
+  flash_memory_kb: 32 (16,384 words)
+  sram_memory_bytes: 2048 (including 1KB dual-port USB RAM)
+  eeprom_memory_bytes: 256
+  operating_voltage_min_v: 4.2 (USB enabled) / 2.0 (non-USB PIC18LF4550)
+  operating_voltage_max_v: 5.5
+  gpio_count: 35 (Ports A, B, C, D, E)
+  adc_channels: 13 (10-bit resolution, 100 ksps)
+  timers: 4 (Timer0 8/16-bit, Timer1 16-bit, Timer2 8-bit, Timer3 16-bit)
+  interfaces: [USB 2.0 Full-Speed (12 Mbps), Enhanced USART, MSSP (SPI/I2C), 1x ECCP + 1x CCP, ICSP]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_bytes
+  - eeprom_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.pic.pic16f877a
+    relation: variant-of
+  - targetId: mcu.avr.atmega32u4
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/39632e.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/PIC18F4550" }

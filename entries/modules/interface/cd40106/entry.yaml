@@ -1,0 +1,45 @@
+id: interface.logic.cd40106
+revision: "1.0"
+title: CD40106B — Hex Schmitt-Trigger Inverter
+category: interface/logic
+tags: [cd40106, cd40106b, inverter, schmitt-trigger, hex-inverter, debounce, rc-oscillator, pulse-shaper, cmos, 4000-series, texas-instruments, onsemi, dip-14]
+status: published
+summary: >-
+  CMOS 4000-series IC containing six independent inverting buffer gates with Schmitt-trigger inputs (0.9V hysteresis at 5V, up to 3.5V at 15V), widely used for noise-immune waveform shaping, switch debouncing, and wide-voltage RC oscillators.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD40106B, CD40106BE, CD40106BM, HEF40106B, TC40106BP]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  logic_family: CMOS 4000 Series (CD4000)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  inverters_count: 6 (Hex Schmitt-Trigger Inverter)
+  hysteresis_voltage_5v_v: 0.9
+  hysteresis_voltage_10v_v: 2.3
+  hysteresis_voltage_15v_v: 3.5
+  propagation_delay_ns: 140
+  quiescent_current_ua: 1.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [6x Independent Schmitt-Trigger NOT Gates (1A->1Y, 2A->2Y, 3A->3Y, 4A->4Y, 5A->5Y, 6A->6Y)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - inverters_count
+  - hysteresis_voltage_5v_v
+  - propagation_delay_ns
+  - interfaces
+references:
+  - targetId: interface.logic.74hc14
+    relation: variant-of
+  - targetId: interface.logic.cd4069
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd40106b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD40106B" }

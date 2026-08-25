@@ -1,0 +1,42 @@
+id: driver.gate.fan7392
+revision: "1.0"
+title: FAN7392 — High-Current 3A/3A High and Low-Side Gate Driver IC
+category: drivers/mosfet
+tags: [fan7392, fan7392n, fan7392m, gate-driver, mosfet-driver, igbt-driver, high-side, low-side, 600v, 3a, half-bridge, smps, inverter, onsemi, fairchild, dip-14, soic-16]
+status: published
+summary: >-
+  ON Semiconductor / Fairchild 600V monolithic high- and low-side gate driver IC delivering 3.0A source and 3.0A sink peak output current with advanced common-mode dv/dt noise canceling circuitry and separate logic ground for high-power inverters and SMPS.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: ON Semiconductor / Fairchild Semiconductor
+  ic_part_numbers: [FAN7392, FAN7392N, FAN7392M, FAN7392MX]
+  package: 14-pin PDIP / 16-pin SOP (Wide)
+  driver_type: High and Low Side Half-Bridge Gate Driver IC
+  high_side_floating_voltage_max_v: 600.0
+  gate_supply_voltage_min_v: 10.0
+  gate_supply_voltage_max_v: 20.0
+  peak_source_current_a: 3.0
+  peak_sink_current_a: 3.0
+  turn_on_delay_ns: 130
+  turn_off_delay_ns: 150
+  matched_delay_ns: 25
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [High-Side Input (HIN), Low-Side Input (LIN), Shutdown (SD), High-Side Gate Drive (HO), Low-Side Gate Drive (LO), Bootstrap Supply (VB, VS), Separate Logic Ground (VSS)]
+highlights:
+  - driver_type
+  - high_side_floating_voltage_max_v
+  - gate_supply_voltage_min_v
+  - gate_supply_voltage_max_v
+  - peak_source_current_a
+  - peak_sink_current_a
+  - turn_on_delay_ns
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/fan7392-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/power-management/gate-drivers/fan7392" }

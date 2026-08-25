@@ -1,0 +1,47 @@
+id: transistor.bjt.mpsa92
+revision: "1.0"
+title: MPSA92 — -300V -500mA Ultra-High-Voltage PNP BJT (TO-92)
+category: transistors/bjt
+tags: [mpsa92, ksp92, mmbta92, pnp, bjt, transistor, high-voltage, "-300v", "-500ma", to-92, onsemi, fairchild, nixie, neon-driver, EBC]
+status: published
+summary: >-
+  onsemi / Fairchild -300V -500mA ultra-high-voltage small-signal PNP BJT in a TO-92 package, serving as the premier high-side switching partner to the MPSA42 for Nixie tube displays, neon indicators, and audio VAS stages.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: onsemi / Fairchild / Central Semiconductor / STMicroelectronics
+  ic_part_numbers: [MPSA92, KSP92, MPSA92TA, MMBTA92]
+  package: TO-92 Plastic (through-hole) / SOT-23 (MMBTA92)
+  transistor_type: Ultra-High-Voltage Small-Signal PNP BJT
+  collector_emitter_voltage_vceo_v: -300
+  collector_base_voltage_vcbo_v: -300
+  emitter_base_voltage_vebo_v: -5.0
+  continuous_collector_current_ic_ma: -500
+  dc_current_gain_hfe_min: 40 (at IC = -10mA, VCE = -10V)
+  dc_current_gain_hfe_max: 200
+  transition_frequency_ft_mhz: 50
+  total_power_dissipation_mw: 625
+  pinout_order: "E-B-C (1: Emitter, 2: Base, 3: Collector)"
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - interfaces
+references:
+  - targetId: transistor.bjt.mpsa42
+    relation: companion-to
+  - targetId: transistor.bjt.2n5401
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/mpsa92-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discrete-power-device/general-purpose-transistor/mpsa92" }

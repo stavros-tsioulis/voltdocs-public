@@ -1,0 +1,46 @@
+id: power.ldo.lp2950acz-3.3
+revision: "1.0"
+title: LP2950ACZ-3.3 — 100mA Low Dropout (LDO) 3.3V Voltage Regulator
+category: power/regulator
+tags: [lp2950, lp2950acz-3.3, ldo, regulator, linear, 3.3v, to-92, low-power, texas-instruments, national-semiconductor, battery-power]
+status: published
+summary: >-
+  Texas Instruments / National Semiconductor micropower low-dropout (LDO) linear voltage regulator providing tight-tolerance (±0.5%) +3.3V DC output up to 100mA with 380mV dropout in a 3-pin TO-92 package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Texas Instruments / National Semiconductor
+  ic_part_numbers: [LP2950ACZ-3.3, LP2950CZ-3.3, LP2950-33LPRE3, LP2951-3.3]
+  package: TO-92 (3-pin through-hole)
+  regulator_type: Low Dropout (LDO) Positive Linear Regulator
+  output_voltage_v: 3.3
+  output_voltage_accuracy_pct: 0.5
+  input_voltage_v_min: 3.8
+  input_voltage_v_max: 30.0
+  dropout_voltage_v: 0.38
+  output_current_a_max: 0.1
+  quiescent_current_ua: 75.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Passive (VOUT, GND, VIN)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - quiescent_current_ua
+  - interfaces
+references:
+  - targetId: power.regulator.ams1117-33
+    relation: see-also
+  - targetId: power.regulator.78l05
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lp2950-n.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LP2950-N" }

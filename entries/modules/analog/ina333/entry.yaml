@@ -1,0 +1,51 @@
+id: analog.inamp.ina333
+revision: "1.0"
+title: INA333 — MicroPower (50µA) Precision Rail-to-Rail Output Instrumentation Amplifier
+category: analog/inamp
+tags: [ina333, ina333aidgkt, ina333aidr, inamp, instrumentation-amplifier, precision, micropower, low-power, rail-to-rail, single-supply, ecg, emg, biosignal, wearable, texas-instruments, vssop-8, soic-8]
+status: published
+summary: >-
+  Texas Instruments ultra-low-power (50µA) precision instrumentation amplifier operating from 1.8V to 5.5V single supplies with rail-to-rail output swing, 25µV max offset, 100dB CMRR, and single resistor gain programming (1 to 1000) for battery-powered medical and wearable biosensing.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Texas Instruments / Burr-Brown
+  ic_part_numbers: [INA333, INA333AIDGKT, INA333AIDR, INA333AIDGKR]
+  package: 8-pin VSSOP (MSOP-8) / 8-pin SOIC / 8-pin WSON (3mm × 3mm)
+  amplifier_type: MicroPower Zero-Drift Precision Instrumentation Amplifier
+  gain_range: 1 to 1000 (Set by single external resistor RG)
+  supply_voltage_single_v_min: 1.8
+  supply_voltage_single_v_max: 5.5
+  supply_voltage_split_v_min: 0.9
+  supply_voltage_split_v_max: 2.75
+  common_mode_rejection_db: 100.0
+  input_offset_voltage_uv: 25.0
+  offset_drift_uv_c: 0.1
+  input_bias_current_pa: 70.0
+  input_noise_voltage_nv_sqrt_hz: 50.0
+  bandwidth_khz: 150.0
+  quiescent_current_ua: 50
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Differential Inputs (VIN+, VIN-), Gain Setting Pins (RG), Reference Voltage (REF), Rail-to-Rail Output (VOUT)]
+highlights:
+  - amplifier_type
+  - gain_range
+  - supply_voltage_single_v_min
+  - supply_voltage_single_v_max
+  - common_mode_rejection_db
+  - input_offset_voltage_uv
+  - quiescent_current_ua
+  - interfaces
+references:
+  - targetId: analog.inamp.ad620
+    relation: see-also
+  - targetId: analog.inamp.ina128
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/ina333.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/INA333" }

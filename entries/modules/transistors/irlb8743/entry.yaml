@@ -1,0 +1,47 @@
+id: transistor.mosfet.irlb8743
+revision: "1.0"
+title: IRLB8743 — 30V 150A Extreme Low RDS(on) Logic-Level N-Channel MOSFET (TO-220)
+category: transistors/mosfet
+tags: [irlb8743, irlb8743pbf, mosfet, n-channel, logic-level, 30v, 150a, to-220, infineon, international-rectifier, high-current, low-rdson]
+status: published
+summary: >-
+  Infineon / International Rectifier 30V 150A N-channel logic-level power MOSFET in a TO-220AB package featuring exceptional 3.2mΩ on-resistance (4.2mΩ at 4.5V VGS), ideal for extreme current heated beds, high-power DC motor drivers, and high-efficiency synchronous switching.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Infineon Technologies / International Rectifier
+  ic_part_numbers: [IRLB8743, IRLB8743PBF]
+  package: TO-220AB
+  transistor_type: N-Channel Logic-Level Power MOSFET
+  drain_source_voltage_vdss_v: 30
+  continuous_drain_current_id_a: 150
+  pulsed_drain_current_id_a: 600
+  gate_threshold_voltage_vgs_th_min_v: 1.35
+  gate_threshold_voltage_vgs_th_max_v: 2.35
+  rds_on_vgs_10v_mohm: 3.2
+  rds_on_vgs_4.5v_mohm: 4.2
+  total_power_dissipation_w: 140
+  gate_charge_total_nc: 21.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [3.3V, 4.5V, and 10V Gate Drive Compatible]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - rds_on_vgs_4.5v_mohm
+  - rds_on_vgs_10v_mohm
+  - interfaces
+references:
+  - targetId: transistor.mosfet.irlb8721
+    relation: variant-of
+  - targetId: transistor.mosfet.irlz44n
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/irlb8743pbf.pdf?fileId=5546d462533600a40153566027b2259b" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/irlb8743/" }

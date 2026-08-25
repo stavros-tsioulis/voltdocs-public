@@ -1,0 +1,47 @@
+id: transistor.mosfet.irfp250n
+revision: "1.0"
+title: IRFP250N — 200V 30A High-Power N-Channel MOSFET (TO-247AC)
+category: transistors/mosfet
+tags: [irfp250n, irfp250npbf, mosfet, n-channel, power-mosfet, 200v, 30a, to-247, audio-amplifier, zvs, induction-heater, infineon, international-rectifier]
+status: published
+summary: >-
+  Infineon (International Rectifier) 200V 30A high-power N-channel HEXFET power MOSFET in a heavy-duty TO-247AC package, celebrated in high-end Nelson Pass Class-A audio amplifiers and ZVS induction heaters.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Infineon Technologies / International Rectifier
+  ic_part_numbers: [IRFP250NPBF, IRFP250N, IRFP250]
+  package: TO-247AC (3-pin heavy-duty through-hole)
+  transistor_type: High-Power N-Channel HEXFET MOSFET
+  drain_source_voltage_vdss_v: 200
+  continuous_drain_current_id_a: 30.0 (at 25°C)
+  pulsed_drain_current_id_a: 120.0
+  gate_threshold_voltage_vgs_th_min_v: 2.0
+  gate_threshold_voltage_vgs_th_max_v: 4.0
+  rds_on_vgs_10v_mohm: 75 (0.075Ω max)
+  gate_charge_total_qg_nc: 82.0
+  total_power_dissipation_w: 214.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [3-Terminal TO-247 (Gate, Drain, Source)]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_10v_mohm
+  - total_power_dissipation_w
+  - interfaces
+references:
+  - targetId: transistor.mosfet.irfb4110
+    relation: see-also
+  - targetId: transistor.mosfet.irf540n
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/irfp250npbf.pdf?fileId=5546d462533600a40153562a13e51ff0" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/irfp250n/" }

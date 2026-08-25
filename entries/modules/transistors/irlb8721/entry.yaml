@@ -1,0 +1,48 @@
+id: transistor.mosfet.irlb8721
+revision: "1.0"
+title: IRLB8721 — 30V 62A Ultra-Low RDS(on) Logic-Level N-Channel MOSFET (TO-220)
+category: transistors/mosfet
+tags: [irlb8721, irlb8721pbf, mosfet, n-channel, logic-level, 30v, 62a, to-220, infineon, international-rectifier, reprap, heated-bed, low-rdson]
+status: published
+summary: >-
+  Infineon / International Rectifier 30V 62A N-channel logic-level power MOSFET in a TO-220AB package featuring ultra-low 8.7mΩ on-resistance and low gate charge (8.4nC), standard in 3D printer heated beds, motor drivers, and 3.3V/5V MCU load switching.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Infineon Technologies / International Rectifier
+  ic_part_numbers: [IRLB8721, IRLB8721PBF]
+  package: TO-220AB
+  transistor_type: N-Channel Logic-Level Power MOSFET
+  drain_source_voltage_vdss_v: 30
+  continuous_drain_current_id_a: 62
+  pulsed_drain_current_id_a: 250
+  gate_threshold_voltage_vgs_th_min_v: 1.35
+  gate_threshold_voltage_vgs_th_max_v: 2.35
+  rds_on_vgs_10v_mohm: 8.7
+  rds_on_vgs_4.5v_mohm: 13.1
+  total_power_dissipation_w: 65
+  gate_charge_total_nc: 8.4
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [3.3V, 4.5V, and 10V Gate Drive Compatible]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - rds_on_vgs_4.5v_mohm
+  - rds_on_vgs_10v_mohm
+  - gate_charge_total_nc
+  - interfaces
+references:
+  - targetId: transistor.mosfet.irlz44n
+    relation: see-also
+  - targetId: transistor.mosfet.irlb8743
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a401535660246f2596" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/irlb8721/" }

@@ -1,0 +1,41 @@
+id: interface.logic.cd4069
+revision: "1.0"
+title: CD4069UB — CMOS Hex Inverter (Unbuffered)
+category: interface/logic
+tags: [cd4069, cd4069ub, cd4069b, inverter, not-gate, hex-inverter, unbuffered, cmos, linear-amplifier, fuzz-pedal, rc-oscillator, 4000-series, texas-instruments, onsemi, dip-14]
+status: published
+summary: >-
+  CMOS 4000-series unbuffered hex inverter IC containing six independent single-stage inverting gates, widely used for CMOS crystal/RC oscillators, low-frequency digital logic, and analog linear amplification in audio synthesizer and guitar fuzz circuits.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4069UB, CD4069UBE, CD4069UBM, HEF4069UB, TC4069UBP]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  logic_family: CMOS 4000 Series (CD4000UB Unbuffered)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  inverters_count: 6 (Hex Inverter)
+  buffered: false
+  propagation_delay_ns: 30
+  quiescent_current_ua: 1.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [6x Independent Inverting Gates (1A->1Y, 2A->2Y, 3A->3Y, 4A->4Y, 5A->5Y, 6A->6Y)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - inverters_count
+  - buffered
+  - propagation_delay_ns
+  - interfaces
+references:
+  - targetId: interface.logic.74hc04
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4069UB" }

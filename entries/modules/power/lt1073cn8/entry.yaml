@@ -1,0 +1,43 @@
+id: power.switching.lt1073cn8
+revision: "1.0"
+title: LT1073CN8 — Micropower DC-DC Converter (Step-Up / Step-Down / Inverting, DIP-8)
+category: power/switching
+tags: [lt1073, lt1073cn8, lt1073-5, lt1073-12, linear-technology, analog-devices, dc-dc, boost, buck, inverting, micropower, dip-8, battery-powered]
+status: published
+summary: >-
+  Linear Technology / Analog Devices classic micropower gated-oscillator DC-DC converter in an 8-pin DIP package, operating from 1.0V to 30V input in boost, buck, or inverting modes with 95µA standby quiescent current.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Linear Technology / Analog Devices
+  ic_part_numbers: [LT1073CN8, LT1073CN8-5, LT1073CN8-12, LT1073CS8]
+  package: 8-pin DIP (DIP-8 / N8) / 8-pin SOIC
+  converter_type: Micropower Multi-Topology DC-DC Converter (Boost / Buck / Inverting)
+  output_voltage_v: 5.0 (LT1073-5) / 12.0 (LT1073-12) / Adjustable (1.2V to 50V)
+  input_voltage_v_min: 1.0
+  input_voltage_v_max: 30.0
+  switch_current_a_max: 1.0
+  quiescent_current_ua: 95
+  switching_frequency_khz: 19
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [8-Pin Analog (ILIM, VIN, SW1, SW2, GND, AO, SET, FB)]
+highlights:
+  - converter_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - switch_current_a_max
+  - quiescent_current_ua
+  - interfaces
+references:
+  - targetId: power.converter.mc34063a
+    relation: see-also
+  - targetId: power.boost.ncp1400asn33t1
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/1073fa.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/lt1073.html" }

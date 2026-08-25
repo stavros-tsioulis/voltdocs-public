@@ -1,0 +1,45 @@
+id: interface.opto.4n26
+revision: "1.0"
+title: 4N26 — General-Purpose 6-Pin Phototransistor Optocoupler (DIP-6)
+category: interface/opto
+tags: [4n26, 4n25, 4n27, 4n28, 4n35, optocoupler, optoisolator, photocoupler, galvanic-isolation, 5000vrms, vishay, onsemi, dip-6]
+status: published
+summary: >-
+  Vishay / onsemi 6-pin DIP phototransistor optocoupler featuring 5000V RMS galvanic isolation and base-terminal access for AC zero-cross detection, MIDI inputs, and microprocessor isolation.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Vishay / ON Semiconductor / Lite-On / Everlight
+  ic_part_numbers: [4N26, 4N26-X009, 4N26M, 4N26S]
+  package: 6-pin DIP (DIP-6 / PDIP-6) / 6-pin SMD
+  device_type: Phototransistor Output Optocoupler with Base Connection
+  isolation_voltage_vrms: 5000
+  collector_emitter_voltage_vceo_v: 30
+  emitter_base_voltage_vebo_v: 7.0
+  forward_current_if_ma: 60
+  collector_current_ic_ma: 50
+  current_transfer_ratio_ctr_pct_min: 20 (typ 50 to 100 at IF = 10mA)
+  turn_on_time_us: 2.0
+  turn_off_time_us: 2.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 100
+  interfaces: [Infrared LED (Anode, Cathode), Phototransistor (Emitter, Collector, Base)]
+highlights:
+  - device_type
+  - isolation_voltage_vrms
+  - collector_emitter_voltage_vceo_v
+  - forward_current_if_ma
+  - current_transfer_ratio_ctr_pct_min
+  - interfaces
+references:
+  - targetId: interface.opto.pc817
+    relation: see-also
+  - targetId: interface.logic.74hc14
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.vishay.com/docs/83725/4n25.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.vishay.com/en/product/83725/" }

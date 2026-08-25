@@ -1,0 +1,47 @@
+id: transistor.mosfet.fqp30n06l
+revision: "1.0"
+title: FQP30N06L — 60V 32A Logic-Level N-Channel Power MOSFET (TO-220)
+category: transistors/mosfet
+tags: [fqp30n06l, mosfet, n-channel, logic-level, 60v, 32a, to-220, onsemi, fairchild, qfet, power-switch, pwm]
+status: published
+summary: >-
+  onsemi / Fairchild 60V 32A N-channel logic-level QFET power MOSFET in a TO-220 package with low 35mΩ on-resistance, designed for direct 3.3V and 5V microcontroller gate drive in motor controls and power switching.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: onsemi / Fairchild Semiconductor
+  ic_part_numbers: [FQP30N06L, FQP30N06L-ND]
+  package: TO-220-3 (TO-220AB)
+  transistor_type: N-Channel Logic-Level Power MOSFET (QFET)
+  drain_source_voltage_vdss_v: 60
+  continuous_drain_current_id_a: 32
+  pulsed_drain_current_id_a: 128
+  gate_threshold_voltage_vgs_th_min_v: 1.0
+  gate_threshold_voltage_vgs_th_max_v: 2.5
+  rds_on_vgs_10v_mohm: 35.0
+  rds_on_vgs_5v_mohm: 45.0
+  total_power_dissipation_w: 79
+  gate_charge_total_nc: 15.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [3.3V and 5V Logic-Level Gate Drive]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - rds_on_vgs_5v_mohm
+  - rds_on_vgs_10v_mohm
+  - interfaces
+references:
+  - targetId: transistor.mosfet.irlz44n
+    relation: see-also
+  - targetId: transistor.mosfet.rfp30n06le
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/fqp30n06l-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discrete-power-modules/mosfets/fqp30n06l" }

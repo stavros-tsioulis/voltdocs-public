@@ -1,0 +1,47 @@
+id: mcu.arm.py32f002a
+revision: "1.0"
+title: PY32F002A — Sub-$0.10 32-Bit ARM Cortex-M0+ Microcontroller (Wide 1.7V–5.5V)
+category: mcu/arm
+tags: [py32f002a, py32, arm, cortex-m0+, puya, 32-bit, ultra-low-cost, 5v-tolerant, tssop-20, sop-8, swd]
+status: published
+summary: >-
+  Puya Semiconductor sub-$0.10 32-bit ARM Cortex-M0+ microcontroller with 20KB Flash, 3KB SRAM, 12-bit 1Msps ADC, wide 1.7V to 5.5V supply voltage operating window, and hardware I2C/SPI/USART.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Puya Semiconductor
+  ic_part_numbers: [PY32F002AL15S6TU, PY32F002AW15U6TR, PY32F002AF15P6TU]
+  package: 20-pin TSSOP (TSSOP-20) / SOP-8 / SOP-16 / QFN-20
+  core: ARM 32-bit Cortex-M0+
+  max_clock_speed_mhz: 24 (Internal RC / up to 48MHz PLL)
+  flash_memory_kb: 20
+  sram_memory_kb: 3
+  operating_voltage_min_v: 1.7
+  operating_voltage_max_v: 5.5
+  gpio_count: 18 (TSSOP-20) / 6 (SOP-8)
+  adc_channels: 9 (12-bit resolution, 1.0 Msps)
+  timers: 4 (1x 16-bit advanced motor-control timer, 1x GP timer, 1x LPTIM, 1x SysTick)
+  interfaces: [1x USART, 1x SPI, 1x I2C, SWD Debug]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_kb
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.arm.stm32f030f4p6
+    relation: see-also
+  - targetId: mcu.avr.attiny85
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.puyasemi.com/uploadfiles/2023/02/PY32F002A_Datasheet_V1.1_EN.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.puyasemi.com/cpzx1/info_267_itemid_1084.html" }

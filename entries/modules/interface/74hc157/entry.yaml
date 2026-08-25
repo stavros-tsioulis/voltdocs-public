@@ -1,0 +1,46 @@
+id: interface.logic.74hc157
+revision: "1.0"
+title: 74HC157 — Quad 2-to-1 Line Data Selector / Multiplexer (Non-Inverting)
+category: interface/logic
+tags: [74hc157, 74hct157, sn74hc157, multiplexer, data-selector, quad-2-to-1, cmos, 7400-series, nibble-switch, bus-mux, dip-16]
+status: published
+summary: >-
+  High-speed CMOS Quad 2-input to 1-output digital data selector / multiplexer with common select line and common active-LOW strobe in a 16-pin DIP package, widely used for 4-bit bus switching and DRAM address multiplexing.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Texas Instruments / Nexperia / onsemi
+  ic_part_numbers: [SN74HC157N, 74HC157D, SN74HCT157N, CD74HC157E]
+  package: 16-pin DIP (DIP-16 / PDIP-16) / 16-pin SOIC / 16-pin TSSOP
+  logic_family: High-Speed CMOS (74HC) / TTL-Compatible CMOS (74HCT)
+  function: Quad 2-to-1 Line Data Selector / Multiplexer (Non-Inverting)
+  multiplexer_channels: 4
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  propagation_delay_ns: 11 (at 5V)
+  output_drive_current_ma: 4
+  quiescent_current_ua: 8
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [4 Pairs Data Inputs (1A-4B), 1 Select (S), 1 Strobe (G), 4 Outputs (1Y-4Y)]
+highlights:
+  - logic_family
+  - function
+  - multiplexer_channels
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+references:
+  - targetId: interface.logic.74hc151
+    relation: see-also
+  - targetId: interface.mux.cd4053
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc157.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC157" }

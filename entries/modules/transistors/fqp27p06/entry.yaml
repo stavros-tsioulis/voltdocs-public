@@ -1,0 +1,45 @@
+id: transistor.mosfet.fqp27p06
+revision: "1.0"
+title: FQP27P06 — -60V -27A P-Channel QFET Power MOSFET (TO-220)
+category: transistors/mosfet
+tags: [fqp27p06, mosfet, p-channel, power-mosfet, "-60v", "-27a", to-220, onsemi, fairchild, qfet, h-bridge, high-side-switch, GDS]
+status: published
+summary: >-
+  onsemi / Fairchild -60V -27A P-channel QFET power MOSFET in a TO-220 package with 70mΩ RDS(on) and 120W power dissipation, popular for 12V/24V high-side load switching and discrete H-bridge motor inverters.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: onsemi / Fairchild Semiconductor
+  ic_part_numbers: [FQP27P06]
+  package: TO-220AB (3-pin through-hole)
+  transistor_type: P-Channel QFET Power MOSFET
+  drain_source_voltage_vdss_v: -60
+  gate_source_voltage_vgs_max_v: 25
+  continuous_drain_current_id_a: -27.0
+  pulsed_drain_current_id_a: -108.0
+  gate_threshold_voltage_vgs_th_min_v: -2.0
+  gate_threshold_voltage_vgs_th_max_v: -4.0
+  rds_on_vgs_10v_mohm: 70.0
+  total_power_dissipation_w: 120.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [Standard High-Side Gate Drive (-10V to -20V Recommended)]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - rds_on_vgs_10v_mohm
+  - total_power_dissipation_w
+  - interfaces
+references:
+  - targetId: transistor.mosfet.fqp30n06l
+    relation: companion-to
+  - targetId: transistor.mosfet.irf9540
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/fqp27p06-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discrete-power-device/mosfets/fqp27p06" }

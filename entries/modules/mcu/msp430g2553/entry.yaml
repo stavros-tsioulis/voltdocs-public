@@ -1,0 +1,48 @@
+id: mcu.msp430.msp430g2553
+revision: "1.0"
+title: MSP430G2553 — 16-Bit Ultra-Low-Power RISC Microcontroller with 16KB Flash
+category: mcu/msp430
+tags: [msp430g2553, msp430, ti, texas-instruments, launchpad, 16-bit, ultra-low-power, dip-20, energy-harvesting, capacitive-touch]
+status: published
+summary: >-
+  Texas Instruments 16-bit ultra-low-power RISC microcontroller with 16KB Flash, 512B RAM, 10-bit 200ksps ADC, dual 16-bit timers, capacitive touch PinOsc, and USCI (UART/SPI/I2C), standard on TI LaunchPad.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [MSP430G2553IN20, MSP430G2553IPW20, MSP430G2553IRHB32]
+  package: 20-pin DIP (DIP-20 / N20) / 20-pin TSSOP (PW20) / 32-pin QFN
+  core: 16-bit MSP430 RISC CPU
+  max_clock_speed_mhz: 16
+  flash_memory_kb: 16
+  sram_memory_bytes: 512
+  operating_voltage_min_v: 1.8
+  operating_voltage_max_v: 3.6
+  gpio_count: 16
+  adc_channels: 8 (10-bit resolution, 200 ksps)
+  timers: 2 (16-bit Timer_A with 3 capture/compare each)
+  interfaces: [USCI (UART, IrDA, SPI, I2C), Spy-Bi-Wire (2-Wire JTAG)]
+  quiescent_current_ua: 0.1 (LPM4 RAM Retention)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.avr.atmega328p
+    relation: see-also
+  - targetId: mcu.avr.attiny85
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/msp430g2553.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/MSP430G2553" }

@@ -1,0 +1,44 @@
+id: power.controller.viper22a
+revision: "1.0"
+title: VIPer22A — Off-Line Primary SMPS Switcher IC (Integrated 730V MOSFET)
+category: power/controller
+tags: [viper22a, viper22a-e, smps, offline-switcher, flyback, buck-converter, 730v-mosfet, stmicroelectronics, dip-8, ac-dc]
+status: published
+summary: >-
+  STMicroelectronics off-line primary SMPS converter IC combining a dedicated current-mode PWM controller and a 730V rugged power MOSFET in a single DIP-8 package for compact isolated and non-isolated AC-DC power supplies.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [VIPer22A, VIPer22A-E, VIPer22ADIP-E, VIPer22AS-E]
+  package: 8-pin DIP (DIP-8 / SDIP-8) / SO-8
+  device_type: Monolithic High-Voltage SMPS Switcher IC
+  integrated_mosfet_breakdown_v: 730
+  switching_frequency_khz: 60
+  max_output_power_w: 12 (wide AC 85-265V) / 20 (European 230V AC)
+  supply_voltage_min_v: 8.0
+  supply_voltage_max_v: 50.0
+  integrated_startup_source: true
+  operating_temp_min_c: -40
+  operating_temp_max_c: 150
+  interfaces: [Integrated 730V Drain (Pins 5-8), Source / Primary GND (Pins 1-2), Feedback (FB), VDD Supply]
+highlights:
+  - device_type
+  - integrated_mosfet_breakdown_v
+  - switching_frequency_khz
+  - max_output_power_w
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - interfaces
+references:
+  - targetId: power.controller.ncp1200
+    relation: see-also
+  - targetId: interface.opto.pc817
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/viper22a-e.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-management/viper22a-e.html" }

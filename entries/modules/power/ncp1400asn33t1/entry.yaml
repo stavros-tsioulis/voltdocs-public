@@ -1,0 +1,47 @@
+id: power.boost.ncp1400asn33t1
+revision: "1.0"
+title: NCP1400ASN33T1 — 100mA Micropower PFM Step-Up (Boost) DC-DC Converter (3.3V)
+category: power/boost
+tags: [ncp1400, ncp1400a, ncp1400asn33t1, boost, step-up, dc-dc, 3.3v, sot-23-5, tsop-5, micropower, single-cell, onsemi]
+status: published
+summary: >-
+  onsemi 100mA micropower PFM step-up DC-DC boost converter delivering fixed +3.3V output with 0.8V startup voltage, 19µA quiescent current, and shutdown mode in a compact 5-pin TSOP package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: onsemi (ON Semiconductor)
+  ic_part_numbers: [NCP1400ASN33T1, NCP1400ASN33T1G, NCP1400ASN19T1G, NCP1400ASN50T1G]
+  package: 5-pin TSOP (TSOP-5 / SOT-23-5)
+  converter_type: Micropower PFM Step-Up (Boost) DC-DC Converter
+  output_voltage_v: 3.3
+  output_voltage_accuracy_pct: 2.5
+  input_voltage_v_min: 0.8
+  input_voltage_v_max: 3.3
+  output_current_a_max: 0.1
+  switching_frequency_khz: 180
+  quiescent_current_ua: 19
+  efficiency_pct: 82
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [5-Pin SMD (CE, OUT, NC, GND, LX)]
+highlights:
+  - converter_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_current_a_max
+  - quiescent_current_ua
+  - efficiency_pct
+  - interfaces
+references:
+  - targetId: power.ldo.mcp1700-3302e
+    relation: see-also
+  - targetId: power.boost.mt3608
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/ncp1400a-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/power-management/dc-dc-power-conversion/converters/ncp1400a" }

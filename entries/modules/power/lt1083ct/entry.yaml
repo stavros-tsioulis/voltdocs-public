@@ -1,0 +1,44 @@
+id: power.regulator.lt1083ct
+revision: "1.0"
+title: LT1083CT — 7.5A Low-Dropout Positive Adjustable Linear Regulator
+category: power/regulator
+tags: [lt1083, lt1083ct, lt1083cp, ldo, regulator, linear, adjustable, 7.5a, power, to-220, to-3p, to-247, analog-devices, linear-technology]
+status: published
+summary: >-
+  Analog Devices / Linear Technology 7.5A low-dropout (1.5V max at 7.5A) positive adjustable 3-terminal linear voltage regulator with internal current limiting and thermal overload protection for high-current bench and audio power supplies.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Analog Devices / Linear Technology
+  ic_part_numbers: [LT1083, LT1083CT, LT1083CP, LT1083CK]
+  package: TO-220 / TO-3P / TO-247 / TO-3 (K-Package)
+  regulator_type: High-Current Low-Dropout Positive Adjustable Regulator
+  output_voltage_v_min: 1.25
+  output_voltage_v_max: 30.0
+  input_output_voltage_diff_v_max: 35.0
+  output_current_a_max: 7.5
+  dropout_voltage_v: 1.5
+  reference_voltage_v: 1.25
+  line_regulation_pct: 0.015
+  load_regulation_pct: 0.1
+  operating_temp_min_c: 0
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Passive (Adjust, Output, Input)]
+highlights:
+  - regulator_type
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - dropout_voltage_v
+  - reference_voltage_v
+  - interfaces
+references:
+  - targetId: power.regulator.lm317
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/108345fh.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/lt1083.html" }

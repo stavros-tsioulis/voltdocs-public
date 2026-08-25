@@ -1,0 +1,42 @@
+id: power.controller.ncp1200
+revision: "1.0"
+title: NCP1200 — Current-Mode PWM Controller with Dynamic Self-Supply (DIP-8)
+category: power/controller
+tags: [ncp1200, ncp1200p44, ncp1200p60, ncp1200p100, pwm, smps, flyback, offline-controller, dynamic-self-supply, onsemi, dip-8]
+status: published
+summary: >-
+  onsemi current-mode PWM controller IC for low-power off-line SMPS with Dynamic Self-Supply (DSS) powering the IC directly from the 450V DC bus without auxiliary transformer windings.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: onsemi
+  ic_part_numbers: [NCP1200P44, NCP1200P60, NCP1200P100, NCP1200D40, NCP1200D60, NCP1200D100]
+  package: 8-pin DIP (DIP-8 / PDIP-8) / SOIC-8
+  controller_type: Current-Mode Offline PWM Controller
+  switching_frequency_khz: 40 (NCP1200P44) / 60 / 100
+  high_voltage_startup_v_max: 500.0
+  operating_supply_voltage_v: 11.0 (internal DSS regulation)
+  driver_output_current_ma: 250
+  standby_skip_cycle_mode: true
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Dynamic Self-Supply (Pin 8 HV), Optocoupler Feedback (FB), Current Sense (CS), MOSFET Gate Drive (Drv)]
+highlights:
+  - controller_type
+  - switching_frequency_khz
+  - high_voltage_startup_v_max
+  - driver_output_current_ma
+  - standby_skip_cycle_mode
+  - interfaces
+references:
+  - targetId: power.controller.viper22a
+    relation: see-also
+  - targetId: power.controller.uc3842
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/ncp1200-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/power-management/ac-dc-power-conversion/offline-controllers/ncp1200" }

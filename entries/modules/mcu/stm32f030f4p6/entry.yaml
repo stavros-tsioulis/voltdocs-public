@@ -1,0 +1,47 @@
+id: mcu.arm.stm32f030f4p6
+revision: "1.0"
+title: STM32F030F4P6 — Entry-Level ARM Cortex-M0 32-Bit MCU (48MHz, 16KB Flash)
+category: mcu/arm
+tags: [stm32f030f4p6, stm32, arm, cortex-m0, 32-bit, stmicroelectronics, tssop-20, 48mhz, low-cost, swd, 12-bit-adc]
+status: published
+summary: >-
+  STMicroelectronics budget 32-bit ARM Cortex-M0 microcontroller running at 48MHz with 16KB Flash, 4KB SRAM, 12-bit ADC, advanced motor control timer, and hardware I2C/SPI/USART in a compact 20-pin TSSOP package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [STM32F030F4P6, STM32F030F4P6TR]
+  package: 20-pin TSSOP (TSSOP-20 / 6.5 x 4.4 mm)
+  core: ARM 32-bit Cortex-M0
+  max_clock_speed_mhz: 48
+  flash_memory_kb: 16
+  sram_memory_kb: 4
+  operating_voltage_min_v: 2.4
+  operating_voltage_max_v: 3.6
+  gpio_count: 15 (Up to 12 5V-tolerant)
+  adc_channels: 11 (12-bit resolution, 1.0 µs conversion time)
+  timers: 5 (1x 16-bit advanced motor-control timer + 4x 16-bit GP timers)
+  interfaces: [1x I2C (Fast Mode+ 1MHz), 1x SPI (18 Mbps), 1x USART, SWD Debug]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_kb
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.arm.stm32f103c8t6
+    relation: see-also
+  - targetId: mcu.arm.py32f002a
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/stm32f030f4.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/microcontrollers-microprocessors/stm32f030f4.html" }

@@ -1,0 +1,46 @@
+id: power.ldo.mcp1700-3302e
+revision: "1.0"
+title: MCP1700-3302E — 250mA Ultra-Low Quiescent Current (1.6µA) 3.3V LDO Regulator
+category: power/regulator
+tags: [mcp1700, mcp1700-3302e, ldo, regulator, linear, 3.3v, to-92, sot-23, low-quiescent, microchip, battery-powered, iot]
+status: published
+summary: >-
+  Microchip ultra-low quiescent current (1.6µA) 3.3V 250mA low-dropout (LDO) CMOS linear voltage regulator in a TO-92 package, designed for multi-year battery-powered IoT and wireless sensor nodes.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [MCP1700-3302E/TO, MCP1700T-3302E/TT, MCP1700T-3302E/MB]
+  package: TO-92 (3-pin through-hole) / SOT-23-3 / SOT-89-3
+  regulator_type: Ultra-Low Quiescent CMOS Low-Dropout (LDO) Linear Regulator
+  output_voltage_v: 3.3
+  output_voltage_accuracy_pct: 2.0
+  input_voltage_v_min: 3.5
+  input_voltage_v_max: 6.0
+  dropout_voltage_v: 0.178
+  output_current_a_max: 0.25
+  quiescent_current_ua: 1.6
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Passive (GND, VIN, VOUT)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - quiescent_current_ua
+  - interfaces
+references:
+  - targetId: power.ldo.lp2950acz-3.3
+    relation: see-also
+  - targetId: power.regulator.ams1117-33
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP1700-Low-Quiescent-Current-LDO-20001826E.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/MCP1700" }

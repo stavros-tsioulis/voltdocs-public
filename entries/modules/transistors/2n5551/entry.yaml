@@ -1,0 +1,48 @@
+id: transistor.bjt.2n5551
+revision: "1.0"
+title: 2N5551 — 160V 600mA High-Voltage NPN Bipolar Junction Transistor (TO-92)
+category: transistors/bjt
+tags: [2n5551, 2n5550, mmbt5551, npn, bjt, transistor, high-voltage, 160v, 600ma, to-92, audio-amp, level-shift, onsemi, fairchild, EBC]
+status: published
+summary: >-
+  onsemi / Fairchild 160V 600mA high-voltage NPN bipolar junction transistor in a TO-92 package, widely used in audio power amplifier input/VAS stages, high-voltage level shifting, and telecom lines.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: onsemi / Fairchild / STMicroelectronics / Central Semi
+  ic_part_numbers: [2N5551, 2N5551TA, MMBT5551, 2N5550]
+  package: TO-92 Plastic (through-hole) / SOT-23 (MMBT5551)
+  transistor_type: High-Voltage Small-Signal NPN BJT
+  collector_emitter_voltage_vceo_v: 160
+  collector_base_voltage_vcbo_v: 180
+  emitter_base_voltage_vebo_v: 6.0
+  continuous_collector_current_ic_ma: 600
+  dc_current_gain_hfe_min: 80 (at IC = 10mA, VCE = 5.0V)
+  dc_current_gain_hfe_max: 250
+  transition_frequency_ft_mhz: 100 (up to 300MHz)
+  total_power_dissipation_mw: 625
+  pinout_order: "E-B-C (1: Emitter, 2: Base, 3: Collector)"
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - total_power_dissipation_mw
+  - interfaces
+references:
+  - targetId: transistor.bjt.2n3904
+    relation: see-also
+  - targetId: transistor.bjt.mpsa42
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/2n5550-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com" }

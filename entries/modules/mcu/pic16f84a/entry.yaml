@@ -1,0 +1,48 @@
+id: mcu.pic.pic16f84a
+revision: "1.0"
+title: PIC16F84A — Historic 18-Pin 8-Bit CMOS Flash Microcontroller (DIP-18)
+category: mcu/pic
+tags: [pic16f84a, pic16f84, pic16c84, pic, microchip, 8-bit, dip-18, historic, legacy, smart-card, amateur-radio]
+status: published
+summary: >-
+  Microchip historic 18-pin 8-bit CMOS Flash RISC microcontroller with 1K words (1.75KB) Flash, 68B RAM, 64B EEPROM, and 13 I/O lines that launched the DIY microcontroller revolution in the late 1990s.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [PIC16F84A-04/P, PIC16F84A-20/P, PIC16F84A-04/SO, PIC16LF84A-04/P]
+  package: 18-pin DIP (DIP-18 / PDIP-18) / 18-pin SOIC / 20-pin SSOP
+  core: 8-bit PIC RISC (35 instructions)
+  max_clock_speed_mhz: 20
+  flash_memory_words: 1024 (1.75 KB, 14-bit words)
+  sram_memory_bytes: 68
+  eeprom_memory_bytes: 64
+  operating_voltage_min_v: 4.0 (2.0V on PIC16LF84A)
+  operating_voltage_max_v: 5.5
+  gpio_count: 13 (RA0 to RA4, RB0 to RB7)
+  timers: 1 (Timer0 8-bit with 8-bit prescaler)
+  interfaces: [ICSP, External Interrupt RB0]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_words
+  - sram_memory_bytes
+  - eeprom_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.pic.pic16f628a
+    relation: replaced-by
+  - targetId: mcu.pic.pic16f877a
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/35007b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/PIC16F84A" }

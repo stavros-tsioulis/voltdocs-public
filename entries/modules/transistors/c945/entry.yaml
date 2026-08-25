@@ -1,0 +1,48 @@
+id: transistor.bjt.c945
+revision: "1.0"
+title: C945 (2SC945) — 50V 150mA General-Purpose NPN Audio/Switching BJT (TO-92)
+category: transistors/bjt
+tags: [c945, 2sc945, ksc945, npn, bjt, transistor, general-purpose, audio, low-noise, 50v, 150ma, to-92, nec, toshiba, fairchild, ECB]
+status: published
+summary: >-
+  NEC / Toshiba / onsemi 50V 150mA general-purpose NPN BJT in a TO-92 package, the ubiquitous Asian hobbyist workhorse transistor found in imported electronics kits, power supplies, and audio preamps.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: NEC / Toshiba / onsemi (Fairchild) / UTC
+  ic_part_numbers: [2SC945, C945, KSC945, 2SC945-P, 2SC945-Q]
+  package: TO-92 (3-pin through-hole) / SOT-23
+  transistor_type: General-Purpose Audio/Switching NPN BJT
+  collector_emitter_voltage_vceo_v: 50
+  collector_base_voltage_vcbo_v: 60
+  emitter_base_voltage_vebo_v: 5.0
+  continuous_collector_current_ic_ma: 150
+  dc_current_gain_hfe_min: 70 (up to 700 based on classification rank)
+  dc_current_gain_hfe_max: 700
+  transition_frequency_ft_mhz: 300
+  noise_figure_db: 0.5 (typ at 1kHz)
+  total_power_dissipation_mw: 400
+  pinout_order: "E-C-B (1: Emitter, 2: Collector, 3: Base)"
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - interfaces
+references:
+  - targetId: transistor.bjt.2sc1815
+    relation: see-also
+  - targetId: transistor.bjt.2n3904
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/ksc945-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com" }

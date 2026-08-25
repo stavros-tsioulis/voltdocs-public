@@ -1,0 +1,39 @@
+id: interface.logic.cd4081
+revision: "1.0"
+title: CD4081B — Quad 2-Input AND Gate
+category: interface/logic
+tags: [cd4081, cd4081b, and-gate, logic-gate, quad-and, cmos, 4000-series, texas-instruments, onsemi, renesas, dip-14]
+status: published
+summary: >-
+  CMOS 4000-series IC containing four independent 2-input AND logic gates operating over a wide supply voltage range from 3V to 18V DC with buffered outputs and high noise immunity.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4081B, CD4081BE, CD4081BM, HEF4081B, TC4081BP]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  logic_family: CMOS 4000 Series (CD4000)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  gates_count: 4 (Quad 2-Input AND)
+  propagation_delay_ns: 60
+  quiescent_current_ua: 1.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [4x Independent 2-Input AND Gates (1A/1B->1Y, 2A/2B->2Y, 3A/3B->3Y, 4A/4B->4Y)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - gates_count
+  - propagation_delay_ns
+  - interfaces
+references:
+  - targetId: interface.logic.74hc08
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4081b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4081B" }

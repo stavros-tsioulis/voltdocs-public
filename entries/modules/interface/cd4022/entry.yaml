@@ -1,0 +1,40 @@
+id: interface.counter.cd4022
+revision: "1.0"
+title: CD4022B — 4-Stage Johnson Octal Counter with 8 Decoded Outputs
+category: interface/logic
+tags: [cd4022, cd4022b, hef4022b, octal-counter, johnson-counter, divide-by-8, sequencer, chaser, cmos, texas-instruments, dip-16]
+status: published
+summary: >-
+  CMOS 4-stage Johnson octal counter IC with 8 active-HIGH decoded outputs (Q0-Q7), CARRY OUT signal, and clock enable/reset, widely used in 8-step musical sequencers, 8-channel LED chasers, and modulo-8 frequency division.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4022B, CD4022BE, CD4022BM, HEF4022B]
+  package: 16-pin DIP (DIP-16 / PDIP-16) / SOIC-16 / TSSOP-16
+  logic_family: CMOS 4000 Series (CD4000B)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  outputs_count: 8 Decoded Active-High Outputs (Q0-Q7)
+  max_clock_frequency_mhz: 5.0 (at 10V) / 2.5 (at 5V)
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [CLOCK, CLOCK INHIBIT, RESET, CARRY OUT, Q0-Q7 Decoded Outputs]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - outputs_count
+  - max_clock_frequency_mhz
+  - interfaces
+references:
+  - targetId: interface.counter.cd4017
+    relation: companion-to
+  - targetId: interface.counter.cd4040
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4022b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4022B" }

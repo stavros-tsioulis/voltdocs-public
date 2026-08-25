@@ -1,0 +1,44 @@
+id: transistor.mosfet.rfp30n06le
+revision: "1.0"
+title: RFP30N06LE — 60V 30A Logic-Level N-Channel Power MOSFET (TO-220)
+category: transistors/mosfet
+tags: [rfp30n06le, mosfet, n-channel, logic-level, 60v, 30a, to-220, onsemi, intersil, sparkfun, power-switch, pwm]
+status: published
+summary: >-
+  onsemi / Intersil 60V 30A N-channel logic-level MegaFET power MOSFET in a TO-220AB package with 47mΩ on-resistance at 5V VGS, historically popular in early Arduino and SparkFun motor driver tutorials.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: onsemi / Intersil / Fairchild
+  ic_part_numbers: [RFP30N06LE, RFP30N06LE-ND]
+  package: TO-220AB
+  transistor_type: N-Channel Logic-Level Power MOSFET (MegaFET)
+  drain_source_voltage_vdss_v: 60
+  continuous_drain_current_id_a: 30
+  pulsed_drain_current_id_a: 75
+  gate_threshold_voltage_vgs_th_min_v: 1.0
+  gate_threshold_voltage_vgs_th_max_v: 2.0
+  rds_on_vgs_5v_mohm: 47.0
+  total_power_dissipation_w: 96
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [3.3V and 5V Logic-Level Gate Drive Compatible]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - rds_on_vgs_5v_mohm
+  - interfaces
+references:
+  - targetId: transistor.mosfet.fqp30n06l
+    relation: variant-of
+  - targetId: transistor.mosfet.irlz44n
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/rfp30n06le-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discrete-power-modules/mosfets/rfp30n06le" }

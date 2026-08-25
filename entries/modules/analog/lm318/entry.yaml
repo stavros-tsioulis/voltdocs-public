@@ -1,0 +1,46 @@
+id: analog.opamp.lm318
+revision: "1.0"
+title: LM318 — High-Speed 50V/µs Precision Operational Amplifier
+category: analog/opamp
+tags: [lm318, lm318n, lm318p, op-amp, operational-amplifier, single-opamp, high-speed, high-slew-rate, fast-settling, texas-instruments, dip-8, soic-8]
+status: published
+summary: >-
+  Texas Instruments precision high-speed single operational amplifier IC featuring a 50V/µs guaranteed minimum slew rate (70V/µs typ), 15MHz unity-gain bandwidth, and fast settling time for high-frequency analog signal processing and DAC buffers.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [LM318, LM318N, LM318P, LM318D, LM318DR]
+  package: 8-pin PDIP / SOIC-8
+  opamp_channels: 1 (Single Op-Amp)
+  supply_voltage_single_v_min: 10.0
+  supply_voltage_single_v_max: 40.0
+  supply_voltage_split_v_min: 5.0
+  supply_voltage_split_v_max: 20.0
+  gain_bandwidth_product_mhz: 15.0
+  slew_rate_v_us: 50.0
+  input_offset_voltage_mv: 4.0
+  input_bias_current_na: 150.0
+  quiescent_current_ma: 5.0
+  settling_time_ns: 500
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Single Op-Amp Analog Terminals with External Compensation / Feed-Forward]
+highlights:
+  - opamp_channels
+  - supply_voltage_split_v_min
+  - supply_voltage_split_v_max
+  - gain_bandwidth_product_mhz
+  - slew_rate_v_us
+  - settling_time_ns
+  - interfaces
+references:
+  - targetId: analog.opamp.lm741
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm318.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM318" }

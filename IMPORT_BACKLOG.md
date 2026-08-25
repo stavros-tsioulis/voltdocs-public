@@ -430,135 +430,135 @@ Candidate parts for future import into `entries/`, ranked by how often they turn
 | `AT24C32` | EEPROM (I2C) | Microchip/Atmel | Tier 3 | Small I2C EEPROM commonly paired with DS3231 RTC modules, niche. | imported |
 | `TLV2372` | Fast Rail-to-rail Dual Op-amp | Texas Instruments | Tier 3 | Recommended fast op-amp for signal conditioning, specialized recommendation. | imported |
 | `LT1963A-3.3` | Fast-transient LDO, 1.5A | Analog Devices | Tier 3 | Clean fast-response 3.3V rail for audio/RF projects, niche. | imported |
-| `LM7815` | Fixed 15V Linear Regulator | STMicroelectronics | Tier 3 | 78xx variant for op-amp dual supplies, niche. |  |
-| `LM7824` | Fixed 24V Linear Regulator | STMicroelectronics | Tier 3 | 78xx variant for regulated 24V motor/relay supplies, niche. |  |
-| `LM7809` | Fixed 9V Linear Regulator | STMicroelectronics | Tier 3 | 78xx variant for 9V pedal/effects/audio power rails, niche. |  |
+| `LM7815` | Fixed 15V Linear Regulator | STMicroelectronics | Tier 3 | 78xx variant for op-amp dual supplies, niche. | imported |
+| `LM7824` | Fixed 24V Linear Regulator | STMicroelectronics | Tier 3 | 78xx variant for regulated 24V motor/relay supplies, niche. | imported |
+| `LM7809` | Fixed 9V Linear Regulator | STMicroelectronics | Tier 3 | 78xx variant for 9V pedal/effects/audio power rails, niche. | imported |
 | `SIM800L` | GSM/GPRS Module | SIMCom | Tier 3 | Popular bare cellular module used in hobbyist IoT/SMS-notification projects, niche. | imported |
-| `MC33886` | H-Bridge Motor Driver | NXP/ON Semiconductor | Tier 3 | Monolithic H-bridge used in Pololu motor driver carriers, niche. |  |
-| `IR2103` | Half-Bridge MOSFET Gate Driver | Infineon | Tier 3 | Drop-in equivalent to IR2104, niche. |  |
-| `IR2104` | Half-Bridge MOSFET Gate Driver | Infineon | Tier 3 | Merges IR2104/IRS2104; low-cost half-bridge gate driver for DIY motor/inverter projects, niche. |  |
-| `NCP81074` | Half-Bridge MOSFET Gate Driver | ON Semiconductor | Tier 3 | Modern efficient half-bridge gate driver, niche. |  |
-| `BTS7960` | High-Current H-Bridge Motor Driver | Infineon | Tier 3 | High-current (43A) half-bridge module for high-power motor/e-bike projects, niche. |  |
-| `VNH2SP30` | High-Current H-Bridge Motor Driver | STMicroelectronics | Tier 3 | High-current (30A) monolithic H-bridge for Pololu/Sparkfun 'monster' motor driver shields, niche. |  |
-| `LT3743` | High-Current LED Driver | Analog Devices | Tier 3 | High-current buck LED driver for demanding DIY LED projects, niche. |  |
-| `LT1083CT` | High-current Adjustable LDO, 7.5A | Analog Devices | Tier 3 | High-current regulator for bench supplies beyond LM317's range, niche. |  |
-| `LM318` | High-speed Op-amp | Texas Instruments | Tier 3 | High-slew-rate op-amp included in one assortment kit, niche need. |  |
-| `FAN7392` | High/Low-Side MOSFET Gate Driver | ON Semiconductor | Tier 3 | Another IR2110-equivalent used in DIY inverter/motor boards, niche. |  |
-| `IR2110` | High/Low-Side MOSFET Gate Driver | Infineon | Tier 3 | Merges IR2110/IR2110STRPBF; one of the most widely used gate driver ICs in hobbyist H-bridge/inverter builds, niche relative to full repo. |  |
-| `IR2181` | High/Low-Side MOSFET Gate Driver | Infineon | Tier 3 | Higher-current half-bridge gate driver for faster switching, niche. |  |
-| `MIC4608` | High/Low-Side MOSFET Gate Driver | Microchip | Tier 3 | Cited as common alternative to IR2110, niche. |  |
-| `UCC27714` | High/Low-Side MOSFET Gate Driver | Texas Instruments | Tier 3 | Modern gate driver as IR2110 replacement, niche. |  |
-| `AD620` | Instrumentation Amplifier | Analog Devices | Tier 3 | Popular low-cost instrumentation amp for DIY ECG/EMG, still a niche subset of projects. |  |
-| `INA128` | Instrumentation Amplifier | Texas Instruments | Tier 3 | Precision instrumentation amp for strain-gauge circuits, specialized. |  |
-| `INA333` | Instrumentation Amplifier | Texas Instruments | Tier 3 | Low-power instrumentation amp for biosignal (EMG/ECG) projects, niche. |  |
-| `LF351` | JFET Op-amp | Texas Instruments | Tier 3 | Low-cost single JFET op-amp alternative to TL081. |  |
-| `LF356` | JFET Op-amp | Texas Instruments | Tier 3 | Classic JFET op-amp for vintage synth/filter builds, niche. |  |
-| `CD4027` | JK Flip-Flop | TI/ON Semi | Tier 3 | Dual JK flip-flop, common CMOS sequential logic, niche. |  |
-| `MIC5219-3.3` | LDO Regulator | Microchip | Tier 3 | Small-package LDO for sensor/Arduino shield boards, niche. |  |
-| `NCP1117ST33T3G` | LDO Regulator, 3.3V | onsemi | Tier 3 | Onsemi LDO interchangeable with AMS1117, niche. |  |
-| `REG1117-3.3` | LDO Regulator, 3.3V | Texas Instruments | Tier 3 | TI's SOT-223 LDO used as AMS1117 alternative, niche. |  |
+| `MC33886` | H-Bridge Motor Driver | NXP/ON Semiconductor | Tier 3 | Monolithic H-bridge used in Pololu motor driver carriers, niche. | imported |
+| `IR2103` | Half-Bridge MOSFET Gate Driver | Infineon | Tier 3 | Drop-in equivalent to IR2104, niche. | imported |
+| `IR2104` | Half-Bridge MOSFET Gate Driver | Infineon | Tier 3 | Merges IR2104/IRS2104; low-cost half-bridge gate driver for DIY motor/inverter projects, niche. | imported |
+| `NCP81074` | Half-Bridge MOSFET Gate Driver | ON Semiconductor | Tier 3 | Modern efficient half-bridge gate driver, niche. | imported |
+| `BTS7960` | High-Current H-Bridge Motor Driver | Infineon | Tier 3 | High-current (43A) half-bridge module for high-power motor/e-bike projects, niche. | imported |
+| `VNH2SP30` | High-Current H-Bridge Motor Driver | STMicroelectronics | Tier 3 | High-current (30A) monolithic H-bridge for Pololu/Sparkfun 'monster' motor driver shields, niche. | imported |
+| `LT3743` | High-Current LED Driver | Analog Devices | Tier 3 | High-current buck LED driver for demanding DIY LED projects, niche. | imported |
+| `LT1083CT` | High-current Adjustable LDO, 7.5A | Analog Devices | Tier 3 | High-current regulator for bench supplies beyond LM317's range, niche. | imported |
+| `LM318` | High-speed Op-amp | Texas Instruments | Tier 3 | High-slew-rate op-amp included in one assortment kit, niche need. | imported |
+| `FAN7392` | High/Low-Side MOSFET Gate Driver | ON Semiconductor | Tier 3 | Another IR2110-equivalent used in DIY inverter/motor boards, niche. | imported |
+| `IR2110` | High/Low-Side MOSFET Gate Driver | Infineon | Tier 3 | Merges IR2110/IR2110STRPBF; one of the most widely used gate driver ICs in hobbyist H-bridge/inverter builds, niche relative to full repo. | imported |
+| `IR2181` | High/Low-Side MOSFET Gate Driver | Infineon | Tier 3 | Higher-current half-bridge gate driver for faster switching, niche. | imported |
+| `MIC4608` | High/Low-Side MOSFET Gate Driver | Microchip | Tier 3 | Cited as common alternative to IR2110, niche. | imported |
+| `UCC27714` | High/Low-Side MOSFET Gate Driver | Texas Instruments | Tier 3 | Modern gate driver as IR2110 replacement, niche. | imported |
+| `AD620` | Instrumentation Amplifier | Analog Devices | Tier 3 | Popular low-cost instrumentation amp for DIY ECG/EMG, still a niche subset of projects. | imported |
+| `INA128` | Instrumentation Amplifier | Texas Instruments | Tier 3 | Precision instrumentation amp for strain-gauge circuits, specialized. | imported |
+| `INA333` | Instrumentation Amplifier | Texas Instruments | Tier 3 | Low-power instrumentation amp for biosignal (EMG/ECG) projects, niche. | imported |
+| `LF351` | JFET Op-amp | Texas Instruments | Tier 3 | Low-cost single JFET op-amp alternative to TL081. | imported |
+| `LF356` | JFET Op-amp | Texas Instruments | Tier 3 | Classic JFET op-amp for vintage synth/filter builds, niche. | imported |
+| `CD4027` | JK Flip-Flop | TI/ON Semi | Tier 3 | Dual JK flip-flop, common CMOS sequential logic, niche. | imported |
+| `MIC5219-3.3` | LDO Regulator | Microchip | Tier 3 | Small-package LDO for sensor/Arduino shield boards, niche. | imported |
+| `NCP1117ST33T3G` | LDO Regulator, 3.3V | onsemi | Tier 3 | Onsemi LDO interchangeable with AMS1117, niche. | imported |
+| `REG1117-3.3` | LDO Regulator, 3.3V | Texas Instruments | Tier 3 | TI's SOT-223 LDO used as AMS1117 alternative, niche. | imported |
  | `LM1117-3.3` | LDO Regulator, Fixed 3.3V | Texas Instruments | Tier 3 | Original TI part that AMS1117 derives from, still specified occasionally. | imported | 
-| `TPS7333QD` | LDO with Reset, 3.3V | Texas Instruments | Tier 3 | LDO with integrated power-on reset, niche use case. |  |
-| `MAX7221` | LED Matrix/7-Segment Driver | Maxim Integrated (Analog Devices) | Tier 3 | SPI-compatible variant of MAX7219, niche relative to base part. |  |
-| `74HC373` | Latch | TI/Nexperia | Tier 3 | Octal transparent latch for address/data latching, niche. |  |
-| `74HC573` | Latch | TI/Nexperia | Tier 3 | Pinout variant of 74HC373, niche kit part. |  |
-| `CD4081` | Logic Gate - AND | TI/ON Semi/Renesas | Tier 3 | Quad 2-input AND, standard CD4000 gate, niche. |  |
-| `CD4050` | Logic Gate - Buffer | TI/ON Semi/Renesas | Tier 3 | Hex non-inverting buffer/level shifter, companion to CD4049, niche. |  |
-| `74HCT04` | Logic Gate - Inverter | TI/Nexperia | Tier 3 | TTL-compatible hex inverter, niche level-threshold use case. |  |
-| `CD4069` | Logic Gate - Inverter | TI/ON Semi/Renesas | Tier 3 | Hex inverter for CMOS oscillators and biased as linear amp in fuzz pedals, niche dual-use. |  |
-| `CD4049` | Logic Gate - Inverter/Buffer | TI/ON Semi/Renesas | Tier 3 | Hex inverting buffer for level conversion, included in most CD4000 kits, niche standalone use. |  |
-| `74HC10` | Logic Gate - NAND | TI/Nexperia | Tier 3 | Triple 3-input NAND, standard kit part but less frequently used than 2-input gates. |  |
-| `74HCT00` | Logic Gate - NAND | TI/Nexperia | Tier 3 | TTL-compatible-input NAND for interfacing TTL/CMOS, niche. |  |
-| `74LS00` | Logic Gate - NAND | TI/Fairchild | Tier 3 | Classic TTL NAND, legacy/retro hobby builds, niche today. |  |
-| `CD4071` | Logic Gate - OR | TI/ON Semi/Renesas | Tier 3 | Quad 2-input OR, standard CD4000 gate, niche. |  |
-| `74LS14` | Logic Gate - Schmitt Inverter | TI/Fairchild | Tier 3 | TTL Schmitt inverter, predecessor part, niche vintage use. |  |
-| `CD40106` | Logic Gate - Schmitt Inverter | TI/ON Semi/Renesas | Tier 3 | Hex Schmitt inverter for RC oscillators/debounce, niche. |  |
-| `74HC132` | Logic Gate - Schmitt NAND | TI/Nexperia | Tier 3 | Quad Schmitt NAND for debounce/oscillator circuits, niche. |  |
-| `CD4093` | Logic Gate - Schmitt NAND | TI/ON Semi/Renesas | Tier 3 | Quad Schmitt NAND for oscillators/debounce circuits, niche. |  |
-| `74HC86` | Logic Gate - XOR | TI/Nexperia | Tier 3 | Quad XOR gate, common but more specialized (comparator/parity circuits). |  |
-| `IRLML2502` | Logic-level N-channel MOSFET, SOT-23 | Infineon (legacy IR) | Tier 3 | Small logic-level SMD MOSFET for load switching from MCUs, niche. |  |
-| `FQP30N06L` | Logic-level N-channel MOSFET, TO-220 | ON Semi/Fairchild | Tier 3 | Common logic-level MOSFET alternative for Arduino projects, listed in 'best 4 transistors' essential kit but functionally a niche alternative. |  |
-| `IRL540N` | Logic-level N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | Logic-level alternative to IRF540N, niche. |  |
-| `IRLB8721` | Logic-level N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | Fully logic-level MOSFET recommended in Arduino/RepRap heater circuits, niche. |  |
-| `IRLB8743` | Logic-level N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | High-current logic-level MOSFET for motor/heater-bed switching, niche. |  |
-| `RFP30N06LE` | Logic-level N-channel MOSFET, TO-220 | ON Semi | Tier 3 | Classic logic-level MOSFET from early Arduino motor control tutorials, niche. |  |
-| `LP2950ACZ-3.3` | Low-dropout Regulator, 3.3V | Texas Instruments | Tier 3 | Classic low-dropout 3.3V regulator, niche. |  |
-| `LM2931AZ-5.0` | Low-dropout Regulator, 5V | TI/onsemi | Tier 3 | Automotive-grade LDO for car-electronics projects, niche. |  |
-| `MIC29302WU` | Low-dropout Regulator, Adjustable, 3A | Microchip | Tier 3 | High-current LDO for low-dropout needs beyond 7805, niche. |  |
-| `OP27` | Low-noise Precision Op-amp | Analog Devices | Tier 3 | Well-known low-noise op-amp for audio/instrumentation, niche. |  |
-| `78L05` | Low-power Linear Regulator, 5V | STMicroelectronics/onsemi | Tier 3 | TO-92 low-current 7805 variant for small circuits, niche. |  |
-| `MCP1700-3302E/TO` | Low-quiescent LDO, 3.3V | Microchip | Tier 3 | Ultra-low-Iq LDO for battery-powered/low-power builds, niche. |  |
-| `MSP430G2553` | MCU - 16-bit Low Power | Texas Instruments | Tier 3 | Low-power MCU used bare in LaunchPad-derived/battery projects, niche. |  |
-| `CH552G` | MCU - 8051-core with USB | WCH (Nanjing Qinheng) | Tier 3 | Extremely cheap USB-capable 8-bit MCU for low-cost USB HID/gadget projects, niche. |  |
-| `STM32F030F4P6` | MCU - ARM Cortex-M0 | STMicroelectronics | Tier 3 | Very cheap TSSOP-20 Cortex-M0 chip for low-cost DIY custom PCBs, niche. |  |
-| `PY32F002A` | MCU - ARM Cortex-M0+ | Puya | Tier 3 | Very cheap Chinese Cortex-M0+ chip gaining popularity as inexpensive STM32-compatible alternative, niche/emerging. |  |
-| `STM32G030F6P6` | MCU - ARM Cortex-M0+ | STMicroelectronics | Tier 3 | Modern low-cost ST MCU as ATmega328P alternative amid shortages, niche/emerging. |  |
-| `ATmega644P` | MCU - AVR 8-bit | Microchip/Atmel | Tier 3 | 40-pin DIP AVR popular in Sanguino-style builds, niche. |  |
-| `ATmega8` | MCU - AVR 8-bit | Microchip/Atmel | Tier 3 | Predecessor to 328P, still used in legacy projects, niche. |  |
-| `ATtiny13A` | MCU - AVR 8-bit | Microchip/Atmel | Tier 3 | Ultra-cheap 8-pin AVR for extremely minimal blinky/timer circuits, niche. |  |
-| `ATtiny2313` | MCU - AVR 8-bit | Microchip/Atmel | Tier 3 | Classic 20-pin AVR long used in tutorials, niche today. |  |
-| `ATtiny84` | MCU - AVR 8-bit | Microchip/Atmel | Tier 3 | 14-pin AVR with more I/O than ATtiny85, niche. |  |
-| `PIC12F683` | MCU - PIC 8-bit | Microchip | Tier 3 | Small 8-pin PIC for compact low-cost control circuits, niche. |  |
-| `PIC16F628A` | MCU - PIC 8-bit | Microchip | Tier 3 | Budget PIC used in clock/counter/LED-driver projects, niche. |  |
-| `PIC16F84A` | MCU - PIC 8-bit | Microchip | Tier 3 | Historic entry-level PIC, niche/legacy today. |  |
-| `PIC18F4550` | MCU - PIC 8-bit with USB | Microchip | Tier 3 | PIC with native USB for USB-device/PICkit projects, niche. |  |
-| `CH32V003` | MCU - RISC-V | WCH | Tier 3 | Ultra-low-cost RISC-V MCU (sub-$0.15) gaining hobbyist popularity for minimalist boards, niche/emerging. |  |
-| `ESP-12E` | MCU Module - Wi-Fi | Espressif/AI-Thinker | Tier 3 | Common bare ESP8266 module on hobbyist custom PCBs, niche relative to bare chip. |  |
-| `CD4007` | MOSFET Array | TI/ON Semi | Tier 3 | Versatile discrete-transistor CMOS part, niche analog hobby use. |  |
-| `CA3130` | MOSFET-input Op-amp | Renesas (orig. RCA) | Tier 3 | High-input-impedance op-amp for analog synth/touch-sensor circuits, niche. |  |
-| `CA3140` | MOSFET-input Op-amp | Renesas (orig. RCA) | Tier 3 | Classic high-impedance op-amp for photodiode sensor circuits, appears twice, still niche. |  |
+| `TPS7333QD` | LDO with Reset, 3.3V | Texas Instruments | Tier 3 | LDO with integrated power-on reset, niche use case. | imported |
+| `MAX7221` | LED Matrix/7-Segment Driver | Maxim Integrated (Analog Devices) | Tier 3 | SPI-compatible variant of MAX7219, niche relative to base part. | imported |
+| `74HC373` | Latch | TI/Nexperia | Tier 3 | Octal transparent latch for address/data latching, niche. | imported |
+| `74HC573` | Latch | TI/Nexperia | Tier 3 | Pinout variant of 74HC373, niche kit part. | imported |
+| `CD4081` | Logic Gate - AND | TI/ON Semi/Renesas | Tier 3 | Quad 2-input AND, standard CD4000 gate, niche. | imported |
+| `CD4050` | Logic Gate - Buffer | TI/ON Semi/Renesas | Tier 3 | Hex non-inverting buffer/level shifter, companion to CD4049, niche. | imported |
+| `74HCT04` | Logic Gate - Inverter | TI/Nexperia | Tier 3 | TTL-compatible hex inverter, niche level-threshold use case. | imported |
+| `CD4069` | Logic Gate - Inverter | TI/ON Semi/Renesas | Tier 3 | Hex inverter for CMOS oscillators and biased as linear amp in fuzz pedals, niche dual-use. | imported |
+| `CD4049` | Logic Gate - Inverter/Buffer | TI/ON Semi/Renesas | Tier 3 | Hex inverting buffer for level conversion, included in most CD4000 kits, niche standalone use. | imported |
+| `74HC10` | Logic Gate - NAND | TI/Nexperia | Tier 3 | Triple 3-input NAND, standard kit part but less frequently used than 2-input gates. | imported |
+| `74HCT00` | Logic Gate - NAND | TI/Nexperia | Tier 3 | TTL-compatible-input NAND for interfacing TTL/CMOS, niche. | imported |
+| `74LS00` | Logic Gate - NAND | TI/Fairchild | Tier 3 | Classic TTL NAND, legacy/retro hobby builds, niche today. | imported |
+| `CD4071` | Logic Gate - OR | TI/ON Semi/Renesas | Tier 3 | Quad 2-input OR, standard CD4000 gate, niche. | imported |
+| `74LS14` | Logic Gate - Schmitt Inverter | TI/Fairchild | Tier 3 | TTL Schmitt inverter, predecessor part, niche vintage use. | imported |
+| `CD40106` | Logic Gate - Schmitt Inverter | TI/ON Semi/Renesas | Tier 3 | Hex Schmitt inverter for RC oscillators/debounce, niche. | imported |
+| `74HC132` | Logic Gate - Schmitt NAND | TI/Nexperia | Tier 3 | Quad Schmitt NAND for debounce/oscillator circuits, niche. | imported |
+| `CD4093` | Logic Gate - Schmitt NAND | TI/ON Semi/Renesas | Tier 3 | Quad Schmitt NAND for oscillators/debounce circuits, niche. | imported |
+| `74HC86` | Logic Gate - XOR | TI/Nexperia | Tier 3 | Quad XOR gate, common but more specialized (comparator/parity circuits). | imported |
+| `IRLML2502` | Logic-level N-channel MOSFET, SOT-23 | Infineon (legacy IR) | Tier 3 | Small logic-level SMD MOSFET for load switching from MCUs, niche. | imported |
+| `FQP30N06L` | Logic-level N-channel MOSFET, TO-220 | ON Semi/Fairchild | Tier 3 | Common logic-level MOSFET alternative for Arduino projects, listed in 'best 4 transistors' essential kit but functionally a niche alternative. | imported |
+| `IRL540N` | Logic-level N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | Logic-level alternative to IRF540N, niche. | imported |
+| `IRLB8721` | Logic-level N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | Fully logic-level MOSFET recommended in Arduino/RepRap heater circuits, niche. | imported |
+| `IRLB8743` | Logic-level N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | High-current logic-level MOSFET for motor/heater-bed switching, niche. | imported |
+| `RFP30N06LE` | Logic-level N-channel MOSFET, TO-220 | ON Semi | Tier 3 | Classic logic-level MOSFET from early Arduino motor control tutorials, niche. | imported |
+| `LP2950ACZ-3.3` | Low-dropout Regulator, 3.3V | Texas Instruments | Tier 3 | Classic low-dropout 3.3V regulator, niche. | imported |
+| `LM2931AZ-5.0` | Low-dropout Regulator, 5V | TI/onsemi | Tier 3 | Automotive-grade LDO for car-electronics projects, niche. | imported |
+| `MIC29302WU` | Low-dropout Regulator, Adjustable, 3A | Microchip | Tier 3 | High-current LDO for low-dropout needs beyond 7805, niche. | imported |
+| `OP27` | Low-noise Precision Op-amp | Analog Devices | Tier 3 | Well-known low-noise op-amp for audio/instrumentation, niche. | imported |
+| `78L05` | Low-power Linear Regulator, 5V | STMicroelectronics/onsemi | Tier 3 | TO-92 low-current 7805 variant for small circuits, niche. | imported |
+| `MCP1700-3302E/TO` | Low-quiescent LDO, 3.3V | Microchip | Tier 3 | Ultra-low-Iq LDO for battery-powered/low-power builds, niche. | imported |
+| `MSP430G2553` | MCU - 16-bit Low Power | Texas Instruments | Tier 3 | Low-power MCU used bare in LaunchPad-derived/battery projects, niche. | imported |
+| `CH552G` | MCU - 8051-core with USB | WCH (Nanjing Qinheng) | Tier 3 | Extremely cheap USB-capable 8-bit MCU for low-cost USB HID/gadget projects, niche. | imported |
+| `STM32F030F4P6` | MCU - ARM Cortex-M0 | STMicroelectronics | Tier 3 | Very cheap TSSOP-20 Cortex-M0 chip for low-cost DIY custom PCBs, niche. | imported |
+| `PY32F002A` | MCU - ARM Cortex-M0+ | Puya | Tier 3 | Very cheap Chinese Cortex-M0+ chip gaining popularity as inexpensive STM32-compatible alternative, niche/emerging. | imported |
+| `STM32G030F6P6` | MCU - ARM Cortex-M0+ | STMicroelectronics | Tier 3 | Modern low-cost ST MCU as ATmega328P alternative amid shortages, niche/emerging. | imported |
+| `ATmega644P` | MCU - AVR 8-bit | Microchip/Atmel | Tier 3 | 40-pin DIP AVR popular in Sanguino-style builds, niche. | imported |
+| `ATmega8` | MCU - AVR 8-bit | Microchip/Atmel | Tier 3 | Predecessor to 328P, still used in legacy projects, niche. | imported |
+| `ATtiny13A` | MCU - AVR 8-bit | Microchip/Atmel | Tier 3 | Ultra-cheap 8-pin AVR for extremely minimal blinky/timer circuits, niche. | imported |
+| `ATtiny2313` | MCU - AVR 8-bit | Microchip/Atmel | Tier 3 | Classic 20-pin AVR long used in tutorials, niche today. | imported |
+| `ATtiny84` | MCU - AVR 8-bit | Microchip/Atmel | Tier 3 | 14-pin AVR with more I/O than ATtiny85, niche. | imported |
+| `PIC12F683` | MCU - PIC 8-bit | Microchip | Tier 3 | Small 8-pin PIC for compact low-cost control circuits, niche. | imported |
+| `PIC16F628A` | MCU - PIC 8-bit | Microchip | Tier 3 | Budget PIC used in clock/counter/LED-driver projects, niche. | imported |
+| `PIC16F84A` | MCU - PIC 8-bit | Microchip | Tier 3 | Historic entry-level PIC, niche/legacy today. | imported |
+| `PIC18F4550` | MCU - PIC 8-bit with USB | Microchip | Tier 3 | PIC with native USB for USB-device/PICkit projects, niche. | imported |
+| `CH32V003` | MCU - RISC-V | WCH | Tier 3 | Ultra-low-cost RISC-V MCU (sub-$0.15) gaining hobbyist popularity for minimalist boards, niche/emerging. | imported |
+| `ESP-12E` | MCU Module - Wi-Fi | Espressif/AI-Thinker | Tier 3 | Common bare ESP8266 module on hobbyist custom PCBs, niche relative to bare chip. | imported |
+| `CD4007` | MOSFET Array | TI/ON Semi | Tier 3 | Versatile discrete-transistor CMOS part, niche analog hobby use. | imported |
+| `CA3130` | MOSFET-input Op-amp | Renesas (orig. RCA) | Tier 3 | High-input-impedance op-amp for analog synth/touch-sensor circuits, niche. | imported |
+| `CA3140` | MOSFET-input Op-amp | Renesas (orig. RCA) | Tier 3 | Classic high-impedance op-amp for photodiode sensor circuits, appears twice, still niche. | imported |
 | `HMC5883L` | Magnetometer/Compass | Honeywell | Tier 3 | Common bare 3-axis digital compass chip for navigation/drone projects, niche. | imported |
-| `78M05` | Medium-power Linear Regulator, 5V | STMicroelectronics | Tier 3 | 500mA-rated 7805 variant, niche. |  |
-| `NCP1400ASN33T1` | Micropower Boost Regulator, 3.3V | onsemi | Tier 3 | Small SOT23 boost IC for coin-cell wearable/LED projects, niche. |  |
-| `LT1073CN8` | Micropower Boost/Inverting Regulator | Analog Devices | Tier 3 | Classic low-power boost/inverter IC for battery projects, niche. |  |
-| `74HC151` | Multiplexer | TI/Nexperia | Tier 3 | 8-to-1 data multiplexer, commonly used but specialized. |  |
-| `74HC157` | Multiplexer | TI/Nexperia | Tier 3 | Quad 2-to-1 multiplexer, standard kit part, niche. |  |
-| `CD4047` | Multivibrator | TI/ON Semi | Tier 3 | CMOS 555 alternative for timing/inverter circuits, appears twice, still niche. |  |
-| `J201` | N-channel JFET | Generic | Tier 3 | Low-noise JFET popular in DIY audio/guitar pedal circuits, niche. |  |
-| `IRLML6344` | N-channel MOSFET, SOT-23 | Infineon (legacy IR) | Tier 3 | Ultra-low Rds(on) SMD MOSFET for compact power switching, niche. |  |
-| `IRF3205` | N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | High current/low Rds(on) MOSFET popular in battery/motor projects, niche vs IRLZ44N. |  |
-| `IRFB4110` | N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | High-current MOSFET for spot welders/battery packs, niche. |  |
-| `STP16NF06` | N-channel MOSFET, TO-220 | STMicroelectronics | Tier 3 | European-sourced logic-compatible power MOSFET for DIY motor drivers, niche. |  |
-| `IRFP250N` | N-channel MOSFET, TO-247 | Infineon (legacy IR) | Tier 3 | High-power MOSFET for audio amplifier/induction heater builds, niche. |  |
-| `VN2222LL` | N-channel MOSFET, TO-92 | Diodes Inc/Multi | Tier 3 | Logic-level small-signal MOSFET, pin-compatible alternative to 2N7000, niche. |  |
-| `2N5551` | NPN BJT High Voltage | Generic | Tier 3 | Higher-voltage switching transistor in assortment kits, niche. |  |
-| `MPSA42` | NPN BJT High Voltage, TO-92 | ON Semi | Tier 3 | Higher-voltage switching (300V) for Nixie/HV circuits, niche. |  |
-| `BD135` | NPN BJT, TO-126 | ON Semi/STMicro | Tier 3 | Lower-voltage medium-power NPN, niche. |  |
-| `BD139` | NPN BJT, TO-126 | ON Semi/STMicro | Tier 3 | Medium-power NPN for hobby audio/regulator circuits, niche. |  |
-| `2N4401` | NPN BJT, TO-92 | ON Semi/Multi | Tier 3 | Higher-current general-purpose NPN switching transistor, common in kits but more niche. |  |
-| `C945` | NPN BJT, TO-92 | Multi (2SC945 derivative) | Tier 3 | Widely used cheap general-purpose NPN in imported kits, similar role to 2N3904 but more niche in Western sources. |  |
-| `KSP2222A` | NPN BJT, TO-92 | ON Semi | Tier 3 | Modern TO-92 replacement equivalent to 2N2222, niche/alternate part number. |  |
+| `78M05` | Medium-power Linear Regulator, 5V | STMicroelectronics | Tier 3 | 500mA-rated 7805 variant, niche. | imported |
+| `NCP1400ASN33T1` | Micropower Boost Regulator, 3.3V | onsemi | Tier 3 | Small SOT23 boost IC for coin-cell wearable/LED projects, niche. | imported |
+| `LT1073CN8` | Micropower Boost/Inverting Regulator | Analog Devices | Tier 3 | Classic low-power boost/inverter IC for battery projects, niche. | imported |
+| `74HC151` | Multiplexer | TI/Nexperia | Tier 3 | 8-to-1 data multiplexer, commonly used but specialized. | imported |
+| `74HC157` | Multiplexer | TI/Nexperia | Tier 3 | Quad 2-to-1 multiplexer, standard kit part, niche. | imported |
+| `CD4047` | Multivibrator | TI/ON Semi | Tier 3 | CMOS 555 alternative for timing/inverter circuits, appears twice, still niche. | imported |
+| `J201` | N-channel JFET | Generic | Tier 3 | Low-noise JFET popular in DIY audio/guitar pedal circuits, niche. | imported |
+| `IRLML6344` | N-channel MOSFET, SOT-23 | Infineon (legacy IR) | Tier 3 | Ultra-low Rds(on) SMD MOSFET for compact power switching, niche. | imported |
+| `IRF3205` | N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | High current/low Rds(on) MOSFET popular in battery/motor projects, niche vs IRLZ44N. | imported |
+| `IRFB4110` | N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | High-current MOSFET for spot welders/battery packs, niche. | imported |
+| `STP16NF06` | N-channel MOSFET, TO-220 | STMicroelectronics | Tier 3 | European-sourced logic-compatible power MOSFET for DIY motor drivers, niche. | imported |
+| `IRFP250N` | N-channel MOSFET, TO-247 | Infineon (legacy IR) | Tier 3 | High-power MOSFET for audio amplifier/induction heater builds, niche. | imported |
+| `VN2222LL` | N-channel MOSFET, TO-92 | Diodes Inc/Multi | Tier 3 | Logic-level small-signal MOSFET, pin-compatible alternative to 2N7000, niche. | imported |
+| `2N5551` | NPN BJT High Voltage | Generic | Tier 3 | Higher-voltage switching transistor in assortment kits, niche. | imported |
+| `MPSA42` | NPN BJT High Voltage, TO-92 | ON Semi | Tier 3 | Higher-voltage switching (300V) for Nixie/HV circuits, niche. | imported |
+| `BD135` | NPN BJT, TO-126 | ON Semi/STMicro | Tier 3 | Lower-voltage medium-power NPN, niche. | imported |
+| `BD139` | NPN BJT, TO-126 | ON Semi/STMicro | Tier 3 | Medium-power NPN for hobby audio/regulator circuits, niche. | imported |
+| `2N4401` | NPN BJT, TO-92 | ON Semi/Multi | Tier 3 | Higher-current general-purpose NPN switching transistor, common in kits but more niche. | imported |
+| `C945` | NPN BJT, TO-92 | Multi (2SC945 derivative) | Tier 3 | Widely used cheap general-purpose NPN in imported kits, similar role to 2N3904 but more niche in Western sources. | imported |
+| `KSP2222A` | NPN BJT, TO-92 | ON Semi | Tier 3 | Modern TO-92 replacement equivalent to 2N2222, niche/alternate part number. | imported |
  | `PN2222A` | NPN BJT, TO-92 | ON Semi | Tier 3 | TO-92 version of 2N2222 favored for breadboarding, distinct part number from 2N2222 base part. | imported | 
-| `TIP121` | NPN Darlington, TO-220 | ON Semi/STMicro | Tier 3 | 80V version of TIP120 family, niche. |  |
-| `TIP122` | NPN Darlington, TO-220 | ON Semi/STMicro | Tier 3 | 100V version of TIP120 family for higher voltage motor driving, niche. |  |
-| `D882` | NPN Power BJT, TO-126 | Multi (Chinese/Toshiba-derived) | Tier 3 | Common cheap medium-power NPN in hobby audio amp kits, niche. |  |
-| `MJE3055T` | NPN Power BJT, TO-220 | ON Semi | Tier 3 | TO-220 equivalent of 2N3055 where TO-3 impractical, niche. |  |
-| `TIP41C` | NPN Power BJT, TO-220 | ON Semi/STMicro | Tier 3 | Popular power NPN for audio amps/motor control, niche relative to TIP31C. |  |
-| `LM7912` | Negative Fixed Regulator, -12V | STMicroelectronics | Tier 3 | Negative-rail partner to LM7812 in split-supply audio circuits, niche. |  |
-| `LM7905` | Negative Fixed Regulator, -5V | STMicroelectronics | Tier 3 | 79xx negative complement used for dual-rail op-amp supplies, niche. |  |
-| `74HC240` | Octal Buffer | TI/Nexperia | Tier 3 | Inverting octal buffer/line driver for bus driving, niche. |  |
-| `74HC244` | Octal Buffer | TI/Nexperia | Tier 3 | Non-inverting octal buffer used as bus driver, niche. |  |
-| `74HC541` | Octal Buffer | TI/Nexperia | Tier 3 | Octal tri-state buffer/line driver, niche. |  |
-| `CD4022` | Octal Counter | TI/ON Semi | Tier 3 | Alternative to CD4017 in sequencer circuits, niche. |  |
-| `NCP1200P44` | Off-line PWM Switching Controller | onsemi | Tier 3 | Flyback/off-line SMPS repair and DIY power supply projects, niche. |  |
-| `VIPer22A` | Off-line SMPS Switcher IC | STMicroelectronics | Tier 3 | For building small off-line switching supplies, niche. |  |
-| `LM10` | Op-amp with Voltage Reference | Texas Instruments | Tier 3 | Unique low-voltage op-amp with built-in reference, rare/legacy design use. |  |
-| `4N26` | Optocoupler | Generic | Tier 3 | Standard optoisolator for isolating logic from higher-voltage circuits, niche relative to PC817. |  |
-| `AO3401` | P-channel MOSFET, SOT-23 | Alpha & Omega Semi | Tier 3 | P-channel complement to AO3400, common but more niche in battery/load-switch circuits. |  |
-| `DMG2305UX` | P-channel MOSFET, SOT-23 | Diodes Inc | Tier 3 | SMD P-channel MOSFET for reverse-polarity/high-side switching, niche. |  |
-| `FQP27P06` | P-channel MOSFET, TO-220 | ON Semi | Tier 3 | Through-hole P-channel power MOSFET for high-side switching, niche. |  |
-| `IRF9540` | P-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | P-channel power MOSFET complement in H-bridges/high-side switches, niche. |  |
-| `2N5401` | PNP BJT High Voltage | Generic | Tier 3 | Complement to 2N5551 in assortment kits, niche. |  |
-| `MPSA92` | PNP BJT High Voltage, TO-92 | ON Semi | Tier 3 | Merges MPSA92/KSP92; PNP complement of MPSA42 for HV applications, niche. |  |
-| `BD136` | PNP BJT, TO-126 | ON Semi/STMicro | Tier 3 | PNP complement of BD135, niche. |  |
-| `BD140` | PNP BJT, TO-126 | ON Semi/STMicro | Tier 3 | PNP complement of BD139, niche. |  |
-| `2N4403` | PNP BJT, TO-92 | ON Semi/Multi | Tier 3 | PNP complement of 2N4401, niche. |  |
-| `A733` | PNP BJT, TO-92 | Multi (2SA733 derivative) | Tier 3 | Common cheap PNP complement to C945-style transistors, niche. |  |
-| `PN2907A` | PNP BJT, TO-92 | ON Semi | Tier 3 | TO-92 equivalent of 2N2907, breadboard-friendly, niche/alternate part number. |  |
-| `TIP125/TIP127` | PNP Darlington, TO-220 | ON Semi/STMicro | Tier 3 | PNP Darlington complements to TIP120 family for H-bridge/complementary drives, niche. |  |
-| `B772` | PNP Power BJT, TO-126 | Multi | Tier 3 | PNP complement often paired with D882, niche. |  |
-| `MJE2955T` | PNP Power BJT, TO-220 | ON Semi | Tier 3 | PNP complement of MJE3055T, niche. |  |
-| `TIP42C` | PNP Power BJT, TO-220 | ON Semi/STMicro | Tier 3 | PNP complement of TIP41C for push-pull amps, niche. |  |
+| `TIP121` | NPN Darlington, TO-220 | ON Semi/STMicro | Tier 3 | 80V version of TIP120 family, niche. | imported |
+| `TIP122` | NPN Darlington, TO-220 | ON Semi/STMicro | Tier 3 | 100V version of TIP120 family for higher voltage motor driving, niche. | imported |
+| `D882` | NPN Power BJT, TO-126 | Multi (Chinese/Toshiba-derived) | Tier 3 | Common cheap medium-power NPN in hobby audio amp kits, niche. | imported |
+| `MJE3055T` | NPN Power BJT, TO-220 | ON Semi | Tier 3 | TO-220 equivalent of 2N3055 where TO-3 impractical, niche. | imported |
+| `TIP41C` | NPN Power BJT, TO-220 | ON Semi/STMicro | Tier 3 | Popular power NPN for audio amps/motor control, niche relative to TIP31C. | imported |
+| `LM7912` | Negative Fixed Regulator, -12V | STMicroelectronics | Tier 3 | Negative-rail partner to LM7812 in split-supply audio circuits, niche. | imported |
+| `LM7905` | Negative Fixed Regulator, -5V | STMicroelectronics | Tier 3 | 79xx negative complement used for dual-rail op-amp supplies, niche. | imported |
+| `74HC240` | Octal Buffer | TI/Nexperia | Tier 3 | Inverting octal buffer/line driver for bus driving, niche. | imported |
+| `74HC244` | Octal Buffer | TI/Nexperia | Tier 3 | Non-inverting octal buffer used as bus driver, niche. | imported |
+| `74HC541` | Octal Buffer | TI/Nexperia | Tier 3 | Octal tri-state buffer/line driver, niche. | imported |
+| `CD4022` | Octal Counter | TI/ON Semi | Tier 3 | Alternative to CD4017 in sequencer circuits, niche. | imported |
+| `NCP1200P44` | Off-line PWM Switching Controller | onsemi | Tier 3 | Flyback/off-line SMPS repair and DIY power supply projects, niche. | imported |
+| `VIPer22A` | Off-line SMPS Switcher IC | STMicroelectronics | Tier 3 | For building small off-line switching supplies, niche. | imported |
+| `LM10` | Op-amp with Voltage Reference | Texas Instruments | Tier 3 | Unique low-voltage op-amp with built-in reference, rare/legacy design use. | imported |
+| `4N26` | Optocoupler | Generic | Tier 3 | Standard optoisolator for isolating logic from higher-voltage circuits, niche relative to PC817. | imported |
+| `AO3401` | P-channel MOSFET, SOT-23 | Alpha & Omega Semi | Tier 3 | P-channel complement to AO3400, common but more niche in battery/load-switch circuits. | imported |
+| `DMG2305UX` | P-channel MOSFET, SOT-23 | Diodes Inc | Tier 3 | SMD P-channel MOSFET for reverse-polarity/high-side switching, niche. | imported |
+| `FQP27P06` | P-channel MOSFET, TO-220 | ON Semi | Tier 3 | Through-hole P-channel power MOSFET for high-side switching, niche. | imported |
+| `IRF9540` | P-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 3 | P-channel power MOSFET complement in H-bridges/high-side switches, niche. | imported |
+| `2N5401` | PNP BJT High Voltage | Generic | Tier 3 | Complement to 2N5551 in assortment kits, niche. | imported |
+| `MPSA92` | PNP BJT High Voltage, TO-92 | ON Semi | Tier 3 | Merges MPSA92/KSP92; PNP complement of MPSA42 for HV applications, niche. | imported |
+| `BD136` | PNP BJT, TO-126 | ON Semi/STMicro | Tier 3 | PNP complement of BD135, niche. | imported |
+| `BD140` | PNP BJT, TO-126 | ON Semi/STMicro | Tier 3 | PNP complement of BD139, niche. | imported |
+| `2N4403` | PNP BJT, TO-92 | ON Semi/Multi | Tier 3 | PNP complement of 2N4401, niche. | imported |
+| `A733` | PNP BJT, TO-92 | Multi (2SA733 derivative) | Tier 3 | Common cheap PNP complement to C945-style transistors, niche. | imported |
+| `PN2907A` | PNP BJT, TO-92 | ON Semi | Tier 3 | TO-92 equivalent of 2N2907, breadboard-friendly, niche/alternate part number. | imported |
+| `TIP125/TIP127` | PNP Darlington, TO-220 | ON Semi/STMicro | Tier 3 | PNP Darlington complements to TIP120 family for H-bridge/complementary drives, niche. | imported |
+| `B772` | PNP Power BJT, TO-126 | Multi | Tier 3 | PNP complement often paired with D882, niche. | imported |
+| `MJE2955T` | PNP Power BJT, TO-220 | ON Semi | Tier 3 | PNP complement of MJE3055T, niche. | imported |
+| `TIP42C` | PNP Power BJT, TO-220 | ON Semi/STMicro | Tier 3 | PNP complement of TIP41C for push-pull amps, niche. | imported |
 | `MJ2955` | PNP Power BJT, TO-3 | ON Semi | Tier 3 | PNP complement of 2N3055 for complementary power amp designs, niche. |  |
 | `TL494` | PWM Switching Controller | Texas Instruments | Tier 3 | Merges TL494/TL494CN; classic PWM controller reused in DIY switching supply/inverter projects, niche. |  |
 | `OPA2140` | Precision Dual Op-amp | Texas Instruments | Tier 3 | Low-noise precision op-amp for higher-end DIY audio/measurement, niche. |  |

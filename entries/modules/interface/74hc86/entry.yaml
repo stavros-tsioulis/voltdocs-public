@@ -1,0 +1,41 @@
+id: interface.logic.74hc86
+revision: "1.0"
+title: 74HC86 — Quad 2-Input Exclusive-OR (XOR) Gate
+category: interface/logic
+tags: [74hc86, sn74hc86, xor-gate, logic-gate, quad-xor, parity, adder, comparator, cmos, texas-instruments, nexperia, dip-14]
+status: published
+summary: >-
+  High-speed CMOS IC containing four independent 2-input Exclusive-OR (XOR) logic gates operating from 2V to 6V DC, widely used for binary addition, parity generation/checking, phase detection, and digital comparison.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC86, SN74HC86N, 74HC86D, 74HCT86]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  gates_count: 4 (Quad 2-Input XOR)
+  propagation_delay_ns: 11
+  output_drive_current_ma: 5.2
+  quiescent_current_ua: 2.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [4x Independent 2-Input XOR Gates (1A/1B->1Y, 2A/2B->2Y, 3A/3B->3Y, 4A/4B->4Y)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - gates_count
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+references:
+  - targetId: interface.logic.74hc08
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC86" }

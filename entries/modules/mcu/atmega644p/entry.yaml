@@ -1,0 +1,49 @@
+id: mcu.avr.atmega644p
+revision: "1.0"
+title: ATmega644P — 8-Bit AVR Microcontroller with 64KB Flash (DIP-40)
+category: mcu/avr
+tags: [atmega644p, atmega644, avr, microchip, atmel, sanguino, reprap, melzi, 8-bit, dip-40, dual-usart]
+status: published
+summary: >-
+  Microchip (Atmel) high-performance 8-bit AVR RISC microcontroller with 64KB Flash, 4KB SRAM, 2KB EEPROM, 32 GPIO lines, dual hardware USARTs, and 10-bit ADC in a 40-pin DIP package, powering Sanguino and 3D printer motherboards.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology / Atmel
+  ic_part_numbers: [ATmega644P-20PU, ATmega644P-20AU, ATmega644PA-PU]
+  package: 40-pin DIP (DIP-40 / PDIP-40) / 44-pin TQFP / 44-pin QFN
+  core: 8-bit AVR RISC
+  max_clock_speed_mhz: 20
+  flash_memory_kb: 64
+  sram_memory_kb: 4
+  eeprom_memory_kb: 2
+  operating_voltage_min_v: 1.8
+  operating_voltage_max_v: 5.5
+  gpio_count: 32
+  adc_channels: 8 (10-bit resolution)
+  timers: 3 (2x 8-bit timers + 1x 16-bit timer)
+  interfaces: [2x USART (Dual Serial), 1x SPI, 1x I2C/TWI, JTAG]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_kb
+  - eeprom_memory_kb
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.avr.atmega328p
+    relation: variant-of
+  - targetId: mcu.avr.atmega2560
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42724-8-bit-AVR-Microcontroller-ATmega644P_Datasheet.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/ATmega644P" }

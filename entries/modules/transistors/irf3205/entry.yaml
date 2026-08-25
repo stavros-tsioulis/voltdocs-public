@@ -1,0 +1,47 @@
+id: transistor.mosfet.irf3205
+revision: "1.0"
+title: IRF3205 — 55V 110A Ultra-Low Rds(on) (8.0mΩ) N-Channel Power MOSFET (TO-220)
+category: transistors/mosfet
+tags: [irf3205, irf3205pbf, mosfet, n-channel, power-mosfet, 55v, 110a, low-rdson, to-220, inverter, motor-driver, infineon, international-rectifier]
+status: published
+summary: >-
+  Infineon (International Rectifier) heavy-duty 55V 110A N-channel HEXFET power MOSFET with ultra-low 8.0mΩ on-resistance in a TO-220 package, widely used in high-power DC-AC inverters and motor controllers.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Infineon Technologies / International Rectifier
+  ic_part_numbers: [IRF3205PBF, IRF3205, IRF3205S, IRF3205L]
+  package: TO-220AB (3-pin through-hole) / D2PAK / TO-262
+  transistor_type: High-Current N-Channel Power MOSFET
+  drain_source_voltage_vdss_v: 55
+  continuous_drain_current_id_a: 110.0 (Silicon Limit, 75A Package Limit)
+  pulsed_drain_current_id_a: 390.0
+  gate_threshold_voltage_vgs_th_min_v: 2.0
+  gate_threshold_voltage_vgs_th_max_v: 4.0
+  rds_on_vgs_10v_mohm: 8.0
+  gate_charge_total_qg_nc: 97.0
+  total_power_dissipation_w: 200.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [3-Terminal TO-220 (Gate, Drain, Source)]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_10v_mohm
+  - total_power_dissipation_w
+  - interfaces
+references:
+  - targetId: transistor.mosfet.irfz44n
+    relation: see-also
+  - targetId: transistor.mosfet.irfb4110
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/irf3205pbf.pdf?fileId=5546d462533600a4015355e1c0d41ad7" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/irf3205/" }

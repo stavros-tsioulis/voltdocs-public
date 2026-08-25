@@ -1,0 +1,45 @@
+id: power.regulator.reg1117-3.3
+revision: "1.0"
+title: REG1117-3.3 — 800mA Fixed 3.3V Low-Dropout Linear Voltage Regulator
+category: power/regulator
+tags: [reg1117, reg1117-3.3, reg1117-33, ldo, regulator, linear, 3.3v, sot-223, texas-instruments, burr-brown, power]
+status: published
+summary: >-
+  Texas Instruments (Burr-Brown) 800mA fixed +3.3V low-dropout (LDO) positive linear voltage regulator (up to 15V input, 1.2V dropout at 800mA) with internal current limiting and thermal overload protection in a SOT-223 package.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Texas Instruments / Burr-Brown
+  ic_part_numbers: [REG1117-3.3, REG1117-3.3/2K5, REG1117-3.3G4, REG1117A-3.3]
+  package: SOT-223 (DCY) / TO-263 (KTT) / TO-252 (KVU)
+  regulator_type: Low-Dropout (LDO) Positive Linear Voltage Regulator
+  output_voltage_v: 3.3
+  output_voltage_accuracy_pct: 1.0
+  input_voltage_v_min: 4.5
+  input_voltage_v_max: 15.0
+  dropout_voltage_v: 1.2
+  output_current_a_max: 0.8
+  quiescent_current_ma: 5.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Passive (Ground, VOUT, VIN)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - interfaces
+references:
+  - targetId: power.regulator.ams1117-33
+    relation: variant-of
+  - targetId: power.regulator.ncp1117-3.3
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/reg1117.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/REG1117" }

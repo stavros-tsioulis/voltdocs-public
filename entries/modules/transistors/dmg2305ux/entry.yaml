@@ -1,0 +1,50 @@
+id: transistor.mosfet.dmg2305ux
+revision: "1.0"
+title: DMG2305UX — -20V -4.2A Ultra-Low On-Resistance P-Channel MOSFET (SOT-23)
+category: transistors/mosfet
+tags: [dmg2305ux, dmg2305, mosfet, p-channel, logic-level, "-20v", "-4.2a", sot-23, diodes-inc, low-rdson, sub-1.8v, load-switch, reverse-polarity]
+status: published
+summary: >-
+  Diodes Incorporated -20V -4.2A ultra-low on-resistance (41mΩ) P-channel logic-level MOSFET in a SOT-23 package, with sub-1.8V gate drive capability for Li-ion battery high-side load switching.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Diodes Incorporated
+  ic_part_numbers: [DMG2305UX, DMG2305UX-7, DMG2305UX-13]
+  package: SOT-23 (3-pin SMD)
+  transistor_type: P-Channel Sub-1.8V Logic-Level MOSFET
+  drain_source_voltage_vdss_v: -20
+  gate_source_voltage_vgs_max_v: 8
+  continuous_drain_current_id_a: -4.2
+  pulsed_drain_current_id_a: -25.0
+  gate_threshold_voltage_vgs_th_min_v: -0.4
+  gate_threshold_voltage_vgs_th_max_v: -1.0
+  rds_on_vgs_4.5v_mohm: 41.0
+  rds_on_vgs_2.5v_mohm: 55.0
+  rds_on_vgs_1.8v_mohm: 82.0
+  rds_on_vgs_1.5v_mohm: 125.0
+  total_power_dissipation_w: 1.4
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Sub-1.5V to 8V Gate Drive Compatible]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_4.5v_mohm
+  - rds_on_vgs_1.8v_mohm
+  - interfaces
+references:
+  - targetId: transistor.mosfet.ao3401
+    relation: see-also
+  - targetId: transistor.mosfet.irlml6344
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.diodes.com/products/discrete/mosfets/p-channel/dmg2305ux" }

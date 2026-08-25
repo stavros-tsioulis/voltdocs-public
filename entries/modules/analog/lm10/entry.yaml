@@ -1,0 +1,44 @@
+id: analog.opamp.lm10
+revision: "1.0"
+title: LM10 — Precision Low-Voltage Op-Amp and Built-in 200mV Reference (DIP-8)
+category: analog/opamp
+tags: [lm10, lm10c, lm10cl, op-amp, voltage-reference, low-voltage, 1.1v-supply, bob-widlar, national-semiconductor, texas-instruments, dip-8]
+status: published
+summary: >-
+  National Semiconductor / Texas Instruments precision low-voltage operational amplifier with an integrated 200mV bandgap reference capable of operating down to a single 1.1V battery cell.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Texas Instruments / National Semiconductor
+  ic_part_numbers: [LM10CLN, LM10CN, LM10CH, LM10H]
+  package: 8-pin DIP (DIP-8 / PDIP-8) / SOIC-8 / TO-99 Metal Can
+  amplifier_type: Low-Voltage Precision Op-Amp with Internal 200mV Reference
+  supply_voltage_min_v: 1.1
+  supply_voltage_max_v: 40.0
+  supply_current_ua: 270
+  reference_voltage_mv: 200.0
+  reference_line_regulation_pct_per_v: 0.002
+  input_offset_voltage_mv: 2.0
+  gain_bandwidth_product_mhz: 0.3
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Op-Amp (+IN, -IN, OUT), Reference (REF OUT, REF FEEDBACK), Balance Null]
+highlights:
+  - amplifier_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - supply_current_ua
+  - reference_voltage_mv
+  - interfaces
+references:
+  - targetId: analog.opamp.lm358
+    relation: see-also
+  - targetId: analog.opamp.op27
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm10.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM10" }

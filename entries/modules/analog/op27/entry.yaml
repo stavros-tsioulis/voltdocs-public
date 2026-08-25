@@ -1,0 +1,48 @@
+id: analog.opamp.op27
+revision: "1.0"
+title: OP27 — Low-Noise Precision High-Speed Operational Amplifier
+category: analog/opamp
+tags: [op27, op27ep, op27fp, op27g, op-amp, precision, low-noise, instrumentation, audio, analog-devices, pmi, dip-8]
+status: published
+summary: >-
+  Analog Devices / PMI industry-standard precision bipolar operational amplifier featuring ultra-low voltage noise (3.0nV/√Hz), 10µV input offset voltage, and 8.0MHz gain bandwidth product for precision audio and instrumentation.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Analog Devices / Precision Monolithics (PMI)
+  ic_part_numbers: [OP27, OP27EP, OP27FP, OP27GP, OP27GS]
+  package: 8-pin DIP / SOIC-8
+  opamp_channels: 1
+  supply_voltage_v_min: 8.0
+  supply_voltage_v_max: 44.0
+  input_offset_voltage_uv: 10
+  input_offset_drift_uv_c: 0.2
+  input_noise_voltage_nv_hz: 3.0
+  gain_bandwidth_mhz: 8.0
+  slew_rate_v_us: 2.8
+  input_bias_current_na: 10
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Single Op-Amp Terminals (+IN, -IN, OUT, V+, V-, OFFSET NULL)]
+highlights:
+  - opamp_channels
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - input_offset_voltage_uv
+  - input_offset_drift_uv_c
+  - input_noise_voltage_nv_hz
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - interfaces
+references:
+  - targetId: analog.opamp.ne5532
+    relation: see-also
+  - targetId: analog.opamp.opa2134
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/OP27.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/op27.html" }

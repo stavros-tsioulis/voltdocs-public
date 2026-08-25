@@ -1,0 +1,44 @@
+id: interface.logic.74hc151
+revision: "1.0"
+title: 74HC151 — 8-to-1 Line Data Selector / Multiplexer with Complementary Outputs
+category: interface/logic
+tags: [74hc151, 74hct151, sn74hc151, multiplexer, data-selector, 8-to-1, cmos, 7400-series, texas-instruments, nexperia, dip-16]
+status: published
+summary: >-
+  High-speed CMOS 8-input to 1-output digital data selector / multiplexer with 3-bit binary address selection, active-LOW enable, and complementary true (Y) and inverted (W) outputs in a 16-pin DIP package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Texas Instruments / Nexperia / onsemi
+  ic_part_numbers: [SN74HC151N, 74HC151D, SN74HCT151N, CD74HC151E]
+  package: 16-pin DIP (DIP-16 / PDIP-16) / 16-pin SOIC / 16-pin TSSOP
+  logic_family: High-Speed CMOS (74HC) / TTL-Compatible CMOS (74HCT)
+  function: 8-to-1 Line Data Selector / Multiplexer
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  propagation_delay_ns: 15 (at 5V)
+  output_drive_current_ma: 4
+  quiescent_current_ua: 8
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [8 Data Inputs (I0-I7), 3 Select Inputs (S0-S2), 1 Enable (E), 2 Outputs (Y, W)]
+highlights:
+  - logic_family
+  - function
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+references:
+  - targetId: interface.logic.74hc157
+    relation: see-also
+  - targetId: interface.multiplexer.cd4051
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc151.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC151" }

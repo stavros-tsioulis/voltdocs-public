@@ -1,0 +1,49 @@
+id: mcu.avr.atmega8
+revision: "1.0"
+title: ATmega8 — 8-Bit AVR Microcontroller with 8KB Flash (DIP-28)
+category: mcu/avr
+tags: [atmega8, atmega8a, atmega8l, avr, microchip, atmel, arduino, usbasp, 8-bit, dip-28, 16mhz]
+status: published
+summary: >-
+  Microchip (Atmel) classic 8-bit AVR RISC microcontroller with 8KB Flash, 1KB SRAM, 512B EEPROM, 6-channel 10-bit ADC, and hardware UART in a 28-pin DIP package, powering early Arduinos and USBasp programmers.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology / Atmel
+  ic_part_numbers: [ATmega8-16PU, ATmega8A-PU, ATmega8L-8PU, ATmega8A-AU]
+  package: 28-pin DIP (DIP-28) / 32-pin TQFP / 32-pin QFN
+  core: 8-bit AVR RISC
+  max_clock_speed_mhz: 16 (8MHz on ATmega8L)
+  flash_memory_kb: 8
+  sram_memory_bytes: 1024
+  eeprom_memory_bytes: 512
+  operating_voltage_min_v: 2.7 (ATmega8A / 8L) / 4.5 (ATmega8-16)
+  operating_voltage_max_v: 5.5
+  gpio_count: 23
+  pwm_channels: 3
+  adc_channels: 6 (DIP) / 8 (TQFP) (10-bit resolution)
+  interfaces: [USART, SPI, I2C/TWI]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_bytes
+  - eeprom_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.avr.atmega328p
+    relation: variant-of
+  - targetId: mcu.avr.attiny85
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega8A-Data-Sheet-DS40001974B.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/ATmega8A" }

@@ -1,0 +1,41 @@
+id: driver.motor.vnh2sp30
+revision: "1.0"
+title: VNH2SP30 — 30A Full-Bridge Automotive Motor Driver IC
+category: drivers/motor
+tags: [vnh2sp30, vnh2sp30-e, motor-driver, h-bridge, full-bridge, dc-motor, 30a, monster-moto, stmicroelectronics, pololu, multiwatt, so-30]
+status: published
+summary: >-
+  STMicroelectronics 30A peak automotive-grade full-bridge DC motor driver IC (5.5V to 16V) with internal current sensing, fault diagnostic status, charge pump, and thermal shutdown, popular on Monster Moto shields.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [VNH2SP30, VNH2SP30-E, VNH2SP30TR-E]
+  package: MultiPowerSO-30 / SparkFun Monster Moto Shield / Pololu VNH2SP30 Carrier
+  driver_type: Full-Bridge Automotive DC Motor Driver IC
+  motor_type: High-Power Brushed DC Motor / Actuator / Automotive Load
+  supply_voltage_min_v: 5.5
+  supply_voltage_max_v: 16.0
+  peak_output_current_a: 30.0
+  continuous_output_current_a: 14.0
+  rds_on_ohm: 0.034
+  pwm_frequency_max_khz: 20.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 150
+  interfaces: [Direction Inputs (INA, INB), PWM Speed Input (PWM), Enable / Diagnostics (ENA/DIAGA, ENB/DIAGB), Current Sense (CS)]
+highlights:
+  - driver_type
+  - motor_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - peak_output_current_a
+  - continuous_output_current_a
+  - rds_on_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/vnh2sp30-e.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/automotive-analog-and-power/vnh2sp30-e.html" }

@@ -1,0 +1,46 @@
+id: power.ldo.mic5219-3.3
+revision: "1.0"
+title: MIC5219-3.3 — 500mA Peak Ultra-Low-Noise Fixed 3.3V LDO Regulator
+category: power/ldo
+tags: [mic5219, mic5219-3.3, mic5219-3.3ym5, ldo, regulator, linear, 3.3v, sot-23-5, ultra-low-noise, microchip, micrel, sensor-power, rf-power]
+status: published
+summary: >-
+  Microchip / Micrel 500mA peak ultra-low-noise (260nV/√Hz) fixed 3.3V low dropout linear voltage regulator with enable control and reverse battery protection in a compact SOT-23-5 package for RF, sensor, and battery-powered Arduino shields.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Microchip Technology / Micrel
+  ic_part_numbers: [MIC5219-3.3, MIC5219-3.3YM5, MIC5219-3.3BM5, MIC5219-3.3YMM]
+  package: SOT-23-5 (Ithaca) / MSOP-8
+  regulator_type: Ultra-Low-Noise Low-Dropout Linear Voltage Regulator (LDO)
+  output_voltage_v_fixed: 3.3
+  output_voltage_accuracy_pct: 1.0
+  input_voltage_v_min: 2.5
+  input_voltage_v_max: 12.0
+  output_current_a_peak: 0.5
+  output_current_a_continuous: 0.25
+  dropout_voltage_mv: 350
+  output_noise_nv_sqrt_hz: 260
+  quiescent_current_ua: 80
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [DC Input (IN), Ground (GND), Active-High Enable (EN), Noise Bypass (BYP), Regulated 3.3V Output (OUT)]
+highlights:
+  - regulator_type
+  - output_voltage_v_fixed
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_current_a_peak
+  - dropout_voltage_mv
+  - output_noise_nv_sqrt_hz
+  - interfaces
+references:
+  - targetId: power.regulator.ams1117-33
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/mic5219" }

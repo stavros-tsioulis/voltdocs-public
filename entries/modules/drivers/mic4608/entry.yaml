@@ -1,0 +1,43 @@
+id: driver.gate.mic4608
+revision: "1.0"
+title: MIC4608 — 600V Half-Bridge MOSFET/IGBT Gate Driver IC
+category: drivers/mosfet
+tags: [mic4608, mic4608ym, mic4608yml, gate-driver, mosfet-driver, igbt-driver, high-side, low-side, 600v, half-bridge, microchip, micrel, soic-14, qfn-16]
+status: published
+summary: >-
+  Microchip / Micrel 600V high-voltage half-bridge MOSFET and IGBT gate driver IC featuring adaptive deadtime, dual input mode selection (independent or single PWM), and 1.0A peak drive current for motor control and power inverters.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Microchip Technology / Micrel
+  ic_part_numbers: [MIC4608, MIC4608YM, MIC4608YML]
+  package: 14-pin SOIC / 16-pin QFN (4mm × 4mm)
+  driver_type: High and Low Side Half-Bridge Gate Driver IC
+  high_side_floating_voltage_max_v: 600.0
+  gate_supply_voltage_min_v: 5.5
+  gate_supply_voltage_max_v: 16.0
+  peak_source_current_a: 1.0
+  peak_sink_current_a: 1.0
+  turn_on_delay_ns: 400
+  turn_off_delay_ns: 400
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [High-Side Input (HI), Low-Side Input (LI), Enable (EN), State Selector (ST), High-Side Gate (HO), Low-Side Gate (LO), Bootstrap (HB, HS)]
+highlights:
+  - driver_type
+  - high_side_floating_voltage_max_v
+  - gate_supply_voltage_min_v
+  - gate_supply_voltage_max_v
+  - peak_source_current_a
+  - peak_sink_current_a
+  - interfaces
+references:
+  - targetId: driver.gate.ir2110
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC4608-600V-Half-Bridge-MOSFET-Drivers-DS20006371A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/mic4608" }

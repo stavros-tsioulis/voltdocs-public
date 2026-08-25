@@ -1,0 +1,51 @@
+id: analog.opamp.ca3140
+revision: "1.0"
+title: CA3140 — 4.5MHz BiMOS Operational Amplifier with MOSFET Input & Bipolar Output
+category: analog/opamp
+tags: [ca3140, ca3140a, ca3140e, opamp, bimos, mosfet-input, bipolar-output, renesas, intersil, rca, photodiode, transimpedance, dip-8]
+status: published
+summary: >-
+  Renesas (Intersil/RCA) 4.5MHz BiMOS operational amplifier featuring gate-protected PMOS inputs (10pA bias current, 1.5TΩ impedance), internally unity-gain compensated bipolar output, and wide 4V–36V supply in an 8-pin DIP package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Renesas Electronics / Intersil / RCA
+  ic_part_numbers: [CA3140E, CA3140AE, CA3140M, CA3140AM]
+  package: 8-pin DIP (DIP-8 / PDIP-8) / 8-pin SOIC / 8-pin TO-5 Metal Can
+  opamp_type: BiMOS (MOSFET Input, Bipolar Output) Operational Amplifier
+  amplifier_channels: 1 (Single)
+  gain_bandwidth_mhz: 4.5
+  slew_rate_v_us: 9
+  input_bias_current_pa: 10
+  input_impedance_ohms: 1.5e+12
+  input_offset_voltage_mv: 5 (2mV on CA3140A)
+  supply_voltage_min_v: 4.0 (Single Supply) / ±2.0 (Dual Supply)
+  supply_voltage_max_v: 36.0 (Single Supply) / ±18.0 (Dual Supply)
+  supply_current_ma: 4
+  unity_gain_compensated: true
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [8-Pin Analog (Inputs, Output, Offset Null, Strobe)]
+highlights:
+  - opamp_type
+  - amplifier_channels
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - input_bias_current_pa
+  - input_impedance_ohms
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - unity_gain_compensated
+  - interfaces
+references:
+  - targetId: analog.opamp.ca3130
+    relation: see-also
+  - targetId: analog.opamp.lf356
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.renesas.com/en/document/dst/ca3140-ca3140a-datasheet" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.renesas.com/en/products/analog-products/amplifiers-buffers/operational-amplifiers-op-amps/ca3140-45mhz-bimos-operational-amplifier-mosfet-inputbipolar-output" }

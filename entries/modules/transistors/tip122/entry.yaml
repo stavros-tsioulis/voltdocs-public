@@ -1,0 +1,47 @@
+id: transistor.bjt.tip122
+revision: "1.0"
+title: TIP122 — 100V 5A NPN Power Darlington Transistor (TO-220)
+category: transistors/bjt
+tags: [tip122, bjt, npn, darlington, power-transistor, 100v, 5a, to-220, stmicroelectronics, onsemi, motor-driver, stepper-driver, solenoid-driver, BCE]
+status: published
+summary: >-
+  STMicroelectronics / onsemi 100V 5A high-gain (hFE >= 1000) NPN Darlington power transistor in a TO-220 package, widely used for driving 24V/48V CNC stepper motors, solenoids, and heavy inductive loads from MCU pins.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: STMicroelectronics / ON Semiconductor / Texas Instruments
+  ic_part_numbers: [TIP122, TIP122TU, TIP122G]
+  package: TO-220AB (3-pin through-hole)
+  transistor_type: NPN Power Darlington BJT
+  collector_emitter_voltage_vceo_v: 100
+  collector_base_voltage_vcbo_v: 100
+  emitter_base_voltage_vebo_v: 5.0
+  continuous_collector_current_ic_a: 5.0
+  pulsed_collector_current_ic_a: 8.0
+  dc_current_gain_hfe: 1000 min (at IC = 3A, VCE = 3V)
+  collector_saturation_voltage_vce_sat_v: 2.0 (at IC = 3A)
+  total_power_dissipation_w: 65.0
+  pinout_order: "B-C-E (1: Base, 2: Collector, 3: Emitter)"
+  operating_temp_min_c: -65
+  operating_temp_max_c: 150
+  interfaces: [Direct MCU Logic Gate Drive Compatible (hFE >= 1000)]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_a
+  - dc_current_gain_hfe
+  - collector_saturation_voltage_vce_sat_v
+  - total_power_dissipation_w
+  - interfaces
+references:
+  - targetId: transistor.bjt.tip120
+    relation: variant-of
+  - targetId: transistor.bjt.tip121
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/tip120.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-transistors/tip122.html" }

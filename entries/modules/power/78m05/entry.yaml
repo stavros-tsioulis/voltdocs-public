@@ -1,0 +1,45 @@
+id: power.regulator.78m05
+revision: "1.0"
+title: 78M05 — 500mA Fixed 5.0V Positive Linear Voltage Regulator
+category: power/regulator
+tags: [78m05, lm78m05, mc78m05, l78m05, regulator, linear, 5v, to-220, dpak, medium-power, stmicroelectronics, onsemi, ti]
+status: published
+summary: >-
+  Industry-standard 3-terminal positive fixed +5.0V linear voltage regulator in a TO-220 / DPAK package supplying up to 500mA, bridging the gap between the 100mA 78L05 and 1.5A LM7805.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: STMicroelectronics / onsemi / Texas Instruments
+  ic_part_numbers: [L78M05CV, MC78M05CTG, LM78M05CT, L78M05CDT-TR]
+  package: TO-220-3 / DPAK (TO-252) / SOT-82 / IPAK
+  regulator_type: Standard Positive Fixed Linear Regulator
+  output_voltage_v: 5.0
+  output_voltage_accuracy_pct: 4.0
+  input_voltage_v_min: 7.0
+  input_voltage_v_max: 35.0
+  dropout_voltage_v: 2.0
+  output_current_a_max: 0.5
+  quiescent_current_ma: 4.2
+  operating_temp_min_c: 0
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Passive (VIN, GND, VOUT)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - interfaces
+references:
+  - targetId: power.regulator.lm7805
+    relation: variant-of
+  - targetId: power.regulator.78l05
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/l78m.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-management/l78m.html" }

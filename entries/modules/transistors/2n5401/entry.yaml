@@ -1,0 +1,47 @@
+id: transistor.bjt.2n5401
+revision: "1.0"
+title: 2N5401 — -150V -600mA High-Voltage PNP BJT (TO-92)
+category: transistors/bjt
+tags: [2n5401, 2n5401ta, mmbt5401, pnp, bjt, transistor, high-voltage, "-150v", "-600ma", to-92, onsemi, fairchild, audio-amplifier, vas-stage, EBC]
+status: published
+summary: >-
+  onsemi / Fairchild -150V -600mA high-voltage small-signal PNP BJT in a TO-92 package, serving as the standard complementary counterpart to the 2N5551 for audio amplifier VAS stages and high-voltage level shifters.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: onsemi / Fairchild / Central Semiconductor / STMicroelectronics
+  ic_part_numbers: [2N5401, 2N5401TA, MMBT5401]
+  package: TO-92 Plastic (through-hole) / SOT-23 (MMBT5401)
+  transistor_type: High-Voltage Small-Signal PNP BJT
+  collector_emitter_voltage_vceo_v: -150
+  collector_base_voltage_vcbo_v: -160
+  emitter_base_voltage_vebo_v: -5.0
+  continuous_collector_current_ic_ma: -600
+  dc_current_gain_hfe_min: 50 (at IC = -10mA, VCE = -5.0V)
+  dc_current_gain_hfe_max: 240
+  transition_frequency_ft_mhz: 100
+  total_power_dissipation_mw: 625
+  pinout_order: "E-B-C (1: Emitter, 2: Base, 3: Collector)"
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - interfaces
+references:
+  - targetId: transistor.bjt.2n5551
+    relation: companion-to
+  - targetId: transistor.bjt.2n3906
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/2n5401-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discrete-power-device/general-purpose-transistor/2n5401" }

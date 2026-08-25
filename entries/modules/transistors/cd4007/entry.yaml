@@ -1,0 +1,44 @@
+id: transistor.array.cd4007
+revision: "1.0"
+title: CD4007UB — CMOS Dual Complementary Pair Plus Inverter Transistor Array
+category: transistor/mosfet
+tags: [cd4007, cd4007ub, cd4007ube, cmos, mosfet, transistor-array, complementary, unbuffered, analog, breadboard, dip-14]
+status: published
+summary: >-
+  Texas Instruments / onsemi CMOS array containing 3 P-channel and 3 N-channel enhancement-mode MOSFETs with accessible terminals in a 14-pin DIP package, widely used for discrete analog and digital design.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Texas Instruments / onsemi
+  ic_part_numbers: [CD4007UBE, CD4007UBM, CD4007UBNSR]
+  package: 14-pin DIP (DIP-14 / PDIP-14) / 14-pin SOIC
+  transistor_type: CMOS Complementary MOSFET Array (3 PMOS + 3 NMOS)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  input_impedance_ohms: 1.0e+12
+  drain_current_ma_max: 10
+  gate_threshold_voltage_v: 1.5
+  propagation_delay_ns: 20 (at 10V)
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [6-Transistor Array (Individual Source/Drain/Gate Pins)]
+highlights:
+  - transistor_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - input_impedance_ohms
+  - gate_threshold_voltage_v
+  - propagation_delay_ns
+  - interfaces
+references:
+  - targetId: interface.logic.cd4069
+    relation: see-also
+  - targetId: transistor.mosfet.2n7000
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4007UB" }

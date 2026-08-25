@@ -1,0 +1,48 @@
+id: analog.inamp.ina128
+revision: "1.0"
+title: INA128 — Precision Low-Power Instrumentation Amplifier
+category: analog/inamp
+tags: [ina128, ina128p, ina128u, inamp, instrumentation-amplifier, precision, low-power, strain-gauge, ecg, emg, load-cell, burr-brown, texas-instruments, dip-8, soic-8]
+status: published
+summary: >-
+  Texas Instruments / Burr-Brown precision low-power (700µA) instrumentation amplifier featuring ±40V input overvoltage protection, 120dB minimum CMRR, laser-trimmed 50µV max input offset voltage, and single resistor gain setting from 1 to 10,000.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Texas Instruments / Burr-Brown
+  ic_part_numbers: [INA128, INA128P, INA128PA, INA128U, INA128UA]
+  package: 8-pin PDIP / 8-pin SOIC
+  amplifier_type: Precision 3-Op-Amp Instrumentation Amplifier
+  gain_range: 1 to 10,000 (Set by single external resistor RG)
+  supply_voltage_split_v_min: 2.25
+  supply_voltage_split_v_max: 18.0
+  supply_voltage_single_v_min: 4.5
+  supply_voltage_single_v_max: 36.0
+  common_mode_rejection_db: 120.0
+  input_offset_voltage_uv: 50.0
+  input_bias_current_na: 2.0
+  input_noise_voltage_nv_sqrt_hz: 8.0
+  bandwidth_khz: 200.0
+  quiescent_current_ua: 700
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Differential Inputs (+IN, -IN), Gain Setting Terminals (RG), Output Reference (Ref), Amplified Output (Vo)]
+highlights:
+  - amplifier_type
+  - gain_range
+  - supply_voltage_split_v_min
+  - supply_voltage_split_v_max
+  - common_mode_rejection_db
+  - input_offset_voltage_uv
+  - input_noise_voltage_nv_sqrt_hz
+  - interfaces
+references:
+  - targetId: analog.inamp.ad620
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/ina128.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/INA128" }

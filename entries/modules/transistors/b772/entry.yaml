@@ -1,0 +1,50 @@
+id: transistor.bjt.b772
+revision: "1.0"
+title: B772 (2SB772) — -30V -3A Low-Saturation Medium-Power PNP BJT (TO-126)
+category: transistors/bjt
+tags: [b772, 2sb772, bjt, pnp, transistor, medium-power, low-vce-sat, "-30v", "-3a", to-126, sot-32, nec, toshiba, utc, stmicroelectronics, ECB]
+status: published
+summary: >-
+  NEC / Toshiba / UTC -30V -3A medium-power PNP BJT in a TO-126 package with exceptionally low 0.3V VCE(sat) saturation voltage, widely used in Asian audio kits, power inverters, and toy motor drivers.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: NEC / Toshiba / UTC (Unisonic) / STMicroelectronics
+  ic_part_numbers: [2SB772, B772, 2SB772-P, 2SB772-Q, 2SB772-E]
+  package: SOT-32 / TO-126 (3-pin through-hole with mounting hole) / SOT-89
+  transistor_type: Medium-Power Low-Saturation PNP BJT
+  collector_emitter_voltage_vceo_v: -30
+  collector_base_voltage_vcbo_v: -40
+  emitter_base_voltage_vebo_v: -6.0
+  continuous_collector_current_ic_a: -3.0
+  pulsed_collector_current_ic_a: -7.0
+  collector_saturation_voltage_vce_sat_v: -0.3 (at IC = -2A, IB = -200mA)
+  dc_current_gain_hfe_min: 60 (up to 400 based on classification rank)
+  dc_current_gain_hfe_max: 400
+  transition_frequency_ft_mhz: 80
+  total_power_dissipation_w: 10.0 (with heatsink) / 1.0 (free air)
+  pinout_order: "E-C-B (1: Emitter, 2: Collector, 3: Base)"
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_a
+  - collector_saturation_voltage_vce_sat_v
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - interfaces
+references:
+  - targetId: transistor.bjt.d882
+    relation: companion-to
+  - targetId: transistor.bjt.bd140
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/2sb772.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-transistors/2sb772.html" }

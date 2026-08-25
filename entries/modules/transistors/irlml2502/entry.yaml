@@ -1,0 +1,47 @@
+id: transistor.mosfet.irlml2502
+revision: "1.0"
+title: IRLML2502 — N-Channel 20V Logic-Level Power MOSFET (SOT-23)
+category: transistors/mosfet
+tags: [irlml2502, irlml2502trpbf, mosfet, n-channel, logic-level, "20v", "4.2a", sot-23, micro3, infineon, international-rectifier, load-switch, battery-switch]
+status: published
+summary: >-
+  Infineon (International Rectifier) 20V 4.2A N-channel logic-level HEXFET power MOSFET in a compact SOT-23 package, with ultra-low 45mΩ on-resistance at 4.5V VGS for high-efficiency battery load switching and motor control.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Infineon Technologies / International Rectifier
+  ic_part_numbers: [IRLML2502, IRLML2502TRPBF]
+  package: SOT-23 (Micro3 / TO-236AB)
+  transistor_type: N-Channel Logic-Level Enhancement Mode MOSFET
+  drain_source_voltage_vdss_v: 20
+  continuous_drain_current_id_a: 4.2
+  pulsed_drain_current_id_a: 33.0
+  gate_threshold_voltage_vgs_th_min_v: 0.6
+  gate_threshold_voltage_vgs_th_max_v: 1.2
+  rds_on_vgs_4.5v_mohm: 45.0
+  rds_on_vgs_2.5v_mohm: 80.0
+  total_power_dissipation_w: 1.25
+  gate_charge_total_nc: 8.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [2.5V and 4.5V Direct MCU Gate Drive Compatible]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - rds_on_vgs_4.5v_mohm
+  - rds_on_vgs_2.5v_mohm
+  - interfaces
+references:
+  - targetId: transistor.mosfet.ao3400
+    relation: see-also
+  - targetId: transistor.mosfet.bss138
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/Infineon-IRLML2502-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a401535668a6232616" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/irlml2502/" }

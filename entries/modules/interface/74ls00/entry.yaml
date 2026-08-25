@@ -1,0 +1,45 @@
+id: interface.logic.74ls00
+revision: "1.0"
+title: 74LS00 — Quad 2-Input NAND Gate (Low-Power Schottky TTL)
+category: interface/logic
+tags: [74ls00, sn74ls00, nand-gate, logic-gate, quad-nand, ttl, low-power-schottky, bipolar, retrocomputing, texas-instruments, dip-14]
+status: published
+summary: >-
+  Classic Low-Power Schottky TTL (LS-TTL) bipolar IC containing four independent 2-input NAND logic gates, ubiquitous in vintage computing, 8-bit retro systems, and legacy digital electronics.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Texas Instruments / Fairchild / ON Semiconductor
+  ic_part_numbers: [74LS00, SN74LS00N, DM74LS00N, HD74LS00P]
+  package: 14-pin DIP / SOIC-14
+  logic_family: Low-Power Schottky TTL (LS-TTL)
+  supply_voltage_min_v: 4.75
+  supply_voltage_max_v: 5.25
+  operating_voltage_v: 5.0
+  gates_count: 4 (Quad 2-Input NAND)
+  propagation_delay_ns: 10
+  output_sink_current_ma: 8.0
+  input_low_current_ma: -0.4
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [4x Independent 2-Input NAND Gates (1A/1B->1Y, 2A/2B->2Y, 3A/3B->3Y, 4A/4B->4Y)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - gates_count
+  - propagation_delay_ns
+  - output_sink_current_ma
+  - input_low_current_ma
+  - interfaces
+references:
+  - targetId: interface.logic.74hc00
+    relation: variant-of
+  - targetId: interface.logic.74hct00
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74ls00.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74LS00" }

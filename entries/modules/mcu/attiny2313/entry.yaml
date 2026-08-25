@@ -1,0 +1,47 @@
+id: mcu.avr.attiny2313
+revision: "1.0"
+title: ATtiny2313 — 20-Pin 8-Bit AVR Microcontroller with Hardware USART (DIP-20)
+category: mcu/avr
+tags: [attiny2313, attiny2313a, attiny4313, avr, microchip, atmel, 8-bit, dip-20, hardware-usart, picopower]
+status: published
+summary: >-
+  Microchip (Atmel) 20-pin 8-bit AVR RISC microcontroller with 2KB Flash, 128B SRAM, full hardware USART, 4 PWM channels, and 18 GPIO lines in a DIP-20 package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology / Atmel
+  ic_part_numbers: [ATtiny2313A-PU, ATtiny2313-20PU, ATtiny2313A-SU, ATtiny4313-PU]
+  package: 20-pin DIP (DIP-20 / PDIP-20) / 20-pin SOIC / 20-pin QFN
+  core: 8-bit AVR RISC
+  max_clock_speed_mhz: 20 (8MHz internal RC)
+  flash_memory_kb: 2
+  sram_memory_bytes: 128
+  eeprom_memory_bytes: 128
+  operating_voltage_min_v: 1.8
+  operating_voltage_max_v: 5.5
+  gpio_count: 18
+  pwm_channels: 4 (Timer0 and Timer1)
+  interfaces: [Hardware USART, USI (SPI/I2C), ISP (SPI), Analog Comparator]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.avr.attiny85
+    relation: see-also
+  - targetId: mcu.avr.atmega328p
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny2313A-ATtiny4313-Data-Sheet-DS40002167A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/ATtiny2313A" }

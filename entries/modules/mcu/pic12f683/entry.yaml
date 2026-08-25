@@ -1,0 +1,51 @@
+id: mcu.pic.pic12f683
+revision: "1.0"
+title: PIC12F683 — 8-Pin 8-Bit CMOS Flash Microcontroller (nanoWatt)
+category: mcu/pic
+tags: [pic12f683, pic12f, pic, microchip, 8-bit, dip-8, nanowatt, adc, pwm, modchip]
+status: published
+summary: >-
+  Microchip 8-pin 8-bit CMOS Flash RISC microcontroller with 2K words (3.5KB) Flash, 128B RAM, 256B EEPROM, 4-channel 10-bit ADC, CCP (PWM), and internal 8MHz RC oscillator in a DIP-8 package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [PIC12F683-I/P, PIC12F683-E/P, PIC12F683-I/SN, PIC12F683-I/MD]
+  package: 8-pin DIP (DIP-8 / PDIP-8) / 8-pin SOIC / 8-pin DFN
+  core: 8-bit PIC RISC (35 instructions)
+  max_clock_speed_mhz: 20 (8MHz internal precision RC)
+  flash_memory_words: 2048 (3.5 KB, 14-bit words)
+  sram_memory_bytes: 128
+  eeprom_memory_bytes: 256
+  operating_voltage_min_v: 2.0
+  operating_voltage_max_v: 5.5
+  gpio_count: 6 (GP0 to GP5, GP3 input-only)
+  pwm_channels: 1 (CCP module with 10-bit PWM)
+  adc_channels: 4 (10-bit resolution)
+  timers: 3 (Timer0 8-bit, Timer1 16-bit, Timer2 8-bit)
+  interfaces: [ICSP, Analog Comparator, 1x CCP]
+  quiescent_current_ua: 1.0 (nanoWatt Standby at 2.0V)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_words
+  - sram_memory_bytes
+  - eeprom_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.avr.attiny85
+    relation: see-also
+  - targetId: mcu.pic.pic16f877a
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/41211D.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/PIC12F683" }

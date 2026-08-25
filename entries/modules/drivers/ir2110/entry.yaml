@@ -1,0 +1,47 @@
+id: driver.gate.ir2110
+revision: "1.0"
+title: IR2110 — High-Voltage 500V 2A High and Low-Side Gate Driver IC
+category: drivers/mosfet
+tags: [ir2110, ir2110pbf, ir2110s, ir2110strpbf, irs2110, gate-driver, mosfet-driver, igbt, high-side, low-side, 500v, 2a, half-bridge, h-bridge, inverter, infineon, international-rectifier, dip-14, soic-16]
+status: published
+summary: >-
+  Infineon / International Rectifier industry-standard 500V high-voltage, high-speed 2A source/sink half-bridge gate driver IC with independent high- and low-side referenced output channels, separate logic ground, and shutdown.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Infineon Technologies / International Rectifier
+  ic_part_numbers: [IR2110, IR2110PBF, IR2110S, IR2110STRPBF, IRS2110PBF]
+  package: 14-pin PDIP / 16-pin SOIC (Wide)
+  driver_type: High and Low Side Half-Bridge Gate Driver IC
+  high_side_floating_voltage_max_v: 500.0
+  gate_supply_voltage_min_v: 10.0
+  gate_supply_voltage_max_v: 20.0
+  logic_supply_voltage_min_v: 3.3
+  logic_supply_voltage_max_v: 20.0
+  peak_source_current_a: 2.0
+  peak_sink_current_a: 2.0
+  turn_on_delay_ns: 120
+  turn_off_delay_ns: 94
+  matched_delay_ns: 10
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [High-Side Input (HIN), Low-Side Input (LIN), Shutdown (SD), High-Side Gate Drive (HO), Low-Side Gate Drive (LO), Bootstrap Supply (VB, VS), Separate Logic Ground (VSS)]
+highlights:
+  - driver_type
+  - high_side_floating_voltage_max_v
+  - gate_supply_voltage_min_v
+  - gate_supply_voltage_max_v
+  - peak_source_current_a
+  - peak_sink_current_a
+  - turn_on_delay_ns
+  - interfaces
+references:
+  - targetId: driver.gate.fan7392
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/Infineon-IR2110-DS-v01_00-EN.pdf?fileId=5546d462533600a4015355c803331681" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/gate-driver-ics/ir2110/" }

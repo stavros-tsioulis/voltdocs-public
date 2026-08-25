@@ -1,0 +1,40 @@
+id: interface.logic.cd4027
+revision: "1.0"
+title: CD4027 — CMOS Dual J-K Master-Slave Flip-Flop with Set and Reset
+category: interface/logic
+tags: [cd4027, cd4027b, cd4027be, flip-flop, jk-flip-flop, dual-flip-flop, toggle, frequency-divider, cmos, 4000-series, ti, onsemi, dip-16, soic-16]
+status: published
+summary: >-
+  Texas Instruments / ON Semiconductor high-voltage CMOS dual J-K master-slave flip-flop IC featuring independent J, K, Clock, Set, and Reset inputs with complementary Q and ~Q outputs across a 3V to 18V supply range.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Renesas
+  ic_part_numbers: [CD4027, CD4027B, CD4027BE, CD4027BM, HEF4027B]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: High-Voltage CMOS (4000B Series)
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  flip_flop_count: 2
+  propagation_delay_ns: 65
+  max_clock_frequency_mhz: 16
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [Dual JK Flip-Flops (J, K, CLK, SET, RESET, Q, ~Q)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - flip_flop_count
+  - propagation_delay_ns
+  - max_clock_frequency_mhz
+  - interfaces
+references:
+  - targetId: interface.logic.cd4013
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4027b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4027B" }

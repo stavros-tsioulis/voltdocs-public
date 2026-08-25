@@ -1,0 +1,48 @@
+id: transistor.bjt.pn2907
+revision: "1.0"
+title: PN2907A — General-Purpose PNP BJT (Plastic TO-92 2N2907A)
+category: transistors/bjt
+tags: [pn2907, pn2907a, 2n2907, 2n2907a, pnp, bjt, transistor, "-60v", "-600ma", to-92, onsemi, fairchild, high-speed, EBC]
+status: published
+summary: >-
+  onsemi / Fairchild plastic TO-92 packaged -60V -600mA general-purpose high-speed PNP switching BJT, serving as the breadboard-friendly equivalent of the 2N2907A metal can and complement to PN2222A.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: ON Semiconductor / Fairchild / STMicroelectronics
+  ic_part_numbers: [PN2907A, PN2907, PN2907ATA, PN2907ATFR]
+  package: TO-92 (3-pin through-hole)
+  transistor_type: High-Speed General-Purpose PNP BJT
+  collector_emitter_voltage_vceo_v: -60
+  collector_base_voltage_vcbo_v: -60
+  emitter_base_voltage_vebo_v: -5.0
+  continuous_collector_current_ic_ma: -600
+  pulsed_collector_current_ic_a: -1.0
+  dc_current_gain_hfe_min: 100 (at IC = -150mA, VCE = -10V)
+  dc_current_gain_hfe_max: 300
+  transition_frequency_ft_mhz: 200
+  total_power_dissipation_mw: 625
+  pinout_order: "E-B-C (1: Emitter, 2: Base, 3: Collector)"
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_ma
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - interfaces
+references:
+  - targetId: transistor.bjt.2n2907
+    relation: variant-of
+  - targetId: transistor.bjt.pn2222
+    relation: companion-to
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/p2n2907a-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discrete-power-device/general-purpose-transistor/pn2907a" }

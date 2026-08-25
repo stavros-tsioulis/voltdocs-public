@@ -1,0 +1,49 @@
+id: power.ldo.lm2931az-5.0
+revision: "1.0"
+title: LM2931AZ-5.0 — Automotive-Grade 100mA 5.0V Low Dropout (LDO) Regulator
+category: power/regulator
+tags: [lm2931, lm2931az-5.0, ldo, regulator, linear, 5v, to-92, automotive, reverse-battery, 60v-dump, texas-instruments, onsemi]
+status: published
+summary: >-
+  Texas Instruments / onsemi automotive-grade low-dropout (LDO) linear regulator supplying +5.0V DC at up to 100mA, featuring 60V load dump protection, -18V reverse battery tolerance, and mirror-image pin insertion immunity.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Texas Instruments / onsemi
+  ic_part_numbers: [LM2931AZ-5.0, LM2931Z-5.0, LM2931A-5.0, LM2931D-5.0]
+  package: TO-92 (3-pin through-hole)
+  regulator_type: Automotive Low-Dropout (LDO) Positive Linear Regulator
+  output_voltage_v: 5.0
+  output_voltage_accuracy_pct: 3.8
+  input_voltage_v_min: 6.0
+  input_voltage_v_max: 26.0
+  transient_input_voltage_max_v: 60.0
+  reverse_input_voltage_max_v: -18.0
+  dropout_voltage_v: 0.16
+  output_current_a_max: 0.1
+  quiescent_current_ma: 0.4
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Passive (VOUT, GND, VIN)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - transient_input_voltage_max_v
+  - reverse_input_voltage_max_v
+  - dropout_voltage_v
+  - output_current_a_max
+  - interfaces
+references:
+  - targetId: power.regulator.78l05
+    relation: see-also
+  - targetId: power.regulator.lm7805
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm2931-n.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM2931-N" }

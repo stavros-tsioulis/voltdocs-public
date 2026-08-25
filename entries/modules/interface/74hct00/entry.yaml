@@ -1,0 +1,45 @@
+id: interface.logic.74hct00
+revision: "1.0"
+title: 74HCT00 — Quad 2-Input NAND Gate with TTL-Compatible Inputs
+category: interface/logic
+tags: [74hct00, sn74hct00, nand-gate, logic-gate, quad-nand, ttl-compatible, level-shifter, 3.3v-to-5v, nexperia, texas-instruments, dip-14]
+status: published
+summary: >-
+  High-speed CMOS IC containing four independent 2-input NAND logic gates with TTL-compatible input switching thresholds (VIH >= 2.0V, VIL <= 0.8V), standard for interfacing 3.3V/5V TTL logic to 5V CMOS systems.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HCT00, SN74HCT00N, 74HCT00D, 74HCT00PW]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  logic_family: TTL-Compatible High-Speed CMOS (HCT)
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 5.5
+  input_high_threshold_v: 2.0
+  input_low_threshold_v: 0.8
+  gates_count: 4 (Quad 2-Input NAND)
+  propagation_delay_ns: 10
+  output_drive_current_ma: 4.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [4x Independent 2-Input NAND Gates (1A/1B->1Y, 2A/2B->2Y, 3A/3B->3Y, 4A/4B->4Y)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - input_high_threshold_v
+  - gates_count
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+references:
+  - targetId: interface.logic.74hc00
+    relation: variant-of
+  - targetId: interface.logic.74ls00
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hct00.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HCT00" }

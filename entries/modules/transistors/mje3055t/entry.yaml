@@ -1,0 +1,48 @@
+id: transistor.bjt.mje3055t
+revision: "1.0"
+title: MJE3055T — 60V 10A Power NPN BJT (Plastic TO-220 2N3055 Equivalent)
+category: transistors/bjt
+tags: [mje3055t, mje3055, 2n3055, npn, bjt, power-transistor, 60v, 10a, 75w, to-220, onsemi, stmicroelectronics, linear-power-supply, audio-amp, BCE]
+status: published
+summary: >-
+  onsemi / STMicroelectronics 60V 10A 75W silicon power NPN BJT in a TO-220 package, serving as the modern plastic through-hole equivalent of the legendary metal-can 2N3055.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: onsemi / STMicroelectronics / Fairchild
+  ic_part_numbers: [MJE3055T, MJE3055TG, MJE3055]
+  package: TO-220AB (3-pin through-hole)
+  transistor_type: Silicon Power NPN BJT
+  collector_emitter_voltage_vceo_v: 60
+  collector_base_voltage_vcbo_v: 70
+  emitter_base_voltage_vebo_v: 5.0
+  continuous_collector_current_ic_a: 10.0
+  base_current_ib_a: 6.0
+  dc_current_gain_hfe: 20 to 100 (at IC = 4.0A, VCE = 4.0V)
+  collector_saturation_voltage_vce_sat_v: 1.1 (at IC = 4.0A, IB = 400mA)
+  total_power_dissipation_w: 75.0
+  transition_frequency_ft_mhz: 2.0
+  pinout_order: "B-C-E (1: Base, 2: Collector, 3: Emitter)"
+  operating_temp_min_c: -65
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_a
+  - dc_current_gain_hfe
+  - collector_saturation_voltage_vce_sat_v
+  - total_power_dissipation_w
+  - interfaces
+references:
+  - targetId: transistor.bjt.2n3055
+    relation: variant-of
+  - targetId: transistor.bjt.tip31c
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/mje3055t-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/discrete-power-device/general-purpose-transistor/mje3055t" }

@@ -1,0 +1,40 @@
+id: driver.motor.mc33886
+revision: "1.0"
+title: MC33886 — 5.0A H-Bridge Motor Driver IC
+category: drivers/motor
+tags: [mc33886, mc33886pvw, mc33886vw, motor-driver, h-bridge, dc-motor, pwm, current-sensing, nxp, freescale, pololu, hsop-20]
+status: published
+summary: >-
+  NXP / Freescale 5.0A continuous monolithic H-bridge motor driver IC (5.0V to 28V operational, up to 40V transients) with internal current feedback, fault status flag, undervoltage lockout, and thermal protection.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: NXP Semiconductors / Freescale
+  ic_part_numbers: [MC33886, MC33886PVW, MC33886VW, MC33886DH]
+  package: HSOP-20 (Exposed Heatsink Pad) / 33-Pin PQFN / Pololu MC33886 Carrier
+  driver_type: Monolithic H-Bridge DC Motor Driver IC
+  motor_type: Brushed DC Motor / Fractional Horsepower Motor / Solenoid
+  supply_voltage_min_v: 5.0
+  supply_voltage_max_v: 28.0
+  continuous_output_current_a: 5.0
+  peak_output_current_a: 7.8
+  rds_on_ohm: 0.12
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Dual PWM Inputs (IN1, IN2), Dual Disable Inputs (D1, ~D2~), Open-Drain Fault Status (~FS~), Current Feedback (FB)]
+highlights:
+  - driver_type
+  - motor_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - continuous_output_current_a
+  - peak_output_current_a
+  - rds_on_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.nxp.com/docs/en/data-sheet/MC33886.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nxp.com/products/power-management/motor-and-solenoid-drivers/h-bridge-drivers/5-0-a-h-bridge:MC33886" }

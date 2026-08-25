@@ -1,0 +1,51 @@
+id: analog.opamp.ca3130
+revision: "1.0"
+title: CA3130 — 15MHz BiMOS Operational Amplifier with MOSFET Input & CMOS Output
+category: analog/opamp
+tags: [ca3130, ca3130a, ca3130e, opamp, bimos, mosfet-input, cmos-output, rail-to-rail, renesas, intersil, rca, synthesizer, dip-8]
+status: published
+summary: >-
+  Renesas (Intersil/RCA) 15MHz BiMOS operational amplifier combining gate-protected PMOS inputs (5pA bias current, 1.5TΩ impedance) with rail-to-rail CMOS output swing in an 8-pin DIP package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Renesas Electronics / Intersil / RCA
+  ic_part_numbers: [CA3130E, CA3130AE, CA3130M, CA3130AM]
+  package: 8-pin DIP (DIP-8 / PDIP-8) / 8-pin SOIC / 8-pin TO-5 Metal Can
+  opamp_type: BiMOS (MOSFET Input, CMOS Output) Operational Amplifier
+  amplifier_channels: 1 (Single)
+  gain_bandwidth_mhz: 15
+  slew_rate_v_us: 30 (10V/µs compensated)
+  input_bias_current_pa: 5
+  input_impedance_ohms: 1.5e+12
+  input_offset_voltage_mv: 8 (2mV on CA3130A)
+  supply_voltage_min_v: 5.0 (Single Supply) / ±2.5 (Dual Supply)
+  supply_voltage_max_v: 16.0 (Single Supply) / ±8.0 (Dual Supply)
+  supply_current_ma: 10
+  output_swing_rail_to_rail: true
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [8-Pin Analog (Inputs, Output, Offset Null, Strobe)]
+highlights:
+  - opamp_type
+  - amplifier_channels
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - input_bias_current_pa
+  - input_impedance_ohms
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - output_swing_rail_to_rail
+  - interfaces
+references:
+  - targetId: analog.opamp.ca3140
+    relation: see-also
+  - targetId: analog.opamp.tl072
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.renesas.com/en/document/dst/ca3130-ca3130a-datasheet" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.renesas.com/en/products/analog-products/amplifiers-buffers/operational-amplifiers-op-amps/ca3130-15mhz-bimos-operational-amplifier-mosfet-inputcmos-output" }

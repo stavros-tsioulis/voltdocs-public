@@ -1,0 +1,48 @@
+id: transistor.mosfet.ao3401
+revision: "1.0"
+title: AO3401 — -30V -4.0A P-Channel Logic-Level MOSFET (SOT-23)
+category: transistors/mosfet
+tags: [ao3401, ao3401a, mosfet, p-channel, logic-level, "-30v", "-4a", sot-23, alpha-and-omega, low-rdson, smd, load-switch, reverse-polarity]
+status: published
+summary: >-
+  Alpha & Omega Semiconductor -30V -4.0A low-RDS(on) (44mΩ) P-channel logic-level enhancement mode MOSFET in a SOT-23 package, ideal for high-side load switching and battery reverse-polarity protection.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Alpha & Omega Semiconductor
+  ic_part_numbers: [AO3401, AO3401A]
+  package: SOT-23 (3-pin SMD)
+  transistor_type: P-Channel Logic-Level Enhancement Mode MOSFET
+  drain_source_voltage_vdss_v: -30
+  gate_source_voltage_vgs_max_v: 12
+  continuous_drain_current_id_a: -4.0
+  pulsed_drain_current_id_a: -30.0
+  gate_threshold_voltage_vgs_th_min_v: -0.7
+  gate_threshold_voltage_vgs_th_max_v: -1.3
+  rds_on_vgs_10v_mohm: 44.0
+  rds_on_vgs_4.5v_mohm: 55.0
+  rds_on_vgs_2.5v_mohm: 85.0
+  total_power_dissipation_w: 1.4
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Sub-2.5V to 10V Gate Drive Compatible]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_4.5v_mohm
+  - interfaces
+references:
+  - targetId: transistor.mosfet.ao3400
+    relation: companion-to
+  - targetId: transistor.mosfet.irlml2502
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "http://www.aosmd.com/res/data_sheets/AO3401A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "http://www.aosmd.com/products/mosfets/p-channel/AO3401A" }

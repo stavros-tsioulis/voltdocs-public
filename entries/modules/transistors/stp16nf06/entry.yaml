@@ -1,0 +1,47 @@
+id: transistor.mosfet.stp16nf06
+revision: "1.0"
+title: STP16NF06 — 60V 16A N-Channel Power MOSFET (TO-220)
+category: transistors/mosfet
+tags: [stp16nf06, std16nf06, stp16nf06l, mosfet, n-channel, power-mosfet, 60v, 16a, to-220, stripfet, stmicroelectronics, motor-driver]
+status: published
+summary: >-
+  STMicroelectronics 60V 16A N-channel STripFET II power MOSFET in a TO-220 package, popular in European maker projects and educational kits for 12V/24V DC motor and solenoid switching.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [STP16NF06, STD16NF06, STP16NF06L, STB16NF06]
+  package: TO-220-3 (through-hole) / DPAK (STD16NF06) / D2PAK
+  transistor_type: N-Channel STripFET II Power MOSFET
+  drain_source_voltage_vdss_v: 60
+  continuous_drain_current_id_a: 16.0 (at 25°C)
+  pulsed_drain_current_id_a: 64.0
+  gate_threshold_voltage_vgs_th_min_v: 2.0
+  gate_threshold_voltage_vgs_th_max_v: 4.0
+  rds_on_vgs_10v_mohm: 70 (80mΩ max)
+  gate_charge_total_qg_nc: 14.5
+  total_power_dissipation_w: 45.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [3-Terminal TO-220 (Gate, Drain, Source)]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_10v_mohm
+  - total_power_dissipation_w
+  - interfaces
+references:
+  - targetId: transistor.mosfet.irfz44n
+    relation: see-also
+  - targetId: transistor.mosfet.fqp30n06l
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/stp16nf06.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-transistors/stp16nf06.html" }

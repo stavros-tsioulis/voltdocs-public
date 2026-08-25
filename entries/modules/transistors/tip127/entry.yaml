@@ -1,0 +1,47 @@
+id: transistor.bjt.tip127
+revision: "1.0"
+title: TIP127 — -100V -5A PNP Power Darlington Transistor (TO-220)
+category: transistors/bjt
+tags: [tip127, tip125, tip126, bjt, pnp, darlington, power-transistor, "-100v", "-5a", to-220, stmicroelectronics, onsemi, h-bridge, motor-driver, BCE]
+status: published
+summary: >-
+  STMicroelectronics / onsemi -100V -5A high-gain (hFE >= 1000) PNP Darlington power transistor in a TO-220 package, serving as the high-side complementary partner to the TIP120/TIP122 for full H-bridge motor drivers.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: STMicroelectronics / ON Semiconductor / Texas Instruments
+  ic_part_numbers: [TIP127, TIP127TU, TIP127G, TIP125, TIP126]
+  package: TO-220AB (3-pin through-hole)
+  transistor_type: PNP Power Darlington BJT
+  collector_emitter_voltage_vceo_v: -100
+  collector_base_voltage_vcbo_v: -100
+  emitter_base_voltage_vebo_v: -5.0
+  continuous_collector_current_ic_a: -5.0
+  pulsed_collector_current_ic_a: -8.0
+  dc_current_gain_hfe: 1000 min (at IC = -3A, VCE = -3V)
+  collector_saturation_voltage_vce_sat_v: -2.0 (at IC = -3A)
+  total_power_dissipation_w: 65.0
+  pinout_order: "B-C-E (1: Base, 2: Collector, 3: Emitter)"
+  operating_temp_min_c: -65
+  operating_temp_max_c: 150
+  interfaces: [Direct MCU Logic Gate Drive Compatible with Open-Collector Driver (hFE >= 1000)]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_a
+  - dc_current_gain_hfe
+  - collector_saturation_voltage_vce_sat_v
+  - total_power_dissipation_w
+  - interfaces
+references:
+  - targetId: transistor.bjt.tip122
+    relation: companion-to
+  - targetId: transistor.bjt.tip120
+    relation: companion-to
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/tip127.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-transistors/tip127.html" }

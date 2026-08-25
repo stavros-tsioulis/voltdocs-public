@@ -1,0 +1,47 @@
+id: mcu.arm.stm32g030f6p6
+revision: "1.0"
+title: STM32G030F6P6 — Mainstream ARM Cortex-M0+ 32-Bit MCU (64MHz, 32KB Flash)
+category: mcu/arm
+tags: [stm32g030f6p6, stm32, arm, cortex-m0+, 32-bit, stmicroelectronics, tssop-20, 64mhz, 32kb, 8kb-ram, swd, 12-bit-adc]
+status: published
+summary: >-
+  STMicroelectronics modern 32-bit ARM Cortex-M0+ microcontroller running at 64MHz with 32KB Flash, 8KB SRAM, 2.5Msps 12-bit ADC, motor-control timer, and hardware I2C/SPI/USART in a consolidated TSSOP-20 package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: STMicroelectronics
+  ic_part_numbers: [STM32G030F6P6, STM32G030F6P6TR, STM32G031F6P6]
+  package: 20-pin TSSOP (TSSOP-20 / 6.5 x 4.4 mm)
+  core: ARM 32-bit Cortex-M0+
+  max_clock_speed_mhz: 64
+  flash_memory_kb: 32
+  sram_memory_kb: 8 (with hardware parity check)
+  operating_voltage_min_v: 2.0
+  operating_voltage_max_v: 3.6
+  gpio_count: 18 (Up to 16 5V-tolerant)
+  adc_channels: 16 (12-bit resolution, 0.4 µs / 2.5 Msps with hardware oversampling)
+  timers: 7 (1x 16-bit advanced motor-control timer, 4x 16-bit GP timers, 1x LPTIM, 1x SysTick)
+  interfaces: [2x I2C (Fast Mode+ 1MHz), 2x SPI (32 Mbps), 2x USART, SWD Debug]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_kb
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.arm.stm32f030f4p6
+    relation: see-also
+  - targetId: mcu.avr.atmega328p
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/stm32g030f6.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/microcontrollers-microprocessors/stm32g030f6.html" }

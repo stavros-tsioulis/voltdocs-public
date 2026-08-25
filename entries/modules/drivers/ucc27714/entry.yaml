@@ -1,0 +1,45 @@
+id: driver.gate.ucc27714
+revision: "1.0"
+title: UCC27714 — 600V 4A/4A High-Speed High-Side Low-Side Gate Driver IC
+category: drivers/mosfet
+tags: [ucc27714, ucc27714d, ucc27714dr, gate-driver, mosfet-driver, igbt, high-side, low-side, 600v, 4a, high-speed, texas-instruments, soic-14]
+status: published
+summary: >-
+  Texas Instruments 600V high-speed high-side and low-side gate driver IC delivering 4.0A source and 4.0A sink peak current with industry-leading 90ns propagation delay and robust negative voltage handling (-8V) for server power and solar inverters.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [UCC27714, UCC27714D, UCC27714DR]
+  package: 14-pin SOIC (D-Package)
+  driver_type: High and Low Side Half-Bridge Gate Driver IC
+  high_side_floating_voltage_max_v: 600.0
+  gate_supply_voltage_min_v: 10.0
+  gate_supply_voltage_max_v: 20.0
+  peak_source_current_a: 4.0
+  peak_sink_current_a: 4.0
+  turn_on_delay_ns: 90
+  turn_off_delay_ns: 90
+  delay_matching_ns: 5
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [High-Side Input (HI), Low-Side Input (LI), Enable (EN), High-Side Gate Drive (HO), Low-Side Gate Drive (LO), Bootstrap Supply (HB, HS), Logic Ground (VSS), Power Ground (COM)]
+highlights:
+  - driver_type
+  - high_side_floating_voltage_max_v
+  - gate_supply_voltage_min_v
+  - gate_supply_voltage_max_v
+  - peak_source_current_a
+  - peak_sink_current_a
+  - turn_on_delay_ns
+  - interfaces
+references:
+  - targetId: driver.gate.ir2110
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/ucc27714.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/UCC27714" }

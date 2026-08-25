@@ -1,0 +1,41 @@
+id: driver.motor.bts7960
+revision: "1.0"
+title: BTS7960 — 43A High-Current Half-Bridge Motor Driver IC / Module (NovalithIC)
+category: drivers/motor
+tags: [bts7960, bts7960b, novalithic, motor-driver, h-bridge, half-bridge, high-current, 43a, dc-motor, ibt-2, infineon, to-263]
+status: published
+summary: >-
+  Infineon 43A peak monolithic half-bridge motor driver IC (NovalithIC™) combining a p-channel high-side MOSFET, n-channel low-side MOSFET, and integrated driver with current sense feedback for high-power DC motor control.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Infineon Technologies
+  ic_part_numbers: [BTS7960, BTS7960B, BTS7960BAUMA1]
+  package: TO-263-7 (D2PAK-7) / IBT-2 Dual BTS7960 Driver Module
+  driver_type: High-Current Half-Bridge Motor Driver IC (NovalithIC™)
+  motor_type: High-Power Brushed DC Motor / Actuator / Inverter
+  supply_voltage_min_v: 6.0
+  supply_voltage_max_v: 27.0
+  peak_output_current_a: 43.0
+  continuous_output_current_a: 15.0
+  rds_on_ohm: 0.016
+  pwm_frequency_max_khz: 25.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 150
+  interfaces: [Logic PWM Input (IN), Enable Input (INH), Current Sense / Status Flag (IS), Slew Rate Pin (SR)]
+highlights:
+  - driver_type
+  - motor_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - peak_output_current_a
+  - continuous_output_current_a
+  - rds_on_ohm
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/Infineon-BTS7960B-DS-v01_00-EN.pdf?fileId=db3a30431ed1d7b2011f074d0e6531eb" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/smart-power-switches/integrated-bridges-novalithic/bts7960b/" }

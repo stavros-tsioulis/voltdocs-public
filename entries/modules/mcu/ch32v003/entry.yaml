@@ -1,0 +1,47 @@
+id: mcu.riscv.ch32v003
+revision: "1.0"
+title: CH32V003 — Sub-$0.15 32-Bit RISC-V Microcontroller (48MHz, 16KB Flash)
+category: mcu/riscv
+tags: [ch32v003, ch32v003f4p6, riscv, risc-v, wch, 32-bit, rv32ec, 48mhz, tssop-20, sop-8, ultra-low-cost, ch32v003fun]
+status: published
+summary: >-
+  WCH ultra-low-cost (sub-$0.15) 32-bit RISC-V microcontroller running at 48MHz with 16KB Flash, 2KB SRAM, 10-bit ADC, motor-control timer, and 1-wire debug (SWIO) in a 20-pin TSSOP package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: WCH (Nanjing Qinheng Microelectronics)
+  ic_part_numbers: [CH32V003F4P6, CH32V003F4U6, CH32V003A4M6, CH32V003J4M6]
+  package: 20-pin TSSOP (TSSOP-20) / 20-pin QFN / 16-pin SOP / 8-pin SOP
+  core: QingKe 32-bit RISC-V2A (RV32EC Instruction Set)
+  max_clock_speed_mhz: 48 (24MHz internal RC with PLL)
+  flash_memory_kb: 16
+  sram_memory_kb: 2
+  operating_voltage_min_v: 2.7
+  operating_voltage_max_v: 5.5
+  gpio_count: 18 (TSSOP-20) / 6 (SOP-8)
+  adc_channels: 8 (10-bit resolution, 1.0 µs conversion time)
+  timers: 3 (1x 16-bit advanced motor-control timer, 1x 16-bit GP timer, 1x SysTick)
+  interfaces: [1x USART, 1x I2C (400kHz), 1x SPI, 1-Wire SDI / SWIO Debug]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_kb
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.arm.py32f002a
+    relation: see-also
+  - targetId: mcu.avr.attiny85
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.wch-ic.com/downloads/CH32V003DS0_PDF.html" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.wch-ic.com/products/CH32V003.html" }

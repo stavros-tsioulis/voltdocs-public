@@ -1,0 +1,45 @@
+id: transistor.mosfet.irf9540
+revision: "1.0"
+title: IRF9540 — -100V -23A P-Channel HEXFET Power MOSFET (TO-220)
+category: transistors/mosfet
+tags: [irf9540, irf9540n, mosfet, p-channel, power-mosfet, "-100v", "-23a", to-220, infineon, international-rectifier, hexfet, h-bridge, audio-amp, GDS]
+status: published
+summary: >-
+  Infineon / International Rectifier -100V -23A P-channel HEXFET power MOSFET in a TO-220 package, legendary complementary partner to the IRF540N for discrete audio amplifiers and H-bridge motor drives.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Infineon (legacy International Rectifier) / Vishay / STMicroelectronics
+  ic_part_numbers: [IRF9540, IRF9540N, IRF9540NPBF]
+  package: TO-220AB (3-pin through-hole)
+  transistor_type: P-Channel HEXFET Power MOSFET
+  drain_source_voltage_vdss_v: -100
+  gate_source_voltage_vgs_max_v: 20
+  continuous_drain_current_id_a: -23.0
+  pulsed_drain_current_id_a: -76.0
+  gate_threshold_voltage_vgs_th_min_v: -2.0
+  gate_threshold_voltage_vgs_th_max_v: -4.0
+  rds_on_vgs_10v_mohm: 117.0
+  total_power_dissipation_w: 140.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [Standard High-Side Gate Drive (-10V to -20V Recommended)]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - rds_on_vgs_10v_mohm
+  - total_power_dissipation_w
+  - interfaces
+references:
+  - targetId: transistor.mosfet.irf540n
+    relation: companion-to
+  - targetId: transistor.mosfet.fqp27p06
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/Infineon-IRF9540N-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a401535611c0341dc1" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/mosfet/p-channel/irf9540n/" }

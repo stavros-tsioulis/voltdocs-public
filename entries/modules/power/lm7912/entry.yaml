@@ -1,0 +1,45 @@
+id: power.regulator.lm7912
+revision: "1.0"
+title: LM7912 — Fixed -12V 1.5A Negative Linear Voltage Regulator
+category: power/regulator
+tags: [lm7912, l7912cv, "7912", voltage-regulator, linear, negative, -12v, power, to-220, dual-supply, op-amp, stmicroelectronics, onsemi, ti]
+status: published
+summary: >-
+  STMicroelectronics / Texas Instruments 3-terminal fixed -12.0V negative linear voltage regulator delivering over 1.5A output current from negative inputs up to -35V DC, commonly paired with the LM7812 for split ±12V op-amp audio supplies.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: STMicroelectronics / Texas Instruments / ON Semiconductor
+  ic_part_numbers: [LM7912, L7912CV, LM7912CT, MC7912]
+  package: TO-220AB (3-pin through-hole) / D2PAK
+  regulator_type: Fixed Negative Linear Voltage Regulator
+  output_voltage_v: -12.0
+  output_voltage_tolerance_pct: 4.0
+  input_voltage_v_min: -14.5
+  input_voltage_v_max: -35.0
+  dropout_voltage_v: 1.4
+  output_current_a_max: 1.5
+  quiescent_current_ma: 2.0
+  operating_temp_min_c: 0
+  operating_temp_max_c: 125
+  interfaces: [3-Terminal Negative (GND, INPUT, OUTPUT)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - interfaces
+references:
+  - targetId: power.regulator.lm7812
+    relation: companion-to
+  - targetId: power.regulator.lm7905
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/l79.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-management/l79.html" }

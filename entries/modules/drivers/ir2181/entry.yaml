@@ -1,0 +1,47 @@
+id: driver.gate.ir2181
+revision: "1.0"
+title: IR2181 — High-Voltage 600V 1.9A/2.3A High and Low-Side Gate Driver IC
+category: drivers/mosfet
+tags: [ir2181, ir2181pbf, ir2181s, ir21814, irs2181, gate-driver, mosfet-driver, igbt, high-side, low-side, 600v, half-bridge, infineon, international-rectifier, dip-8, soic-8]
+status: published
+summary: >-
+  Infineon / International Rectifier 600V high-voltage, high-speed half-bridge gate driver IC delivering 1.9A source and 2.3A sink peak output current in a compact 8-pin package with matched propagation delays.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Infineon Technologies / International Rectifier
+  ic_part_numbers: [IR2181, IR2181PBF, IR2181S, IR2181STRPBF, IRS2181PBF, IR21814]
+  package: 8-pin PDIP / 8-pin SOIC / 14-pin PDIP (IR21814)
+  driver_type: High and Low Side Half-Bridge Gate Driver IC
+  high_side_floating_voltage_max_v: 600.0
+  gate_supply_voltage_min_v: 10.0
+  gate_supply_voltage_max_v: 20.0
+  peak_source_current_a: 1.9
+  peak_sink_current_a: 2.3
+  turn_on_delay_ns: 180
+  turn_off_delay_ns: 220
+  matched_delay_ns: 40
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [High-Side Input (HIN), Low-Side Input (LIN), High-Side Gate Drive (HO), Low-Side Gate Drive (LO), Bootstrap Supply (VB, VS)]
+highlights:
+  - driver_type
+  - high_side_floating_voltage_max_v
+  - gate_supply_voltage_min_v
+  - gate_supply_voltage_max_v
+  - peak_source_current_a
+  - peak_sink_current_a
+  - turn_on_delay_ns
+  - interfaces
+references:
+  - targetId: driver.gate.ir2103
+    relation: see-also
+  - targetId: driver.gate.ir2110
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/Infineon-IR2181-DS-v01_00-EN.pdf?fileId=5546d462533600a4015355c889a71699" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/gate-driver-ics/ir2181/" }

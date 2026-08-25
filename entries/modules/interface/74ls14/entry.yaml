@@ -1,0 +1,45 @@
+id: interface.logic.74ls14
+revision: "1.0"
+title: 74LS14 — Hex Schmitt-Trigger Inverter (Low-Power Schottky TTL)
+category: interface/logic
+tags: [74ls14, sn74ls14, inverter, schmitt-trigger, hex-inverter, debounce, pulse-shaper, oscillator, ttl, low-power-schottky, bipolar, retrocomputing, dip-14]
+status: published
+summary: >-
+  Classic Low-Power Schottky TTL (LS-TTL) bipolar IC containing six independent inverting gates with Schmitt-trigger inputs (0.8V typical hysteresis), used for noise rejection, button debouncing, and RC pulse oscillators in vintage computing and digital hardware.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Texas Instruments / Fairchild / ON Semiconductor
+  ic_part_numbers: [74LS14, SN74LS14N, DM74LS14N, HD74LS14P]
+  package: 14-pin DIP / SOIC-14
+  logic_family: Low-Power Schottky TTL (LS-TTL)
+  supply_voltage_min_v: 4.75
+  supply_voltage_max_v: 5.25
+  operating_voltage_v: 5.0
+  inverters_count: 6 (Hex Schmitt-Trigger Inverter)
+  positive_threshold_v: 1.6
+  negative_threshold_v: 0.8
+  hysteresis_voltage_v: 0.8
+  propagation_delay_ns: 15
+  output_sink_current_ma: 16.0
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [6x Independent Schmitt-Trigger NOT Gates (1A->1Y, 2A->2Y, 3A->3Y, 4A->4Y, 5A->5Y, 6A->6Y)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - inverters_count
+  - hysteresis_voltage_v
+  - propagation_delay_ns
+  - output_sink_current_ma
+  - interfaces
+references:
+  - targetId: interface.logic.74hc14
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74ls14.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74LS14" }

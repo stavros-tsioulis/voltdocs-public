@@ -1,0 +1,45 @@
+id: driver.gate.ir2104
+revision: "1.0"
+title: IR2104 — High and Low Side Half-Bridge Gate Driver IC
+category: drivers/mosfet
+tags: [ir2104, ir2104pbf, ir2104s, irs2104, gate-driver, half-bridge, mosfet-driver, igbt, bootstrap, high-side, low-side, 600v, infineon, international-rectifier, dip-8, soic-8]
+status: published
+summary: >-
+  Infineon / International Rectifier high-voltage (600V), high-speed half-bridge power MOSFET and IGBT gate driver IC with single logic input, active-LOW shutdown (~SD~), matched propagation delays, and 520ns internal deadtime.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: Infineon Technologies / International Rectifier
+  ic_part_numbers: [IR2104, IR2104PBF, IR2104S, IR2104STRPBF, IRS2104PBF]
+  package: DIP-8 / SOIC-8 (SO-8)
+  driver_type: High and Low Side Half-Bridge Gate Driver IC
+  high_side_floating_voltage_max_v: 600.0
+  gate_supply_voltage_min_v: 10.0
+  gate_supply_voltage_max_v: 20.0
+  peak_source_current_ma: 130
+  peak_sink_current_ma: 270
+  internal_deadtime_ns: 520
+  turn_on_delay_ns: 680
+  turn_off_delay_ns: 150
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Logic Input (IN), Active-LOW Shutdown (~SD~), High-Side Gate Drive (HO), Low-Side Gate Drive (LO), Bootstrap Supply (VB, VS)]
+highlights:
+  - driver_type
+  - high_side_floating_voltage_max_v
+  - gate_supply_voltage_min_v
+  - gate_supply_voltage_max_v
+  - peak_source_current_ma
+  - peak_sink_current_ma
+  - internal_deadtime_ns
+  - interfaces
+references:
+  - targetId: driver.gate.ir2103
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/Infineon-IR2104-DS-v01_00-EN.pdf?fileId=5546d462533600a4015355c7b41d1672" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/gate-driver-ics/ir2104/" }

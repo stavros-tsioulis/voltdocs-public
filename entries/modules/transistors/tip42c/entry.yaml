@@ -1,0 +1,49 @@
+id: transistor.bjt.tip42c
+revision: "1.0"
+title: TIP42C — -100V -6A Silicon Power PNP BJT (TO-220)
+category: transistors/bjt
+tags: [tip42c, tip42, tip42a, tip42b, pnp, bjt, power-transistor, "-100v", "-6a", 65w, to-220, stmicroelectronics, onsemi, audio-amp, motor-driver, BCE]
+status: published
+summary: >-
+  STMicroelectronics / onsemi -100V -6A 65W silicon power PNP BJT in a TO-220 package, serving as the official complementary PNP partner to the TIP41C for discrete audio amplifiers and power supply series-pass stages.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: STMicroelectronics / ON Semiconductor / Texas Instruments
+  ic_part_numbers: [TIP42C, TIP42CG, TIP42CTU]
+  package: TO-220AB (3-pin through-hole)
+  transistor_type: Silicon Power PNP BJT
+  collector_emitter_voltage_vceo_v: -100
+  collector_base_voltage_vcbo_v: -100
+  emitter_base_voltage_vebo_v: -5.0
+  continuous_collector_current_ic_a: -6.0
+  pulsed_collector_current_ic_a: -10.0
+  base_current_ib_a: -2.0
+  dc_current_gain_hfe: 15 to 75 (at IC = -3.0A, VCE = -4.0V)
+  collector_saturation_voltage_vce_sat_v: -1.5 (at IC = -6.0A, IB = -600mA)
+  total_power_dissipation_w: 65.0
+  transition_frequency_ft_mhz: 3.0
+  pinout_order: "B-C-E (1: Base, 2: Collector, 3: Emitter)"
+  operating_temp_min_c: -65
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_a
+  - dc_current_gain_hfe
+  - collector_saturation_voltage_vce_sat_v
+  - total_power_dissipation_w
+  - interfaces
+references:
+  - targetId: transistor.bjt.tip41c
+    relation: companion-to
+  - targetId: transistor.bjt.mje2955t
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/tip42c.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-transistors/tip42c.html" }

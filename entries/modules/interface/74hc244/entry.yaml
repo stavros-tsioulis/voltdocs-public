@@ -1,0 +1,45 @@
+id: interface.buffer.74hc244
+revision: "1.0"
+title: 74HC244 — Octal Non-Inverting Buffer / Line Driver with 3-State Outputs
+category: interface/buffer
+tags: [74hc244, 74hct244, sn74hc244, buffer, line-driver, octal-buffer, 3-state, bus-driver, texas-instruments, nexperia, dip-20]
+status: published
+summary: >-
+  High-speed CMOS octal non-inverting buffer / line driver IC with 3-state outputs and dual active-LOW enables (1OE, 2OE) in a 20-pin DIP package, widely used for bus driving, level shifting, and memory interfaces.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Texas Instruments / Nexperia / onsemi
+  ic_part_numbers: [SN74HC244N, 74HC244D, SN74HCT244N, CD74HC244E]
+  package: 20-pin DIP (DIP-20 / PDIP-20) / 20-pin SOIC / TSSOP-20
+  logic_family: High-Speed CMOS (74HC) / TTL-Compatible CMOS (74HCT)
+  function: Octal Non-Inverting Buffer / Line Driver (3-State)
+  bus_width_bits: 8 (Two 4-Bit Non-Inverting Groups)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  propagation_delay_ns: 9 (at 5V)
+  output_drive_current_ma: 6 (15 LSTTL Loads)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [8 Non-Inverting Channels (1A1-1Y1 ... 2A4-2Y4), Dual Active-LOW Enables (1OE, 2OE)]
+highlights:
+  - logic_family
+  - function
+  - bus_width_bits
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+references:
+  - targetId: interface.buffer.74hc240
+    relation: companion-to
+  - targetId: interface.buffer.74hc541
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc244.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC244" }

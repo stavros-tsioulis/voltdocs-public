@@ -1,0 +1,47 @@
+id: transistor.jfet.j201
+revision: "1.0"
+title: J201 — Ultra-Low-Noise Small-Signal N-Channel JFET (Audio / Guitar Preamp)
+category: transistors/jfet
+tags: [j201, mmbfj201, jfet, n-channel, audio, guitar-pedal, preamp, low-noise, to-92, sot-23, interfet, fairchild, linear-systems]
+status: published
+summary: >-
+  Ultra-low-noise small-signal N-channel depletion-mode JFET in a TO-92 / SOT-23 package, celebrated for vacuum-tube emulation in guitar overdrive pedals, high-impedance audio buffers, and microphone capsules.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: InterFET / Linear Integrated Systems / Fairchild / Siliconix
+  ic_part_numbers: [J201, MMBFJ201, J202, J203]
+  package: TO-92 (through-hole) / SOT-23 (MMBFJ201)
+  transistor_type: N-Channel Depletion-Mode Junction Field-Effect Transistor (JFET)
+  drain_source_voltage_vds_max_v: 40
+  gate_source_cutoff_voltage_vgs_off_min_v: -0.3
+  gate_source_cutoff_voltage_vgs_off_max_v: -1.5
+  zero_gate_voltage_drain_current_idss_min_ma: 0.2
+  zero_gate_voltage_drain_current_idss_max_ma: 1.0
+  forward_transconductance_gfs_us: 1000
+  noise_voltage_nv_hz: 13
+  total_power_dissipation_mw: 350
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [3-Terminal JFET (Drain, Source, Gate)]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vds_max_v
+  - gate_source_cutoff_voltage_vgs_off_min_v
+  - gate_source_cutoff_voltage_vgs_off_max_v
+  - zero_gate_voltage_drain_current_idss_min_ma
+  - zero_gate_voltage_drain_current_idss_max_ma
+  - noise_voltage_nv_hz
+  - interfaces
+references:
+  - targetId: transistor.mosfet.2n7000
+    relation: see-also
+  - targetId: analog.opamp.tl072
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.interfet.com/wp-content/uploads/2021/05/J201-J202-J203-MMBFJ201-MMBFJ202-MMBFJ203-InterFET.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.interfet.com/jfet-datasheets/j201-jfet/" }

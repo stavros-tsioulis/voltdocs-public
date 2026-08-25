@@ -1,0 +1,49 @@
+id: mcu.wch.ch552g
+revision: "1.0"
+title: CH552G — Enhanced 8-Bit 8051 Microcontroller with Native USB 2.0 Full-Speed
+category: mcu/wch
+tags: [ch552g, ch552, 8051, wch, usb, native-usb, hid, macro-pad, capacitive-touch, low-cost, sop-16, arduino]
+status: published
+summary: >-
+  WCH ultra-low-cost enhanced 8-bit E8051-core microcontroller running at 24MHz with integrated USB 2.0 Full-Speed device/host controller, 16KB Flash, capacitive touch keys, and native USB bootloader in an SOP-16 package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: WCH (Nanjing Qinheng Microelectronics)
+  ic_part_numbers: [CH552G, CH552T, CH552E, CH551G, CH554G]
+  package: SOP-16 (CH552G) / TSSOP-20 (CH552T) / MSOP-10 (CH552E)
+  core: Enhanced E8051 (1T Single-Clock Cycle)
+  max_clock_speed_mhz: 24
+  flash_memory_kb: 16 (14KB user code + 2KB pre-programmed USB ISP bootloader)
+  sram_memory_bytes: 1280 (256B internal RAM + 1024B on-chip xRAM)
+  data_flash_bytes: 128 (EEPROM emulation)
+  operating_voltage_min_v: 2.8
+  operating_voltage_max_v: 5.0
+  gpio_count: 14 (SOP-16)
+  adc_channels: 4 (8-bit resolution)
+  touch_key_channels: 6
+  timers: 3 (16-bit timers/counters + 2-channel PWM)
+  interfaces: [USB 2.0 Full-Speed (Device/Host), 2x UART, 1x SPI]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.avr.atmega32u4
+    relation: see-also
+  - targetId: mcu.arm.stm32f103c8t6
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.wch-ic.com/downloads/CH552DS1_PDF.html" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.wch-ic.com/products/CH552.html" }

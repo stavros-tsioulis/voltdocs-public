@@ -1,0 +1,46 @@
+id: power.ldo.mic29302wu
+revision: "1.0"
+title: MIC29302WU — 3A High-Current Ultra-Low Dropout (LDO) Adjustable Regulator
+category: power/regulator
+tags: [mic29302, mic29302wu, ldo, regulator, linear, adjustable, "3a", to-263, d2pak, microchip, micrel, low-dropout]
+status: published
+summary: >-
+  Microchip / Micrel 3A high-current ultra-low dropout (LDO) adjustable linear voltage regulator (370mV dropout at 3A) in a TO-263-5 (D2PAK) package, featuring logic-level enable shutdown, full fault protection, and adjustable output from 1.24V to 26V.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology / Micrel
+  ic_part_numbers: [MIC29302WU, MIC29302WT, MIC29302WD, MIC29300]
+  package: TO-263-5 (5-pin D2PAK SMD) / TO-220-5
+  regulator_type: High-Current Low-Dropout (LDO) Linear Regulator
+  output_voltage_v_min: 1.24
+  output_voltage_v_max: 26.0
+  input_voltage_v_min: 2.0
+  input_voltage_v_max: 26.0
+  dropout_voltage_v: 0.37
+  output_current_a_max: 3.0
+  quiescent_current_ma: 15.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [5-Terminal (ENABLE, INPUT, GND/Tab, OUTPUT, ADJUST)]
+highlights:
+  - regulator_type
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - interfaces
+references:
+  - targetId: power.regulator.lm317
+    relation: see-also
+  - targetId: power.ldo.lt1963a-3.3
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC29150-29300-29500-29750-High-Current-LDO-Regulator-DS20006509A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/MIC29302" }

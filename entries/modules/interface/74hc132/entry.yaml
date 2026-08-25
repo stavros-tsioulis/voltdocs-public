@@ -1,0 +1,45 @@
+id: interface.logic.74hc132
+revision: "1.0"
+title: 74HC132 — Quad 2-Input Schmitt-Trigger NAND Gate
+category: interface/logic
+tags: [74hc132, sn74hc132, nand-gate, schmitt-trigger, logic-gate, quad-nand, debounce, gated-oscillator, cmos, texas-instruments, nexperia, dip-14]
+status: published
+summary: >-
+  High-speed CMOS IC containing four independent 2-input NAND logic gates with Schmitt-trigger action on all inputs, enabling noise-free pulse shaping, gated oscillators, and switch debouncing.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC132, SN74HC132N, 74HC132D, 74HCT132]
+  package: 14-pin DIP / SOIC-14 / TSSOP-14
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  gates_count: 4 (Quad 2-Input Schmitt NAND)
+  hysteresis_voltage_v: 0.7
+  propagation_delay_ns: 11
+  output_drive_current_ma: 5.2
+  quiescent_current_ua: 2.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [4x Independent Schmitt-Trigger NAND Gates (1A/1B->1Y, 2A/2B->2Y, 3A/3B->3Y, 4A/4B->4Y)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - gates_count
+  - hysteresis_voltage_v
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+references:
+  - targetId: interface.logic.74hc00
+    relation: variant-of
+  - targetId: interface.logic.cd4093
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc132.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC132" }

@@ -1,0 +1,50 @@
+id: module.wireless.esp-12e
+revision: "1.0"
+title: ESP-12E — 2.4GHz Wi-Fi IoT Module (ESP8266EX with 4MB Flash)
+category: wireless/wifi
+tags: [esp-12e, esp-12, esp-12f, esp8266, espressif, ai-thinker, wifi, iot, smd, nodemcu, wemos]
+status: published
+summary: >-
+  AI-Thinker / Espressif 2.4GHz 802.11 b/g/n Wi-Fi IoT module integrating an ESP8266EX 32-bit Tensilica L106 MCU running at 80MHz/160MHz, 4MB SPI Flash, and PCB antenna in a 22-pin castellated SMD form factor.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: AI-Thinker / Espressif Systems
+  ic_part_numbers: [ESP-12E, ESP-12F, ESP-12S]
+  package: 22-pin Castellated SMD Module (24.0 x 16.0 x 3.0 mm)
+  core: 32-bit Tensilica Xtensa L106 Diamond RISC
+  max_clock_speed_mhz: 160 (80MHz default)
+  flash_memory_kb: 4096 (4MB / 32Mbit SPI Flash)
+  sram_memory_kb: 80 (User RAM) + 32 (Instruction RAM)
+  operating_voltage_min_v: 3.0
+  operating_voltage_max_v: 3.6
+  gpio_count: 11
+  adc_channels: 1 (10-bit resolution, 0.0V to 1.0V input range)
+  wifi_standard: 802.11 b/g/n (2.4 GHz)
+  tx_power_dbm: 19.5 (802.11b)
+  peak_current_ma: 170
+  quiescent_current_ua: 20 (Deep Sleep Mode)
+  interfaces: [UART, SPI, I2C, PWM, 10-bit ADC, GPIO]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - wifi_standard
+  - interfaces
+references:
+  - targetId: module.wireless.esp8266
+    relation: variant-of
+  - targetId: module.wireless.esp32-wroom-32
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://docs.ai-thinker.com/_media/esp8266/docs/esp-12e_user_manual_en.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.espressif.com/en/products/socs/esp8266" }

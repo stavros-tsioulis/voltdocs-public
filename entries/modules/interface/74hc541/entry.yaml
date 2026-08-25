@@ -1,0 +1,45 @@
+id: interface.buffer.74hc541
+revision: "1.0"
+title: 74HC541 — Octal Non-Inverting 3-State Buffer (Flow-Through Pinout)
+category: interface/buffer
+tags: [74hc541, 74hct541, sn74hc541, buffer, line-driver, octal-buffer, flow-through, 3-state, bus-driver, texas-instruments, nexperia, dip-20]
+status: published
+summary: >-
+  High-speed CMOS octal non-inverting 3-state buffer / line driver IC with flow-through pinout (inputs on pins 2-9, outputs on pins 11-18) and dual gated active-LOW enables for clean PCB bus routing.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Texas Instruments / Nexperia / onsemi
+  ic_part_numbers: [SN74HC541N, 74HC541D, SN74HCT541N, CD74HC541E]
+  package: 20-pin DIP (DIP-20 / PDIP-20) / 20-pin SOIC / TSSOP-20
+  logic_family: High-Speed CMOS (74HC) / TTL-Compatible CMOS (74HCT)
+  function: Octal Non-Inverting Buffer / Line Driver (Flow-Through Pinout)
+  bus_width_bits: 8 (Full 8-Bit Flow-Through Bus)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  propagation_delay_ns: 10 (at 5V)
+  output_drive_current_ma: 6 (15 LSTTL Loads)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [8-Bit Flow-Through Bus (A0-A7 -> Y0-Y7), Dual Active-LOW Gated Enables (OE1, OE2)]
+highlights:
+  - logic_family
+  - function
+  - bus_width_bits
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+references:
+  - targetId: interface.buffer.74hc244
+    relation: see-also
+  - targetId: interface.bus.74hc245
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc541.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC541" }

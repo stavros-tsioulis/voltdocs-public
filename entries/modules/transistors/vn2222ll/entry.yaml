@@ -1,0 +1,48 @@
+id: transistor.mosfet.vn2222ll
+revision: "1.0"
+title: VN2222LL — 60V 230mA Small-Signal N-Channel MOSFET (TO-92)
+category: transistors/mosfet
+tags: [vn2222ll, vn2222, mosfet, n-channel, small-signal, 60v, 230ma, to-92, logic-level, microchip, supertex, siliconix, 2n7000-alternative]
+status: published
+summary: >-
+  Microchip (Supertex) / Siliconix 60V 230mA small-signal N-channel DMOS FET in a TO-92 package, serving as an ultra-fast sub-10ns logic-level switching alternative to the 2N7000.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology (Supertex) / Siliconix / Diodes Inc
+  ic_part_numbers: [VN2222LL, VN2222LL-G, VN2222]
+  package: TO-92 (3-pin through-hole)
+  transistor_type: Small-Signal N-Channel Enhancement-Mode MOSFET
+  drain_source_voltage_vdss_v: 60
+  continuous_drain_current_id_ma: 230
+  pulsed_drain_current_id_a: 1.0
+  gate_threshold_voltage_vgs_th_min_v: 0.6
+  gate_threshold_voltage_vgs_th_max_v: 2.4
+  rds_on_vgs_10v_ohm: 7.5
+  rds_on_vgs_4.5v_ohm: 10.0
+  total_power_dissipation_w: 1.0
+  turn_on_delay_ns: 10
+  pinout_order: "S-G-D (1: Source, 2: Gate, 3: Drain)"
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Gate-Source Logic Drive (3.3V and 5V Compatible)]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_ma
+  - gate_threshold_voltage_vgs_th_min_v
+  - gate_threshold_voltage_vgs_th_max_v
+  - rds_on_vgs_10v_ohm
+  - interfaces
+references:
+  - targetId: transistor.mosfet.2n7000
+    relation: see-also
+  - targetId: transistor.bjt.2n2222
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/VN2222LL-N-Channel-Enhancement-Mode-Vertical-DMOS-FET-Data-Sheet-20005728A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/VN2222LL" }

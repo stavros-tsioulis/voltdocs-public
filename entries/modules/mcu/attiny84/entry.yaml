@@ -1,0 +1,49 @@
+id: mcu.avr.attiny84
+revision: "1.0"
+title: ATtiny84 — 14-Pin 8-Bit AVR Microcontroller with 8KB Flash (DIP-14)
+category: mcu/avr
+tags: [attiny84, attiny84a, attiny44, attiny24, avr, microchip, atmel, 8-bit, dip-14, 16-bit-timer, adc, attinycore]
+status: published
+summary: >-
+  Microchip (Atmel) 14-pin 8-bit AVR RISC microcontroller with 8KB Flash, 512B SRAM, 512B EEPROM, 8-channel 10-bit ADC, 16-bit timer, and 12 GPIO lines in a compact DIP-14 package.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology / Atmel
+  ic_part_numbers: [ATtiny84A-PU, ATtiny84-20PU, ATtiny84A-SSU, ATtiny84A-MMH]
+  package: 14-pin DIP (DIP-14 / PDIP-14) / 14-pin SOIC / 20-pin QFN
+  core: 8-bit AVR RISC
+  max_clock_speed_mhz: 20 (8MHz internal RC)
+  flash_memory_kb: 8
+  sram_memory_bytes: 512
+  eeprom_memory_bytes: 512
+  operating_voltage_min_v: 1.8
+  operating_voltage_max_v: 5.5
+  gpio_count: 12 (PA0 to PA7, PB0 to PB3)
+  pwm_channels: 4 (Timer0 and Timer1)
+  adc_channels: 8 (10-bit resolution with 20x differential gain)
+  timers: 2 (1x 8-bit Timer0 + 1x 16-bit Timer1)
+  interfaces: [USI (SPI/I2C), ISP (SPI), Analog Comparator]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_kb
+  - sram_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.avr.attiny85
+    relation: variant-of
+  - targetId: mcu.avr.atmega328p
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny24A-44A-84A-DataSheet-DS40002269A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/ATtiny84A" }

@@ -1,0 +1,49 @@
+id: mcu.avr.attiny13a
+revision: "1.0"
+title: ATtiny13A — Ultra-Low-Cost 8-Bit AVR Microcontroller with 1KB Flash (DIP-8)
+category: mcu/avr
+tags: [attiny13a, attiny13, avr, microchip, atmel, 8-bit, dip-8, ultra-low-cost, picopower, microcore, flashlight-driver]
+status: published
+summary: >-
+  Microchip (Atmel) ultra-compact 8-bit AVR RISC microcontroller with 1KB Flash, 64B SRAM, 64B EEPROM, 4-channel 10-bit ADC, and dual PWM channels in an 8-pin DIP package, widely used in flashlight drivers and minimal blinky circuits.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology / Atmel
+  ic_part_numbers: [ATtiny13A-PU, ATtiny13A-SU, ATtiny13A-SSU, ATtiny13A-MU]
+  package: 8-pin DIP (DIP-8) / 8-pin SOIC / 10-pin QFN
+  core: 8-bit AVR RISC
+  max_clock_speed_mhz: 20 (9.6MHz internal RC)
+  flash_memory_bytes: 1024 (1KB)
+  sram_memory_bytes: 64
+  eeprom_memory_bytes: 64
+  operating_voltage_min_v: 1.8
+  operating_voltage_max_v: 5.5
+  gpio_count: 6 (PB0 to PB5)
+  pwm_channels: 2
+  adc_channels: 4 (10-bit resolution)
+  interfaces: [ISP (SPI), Analog Comparator]
+  quiescent_current_ua: 0.1 (Power-Down Mode at 1.8V)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_bytes
+  - sram_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.avr.attiny85
+    relation: variant-of
+  - targetId: mcu.avr.atmega328p
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny13A-Data-Sheet-DS40002307A.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/ATtiny13A" }

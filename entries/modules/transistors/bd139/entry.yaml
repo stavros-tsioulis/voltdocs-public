@@ -1,0 +1,49 @@
+id: transistor.bjt.bd139
+revision: "1.0"
+title: BD139 — 80V 1.5A Medium-Power NPN Bipolar Junction Transistor (TO-126)
+category: transistors/bjt
+tags: [bd139, bd139-10, bd139-16, npn, bjt, transistor, medium-power, 80v, 1.5a, to-126, sot-32, stmicroelectronics, onsemi, audio-amplifier, headphone-amp, vbe-multiplier, ECB]
+status: published
+summary: >-
+  STMicroelectronics / onsemi 80V 1.5A medium-power complementary NPN BJT in a TO-126 package, legendary in DIY audio amplifier driver stages, headphone amplifiers, and Vbe multiplier bias networks.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: STMicroelectronics / onsemi / NXP
+  ic_part_numbers: [BD139, BD139-10, BD139-16, BD139G]
+  package: SOT-32 / TO-126 (3-pin through-hole with mounting hole)
+  transistor_type: Medium-Power Complementary NPN BJT
+  collector_emitter_voltage_vceo_v: 80
+  collector_base_voltage_vcbo_v: 80
+  emitter_base_voltage_vebo_v: 5.0
+  continuous_collector_current_ic_a: 1.5
+  pulsed_collector_current_ic_a: 3.0
+  dc_current_gain_hfe_min: 40 (at IC = 150mA, VCE = 2.0V)
+  dc_current_gain_hfe_max: 250
+  transition_frequency_ft_mhz: 190
+  total_power_dissipation_w: 12.5 (with heatsink) / 1.25 (free air)
+  pinout_order: "E-C-B (1: Emitter, 2: Collector, 3: Base)"
+  operating_temp_min_c: -55
+  operating_temp_max_c: 150
+  interfaces: [Current-Driven Base Junction]
+highlights:
+  - transistor_type
+  - collector_emitter_voltage_vceo_v
+  - continuous_collector_current_ic_a
+  - dc_current_gain_hfe_min
+  - dc_current_gain_hfe_max
+  - transition_frequency_ft_mhz
+  - total_power_dissipation_w
+  - interfaces
+references:
+  - targetId: transistor.bjt.bd135
+    relation: see-also
+  - targetId: transistor.bjt.tip31c
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/bd139.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-transistors/bd139.html" }

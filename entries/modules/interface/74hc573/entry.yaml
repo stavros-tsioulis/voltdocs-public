@@ -1,0 +1,41 @@
+id: interface.logic.74hc573
+revision: "1.0"
+title: 74HC573 — Octal D-Type Transparent Latch with 3-State Outputs and Flow-Through Pinout
+category: interface/logic
+tags: [74hc573, sn74hc573, latch, transparent-latch, octal-latch, 3-state, flow-through, bus-interface, cmos, texas-instruments, nexperia, dip-20]
+status: published
+summary: >-
+  High-speed CMOS 8-bit D-type transparent latch IC featuring a clean flow-through bus architecture (inputs on one side, outputs on the opposite side) with active-high Latch Enable (LE) and active-low 3-state Output Enable (~OE~).
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC573, SN74HC573N, 74HC573D, 74HCT573]
+  package: 20-pin DIP / SOIC-20 / TSSOP-20 / SSOP-20
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  bus_width_bits: 8
+  propagation_delay_ns: 14
+  output_drive_current_ma: 7.8
+  quiescent_current_ua: 8.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [8 Data Inputs (D0-D7), 8 3-State Latch Outputs (Q0-Q7), LE, ~OE~]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - bus_width_bits
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+references:
+  - targetId: interface.logic.74hc373
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc573.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC573" }

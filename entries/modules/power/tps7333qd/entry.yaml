@@ -1,0 +1,46 @@
+id: power.ldo.tps7333qd
+revision: "1.0"
+title: TPS7333QD — 500mA Fixed 3.3V Micropower Low-Dropout Regulator with Integrated Power-On Reset
+category: power/ldo
+tags: [tps7333, tps7333qd, tps7333q, ldo, regulator, linear, 3.3v, reset, supervisor, micropower, soic-8, texas-instruments, power]
+status: published
+summary: >-
+  Texas Instruments 500mA micropower fixed +3.3V low-dropout (LDO) linear regulator featuring an integrated 200ms delayed power-on reset supervisor and active-high enable in an 8-pin SOIC package.
+updatedAt: "2026-08-23"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TPS7333QD, TPS7333QDR, TPS7333QP, TPS7333Q]
+  package: 8-pin SOIC (D) / 8-pin PDIP (P)
+  regulator_type: Micropower Low-Dropout (LDO) Regulator with Integrated Supervisor
+  output_voltage_v: 3.3
+  output_voltage_accuracy_pct: 2.0
+  input_voltage_v_min: 3.77
+  input_voltage_v_max: 10.0
+  dropout_voltage_mv: 300
+  output_current_a_max: 0.5
+  quiescent_current_ua: 340
+  reset_delay_ms: 200
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [DC Input (IN), Ground (GND), Active-High Enable (EN), Active-Low Reset (~RESET~), Sense (SENSE), Regulated Output (OUT)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_mv
+  - output_current_a_max
+  - reset_delay_ms
+  - quiescent_current_ua
+  - interfaces
+references:
+  - targetId: power.ldo.mic5219-3.3
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tps7333.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TPS7333" }

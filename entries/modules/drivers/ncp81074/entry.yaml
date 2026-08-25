@@ -1,0 +1,41 @@
+id: driver.gate.ncp81074
+revision: "1.0"
+title: NCP81074 — Single-Channel High-Speed 10A Low-Side MOSFET Gate Driver
+category: drivers/mosfet
+tags: [ncp81074, ncp81074a, ncp81074b, gate-driver, mosfet-driver, low-side, 10a, high-speed, synchronous-rectifier, smps, onsemi, soic-8, dfn8]
+status: published
+summary: >-
+  ON Semiconductor (onsemi) ultra-high-speed ±10A peak sink/source low-side MOSFET gate driver IC (4.5V to 20V supply, 4ns rise/fall times) for high-efficiency synchronous DC-DC converters, motor drives, and server power supplies.
+updatedAt: "2026-08-14"
+fields:
+  manufacturer: ON Semiconductor
+  ic_part_numbers: [NCP81074, NCP81074ADR2G, NCP81074BDR2G, NCP81074AMNTBG, NCP81074BMNTBG]
+  package: SOIC-8 / WDFN8 (2x2mm)
+  driver_type: Single-Channel High-Speed Low-Side MOSFET Gate Driver
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 20.0
+  peak_source_current_a: 10.0
+  peak_sink_current_a: 10.0
+  rise_time_ns: 4.0
+  fall_time_ns: 4.0
+  propagation_delay_ns: 15.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 140
+  interfaces: [Dual Inputs (IN+, IN-) or (EN, IN), Split Outputs (OUTH, OUTL) or Single (OUT)]
+highlights:
+  - driver_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - peak_source_current_a
+  - peak_sink_current_a
+  - rise_time_ns
+  - fall_time_ns
+  - interfaces
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/ncp81074-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/power-management/gate-drivers/ncp81074" }

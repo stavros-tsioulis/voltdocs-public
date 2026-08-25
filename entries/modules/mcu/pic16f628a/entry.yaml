@@ -1,0 +1,49 @@
+id: mcu.pic.pic16f628a
+revision: "1.0"
+title: PIC16F628A — 18-Pin 8-Bit Flash Microcontroller with Hardware USART (DIP-18)
+category: mcu/pic
+tags: [pic16f628a, pic16f628, pic, microchip, 8-bit, dip-18, hardware-usart, nanowatt, comparators, pwm]
+status: published
+summary: >-
+  Microchip 18-pin 8-bit Flash RISC microcontroller with 2K words (3.5KB) Flash, 224B RAM, 128B EEPROM, addressable hardware USART, dual analog comparators, and internal 4MHz oscillator, modernizing the PIC16F84A.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [PIC16F628A-I/P, PIC16F628A-E/P, PIC16F628A-I/SO, PIC16F628A-I/SS]
+  package: 18-pin DIP (DIP-18 / PDIP-18) / 18-pin SOIC / 20-pin SSOP
+  core: 8-bit PIC RISC (35 instructions)
+  max_clock_speed_mhz: 20 (4MHz internal RC)
+  flash_memory_words: 2048 (3.5 KB, 14-bit words)
+  sram_memory_bytes: 224
+  eeprom_memory_bytes: 128
+  operating_voltage_min_v: 2.0
+  operating_voltage_max_v: 5.5
+  gpio_count: 16 (RA0 to RA7, RB0 to RB7)
+  pwm_channels: 1 (CCP module with 10-bit PWM)
+  timers: 3 (Timer0 8-bit, Timer1 16-bit, Timer2 8-bit)
+  interfaces: [Addressable USART, ICSP, 2x Analog Comparators, 1x CCP]
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+highlights:
+  - core
+  - max_clock_speed_mhz
+  - flash_memory_words
+  - sram_memory_bytes
+  - eeprom_memory_bytes
+  - operating_voltage_min_v
+  - operating_voltage_max_v
+  - gpio_count
+  - interfaces
+references:
+  - targetId: mcu.pic.pic16f84a
+    relation: replaces
+  - targetId: mcu.pic.pic16f877a
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/40044G.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/PIC16F628A" }

@@ -1,0 +1,48 @@
+id: transistor.mosfet.irl540n
+revision: "1.0"
+title: IRL540N — 100V 36A Logic-Level N-Channel Power MOSFET (TO-220)
+category: transistors/mosfet
+tags: [irl540n, irl540npbf, mosfet, n-channel, logic-level, 100v, 36a, to-220, infineon, international-rectifier, power-switch, pwm]
+status: published
+summary: >-
+  Infineon / International Rectifier 100V 36A N-channel logic-level HEXFET power MOSFET in a TO-220AB package, providing low on-resistance (56mΩ at 5V VGS) for direct microcontroller switching of higher-voltage DC loads up to 100V.
+updatedAt: "2026-08-25"
+fields:
+  manufacturer: Infineon Technologies / International Rectifier
+  ic_part_numbers: [IRL540N, IRL540NPBF]
+  package: TO-220AB
+  transistor_type: N-Channel Logic-Level Power MOSFET (HEXFET)
+  drain_source_voltage_vdss_v: 100
+  continuous_drain_current_id_a: 36
+  pulsed_drain_current_id_a: 140
+  gate_threshold_voltage_vgs_th_min_v: 1.0
+  gate_threshold_voltage_vgs_th_max_v: 2.0
+  rds_on_vgs_10v_mohm: 44.0
+  rds_on_vgs_5v_mohm: 56.0
+  rds_on_vgs_4v_mohm: 77.0
+  total_power_dissipation_w: 140
+  gate_charge_total_nc: 48.0
+  operating_temp_min_c: -55
+  operating_temp_max_c: 175
+  interfaces: [3.3V, 4V, and 5V Logic-Level Gate Drive Compatible]
+highlights:
+  - transistor_type
+  - drain_source_voltage_vdss_v
+  - continuous_drain_current_id_a
+  - gate_threshold_voltage_vgs_th_min_v
+  - rds_on_vgs_5v_mohm
+  - rds_on_vgs_10v_mohm
+  - interfaces
+references:
+  - targetId: transistor.mosfet.irf540n
+    relation: variant-of
+  - targetId: transistor.mosfet.irlz44n
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/Infineon-IRL540N-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a401535665471425e4" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/irl540n/" }
