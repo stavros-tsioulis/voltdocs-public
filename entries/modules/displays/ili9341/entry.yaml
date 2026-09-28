@@ -31,6 +31,10 @@ highlights:
   - module_supply_voltage_max_v
   - colors_supported
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 14-pin TFT header with touch
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

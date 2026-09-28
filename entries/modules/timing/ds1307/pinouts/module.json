@@ -1,0 +1,110 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "X1",
+      "type": "other",
+      "direction": "input",
+      "description": "Connect to 32.768 kHz crystal terminal 1."
+    },
+    {
+      "id": "2",
+      "name": "X2",
+      "type": "other",
+      "direction": "output",
+      "description": "Connect to 32.768 kHz crystal terminal 2."
+    },
+    {
+      "id": "3",
+      "name": "VBAT",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.0,
+        "nominal": 3.0,
+        "max": 3.5
+      },
+      "description": "Backup +3 V CR2032 lithium battery input."
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "5",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "level": "5 V logic",
+      "description": "I2C serial data line."
+    },
+    {
+      "id": "6",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input",
+      "level": "5 V logic",
+      "description": "I2C serial clock line."
+    },
+    {
+      "id": "7",
+      "name": "SQW / OUT",
+      "type": "digital",
+      "direction": "output",
+      "drive": "open-drain",
+      "description": "Programmable square-wave output or static output control."
+    },
+    {
+      "id": "8",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.5,
+        "nominal": 5.0,
+        "max": 5.5
+      },
+      "description": "Primary supply voltage input (+4.5 V to +5.5 V DC)."
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    },
+    "label": "DS1307",
+    "minSize": {
+      "width": 6,
+      "height": 5
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "4": "GND",
+        "5": "SDA",
+        "6": "SCL",
+        "8": "5V"
+      }
+    }
+  ]
+}

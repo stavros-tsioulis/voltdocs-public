@@ -18,6 +18,10 @@ Delivering up to $11\text{ kg}\cdot\text{cm}$ of stall torque at 6.0 V, the MG99
 
 ## Terminals & cable wiring
 
+```pinout
+module
+```
+
 The MG996R uses a standard 3-pin 0.1" (2.54 mm) female JR/Futaba connector:
 
 | Pin | Cable Color | Signal | Description |

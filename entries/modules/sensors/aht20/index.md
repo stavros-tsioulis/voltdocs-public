@@ -18,6 +18,10 @@ Providing higher accuracy ($\pm 0.3^\circ\text{C}$ temperature, $\pm 2\%\text{ R
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout modules feature a standard 4-pin 0.1" (2.54 mm) header or Qwiic / STEMMA QT connector:
 
 | Pin | Name | Type | Description |

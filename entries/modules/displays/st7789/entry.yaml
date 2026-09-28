@@ -32,6 +32,10 @@ highlights:
   - colors_supported
   - spi_clock_max_mhz
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 8-pin TFT module header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

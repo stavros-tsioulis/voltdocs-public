@@ -20,6 +20,10 @@ Communicating over $I^2C$, the CCS811 supports environmental temperature and hum
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout modules feature a 7-pin or 8-pin 0.1" (2.54 mm) header:
 
 | Pin | Name | Type | Description |

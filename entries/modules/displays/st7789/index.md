@@ -18,6 +18,10 @@ Popular breakout modules feature square $240 \times 240$ (1.3" / 1.54") or recta
 
 ## Pinout
 
+```pinout
+module
+```
+
 Common 7-pin or 8-pin 0.1" (2.54 mm) breakout module header:
 
 | Pin | Name | Type | Description |

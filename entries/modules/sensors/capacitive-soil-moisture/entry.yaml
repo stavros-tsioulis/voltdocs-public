@@ -26,6 +26,10 @@ highlights:
   - output_type
   - operating_current_ma
 body: index.md
+pinouts:
+  - id: module
+    title: 3-pin sensor header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

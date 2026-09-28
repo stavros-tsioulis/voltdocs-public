@@ -18,6 +18,10 @@ The controller integrates a 132RGB x 162 frame memory buffer, display timing gen
 
 ## Pinout
 
+```pinout
+module
+```
+
 ### Standard 8-Pin 1.8-inch TFT Module Header
 
 | Pin | Name | Type | Description |

@@ -16,6 +16,10 @@ It consists of two exposed copper PCB traces inserted into soil and an LM393 vol
 
 ## Pinout
 
+```pinout
+module
+```
+
 ### Standard Driver PCB (YL-38 Driver Board Header)
 
 | Pin | Name | Type | Description |

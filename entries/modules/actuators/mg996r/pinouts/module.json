@@ -1,0 +1,59 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND (Brown/Black)",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "2",
+      "name": "VCC (Red)",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.8,
+        "nominal": 6.0,
+        "max": 7.2
+      },
+      "description": "Servo motor power supply input (+4.8 V to +7.2 V DC)."
+    },
+    {
+      "id": "3",
+      "name": "PWM (Orange/Yellow)",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Position control pulse-width modulation input signal (50 Hz PWM)."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "label": "MG996R",
+    "minSize": {
+      "width": 5,
+      "height": 4
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "1": "GND",
+        "3": "D9"
+      }
+    }
+  ]
+}

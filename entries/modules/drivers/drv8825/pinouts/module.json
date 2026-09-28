@@ -1,0 +1,175 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "ENABLE",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Active-LOW driver enable pin."
+    },
+    {
+      "id": "2",
+      "name": "M0",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Microstep resolution selection pin 0."
+    },
+    {
+      "id": "3",
+      "name": "M1",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Microstep resolution selection pin 1."
+    },
+    {
+      "id": "4",
+      "name": "M2",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Microstep resolution selection pin 2."
+    },
+    {
+      "id": "5",
+      "name": "RESET",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Active-LOW device reset pin."
+    },
+    {
+      "id": "6",
+      "name": "SLEEP",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Active-LOW sleep mode input."
+    },
+    {
+      "id": "7",
+      "name": "STEP",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Step pulse input pin."
+    },
+    {
+      "id": "8",
+      "name": "DIR",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Direction control pin."
+    },
+    {
+      "id": "9",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Logic and signal ground reference (0 V)."
+    },
+    {
+      "id": "10",
+      "name": "FAULT",
+      "type": "digital",
+      "direction": "output",
+      "drive": "open-drain",
+      "level": "3.3 V / 5 V logic",
+      "description": "Active-LOW fault output (overtemp/overcurrent flag)."
+    },
+    {
+      "id": "11",
+      "name": "A1",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Stepper motor coil A phase 1 output."
+    },
+    {
+      "id": "12",
+      "name": "A2",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Stepper motor coil A phase 2 output."
+    },
+    {
+      "id": "13",
+      "name": "B2",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Stepper motor coil B phase 2 output."
+    },
+    {
+      "id": "14",
+      "name": "B1",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Stepper motor coil B phase 1 output."
+    },
+    {
+      "id": "15",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Motor power supply ground reference."
+    },
+    {
+      "id": "16",
+      "name": "VMOT",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 8.2,
+        "nominal": 24.0,
+        "max": 45.0
+      },
+      "description": "Motor power supply input (+8.2 V to +45.0 V DC)."
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    },
+    "label": "DRV8825",
+    "minSize": {
+      "width": 6,
+      "height": 9
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "7": "D3",
+        "8": "D4",
+        "9": "GND"
+      }
+    }
+  ]
+}

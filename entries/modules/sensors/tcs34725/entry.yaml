@@ -33,6 +33,10 @@ highlights:
   - ir_blocking_filter
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 7-pin breakout header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

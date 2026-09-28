@@ -17,6 +17,10 @@ It is standard equipment in DIY datalogging projects, weather stations, flight r
 
 ## Pinout
 
+```pinout
+module
+```
+
 The module exposes a standard 6-pin 0.1" (2.54 mm) right-angle or straight header:
 
 | Pin | Name | Type | Description |

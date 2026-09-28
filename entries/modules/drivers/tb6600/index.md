@@ -17,6 +17,10 @@ The module features high-speed optocoupler isolation for pulse, direction, and e
 
 ## Terminal blocks & connections
 
+```pinout
+module
+```
+
 The driver module exposes two heavy-duty screw terminal blocks:
 
 ### Power & Motor Terminals (4-pin & 2-pin block)

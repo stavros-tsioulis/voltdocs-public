@@ -1,0 +1,110 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "2",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 5.0,
+        "max": 5.5
+      },
+      "description": "Supply voltage input (+3.3 V to +5.0 V DC)."
+    },
+    {
+      "id": "3",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "SPI clock input line."
+    },
+    {
+      "id": "4",
+      "name": "SDA",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "SPI MOSI data input line."
+    },
+    {
+      "id": "5",
+      "name": "RES",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "Active-LOW hardware reset line."
+    },
+    {
+      "id": "6",
+      "name": "DC",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "Data/Command control pin (LOW = Command, HIGH = Data)."
+    },
+    {
+      "id": "7",
+      "name": "CS",
+      "type": "bus",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "Active-LOW SPI chip select line."
+    },
+    {
+      "id": "8",
+      "name": "BLK",
+      "type": "power",
+      "direction": "power-in",
+      "level": "3.3 V logic",
+      "description": "LED backlight power control (HIGH/3.3V = ON, PWM for dimming)."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "label": "ST7735",
+    "minSize": {
+      "width": 10,
+      "height": 5
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "1": "GND",
+        "2": "5V",
+        "3": "D13",
+        "4": "D11",
+        "5": "D8",
+        "6": "D9",
+        "7": "D10",
+        "8": "3.3V"
+      }
+    }
+  ]
+}

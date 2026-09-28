@@ -31,6 +31,10 @@ highlights:
   - operating_speed_s_60deg
   - weight_g
 body: index.md
+pinouts:
+  - id: module
+    title: 3-pin JR connector
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

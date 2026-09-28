@@ -19,6 +19,10 @@ Equipped with an invisible 940 nm Vertical-Cavity Surface-Emitting Laser (VCSEL)
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 6-pin 0.1" (2.54 mm) breakout module header:
 
 | Pin | Name | Type | Description |

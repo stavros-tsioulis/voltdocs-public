@@ -95,16 +95,16 @@ Candidate parts for future import into `entries/`, ranked by how often they turn
 | `PN532` | NFC/RFID Controller Module | NXP | Tier 2 | Cited 5+ times as a popular versatile NFC module supporting reader/writer and card-emulation modes. | imported | complete |
 | `SH1106` | OLED Display Driver | Sino Wealth | Tier 2 | Cited 2+ times as a common alternative OLED driver, often confused/interchanged with SSD1306. | imported | complete |
 | `PMS5003/PMS7003` | Particulate Matter (PM2.5) Sensor | Plantower | Tier 2 | Cited 3 times (ESPHome pmsx003 component) as the extremely common laser dust sensor for DIY air-quality monitors. | imported | complete |
-| `MAX30102` | Pulse Oximeter/Heart-Rate Sensor | Maxim Integrated/Analog Devices | Tier 2 | Cited 3+ times as the standard recommendation for DIY heart-rate/SpO2 monitoring projects. | imported | pending |
-| `TCS34725` | RGB Color Sensor | ams (TAOS) | Tier 2 | Cited 4 times (Adafruit, ESPHome component) as the standard recommendation for color-sorting/detection projects. | imported | pending |
-| `DS1307` | Real-Time Clock Module | Maxim Integrated/Analog Devices | Tier 2 | Cited 4 times as the classic budget RTC still widely bundled in beginner kits, though less accurate than DS3231. | imported | pending |
-| `YL-69 / FC-28` | Resistive Soil Moisture Sensor | Generic | Tier 2 | Cited 2+ times as the original ubiquitous cheap soil sensor, though guides now warn of corrosion issues. | imported | pending |
-| `MicroSD Card Module` | SPI SD Card Breakout | Generic | Tier 2 | Cited 2+ times as the ubiquitous SPI SD-card adapter used in nearly every datalogging project. | imported | pending |
-| `Capacitive Soil Moisture Sensor (v1.2/v2.0)` | Soil Moisture Sensor | Generic (DFRobot/clone) | Tier 2 | Cited 2+ times as the corrosion-resistant recommended replacement for resistive soil sensors. | imported | pending |
- | `MG996R` | Standard Servo Motor | TowerPro | Tier 2 | Cited 3 times as a common higher-torque servo used in robot arm and RC hobby projects. | imported | pending |
- | `DRV8825` | Stepper Motor Driver | Texas Instruments | Tier 2 | Cited 3 times as the higher-current alternative to A4988 in 3D-printer/CNC hobby builds. | imported | pending |
- | `TB6600` | Stepper Motor Driver | Toshiba (module form) | Tier 2 | Cited 2 times as a common higher-power external stepper driver module for CNC/robotics. | imported | pending |
- | `ST7735` | TFT Display Driver | Sitronix | Tier 2 | Cited as a common small color TFT display driver used in Arduino UI projects. | imported | pending |
+| `MAX30102` | Pulse Oximeter/Heart-Rate Sensor | Maxim Integrated/Analog Devices | Tier 2 | Cited 3+ times as the standard recommendation for DIY heart-rate/SpO2 monitoring projects. | imported | complete |
+| `TCS34725` | RGB Color Sensor | ams (TAOS) | Tier 2 | Cited 4 times (Adafruit, ESPHome component) as the standard recommendation for color-sorting/detection projects. | imported | complete |
+| `DS1307` | Real-Time Clock Module | Maxim Integrated/Analog Devices | Tier 2 | Cited 4 times as the classic budget RTC still widely bundled in beginner kits, though less accurate than DS3231. | imported | complete |
+| `YL-69 / FC-28` | Resistive Soil Moisture Sensor | Generic | Tier 2 | Cited 2+ times as the original ubiquitous cheap soil sensor, though guides now warn of corrosion issues. | imported | complete |
+| `MicroSD Card Module` | SPI SD Card Breakout | Generic | Tier 2 | Cited 2+ times as the ubiquitous SPI SD-card adapter used in nearly every datalogging project. | imported | complete |
+| `Capacitive Soil Moisture Sensor (v1.2/v2.0)` | Soil Moisture Sensor | Generic (DFRobot/clone) | Tier 2 | Cited 2+ times as the corrosion-resistant recommended replacement for resistive soil sensors. | imported | complete |
+ | `MG996R` | Standard Servo Motor | TowerPro | Tier 2 | Cited 3 times as a common higher-torque servo used in robot arm and RC hobby projects. | imported | complete |
+ | `DRV8825` | Stepper Motor Driver | Texas Instruments | Tier 2 | Cited 3 times as the higher-current alternative to A4988 in 3D-printer/CNC hobby builds. | imported | complete |
+ | `TB6600` | Stepper Motor Driver | Toshiba (module form) | Tier 2 | Cited 2 times as a common higher-power external stepper driver module for CNC/robotics. | imported | complete |
+ | `ST7735` | TFT Display Driver | Sitronix | Tier 2 | Cited as a common small color TFT display driver used in Arduino UI projects. | imported | complete |
  | `ST7789` | TFT Display Driver | Sitronix | Tier 2 | Cited as widely used in modern colorful small TFT display modules with ESP32. | imported | pending |
  | `ILI9341` | TFT LCD Driver | ILI Technology/Ilitek | Tier 2 | Cited 3 times as a very common 2.4"-2.8" touchscreen TFT display controller. | imported | pending |
  | `AHT10/AHT20` | Temperature/Humidity Sensor | ASAIR | Tier 2 | Cited 4+ times (ESPHome component, Adafruit guide) as an increasingly popular cheap accurate DHT replacement. | imported | pending |

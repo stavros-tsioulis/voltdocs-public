@@ -18,6 +18,10 @@ It is universally used on 2.2-inch, 2.4-inch, 2.8-inch, and 3.2-inch color displ
 
 ## Pinout
 
+```pinout
+module
+```
+
 ### Standard 14-Pin Red SPI TFT Breakout Header (with Touch & SD Card)
 
 | Pin | Name | Type | Description |

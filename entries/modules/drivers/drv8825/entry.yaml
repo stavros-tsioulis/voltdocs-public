@@ -29,6 +29,10 @@ highlights:
   - max_current_with_cooling_a
   - microstep_resolutions
 body: index.md
+pinouts:
+  - id: module
+    title: 16-pin StepStick carrier module
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

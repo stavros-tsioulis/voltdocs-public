@@ -1,0 +1,167 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 5.0,
+        "max": 5.5
+      },
+      "description": "Supply voltage input (+3.3 V to +5.0 V DC)."
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "3",
+      "name": "CS",
+      "type": "bus",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "LCD SPI Chip Select line (Active-LOW)."
+    },
+    {
+      "id": "4",
+      "name": "RESET",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "LCD Active-LOW hardware reset line."
+    },
+    {
+      "id": "5",
+      "name": "DC / RS",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "LCD Data/Command control (LOW = Command, HIGH = Data)."
+    },
+    {
+      "id": "6",
+      "name": "SDI / MOSI",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "LCD SPI Master Output Slave Input data line."
+    },
+    {
+      "id": "7",
+      "name": "SCK",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "LCD SPI Serial Clock input."
+    },
+    {
+      "id": "8",
+      "name": "LED / BL",
+      "type": "power",
+      "direction": "power-in",
+      "level": "3.3 V logic",
+      "description": "Backlight Power Control (+3.3 V DC or PWM input)."
+    },
+    {
+      "id": "9",
+      "name": "SDO / MISO",
+      "type": "digital",
+      "direction": "output",
+      "drive": "tri-state",
+      "level": "3.3 V logic",
+      "description": "LCD SPI Master Input Slave Output data line."
+    },
+    {
+      "id": "10",
+      "name": "T_CLK",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "XPT2046 Touch Controller SPI Clock input."
+    },
+    {
+      "id": "11",
+      "name": "T_CS",
+      "type": "bus",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "XPT2046 Touch Controller SPI Chip Select (Active-LOW)."
+    },
+    {
+      "id": "12",
+      "name": "T_DIN",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "XPT2046 Touch Controller SPI Data Input (MOSI)."
+    },
+    {
+      "id": "13",
+      "name": "T_DO",
+      "type": "digital",
+      "direction": "output",
+      "drive": "tri-state",
+      "level": "3.3 V logic",
+      "description": "XPT2046 Touch Controller SPI Data Output (MISO)."
+    },
+    {
+      "id": "14",
+      "name": "T_IRQ",
+      "type": "digital",
+      "direction": "output",
+      "drive": "open-drain",
+      "level": "3.3 V logic",
+      "description": "XPT2046 Touch Controller Interrupt Output (Active-LOW)."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ]
+    },
+    "label": "ILI9341",
+    "minSize": {
+      "width": 16,
+      "height": 5
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "1": "5V",
+        "2": "GND",
+        "3": "D10",
+        "4": "D8",
+        "5": "D9",
+        "6": "D11",
+        "7": "D13",
+        "8": "3.3V"
+      }
+    }
+  ]
+}

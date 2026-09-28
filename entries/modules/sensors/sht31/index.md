@@ -19,6 +19,10 @@ With outstanding precision ($\pm 0.2^\circ\text{C}$ temperature accuracy, $\pm 2
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout modules expose a 5-pin or 6-pin 0.1" (2.54 mm) header:
 
 | Pin | Name | Type | Description |

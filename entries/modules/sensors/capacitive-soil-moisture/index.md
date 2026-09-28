@@ -17,6 +17,10 @@ Instead of passing direct electric current through the soil, the module forms a 
 
 ## Terminals
 
+```pinout
+module
+```
+
 | Pin | Name | Type | Description |
 |---|---|---|---|
 | 1 | `GND` | Power | Ground (0 V) |

@@ -27,6 +27,10 @@ highlights:
   - supported_cards
   - interfaces
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 6-pin SPI breakout header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

@@ -27,6 +27,10 @@ highlights:
   - dry_soil_voltage_v
   - wet_soil_voltage_v
 body: index.md
+pinouts:
+  - id: module
+    title: YL-38 driver board header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

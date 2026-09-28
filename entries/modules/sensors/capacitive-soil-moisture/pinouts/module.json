@@ -1,0 +1,59 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "2",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 5.0,
+        "max": 5.5
+      },
+      "description": "Supply voltage input (+3.3 V to +5.5 V DC)."
+    },
+    {
+      "id": "3",
+      "name": "AOUT",
+      "type": "analog",
+      "direction": "output",
+      "description": "Analog voltage output proportional to inverse soil moisture content."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "label": "Capacitive Soil",
+    "minSize": {
+      "width": 5,
+      "height": 4
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "1": "GND",
+        "2": "5V",
+        "3": "A0"
+      }
+    }
+  ]
+}

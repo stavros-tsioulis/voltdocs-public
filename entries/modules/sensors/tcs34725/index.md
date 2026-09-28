@@ -19,6 +19,10 @@ Because the IR filter blocks infrared spectral interference from ambient light s
 
 ## Pinout
 
+```pinout
+module
+```
+
 ### Standard 7-Pin Breakout Header
 
 | Pin | Name | Type | Description |

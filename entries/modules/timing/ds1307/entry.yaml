@@ -30,6 +30,10 @@ highlights:
   - nv_sram_bytes
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: DIP-8 package / module header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

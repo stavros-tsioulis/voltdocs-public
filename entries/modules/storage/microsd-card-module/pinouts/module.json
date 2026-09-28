@@ -1,0 +1,91 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "2",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.5,
+        "nominal": 5.0,
+        "max": 5.5
+      },
+      "description": "Supply input (+4.5 V to +5.5 V DC to onboard 3.3V regulator)."
+    },
+    {
+      "id": "3",
+      "name": "MISO",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "level": "3.3 V logic",
+      "description": "Master In Slave Out — SPI data output line from SD card to MCU."
+    },
+    {
+      "id": "4",
+      "name": "MOSI",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Master Out Slave In — SPI data input line from MCU to SD card."
+    },
+    {
+      "id": "5",
+      "name": "SCK",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Serial Clock — SPI clock signal driven by MCU."
+    },
+    {
+      "id": "6",
+      "name": "CS",
+      "type": "bus",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Chip Select — Active-LOW SPI slave select signal."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "label": "MicroSD",
+    "minSize": {
+      "width": 8,
+      "height": 5
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "1": "GND",
+        "2": "5V",
+        "3": "D12",
+        "4": "D11",
+        "5": "D13",
+        "6": "D4"
+      }
+    }
+  ]
+}

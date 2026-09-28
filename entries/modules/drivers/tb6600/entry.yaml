@@ -27,6 +27,10 @@ highlights:
   - peak_output_current_a
   - microstep_resolutions
 body: index.md
+pinouts:
+  - id: module
+    title: Enclosed driver terminal blocks
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

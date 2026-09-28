@@ -32,6 +32,10 @@ highlights:
   - humidity_accuracy_pct
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 4-pin I2C header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

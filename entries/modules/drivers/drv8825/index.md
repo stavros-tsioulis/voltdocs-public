@@ -18,6 +18,10 @@ Serving as a higher-voltage and higher-current drop-in alternative to the A4988 
 
 ## Pinout
 
+```pinout
+module
+```
+
 The module features two 8-pin 0.1" headers matching standard StepStick / RAMPS sockets:
 
 | Pin | Name | Type | Description |

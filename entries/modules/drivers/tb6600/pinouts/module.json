@@ -1,0 +1,137 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "PUL+",
+      "type": "clock",
+      "direction": "input",
+      "level": "5 V logic",
+      "description": "Step pulse signal positive optocoupled input."
+    },
+    {
+      "id": "2",
+      "name": "PUL-",
+      "type": "clock",
+      "direction": "input",
+      "description": "Step pulse signal negative optocoupled input."
+    },
+    {
+      "id": "3",
+      "name": "DIR+",
+      "type": "digital",
+      "direction": "input",
+      "level": "5 V logic",
+      "description": "Direction control signal positive optocoupled input."
+    },
+    {
+      "id": "4",
+      "name": "DIR-",
+      "type": "digital",
+      "direction": "input",
+      "description": "Direction control signal negative optocoupled input."
+    },
+    {
+      "id": "5",
+      "name": "ENA+",
+      "type": "digital",
+      "direction": "input",
+      "level": "5 V logic",
+      "description": "Offline enable signal positive optocoupled input."
+    },
+    {
+      "id": "6",
+      "name": "ENA-",
+      "type": "digital",
+      "direction": "input",
+      "description": "Offline enable signal negative optocoupled input."
+    },
+    {
+      "id": "7",
+      "name": "B-",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Stepper motor phase B negative output lead."
+    },
+    {
+      "id": "8",
+      "name": "B+",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Stepper motor phase B positive output lead."
+    },
+    {
+      "id": "9",
+      "name": "A-",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Stepper motor phase A negative output lead."
+    },
+    {
+      "id": "10",
+      "name": "A+",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Stepper motor phase A positive output lead."
+    },
+    {
+      "id": "11",
+      "name": "GND / DC-",
+      "type": "ground",
+      "direction": "passive",
+      "description": "DC power supply ground reference."
+    },
+    {
+      "id": "12",
+      "name": "VCC / DC+",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 9.0,
+        "nominal": 24.0,
+        "max": 42.0
+      },
+      "description": "Positive DC motor power supply input (+9 V to +42 V DC)."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "right": [
+        "12",
+        "11",
+        "10",
+        "9",
+        "8",
+        "7"
+      ]
+    },
+    "label": "TB6600",
+    "minSize": {
+      "width": 8,
+      "height": 7
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "1": "D2",
+        "2": "GND",
+        "3": "D3",
+        "4": "GND"
+      }
+    }
+  ]
+}

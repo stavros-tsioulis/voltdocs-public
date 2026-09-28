@@ -34,6 +34,10 @@ highlights:
   - eco2_range_ppm_max
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 8-pin breakout header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

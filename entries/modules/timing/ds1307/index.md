@@ -18,6 +18,10 @@ The chip incorporates a $32.768\text{ kHz}$ quartz crystal oscillator circuit, a
 
 ## Pinout
 
+```pinout
+module
+```
+
 ### 8-Pin DIP / SOIC Package & Tiny RTC Module Header
 
 ```

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 5.0,
+        "max": 5.0
+      },
+      "description": "Supply voltage input (+3.3 V to +5.0 V DC)."
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "3",
+      "name": "DO",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "description": "Digital threshold output (HIGH in dry soil, LOW in wet soil) driven by LM393 comparator."
+    },
+    {
+      "id": "4",
+      "name": "AO",
+      "type": "analog",
+      "direction": "output",
+      "description": "Analog output voltage proportional to soil electrical resistance."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "label": "YL-69",
+    "minSize": {
+      "width": 6,
+      "height": 4
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "1": "D7",
+        "2": "GND",
+        "3": "D2",
+        "4": "A0"
+      }
+    }
+  ]
+}

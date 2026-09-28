@@ -19,6 +19,10 @@ It measures blood oxygen saturation ($\text{SpO}_2$) and heart rate in Beats Per
 
 ## Pinout
 
+```pinout
+module
+```
+
 ### Standard 5-Pin / 7-Pin Breakout Board Header
 
 | Pin | Name | Type | Description |
