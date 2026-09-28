@@ -1,0 +1,46 @@
+id: analog.opamp.mcp6004
+revision: "1.0"
+title: MCP6004 — 1MHz Low-Power Rail-to-Rail Quad Operational Amplifier
+category: analog/opamp
+tags: [mcp6004, mcp6004-i/p, mcp6004-i/sl, op-amp, operational-amplifier, quad, rail-to-rail, rrio, low-power, single-supply, battery, microchip, dip-14]
+status: published
+summary: >-
+  Microchip Technology 1.0MHz low-power quad operational amplifier featuring full rail-to-rail input and output swing from a single 1.8V to 6.0V supply with 100µA/channel quiescent current and 90° phase margin.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [MCP6004, MCP6004-I/P, MCP6004-I/SL, MCP6004-I/ST, MCP6001, MCP6002]
+  package: 14-pin PDIP / SOIC-14 / TSSOP-14
+  opamp_channels: 4
+  supply_voltage_v_min: 1.8
+  supply_voltage_v_max: 6.0
+  gain_bandwidth_mhz: 1.0
+  slew_rate_v_us: 0.6
+  input_offset_voltage_mv: 4.5
+  input_bias_current_pa: 1.0
+  quiescent_current_ua_per_channel: 100
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Quad Op-Amp Terminals (4 Inputs, 4 Outputs, VDD, VSS)]
+highlights:
+  - opamp_channels
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - quiescent_current_ua_per_channel
+  - input_bias_current_pa
+  - interfaces
+references:
+  - targetId: analog.opamp.mcp6002
+    relation: companion-to
+  - targetId: analog.opamp.lm324
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/MCP6004" }

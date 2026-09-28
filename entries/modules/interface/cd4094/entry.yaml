@@ -1,0 +1,41 @@
+id: interface.logic.cd4094
+revision: "1.0"
+title: CD4094B — 8-Stage Shift-and-Store Bus Register with 3-State Outputs
+category: interface/logic
+tags: [cd4094, cd4094b, hef4094b, mc14094b, shift-register, sipo, "8-bit", latch, "3-state", strobe, high-voltage, cmos-4000, ti, nexperia, dip-16]
+status: published
+summary: >-
+  CMOS 8-stage serial-in / parallel-out shift register with internal storage latches, 3-state output buffers, and dual serial cascading outputs (QS and Q'S), operating from 3V to 18V for high-voltage display driving and bus expansion.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor / Nexperia
+  ic_part_numbers: [CD4094B, CD4094BE, CD4094BM, HEF4094BP, MC14094BCP]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: CMOS 4000 Series
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  register_stages: 8-Bit Serial Shift Register + 8-Bit Storage Latch
+  max_clock_frequency_mhz: 5.5 (at 10V) / 2.5 (at 5V)
+  quiescent_current_ua: 0.04 (at 5V) / 20.0 (max at 15V)
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [Serial Data Input (D), Clock (CLK), Strobe (STR), Output Enable (OE), 8 Parallel Outputs (Q1-Q8), Cascading Serial Outputs (QS, Q'S)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - register_stages
+  - max_clock_frequency_mhz
+  - interfaces
+references:
+  - targetId: interface.shift-register.74hc595
+    relation: alternative-to
+  - targetId: interface.logic.cd4015
+    relation: companion-to
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4094b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4094B" }

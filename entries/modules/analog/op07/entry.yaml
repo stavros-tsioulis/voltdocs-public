@@ -1,0 +1,51 @@
+id: analog.opamp.op07
+revision: "1.0"
+title: OP07 — Ultra-Low Offset Voltage Precision Operational Amplifier
+category: analog/opamp
+tags: [op07, op07c, op07cp, op07cd, op07ep, "07", op-amp, precision, ultra-low-offset, instrumentation, sensor-amplifier, ti, analog-devices, dip-8]
+status: published
+summary: >-
+  Texas Instruments / Analog Devices industry-standard ultra-low offset voltage bipolar operational amplifier featuring 75µV max input offset voltage, 1.3µV/°C max drift, high open-loop gain (400V/mV), and external offset nulling for high-accuracy sensor and instrumentation applications.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / Analog Devices
+  ic_part_numbers: [OP07, OP07C, OP07CP, OP07CD, OP07D, OP07EP]
+  package: 8-pin PDIP / SOIC-8
+  opamp_channels: 1
+  supply_voltage_single_v_min: 6.0
+  supply_voltage_single_v_max: 36.0
+  supply_voltage_split_v_min: 3.0
+  supply_voltage_split_v_max: 18.0
+  input_offset_voltage_uv: 75
+  input_offset_drift_uv_c: 1.3
+  input_bias_current_na: 4.0
+  gain_bandwidth_mhz: 0.6
+  slew_rate_v_us: 0.3
+  open_loop_voltage_gain_db: 112
+  quiescent_current_ma: 2.0
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Single Op-Amp Terminals (+IN, -IN, OUT, V+, V-, OFFSET NULL 1, OFFSET NULL 2)]
+highlights:
+  - opamp_channels
+  - supply_voltage_split_v_min
+  - supply_voltage_split_v_max
+  - input_offset_voltage_uv
+  - input_offset_drift_uv_c
+  - input_bias_current_na
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - interfaces
+references:
+  - targetId: analog.opamp.op27
+    relation: see-also
+  - targetId: analog.opamp.lm741
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/op07.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/OP07" }

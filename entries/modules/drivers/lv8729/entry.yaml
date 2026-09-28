@@ -1,0 +1,46 @@
+id: driver.stepper.lv8729
+revision: "1.0"
+title: LV8729 — High Microstepping (1/128) Stepper Motor Driver
+category: drivers/stepper
+tags: [lv8729, lv8729v, stepper, driver, microstepping, "1/128", "3d-printer", onsemi, sanyo, stepstick]
+status: published
+summary: >-
+  ON Semiconductor LV8729 microstepping bipolar stepper driver module supporting up to 1/128 ultra-fine microstepping, 9V to 32V motor supply, and 1.5A continuous current in standard StepStick format.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: ON Semiconductor
+  ic_part_numbers: [LV8729V, LV8729V-TLM-H, LV8729]
+  package: 44-pin SSOP (SSOP44K) / 16-pin StepStick Breakout Module
+  load_voltage_min_v: 9.0
+  load_voltage_max_v: 32.0
+  logic_voltage_min_v: 3.0
+  logic_voltage_max_v: 5.5
+  continuous_current_per_phase_a: 1.5
+  peak_output_current_a: 1.8
+  microstep_resolutions: [Full, 1/2, 1/4, 1/8, 1/16, 1/32, 1/64, 1/128]
+  rds_on_mohm: 450
+  operating_temp_min_c: -20
+  operating_temp_max_c: 85
+  interfaces: [STEP/DIR Interface, MS1/MS2/MS3 Resolution Selectors]
+highlights:
+  - load_voltage_min_v
+  - load_voltage_max_v
+  - continuous_current_per_phase_a
+  - peak_output_current_a
+  - microstep_resolutions
+  - interfaces
+references:
+  - targetId: driver.stepper.a4988
+    relation: alternative-to
+    comment: Pin-compatible StepStick drop-in replacement upgrading microstepping from 1/16 to 1/128.
+  - targetId: driver.stepper.drv8825
+    relation: see-also
+    comment: Similar StepStick form factor with 1/32 microstepping vs 1/128 on the LV8729.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.onsemi.com/pdf/datasheet/lv8729v-d.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.onsemi.com/products/motor-control/motor-drivers/lv8729v" }

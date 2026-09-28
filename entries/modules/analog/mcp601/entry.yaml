@@ -1,0 +1,42 @@
+id: analog.opamp.mcp601
+revision: "1.0"
+title: MCP601 — 2.7V to 6.0V Single Rail-to-Rail Operational Amplifier
+category: analog/opamp
+tags: [mcp601, mcp601-i/p, mcp601-i/sn, mcp601t-i/ot, op-amp, rail-to-rail, cmos, low-power, microchip, sot-23-5, dip-8]
+status: published
+summary: >-
+  Microchip single low-power (230µA), low bias current (1pA) CMOS operational amplifier featuring rail-to-rail output swing and wide 2.8MHz bandwidth for 2.7V to 6.0V single-supply battery sensor circuits.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [MCP601, MCP601-I/P, MCP601-I/SN, MCP601T-I/OT, MCP602, MCP604]
+  package: 8-pin PDIP / SOIC-8 / 5-pin SOT-23 (SOT-23-5)
+  opamp_channels: 1
+  supply_voltage_v_min: 2.7
+  supply_voltage_v_max: 6.0
+  gain_bandwidth_mhz: 2.8
+  slew_rate_v_us: 2.3
+  input_bias_current_pa: 1
+  quiescent_current_ua: 230
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Single Op-Amp Terminals (VIN+, VIN-, VOUT)]
+highlights:
+  - supply_voltage_v_min
+  - supply_voltage_max_v
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - input_bias_current_pa
+  - quiescent_current_ua
+  - interfaces
+references:
+  - targetId: analog.opamp.mcp602
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/MCP601" }

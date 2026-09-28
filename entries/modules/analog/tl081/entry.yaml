@@ -1,0 +1,48 @@
+id: analog.opamp.tl081
+revision: "1.0"
+title: TL081 — Single JFET-Input General-Purpose Operational Amplifier
+category: analog/opamp
+tags: [tl081, tl081cp, tl081cd, op-amp, jfet, fet-input, high-slew-rate, texas-instruments, stmicroelectronics, dip-8]
+status: published
+summary: >-
+  Texas Instruments single high-speed JFET-input general-purpose operational amplifier featuring 13V/µs slew rate, 3MHz bandwidth, low 30pA input bias current, and high 10^12 Ω input impedance, widely used as an upgraded replacement for the classic 741.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [TL081, TL081CP, TL081CD, TL081IP, TL082, TL084]
+  package: 8-pin DIP / SOIC-8 / TSSOP-8
+  opamp_channels: 1 (Single Op-Amp)
+  supply_voltage_single_v_min: 7.0
+  supply_voltage_single_v_max: 36.0
+  supply_voltage_split_v_min: 3.5
+  supply_voltage_split_v_max: 18.0
+  gain_bandwidth_product_mhz: 3.0
+  slew_rate_v_us: 13.0
+  equivalent_input_noise_nv_hz: 18.0
+  input_bias_current_pa: 30.0
+  input_offset_voltage_mv: 3.0
+  quiescent_current_ma: 1.4
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Single Op-Amp Analog Terminals (+IN, -IN, OUT, Offset Null)]
+highlights:
+  - opamp_channels
+  - supply_voltage_single_v_min
+  - supply_voltage_single_v_max
+  - gain_bandwidth_product_mhz
+  - slew_rate_v_us
+  - input_bias_current_pa
+  - interfaces
+references:
+  - targetId: analog.opamp.tl072
+    relation: companion-to
+  - targetId: analog.opamp.tl074
+    relation: companion-to
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tl081.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TL081" }

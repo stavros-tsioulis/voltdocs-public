@@ -1,0 +1,49 @@
+id: power.buck-boost.ltc3780eg
+revision: "1.0"
+title: LTC3780EG — High-Power Synchronous 4-Switch Buck-Boost Controller
+category: power/buck-boost
+tags: [ltc3780, ltc3780eg, buck-boost, "4-switch", synchronous, controller, linear-technology, analog-devices, high-power, solar, ssop-24, module]
+status: published
+summary: >-
+  Linear Technology (Analog Devices) LTC3780EG high-efficiency synchronous 4-switch buck-boost switching regulator controller in SSOP-24 package, regulating 0.8V-30V output from 4V-36V input at up to 10A+ with up to 98% efficiency.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Analog Devices / Linear Technology
+  ic_part_numbers: [LTC3780EG, LTC3780, LTC3780IG, LTC3780EUH]
+  package: 24-lead SSOP (LTC3780EG) / 32-lead QFN / Heavy-Duty Buck-Boost Module
+  regulator_type: Synchronous 4-Switch Buck-Boost Controller
+  input_voltage_v_min: 4.0
+  input_voltage_v_max: 36.0
+  output_voltage_v_min: 0.8
+  output_voltage_v_max: 30.0
+  output_current_a_max: 10.0
+  switching_frequency_khz: 300
+  efficiency_pct: 95 - 98
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [DC Input, Regulated DC Output, External Gate Drive (TG1, BG1, TG2, BG2), PGOOD, RUN/SS]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - efficiency_pct
+  - interfaces
+references:
+  - targetId: power.buck-boost.ltc3440
+    relation: see-also
+    comment: Lower-power monolithic buck-boost IC (600mA) compared to the high-power external-FET LTC3780 controller.
+  - targetId: power.buck-boost.tps63020
+    relation: see-also
+    comment: Monolithic 4A buck-boost converter for handheld lithium applications.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/3780ff.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/ltc3780.html" }

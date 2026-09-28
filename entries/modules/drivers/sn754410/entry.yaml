@@ -1,0 +1,42 @@
+id: driver.motor.sn754410
+revision: "1.0"
+title: SN754410 — Quadruple Half-H Motor Driver (1A per Channel)
+category: drivers/motor
+tags: [sn754410, sn754410ne, motor-driver, h-bridge, dc-motor, stepper, high-current, texas-instruments, dip-16]
+status: published
+summary: >-
+  Texas Instruments quadruple high-current half-H driver IC designed to deliver up to 1A continuous output current (2A peak) per channel at voltages up to 36V, featuring pin-compatibility with the classic L293D and integrated output clamp diodes for inductive loads.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [SN754410, SN754410NE]
+  package: 16-pin PowerDIP (NE Package)
+  motor_supply_voltage_min_v: 4.5
+  motor_supply_voltage_max_v: 36.0
+  logic_supply_voltage_v: 5.0
+  continuous_current_per_channel_a: 1.0
+  peak_current_per_channel_a: 2.0
+  channels: 4 Half-H Drivers (2 Full H-Bridges)
+  internal_clamp_diodes: true
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [4 Logic Inputs (1A-4A), 2 Enable Lines (1,2EN, 3,4EN), 4 Driver Outputs (1Y-4Y)]
+highlights:
+  - motor_supply_voltage_min_v
+  - motor_supply_voltage_max_v
+  - logic_supply_voltage_v
+  - continuous_current_per_channel_a
+  - peak_current_per_channel_a
+  - channels
+  - interfaces
+references:
+  - targetId: driver.motor.l293d
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn754410.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN754410" }

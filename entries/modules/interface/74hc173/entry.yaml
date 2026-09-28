@@ -1,0 +1,45 @@
+id: interface.logic.74hc173
+revision: "1.0"
+title: 74HC173 — 4-Bit D-Type Register with 3-State Outputs
+category: interface/logic
+tags: [74hc173, cd74hc173, sn74hc173, register, d-flip-flop, "4-bit", "3-state", bus-interface, cmos, ti, nexperia, dip-16]
+status: published
+summary: >-
+  High-speed CMOS 4-bit D-type register IC with positive-edge clock triggering, dual active-low data load enables, asynchronous master reset, and dual 3-state output enables for bus-oriented microcomputer systems.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / Nexperia
+  ic_part_numbers: [74HC173, CD74HC173E, CD74HC173M, 74HC173D, 74HCT173]
+  package: 16-pin DIP / SOIC-16 / TSSOP-16
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  register_width_bits: 4
+  propagation_delay_ns: 17
+  max_clock_frequency_mhz: 33
+  output_drive_current_ma: 6.0
+  quiescent_current_ua: 8.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [4-Bit Data Inputs (1D-4D), 4-Bit 3-State Outputs (1Q-4Q), Dual Data Enables (E1, E2), Dual Output Enables (M, N), CLK, MR]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - register_width_bits
+  - propagation_delay_ns
+  - max_clock_frequency_mhz
+  - output_drive_current_ma
+  - interfaces
+references:
+  - targetId: interface.logic.74hc174
+    relation: see-also
+  - targetId: interface.logic.74hc373
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd74hc173.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD74HC173" }

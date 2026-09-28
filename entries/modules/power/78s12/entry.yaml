@@ -1,0 +1,44 @@
+id: power.regulator.78s12
+revision: "1.0"
+title: 78S12 — Fixed +12V 2.0A Positive Voltage Regulator
+category: power/regulator
+tags: [78s12, l78s12, l78s12cv, voltage-regulator, linear, switching, "12v", "2a", power, to-220, stmicroelectronics]
+status: published
+summary: >-
+  High-output 2.0A version of the standard 7812 positive voltage regulator in TO-220 package (STMicroelectronics L78S12CV), delivering fixed +12V DC with internal thermal overload protection, as well as drop-in high-efficiency switching regulator replacements.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: STMicroelectronics / Generic
+  ic_part_numbers: [L78S12CV, L78S12, 78S12]
+  package: TO-220 (3-pin)
+  regulator_type: Fixed Positive Voltage Regulator (Linear IC / Drop-in Switching Replacement)
+  output_voltage_v: 12.0
+  output_voltage_tolerance_pct: 4.0
+  input_voltage_v_min: 14.5
+  input_voltage_v_max: 35.0
+  dropout_voltage_v: 2.0
+  output_current_a_max: 2.0
+  quiescent_current_ma: 5.5
+  operating_temp_min_c: 0
+  operating_temp_max_c: 150
+  interfaces: [3-Terminal (Input, Ground, Output)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - interfaces
+references:
+  - targetId: power.regulator.lm7812
+    relation: variant-of
+    comment: High-current 2.0A variant of the standard 1.5A 7812 linear voltage regulator.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.st.com/resource/en/datasheet/l78s.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.st.com/en/power-management/l78s.html" }

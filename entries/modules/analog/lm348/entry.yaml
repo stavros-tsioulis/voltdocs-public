@@ -1,0 +1,48 @@
+id: analog.opamp.lm348
+revision: "1.0"
+title: LM348 — Quadruple 741 Operational Amplifier
+category: analog/opamp
+tags: [lm348, lm348n, lm348d, op-amp, operational-amplifier, quad, "741", general-purpose, bipolar, ti, national-semiconductor, stmicroelectronics, dip-14]
+status: published
+summary: >-
+  Texas Instruments / STMicroelectronics quad operational amplifier containing four independent 741-type op-amps on a single monolithic chip, providing low supply current (0.6mA per amp), continuous short-circuit protection, and no latch-up.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [LM348, LM348N, LM348D, LM148, LM248]
+  package: 14-pin PDIP / SOIC-14
+  opamp_channels: 4
+  supply_voltage_single_v_min: 8.0
+  supply_voltage_single_v_max: 36.0
+  supply_voltage_split_v_min: 4.0
+  supply_voltage_split_v_max: 18.0
+  gain_bandwidth_product_mhz: 1.0
+  slew_rate_v_us: 0.5
+  input_offset_voltage_mv: 1.0
+  input_bias_current_na: 100.0
+  quiescent_current_ma: 2.4
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Quad Op-Amp Analog Terminals (4 Inputs, 4 Outputs, Dual Power Rails)]
+highlights:
+  - opamp_channels
+  - supply_voltage_split_v_min
+  - supply_voltage_split_v_max
+  - gain_bandwidth_product_mhz
+  - slew_rate_v_us
+  - input_offset_voltage_mv
+  - quiescent_current_ma
+  - interfaces
+references:
+  - targetId: analog.opamp.lm741
+    relation: see-also
+  - targetId: analog.opamp.lm324
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm348.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM348" }

@@ -1,0 +1,47 @@
+id: driver.gate.ir2153
+revision: "1.0"
+title: IR2153 — Self-Oscillating Half-Bridge Gate Driver IC
+category: drivers/mosfet
+tags: [ir2153, ir2153pbf, ir2153s, irs2153d, gate-driver, self-oscillating, half-bridge, mosfet-driver, igbt, bootstrap, 600v, 555-timer, smps, ballast, infineon, international-rectifier, dip-8, soic-8]
+status: published
+summary: >-
+  Infineon / International Rectifier 600V self-oscillating half-bridge gate driver IC incorporating a front-end oscillator similar to the 555 timer, micropower startup, 1.2µs internal deadtime, and an internal 15.6V Zener clamp on VCC for driving N-channel power MOSFETs and IGBTs.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Infineon Technologies / International Rectifier
+  ic_part_numbers: [IR2153, IR2153PBF, IR2153S, IR2153STRPBF, IRS2153DPBF]
+  package: DIP-8 / SOIC-8 (SO-8)
+  driver_type: Self-Oscillating Half-Bridge Gate Driver IC
+  high_side_floating_voltage_max_v: 600.0
+  gate_supply_voltage_min_v: 10.0
+  gate_supply_voltage_max_v: 15.6
+  vcc_zener_clamp_v: 15.6
+  peak_source_current_ma: 210
+  peak_sink_current_ma: 420
+  internal_deadtime_us: 1.2
+  startup_current_ua: 80
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Timing Resistor (RT), Timing Capacitor (CT), High-Side Gate Drive (HO), Low-Side Gate Drive (LO), Bootstrap Supply (VB, VS)]
+highlights:
+  - driver_type
+  - high_side_floating_voltage_max_v
+  - gate_supply_voltage_min_v
+  - gate_supply_voltage_max_v
+  - peak_source_current_ma
+  - peak_sink_current_ma
+  - internal_deadtime_us
+  - interfaces
+references:
+  - targetId: driver.gate.ir2104
+    relation: see-also
+  - targetId: driver.gate.ir2110
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.infineon.com/dgdl/Infineon-IR2153-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c8c5fc16af" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.infineon.com/cms/en/product/power/gate-driver-ics/ir2153/" }

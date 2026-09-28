@@ -1,0 +1,48 @@
+id: driver.motor.drv8837
+revision: "1.0"
+title: DRV8837 — Low-Voltage 1.8A H-Bridge Motor Driver
+category: drivers/motor
+tags: [drv8837, drv8837dsgr, motor-driver, h-bridge, dc-motor, low-voltage, battery-powered, micro-robotics, pololu, texas-instruments, wson-8]
+status: published
+summary: >-
+  Texas Instruments ultra-compact low-voltage (1.8V to 11V) single H-bridge motor driver IC in a 2x2mm WSON package delivering up to 1.8A peak (1.0A RMS) with simple IN1/IN2 PWM interface and 120nA sleep current for battery-powered robotics.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [DRV8837, DRV8837DSGR, DRV8837DSGT, DRV8837C]
+  package: 8-pin WSON with Thermal Pad (DSG, 2x2mm) / Pololu Carrier Breakout
+  driver_type: Low-Voltage Single Full-Bridge Motor Driver
+  motor_type: Single Low-Voltage Brushed DC Motor / Solenoid
+  motor_supply_min_v: 1.8
+  motor_supply_max_v: 11.0
+  logic_supply_min_v: 1.8
+  logic_supply_max_v: 7.0
+  peak_output_current_a: 1.8
+  rms_output_current_a: 1.0
+  rds_on_mohm: 280
+  sleep_current_ua: 0.12
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Dual PWM Inputs (IN1, IN2), ~nSLEEP~, Bridge Outputs (OUT1, OUT2)]
+highlights:
+  - driver_type
+  - motor_type
+  - motor_supply_min_v
+  - motor_supply_max_v
+  - peak_output_current_a
+  - rds_on_mohm
+  - sleep_current_ua
+  - interfaces
+references:
+  - targetId: driver.motor.drv8801
+    relation: alternative-to
+  - targetId: driver.motor.drv8848
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/drv8837.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/DRV8837" }

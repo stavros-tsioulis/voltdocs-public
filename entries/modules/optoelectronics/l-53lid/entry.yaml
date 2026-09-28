@@ -1,0 +1,50 @@
+id: opto.led.l-53lid
+revision: "1.0"
+title: L-53LID — Low-Current Red Diffused Through-Hole LED (5mm / 3mm)
+category: optoelectronics/leds
+tags: [l-53lid, l-53id, l-7104lid, led, red-led, low-current, diffused, tht, kingbright, breadboard, indicator]
+status: published
+summary: >-
+  Kingbright L-53LID low-current (2mA) red diffused through-hole indicator LED in a classic radial package, delivering clear 625nm illumination at 2.0V forward voltage for battery and breadboard electronics.
+updatedAt: "2026-09-05"
+fields:
+  manufacturer: Kingbright
+  ic_part_numbers: [L-53LID, L-53ID, L-7104LID, WP7113LID, WP710A10LID]
+  package: 5mm Radial (T-1 3/4) / 3mm Radial (T-1) Through-Hole
+  color: High Efficiency Red
+  lens_type: Red Diffused
+  dominant_wavelength_nm: 625
+  peak_wavelength_nm: 635
+  forward_voltage_v: 2.0
+  forward_current_test_ma: 2.0
+  forward_current_max_ma: 25.0
+  luminous_intensity_mcd: 3.5
+  viewing_angle_deg: 60
+  reverse_voltage_max_v: 5.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [2-Lead Radial Through-Hole (Anode, Cathode)]
+highlights:
+  - color
+  - lens_type
+  - dominant_wavelength_nm
+  - forward_voltage_v
+  - forward_current_test_ma
+  - luminous_intensity_mcd
+  - viewing_angle_deg
+  - interfaces
+references:
+  - targetId: opto.led.ws2812b
+    relation: see-also
+    comment: Single-channel discrete analog indicator LED contrasted with digital addressable RGB LEDs.
+  - targetId: diode.rectifier.1n4007
+    relation: see-also
+    comment: Companion semiconductor diode illustrating standard forward bias vs light-emitting PN junctions.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.kingbrightusa.com/images/catalog/SPEC/L-53LID.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.kingbrightusa.com" }

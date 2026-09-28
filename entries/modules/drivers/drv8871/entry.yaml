@@ -1,0 +1,45 @@
+id: driver.motor.drv8871
+revision: "1.0"
+title: DRV8871 — 3.6A Brushed DC Motor Driver with Current Limiting
+category: drivers/motor
+tags: [drv8871, drv8871dda, motor-driver, h-bridge, brushed-dc, current-limiting, pwm, adafruit, texas-instruments, hsop-8]
+status: published
+summary: >-
+  Texas Instruments 45V 3.6A peak brushed DC motor driver IC with integrated current sensing, adjustable internal current regulation via a single external resistor (ILIM), and a simple two-input PWM interface in an 8-pin PowerPAD package.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [DRV8871, DRV8871DDA, DRV8871DDAR]
+  package: 8-pin HSOP with PowerPAD (DDA, SOIC-8 size) / Adafruit DRV8871 Breakout
+  driver_type: Single Full-Bridge Brushed DC Motor Driver
+  motor_type: Single Brushed DC Motor / Solenoid
+  supply_voltage_min_v: 6.5
+  supply_voltage_max_v: 45.0
+  peak_output_current_a: 3.6
+  rms_output_current_a: 2.1
+  rds_on_mohm: 565
+  sleep_current_ua: 10.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Dual Logic Inputs (IN1, IN2), Current Limit Adjust (ILIM), Bridge Outputs (OUT1, OUT2)]
+highlights:
+  - driver_type
+  - motor_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - peak_output_current_a
+  - rds_on_mohm
+  - interfaces
+references:
+  - targetId: driver.motor.drv8837
+    relation: alternative-to
+  - targetId: driver.motor.drv8801
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/drv8871.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/DRV8871" }

@@ -1,0 +1,44 @@
+id: analog.opamp.opa134
+revision: "1.0"
+title: OPA134 — SoundPlus™ High-Performance Audio Operational Amplifier
+category: analog/opamp
+tags: [opa134, opa134pa, opa134ua, op-amp, fet-input, audio, soundplus, low-distortion, burr-brown, ti, dip-8]
+status: published
+summary: >-
+  Texas Instruments / Burr-Brown SoundPlus single FET-input audio operational amplifier offering ultra-low 0.00008% THD+N, 8nV/√Hz noise, and 5pA input bias current with 20V/µs slew rate for high-fidelity audio preamplifiers and active filters.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / Burr-Brown
+  ic_part_numbers: [OPA134, OPA134PA, OPA134UA, OPA2134, OPA4134]
+  package: 8-pin PDIP / SOIC-8
+  opamp_channels: 1
+  supply_voltage_v_min: 5.0
+  supply_voltage_v_max: 36.0
+  input_bias_current_pa: 5
+  thd_plus_n_pct: 0.00008
+  input_noise_voltage_nv_hz: 8.0
+  gain_bandwidth_mhz: 8.0
+  slew_rate_v_us: 20.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Single Op-Amp Terminals (+IN, -IN, OUT, Offset Trim)]
+highlights:
+  - supply_voltage_v_min
+  - supply_voltage_max_v
+  - input_bias_current_pa
+  - thd_plus_n_pct
+  - input_noise_voltage_nv_hz
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - interfaces
+references:
+  - targetId: analog.opamp.opa2134
+    relation: variant-of
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/opa134.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/OPA134" }

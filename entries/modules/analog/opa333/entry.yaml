@@ -1,0 +1,51 @@
+id: analog.opamp.opa333
+revision: "1.0"
+title: OPA333 — 1.8V Zero-Drift MicroPower CMOS Operational Amplifier
+category: analog/opamp
+tags: [opa333, opa333aidbvt, opa2333, opamp, zero-drift, chopper, micropower, precision, rail-to-rail, load-cell, sot23-5, texas-instruments]
+status: published
+summary: >-
+  Texas Instruments OPA333 precision micropower CMOS operational amplifier featuring auto-calibrating zero-drift technology (10µV max offset, 0.05µV/°C drift), 17µA quiescent current, and rail-to-rail I/O from 1.8V to 5.5V.
+updatedAt: "2026-09-05"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [OPA333, OPA333AIDBVT, OPA333AID, OPA2333, OPA4333]
+  package: 5-pin SOT-23 (DBV) / SC70-5 / SOIC-8
+  opamp_type: Zero-Drift Chopper-Stabilized Operational Amplifier
+  number_of_channels: 1
+  supply_voltage_min_v: 1.8
+  supply_voltage_max_v: 5.5
+  input_offset_voltage_max_uv: 10
+  input_offset_drift_max_uv_per_c: 0.05
+  gain_bandwidth_product_khz: 350
+  quiescent_current_per_channel_ua: 17
+  common_mode_rejection_ratio_db: 130
+  rail_to_rail: Rail-to-Rail Input and Output (RRIO)
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Analog Non-Inverting Input, Inverting Input, Rail-to-Rail Output, Power Supply Rails]
+highlights:
+  - opamp_type
+  - input_offset_voltage_max_uv
+  - input_offset_drift_max_uv_per_c
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - quiescent_current_per_channel_ua
+  - common_mode_rejection_ratio_db
+  - rail_to_rail
+  - interfaces
+references:
+  - targetId: analog.inamp.ina333
+    relation: companion-to
+    comment: Instrumentation amplifier counterpart utilizing the same zero-drift architecture for Wheatstone bridge / strain gauge circuits.
+  - targetId: analog.opamp.op07
+    relation: see-also
+    comment: Classic high-voltage bipolar precision op-amp contrasted with modern micropower zero-drift CMOS.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/opa333.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/OPA333" }

@@ -1,0 +1,50 @@
+id: opto.led.l-7113lgd
+revision: "1.0"
+title: L-7113LGD — 5mm Low-Current Green Diffused Through-Hole LED
+category: optoelectronics/leds
+tags: [l-7113lgd, wp7113lgd, l-7113gd, led, green-led, low-current, diffused, tht, kingbright, breadboard, indicator]
+status: published
+summary: >-
+  Kingbright L-7113LGD (WP7113LGD) low-current 5mm (T-1 3/4) green diffused radial through-hole LED, delivering daylight-visible 568nm green illumination at only 2mA forward current.
+updatedAt: "2026-09-05"
+fields:
+  manufacturer: Kingbright
+  ic_part_numbers: [L-7113LGD, WP7113LGD, L-7113GD, WP7113GD]
+  package: 5mm Radial (T-1 3/4) Through-Hole
+  color: Green
+  lens_type: Green Diffused
+  dominant_wavelength_nm: 568
+  peak_wavelength_nm: 565
+  forward_voltage_v: 2.2
+  forward_current_test_ma: 2.0
+  forward_current_max_ma: 25.0
+  luminous_intensity_mcd: 3.5
+  viewing_angle_deg: 60
+  reverse_voltage_max_v: 5.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [2-Lead Radial Through-Hole (Anode, Cathode)]
+highlights:
+  - color
+  - lens_type
+  - dominant_wavelength_nm
+  - forward_voltage_v
+  - forward_current_test_ma
+  - luminous_intensity_mcd
+  - viewing_angle_deg
+  - interfaces
+references:
+  - targetId: opto.led.l-7113id
+    relation: variant-of
+    comment: Red diffused counterpart in the same 5mm Kingbright T-1 3/4 package series.
+  - targetId: opto.led.l-53lid
+    relation: see-also
+    comment: Low-current red indicator LED commonly paired in breadboard kits.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113LGD.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.kingbrightusa.com" }

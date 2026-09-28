@@ -1,0 +1,44 @@
+id: timing.timer.cd4541
+revision: "1.0"
+title: CD4541 — Programmable Timer / Oscillator IC
+category: timing/timer
+tags: [cd4541, cd4541b, hef4541b, mc14541b, timer, oscillator, programmable-timer, cmos, binary-counter, long-duration, dip-14]
+status: published
+summary: >-
+  Texas Instruments / ON Semiconductor CD4541 programmable CMOS timer IC with an internal RC oscillator and 16-stage binary counter, supporting division ratios of 256, 1024, 8192, and 65536 for precise long-duration delays from milliseconds to days.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / ON Semiconductor
+  ic_part_numbers: [CD4541, CD4541B, CD4541BE, HEF4541B, MC14541B]
+  package: 14-pin DIP (DIP-14 / PDIP-14) / SOIC-14 / TSSOP-14
+  supply_voltage_min_v: 3.0
+  supply_voltage_max_v: 18.0
+  counter_stages: 16-Stage Binary Counter
+  programmable_division_ratios: ["2^8 (256)", "2^10 (1024)", "2^13 (8192)", "2^16 (65536)"]
+  operating_modes: [Single-Transition Timer (Monostable), Free-Running Oscillator (Astable)]
+  quiescent_current_ua: 0.01
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [Oscillator Inputs (RTC, CTC, RS), Master Reset (MR), Auto Reset (AR), Mode Select (MODE), Output Select (Q/Q_BAR), Frequency Select (A, B), Output (Q)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - counter_stages
+  - programmable_division_ratios
+  - operating_modes
+  - interfaces
+references:
+  - targetId: timing.timer.ne555
+    relation: alternative-to
+    comment: CMOS long-duration timer alternative eliminating leaky large electrolytic timing capacitors for hour- or day-scale intervals.
+  - targetId: timing.oscillator.cd4060
+    relation: see-also
+    comment: 14-stage counter with multiple parallel stage outputs vs single programmable output on the CD4541.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/cd4541b.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/CD4541B" }

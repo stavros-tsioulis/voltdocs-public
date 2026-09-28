@@ -1,0 +1,48 @@
+id: passive.capacitor.100uf-electrolytic
+revision: "1.0"
+title: 100µF Aluminum Electrolytic Capacitor (Radial Leaded)
+category: passives/capacitors
+tags: ["100uf", capacitor, electrolytic, aluminum-electrolytic, bulk-filtering, power-supply, radial, through-hole, polarized, generic]
+status: published
+summary: >-
+  The quintessential 100µF polarized aluminum electrolytic capacitor in a standard radial leaded can, the fundamental workhorse for bulk energy storage and low-frequency ripple smoothing in DC power supplies and voltage regulators.
+updatedAt: "2026-09-05"
+fields:
+  manufacturer: Generic (Nichicon / Panasonic / Rubycon / Nippon Chemi-Con / Wurth)
+  ic_part_numbers: [100uF Electrolytic, 100uF 25V, 100uF 50V, 100uF 16V, UVR1E101MDD, EEU-FR1E101]
+  package: Radial Leaded Can (5mm x 11mm, 2.0mm / 2.5mm lead pitch)
+  capacitor_type: Polarized Aluminum Electrolytic Capacitor
+  capacitance_uf: 100.0
+  capacitance_nf: 100000
+  voltage_rating_dc_v: 25.0
+  voltage_rating_range: 16V - 50V DC typical
+  tolerance_pct: 20.0
+  polarized: true
+  operating_temp_min_c: -40
+  operating_temp_max_c: 105
+  esr_ohms: 0.8
+  ripple_current_ma_rms: 250
+  endurance_hours: 2000
+  interfaces: [2-Terminal Polarized Leaded Passive]
+highlights:
+  - capacitor_type
+  - capacitance_uf
+  - voltage_rating_dc_v
+  - tolerance_pct
+  - polarized
+  - esr_ohms
+  - ripple_current_ma_rms
+  - operating_temp_max_c
+  - interfaces
+references:
+  - targetId: passive.capacitor.100nf-ceramic
+    relation: companion-to
+    comment: Ubiquitous power-rail decoupling pair; 100µF provides low-frequency bulk charge reservoir, while 100nF ceramic shunts high-frequency switching transients.
+  - targetId: passive.capacitor.10uf-electrolytic
+    relation: alternative-to
+    comment: Lower-capacitance electrolytic option for smaller boards and local circuit decoupling.
+body: index.md
+assets:
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nichicon.co.jp/english/" }
