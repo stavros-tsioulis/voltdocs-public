@@ -65,6 +65,7 @@ body: index.md                     # relative path to the body document
 assets: [ … ]                      # see §4
 references: [ … ]                  # typed links to other entries
 guides: [ … ]                      # long-form articles; see §2.4
+pinouts: [ … ]                     # pin definitions; see PINOUT.md
 revisions:                         # metadata for revisions under revisions/
   - id: "1.0.0"
     releasedAt: "2023-01-01"
@@ -131,6 +132,18 @@ image, and a renderer MUST NOT treat its absence as an error. `mimeType` is not
 inferred from the file extension (see §4), so `repo`/`inline` image assets must
 declare it explicitly or the served bytes will fall back to
 `application/octet-stream`.
+
+### 1.6 Pinouts
+
+An entry may declare one or more pinouts: JSON files describing each pin's
+function, its position on the package, and its wiring to common host boards.
+The format is specified separately in [`PINOUT.md`](./PINOUT.md).
+
+```yaml
+pinouts:
+  - id: module
+    path: pinouts/module.json
+```
 
 ---
 
@@ -286,3 +299,4 @@ A repository conforms to `schemaVersion: 1` when:
 5. `references[].targetId` values refer to ids that exist in the repository.
 6. Historical revisions, if any, live under `revisions/<id>/` with their own
    `entry.yaml`.
+7. Every declared pinout conforms to [`PINOUT.md`](./PINOUT.md) §6.
