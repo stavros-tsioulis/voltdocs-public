@@ -6,7 +6,7 @@ tags: [max9814, microphone, electret, audio, agc, amplifier, maxim, analog-devic
 status: published
 summary: >-
   Maxim Integrated / Analog Devices low-cost, high-performance electret microphone amplifier with Automatic Gain Control (AGC) and low-noise microphone bias for sound-reactive and voice projects.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Maxim Integrated / Analog Devices
   ic_part_numbers: [MAX9814, MAX9814ETD+T]
@@ -30,6 +30,10 @@ highlights:
   - automatic_gain_control
   - mic_bias_voltage_v
 body: index.md
+pinouts:
+  - id: module
+    title: Five-pin microphone breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

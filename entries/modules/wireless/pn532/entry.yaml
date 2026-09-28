@@ -6,7 +6,7 @@ tags: [pn532, nfc, rfid, 13.56mhz, mifare, nxp, i2c, spi, hsu, uart]
 status: published
 summary: >-
   NXP highly integrated transceiver IC for 13.56 MHz Near Field Communication (NFC) and RFID, supporting reader/writer, peer-to-peer, and MIFARE card emulation modes over I2C, SPI, or HSU (High-Speed UART).
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: NXP Semiconductors
   ic_part_numbers: [PN532, PN5321A3HN]
@@ -32,6 +32,13 @@ highlights:
   - operating_distance_mm
   - supported_modes
 body: index.md
+pinouts:
+  - id: i2c-uart
+    title: I²C / HSU header
+    path: pinouts/i2c-uart.json
+  - id: spi-control
+    title: SPI / control header
+    path: pinouts/spi-control.json
 assets:
   - id: datasheet
     kind: datasheet

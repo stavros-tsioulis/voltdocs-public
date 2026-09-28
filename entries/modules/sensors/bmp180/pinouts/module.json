@@ -1,0 +1,66 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.0
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "A 5 V-capable regulator does not guarantee 5 V-safe I²C pull-ups; verify the board."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "4",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "voltage": {
+        "max": 3.6
+      },
+      "drive": "open-drain",
+      "level": "3.3 V logic"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "label": "BMP180",
+    "minSize": {
+      "width": 7,
+      "height": 5
+    }
+  }
+}

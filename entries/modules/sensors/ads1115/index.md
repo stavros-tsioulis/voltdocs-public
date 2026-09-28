@@ -18,6 +18,11 @@ It is widely used to add high-resolution analog measurement capabilities to micr
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard ADS1115 Breakout Module Header
 
 | Pin | Name | Type | Description |

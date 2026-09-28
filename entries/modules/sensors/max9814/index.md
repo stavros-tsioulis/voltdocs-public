@@ -18,15 +18,20 @@ When quiet whisper sounds occur, the AGC automatically boosts gain up to **60 dB
 
 ## Pinout
 
-### Standard 5-Pin Breakout Header
+```pinout
+module
+```
+
+
+### Five-Pin Adafruit-Style Breakout
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `VCC` | Power | Supply voltage (+2.7 V to +5.5 V DC) |
-| 2 | `GND` | Power | Ground (0 V) |
-| 3 | `OUT` | Analog Output | DC-coupled analog audio output signal ($1.25\text{ V}$ DC offset) |
-| 4 | `GAIN` | Digital Input | Gain setting pin (`Unconnected` = 60dB, `GND` = 50dB, `VCC` = 40dB) |
-| 5 | `AR` / `A/R` | Digital Input | Attack/Release ratio selector (`Unconnected` = 1:500, `VDD` = 1:2000, `GND` = 1:4000) |
+| 1 | `A/R` | Digital Input | Attack/release: GND `1:500`, VDD `1:2000`, floating `1:4000` |
+| 2 | `GAIN` | Digital Input | VDD 40 dB, GND 50 dB, floating 60 dB |
+| 3 | `OUT` | Analog Output | Audio output with approximately 1.25 V DC bias |
+| 4 | `GND` | Power | Ground |
+| 5 | `VDD` | Power Input | +2.7 V to +5.5 V |
 
 ## Specifications
 

@@ -18,6 +18,11 @@ It is widely found on cheap GY-271 breakout boards sold online as "HMC5883L modu
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard GY-271 5-Pin Breakout Header
 
 | Pin | Name | Type | Description |

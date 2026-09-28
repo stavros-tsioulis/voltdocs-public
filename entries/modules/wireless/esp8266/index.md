@@ -19,6 +19,11 @@ It is widely available as standalone breakout modules (ESP-01, ESP-12E / ESP-12F
 
 ## Pinout
 
+```pinout
+esp-01
+```
+
+
 ### ESP-01 Header Pinout (8-Pin 2x4 0.1" Header)
 
 | Pin | Name | Type | Description |

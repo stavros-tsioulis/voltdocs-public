@@ -1,0 +1,71 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "nominal": 5.0,
+        "max": 5.0
+      }
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "DO",
+      "type": "digital",
+      "direction": "output",
+      "description": "Comparator output: high below the adjusted threshold and low above it.",
+      "level": "5 V logic",
+      "voltage": {
+        "max": 5.0
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "This output can exceed a 3.3 V host input rating; use a divider or level shifter as appropriate."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "AO",
+      "type": "analog",
+      "direction": "output",
+      "description": "Analog gas-sensor output; may approach the 5 V supply.",
+      "voltage": {
+        "max": 5.0
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "This output can exceed a 3.3 V host input rating; use a divider or level shifter as appropriate."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "label": "MQ-135",
+    "minSize": {
+      "width": 6,
+      "height": 6
+    }
+  }
+}

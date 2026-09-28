@@ -7,7 +7,7 @@ status: published
 summary: >-
   Bosch Sensortec high-precision absolute barometric pressure and temperature
   sensor with I2C and SPI interfaces, designed for mobile and weather sensing.
-updatedAt: "2026-07-26"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Bosch Sensortec
   ic_part_numbers: [BMP280]
@@ -31,6 +31,10 @@ highlights:
   - pressure_range_hpa_max
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 6-pin breakout
+    path: pinouts/module.json
 assets:
   - id: photo
     kind: image

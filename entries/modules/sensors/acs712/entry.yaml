@@ -6,7 +6,7 @@ tags: [acs712, current, hall-effect, ac-current, dc-current, power, allegro, 5a,
 status: published
 summary: >-
   Allegro MicroSystems fully integrated, Hall-effect-based linear current sensor IC providing galvanic isolation (2.1 kV RMS) and analog voltage output proportional to AC or DC current.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Allegro MicroSystems
   ic_part_numbers: [ACS712ELCTR-05B-T, ACS712ELCTR-20A-T, ACS712ELCTR-30A-T]
@@ -31,6 +31,13 @@ highlights:
   - zero_current_offset_v
   - isolation_voltage_vrms
 body: index.md
+pinouts:
+  - id: package
+    title: SOIC-8 sensor IC
+    path: pinouts/package.json
+  - id: module
+    title: Five-contact breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

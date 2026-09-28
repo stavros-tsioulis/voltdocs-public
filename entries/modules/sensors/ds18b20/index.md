@@ -17,6 +17,11 @@ Each DS18B20 has a unique 64-bit factory-lasered ROM ID code, allowing multiple 
 
 ## Pinout
 
+```pinout
+package
+```
+
+
 ### TO-92 Package & Waterproof Probe Cable
 
 | Pin / Wire Color | Name | Type | Description |

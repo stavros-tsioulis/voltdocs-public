@@ -18,6 +18,11 @@ Unlike traditional raw IMUs (such as MPU6050) that require complex external Kalm
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard BNO055 Breakout Header
 
 | Pin | Name | Type | Description |
@@ -25,11 +30,11 @@ Unlike traditional raw IMUs (such as MPU6050) that require complex external Kalm
 | 1 | `VIN` | Power | Supply voltage (+3.3 V to +5.0 V DC) |
 | 2 | `3VO` | Power Output | Regulated +3.3 V output from onboard LDO |
 | 3 | `GND` | Power | Ground (0 V) |
-| 4 | `SDA` | Digital I/O | I2C Serial Data line |
-| 5 | `SCL` | Digital Input | I2C Serial Clock line (Requires I2C Clock Stretching!) |
+| 4 | `SCL` | Digital Input | I2C Serial Clock line (Requires I2C Clock Stretching!) |
+| 5 | `SDA` | Digital I/O | I2C Serial Data line |
 | 6 | `RST` | Digital Input | Active-LOW Hardware Reset pin |
-| 7 | `ADR` | Digital Input | I2C Address select (`LOW` = `0x28`, `HIGH` = `0x29`) |
-| 8 | `INT` | Digital Output | Interrupt output pin |
+| 7 | `INT` | Digital Output | Interrupt output pin |
+| 8 | `ADR` | Digital Input | I2C Address select (`LOW` = `0x28`, `HIGH` = `0x29`) |
 | 9 | `PS0` | Digital Input | Protocol Select pin 0 (`LOW` for I2C) |
 | 10 | `PS1` | Digital Input | Protocol Select pin 1 (`LOW` for I2C) |
 

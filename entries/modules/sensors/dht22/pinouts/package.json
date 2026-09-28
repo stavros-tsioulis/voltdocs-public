@@ -1,0 +1,53 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 5.0,
+        "max": 6.0
+      }
+    },
+    {
+      "id": "2",
+      "name": "DATA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Single-wire data; requires a pull-up resistor.",
+      "drive": "open-drain"
+    },
+    {
+      "id": "3",
+      "name": "NC",
+      "type": "nc",
+      "description": "Not connected."
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "label": "DHT22",
+    "minSize": {
+      "width": 6,
+      "height": 5
+    }
+  }
+}

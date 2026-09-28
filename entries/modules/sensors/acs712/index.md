@@ -26,6 +26,15 @@ Because the current path is electrically isolated from the sensor electronics, t
 
 ## Pinout
 
+```pinout
+package
+```
+
+```pinout
+module
+```
+
+
 ### Standard Breakout Board Header & Screw Terminal
 
 | Pin / Terminal | Name | Type | Description |

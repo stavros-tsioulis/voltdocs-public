@@ -19,18 +19,25 @@ Unlike basic RFID readers (such as the MFRC522 which only reads ISO 14443A MIFAR
 
 ## Pinout
 
-### Standard Red PN532 Breakout Board Header & DIP Switches
+```pinout
+i2c-uart
+```
 
-| Pin | Name | Type | Description |
-|---|---|---|---|
-| 1 | `VCC` | Power | Supply voltage (+3.3 V to +5.0 V DC) |
-| 2 | `GND` | Power | Ground (0 V) |
-| 3 | `SDA` / `SS` / `TX` | Digital I/O | I2C `SDA` / SPI `SS` (CS) / HSU `TX` |
-| 4 | `SCL` / `SCK` / `RX` | Digital Input | I2C `SCL` / SPI `SCK` / HSU `RX` |
-| 5 | `MOSI` | Digital Input | SPI `MOSI` |
-| 6 | `MISO` | Digital Output | SPI `MISO` |
-| 7 | `IRQ` | Digital Output | Active-LOW Interrupt output (alerts MCU on card detection) |
-| 8 | `RSTOUT` / `RST` | Digital Input | Hardware Reset pin |
+```pinout
+spi-control
+```
+
+
+### Elechouse-Style V3 Board Connectors
+
+The board exposes separate I²C/HSU and SPI/control headers; both graphics are shown above.
+
+| Header | Pins |
+|---|---|
+| I²C / HSU | `GND`, `VCC`, `SDA/TXD`, `SCL/RXD` |
+| SPI / control | `RSTO`, `IRQ`, `GND`, `VCC`, `SS`, `MOSI`, `MISO`, `SCK` |
+
+`RSTO` is a reset **output** and must not be driven by the host. Configure the interface switches before applying power.
 
 ## Bus Mode DIP Switch Configuration
 

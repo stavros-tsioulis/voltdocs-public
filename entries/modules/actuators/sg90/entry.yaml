@@ -6,7 +6,7 @@ tags: [sg90, servo, micro-servo, motor, pwm, towerpro, 9g, robotics]
 status: published
 summary: >-
   TowerPro lightweight 9-gram analog micro servo motor providing ~180° rotation controlled via 50 Hz PWM position signals.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: TowerPro
   ic_part_numbers: [SG90]
@@ -31,6 +31,10 @@ highlights:
   - operating_speed_s_60deg
   - weight_g
 body: index.md
+pinouts:
+  - id: connector
+    title: Three-wire servo connector
+    path: pinouts/connector.json
 assets:
   - id: datasheet
     kind: datasheet

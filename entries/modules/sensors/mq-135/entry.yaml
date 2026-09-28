@@ -6,7 +6,7 @@ tags: [mq135, mq-135, gas, air-quality, nh3, nox, alcohol, benzene, smoke, co2-p
 status: published
 summary: >-
   Winsen Electronics tin-dioxide (SnO2) semiconductor gas sensor sensitive to NH3, NOx, alcohol, benzene, smoke, and CO2, providing analog output and digital threshold comparator output.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Winsen Electronics
   ic_part_numbers: [MQ-135]
@@ -30,6 +30,10 @@ highlights:
   - detection_range_ppm_max
   - target_gases
 body: index.md
+pinouts:
+  - id: module
+    title: Standard MQ-135 breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

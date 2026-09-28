@@ -6,7 +6,7 @@ tags: [dht11, temperature, humidity, sensor, single-bus, aosong, starter-kit]
 status: published
 summary: >-
   Aosong Electronics low-cost basic digital temperature and humidity sensor with a custom single-bus 1-wire serial protocol outputting 8-bit integer relative humidity and temperature readings.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Aosong Electronics
   ic_part_numbers: [DHT11]
@@ -34,6 +34,10 @@ highlights:
   - humidity_range_pct_max
   - sampling_period_s
 body: index.md
+pinouts:
+  - id: package
+    title: 4-pin sensor package
+    path: pinouts/package.json
 assets:
   - id: datasheet
     kind: datasheet

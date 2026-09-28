@@ -19,6 +19,11 @@ The module incorporates a dual-channel NDIR optical absorption cell (one channel
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 7-Pin Header Interface
 
 | Pin | Name | Type | Description |

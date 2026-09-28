@@ -6,7 +6,7 @@ tags: [hmc5883l, qmc5883l, magnetometer, compass, 3-axis, i2c, honeywell, gy-271
 status: published
 summary: >-
   Honeywell surface-mount 3-axis digital compass / magnetoresistive magnetometer IC providing 12-bit magnetic field measurements over an I2C interface.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Honeywell
   ic_part_numbers: [HMC5883L]
@@ -31,6 +31,10 @@ highlights:
   - adc_resolution_bits
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard GY-271 breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

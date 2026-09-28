@@ -6,7 +6,7 @@ tags: [l293d, motor-driver, h-bridge, dc-motor, stepper, texas-instruments, stmi
 status: published
 summary: >-
   Texas Instruments / STMicroelectronics quadruple high-current half-H driver IC designed to drive bidirectional DC motors, steppers, or relays at voltages up to 36 V and currents up to 600 mA per channel with internal clamp diodes.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Texas Instruments / STMicroelectronics
   ic_part_numbers: [L293D, L293NE]
@@ -28,6 +28,10 @@ highlights:
   - continuous_current_per_channel_ma
   - channels
 body: index.md
+pinouts:
+  - id: package
+    title: 16-pin PDIP package
+    path: pinouts/package.json
 assets:
   - id: datasheet
     kind: datasheet

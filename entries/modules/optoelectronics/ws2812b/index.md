@@ -17,6 +17,10 @@ The current major hardware revision (**v5.0 / WS2812B-V5**) includes built-in re
 
 ## Terminals
 
+```pinout
+package
+```
+
 ### WS2812B 4-Pin 5050 Package
 
 | Pin | Name | Type | Description |

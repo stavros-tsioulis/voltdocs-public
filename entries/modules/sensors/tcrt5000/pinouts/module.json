@@ -1,0 +1,69 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "VCC",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 5.0,
+        "max": 5.0
+      }
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "DO",
+      "name": "DO",
+      "type": "digital",
+      "direction": "output",
+      "voltage": {
+        "max": 5.0
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "May be pulled up to 5 V."
+        }
+      ]
+    },
+    {
+      "id": "AO",
+      "name": "AO",
+      "type": "analog",
+      "direction": "output",
+      "voltage": {
+        "max": 5.0
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "May approach 5 V; protect 3.3 V ADCs."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "VCC",
+        "GND",
+        "DO",
+        "AO"
+      ]
+    },
+    "label": "TCRT5000 module",
+    "minSize": {
+      "width": 7,
+      "height": 5
+    }
+  }
+}

@@ -6,7 +6,7 @@ tags: [ad8232, ecg, ekg, heart-rate, biomedical, sensor, analog-devices, fitness
 status: published
 summary: >-
   Analog Devices integrated signal conditioning block for ECG and other biopotential measurement applications, designed to extract, amplify, and filter small biopotential signals in noisy conditions.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Analog Devices
   ic_part_numbers: [AD8232, AD8232ACPZ]
@@ -29,6 +29,10 @@ highlights:
   - cmrr_db
   - lead_off_detection
 body: index.md
+pinouts:
+  - id: module
+    title: SparkFun SEN-12650 breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

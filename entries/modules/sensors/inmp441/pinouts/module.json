@@ -1,0 +1,86 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "SCK",
+      "name": "SCK",
+      "type": "clock",
+      "direction": "input",
+      "voltage": {
+        "max": 3.3
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "WS",
+      "name": "WS",
+      "type": "clock",
+      "direction": "input",
+      "voltage": {
+        "max": 3.3
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "L/R",
+      "name": "L/R",
+      "type": "digital",
+      "direction": "input",
+      "description": "Channel-select strap; do not leave floating.",
+      "voltage": {
+        "max": 3.3
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "SD",
+      "name": "SD",
+      "type": "bus",
+      "direction": "output",
+      "description": "I²S serial-data output.",
+      "voltage": {
+        "max": 3.3
+      },
+      "drive": "tri-state",
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "VDD",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 1.8,
+        "nominal": 3.3,
+        "max": 3.3
+      }
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "top": [
+        "SCK",
+        "WS",
+        "L/R"
+      ],
+      "bottom": [
+        "SD",
+        "VDD",
+        "GND"
+      ]
+    },
+    "label": "INMP441",
+    "minSize": {
+      "width": 6,
+      "height": 5
+    }
+  }
+}

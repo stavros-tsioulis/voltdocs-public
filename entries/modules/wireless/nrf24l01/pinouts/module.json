@@ -1,0 +1,85 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "2",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": { "min": 1.9, "nominal": 3.3, "max": 3.6 },
+      "description": "Module supply input.",
+      "notes": [
+        { "severity": "danger", "text": "Do not connect this pin to 5 V. The control inputs are 5 V tolerant, but the supply is not." }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "CE",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V logic; 5 V tolerant",
+      "voltage": { "max": 5.25 },
+      "description": "Chip enable. High activates RX or TX operation according to the CONFIG register."
+    },
+    {
+      "id": "4",
+      "name": "CSN",
+      "type": "bus",
+      "direction": "input",
+      "level": "3.3 V logic; 5 V tolerant",
+      "voltage": { "max": 5.25 },
+      "description": "Active-low SPI chip select."
+    },
+    {
+      "id": "5",
+      "name": "SCK",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V logic; 5 V tolerant",
+      "voltage": { "max": 5.25 },
+      "description": "SPI serial clock input, up to 10 MHz."
+    },
+    {
+      "id": "6",
+      "name": "MOSI",
+      "type": "bus",
+      "direction": "input",
+      "level": "3.3 V logic; 5 V tolerant",
+      "voltage": { "max": 5.25 },
+      "description": "SPI data input from the host."
+    },
+    {
+      "id": "7",
+      "name": "MISO",
+      "type": "bus",
+      "direction": "output",
+      "level": "3.3 V logic",
+      "drive": "tri-state",
+      "description": "SPI data output to the host."
+    },
+    {
+      "id": "8",
+      "name": "IRQ",
+      "type": "digital",
+      "direction": "output",
+      "level": "3.3 V logic",
+      "description": "Active-low interrupt output for RX data ready, TX complete, and maximum retransmit events."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": ["1", "3", "5", "7"],
+      "right": ["2", "4", "6", "8"]
+    },
+    "label": "nRF24L01+",
+    "minSize": { "width": 7, "height": 5 }
+  }
+}

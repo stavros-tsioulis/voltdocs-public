@@ -6,7 +6,7 @@ tags: [bno055, imu, orientation, sensor-fusion, quaternion, euler, 9-dof, bosch,
 status: published
 summary: >-
   Bosch Sensortec System in Package (SiP) integrating a 3-axis 14-bit accelerometer, 3-axis 16-bit gyroscope, 3-axis geomagnetic sensor, and 32-bit Cortex-M0+ MCU running sensor fusion software.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Bosch Sensortec
   ic_part_numbers: [BNO055]
@@ -31,6 +31,10 @@ highlights:
   - output_formats
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard BNO055 breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

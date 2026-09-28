@@ -1,0 +1,141 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "A0",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "2",
+      "name": "A1",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "3",
+      "name": "A2",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "4",
+      "name": "P0",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "5",
+      "name": "P1",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "6",
+      "name": "P2",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "7",
+      "name": "P3",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "8",
+      "name": "VSS",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "9",
+      "name": "P4",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "10",
+      "name": "P5",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "11",
+      "name": "P6",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "12",
+      "name": "P7",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "13",
+      "name": "INT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Active-low interrupt output.",
+      "drive": "open-drain"
+    },
+    {
+      "id": "14",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input"
+    },
+    {
+      "id": "15",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Open-drain I2C data.",
+      "drive": "open-drain"
+    },
+    {
+      "id": "16",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.5,
+        "nominal": 5.0,
+        "max": 6.0
+      }
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    },
+    "label": "PCF8574",
+    "minSize": {
+      "width": 7,
+      "height": 10
+    }
+  }
+}

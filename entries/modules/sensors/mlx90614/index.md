@@ -18,22 +18,32 @@ It measures two distinct temperatures simultaneously: **Ambient temperature ($T_
 
 ## Pinout
 
-### Standard 4-Pin TO-39 Package & GY-906 Breakout Board
+```pinout
+module
+```
 
+```pinout
+package
 ```
-           ┌──────────┐
-           │ MLX90614 │
-           └──────────┘
-            │  │  │  │
-            1  2  3  4
-```
+
+
+### GY-906 Breakout
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `SCL` / `VNK` | Digital Input | SMBus Clock line (or PWM output line) |
-| 2 | `SDA` / `PWM` | Digital I/O | SMBus Data line (open-drain, requires pull-up resistor) |
-| 3 | `VDD` / `VCC` | Power | Supply voltage (+3.3 V or +5.0 V depending on chip suffix) |
-| 4 | `VSS` / `GND` | Power | Ground (0 V) |
+| 1 | `VIN` | Power Input | Regulated module supply |
+| 2 | `GND` | Power | Ground |
+| 3 | `SCL` | Digital Input | SMBus clock |
+| 4 | `SDA` / `PWM` | Digital I/O | SMBus data or PWM output |
+
+### Bare TO-39 Package
+
+| Pin | Name | Type | Description |
+|---|---|---|---|
+| 1 | `SCL` / `Vz` | Digital Input | SMBus clock / zener terminal |
+| 2 | `SDA` / `PWM` | Digital I/O | SMBus data or PWM output |
+| 3 | `VDD` | Power Input | Supply; valid range depends on Axx/Bxx suffix |
+| 4 | `VSS` | Power | Ground and metal-can connection |
 
 ## Specifications
 

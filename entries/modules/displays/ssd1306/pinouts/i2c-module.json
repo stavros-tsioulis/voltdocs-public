@@ -1,0 +1,72 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "2",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.0
+      }
+    },
+    {
+      "id": "3",
+      "name": "SCL / SCK",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.3
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "A 5 V-capable module supply does not guarantee 5 V-tolerant signal pins; verify level shifting on the specific board."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "drive": "open-drain",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.3
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "A 5 V-capable module supply does not guarantee 5 V-tolerant signal pins; verify level shifting on the specific board."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "top": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "label": "SSD1306 I2C",
+    "minSize": {
+      "width": 8,
+      "height": 5
+    }
+  }
+}

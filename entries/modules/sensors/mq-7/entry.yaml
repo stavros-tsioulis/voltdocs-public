@@ -6,7 +6,7 @@ tags: [mq7, mq-7, gas, carbon-monoxide, co, safety, sensor, winsen]
 status: published
 summary: >-
   Winsen Electronics semiconductor carbon monoxide (CO) sensor module utilizing high-low temperature cycling (5V / 1.4V) to detect toxic CO gas concentrations from 20 to 2000 ppm.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Winsen Electronics
   ic_part_numbers: [MQ-7]
@@ -31,6 +31,10 @@ highlights:
   - detection_range_ppm_max
   - target_gases
 body: index.md
+pinouts:
+  - id: module
+    title: Four-pin MQ-7 comparator breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

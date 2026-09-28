@@ -18,36 +18,24 @@ It integrates a BCD Code-B decoder, multiplex scan circuitry, segment and digit 
 
 ## Pinout
 
-### 24-Pin DIP Package / Standard 8x8 Dot Matrix Module Input & Output Headers
+```pinout
+package
+```
 
-```
-           ┌──────────┐
-      DIN ──│ 1     24 │── DIG 0
-    DIG 0 ──│ 2     23 │── DIG 4
-    DIG 4 ──│ 3     22 │── GND
-      GND ──│ 4     21 │── DIG 2
-    DIG 2 ──│ 5     20 │── DIG 3
-    DIG 3 ──│ 6     19 │── VCC
-    DIG 7 ──│ 7     18 │── ISET
-      GND ──│ 8     17 │── SEGA
-    DIG 5 ──│ 9     16 │── SEGB
-    DIG 1 ──│ 10    15 │── SEGC
-  LOAD/CS ──│ 11    14 │── SEGD
-      CLK ──│ 12    13 │── DOUT
-           └──────────┘
-```
+
+### 24-Pin DIP / SO Package
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `DIN` | Digital Input | Serial Data Input (Data clocked into 16-bit shift register on `CLK` rising edge) |
-| 2, 3, 5, 6, 7, 9, 10, 21, 23 | `DIG 0`–`DIG 7` | Driver Output | 8 Digit Cathode Drive lines (sink current from common-cathode LEDs) |
-| 4, 8, 22 | `GND` | Power | Ground (0 V) |
-| 11 | `LOAD` / `CS` | Digital Input | Chip Select / Load input (Latch data on `LOAD` rising edge) |
-| 12 | `CLK` | Digital Input | Serial Clock input (up to 10 MHz) |
-| 13 | `DOUT` | Digital Output | Serial Data Output for daisy-chaining to next MAX7219 `DIN` |
-| 14–17, 20, 24 | `SEGA`–`SEGG`, `DP` | Driver Output | 8 Segment Anode Drive lines (source current to LED segments) |
-| 18 | `ISET` | Power Input | Connects to $R_{SET}$ resistor to $V_{CC}$ to set peak segment current |
-| 19 | `VCC` | Power Input | Supply voltage (+4.0 V to +5.5 V DC) |
+| 1 | `DIN` | Digital Input | Serial data input |
+| 2, 3, 5–8, 10, 11 | `DIG0`, `DIG4`, `DIG6`, `DIG2`, `DIG3`, `DIG7`, `DIG5`, `DIG1` | Driver Output | Digit cathode-current sinks |
+| 4, 9 | `GND` | Power | Ground; connect both pins |
+| 12 | `LOAD` / `CS` | Digital Input | Active-low chip select and latch input |
+| 13 | `CLK` | Digital Input | Serial clock |
+| 14–17, 20–23 | `SEGA`, `SEGF`, `SEGB`, `SEGG`, `SEGC`, `SEGE`, `SEGDP`, `SEGD` | Driver Output | Segment current sources |
+| 18 | `ISET` | Analog Input | Segment-current programming resistor terminal |
+| 19 | `V+` | Power Input | +4.0 V to +5.5 V supply |
+| 24 | `DOUT` | Digital Output | Push-pull serial data output for daisy chaining |
 
 ## Specifications
 

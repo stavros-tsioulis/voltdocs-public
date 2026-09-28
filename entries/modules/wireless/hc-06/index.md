@@ -18,16 +18,21 @@ Unlike the dual-mode HC-05 (which can operate as master or slave), the HC-06 is 
 
 ## Pinout
 
-### Standard 4-Pin Baseboard Header
+```pinout
+module
+```
+
+
+### Standard Four-Pin Baseboard Header
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `STATE` / `NC` | Digital Output | Connection status indicator (`HIGH` = Connected, `LOW` = Unconnected) |
-| 2 | `RXD` | Digital Input | UART Receive line (3.3V TTL logic level) |
-| 3 | `TXD` | Digital Output | UART Transmit line (3.3V TTL logic level) |
-| 4 | `GND` | Power | Ground (0 V) |
-| 5 | `VCC` | Power | Supply voltage input (+3.6 V to +6.0 V DC) |
-| 6 | `EN` / `KEY` | Digital Input | Unused on standard HC-06 modules |
+| 1 | `VCC` | Power | Baseboard supply input (+3.6 V to +6.0 V) |
+| 2 | `GND` | Power | Ground |
+| 3 | `TXD` | Digital Output | 3.3 V UART transmit |
+| 4 | `RXD` | Digital Input | 3.3 V UART receive |
+
+> [!WARNING] The regulator protects only the supply input. Level-shift a 5 V host transmitter before connecting it to `RXD`.
 
 ## Specifications
 

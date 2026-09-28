@@ -1,0 +1,59 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "SCL / Vz",
+      "type": "clock",
+      "direction": "input"
+    },
+    {
+      "id": "2",
+      "name": "SDA / PWM",
+      "type": "bus",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "3",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.0,
+        "nominal": 3.3,
+        "max": 5.5
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Allowed supply depends on the exact Axx/Bxx suffix."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "VSS",
+      "type": "ground",
+      "description": "Ground and metal-can connection."
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "4",
+        "1"
+      ],
+      "right": [
+        "2",
+        "3"
+      ]
+    },
+    "label": "MLX90614",
+    "minSize": {
+      "width": 5,
+      "height": 5
+    }
+  }
+}

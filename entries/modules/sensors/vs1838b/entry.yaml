@@ -6,7 +6,7 @@ tags: [vs1838b, hx1838, ir, infrared, receiver, remote, 38khz, ky-022, nec, demu
 status: published
 summary: >-
   Generic 38 kHz miniaturized infrared receiver module integrating a PIN photodiode and preamplifier outputting active-LOW demodulated digital pulses for IR remote controls (NEC, Sony, RC-5 protocols).
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Generic (Vishay / Everlight compatible)
   ic_part_numbers: [VS1838B, HX1838, TSOP1838]
@@ -30,6 +30,13 @@ highlights:
   - reception_distance_m
   - output_logic
 body: index.md
+pinouts:
+  - id: package
+    title: Bare VS1838B receiver
+    path: pinouts/package.json
+  - id: module
+    title: KY-022-style breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

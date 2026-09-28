@@ -1,0 +1,60 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "CLK",
+      "type": "clock",
+      "direction": "input",
+      "description": "Serial clock input."
+    },
+    {
+      "id": "2",
+      "name": "DIO",
+      "type": "bus",
+      "direction": "bidirectional",
+      "drive": "open-drain",
+      "description": "Bidirectional serial data.",
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "On many 5 V modules DIO is pulled up to VCC; use level translation with a non-5-V-tolerant host."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 5.0,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "label": "TM1637",
+    "minSize": {
+      "width": 8,
+      "height": 5
+    }
+  }
+}

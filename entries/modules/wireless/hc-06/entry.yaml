@@ -6,7 +6,7 @@ tags: [hc-06, hc06, bluetooth, serial, uart, wireless, csr, slave]
 status: published
 summary: >-
   Generic slave-only Bluetooth 2.0 + EDR serial pass-through module based on the CSR BC417 chipset for wireless UART serial communication with smartphones and PCs.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Generic (CSR BC417 chipset)
   ic_part_numbers: [BC417143, HC-06]
@@ -31,6 +31,10 @@ highlights:
   - default_baud_rate
   - operating_mode
 body: index.md
+pinouts:
+  - id: module
+    title: Four-pin HC-06 baseboard
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

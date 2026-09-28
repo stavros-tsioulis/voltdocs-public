@@ -17,6 +17,11 @@ The breakout module features an onboard 78M05 5V linear voltage regulator (which
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard Red L298N Breakout Module
 
 | Terminal / Pin | Name | Type | Description |

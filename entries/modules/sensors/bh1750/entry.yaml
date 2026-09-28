@@ -7,7 +7,7 @@ status: published
 summary: >-
   ROHM Semiconductor 16-bit digital ambient light sensor IC with I2C interface,
   outputting illuminance directly in lux (1 to 65535 lx) with human-eye spectral response.
-updatedAt: "2026-07-26"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: ROHM Semiconductor
   ic_part_numbers: [BH1750FVI]
@@ -30,6 +30,10 @@ highlights:
   - measurement_range_lux_max
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 5-pin breakout
+    path: pinouts/module.json
 assets:
   - id: photo
     kind: image

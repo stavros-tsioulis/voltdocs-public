@@ -6,7 +6,7 @@ tags: [ssd1306, oled, display, 128x64, 128x32, i2c, spi, solomon-systech]
 status: published
 summary: >-
   Solomon Systech single-chip CMOS OLED/PLED driver with controller for 128x64 dot-matrix graphic display systems, supporting I2C and SPI interfaces.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Solomon Systech
   ic_part_numbers: [SSD1306, SSD1306BZ]
@@ -33,6 +33,13 @@ highlights:
   - i2c_address_default
   - interfaces
 body: index.md
+pinouts:
+  - id: i2c-module
+    title: 4-pin I2C display module
+    path: pinouts/i2c-module.json
+  - id: spi-module
+    title: 7-pin SPI display module
+    path: pinouts/spi-module.json
 assets:
   - id: datasheet
     kind: datasheet

@@ -19,6 +19,11 @@ The module includes an ultrasonic transmitter transducer, a receiver transducer,
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 4-Pin Header
 
 | Pin | Name | Type | Description |

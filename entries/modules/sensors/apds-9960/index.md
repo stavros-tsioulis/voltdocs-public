@@ -19,16 +19,23 @@ It features four directional photodiode sensors (North, South, East, West) and a
 
 ## Pinout
 
-### Standard 5-Pin / 6-Pin Breakout Header
+```pinout
+module
+```
+
+
+### SparkFun-Style Six-Pin Breakout
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `VCC` | Power | Supply voltage (+2.4 V to +3.6 V DC, 3.3V recommended) |
-| 2 | `GND` | Power | Ground (0 V) |
-| 3 | `SDA` | Digital I/O | I2C Serial Data line |
-| 4 | `SCL` | Digital Input | I2C Serial Clock input |
-| 5 | `INT` | Digital Output | Active-LOW Interrupt pin (alerts MCU on gesture or proximity event) |
-| 6 | `VL` | Power | Power for internal IR LED (connected to VCC on 3.3V breakouts) |
+| 1 | `VL` | Power Input | IR LED rail, +3.0 V to +4.5 V |
+| 2 | `GND` | Power | Ground |
+| 3 | `VCC` | Power Input | Sensor supply, +2.4 V to +3.6 V |
+| 4 | `SDA` | Digital I/O | Open-drain I²C data |
+| 5 | `SCL` | Digital Input | I²C clock |
+| 6 | `INT` | Digital Output | Active-low open-drain interrupt |
+
+This board is a 3.3 V design; regulated clones can have different headers and limits.
 
 ## Specifications
 

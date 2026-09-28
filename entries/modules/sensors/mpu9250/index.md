@@ -19,6 +19,11 @@ It replaces the legacy MPU6050 + HMC5883L dual-chip setups, providing complete 9
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard GY-9250 10-Pin Breakout Header
 
 | Pin | Name | Type | Description |

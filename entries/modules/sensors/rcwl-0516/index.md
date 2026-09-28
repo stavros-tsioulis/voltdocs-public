@@ -19,6 +19,11 @@ Unlike Passive Infrared (PIR) sensors (such as the HC-SR501) which rely on therm
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 5-Pin Module Header
 
 | Pin | Name | Type | Description |

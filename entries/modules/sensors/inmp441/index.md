@@ -20,16 +20,19 @@ Because it outputs 24-bit digital audio directly over I2S (avoiding analog noise
 
 ## Pinout
 
-### Standard 6-Pin Breakout Header
+```pinout
+module
+```
 
-| Pin | Name | Type | Description |
-|---|---|---|---|
-| 1 | `VDD` | Power | Supply voltage (+1.8 V to +3.6 V DC, 3.3V recommended) |
-| 2 | `GND` | Power | Ground (0 V) |
-| 3 | `SD` | Digital Output | I2S Serial Data output line |
-| 4 | `L/R` | Digital Input | Left/Right Channel Select (`LOW` = Left channel, `HIGH` = Right channel) |
-| 5 | `WS` | Digital Input | I2S Word Select / Frame Clock line (LRCK) |
-| 6 | `SCK` | Digital Input | I2S Serial Bit Clock line (BCLK) |
+
+### Common 2×3 Breakout Header
+
+| Row | Contacts (left → right) |
+|---|---|
+| Top | `SCK`, `WS`, `L/R` |
+| Bottom | `SD`, `VDD`, `GND` |
+
+`SCK` and `WS` are I²S clock inputs, `SD` is the tri-state data output, and `L/R` selects the channel and must not float. All pins are limited to the 1.8–3.3 V domain.
 
 ## Specifications
 

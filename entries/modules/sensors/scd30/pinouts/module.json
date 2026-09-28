@@ -1,0 +1,84 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "TX / SCL",
+      "type": "clock",
+      "direction": "bidirectional",
+      "description": "Modbus TX or I²C SCL."
+    },
+    {
+      "id": "4",
+      "name": "RX / SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Modbus RX or I²C SDA."
+    },
+    {
+      "id": "5",
+      "name": "RDY",
+      "type": "digital",
+      "direction": "output"
+    },
+    {
+      "id": "6",
+      "name": "PWM",
+      "type": "digital",
+      "direction": "output"
+    },
+    {
+      "id": "7",
+      "name": "SEL",
+      "type": "digital",
+      "direction": "input",
+      "description": "Interface select.",
+      "voltage": {
+        "max": 4
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "SEL must not exceed 4 V."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "label": "SCD30",
+    "minSize": {
+      "width": 9,
+      "height": 8
+    }
+  }
+}

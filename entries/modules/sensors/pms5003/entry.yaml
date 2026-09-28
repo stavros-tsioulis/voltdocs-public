@@ -6,7 +6,7 @@ tags: [pms5003, pms7003, pm2.5, pm1.0, pm10, particulate-matter, dust, air-quali
 status: published
 summary: >-
   Plantower digital universal particle concentration sensor using laser scattering to measure real-time PM1.0, PM2.5, and PM10 mass concentration (µg/m³) over a UART serial interface.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Plantower
   ic_part_numbers: [PMS5003, PMS7003, PMS3003]
@@ -32,6 +32,13 @@ highlights:
   - pm25_concentration_range_ug_m3_max
   - default_baud_rate
 body: index.md
+pinouts:
+  - id: pms5003
+    title: PMS5003 eight-pin connector
+    path: pinouts/pms5003.json
+  - id: pms7003
+    title: PMS7003 keyed 2×5 connector
+    path: pinouts/pms7003.json
 assets:
   - id: datasheet
     kind: datasheet

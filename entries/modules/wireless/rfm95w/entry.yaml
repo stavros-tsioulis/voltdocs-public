@@ -6,7 +6,7 @@ tags: [rfm95w, rfm95, lora, lorawan, sx1276, hoperf, 868mhz, 915mhz, spi, wirele
 status: published
 summary: >-
   HopeRF ultra-long range transceiver module based on the Semtech SX1276 LoRa chip, operating in the 868 MHz / 915 MHz ISM band with +20 dBm output power and high interference immunity.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: HopeRF / Semtech
   ic_part_numbers: [RFM95W, RFM95W-868S2, RFM95W-915S2, SX1276]
@@ -31,6 +31,10 @@ highlights:
   - max_transmit_power_dbm
   - receiver_sensitivity_dbm
 body: index.md
+pinouts:
+  - id: module
+    title: RFM95W castellated module
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

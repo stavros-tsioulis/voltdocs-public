@@ -18,6 +18,11 @@ Unlike quasi-bidirectional expanders (such as PCF8574), the MCP23017 contains ex
 
 ## Pinout
 
+```pinout
+package
+```
+
+
 ### 28-Pin DIP / SOIC Package
 
 ```

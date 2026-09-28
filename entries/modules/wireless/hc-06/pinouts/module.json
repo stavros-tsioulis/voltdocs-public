@@ -1,0 +1,68 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.6,
+        "nominal": 5.0,
+        "max": 6.0
+      }
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "TXD",
+      "type": "bus",
+      "direction": "output",
+      "description": "3.3 V UART transmit.",
+      "voltage": {
+        "max": 3.6
+      },
+      "drive": "push-pull",
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "4",
+      "name": "RXD",
+      "type": "bus",
+      "direction": "input",
+      "description": "3.3 V UART receive.",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Use level translation when driven by a 5 V UART transmitter."
+        }
+      ],
+      "level": "3.3 V logic"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "label": "HC-06",
+    "minSize": {
+      "width": 7,
+      "height": 6
+    }
+  }
+}

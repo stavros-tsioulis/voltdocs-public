@@ -18,6 +18,11 @@ The device maintains seconds, minutes, hours, day, date, month, and year with le
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard DS3231 Breakout Header
 
 | Pin | Name | Type | Description |

@@ -18,6 +18,15 @@ It integrates a PIN photodiode, high-gain preamplifier, automatic gain control (
 
 ## Pinout
 
+```pinout
+package
+```
+
+```pinout
+module
+```
+
+
 ### Standard Metal-Shielded Component Pins (Facing front bubble, pins down)
 
 ```

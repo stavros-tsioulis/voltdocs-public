@@ -6,7 +6,7 @@ tags: [lm35, lm35dz, temperature, analog, sensor, texas-instruments, centigrade]
 status: published
 summary: >-
   Texas Instruments precision integrated-circuit temperature sensor whose output voltage is linearly proportional to the Celsius (Centigrade) temperature (10 mV/°C).
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Texas Instruments
   ic_part_numbers: [LM35, LM35DZ, LM35CZ, LM35AH]
@@ -29,6 +29,10 @@ highlights:
   - scale_factor_mv_per_c
   - temperature_accuracy_c
 body: index.md
+pinouts:
+  - id: package
+    title: TO-92 package
+    path: pinouts/package.json
 assets:
   - id: datasheet
     kind: datasheet

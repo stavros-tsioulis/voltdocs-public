@@ -18,18 +18,24 @@ It includes a 12-bit ADC, a programmable multiplier for onboard current (in Ampe
 
 ## Pinout
 
-### Standard INA219 Breakout Board Header & Screw Terminal
+```pinout
+module
+```
 
-| Pin / Terminal | Name | Type | Description |
+
+### Classic INA219 Breakout
+
+| Contact | Name | Type | Description |
 |---|---|---|---|
-| Screw Terminal 1 | `VIN+` | High-Side Power Input | Connect to Positive Power Supply Output / Battery |
-| Screw Terminal 2 | `VIN-` | High-Side Load Connection | Connect to Positive Load terminal |
-| Header Pin 1 | `VCC` | Power | Logic supply (+3.0 V to +5.5 V DC) |
-| Header Pin 2 | `GND` | Power | Logic Ground (0 V) |
-| Header Pin 3 | `SCL` | Digital Input | I2C Serial Clock input |
-| Header Pin 4 | `SDA` | Digital I/O | I2C Serial Data line |
-| Header Pin 5 | `Vin+` | Power | High-Side Voltage Input (bridged to terminal `VIN+`) |
-| Header Pin 6 | `Vin-` | Power | High-Side Voltage Output (bridged to terminal `VIN-`) |
+| H1 | `VCC` | Power Input | Logic supply, +3.0 V to +5.5 V |
+| H2 | `GND` | Power | Ground |
+| H3 | `SCL` | Digital Input | I²C clock |
+| H4 | `SDA` | Digital I/O | Open-drain I²C data |
+| H5 | `VIN−` | Power / Passive | Shunt-load side, 0 V to 26 V common mode |
+| H6 | `VIN+` | Power / Passive | Shunt-supply side, 0 V to 26 V common mode |
+| T1–T2 | `VIN−`, `VIN+` | Screw Terminal | Duplicates of H5–H6 |
+
+The measurement side is not galvanically isolated and is not suitable for mains wiring.
 
 ## Specifications
 

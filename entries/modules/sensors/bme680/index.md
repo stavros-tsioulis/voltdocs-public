@@ -19,6 +19,11 @@ Designed for smart home air quality monitoring (ESPHome BSEC integration, Home A
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 6-Pin Breakout Module Header
 
 | Pin | Name | Type | Description |

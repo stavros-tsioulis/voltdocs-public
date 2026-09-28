@@ -19,12 +19,17 @@ It features high resolution up to 13 bits at $\pm 16\text{ g}$ ($4\text{ mg/LSB}
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard GY-291 Breakout Header
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `VCC` | Power | Supply voltage (+3.3 V to +5.0 V DC) |
-| 2 | `GND` | Power | Ground (0 V) |
+| 1 | `GND` | Power | Ground (0 V) |
+| 2 | `VCC` | Power | Supply voltage (+3.3 V to +5.0 V DC) |
 | 3 | `CS` | Digital Input | Chip Select (`HIGH` = I2C Mode, `LOW` = SPI Mode) |
 | 4 | `INT1` | Digital Output | Programmable Interrupt 1 pin |
 | 5 | `INT2` | Digital Output | Programmable Interrupt 2 pin |

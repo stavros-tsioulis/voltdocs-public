@@ -1,0 +1,45 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "OUT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Active-low IR output."
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.7,
+        "nominal": 5.0,
+        "max": 5.5
+      }
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "label": "VS1838B",
+    "minSize": {
+      "width": 5,
+      "height": 5
+    }
+  }
+}

@@ -6,7 +6,7 @@ tags: [bme280, sensor, temperature, humidity, pressure, altitude, i2c, spi, bosc
 status: published
 summary: >-
   Bosch Sensortec digital 3-in-1 environmental sensor combining high-linearity, high-accuracy pressure, humidity, and temperature measurement in an ultra-compact LGA package.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Bosch Sensortec
   ic_part_numbers: [BME280]
@@ -34,6 +34,10 @@ highlights:
   - pressure_range_hpa_max
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 6-pin breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

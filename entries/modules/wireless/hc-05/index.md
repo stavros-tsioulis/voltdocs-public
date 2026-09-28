@@ -18,6 +18,10 @@ Unlike the slave-only HC-06 module, the HC-05 can operate in both **Master** and
 
 ## Pinout
 
+```pinout
+module
+```
+
 ### Standard 6-Pin Breakout Header
 
 | Pin | Name | Type | Description |

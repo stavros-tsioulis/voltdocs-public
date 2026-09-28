@@ -18,6 +18,11 @@ It is widely bundled in beginner robotics kits and hobby projects for controllin
 
 ## Terminals & cable wiring
 
+```pinout
+connector
+```
+
+
 The SG90 servo terminates in a 3-pin 0.1" (2.54 mm) female JR/Futaba connector cable:
 
 | Pin | Cable Color | Signal | Description |

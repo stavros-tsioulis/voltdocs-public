@@ -6,7 +6,7 @@ tags: [rcwl0516, rcwl-0516, radar, microwave, doppler, motion, presence, sensor,
 status: published
 summary: >-
   Generic doppler radar microwave motion sensor module operating at 3.18 GHz, capable of detecting movement through walls, glass, and plastic obstacles with a 360-degree detection angle.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Generic (RCWL)
   ic_part_numbers: [RCWL-0516, RCWL-9196 IC]
@@ -31,6 +31,10 @@ highlights:
   - detection_distance_m
   - detection_angle_deg
 body: index.md
+pinouts:
+  - id: module
+    title: RCWL-0516 radar module
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

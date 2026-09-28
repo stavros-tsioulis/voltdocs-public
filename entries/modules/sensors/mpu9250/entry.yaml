@@ -6,7 +6,7 @@ tags: [mpu9250, mpu-9250, imu, gyro, accelerometer, magnetometer, compass, 9-dof
 status: published
 summary: >-
   InvenSense / TDK 9-axis MotionTracking device combining a 3-axis gyroscope, 3-axis accelerometer, and AK8963 3-axis digital compass / magnetometer in a single QFN package with I2C and SPI interfaces.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: InvenSense / TDK
   ic_part_numbers: [MPU-9250, MPU9250]
@@ -32,6 +32,10 @@ highlights:
   - gyro_ranges_dps
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: GY-9250 ten-pin breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

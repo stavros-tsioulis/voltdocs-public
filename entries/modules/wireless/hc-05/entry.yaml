@@ -7,7 +7,7 @@ status: published
 summary: >-
   Popular Bluetooth v2.0+EDR serial port profile (SPP) transceiver module based on
   CSR BC417 chipset, supporting Master and Slave role switching via AT commands over UART.
-updatedAt: "2026-07-26"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Generic (CSR BC417)
   ic_part_numbers: [HC-05, BC417143]
@@ -31,6 +31,10 @@ highlights:
   - default_baud_rate
   - range_m
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 6-pin breakout
+    path: pinouts/module.json
 assets:
   - id: photo
     kind: image

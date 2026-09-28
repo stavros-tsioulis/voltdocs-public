@@ -6,7 +6,7 @@ tags: [hc-sr04, ultrasonic, distance, rangefinder, sonar, obstacle-avoidance, ro
 status: published
 summary: >-
   Generic 40 kHz ultrasonic distance ranging module providing non-contact measurement from 2 cm to 400 cm with a 3 mm range accuracy using pulse-echo timing.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Generic (Cytron / various clone makers)
   ic_part_numbers: [HC-SR04]
@@ -33,6 +33,10 @@ highlights:
   - ultrasonic_frequency_khz
   - trigger_pulse_min_us
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 4-pin ultrasonic module
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

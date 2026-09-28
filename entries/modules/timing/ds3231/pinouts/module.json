@@ -1,0 +1,76 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "32K",
+      "type": "digital",
+      "direction": "output",
+      "description": "32.768 kHz output.",
+      "drive": "open-drain"
+    },
+    {
+      "id": "2",
+      "name": "SQW / INT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Active-low interrupt or square-wave output.",
+      "drive": "open-drain"
+    },
+    {
+      "id": "3",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input"
+    },
+    {
+      "id": "4",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "drive": "open-drain"
+    },
+    {
+      "id": "5",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.3,
+        "nominal": 3.3,
+        "max": 5.5
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Many ZS-042 boards trickle-charge the backup cell. Do not fit a primary CR2032 unless the charging path is disabled."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "label": "DS3231",
+    "minSize": {
+      "width": 8,
+      "height": 6
+    }
+  }
+}

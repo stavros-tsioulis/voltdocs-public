@@ -6,7 +6,7 @@ tags: [inmp441, microphone, mems, i2s, audio, invensense, tdk, esp32, voice]
 status: published
 summary: >-
   InvenSense / TDK high-performance, low-power, digital-output omnidirectional MEMS microphone with an integrated I2S interface for high-quality audio recording and voice control.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: InvenSense / TDK
   ic_part_numbers: [INMP441, INMP441ACEZ]
@@ -30,6 +30,10 @@ highlights:
   - snr_dba
   - max_acoustic_input_db_spl
 body: index.md
+pinouts:
+  - id: module
+    title: Common 2×3 microphone breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

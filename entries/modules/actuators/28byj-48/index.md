@@ -19,6 +19,15 @@ The motor incorporates an internal 1/64 gear reduction gearbox that produces hig
 
 ## Terminals & cable pinout
 
+```pinout
+motor
+```
+
+```pinout
+driver
+```
+
+
 ### Motor 5-Pin JST Connector (Plugs into ULN2003 board)
 
 | Pin | Wire Color | Coil Connection | Description |

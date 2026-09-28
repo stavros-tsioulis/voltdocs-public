@@ -1,0 +1,70 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "3V3",
+      "name": "3V3",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Regulated output, not module input.",
+      "voltage": {
+        "nominal": 3.3,
+        "max": 3.3
+      }
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "OUT",
+      "name": "OUT",
+      "type": "digital",
+      "direction": "output",
+      "description": "3.3 V motion output.",
+      "voltage": {
+        "max": 3.3
+      },
+      "drive": "push-pull",
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "VIN",
+      "name": "VIN",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4,
+        "nominal": 5,
+        "max": 28
+      }
+    },
+    {
+      "id": "CDS",
+      "name": "CDS",
+      "type": "analog",
+      "direction": "input",
+      "description": "Light-inhibit input; may float."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "3V3",
+        "GND",
+        "OUT",
+        "VIN",
+        "CDS"
+      ]
+    },
+    "label": "RCWL-0516",
+    "minSize": {
+      "width": 7,
+      "height": 7
+    }
+  }
+}

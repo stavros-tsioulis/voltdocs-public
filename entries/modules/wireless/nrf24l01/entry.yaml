@@ -7,7 +7,7 @@ status: published
 summary: >-
   Nordic Semiconductor 2.4 GHz ISM band ultra-low power RF transceiver IC (nRF24L01+).
   Current revision (v2.0 / nRF24L01+) adds 250 kbps mode, -94 dBm sensitivity, RPD, and dynamic payloads.
-updatedAt: "2026-07-26"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Nordic Semiconductor
   ic_part_numbers: [nRF24L01P-R7, nRF24L01P-SAMPLE]
@@ -32,6 +32,10 @@ highlights:
   - data_rate_kbps
   - output_power_dbm_max
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 8-pin module header
+    path: pinouts/module.json
 assets:
   - id: photo
     kind: image

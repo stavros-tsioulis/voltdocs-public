@@ -18,6 +18,10 @@ The chip contains 4 independent half-H channels (capable of driving 2 bidirectio
 
 ## Pin configuration
 
+```pinout
+package
+```
+
 ### 16-Pin DIP / SOIC Package
 
 ```

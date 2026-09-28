@@ -1,0 +1,134 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "SDA / NSS / CS",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "SPI chip select; also I2C data or UART address input.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Do not drive this input directly from a 5 V GPIO; use level translation."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "SCK",
+      "type": "clock",
+      "direction": "input",
+      "description": "SPI serial clock.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Do not drive this input directly from a 5 V GPIO; use level translation."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "MOSI",
+      "type": "bus",
+      "direction": "input",
+      "description": "SPI host-to-reader data.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Do not drive this input directly from a 5 V GPIO; use level translation."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "MISO",
+      "type": "bus",
+      "direction": "output",
+      "description": "SPI reader-to-host data.",
+      "drive": "tri-state",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      }
+    },
+    {
+      "id": "5",
+      "name": "IRQ",
+      "type": "digital",
+      "direction": "output",
+      "description": "Programmable interrupt request.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      }
+    },
+    {
+      "id": "6",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "7",
+      "name": "RST",
+      "type": "digital",
+      "direction": "input",
+      "description": "Active-low reset and power-down input.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Do not drive this input directly from a 5 V GPIO; use level translation."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "3.3V",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.5,
+        "nominal": 3.3,
+        "max": 3.6
+      }
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "8",
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    "label": "RC522",
+    "minSize": {
+      "width": 7,
+      "height": 9
+    }
+  }
+}

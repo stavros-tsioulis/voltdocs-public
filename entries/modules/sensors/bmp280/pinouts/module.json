@@ -1,0 +1,67 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": { "nominal": 3.3, "max": 5.0 },
+      "description": "Breakout-board supply input. Regulated six-pin modules commonly accept 3.3 V or 5 V.",
+      "notes": [
+        { "severity": "danger", "text": "Bare BMP280 devices and unregulated breakouts are limited to 3.6 V. Verify the board before applying 5 V." }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "SCL / SCK",
+      "type": "clock",
+      "direction": "input",
+      "level": "I2C or SPI logic",
+      "functions": ["I2C SCL", "SPI SCK"],
+      "description": "Serial clock input."
+    },
+    {
+      "id": "4",
+      "name": "SDA / SDI",
+      "type": "bus",
+      "direction": "bidirectional",
+      "level": "I2C or SPI logic",
+      "functions": ["I2C SDA", "SPI SDI", "3-wire SPI SDI/SDO"],
+      "description": "I2C data or SPI data input; bidirectional in 3-wire SPI mode."
+    },
+    {
+      "id": "5",
+      "name": "CSB",
+      "type": "bus",
+      "direction": "input",
+      "level": "Digital interface supply",
+      "description": "Active-low SPI chip select. Hold high to use I2C."
+    },
+    {
+      "id": "6",
+      "name": "SDO",
+      "type": "bus",
+      "direction": "output",
+      "drive": "tri-state",
+      "level": "Digital interface supply",
+      "functions": ["SPI SDO", "I2C address select"],
+      "description": "SPI data output. In I2C mode, low selects address 0x76 and high selects 0x77."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": ["1", "2", "3", "4", "5", "6"]
+    },
+    "label": "BMP280",
+    "minSize": { "width": 8, "height": 5 }
+  }
+}

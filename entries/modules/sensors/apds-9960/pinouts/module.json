@@ -1,0 +1,86 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "VL",
+      "name": "VL",
+      "type": "power",
+      "direction": "power-in",
+      "description": "IR LED supply.",
+      "voltage": {
+        "min": 3.0,
+        "nominal": 3.3,
+        "max": 4.5
+      }
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "VCC",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.4,
+        "nominal": 3.3,
+        "max": 3.6
+      }
+    },
+    {
+      "id": "SDA",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "voltage": {
+        "max": 3.6
+      },
+      "drive": "open-drain",
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "SCL",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "INT",
+      "name": "INT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Active-low interrupt.",
+      "voltage": {
+        "max": 3.6
+      },
+      "drive": "open-drain",
+      "level": "3.3 V logic"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "VL",
+        "GND",
+        "VCC",
+        "SDA",
+        "SCL",
+        "INT"
+      ]
+    },
+    "label": "APDS-9960",
+    "minSize": {
+      "width": 8,
+      "height": 5
+    }
+  }
+}

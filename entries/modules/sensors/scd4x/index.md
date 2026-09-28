@@ -30,15 +30,23 @@ Using Sensirion's **PASens® Photoacoustic Sensing technology**, infrared emitte
 
 ## Pinout
 
-### Standard 5-Pin Breakout Header
+```pinout
+package
+```
 
-| Pin | Name | Type | Description |
+
+### SCD40 / SCD41 LGA Package
+
+| Pin(s) | Name | Type | Description |
 |---|---|---|---|
-| 1 | `VDD` | Power Input | Supply voltage (+2.4 V to +5.5 V DC) |
-| 2 | `GND` | Power | Ground (0 V) |
-| 3 | `SCL` | Digital Input | I2C Serial Clock input line |
-| 4 | `SDA` | Digital I/O | I2C Serial Data line |
-| 5 | `CAD` | Digital Input | I2C Address select (tie to GND) |
+| 1–5, 8–9, 11–14, 16–18 | `DNC` | Not Connected | Solder only to electrically floating lands |
+| 6, 20, 21 | `GND` | Power | Ground; pin 21 is the central underside pad |
+| 7 | `VDD` | Power Input | Main supply, +2.4 V to +5.5 V |
+| 10 | `SCL` | Digital Input | Open-drain I²C clock |
+| 15 | `SDA` | Digital I/O | Open-drain I²C data |
+| 19 | `VDDH` | Power Input | IR-source supply; tie to VDD close to the sensor |
+
+The graphic documents the bare LGA package. Breakout-board headers vary by manufacturer and need a board-specific pinout.
 
 ## Specifications
 

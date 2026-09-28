@@ -1,0 +1,51 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "VCC",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5
+      }
+    },
+    {
+      "id": "SDA/TXD",
+      "name": "SDA / TXD",
+      "type": "bus",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "SCL/RXD",
+      "name": "SCL / RXD",
+      "type": "clock",
+      "direction": "input"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "GND",
+        "VCC",
+        "SDA/TXD",
+        "SCL/RXD"
+      ]
+    },
+    "label": "PN532 I²C/HSU",
+    "minSize": {
+      "width": 7,
+      "height": 5
+    }
+  }
+}

@@ -18,6 +18,10 @@ The sensor integrates piezo-resistive pressure and temperature sensing elements,
 
 ## Pinout
 
+```pinout
+module
+```
+
 ### Standard 6-Pin Breakout Module
 
 | Pin | Name | Type | Description |

@@ -6,7 +6,7 @@ tags: [mq2, mq-2, gas, smoke, lpg, propane, methane, hydrogen, sensor, winsen]
 status: published
 summary: >-
   Winsen Electronics tin-dioxide (SnO2) semiconductor gas sensor module sensitive to LPG, propane, methane, hydrogen, alcohol, and smoke, providing analog concentration output and digital comparator threshold output.
-updatedAt: "2026-07-27"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Winsen Electronics
   ic_part_numbers: [MQ-2]
@@ -30,6 +30,10 @@ highlights:
   - detection_range_ppm_max
   - target_gases
 body: index.md
+pinouts:
+  - id: module
+    title: Standard MQ-2 breakout
+    path: pinouts/module.json
 assets:
   - id: photo
     kind: image

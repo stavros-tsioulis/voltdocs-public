@@ -6,7 +6,7 @@ tags: [l298n, motor-driver, h-bridge, dc-motor, stepper, stmicroelectronics, rob
 status: published
 summary: >-
   STMicroelectronics high-voltage, high-current dual full-bridge driver IC/module capable of driving two DC motors or one bipolar stepper motor up to 46V/2A per channel.
-updatedAt: "2026-07-27"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: STMicroelectronics
   ic_part_numbers: [L298N, L298]
@@ -28,6 +28,10 @@ highlights:
   - channels
   - total_power_dissipation_w
 body: index.md
+pinouts:
+  - id: module
+    title: Standard L298N motor-driver module
+    path: pinouts/module.json
 assets:
   - id: photo
     kind: image

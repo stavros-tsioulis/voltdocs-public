@@ -1,0 +1,88 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "IP+",
+      "type": "other",
+      "direction": "passive"
+    },
+    {
+      "id": "2",
+      "name": "IP+",
+      "type": "other",
+      "direction": "passive"
+    },
+    {
+      "id": "3",
+      "name": "IP−",
+      "type": "other",
+      "direction": "passive"
+    },
+    {
+      "id": "4",
+      "name": "IP−",
+      "type": "other",
+      "direction": "passive"
+    },
+    {
+      "id": "5",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "6",
+      "name": "FILTER",
+      "type": "analog",
+      "direction": "passive",
+      "description": "External filter capacitor."
+    },
+    {
+      "id": "7",
+      "name": "VIOUT",
+      "type": "analog",
+      "direction": "output",
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "At 5 V supply the output can exceed a 3.3 V ADC rating."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.5,
+        "nominal": 5.0,
+        "max": 5.5
+      }
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    },
+    "label": "ACS712",
+    "minSize": {
+      "width": 6,
+      "height": 6
+    }
+  }
+}

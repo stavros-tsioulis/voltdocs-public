@@ -18,6 +18,11 @@ It incorporates a capacitive humidity sensor element, a high-precision NTC therm
 
 ## Pinout
 
+```pinout
+package
+```
+
+
 ### 4-Pin Single In-line Package / 3-Pin Breakout
 
 | Pin | Name | Type | Description |

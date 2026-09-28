@@ -18,6 +18,15 @@ While visually similar to 0.96-inch OLED displays driven by the SSD1306, the SH1
 
 ## Pinout
 
+```pinout
+i2c-module
+```
+
+```pinout
+spi-module
+```
+
+
 ### Standard 4-Pin I2C 1.3-inch OLED Module Header
 
 | Pin | Name | Type | Description |

@@ -6,7 +6,7 @@ tags: [mlx90614, mlx90614esf, temperature, ir, infrared, non-contact, thermomete
 status: published
 summary: >-
   Melexis non-contact infrared thermometer IC integrating a thermopile detector, low-noise amplifier, 17-bit ADC, and DSP for accurate ambient and object temperature measurement via SMBus / I2C.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Melexis
   ic_part_numbers: [MLX90614ESF-AAA, MLX90614ESF-BAA, MLX90614ESF-DCC]
@@ -34,6 +34,13 @@ highlights:
   - temperature_accuracy_c
   - smbus_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: GY-906 breakout
+    path: pinouts/module.json
+  - id: package
+    title: TO-39 sensor package
+    path: pinouts/package.json
 assets:
   - id: datasheet
     kind: datasheet

@@ -1,0 +1,88 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "2",
+      "name": "GPIO2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Boot strap; must be high at boot."
+    },
+    {
+      "id": "3",
+      "name": "GPIO0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Low at reset selects UART download mode."
+    },
+    {
+      "id": "4",
+      "name": "RXD",
+      "type": "bus",
+      "direction": "input",
+      "description": "UART receive / GPIO3."
+    },
+    {
+      "id": "5",
+      "name": "TXD",
+      "type": "bus",
+      "direction": "output",
+      "description": "UART transmit / GPIO1.",
+      "drive": "push-pull"
+    },
+    {
+      "id": "6",
+      "name": "CH_PD / EN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Chip enable; pull high to run."
+    },
+    {
+      "id": "7",
+      "name": "RST",
+      "type": "digital",
+      "direction": "input",
+      "description": "Active-low reset."
+    },
+    {
+      "id": "8",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.0,
+        "nominal": 3.3,
+        "max": 3.6
+      }
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "top": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bottom": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "label": "ESP-01",
+    "minSize": {
+      "width": 7,
+      "height": 6
+    }
+  }
+}

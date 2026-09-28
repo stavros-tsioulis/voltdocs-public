@@ -6,7 +6,7 @@ tags: [tb6612fng, motor-driver, h-bridge, mosfet, toshiba, dc-motor, robotics, p
 status: published
 summary: >-
   Toshiba low-heat MOSFET-based dual DC motor driver IC capable of driving two DC motors or one bipolar stepper motor at up to 15 V and 1.2 A continuous (3.2 A peak) per channel.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Toshiba
   ic_part_numbers: [TB6612FNG]
@@ -29,6 +29,10 @@ highlights:
   - continuous_current_per_channel_a
   - pwm_frequency_max_khz
 body: index.md
+pinouts:
+  - id: module
+    title: Pololu-style carrier
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

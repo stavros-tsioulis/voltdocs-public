@@ -6,7 +6,7 @@ tags: [ds18b20, temperature, 1-wire, dallas, maxim, analog-devices, sensor, prob
 status: published
 summary: >-
   Maxim Integrated / Analog Devices 1-Wire digital temperature sensor IC providing 9-bit to 12-bit Celsius measurements (±0.5°C accuracy from -10°C to +85°C) over a single data line.
-updatedAt: "2026-07-27"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Maxim Integrated / Analog Devices
   ic_part_numbers: [DS18B20, DS18B20+]
@@ -30,6 +30,10 @@ highlights:
   - accuracy_c
   - resolution_bits_max
 body: index.md
+pinouts:
+  - id: package
+    title: TO-92 package / probe leads
+    path: pinouts/package.json
 assets:
   - id: photo
     kind: image

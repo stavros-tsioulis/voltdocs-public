@@ -1,0 +1,130 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "NET",
+      "name": "NET",
+      "type": "other",
+      "direction": "passive",
+      "description": "Passive RF feed for the helical antenna."
+    },
+    {
+      "id": "VCC",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.4,
+        "nominal": 4.0,
+        "max": 4.4
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Supply must sustain approximately 2 A transmit bursts; 5 V can destroy the module."
+        }
+      ]
+    },
+    {
+      "id": "RST",
+      "name": "RST",
+      "type": "digital",
+      "direction": "input",
+      "description": "Active-low reset.",
+      "level": "2.8 V logic"
+    },
+    {
+      "id": "RXD",
+      "name": "RXD",
+      "type": "bus",
+      "direction": "input",
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "2.8 V UART input; never drive directly from 5 V logic."
+        }
+      ],
+      "level": "2.8 V logic"
+    },
+    {
+      "id": "TXD",
+      "name": "TXD",
+      "type": "bus",
+      "direction": "output",
+      "level": "2.8 V logic"
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "RING",
+      "name": "RING",
+      "type": "digital",
+      "direction": "output",
+      "description": "Active-low ring indicator."
+    },
+    {
+      "id": "DTR",
+      "name": "DTR",
+      "type": "digital",
+      "direction": "input",
+      "description": "Sleep-mode control."
+    },
+    {
+      "id": "MIC+",
+      "name": "MIC+",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "MIC−",
+      "name": "MIC−",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "SPK+",
+      "name": "SPK+",
+      "type": "analog",
+      "direction": "output"
+    },
+    {
+      "id": "SPK−",
+      "name": "SPK−",
+      "type": "analog",
+      "direction": "output"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "NET",
+        "VCC",
+        "RST",
+        "RXD",
+        "TXD",
+        "GND"
+      ],
+      "left": [
+        "RING",
+        "DTR"
+      ],
+      "right": [
+        "MIC+",
+        "MIC−",
+        "SPK+",
+        "SPK−"
+      ]
+    },
+    "label": "SIM800L",
+    "minSize": {
+      "width": 9,
+      "height": 8
+    }
+  }
+}

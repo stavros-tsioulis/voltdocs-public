@@ -1,0 +1,123 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.0,
+        "nominal": 3.3,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input"
+    },
+    {
+      "id": "4",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "drive": "open-drain"
+    },
+    {
+      "id": "5",
+      "name": "ADDR",
+      "type": "digital",
+      "direction": "input",
+      "description": "I2C address select."
+    },
+    {
+      "id": "6",
+      "name": "ALRT / RDY",
+      "type": "digital",
+      "direction": "output",
+      "description": "Active-low alert or conversion-ready output.",
+      "drive": "open-drain"
+    },
+    {
+      "id": "7",
+      "name": "A0",
+      "type": "analog",
+      "direction": "input",
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Keep the input between GND − 0.3 V and VDD + 0.3 V; the PGA range does not permit voltages beyond the supply rails."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "A1",
+      "type": "analog",
+      "direction": "input",
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Keep the input between GND − 0.3 V and VDD + 0.3 V; the PGA range does not permit voltages beyond the supply rails."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "A2",
+      "type": "analog",
+      "direction": "input",
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Keep the input between GND − 0.3 V and VDD + 0.3 V; the PGA range does not permit voltages beyond the supply rails."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "A3",
+      "type": "analog",
+      "direction": "input",
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Keep the input between GND − 0.3 V and VDD + 0.3 V; the PGA range does not permit voltages beyond the supply rails."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "right": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "6"
+      ]
+    },
+    "label": "ADS1115",
+    "minSize": {
+      "width": 8,
+      "height": 8
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VO",
+      "type": "analog",
+      "direction": "output"
+    },
+    {
+      "id": "2",
+      "name": "NC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "3",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "4",
+      "name": "VIN",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.5,
+        "nominal": 5,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "5",
+      "name": "RX",
+      "type": "bus",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Use TTL, never RS-232 voltages."
+        }
+      ],
+      "level": "3.3 V TTL"
+    },
+    {
+      "id": "6",
+      "name": "TX",
+      "type": "bus",
+      "direction": "output",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V TTL"
+    },
+    {
+      "id": "7",
+      "name": "NC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "label": "MH-Z19B",
+    "minSize": {
+      "width": 9,
+      "height": 6
+    }
+  }
+}

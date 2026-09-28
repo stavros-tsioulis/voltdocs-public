@@ -1,0 +1,138 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "CS",
+      "type": "bus",
+      "direction": "input",
+      "description": "Low selects SPI; high selects I2C.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-291 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "INT1",
+      "type": "digital",
+      "direction": "output",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-291 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "INT2",
+      "type": "digital",
+      "direction": "output",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-291 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "SDO / ALT",
+      "type": "bus",
+      "direction": "output",
+      "description": "SPI data output or I2C address select.",
+      "drive": "tri-state",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-291 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "SDA / SDI",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "I2C data or SPI data input.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-291 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "SCL / SCLK",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-291 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "label": "GY-291",
+    "minSize": {
+      "width": 10,
+      "height": 6
+    }
+  }
+}

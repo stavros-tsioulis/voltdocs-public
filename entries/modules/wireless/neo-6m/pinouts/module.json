@@ -1,0 +1,78 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.0,
+        "nominal": 5.0,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "2",
+      "name": "RX",
+      "type": "bus",
+      "direction": "input",
+      "description": "3.3 V UART receive input.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Use level translation or a divider when connecting a 5 V UART transmitter."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "TX",
+      "type": "bus",
+      "direction": "output",
+      "description": "3.3 V UART transmit output.",
+      "drive": "push-pull"
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "5",
+      "name": "PPS / TP",
+      "type": "digital",
+      "direction": "output",
+      "description": "GPS time-pulse output.",
+      "notes": [
+        {
+          "severity": "info",
+          "text": "PPS/TP is optional and its position varies among five-pin clone boards; verify the silkscreen."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "label": "NEO-6M",
+    "minSize": {
+      "width": 8,
+      "height": 6
+    }
+  }
+}

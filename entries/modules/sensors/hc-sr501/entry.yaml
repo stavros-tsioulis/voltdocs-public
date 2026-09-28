@@ -6,7 +6,7 @@ tags: [hc-sr501, pir, motion, infrared, pyroelectric, biss0001, sr501, sensor]
 status: published
 summary: >-
   Generic pyroelectric infrared (PIR) motion sensor module based on the BISS0001 micro-power PIR IC, detecting infrared radiation emitted by human bodies or moving heat sources.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Generic (BISS0001 controller)
   ic_part_numbers: [BISS0001, HC-SR501]
@@ -32,6 +32,10 @@ highlights:
   - detection_distance_m_max
   - detection_angle_deg
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 3-pin PIR module
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

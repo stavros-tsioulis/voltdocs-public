@@ -6,7 +6,7 @@ tags: [mpu6050, mpu-6050, imu, accelerometer, gyroscope, 6-axis, i2c, invensense
 status: published
 summary: >-
   InvenSense 6-axis MotionTracking IC combining a 3-axis MEMS gyroscope, 3-axis MEMS accelerometer, and an onboard Digital Motion Processor (DMP) communicating over I2C.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: InvenSense / TDK
   ic_part_numbers: [MPU-6050]
@@ -32,6 +32,10 @@ highlights:
   - i2c_address_default
   - i2c_clock_max_khz
 body: index.md
+pinouts:
+  - id: module
+    title: Standard GY-521 breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

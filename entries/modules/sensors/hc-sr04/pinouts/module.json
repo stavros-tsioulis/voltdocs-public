@@ -1,0 +1,65 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.5,
+        "nominal": 5.0,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "2",
+      "name": "TRIG",
+      "type": "digital",
+      "direction": "input",
+      "description": "Apply a pulse of at least 10 µs to start a measurement."
+    },
+    {
+      "id": "3",
+      "name": "ECHO",
+      "type": "digital",
+      "direction": "output",
+      "description": "5 V pulse whose width represents round-trip time.",
+      "drive": "push-pull",
+      "level": "5 V logic",
+      "voltage": {
+        "nominal": 5.0,
+        "max": 5.0
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Use a divider or level shifter before connecting ECHO to a 3.3 V-only GPIO."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "label": "HC-SR04",
+    "minSize": {
+      "width": 10,
+      "height": 6
+    }
+  }
+}

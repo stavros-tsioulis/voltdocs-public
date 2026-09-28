@@ -6,7 +6,7 @@ tags: [dht22, am2302, temperature, humidity, sensor, single-bus, aosong, precisi
 status: published
 summary: >-
   Aosong Electronics higher-accuracy digital temperature and humidity sensor with a custom single-bus 1-wire protocol delivering 16-bit resolution across wide temperature (-40°C to +80°C) and humidity (0-100%) ranges.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Aosong Electronics
   ic_part_numbers: [DHT22, AM2302]
@@ -34,6 +34,10 @@ highlights:
   - humidity_range_pct_max
   - sampling_period_s
 body: index.md
+pinouts:
+  - id: package
+    title: 4-pin sensor package
+    path: pinouts/package.json
 assets:
   - id: datasheet
     kind: datasheet

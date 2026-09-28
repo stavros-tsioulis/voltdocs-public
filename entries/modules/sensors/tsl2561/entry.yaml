@@ -6,7 +6,7 @@ tags: [tsl2561, lux, ambient-light, luminosity, sensor, i2c, ams, taos]
 status: published
 summary: >-
   ams / TAOS dual-diode (visible and infrared) digital light-to-digital converter IC that calculates illuminance in lux across a wide dynamic range (0.1 to 40,000+ lux).
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: ams OSRAM / TAOS
   ic_part_numbers: [TSL2561, TSL2561FN, TSL2561T]
@@ -30,6 +30,10 @@ highlights:
   - measurement_range_lux_max
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Seven-pad regulated breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

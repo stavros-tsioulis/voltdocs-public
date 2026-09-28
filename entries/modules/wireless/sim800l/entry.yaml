@@ -6,7 +6,7 @@ tags: [sim800l, sim800, gsm, gprs, cellular, 2g, sms, call, iot, simcom]
 status: published
 summary: >-
   SIMCom quad-band GSM/GPRS module operating at 850/900/1800/1900 MHz for transmitting voice, SMS text messages, and GPRS data packets in compact IoT cellular applications.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: SIMCom Wireless Solutions
   ic_part_numbers: [SIM800L]
@@ -30,6 +30,10 @@ highlights:
   - peak_burst_current_a
   - default_baud_rate
 body: index.md
+pinouts:
+  - id: module
+    title: Red SIM800L breakout connections
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

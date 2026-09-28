@@ -1,0 +1,95 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VIN",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.0,
+        "nominal": 3.3,
+        "max": 5.0
+      }
+    },
+    {
+      "id": "2",
+      "name": "3Vo",
+      "type": "power",
+      "direction": "power-out",
+      "voltage": {
+        "nominal": 3.3,
+        "max": 3.3
+      }
+    },
+    {
+      "id": "3",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "4",
+      "name": "ADDR",
+      "type": "digital",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "5",
+      "name": "INT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Active-low interrupt output.",
+      "voltage": {
+        "max": 3.6
+      },
+      "drive": "open-drain",
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "6",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "voltage": {
+        "max": 3.6
+      },
+      "drive": "open-drain",
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "7",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "label": "TSL2561",
+    "minSize": {
+      "width": 9,
+      "height": 5
+    }
+  }
+}

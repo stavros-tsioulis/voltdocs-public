@@ -6,7 +6,7 @@ tags: [bmp180, pressure, temperature, altitude, sensor, i2c, bosch, gy-68]
 status: published
 summary: >-
   Bosch Sensortec digital barometric pressure sensor IC for altitude tracking, weather forecasting, and indoor navigation over an I2C interface.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Bosch Sensortec
   ic_part_numbers: [BMP180]
@@ -33,6 +33,10 @@ highlights:
   - pressure_range_hpa_max
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard four-pin GY-68 breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "BLUE / A",
+      "type": "other",
+      "direction": "passive",
+      "description": "Phase A winding."
+    },
+    {
+      "id": "2",
+      "name": "PINK / B",
+      "type": "other",
+      "direction": "passive",
+      "description": "Phase B winding."
+    },
+    {
+      "id": "3",
+      "name": "YELLOW / C",
+      "type": "other",
+      "direction": "passive",
+      "description": "Phase C winding."
+    },
+    {
+      "id": "4",
+      "name": "ORANGE / D",
+      "type": "other",
+      "direction": "passive",
+      "description": "Phase D winding."
+    },
+    {
+      "id": "5",
+      "name": "RED / COM",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Common +5 V winding connection.",
+      "voltage": {
+        "nominal": 5.0,
+        "max": 5.0
+      }
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "label": "28BYJ-48",
+    "minSize": {
+      "width": 7,
+      "height": 5
+    }
+  }
+}

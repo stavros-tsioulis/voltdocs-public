@@ -17,6 +17,11 @@ The controller includes an integrated Character Generator ROM (CGROM) containing
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 16-Pin Parallel Interface
 
 | Pin | Name | Type | Description |

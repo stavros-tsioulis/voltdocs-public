@@ -6,7 +6,7 @@ tags: [hd44780, lcd1602, lcd2004, display, character-lcd, hitachi, parallel, i2c
 status: published
 summary: >-
   Industry-standard Hitachi character LCD controller chip driving monochrome 16x2 and 20x4 dot-matrix displays via 4-bit/8-bit parallel interface or I2C expander backpacks.
-updatedAt: "2026-07-27"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Hitachi (and pin-compatible clones)
   ic_part_numbers: [HD44780U, HD44780]
@@ -29,6 +29,10 @@ highlights:
   - character_font
   - interfaces
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 16-pin LCD module
+    path: pinouts/module.json
 assets:
   - id: photo
     kind: image

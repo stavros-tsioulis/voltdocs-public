@@ -17,6 +17,11 @@ Breakout modules incorporate an internal micro-heater, an LM393 voltage comparat
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 4-Pin Breakout Module
 
 | Pin | Name | Type | Description |

@@ -18,6 +18,15 @@ When an object or reflective surface passes in front of the sensor ($0.2\text{ m
 
 ## Pinout
 
+```pinout
+package
+```
+
+```pinout
+module
+```
+
+
 ### Standard 4-Pin Breakout PCB Module
 
 | Pin | Name | Type | Description |

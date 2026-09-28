@@ -1,0 +1,134 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "VCC",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.0
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Only module VCC may accept 5 V; signals remain 3.3 V."
+        }
+      ]
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "SCL",
+      "name": "SCL / SCLK",
+      "type": "clock",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "SDA",
+      "name": "SDA / SDI",
+      "type": "bus",
+      "direction": "bidirectional",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "EDA",
+      "name": "EDA / AUX_DA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "ECL",
+      "name": "ECL / AUX_CL",
+      "type": "clock",
+      "direction": "output",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "AD0",
+      "name": "AD0 / SDO",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "I²C strap or SPI output.",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "INT",
+      "name": "INT",
+      "type": "digital",
+      "direction": "output",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "NCS",
+      "name": "NCS",
+      "type": "bus",
+      "direction": "input",
+      "description": "Active-low SPI select.",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "FSYNC",
+      "name": "FSYNC",
+      "type": "digital",
+      "direction": "input",
+      "description": "Ground if unused.",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "VCC",
+        "GND",
+        "SCL",
+        "SDA",
+        "EDA",
+        "ECL",
+        "AD0",
+        "INT",
+        "NCS",
+        "FSYNC"
+      ]
+    },
+    "label": "GY-9250",
+    "minSize": {
+      "width": 8,
+      "height": 11
+    }
+  }
+}

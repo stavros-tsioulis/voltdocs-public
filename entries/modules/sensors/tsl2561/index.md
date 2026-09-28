@@ -18,17 +18,24 @@ Unlike standard cadmium-sulfide (CdS) photoresistors or single-diode light senso
 
 ## Pinout
 
-### Standard 6-Pin Breakout Header
+```pinout
+module
+```
+
+
+### Seven-Pad Regulated Breakout
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `VCC` | Power | Supply voltage (+2.7 V to +3.6 V DC) |
-| 2 | `GND` | Power | Ground (0 V) |
-| 3 | `3VI` | Power Output | 3.3V Output / Input |
-| 4 | `ADDR` | Digital Input | I2C Slave Address selection pin |
-| 5 | `INT` | Digital Output | Active-LOW Interrupt output pin |
-| 6 | `SDA` | Digital I/O | I2C Serial Data line |
-| 7 | `SCL` | Digital Input | I2C Serial Clock input |
+| 1 | `VIN` | Power Input | Regulated-board input, +3 V to +5 V |
+| 2 | `3Vo` | Power Output | Regulated 3.3 V output |
+| 3 | `GND` | Power | Ground |
+| 4 | `ADDR` | Digital Input | I²C address select |
+| 5 | `INT` | Digital Output | Active-low open-drain interrupt |
+| 6 | `SDA` | Digital I/O | Open-drain I²C data |
+| 7 | `SCL` | Digital Input | I²C clock |
+
+Only the regulated, level-shifted board accepts 5 V at `VIN`; bare sensor pins remain in the 3.3 V domain.
 
 ## Specifications
 

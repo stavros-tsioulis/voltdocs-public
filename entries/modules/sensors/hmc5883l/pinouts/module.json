@@ -1,0 +1,60 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.0
+      }
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input"
+    },
+    {
+      "id": "4",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "drive": "open-drain"
+    },
+    {
+      "id": "5",
+      "name": "DRDY",
+      "type": "digital",
+      "direction": "output",
+      "description": "Data-ready output."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "label": "HMC5883L",
+    "minSize": {
+      "width": 8,
+      "height": 6
+    }
+  }
+}

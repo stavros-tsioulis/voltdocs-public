@@ -1,0 +1,60 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "VIN",
+      "name": "VIN",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.0
+      }
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "SCL",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "SDA",
+      "name": "SDA / PWM",
+      "type": "bus",
+      "direction": "bidirectional",
+      "voltage": {
+        "max": 3.6
+      },
+      "drive": "open-drain",
+      "level": "3.3 V logic"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "VIN",
+        "GND",
+        "SCL",
+        "SDA"
+      ]
+    },
+    "label": "GY-906",
+    "minSize": {
+      "width": 7,
+      "height": 5
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "2",
+      "name": "DQ",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Open-drain 1-Wire data; requires an external pull-up.",
+      "drive": "open-drain",
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "DQ requires an external pull-up. Parasite-power operation also requires a strong pull-up during temperature conversion."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.0,
+        "nominal": 5.0,
+        "max": 5.5
+      }
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "label": "DS18B20",
+    "minSize": {
+      "width": 5,
+      "height": 4
+    }
+  }
+}

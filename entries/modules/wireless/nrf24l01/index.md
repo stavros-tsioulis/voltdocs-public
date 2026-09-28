@@ -19,6 +19,10 @@ Compared to the legacy nRF24L01 (v1.0), the **nRF24L01+** adds a **250 kbps** ai
 
 ## Pinout
 
+```pinout
+module
+```
+
 ### Standard 8-pin module header
 
 | Pin | Name | Type | Description |

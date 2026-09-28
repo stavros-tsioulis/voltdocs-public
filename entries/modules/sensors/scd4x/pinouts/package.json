@@ -1,0 +1,182 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "2",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "3",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "4",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "5",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "6",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "7",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.4,
+        "nominal": 3.3,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "8",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "9",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "10",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input"
+    },
+    {
+      "id": "11",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "12",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "13",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "14",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "15",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "drive": "open-drain"
+    },
+    {
+      "id": "16",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "17",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "18",
+      "name": "DNC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "19",
+      "name": "VDDH",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Tie to VDD near sensor.",
+      "voltage": {
+        "min": 2.4,
+        "nominal": 3.3,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "20",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "21",
+      "name": "GND (EP)",
+      "type": "ground",
+      "description": "Central underside pad."
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bottom": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "right": [
+        "15",
+        "14",
+        "13",
+        "12",
+        "11"
+      ],
+      "top": [
+        "20",
+        "19",
+        "18",
+        "17",
+        "16"
+      ]
+    },
+    "label": "SCD4x",
+    "minSize": {
+      "width": 8,
+      "height": 8
+    }
+  }
+}

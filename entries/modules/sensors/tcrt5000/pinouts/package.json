@@ -1,0 +1,55 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "C",
+      "name": "C",
+      "type": "analog",
+      "direction": "output"
+    },
+    {
+      "id": "E",
+      "name": "E",
+      "type": "analog",
+      "direction": "passive"
+    },
+    {
+      "id": "A",
+      "name": "A",
+      "type": "power",
+      "direction": "passive",
+      "description": "IR LED anode; requires current limiting.",
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Never drive the LED without a resistor."
+        }
+      ]
+    },
+    {
+      "id": "K",
+      "name": "K",
+      "type": "ground",
+      "description": "IR LED cathode."
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "C",
+        "E"
+      ],
+      "right": [
+        "A",
+        "K"
+      ]
+    },
+    "label": "TCRT5000",
+    "minSize": {
+      "width": 5,
+      "height": 5
+    }
+  }
+}

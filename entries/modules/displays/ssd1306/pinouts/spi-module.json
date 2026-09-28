@@ -1,0 +1,125 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "2",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.0
+      }
+    },
+    {
+      "id": "3",
+      "name": "D0 / CLK",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.3
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "A 5 V-capable module supply does not guarantee 5 V-tolerant signal pins; verify level shifting on the specific board."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "D1 / MOSI",
+      "type": "bus",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.3
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "A 5 V-capable module supply does not guarantee 5 V-tolerant signal pins; verify level shifting on the specific board."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "RES / RST",
+      "type": "digital",
+      "direction": "input",
+      "description": "Active-low reset.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.3
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "A 5 V-capable module supply does not guarantee 5 V-tolerant signal pins; verify level shifting on the specific board."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "DC / A0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Data/command select.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.3
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "A 5 V-capable module supply does not guarantee 5 V-tolerant signal pins; verify level shifting on the specific board."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "CS",
+      "type": "bus",
+      "direction": "input",
+      "description": "Active-low chip select.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.3
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "A 5 V-capable module supply does not guarantee 5 V-tolerant signal pins; verify level shifting on the specific board."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "top": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "label": "SSD1306 SPI",
+    "minSize": {
+      "width": 10,
+      "height": 5
+    }
+  }
+}

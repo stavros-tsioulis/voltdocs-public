@@ -6,7 +6,7 @@ tags: [neo-6m, gps, location, gnss, nmea, uart, u-blox, module]
 status: published
 summary: >-
   u-blox standalone GPS receiver module with integrated 50-channel positioning engine, 2.5m accuracy, EEPROM backup, and UART NMEA 0183 output.
-updatedAt: "2026-07-27"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: u-blox
   ic_part_numbers: [NEO-6M, NEO-6M-0-001]
@@ -34,6 +34,10 @@ highlights:
   - channels
   - position_accuracy_m
 body: index.md
+pinouts:
+  - id: module
+    title: Standard NEO-6M breakout
+    path: pinouts/module.json
 assets:
   - id: photo
     kind: image

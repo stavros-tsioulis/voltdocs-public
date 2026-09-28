@@ -6,7 +6,7 @@ tags: [esp32, esp32-wroom-32, wifi, bluetooth, ble, espressif, xtensa, dual-core
 status: published
 summary: >-
   Espressif Systems powerful, generic Wi-Fi + Bluetooth + Bluetooth LE MCU module powered by the dual-core 32-bit Xtensa LX6 ESP32-D0WDQ6 chip for high-performance IoT applications.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Espressif Systems
   ic_part_numbers: [ESP32-WROOM-32, ESP32-WROOM-32D, ESP32-WROOM-32E]
@@ -36,6 +36,13 @@ highlights:
   - flash_memory_bytes
   - sram_bytes
 body: index.md
+pinouts:
+  - id: module
+    title: ESP32-WROOM-32 38-pad module
+    path: pinouts/module.json
+  - id: devkit
+    title: 30-pin ESP32 DevKit
+    path: pinouts/devkit.json
 assets:
   - id: datasheet
     kind: datasheet
@@ -43,3 +50,7 @@ assets:
   - id: product-page
     kind: reference
     location: { type: external, url: "https://www.espressif.com/en/products/modules/esp32" }
+  - id: devkit-reference
+    kind: reference
+    title: ESP32-DevKitC board reference
+    location: { type: external, url: "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html" }

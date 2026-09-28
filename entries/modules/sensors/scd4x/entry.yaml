@@ -6,7 +6,7 @@ tags: [scd40, scd41, scd4x, co2, photoacoustic, ndir, carbon-dioxide, sensirion,
 status: published
 summary: >-
   Sensirion ultra-compact (101 mm³) photoacoustic NDIR CO2 sensor module delivering high-precision carbon dioxide readings (up to 40,000 ppm on SCD41) with temperature and humidity outputs.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Sensirion
   ic_part_numbers: [SCD40-2K-RE, SCD41-2K-RE]
@@ -36,6 +36,10 @@ highlights:
   - co2_accuracy_ppm
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: package
+    title: SCD40/SCD41 LGA package
+    path: pinouts/package.json
 assets:
   - id: datasheet
     kind: datasheet

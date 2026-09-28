@@ -6,7 +6,7 @@ tags: [tmp36, tmp35, tmp37, temperature, analog, sensor, analog-devices]
 status: published
 summary: >-
   Analog Devices low voltage, precision centigrade temperature sensor providing a linear 10 mV/°C output voltage with a 500 mV offset for sub-zero measurements from a 2.7 V to 5.5 V supply.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Analog Devices
   ic_part_numbers: [TMP36, TMP36GT9Z, TMP36GRT]
@@ -30,6 +30,10 @@ highlights:
   - scale_factor_mv_per_c
   - zero_deg_offset_mv
 body: index.md
+pinouts:
+  - id: package
+    title: TO-92 package
+    path: pinouts/package.json
 assets:
   - id: datasheet
     kind: datasheet

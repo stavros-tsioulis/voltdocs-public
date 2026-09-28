@@ -6,7 +6,7 @@ tags: [max7219, max7221, led, display, driver, 7-segment, matrix, 8x8, spi, maxi
 status: published
 summary: >-
   Maxim Integrated / Analog Devices compact serial input/output common-cathode display driver that interfaces microcontrollers to 7-segment numeric LED displays (up to 8 digits) or 8x8 dot matrix LED displays.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Maxim Integrated / Analog Devices
   ic_part_numbers: [MAX7219, MAX7219CNG, MAX7219CWG]
@@ -30,6 +30,10 @@ highlights:
   - brightness_control_levels
   - interfaces
 body: index.md
+pinouts:
+  - id: package
+    title: 24-pin DIP / SO package
+    path: pinouts/package.json
 assets:
   - id: datasheet
     kind: datasheet

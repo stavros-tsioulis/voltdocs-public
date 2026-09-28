@@ -1,0 +1,108 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "H1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.0,
+        "nominal": 3.3,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "H2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "H3",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input"
+    },
+    {
+      "id": "H4",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "drive": "open-drain"
+    },
+    {
+      "id": "H5",
+      "name": "VIN−",
+      "type": "power",
+      "direction": "passive",
+      "description": "Current-shunt negative connection.",
+      "voltage": {
+        "min": 0,
+        "max": 26
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Not galvanically isolated; never use on mains."
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "name": "VIN+",
+      "type": "power",
+      "direction": "passive",
+      "description": "Current-shunt positive connection.",
+      "voltage": {
+        "min": 0,
+        "max": 26
+      }
+    },
+    {
+      "id": "T1",
+      "name": "VIN− terminal",
+      "type": "power",
+      "direction": "passive",
+      "description": "Duplicate screw-terminal connection to VIN−.",
+      "voltage": {
+        "min": 0,
+        "max": 26
+      }
+    },
+    {
+      "id": "T2",
+      "name": "VIN+ terminal",
+      "type": "power",
+      "direction": "passive",
+      "description": "Duplicate screw-terminal connection to VIN+.",
+      "voltage": {
+        "min": 0,
+        "max": 26
+      }
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "top": [
+        "T1",
+        "T2"
+      ]
+    },
+    "label": "INA219",
+    "minSize": {
+      "width": 8,
+      "height": 6
+    }
+  }
+}

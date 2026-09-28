@@ -1,0 +1,106 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VIN",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.0
+      }
+    },
+    {
+      "id": "2",
+      "name": "3VO",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Regulated 3.3 V output.",
+      "voltage": {
+        "nominal": 3.3,
+        "max": 3.3
+      }
+    },
+    {
+      "id": "3",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "4",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input"
+    },
+    {
+      "id": "5",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "drive": "open-drain"
+    },
+    {
+      "id": "6",
+      "name": "RST",
+      "type": "digital",
+      "direction": "input",
+      "description": "Active-low reset."
+    },
+    {
+      "id": "7",
+      "name": "INT",
+      "type": "digital",
+      "direction": "output",
+      "description": "I2C address select."
+    },
+    {
+      "id": "8",
+      "name": "ADR",
+      "type": "digital",
+      "direction": "input",
+      "description": "Programmable interrupt."
+    },
+    {
+      "id": "9",
+      "name": "PS0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Protocol select 0."
+    },
+    {
+      "id": "10",
+      "name": "PS1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Protocol select 1."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "8",
+        "7",
+        "10",
+        "9"
+      ],
+      "right": [
+        "6",
+        "4",
+        "5",
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    "label": "BNO055",
+    "minSize": {
+      "width": 12,
+      "height": 6
+    }
+  }
+}

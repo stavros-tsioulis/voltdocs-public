@@ -1,0 +1,101 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.5,
+        "nominal": 5,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "SET",
+      "type": "digital",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "4",
+      "name": "RX",
+      "type": "bus",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Level-shift 5 V host outputs."
+        }
+      ],
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "5",
+      "name": "TX",
+      "type": "bus",
+      "direction": "output",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "6",
+      "name": "RESET",
+      "type": "digital",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "7",
+      "name": "NC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "8",
+      "name": "NC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "top": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "label": "PMS5003",
+    "minSize": {
+      "width": 10,
+      "height": 6
+    }
+  }
+}

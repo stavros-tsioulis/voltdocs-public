@@ -6,7 +6,7 @@ tags: [hx711, load-cell, scale, adc, weight, 24-bit, strain-gauge, avia]
 status: published
 summary: >-
   Avia Semiconductor precision 24-bit analog-to-digital converter (ADC) designed for weigh scales and industrial control applications to interface directly with a bridge sensor.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Avia Semiconductor
   ic_part_numbers: [HX711]
@@ -28,6 +28,10 @@ highlights:
   - data_rate_sps
   - selectable_gains
 body: index.md
+pinouts:
+  - id: module
+    title: Standard HX711 breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "IP+",
+      "name": "IP+",
+      "type": "other",
+      "direction": "passive"
+    },
+    {
+      "id": "IP−",
+      "name": "IP−",
+      "type": "other",
+      "direction": "passive"
+    },
+    {
+      "id": "VCC",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.5,
+        "nominal": 5.0,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "OUT",
+      "name": "OUT",
+      "type": "analog",
+      "direction": "output",
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Output can approach 4.5 V; protect 3.3 V ADCs."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "IP+",
+        "IP−"
+      ],
+      "bottom": [
+        "VCC",
+        "GND",
+        "OUT"
+      ]
+    },
+    "label": "ACS712 module",
+    "minSize": {
+      "width": 7,
+      "height": 6
+    }
+  }
+}

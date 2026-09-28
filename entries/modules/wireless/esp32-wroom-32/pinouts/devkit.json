@@ -1,0 +1,396 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "EN / RST",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "2",
+      "name": "VP / GPIO36",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "3",
+      "name": "VN / GPIO39",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "4",
+      "name": "GPIO34",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "5",
+      "name": "GPIO35",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "6",
+      "name": "GPIO32",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "7",
+      "name": "GPIO33",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "8",
+      "name": "GPIO25",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "9",
+      "name": "GPIO26",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "10",
+      "name": "GPIO27",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "11",
+      "name": "GPIO14",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "12",
+      "name": "GPIO12",
+      "type": "digital",
+      "direction": "bidirectional",
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "This is a boot-strapping pin; external circuitry can prevent startup or flashing."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "GPIO13",
+      "type": "digital",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "14",
+      "name": "GND",
+      "type": "ground"
+    },
+    {
+      "id": "15",
+      "name": "VIN / 5V",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "nominal": 5.0,
+        "max": 5.0
+      }
+    },
+    {
+      "id": "16",
+      "name": "GPIO23",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "GPIO22",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "GPIO1 / TX0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "functions": [
+        "UART0 TX"
+      ],
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "GPIO3 / RX0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "functions": [
+        "UART0 RX"
+      ],
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "GPIO21",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "GPIO19",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "GPIO18",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "GPIO5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        },
+        {
+          "severity": "warning",
+          "text": "This is a boot-strapping pin; external circuitry can prevent startup or flashing."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "GPIO17 / TX2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "functions": [
+        "UART2 TX"
+      ],
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "GPIO16 / RX2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "functions": [
+        "UART2 RX"
+      ],
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "GPIO4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "GPIO2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        },
+        {
+          "severity": "warning",
+          "text": "This is a boot-strapping pin; external circuitry can prevent startup or flashing."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "GPIO15",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 GPIO is not 5 V tolerant."
+        },
+        {
+          "severity": "warning",
+          "text": "This is a boot-strapping pin; external circuitry can prevent startup or flashing."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "GND",
+      "type": "ground"
+    },
+    {
+      "id": "30",
+      "name": "3V3",
+      "type": "power",
+      "direction": "power-out",
+      "voltage": {
+        "nominal": 3.3,
+        "max": 3.6
+      }
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "right": [
+        "30",
+        "29",
+        "28",
+        "27",
+        "26",
+        "25",
+        "24",
+        "23",
+        "22",
+        "21",
+        "20",
+        "19",
+        "18",
+        "17",
+        "16"
+      ]
+    },
+    "label": "ESP32 DevKit",
+    "minSize": {
+      "width": 10,
+      "height": 17
+    }
+  }
+}

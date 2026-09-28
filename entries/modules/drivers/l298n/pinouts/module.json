@@ -1,0 +1,130 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "VMOT",
+      "name": "VMOT / 12V",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Motor supply input.",
+      "voltage": {
+        "min": 5,
+        "nominal": 12,
+        "max": 35
+      }
+    },
+    {
+      "id": "PGND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "5V",
+      "name": "5V",
+      "type": "power",
+      "direction": "passive",
+      "description": "Logic supply input, or regulated output when the 5V-enable jumper is fitted."
+    },
+    {
+      "id": "OUT1",
+      "name": "OUT1",
+      "type": "other",
+      "direction": "output",
+      "description": "Motor A output 1."
+    },
+    {
+      "id": "OUT2",
+      "name": "OUT2",
+      "type": "other",
+      "direction": "output",
+      "description": "Motor A output 2."
+    },
+    {
+      "id": "OUT3",
+      "name": "OUT3",
+      "type": "other",
+      "direction": "output",
+      "description": "Motor B output 1."
+    },
+    {
+      "id": "OUT4",
+      "name": "OUT4",
+      "type": "other",
+      "direction": "output",
+      "description": "Motor B output 2."
+    },
+    {
+      "id": "ENA",
+      "name": "ENA",
+      "type": "digital",
+      "direction": "input",
+      "description": "Motor A enable / PWM input."
+    },
+    {
+      "id": "IN1",
+      "name": "IN1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Motor A direction input 1."
+    },
+    {
+      "id": "IN2",
+      "name": "IN2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Motor A direction input 2."
+    },
+    {
+      "id": "IN3",
+      "name": "IN3",
+      "type": "digital",
+      "direction": "input",
+      "description": "Motor B direction input 1."
+    },
+    {
+      "id": "IN4",
+      "name": "IN4",
+      "type": "digital",
+      "direction": "input",
+      "description": "Motor B direction input 2."
+    },
+    {
+      "id": "ENB",
+      "name": "ENB",
+      "type": "digital",
+      "direction": "input",
+      "description": "Motor B enable / PWM input."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "OUT1",
+        "OUT2"
+      ],
+      "right": [
+        "OUT3",
+        "OUT4"
+      ],
+      "bottom": [
+        "ENA",
+        "IN1",
+        "IN2",
+        "VMOT",
+        "PGND",
+        "5V",
+        "IN3",
+        "IN4",
+        "ENB"
+      ]
+    },
+    "label": "L298N",
+    "minSize": {
+      "width": 10,
+      "height": 8
+    }
+  }
+}

@@ -18,6 +18,11 @@ It is widely used in weather stations, IoT environmental monitoring nodes, home 
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 6-Pin Breakout Module Header
 
 | Pin | Name | Type | Description |

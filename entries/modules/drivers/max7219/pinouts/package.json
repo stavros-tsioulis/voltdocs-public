@@ -1,0 +1,192 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "DIN",
+      "type": "bus",
+      "direction": "input"
+    },
+    {
+      "id": "2",
+      "name": "DIG0",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "3",
+      "name": "DIG4",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "ground"
+    },
+    {
+      "id": "5",
+      "name": "DIG6",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "6",
+      "name": "DIG2",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "7",
+      "name": "DIG3",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "8",
+      "name": "DIG7",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "9",
+      "name": "GND",
+      "type": "ground"
+    },
+    {
+      "id": "10",
+      "name": "DIG5",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "11",
+      "name": "DIG1",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "12",
+      "name": "LOAD / CS",
+      "type": "bus",
+      "direction": "input"
+    },
+    {
+      "id": "13",
+      "name": "CLK",
+      "type": "clock",
+      "direction": "input"
+    },
+    {
+      "id": "14",
+      "name": "SEGA",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "15",
+      "name": "SEGF",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "16",
+      "name": "SEGB",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "17",
+      "name": "SEGG",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "18",
+      "name": "ISET",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "19",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4,
+        "nominal": 5,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "20",
+      "name": "SEGC",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "21",
+      "name": "SEGE",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "22",
+      "name": "SEGDP",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "23",
+      "name": "SEGD",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "24",
+      "name": "DOUT",
+      "type": "bus",
+      "direction": "output",
+      "drive": "push-pull"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "right": [
+        "24",
+        "23",
+        "22",
+        "21",
+        "20",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13"
+      ]
+    },
+    "label": "MAX7219",
+    "minSize": {
+      "width": 8,
+      "height": 14
+    }
+  }
+}

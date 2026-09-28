@@ -18,6 +18,11 @@ Designed specifically for single-supply 2.7 V to 5.5 V operation (ideal for 3.3V
 
 ## Pinout
 
+```pinout
+package
+```
+
+
 ### Standard TO-92 Plastic Package (Flat side facing you, pins down)
 
 ```

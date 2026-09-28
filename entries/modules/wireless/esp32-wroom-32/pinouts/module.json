@@ -1,0 +1,663 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground"
+    },
+    {
+      "id": "2",
+      "name": "3V3",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.0,
+        "nominal": 3.3,
+        "max": 3.6
+      }
+    },
+    {
+      "id": "3",
+      "name": "EN",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "SENSOR_VP",
+      "type": "analog",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "SENSOR_VN",
+      "type": "analog",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "IO34",
+      "type": "analog",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "IO35",
+      "type": "analog",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "IO32",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "IO33",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "IO25",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "IO26",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "IO27",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "IO14",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "IO12",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Boot-strapping pin; external circuitry can prevent correct startup."
+        },
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "GND",
+      "type": "ground"
+    },
+    {
+      "id": "16",
+      "name": "IO13",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "SHD / SD2",
+      "type": "bus",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Reserved for the module’s onboard SPI flash; do not use as general-purpose I/O."
+        },
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "SWP / SD3",
+      "type": "bus",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Reserved for the module’s onboard SPI flash; do not use as general-purpose I/O."
+        },
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "SCS / CMD",
+      "type": "bus",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Reserved for the module’s onboard SPI flash; do not use as general-purpose I/O."
+        },
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "SCK / CLK",
+      "type": "clock",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Reserved for the module’s onboard SPI flash; do not use as general-purpose I/O."
+        },
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "SDO / SD0",
+      "type": "bus",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Reserved for the module’s onboard SPI flash; do not use as general-purpose I/O."
+        },
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "SDI / SD1",
+      "type": "bus",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Reserved for the module’s onboard SPI flash; do not use as general-purpose I/O."
+        },
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "IO15",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Boot-strapping pin; external circuitry can prevent correct startup."
+        },
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "IO2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Boot-strapping pin; external circuitry can prevent correct startup."
+        },
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "IO0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Boot-strapping pin; external circuitry can prevent correct startup."
+        },
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "IO4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "IO16",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "IO17",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "IO5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Boot-strapping pin; external circuitry can prevent correct startup."
+        },
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "IO18",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "IO19",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "NC",
+      "type": "nc"
+    },
+    {
+      "id": "33",
+      "name": "IO21",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "RXD0 / IO3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "TXD0 / IO1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "IO22",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "IO23",
+      "type": "digital",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "ESP32 pins are not 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "GND",
+      "type": "ground"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "bottom": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "right": [
+        "38",
+        "37",
+        "36",
+        "35",
+        "34",
+        "33",
+        "32",
+        "31",
+        "30",
+        "29",
+        "28",
+        "27",
+        "26",
+        "25",
+        "24",
+        "23"
+      ]
+    },
+    "label": "ESP32-WROOM-32",
+    "minSize": {
+      "width": 12,
+      "height": 16
+    }
+  }
+}

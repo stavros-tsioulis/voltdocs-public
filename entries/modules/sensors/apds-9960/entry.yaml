@@ -6,7 +6,7 @@ tags: [apds9960, apds-9960, gesture, proximity, color, rgb, ambient-light, i2c, 
 status: published
 summary: >-
   Broadcom / Avago Technologies integrated multi-function sensor combining 3D gesture recognition (directional swipes), proximity detection, ambient light sensing, and RGB color sensing over I2C.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Broadcom / Avago Technologies
   ic_part_numbers: [APDS-9960]
@@ -32,6 +32,10 @@ highlights:
   - gesture_detection_directions
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: SparkFun-style six-pin breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

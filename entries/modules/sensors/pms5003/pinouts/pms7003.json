@@ -1,0 +1,122 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.5,
+        "nominal": 5,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "2",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.5,
+        "nominal": 5,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "3",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "5",
+      "name": "RESET",
+      "type": "digital",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "6",
+      "name": "NC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "7",
+      "name": "RX",
+      "type": "bus",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Level-shift 5 V host outputs."
+        }
+      ],
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "8",
+      "name": "NC",
+      "type": "nc",
+      "description": "Leave unconnected."
+    },
+    {
+      "id": "9",
+      "name": "TX",
+      "type": "bus",
+      "direction": "output",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "10",
+      "name": "SET",
+      "type": "digital",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "1",
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "right": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "10"
+      ]
+    },
+    "label": "PMS7003",
+    "minSize": {
+      "width": 7,
+      "height": 7
+    }
+  }
+}

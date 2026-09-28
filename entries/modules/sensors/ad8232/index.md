@@ -19,6 +19,11 @@ The module features a high Common-Mode Rejection Ratio (CMRR = 80 dB), a built-i
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 6-Pin Breakout Header & 3.5mm Electrode Jack
 
 | Pin / Jack | Name | Type | Description |

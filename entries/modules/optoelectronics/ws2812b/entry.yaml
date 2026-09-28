@@ -7,7 +7,7 @@ status: published
 summary: >-
   Worldsemi 5050 SMD RGB LED with integrated control IC. Current revision (v5.0)
   adds reverse power connection protection, 12 mA channel constant current, and a 280 µs reset pulse.
-updatedAt: "2026-07-26"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Worldsemi
   ic_part_numbers: [WS2812B, WS2812B-V5]
@@ -33,6 +33,10 @@ highlights:
   - reverse_power_protection
   - data_transfer_rate_kbps
 body: index.md
+pinouts:
+  - id: package
+    title: WS2812B 5050 package
+    path: pinouts/package.json
 assets:
   - id: photo
     kind: image

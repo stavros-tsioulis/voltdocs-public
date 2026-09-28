@@ -19,6 +19,11 @@ It features onboard SQI flash memory for user configuration storage, an active a
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 5-Pin Breakout Header
 
 | Pin | Name | Type | Description |

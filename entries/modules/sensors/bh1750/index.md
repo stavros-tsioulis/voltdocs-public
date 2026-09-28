@@ -17,6 +17,10 @@ The sensor features a spectral response closely matching the human eye response 
 
 ## Pinout
 
+```pinout
+module
+```
+
 ### Standard 5-Pin Breakout Module
 
 | Pin | Name | Type | Description |

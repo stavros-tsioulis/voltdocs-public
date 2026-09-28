@@ -6,7 +6,7 @@ tags: [pcf8574, pcf8574a, i2c, gpio, expander, lcd-backpack, nxp, ti]
 status: published
 summary: >-
   NXP and Texas Instruments remote 8-bit I/O expander for I2C-bus, featuring quasi-bidirectional I/O ports, an open-drain interrupt output, and 3 hardware address selection pins.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: NXP Semiconductors / Texas Instruments
   ic_part_numbers: [PCF8574, PCF8574A, PCF8574P, PCF8574T, PCF8574AT]
@@ -28,6 +28,10 @@ highlights:
   - io_pins
   - i2c_address_base_hex
 body: index.md
+pinouts:
+  - id: package
+    title: 16-pin DIP / SOIC package
+    path: pinouts/package.json
 assets:
   - id: datasheet
     kind: datasheet

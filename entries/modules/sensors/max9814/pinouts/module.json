@@ -1,0 +1,61 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "A/R",
+      "name": "A/R",
+      "type": "digital",
+      "direction": "input",
+      "description": "Attack/release ratio select."
+    },
+    {
+      "id": "GAIN",
+      "name": "GAIN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Gain select."
+    },
+    {
+      "id": "OUT",
+      "name": "OUT",
+      "type": "analog",
+      "direction": "output",
+      "description": "Audio output biased near 1.25 V."
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "VDD",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.7,
+        "nominal": 3.3,
+        "max": 5.5
+      }
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "A/R",
+        "GAIN",
+        "OUT",
+        "GND",
+        "VDD"
+      ]
+    },
+    "label": "MAX9814",
+    "minSize": {
+      "width": 7,
+      "height": 6
+    }
+  }
+}

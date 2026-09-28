@@ -6,7 +6,7 @@ tags: [a4988, stepper, driver, microstepping, 3d-printer, cnc, allegro, pololu]
 status: published
 summary: >-
   Allegro MicroSystems complete microstepping motor driver with built-in translator for driving bipolar stepper motors up to 35 V and ±2 A in full-, 1/2-, 1/4-, 1/8-, and 1/16-step modes.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Allegro MicroSystems
   ic_part_numbers: [A4988SETTR-T, A4988]
@@ -29,6 +29,10 @@ highlights:
   - continuous_current_per_phase_a
   - microstep_resolutions
 body: index.md
+pinouts:
+  - id: module
+    title: StepStick / Pololu module
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

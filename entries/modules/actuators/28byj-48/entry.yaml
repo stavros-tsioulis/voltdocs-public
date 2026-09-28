@@ -6,7 +6,7 @@ tags: [28byj-48, 28byj48, uln2003, stepper, motor, unipolar, gear-motor, robotic
 status: published
 summary: >-
   Ubiquitous 5V DC 4-phase unipolar geared stepper motor paired with a ULN2003 Darlington transistor array driver breakout board for microcontroller-driven precision positioning.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Generic motor / Texas Instruments (ULN2003)
   ic_part_numbers: [28BYJ-48, ULN2003A]
@@ -29,6 +29,13 @@ highlights:
   - step_count_per_revolution
   - pull_in_torque_g_cm
 body: index.md
+pinouts:
+  - id: motor
+    title: Motor JST connector
+    path: pinouts/motor.json
+  - id: driver
+    title: ULN2003 driver-board header
+    path: pinouts/driver.json
 assets:
   - id: datasheet
     kind: datasheet

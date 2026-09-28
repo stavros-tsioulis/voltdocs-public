@@ -18,6 +18,15 @@ Commonly found on 0.96" and 0.91" monochrome display modules, the SSD1306 embeds
 
 ## Pinout
 
+```pinout
+i2c-module
+```
+
+```pinout
+spi-module
+```
+
+
 ### Standard 4-Pin I2C Breakout Module
 
 | Pin | Name | Type | Description |

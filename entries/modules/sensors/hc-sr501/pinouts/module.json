@@ -1,0 +1,52 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.5,
+        "nominal": 5.0,
+        "max": 20.0
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Clone modules may reverse VCC and GND. Verify the board silkscreen before applying power."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "OUT",
+      "type": "digital",
+      "direction": "output",
+      "description": "3.3 V motion-detection output.",
+      "drive": "push-pull"
+    },
+    {
+      "id": "3",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "label": "HC-SR501",
+    "minSize": {
+      "width": 7,
+      "height": 6
+    }
+  }
+}

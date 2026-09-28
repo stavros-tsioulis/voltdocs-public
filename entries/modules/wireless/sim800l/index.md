@@ -18,6 +18,11 @@ The module features a 3.7V–4.2V operating voltage range (tailored for direct 1
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard Red SIM800L Breakout Header
 
 | Pin | Name | Type | Description |

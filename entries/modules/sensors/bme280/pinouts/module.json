@@ -1,0 +1,107 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.0
+      }
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "SCL / SCK",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The bare BME280 interface is not 5 V tolerant; verify that the breakout includes level shifting before using 5 V logic."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "SDA / SDI",
+      "type": "bus",
+      "direction": "bidirectional",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The bare BME280 interface is not 5 V tolerant; verify that the breakout includes level shifting before using 5 V logic."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "CSB / CS",
+      "type": "bus",
+      "direction": "input",
+      "description": "Active-low SPI chip select; high selects I2C.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The bare BME280 interface is not 5 V tolerant; verify that the breakout includes level shifting before using 5 V logic."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "SDO / ADR",
+      "type": "bus",
+      "direction": "passive",
+      "description": "SPI data output, or a static I2C address strap in I2C mode.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The bare BME280 interface is not 5 V tolerant; verify that the breakout includes level shifting before using 5 V logic."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "label": "BME280",
+    "minSize": {
+      "width": 8,
+      "height": 5
+    }
+  }
+}

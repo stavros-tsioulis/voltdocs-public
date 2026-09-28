@@ -1,0 +1,88 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.0
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Only regulator/level-shifted boards safely accept 5 V."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "SCL / SCK",
+      "type": "clock",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "4",
+      "name": "SDA / SDI",
+      "type": "bus",
+      "direction": "bidirectional",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "5",
+      "name": "CSB / CS",
+      "type": "bus",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "6",
+      "name": "SDO / ADR",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "SPI output or I²C address strap.",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "label": "BME680",
+    "minSize": {
+      "width": 8,
+      "height": 5
+    }
+  }
+}

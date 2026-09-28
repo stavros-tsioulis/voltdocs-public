@@ -1,0 +1,161 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "ENABLE",
+      "type": "digital",
+      "direction": "input",
+      "description": "Active-low output enable.",
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "Set the current limit before enabling the motor outputs."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "MS1",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "3",
+      "name": "MS2",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "4",
+      "name": "MS3",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "5",
+      "name": "RESET",
+      "type": "digital",
+      "direction": "input",
+      "description": "Active-low reset."
+    },
+    {
+      "id": "6",
+      "name": "SLEEP",
+      "type": "digital",
+      "direction": "input",
+      "description": "Active-low sleep."
+    },
+    {
+      "id": "7",
+      "name": "STEP",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "8",
+      "name": "DIR",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "9",
+      "name": "GND (logic)",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "10",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.0,
+        "nominal": 5.0,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "11",
+      "name": "1B",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "12",
+      "name": "1A",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "13",
+      "name": "2A",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "14",
+      "name": "2B",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "15",
+      "name": "GND (motor)",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "16",
+      "name": "VMOT",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 8.0,
+        "nominal": 24.0,
+        "max": 35.0
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Place at least 100 µF of bulk capacitance close to VMOT and motor GND to suppress destructive LC spikes."
+        },
+        {
+          "severity": "danger",
+          "text": "Never connect or disconnect the stepper motor while the driver is powered."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    },
+    "label": "A4988",
+    "minSize": {
+      "width": 7,
+      "height": 10
+    }
+  }
+}

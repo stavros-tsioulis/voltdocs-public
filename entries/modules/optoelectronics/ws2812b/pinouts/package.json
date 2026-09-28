@@ -1,0 +1,49 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": { "min": 3.7, "nominal": 5.0, "max": 5.3 },
+      "description": "LED and controller supply input."
+    },
+    {
+      "id": "2",
+      "name": "DOUT",
+      "type": "bus",
+      "direction": "output",
+      "drive": "push-pull",
+      "level": "5 V NRZ logic",
+      "description": "Reshaped control-data output for the next pixel in the chain."
+    },
+    {
+      "id": "3",
+      "name": "VSS",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "4",
+      "name": "DIN",
+      "type": "bus",
+      "direction": "input",
+      "level": "5 V NRZ logic",
+      "description": "800 kbit/s control-data input.",
+      "notes": [
+        { "severity": "warning", "text": "At a 5 V supply, a 3.3 V host may not meet the specified 0.7 × VDD input-high threshold. Use a suitable level shifter." }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": ["4", "3"],
+      "right": ["1", "2"]
+    },
+    "label": "WS2812B",
+    "minSize": { "width": 5, "height": 4 }
+  }
+}

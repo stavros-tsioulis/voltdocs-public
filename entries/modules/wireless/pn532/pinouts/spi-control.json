@@ -1,0 +1,83 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "RSTO",
+      "name": "RSTO",
+      "type": "digital",
+      "direction": "output",
+      "description": "Reset output; do not drive."
+    },
+    {
+      "id": "IRQ",
+      "name": "IRQ",
+      "type": "digital",
+      "direction": "output",
+      "description": "Active-low interrupt.",
+      "drive": "open-drain"
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "VCC",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5
+      }
+    },
+    {
+      "id": "SS",
+      "name": "SS",
+      "type": "bus",
+      "direction": "input"
+    },
+    {
+      "id": "MOSI",
+      "name": "MOSI",
+      "type": "bus",
+      "direction": "input"
+    },
+    {
+      "id": "MISO",
+      "name": "MISO",
+      "type": "bus",
+      "direction": "output",
+      "drive": "tri-state"
+    },
+    {
+      "id": "SCK",
+      "name": "SCK",
+      "type": "clock",
+      "direction": "input"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "top": [
+        "RSTO",
+        "IRQ",
+        "GND",
+        "VCC",
+        "SS",
+        "MOSI",
+        "MISO",
+        "SCK"
+      ]
+    },
+    "label": "PN532 SPI",
+    "minSize": {
+      "width": 10,
+      "height": 6
+    }
+  }
+}

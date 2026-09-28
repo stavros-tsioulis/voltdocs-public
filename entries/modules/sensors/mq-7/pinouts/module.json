@@ -1,0 +1,77 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "nominal": 5.0,
+        "max": 5.0
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "The heater draws roughly 150 mA and must not be powered from a GPIO."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "DO",
+      "type": "digital",
+      "direction": "output",
+      "description": "Comparator threshold output.",
+      "voltage": {
+        "max": 5.0
+      },
+      "drive": "open-collector",
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The pulled-up output may reach 5 V; protect 3.3 V GPIO."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "AO",
+      "type": "analog",
+      "direction": "output",
+      "description": "Analog sensor voltage.",
+      "voltage": {
+        "max": 5.0
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "AO can approach 5 V; use a divider for a 3.3 V ADC."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "label": "MQ-7",
+    "minSize": {
+      "width": 6,
+      "height": 6
+    }
+  }
+}

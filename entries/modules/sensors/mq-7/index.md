@@ -19,6 +19,11 @@ Unlike general gas sensors (such as MQ-2 or MQ-135) that operate at a constant 5
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 4-Pin Breakout Module
 
 | Pin | Name | Type | Description |

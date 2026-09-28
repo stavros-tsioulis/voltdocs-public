@@ -18,6 +18,11 @@ It features 8 quasi-bidirectional I/O pins (`P0`–`P7`), three hardware address
 
 ## Pinout
 
+```pinout
+package
+```
+
+
 ### 16-Pin DIP / SOIC Package
 
 | Pin | Name | Type | Description |

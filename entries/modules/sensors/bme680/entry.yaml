@@ -6,7 +6,7 @@ tags: [bme680, sensor, voc, gas, temperature, humidity, pressure, air-quality, b
 status: published
 summary: >-
   Bosch Sensortec 4-in-1 digital environmental sensor integrating a MOX metal-oxide gas sensor for VOC detection alongside high-accuracy humidity, pressure, and temperature sensors.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Bosch Sensortec
   ic_part_numbers: [BME680]
@@ -33,6 +33,10 @@ highlights:
   - gas_sensor_type
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Six-pin BME680 breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

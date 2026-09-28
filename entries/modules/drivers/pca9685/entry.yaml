@@ -6,7 +6,7 @@ tags: [pca9685, pwm, servo, driver, i2c, nxp, 12-bit, led-driver, servo-shield]
 status: published
 summary: >-
   NXP Semiconductors 16-channel I2C-bus controlled 12-bit LED and servo motor PWM controller with an internal 25 MHz oscillator and programmable output frequency from 24 Hz to 1526 Hz.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: NXP Semiconductors
   ic_part_numbers: [PCA9685PW, PCA9685]
@@ -31,6 +31,10 @@ highlights:
   - pwm_frequency_hz_max
   - i2c_address_base_hex
 body: index.md
+pinouts:
+  - id: module
+    title: 16-channel servo breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

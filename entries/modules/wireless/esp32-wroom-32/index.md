@@ -19,6 +19,15 @@ Targeted at IoT edge devices, robotics, smart home automation (ESPHome, Home Ass
 
 ## Pinout
 
+```pinout
+module
+```
+
+```pinout
+devkit
+```
+
+
 ### Standard 30-Pin ESP32 DevKit Breakout Pinout
 
 | Pin | Name | Type | Description |
@@ -49,9 +58,9 @@ Targeted at IoT edge devices, robotics, smart home automation (ESPHome, Home Ass
 | 24 | `GPIO17` | Digital I/O | UART2 `TX` |
 | 25 | `GPIO16` | Digital I/O | UART2 `RX` |
 | 26 | `GPIO4` | Touch / I/O | Touch0 / ADC2_CH0 |
-| 27 | `GPIO0` | Touch / I/O | Touch1 / ADC2_CH1 (Boot Mode: LOW = Flash, HIGH = Run) |
-| 28 | `GPIO2` | Touch / I/O | Touch2 / ADC2_CH2 (Must be floating or LOW during flashing) |
-| 29 | `GPIO15` | Touch / I/O | Touch3 / ADC2_CH3 / HSPI_CS |
+| 27 | `GPIO2` | Touch / I/O | Touch2 / ADC2_CH2 (Must be floating or LOW during flashing) |
+| 28 | `GPIO15` | Touch / I/O | Touch3 / ADC2_CH3 / HSPI_CS |
+| 29 | `GND` | Power | Ground (0 V) |
 | 30 | `3V3` | Power Output | Regulated +3.3 V DC output (or 3.3V power input) |
 
 ## Specifications

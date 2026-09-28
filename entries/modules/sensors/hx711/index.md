@@ -19,16 +19,21 @@ The chip integrates a low-noise programmable gain amplifier (PGA), power supply 
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard HX711 Breakout Module Pins
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
 | 1 | `E+` / `VCC_LOAD` | Power Output | Excitation power positive (to load cell Red wire) |
 | 2 | `E-` / `GND_LOAD` | Power Output | Excitation power negative / Ground (to load cell Black wire) |
-| 3 | `A+` / `INA+` | Analog Input | Channel A differential input positive (to load cell Green wire) |
-| 4 | `A-` / `INA-` | Analog Input | Channel A differential input negative (to load cell White wire) |
-| 5 | `B+` / `INB+` | Analog Input | Channel B differential input positive (optional second sensor) |
-| 6 | `B-` / `INB-` | Analog Input | Channel B differential input negative (optional second sensor) |
+| 3 | `A-` / `INA-` | Analog Input | Channel A differential input negative (to load cell White wire) |
+| 4 | `A+` / `INA+` | Analog Input | Channel A differential input positive (to load cell Green wire) |
+| 5 | `B-` / `INB-` | Analog Input | Channel B differential input negative (optional second sensor) |
+| 6 | `B+` / `INB+` | Analog Input | Channel B differential input positive (optional second sensor) |
 | 7 | `VCC` | Power | Digital logic supply voltage (+2.6 V to +5.5 V) |
 | 8 | `GND` | Power | Digital Ground (0 V) |
 | 9 | `DT` / `DOUT` | Digital Output | Serial data output pin |

@@ -1,0 +1,98 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "E+",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Load-cell excitation positive."
+    },
+    {
+      "id": "2",
+      "name": "E−",
+      "type": "ground",
+      "description": "Load-cell excitation negative."
+    },
+    {
+      "id": "3",
+      "name": "A−",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "4",
+      "name": "A+",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "5",
+      "name": "B−",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "6",
+      "name": "B+",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "7",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.6,
+        "nominal": 5.0,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "8",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "9",
+      "name": "DOUT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Serial conversion-data output."
+    },
+    {
+      "id": "10",
+      "name": "PD_SCK",
+      "type": "clock",
+      "direction": "input",
+      "description": "Serial clock and power-down control."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "top": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bottom": [
+        "8",
+        "9",
+        "10",
+        "7"
+      ]
+    },
+    "label": "HX711",
+    "minSize": {
+      "width": 8,
+      "height": 8
+    }
+  }
+}

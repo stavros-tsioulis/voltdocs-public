@@ -18,37 +18,23 @@ It can drive two independent DC motors or one 4-wire bipolar stepper motor at co
 
 ## Pinout
 
-### Standard Pololu / SparkFun Breakout Board Pinout
-
-```
-           ┌──────────┐
-     VM ───│ 1     16 │─── A01
-    VCC ───│ 2     15 │─── A02
-    GND ───│ 3     14 │─── GND
-    AO1 ───│ 4     13 │─── B02
-    AO2 ───│ 5     12 │─── B01
-    BO2 ───│ 6     11 │─── VM
-    BO1 ───│ 7     10 │─── PWMB
-   STBY ───│ 8      9 │─── BIN2
-           └──────────┘
+```pinout
+module
 ```
 
-| Pin | Name | Type | Description |
+
+### Pololu-Style Carrier
+
+| Left bank | Function | Right bank | Function |
 |---|---|---|---|
-| 1, 11 | `VM` | Power Input | Motor power supply voltage (+2.5 V to +13.5 V DC) |
-| 2 | `VCC` | Power Input | Logic supply voltage (+2.7 V to +5.5 V DC) |
-| 3, 14 | `GND` | Power | Ground (0 V) |
-| 4 | `AO1` / `A01` | Driver Output | Motor A Output 1 |
-| 5 | `AO2` / `A02` | Driver Output | Motor A Output 2 |
-| 6 | `BO2` / `B02` | Driver Output | Motor B Output 2 |
-| 7 | `BO1` / `B01` | Driver Output | Motor B Output 1 |
-| 8 | `STBY` | Digital Input | Standby input (`LOW` = Power-down, `HIGH` = Enable outputs) |
-| 9 | `BIN2` | Digital Input | Motor B Direction Input 2 |
-| 10 | `PWMB` | Digital Input | Motor B PWM Speed Control input |
-| 12 | `BIN1` | Digital Input | Motor B Direction Input 1 |
-| 13 | `PWMA` | Digital Input | Motor A PWM Speed Control input |
-| 15 | `AIN2` | Digital Input | Motor A Direction Input 2 |
-| 16 | `AIN1` | Digital Input | Motor A Direction Input 1 |
+| `GND` | Ground | `PWMA` | Motor A PWM |
+| `VCC` | Logic supply | `AIN2` | Motor A input 2 |
+| `AO1` | Motor A output 1 | `AIN1` | Motor A input 1 |
+| `AO2` | Motor A output 2 | `STBY` | Active-high standby release |
+| `BO2` | Motor B output 2 | `BIN1` | Motor B input 1 |
+| `BO1` | Motor B output 1 | `BIN2` | Motor B input 2 |
+| `VMOT` | Motor supply | `PWMB` | Motor B PWM |
+| `GND` | Ground | `GND` | Ground |
 
 ## Specifications
 

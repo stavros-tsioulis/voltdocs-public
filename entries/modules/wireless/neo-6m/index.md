@@ -18,6 +18,11 @@ Breakout modules typically integrate a 3.3V low-dropout (LDO) regulator, an onbo
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 4-Pin / 5-Pin Breakout Header
 
 | Pin | Name | Type | Description |

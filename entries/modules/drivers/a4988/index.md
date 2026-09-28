@@ -17,6 +17,11 @@ It features adjustable current limiting, overcurrent protection, thermal shutdow
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard StepStick / Pololu Module Pinout
 
 ```

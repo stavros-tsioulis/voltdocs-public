@@ -1,0 +1,96 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "2",
+      "name": "3.3V",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.0,
+        "nominal": 3.3,
+        "max": 3.5
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "For body-connected use, power from a battery and use galvanic isolation. Never attach electrodes while connected to mains-referenced USB, bench, or oscilloscope equipment."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "OUTPUT",
+      "type": "analog",
+      "direction": "output"
+    },
+    {
+      "id": "4",
+      "name": "LO−",
+      "type": "digital",
+      "direction": "output"
+    },
+    {
+      "id": "5",
+      "name": "LO+",
+      "type": "digital",
+      "direction": "output"
+    },
+    {
+      "id": "6",
+      "name": "SDN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Active-low shutdown."
+    },
+    {
+      "id": "7",
+      "name": "RA",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "8",
+      "name": "LA",
+      "type": "analog",
+      "direction": "input"
+    },
+    {
+      "id": "9",
+      "name": "RL",
+      "type": "analog",
+      "direction": "output",
+      "description": "Right-leg drive electrode."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "7",
+        "8",
+        "9"
+      ],
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "label": "AD8232",
+    "minSize": {
+      "width": 9,
+      "height": 7
+    }
+  }
+}

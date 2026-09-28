@@ -1,0 +1,83 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "VCC",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.0
+      },
+      "notes": [
+        {
+          "severity": "warning",
+          "text": "5 V input is valid only on a regulator-equipped breakout."
+        }
+      ]
+    },
+    {
+      "id": "GND",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "TXD",
+      "name": "TXD",
+      "type": "bus",
+      "direction": "output",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "RXD",
+      "name": "RXD",
+      "type": "bus",
+      "direction": "input",
+      "voltage": {
+        "max": 3.6
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Do not drive from 5 V logic."
+        }
+      ],
+      "level": "3.3 V logic"
+    },
+    {
+      "id": "PPS",
+      "name": "PPS",
+      "type": "digital",
+      "direction": "output",
+      "description": "Time-pulse output.",
+      "voltage": {
+        "max": 3.6
+      },
+      "level": "3.3 V logic"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "VCC",
+        "GND",
+        "TXD",
+        "RXD",
+        "PPS"
+      ]
+    },
+    "label": "NEO-M8N",
+    "minSize": {
+      "width": 8,
+      "height": 6
+    }
+  }
+}

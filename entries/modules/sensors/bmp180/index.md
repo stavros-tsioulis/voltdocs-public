@@ -18,16 +18,21 @@ It includes a piezo-resistive sensor, an ADC, a control unit, and an EPROM conta
 
 ## Pinout
 
-### Standard GY-68 Breakout Board Header
+```pinout
+module
+```
+
+
+### Standard Four-Pin GY-68 Breakout
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `VCC` | Power | Supply voltage (+3.3 V to +5.0 V DC) |
-| 2 | `GND` | Power | Ground (0 V) |
-| 3 | `SCL` | Digital Input | I2C Serial Clock input line |
-| 4 | `SDA` | Digital I/O | I2C Serial Data line |
-| 5 | `3.3V` | Power Output | Regulated 3.3V power output |
-| 6 | `CLR` / `EOC` | Digital Output | End of Conversion signal output (Active-HIGH) |
+| 1 | `VCC` | Power | Regulated-board supply input (+3.3 V to +5.0 V) |
+| 2 | `GND` | Power | Ground |
+| 3 | `SCL` | Digital Input | 3.3 V I²C clock |
+| 4 | `SDA` | Digital I/O | 3.3 V open-drain I²C data |
+
+> [!WARNING] The bare sensor is limited to 3.6 V, and some GY-68 boards do not level-shift their I²C pull-ups. Verify the board before using 5 V logic.
 
 ## Specifications
 

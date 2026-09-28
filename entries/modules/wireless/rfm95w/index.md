@@ -20,22 +20,26 @@ Using chirp spread spectrum (CSS) modulation, the RFM95W achieves receiver sensi
 
 ## Pinout
 
-### Standard 16-Pin Castellation Module Header
+```pinout
+module
+```
+
+
+### RFM95W 16-Pad Castellated Module
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `GND` | Power | Ground (0 V) |
-| 2 | `MISO` | Digital Output | SPI Master Input Slave Output |
-| 3 | `MOSI` | Digital Input | SPI Master Output Slave Input |
-| 4 | `SCK` | Digital Input | SPI Clock input |
-| 5 | `NSS` / `CS` | Digital Input | SPI Chip Select (Active-LOW) |
-| 6 | `RESET` | Digital Input | Active-LOW Reset input pin |
-| 7, 8, 9, 10, 11 | `DIO0`–`DIO4` | Digital Output | Configurable Digital I/O Interrupt pins (`DIO0` = TxDone/RxDone) |
-| 12 | `DIO5` | Digital Output | Configurable ModeReady interrupt pin |
-| 13 | `3.3V` / `VDD` | Power | Supply voltage (+1.8 V to +3.7 V DC) |
-| 14 | `GND` | Power | Ground |
-| 15 | `ANA` / `ANT` | RF I/O | RF Antenna connection point (50 Ω impedance) |
-| 16 | `GND` | Power | RF Ground shield |
+| 1, 8, 10 | `GND` | Power | Ground |
+| 2 | `MISO` | Digital Output | SPI data output |
+| 3 | `MOSI` | Digital Input | SPI data input |
+| 4 | `SCK` | Digital Input | SPI clock |
+| 5 | `NSS` | Digital Input | Active-low SPI select |
+| 6 | `RESET` | Digital Input | Active-low reset |
+| 7, 11, 12, 14, 15, 16 | `DIO5`, `DIO3`, `DIO4`, `DIO0`, `DIO1`, `DIO2` | Digital I/O | Software-configurable interrupt lines |
+| 9 | `ANT` | RF I/O | 50 Ω antenna connection |
+| 13 | `3.3V` | Power Input | +1.8 V to +3.7 V supply |
+
+> [!WARNING] The module is not 5 V tolerant. Never transmit without a matched antenna.
 
 ## Specifications
 

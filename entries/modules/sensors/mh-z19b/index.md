@@ -18,6 +18,11 @@ The gold-plated optical chamber houses an internal IR light source, a narrow ban
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 7-Pin Gold Module Header
 
 | Pin | Name | Type | Description |

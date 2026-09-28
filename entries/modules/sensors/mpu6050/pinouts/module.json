@@ -1,0 +1,144 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 3.3,
+        "max": 5.0
+      }
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.46
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-521 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "drive": "open-drain",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.46
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-521 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "XDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Auxiliary I2C data.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.46
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-521 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "XCL",
+      "type": "clock",
+      "direction": "output",
+      "description": "Auxiliary I2C clock.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.46
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-521 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "AD0",
+      "type": "digital",
+      "direction": "input",
+      "description": "I2C address select.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.46
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-521 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "INT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Programmable interrupt output.",
+      "level": "3.3 V logic",
+      "voltage": {
+        "max": 3.46
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "The GY-521 supply regulator does not make this signal 5 V tolerant."
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "label": "GY-521",
+    "minSize": {
+      "width": 10,
+      "height": 7
+    }
+  }
+}

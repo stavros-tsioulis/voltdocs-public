@@ -6,7 +6,7 @@ tags: [ads1115, adc, 16-bit, precision, pga, i2c, texas-instruments, analog-inpu
 status: published
 summary: >-
   Texas Instruments precision 16-bit analog-to-digital converter (ADC) with an onboard programmable gain amplifier (PGA), low-drift voltage reference, internal oscillator, and I2C interface.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Texas Instruments
   ic_part_numbers: [ADS1115, ADS1115IDGSR]
@@ -32,6 +32,10 @@ highlights:
   - sample_rate_sps_max
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard ADS1115 breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

@@ -18,6 +18,11 @@ Breakout boards (such as the GY-521) include an onboard 3.3 V low-dropout (LDO) 
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard GY-521 Breakout Header
 
 | Pin | Name | Type | Description |

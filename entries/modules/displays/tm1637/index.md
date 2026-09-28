@@ -18,14 +18,19 @@ It is universally used to drive 4-digit 0.36" and 0.56" 7-segment LED display mo
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 4-Pin Module Header
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `GND` | Power | Ground (0 V) |
-| 2 | `VCC` | Power | Supply voltage (+3.3 V to +5.5 V DC) |
-| 3 | `DIO` | Digital I/O | Serial Data Input/Output line (requires pull-up resistor) |
-| 4 | `CLK` | Digital Input | Serial Clock input line |
+| 1 | `CLK` | Digital Input | Serial Clock input line |
+| 2 | `DIO` | Digital I/O | Serial Data Input/Output line (requires pull-up resistor) |
+| 3 | `VCC` | Power | Supply voltage (+3.3 V to +5.5 V DC) |
+| 4 | `GND` | Power | Ground (0 V) |
 
 ## Specifications
 

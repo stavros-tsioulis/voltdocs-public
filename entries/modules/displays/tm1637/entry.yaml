@@ -6,7 +6,7 @@ tags: [tm1637, 7-segment, led, display, driver, titan-micro, 4-digit, clock-disp
 status: published
 summary: >-
   Titan Micro Electronics 2-wire serial LED driver IC controlling 4-digit (or up to 6-digit) 7-segment LED displays with 8-level adjustable brightness.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Titan Micro Electronics
   ic_part_numbers: [TM1637]
@@ -28,6 +28,10 @@ highlights:
   - brightness_levels
   - interfaces
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 4-pin display module
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

@@ -19,20 +19,38 @@ It streams real-time mass concentration values ($\mu\text{g/m}^3$) for **PM1.0**
 
 ## Pinout
 
-### Standard 10-Pin 1.27mm Connector (PMS5003)
+```pinout
+pms5003
+```
+
+```pinout
+pms7003
+```
+
+
+### PMS5003 Eight-Pin Connector
 
 | Pin | Name | Type | Description |
 |---|---|---|---|
-| 1 | `VCC` | Power Input | Supply voltage (+4.5 V to +5.5 V DC) |
-| 2 | `VCC` | Power Input | Supply voltage (+4.5 V to +5.5 V DC) |
-| 3 | `GND` | Power | Ground (0 V) |
-| 4 | `GND` | Power | Ground (0 V) |
-| 5 | `RESET` | Digital Input | Active-LOW Hardware Reset pin (pull HIGH for normal operation) |
-| 6 | `NC` | Not Connected | Unused |
-| 7 | `RX` | Digital Input | UART Receive data (3.3V logic level) |
-| 8 | `NC` | Not Connected | Unused |
-| 9 | `TX` | Digital Output | UART Transmit data (3.3V logic level output, 9600 baud) |
-| 10 | `SET` | Digital Input | Sleep control pin (`HIGH` = Normal mode, `LOW` = Standby mode fan OFF) |
+| 1 | `VCC` | Power Input | +5 V fan and sensor supply |
+| 2 | `GND` | Power | Ground |
+| 3 | `SET` | Digital Input | Low selects standby |
+| 4 | `RX` | Digital Input | 3.3 V UART receive |
+| 5 | `TX` | Digital Output | 3.3 V UART transmit |
+| 6 | `RESET` | Digital Input | Active-low reset |
+| 7–8 | `NC` | Not Connected | Leave unconnected |
+
+### PMS7003 Keyed 2×5 Connector
+
+| Pin(s) | Name | Type | Description |
+|---|---|---|---|
+| 1–2 | `VCC` | Power Input | +5 V supply |
+| 3–4 | `GND` | Power | Ground |
+| 5 | `RESET` | Digital Input | Active-low reset |
+| 6, 8 | `NC` | Not Connected | Leave unconnected |
+| 7 | `RX` | Digital Input | 3.3 V UART receive |
+| 9 | `TX` | Digital Output | 3.3 V UART transmit |
+| 10 | `SET` | Digital Input | Low selects standby |
 
 ## Specifications
 
@@ -62,14 +80,27 @@ The sensor streams a 32-byte binary packet every 1 second starting with header b
 
 ## Wiring
 
-| PMS5003 Pin | → | Microcontroller (Arduino / ESP32) | Notes |
-|---|---|---|---|
-| `VCC` (Pins 1 & 2) | | `5V` | **Must be 5V DC for internal fan** |
-| `GND` (Pins 3 & 4) | | `GND` | Ground |
-| `TX` (Pin 9) | | `RX` (e.g. GPIO16 / D2 for SoftwareSerial) | 3.3V logic output |
-| `RX` (Pin 7) | | `TX` (e.g. GPIO17 / D3 for SoftwareSerial) | 3.3V logic input |
-| `SET` (Pin 10) | | `3.3V` (or GPIO Pin) | Pull HIGH to enable fan/laser |
-| `RESET` (Pin 5) | | `3.3V` (or GPIO Pin) | Pull HIGH for normal operation |
+### PMS5003
+
+| Sensor Pin | Host Connection |
+|---|---|
+| `VCC` (1) | `5V` |
+| `GND` (2) | Ground |
+| `TX` (5) | Host RX, 3.3 V logic |
+| `RX` (4) | Host TX through level shifting if host is 5 V |
+| `SET` (3) | 3.3 V or GPIO; low selects standby |
+| `RESET` (6) | 3.3 V or GPIO; active low |
+
+### PMS7003
+
+| Sensor Pin | Host Connection |
+|---|---|
+| `VCC` (1–2) | `5V` |
+| `GND` (3–4) | Ground |
+| `TX` (9) | Host RX, 3.3 V logic |
+| `RX` (7) | Host TX through level shifting if host is 5 V |
+| `SET` (10) | 3.3 V or GPIO; low selects standby |
+| `RESET` (5) | 3.3 V or GPIO; active low |
 
 ## Common mistakes
 

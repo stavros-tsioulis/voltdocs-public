@@ -18,6 +18,11 @@ Breakout boards (GY-271) include 3.3V power regulation and I2C level shifting. N
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard GY-271 5-Pin Breakout Header
 
 | Pin | Name | Type | Description |

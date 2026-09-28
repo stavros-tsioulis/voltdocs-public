@@ -1,0 +1,142 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "L1",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "L2",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.7,
+        "nominal": 3.3,
+        "max": 5.5
+      }
+    },
+    {
+      "id": "L3",
+      "name": "AO1",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "L4",
+      "name": "AO2",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "L5",
+      "name": "BO2",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "L6",
+      "name": "BO1",
+      "type": "other",
+      "direction": "output"
+    },
+    {
+      "id": "L7",
+      "name": "VMOT",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.5,
+        "nominal": 6.0,
+        "max": 13.5
+      }
+    },
+    {
+      "id": "L8",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "R1",
+      "name": "PWMA",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "R2",
+      "name": "AIN2",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "R3",
+      "name": "AIN1",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "R4",
+      "name": "STBY",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "R5",
+      "name": "BIN1",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "R6",
+      "name": "BIN2",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "R7",
+      "name": "PWMB",
+      "type": "digital",
+      "direction": "input"
+    },
+    {
+      "id": "R8",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8"
+      ],
+      "right": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8"
+      ]
+    },
+    "label": "TB6612FNG",
+    "minSize": {
+      "width": 8,
+      "height": 10
+    }
+  }
+}

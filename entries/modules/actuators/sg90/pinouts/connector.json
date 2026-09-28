@@ -1,0 +1,45 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "2",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.8,
+        "nominal": 5.0,
+        "max": 6.0
+      }
+    },
+    {
+      "id": "3",
+      "name": "PWM",
+      "type": "digital",
+      "direction": "input",
+      "description": "50 Hz position-control input."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "label": "SG90",
+    "minSize": {
+      "width": 5,
+      "height": 4
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": { "nominal": 3.3, "max": 5.0 },
+      "description": "Breakout-board supply input. Common modules include a 3.3 V regulator.",
+      "notes": [
+        { "severity": "warning", "text": "Confirm that your particular breakout has a regulator and level-compatible pull-ups before applying 5 V." }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "3",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input",
+      "level": "I2C logic",
+      "description": "I2C serial clock."
+    },
+    {
+      "id": "4",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "drive": "open-drain",
+      "level": "I2C logic",
+      "description": "I2C serial data."
+    },
+    {
+      "id": "5",
+      "name": "ADDR",
+      "type": "digital",
+      "direction": "input",
+      "level": "I2C address select",
+      "functions": ["0x23 when low", "0x5C when high"],
+      "description": "Selects the I2C slave address."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": ["1", "2", "3", "4", "5"]
+    },
+    "label": "BH1750",
+    "minSize": { "width": 7, "height": 5 }
+  }
+}

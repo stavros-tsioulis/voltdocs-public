@@ -18,6 +18,11 @@ It outputs calibrated 40-bit digital signals over a proprietary custom single-wi
 
 ## Pinout
 
+```pinout
+package
+```
+
+
 ### 4-Pin Package / 3-Pin Breakout Module
 
 | Pin | Name | Type | Description |

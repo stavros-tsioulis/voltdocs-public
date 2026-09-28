@@ -6,7 +6,7 @@ tags: [adxl345, accelerometer, imu, motion, 3-axis, i2c, spi, analog-devices, gr
 status: published
 summary: >-
   Analog Devices small, thin, ultra-low power 3-axis MEMS accelerometer with high-resolution (13-bit) measurement up to ±16 g outputting digital data formatted over I2C or SPI.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Analog Devices
   ic_part_numbers: [ADXL345, ADXL345BCCZ]
@@ -33,6 +33,10 @@ highlights:
   - adc_resolution_bits
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard GY-291 breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

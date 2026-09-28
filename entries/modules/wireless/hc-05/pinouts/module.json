@@ -1,0 +1,67 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "STATE",
+      "type": "digital",
+      "direction": "output",
+      "level": "3.3 V logic",
+      "description": "Connection-status output; asserted when a Bluetooth link is active."
+    },
+    {
+      "id": "2",
+      "name": "RXD",
+      "type": "bus",
+      "direction": "input",
+      "level": "3.3 V UART logic",
+      "voltage": { "max": 3.6 },
+      "description": "UART receive input.",
+      "notes": [
+        { "severity": "danger", "text": "Use a level shifter or resistor divider when driven by a 5 V UART transmitter." }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "TXD",
+      "type": "bus",
+      "direction": "output",
+      "drive": "push-pull",
+      "level": "3.3 V UART logic",
+      "description": "UART transmit output."
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    },
+    {
+      "id": "5",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": { "min": 3.6, "nominal": 5.0, "max": 6.0 },
+      "description": "Breakout-board supply input. The carrier regulates this supply for the 3.3 V radio module."
+    },
+    {
+      "id": "6",
+      "name": "EN / KEY",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "voltage": { "max": 3.6 },
+      "functions": ["Module enable", "AT-command mode select"],
+      "description": "Pull high during power-up to enter the full AT-command mode on common HC-05 breakout boards."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": ["1", "2", "3", "4", "5", "6"]
+    },
+    "label": "HC-05",
+    "minSize": { "width": 8, "height": 6 }
+  }
+}

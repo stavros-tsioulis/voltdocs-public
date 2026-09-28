@@ -6,7 +6,7 @@ tags: [ina219, current, power, voltage, sensor, i2c, texas-instruments, shunt, p
 status: published
 summary: >-
   Texas Instruments high-side current and power monitor IC with an I2C interface that measures shunt voltage drop across a precision sense resistor, bus voltage up to 26 V, and calculates current and power onboard.
-updatedAt: "2026-08-03"
+updatedAt: "2026-09-28"
 fields:
   manufacturer: Texas Instruments
   ic_part_numbers: [INA219, INA219BIDR, INA219AIDR]
@@ -29,6 +29,10 @@ highlights:
   - max_current_a
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Classic INA219 breakout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

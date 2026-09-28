@@ -18,6 +18,11 @@ The module features a hemispherical white Fresnel lens that focuses IR radiation
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard 3-Pin Header
 
 | Pin | Name | Type | Description |

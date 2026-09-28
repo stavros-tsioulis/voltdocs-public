@@ -18,6 +18,11 @@ Breakout boards incorporate power regulation, a reverse-polarity protection MOSF
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 ### Standard PCA9685 Servo Breakout Board Pinout
 
 | Pin / Header | Name | Type | Description |

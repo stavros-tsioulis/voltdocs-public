@@ -21,6 +21,11 @@ Host microcontrollers communicate with the module primarily over SPI (up to 10 M
 
 ## Pinout
 
+```pinout
+module
+```
+
+
 | Pin | Name | Type | Description |
 |---|---|---|---|
 | 1 | `SDA` / `NSS` / `CS` | Bus | SPI Chip Select (active low) / I2C Data / UART address input |

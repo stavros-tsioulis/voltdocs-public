@@ -18,6 +18,11 @@ Unlike thermistors, the LM35 requires no external calibration or signal conditio
 
 ## Pinout
 
+```pinout
+package
+```
+
+
 ### Standard TO-92 Plastic Package (Flat side facing you, pins down)
 
 ```

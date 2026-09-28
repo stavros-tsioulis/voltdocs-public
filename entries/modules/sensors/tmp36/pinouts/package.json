@@ -1,0 +1,51 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "+VS",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.7,
+        "nominal": 5.0,
+        "max": 5.5
+      },
+      "notes": [
+        {
+          "severity": "danger",
+          "text": "Reversing +VS and GND can rapidly overheat and destroy the sensor."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "VOUT",
+      "type": "analog",
+      "direction": "output",
+      "description": "Analog temperature-proportional voltage output."
+    },
+    {
+      "id": "3",
+      "name": "GND",
+      "type": "ground",
+      "description": "Ground reference."
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "label": "TMP36",
+    "minSize": {
+      "width": 5,
+      "height": 4
+    }
+  }
+}
