@@ -1,0 +1,49 @@
+id: driver.stepper.drv8880
+revision: "1.0"
+title: DRV8880 — Stepper Motor Driver with AutoTune
+category: drivers/stepper
+tags: [drv8880, stepper, driver, autotune, microstepping, texas-instruments, pololu, stepstick]
+status: published
+summary: >-
+  Texas Instruments DRV8880 microstepping stepper motor driver featuring AutoTune adaptive decay technology, up to 2.0A full-scale current, 6.5V to 45V motor supply, configurable torque scaling, and 1/16 microstepping.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [DRV8880, DRV8880PWP, DRV8880PWPR, DRV8880RHRR]
+  package: 28-pin HTSSOP (PWP) with PowerPAD / 28-pin WQFN (RHR) / Breakout Carrier Module
+  load_voltage_min_v: 6.5
+  load_voltage_max_v: 45.0
+  logic_voltage_v: 3.3 (Internal V3P3 LDO, compatible with 3.3V and 5V MCU logic)
+  continuous_current_per_phase_a: 1.4
+  peak_output_current_a: 2.0
+  microstep_resolutions: [Full (100% or 71%), 1/2 (non-circular or circular), 1/4, 1/8, 1/16]
+  decay_modes: [AutoTune (Adaptive Dynamic Decay), Slow Decay, Mixed Decay (30% Fast / 70% Slow), Mixed Decay (60% Fast / 40% Slow)]
+  torque_dac_scaling: [100%, 75%, 50%, 25%]
+  rds_on_mohm: 560
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [STEP/DIR Interface, TRQ0/TRQ1 Torque Scaling Inputs, nFAULT Open-Drain Output]
+highlights:
+  - load_voltage_min_v
+  - load_voltage_max_v
+  - continuous_current_per_phase_a
+  - peak_output_current_a
+  - microstep_resolutions
+  - decay_modes
+  - torque_dac_scaling
+  - interfaces
+references:
+  - targetId: driver.stepper.drv8825
+    relation: alternative-to
+    comment: DRV8825 offers higher current (2.5A peak) and 1/32 microstepping, but lacks DRV8880 AutoTune adaptive decay.
+  - targetId: driver.stepper.a4988
+    relation: see-also
+    comment: Pin-compatible carrier module format with similar STEP/DIR operation.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/drv8880.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/DRV8880" }

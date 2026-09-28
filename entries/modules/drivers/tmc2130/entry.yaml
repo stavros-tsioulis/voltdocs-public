@@ -1,0 +1,52 @@
+id: driver.stepper.tmc2130
+revision: "1.0"
+title: TMC2130 — Silent Stepper Motor Driver with SPI and StallGuard2
+category: drivers/stepper
+tags: [tmc2130, tmc2130-la, trinamic, stepper-driver, stealthchop, spreadcycle, stallguard2, coolstep, dcstep, silentstepstick, "3d-printer", spi, sensorless-homing]
+status: published
+summary: >-
+  Trinamic (Analog Devices) 46V, 2.0A peak silent stepper motor driver IC featuring full SPI register control, StealthChop noiseless operation, SpreadCycle dynamic chopping, StallGuard2 sensorless homing, and CoolStep energy efficiency.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Trinamic / Analog Devices
+  ic_part_numbers: [TMC2130, TMC2130-LA, SilentStepStick TMC2130]
+  package: 36-pin QFN (5 x 6 mm) / StepStick Breakout Module
+  motor_supply_voltage_min_v: 4.75
+  motor_supply_voltage_max_v: 46.0
+  logic_supply_voltage_min_v: 3.3
+  logic_supply_voltage_max_v: 5.0
+  phase_current_rms_a: 1.4
+  phase_current_peak_a: 2.0
+  microstep_native_resolutions: [1/1, 1/2, 1/4, 1/8, 1/16, 1/32, 1/64, 1/128, 1/256]
+  microstep_interpolated_resolution: 1/256 (MicroPlyer)
+  key_features: [StealthChop (Silent Operation), SpreadCycle (High Dynamic Chopper), StallGuard2 (Sensorless Homing), CoolStep (Current Reduction), dcStep (Load-Dependent Velocity)]
+  rds_on_mohm: 500
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [STEP/DIR Interface, 4-Wire SPI (CS/SCK/SDI/SDO), DIAG0/DIAG1 Diagnostic Outputs]
+highlights:
+  - motor_supply_voltage_min_v
+  - motor_supply_voltage_max_v
+  - phase_current_rms_a
+  - phase_current_peak_a
+  - microstep_interpolated_resolution
+  - key_features
+  - interfaces
+references:
+  - targetId: driver.stepper.tmc2208
+    relation: companion-to
+    comment: TMC2208 uses single-wire UART instead of 4-wire SPI and lacks StallGuard2 sensorless homing.
+  - targetId: driver.stepper.tmc2209
+    relation: companion-to
+    comment: TMC2209 features single-wire UART, higher current (2.0A RMS), and StallGuard4, whereas TMC2130 uses 4-wire SPI.
+  - targetId: driver.stepper.a4988
+    relation: alternative-to
+    comment: Massive noise reduction, sensorless homing, and software current configuration upgrade over A4988.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2130_datasheet_rev1.15.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/tmc2130.html" }

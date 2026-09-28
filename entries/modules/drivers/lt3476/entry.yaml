@@ -1,0 +1,47 @@
+id: driver.led.lt3476
+revision: "1.0"
+title: LT3476 — High-Current Quad Output DC/DC LED Driver
+category: drivers/led
+tags: [lt3476, lt3476eufd, lt3476iufd, led-driver, quad-channel, high-current, constant-current, buck, boost, buck-boost, pwm-dimming, linear-technology, analog-devices, qfn-38]
+status: published
+summary: >-
+  Analog Devices / Linear Technology quad-channel DC/DC step-up/step-down LED driver with four independent 1.5A 36V internal switches, True Color PWM dimming (up to 1000:1 ratio), and 200kHz to 2MHz programmable switching frequency.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Analog Devices / Linear Technology
+  ic_part_numbers: [LT3476, LT3476EUFD, LT3476IUFD]
+  package: 38-lead QFN (5mm × 7mm)
+  channels: 4
+  input_voltage_min_v: 2.8
+  input_voltage_max_v: 16.0
+  switch_current_limit_a: 1.5
+  switch_voltage_max_v: 36.0
+  switching_frequency_khz_min: 200
+  switching_frequency_khz_max: 2000
+  dimming_ratio: 1000:1
+  efficiency_pct: 96.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [4 Independent PWM Inputs (PWM1-PWM4), 4 Switch Terminals (SW1-SW4), 4 Current Sense Inputs (CAP1-CAP4), Frequency Set (RT)]
+highlights:
+  - channels
+  - input_voltage_min_v
+  - input_voltage_max_v
+  - switch_current_limit_a
+  - switch_voltage_max_v
+  - dimming_ratio
+  - efficiency_pct
+  - interfaces
+references:
+  - targetId: driver.led.lt3743
+    relation: see-also
+  - targetId: driver.led.pt4115
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/3476fb.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/lt3476.html" }

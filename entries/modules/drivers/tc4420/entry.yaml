@@ -1,0 +1,46 @@
+id: driver.gate.tc4420
+revision: "1.0"
+title: TC4420 — 6A High-Speed Non-Inverting MOSFET Gate Driver
+category: drivers/mosfet
+tags: [tc4420, tc4420cpa, tc4420eoa, gate-driver, mosfet-driver, non-inverting, high-speed, high-current, 6a, microchip, telcom, dip-8]
+status: published
+summary: >-
+  Microchip 6A peak non-inverting high-speed CMOS MOSFET gate driver IC capable of charging and discharging 2500pF gate capacitance in 25ns across a 4.5V to 18V supply, featuring latch-up immunity and negative input transient tolerance.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [TC4420, TC4420CPA, TC4420EOA, TC4420COA, TC4420EPA]
+  package: 8-pin DIP / SOIC-8 / 5-pin TO-220
+  driver_type: High-Speed Single Non-Inverting Low-Side Gate Driver
+  output_configuration: Non-Inverting (IN = High -> OUT = High)
+  supply_voltage_min_v: 4.5
+  supply_voltage_max_v: 18.0
+  peak_output_current_a: 6.0
+  rise_time_ns: 25
+  fall_time_ns: 25
+  propagation_delay_ns: 55
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [Logic Input (IN), Dual High-Current Outputs (OUT), Supply (VDD, GND)]
+highlights:
+  - driver_type
+  - output_configuration
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - peak_output_current_a
+  - rise_time_ns
+  - fall_time_ns
+  - interfaces
+references:
+  - targetId: driver.gate.tc4429
+    relation: companion-to
+  - targetId: driver.gate.ir2104
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/21419F.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/TC4420" }

@@ -1,0 +1,47 @@
+id: interface.buffer.74hc125
+revision: "1.0"
+title: 74HC125 — Quad Bus Buffer Gate with 3-State Outputs (Active-LOW Enable)
+category: interface/buffer
+tags: [74hc125, 74hct125, sn74hc125, buffer, bus-buffer, "3-state", tri-state, line-driver, level-shifter, texas-instruments, nexperia, dip-14]
+status: published
+summary: >-
+  Texas Instruments / Nexperia 74HC125 quad non-inverting bus buffer gate with independent active-LOW output enables and 3-state outputs in a 14-pin DIP/SOIC package, widely used for SPI bus isolation and bidirectional line driving.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / Nexperia
+  ic_part_numbers: [74HC125, SN74HC125N, 74HC125D, 74HCT125, CD74HC125E]
+  package: 14-pin DIP (DIP-14 / PDIP-14) / SOIC-14 / TSSOP-14
+  logic_family: High-Speed CMOS (74HC) / TTL-Compatible CMOS (74HCT)
+  function: Quad Non-Inverting Buffer Gate with 3-State Outputs (Active-LOW Enable)
+  bus_width_bits: 4
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  propagation_delay_ns: 11
+  output_drive_current_ma: 6
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [4 Independent Channels (1A-1Y ... 4A-4Y), 4 Active-LOW Enable Pins (1nOE ... 4nOE)]
+highlights:
+  - logic_family
+  - function
+  - bus_width_bits
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - propagation_delay_ns
+  - output_drive_current_ma
+  - interfaces
+references:
+  - targetId: interface.buffer.74hc244
+    relation: see-also
+    comment: Octal buffer alternative for 8-bit bus widths.
+  - targetId: interface.buffer.74hc541
+    relation: see-also
+    comment: Octal buffer with flow-through pinout for cleaner PCB bus routing.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc125.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC125" }

@@ -1,0 +1,45 @@
+id: interface.logic.74hc273
+revision: "1.0"
+title: 74HC273 — Octal D-Type Flip-Flop with Master Reset
+category: interface/logic
+tags: [74hc273, sn74hc273, flip-flop, d-flip-flop, octal, "8-bit", register, master-reset, cmos, ti, nexperia, dip-20]
+status: published
+summary: >-
+  High-speed CMOS 8-bit edge-triggered D-type flip-flop IC featuring positive-edge clock triggering and common active-low asynchronous master reset (~CLR~) for parallel data storage, buffer registers, and status registers.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / Nexperia / ON Semiconductor
+  ic_part_numbers: [74HC273, SN74HC273N, 74HC273D, 74HC273PW, 74HCT273]
+  package: 20-pin DIP / SOIC-20 / TSSOP-20
+  logic_family: High-Speed CMOS (HC)
+  supply_voltage_min_v: 2.0
+  supply_voltage_max_v: 6.0
+  register_width_bits: 8
+  propagation_delay_ns: 15
+  max_clock_frequency_mhz: 50
+  output_drive_current_ma: 5.2
+  quiescent_current_ua: 8.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [8 Data Inputs (1D-8D), 8 Data Outputs (1Q-8Q), Clock (CLK), Master Reset (~CLR~)]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - register_width_bits
+  - propagation_delay_ns
+  - max_clock_frequency_mhz
+  - output_drive_current_ma
+  - interfaces
+references:
+  - targetId: interface.logic.74hc174
+    relation: see-also
+  - targetId: interface.logic.74hc373
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/sn74hc273.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/SN74HC273" }

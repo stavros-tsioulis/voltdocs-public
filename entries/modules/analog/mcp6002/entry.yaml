@@ -1,0 +1,46 @@
+id: analog.opamp.mcp6002
+revision: "1.0"
+title: MCP6002 — 1MHz Low-Power Rail-to-Rail Dual Operational Amplifier
+category: analog/opamp
+tags: [mcp6002, mcp6002-i/p, mcp6002-i/sn, op-amp, operational-amplifier, dual, rail-to-rail, rrio, low-power, single-supply, battery, microchip, dip-8]
+status: published
+summary: >-
+  Microchip Technology 1.0MHz low-power dual operational amplifier featuring rail-to-rail input and output swing from a single 1.8V to 6.0V supply with 100µA/channel quiescent current and 90° phase margin.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Microchip Technology
+  ic_part_numbers: [MCP6002, MCP6002-I/P, MCP6002-I/SN, MCP6002-I/MS, MCP6001, MCP6004]
+  package: 8-pin PDIP / SOIC-8 / MSOP-8 / TSSOP-8
+  opamp_channels: 2
+  supply_voltage_v_min: 1.8
+  supply_voltage_v_max: 6.0
+  gain_bandwidth_mhz: 1.0
+  slew_rate_v_us: 0.6
+  input_offset_voltage_mv: 4.5
+  input_bias_current_pa: 1.0
+  quiescent_current_ua_per_channel: 100
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Dual Op-Amp Terminals (VOUTA, VINA-, VINA+, VSS, VINB+, VINB-, VOUTB, VDD)]
+highlights:
+  - opamp_channels
+  - supply_voltage_v_min
+  - supply_voltage_v_max
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - quiescent_current_ua_per_channel
+  - input_bias_current_pa
+  - interfaces
+references:
+  - targetId: analog.opamp.mcp602
+    relation: see-also
+  - targetId: analog.opamp.lm358
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.microchip.com/en-us/product/MCP6002" }

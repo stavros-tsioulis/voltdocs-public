@@ -1,0 +1,44 @@
+id: analog.converter.lm331
+revision: "1.0"
+title: LM331 — Precision Voltage-to-Frequency / Frequency-to-Voltage Converter
+category: analog/converter
+tags: [lm331, lm331n, lm231, vfc, fvc, voltage-to-frequency, frequency-to-voltage, analog-to-digital, converter, texas-instruments, dip-8]
+status: published
+summary: >-
+  Texas Instruments / National Semiconductor LM331 precision voltage-to-frequency converter IC in an 8-pin DIP package, featuring 0.01% non-linearity, 100dB dynamic range, and operation from 4V to 40V DC.
+updatedAt: "2026-09-05"
+fields:
+  manufacturer: Texas Instruments / National Semiconductor
+  ic_part_numbers: [LM331, LM331N, LM331N/NOPB, LM231, LM131]
+  package: 8-pin DIP (DIP-8 / PDIP-8) / SOIC-8
+  supply_voltage_min_v: 4.0
+  supply_voltage_max_v: 40.0
+  full_scale_frequency_khz: 100
+  non_linearity_max_pct: 0.01
+  temperature_coefficient_ppm_per_c: 50
+  dynamic_range_db: 100
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Analog Voltage Input, Open-Collector Frequency Output, RC Timing Nodes, Current Reference]
+highlights:
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - full_scale_frequency_khz
+  - non_linearity_max_pct
+  - dynamic_range_db
+  - interfaces
+references:
+  - targetId: timing.timer.ne555
+    relation: see-also
+    comment: Precision charge-balancing oscillator compared with general-purpose 555 astable timer.
+  - targetId: analog.comparator.lm311
+    relation: see-also
+    comment: Fast comparator often paired in analog signal-conditioning front ends.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm331.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM331" }

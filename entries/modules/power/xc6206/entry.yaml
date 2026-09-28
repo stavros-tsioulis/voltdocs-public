@@ -1,0 +1,46 @@
+id: power.ldo.xc6206p332mr
+revision: "1.0"
+title: XC6206P332MR — 200mA Low Dropout 3.3V Positive Voltage Regulator
+category: power/regulator
+tags: [xc6206, xc6206p332mr, "662k", ldo, regulator, linear, 3.3v, sot-23, torex, low-quiescent, iot, esp32, esp8266]
+status: published
+summary: >-
+  Torex high-precision, low-power 3.3V 200mA low-dropout (LDO) positive CMOS voltage regulator in a compact SOT-23 package (marked 662K), ubiquitous as the 3.3V power rail on microcontroller breakouts, ESP modules, and battery-powered IoT devices.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Torex Semiconductor / Generic
+  ic_part_numbers: [XC6206P332MR, XC6206P332MR-G, XC6206P302MR, XC6206P182MR, XC6206P502MR]
+  package: SOT-23 (SOT-23-3) / SOT-89 / TO-92
+  regulator_type: Low Quiescent CMOS Low-Dropout (LDO) Linear Regulator
+  output_voltage_v: 3.3
+  output_voltage_accuracy_pct: 2.0
+  input_voltage_v_min: 1.8
+  input_voltage_v_max: 6.0
+  dropout_voltage_v: 0.16
+  output_current_a_max: 0.2
+  quiescent_current_ua: 1.0
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [3-Terminal Passive (VSS/GND, VOUT, VIN)]
+highlights:
+  - regulator_type
+  - output_voltage_v
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - quiescent_current_ua
+  - interfaces
+references:
+  - targetId: power.ldo.mcp1700-3302e
+    relation: see-also
+  - targetId: power.regulator.ams1117-33
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.torexsemi.com/file/xc6206/XC6206.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.torexsemi.com/products/voltage-regulators/series/?series=XC6206" }

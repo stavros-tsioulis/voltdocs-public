@@ -1,0 +1,51 @@
+id: analog.opamp.opa2140
+revision: "1.0"
+title: OPA2140 — Precision Low-Noise JFET-Input Rail-to-Rail Output Dual Operational Amplifier
+category: analog/opamp
+tags: [opa2140, opa2140aid, opa140, opa4140, op-amp, jfet, precision, low-noise, rail-to-rail, burr-brown, ti, soic-8]
+status: published
+summary: >-
+  Texas Instruments / Burr-Brown precision dual JFET-input op-amp featuring ultra-low input offset voltage (120µV max), 1µV/°C drift, 10pA max bias current, 5.1nV/√Hz noise, and 11MHz GBW with rail-to-rail output swing.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / Burr-Brown
+  ic_part_numbers: [OPA2140, OPA2140AID, OPA2140AIDGKR, OPA140, OPA4140]
+  package: 8-pin SOIC / VSSOP-8
+  opamp_channels: 2
+  supply_voltage_single_v_min: 4.5
+  supply_voltage_single_v_max: 36.0
+  supply_voltage_split_v_min: 2.25
+  supply_voltage_split_v_max: 18.0
+  input_offset_voltage_uv: 120
+  input_offset_drift_uv_c: 1.0
+  input_bias_current_pa: 10
+  input_noise_voltage_nv_hz: 5.1
+  gain_bandwidth_mhz: 11.0
+  slew_rate_v_us: 20.0
+  quiescent_current_ma_per_channel: 1.8
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [Dual Op-Amp Terminals (+IN A, -IN A, OUT A, +IN B, -IN B, OUT B)]
+highlights:
+  - opamp_channels
+  - supply_voltage_single_v_min
+  - supply_voltage_single_v_max
+  - input_offset_voltage_uv
+  - input_noise_voltage_nv_hz
+  - input_bias_current_pa
+  - gain_bandwidth_mhz
+  - slew_rate_v_us
+  - interfaces
+references:
+  - targetId: analog.opamp.opa2134
+    relation: see-also
+  - targetId: analog.opamp.op27
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/opa2140.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/OPA2140" }

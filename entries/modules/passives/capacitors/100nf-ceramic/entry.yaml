@@ -1,0 +1,46 @@
+id: passive.capacitor.100nf-ceramic
+revision: "1.0"
+title: 100nF (0.1µF) Ceramic Capacitor — '104' Monolithic / MLCC
+category: passives/capacitors
+tags: [100nf, "0.1uf", "104", capacitor, ceramic, mlcc, decoupling, bypass, radial, "0805", generic]
+status: published
+summary: >-
+  The universal 100nF (0.1µF, code '104') 50V multi-layer ceramic capacitor (MLCC), the single most widely stocked passive component in electronics, used for high-frequency digital IC power decoupling and noise filtering.
+updatedAt: "2026-09-05"
+fields:
+  manufacturer: Generic (Murata / TDK / KEMET / Vishay / Yageo)
+  ic_part_numbers: [100nF 50V Ceramic, 0.1uF 50V MLCC, "104 Capacitor", C0805C104K5RACTU]
+  package: Radial Monolithic Leaded (2.54mm pitch) / 0805 SMD / 0603 SMD
+  capacitor_type: Multi-Layer Ceramic Capacitor (MLCC) / Radial Leaded Monolithic
+  capacitance_nf: 100
+  capacitance_uf: 0.1
+  marking_code: "104"
+  voltage_rating_dc_v: 50.0
+  tolerance_pct: 10.0
+  dielectric: X7R
+  polarized: false
+  operating_temp_min_c: -55
+  operating_temp_max_c: 125
+  interfaces: [2-Terminal Non-Polarized Passive]
+highlights:
+  - capacitor_type
+  - capacitance_nf
+  - capacitance_uf
+  - marking_code
+  - voltage_rating_dc_v
+  - tolerance_pct
+  - dielectric
+  - polarized
+  - interfaces
+references:
+  - targetId: passive.capacitor.100uf-electrolytic
+    relation: companion-to
+    comment: Standard power-rail bypass pair; ceramic handles high-frequency switching noise while electrolytic provides low-frequency bulk reservoir.
+  - targetId: passive.capacitor.10uf-electrolytic
+    relation: companion-to
+    comment: Local regulator output decoupling pair.
+body: index.md
+assets:
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.murata.com" }

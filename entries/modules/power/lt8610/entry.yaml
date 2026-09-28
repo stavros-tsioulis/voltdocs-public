@@ -1,0 +1,54 @@
+id: power.buck.lt8610
+revision: "1.0"
+title: LT8610 — 42V 2.5A Synchronous Step-Down Regulator (2.5µA Quiescent)
+category: power/buck
+tags: [lt8610, lt8610emse, lt8610imse, buck, step-down, synchronous, analog-devices, linear-technology, "42v", "2.5a", low-emi, burst-mode, msop-16]
+status: published
+summary: >-
+  Linear Technology (Analog Devices) LT8610 monolithic 42V 2.5A synchronous step-down regulator in MSOP-16, featuring ultralow 2.5µA quiescent current, up to 96% efficiency, and high-frequency 2MHz+ operation for low EMI.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Analog Devices / Linear Technology
+  ic_part_numbers: [LT8610, LT8610EMSE, LT8610IMSE, LT8610HMSE]
+  package: 16-lead MSOP with Exposed Pad (MSE16)
+  regulator_type: Synchronous Step-Down (Buck) Switching Regulator
+  input_voltage_v_min: 3.4
+  input_voltage_v_max: 42.0
+  output_voltage_v_min: 0.97
+  output_voltage_v_max: 40.0
+  output_current_a_max: 2.5
+  switching_frequency_khz: 200 - 2200 (Adjustable & Synchronizable)
+  quiescent_current_ua: 2.5
+  high_side_rds_on_mohm: 115
+  low_side_rds_on_mohm: 75
+  feedback_voltage_v: 0.97
+  efficiency_pct: 92 - 96
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [DC Input, DC Output, Enable/UVLO, Power Good (PG), Clock Sync (SYNC/MODE), TR/SS]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_khz
+  - quiescent_current_ua
+  - efficiency_pct
+  - interfaces
+references:
+  - targetId: power.buck.ap63200
+    relation: see-also
+    comment: Alternative 2A synchronous buck converter with spread spectrum EMI reduction.
+  - targetId: power.buck.tps54331
+    relation: see-also
+    comment: Asynchronous 3A industrial buck converter requiring external catch diode.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.analog.com/media/en/technical-documentation/data-sheets/8610fa.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.analog.com/en/products/lt8610.html" }

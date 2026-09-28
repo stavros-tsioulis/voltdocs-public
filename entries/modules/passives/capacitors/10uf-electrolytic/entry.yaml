@@ -1,0 +1,48 @@
+id: passive.capacitor.10uf-electrolytic
+revision: "1.0"
+title: 10µF Aluminum Electrolytic Capacitor (Radial Leaded)
+category: passives/capacitors
+tags: ["10uf", capacitor, electrolytic, aluminum-electrolytic, decoupling, regulator, radial, through-hole, polarized, generic]
+status: published
+summary: >-
+  The ubiquitous 10µF polarized aluminum electrolytic capacitor in a miniature radial can, providing intermediate bulk decoupling, audio AC signal coupling, and loop stability for classic linear voltage regulators.
+updatedAt: "2026-09-05"
+fields:
+  manufacturer: Generic (Nichicon / Panasonic / Rubycon / Nippon Chemi-Con / Wurth)
+  ic_part_numbers: [10uF Electrolytic, 10uF 50V, 10uF 25V, 10uF 16V, UVR1H100MDD, EEU-FR1H100]
+  package: Radial Leaded Miniature Can (4mm x 7mm or 5mm x 11mm, 2.0mm / 2.5mm lead pitch)
+  capacitor_type: Polarized Aluminum Electrolytic Capacitor
+  capacitance_uf: 10.0
+  capacitance_nf: 10000
+  voltage_rating_dc_v: 50.0
+  voltage_rating_range: 16V - 50V DC typical
+  tolerance_pct: 20.0
+  polarized: true
+  operating_temp_min_c: -40
+  operating_temp_max_c: 105
+  esr_ohms: 2.0
+  ripple_current_ma_rms: 80
+  endurance_hours: 2000
+  interfaces: [2-Terminal Polarized Leaded Passive]
+highlights:
+  - capacitor_type
+  - capacitance_uf
+  - voltage_rating_dc_v
+  - tolerance_pct
+  - polarized
+  - esr_ohms
+  - ripple_current_ma_rms
+  - operating_temp_max_c
+  - interfaces
+references:
+  - targetId: passive.capacitor.100uf-electrolytic
+    relation: alternative-to
+    comment: Higher capacitance electrolytic for bulk power-supply reservoir applications.
+  - targetId: passive.capacitor.100nf-ceramic
+    relation: companion-to
+    comment: Ubiquitous companion for high-frequency ceramic decoupling alongside the 10µF local reservoir.
+body: index.md
+assets:
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.nichicon.co.jp/english/" }

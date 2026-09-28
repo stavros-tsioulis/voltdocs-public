@@ -1,0 +1,50 @@
+id: power.boost.fp6291
+revision: "1.0"
+title: FP6291 — 1MHz 2.5A Step-Up (Boost) DC-DC Converter
+category: power/boost
+tags: [fp6291, fp6291lr-g1, boost, step-up, converter, dc-dc, feeling-technology, sot23-6, power-bank, "1mhz", "2.5a"]
+status: published
+summary: >-
+  Feeling Technology FP6291 current-mode step-up (boost) DC-DC converter IC in SOT-23-6 package operating at 1.0MHz, featuring an internal 0.2Ω power MOSFET, 0.6V feedback reference, and adjustable overcurrent protection up to 2.5A.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Feeling Technology
+  ic_part_numbers: [FP6291, FP6291LR-G1]
+  package: SOT-23-6 / SOT-26 / Compact Boost Breakout Module
+  regulator_type: Current-Mode Step-Up (Boost) DC-DC Converter
+  input_voltage_v_min: 2.6
+  input_voltage_v_max: 5.5
+  output_voltage_v_min: 3.0
+  output_voltage_v_max: 12.0
+  output_current_a_max: 2.5
+  switching_frequency_mhz: 1.0
+  rds_on_mohm: 200
+  feedback_voltage_v: 0.6
+  efficiency_pct: 90 - 93
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [DC Input, DC Output, Enable Control, Adjustable Current Limit]
+highlights:
+  - regulator_type
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - output_voltage_v_max
+  - output_current_a_max
+  - switching_frequency_mhz
+  - efficiency_pct
+  - interfaces
+references:
+  - targetId: power.boost.mt3608
+    relation: alternative-to
+    comment: Ubiquitous 2A boost converter alternative operating at 1.2MHz vs 1.0MHz on the FP6291.
+  - targetId: power.boost.xl6009
+    relation: see-also
+    comment: Higher-voltage (40V) and higher-current (4A) boost converter for heavier loads.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.feeling-tech.com" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.feeling-tech.com" }

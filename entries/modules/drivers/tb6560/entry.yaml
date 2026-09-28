@@ -1,0 +1,50 @@
+id: driver.stepper.tb6560
+revision: "1.0"
+title: TB6560 — 3.5A Bipolar Stepper Motor Driver
+category: drivers/stepper
+tags: [tb6560, tb6560ahq, tb6560afg, stepper, driver, microstepping, cnc, toshiba, high-power]
+status: published
+summary: >-
+  Toshiba TB6560 bipolar stepper motor driver IC and industrial breakout module providing 4.5V to 34V DC supply, up to 3.5A peak current, optocoupler-isolated inputs, and excitation modes down to 1/16 microstepping.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Toshiba
+  ic_part_numbers: [TB6560AHQ, TB6560AFG, TB6560]
+  package: 25-pin HZIP (ZIP-25 with fin) / 64-pin HQFP / CNC Breakout Box Module
+  load_voltage_min_v: 4.5
+  load_voltage_max_v: 34.0
+  logic_voltage_min_v: 4.5
+  logic_voltage_max_v: 5.5
+  continuous_current_per_phase_a: 3.0
+  peak_output_current_a: 3.5
+  microstep_resolutions: [1/1 (2-phase), 1/2 (1-2 phase), 1/4 (W1-2 phase), 1/8 (2W1-2 phase), 1/16 (4W1-2 phase)]
+  decay_modes: [0% (Fast decay), 25%, 50%, 100% (Slow decay)]
+  torque_dac_scaling: [100%, 75%, 50%, 20%]
+  rds_on_mohm: 600
+  operating_temp_min_c: -30
+  operating_temp_max_c: 85
+  interfaces: [Optocoupled CLK/CW/EN Inputs, DIP Switch Mode Configuration]
+highlights:
+  - load_voltage_min_v
+  - load_voltage_max_v
+  - continuous_current_per_phase_a
+  - peak_output_current_a
+  - microstep_resolutions
+  - decay_modes
+  - torque_dac_scaling
+  - interfaces
+references:
+  - targetId: driver.stepper.tb6600
+    relation: predecessor-to
+    comment: The TB6600 upgraded the voltage rating to 42V, current to 4.0A, and resolved TB6560 power-sequencing vulnerability.
+  - targetId: driver.stepper.drv8825
+    relation: see-also
+    comment: Compact hobby alternative for lower-power NEMA 17 stepper motors.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://toshiba.semicon-storage.com/info/TB6560AHQ_datasheet_en_20141001.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://toshiba.semicon-storage.com" }

@@ -559,59 +559,59 @@ Candidate parts for future import into `entries/`, ranked by how often they turn
 | `B772` | PNP Power BJT, TO-126 | Multi | Tier 3 | PNP complement often paired with D882, niche. | imported |
 | `MJE2955T` | PNP Power BJT, TO-220 | ON Semi | Tier 3 | PNP complement of MJE3055T, niche. | imported |
 | `TIP42C` | PNP Power BJT, TO-220 | ON Semi/STMicro | Tier 3 | PNP complement of TIP41C for push-pull amps, niche. | imported |
-| `MJ2955` | PNP Power BJT, TO-3 | ON Semi | Tier 3 | PNP complement of 2N3055 for complementary power amp designs, niche. |  |
-| `TL494` | PWM Switching Controller | Texas Instruments | Tier 3 | Merges TL494/TL494CN; classic PWM controller reused in DIY switching supply/inverter projects, niche. |  |
-| `OPA2140` | Precision Dual Op-amp | Texas Instruments | Tier 3 | Low-noise precision op-amp for higher-end DIY audio/measurement, niche. |  |
-| `OP07` | Precision Op-amp | Analog Devices/TI | Tier 3 | Ultra-low offset precision op-amp for sensor/measurement circuits, niche. |  |
-| `SN754410` | Quad Half-H Driver | Texas Instruments | Tier 3 | Higher-current pin-compatible replacement for L293D, popular in university/hobby robotics courses, niche. |  |
-| `TL074` | Quad JFET Op-amp | Texas Instruments | Tier 3 | Quad version of TL072, used in synth/audio DIY builds, more niche. |  |
+| `MJ2955` | PNP Power BJT, TO-3 | ON Semi | Tier 3 | PNP complement of 2N3055 for complementary power amp designs, niche. | imported |
+| `TL494` | PWM Switching Controller | Texas Instruments | Tier 3 | Merges TL494/TL494CN; classic PWM controller reused in DIY switching supply/inverter projects, niche. | imported |
+| `OPA2140` | Precision Dual Op-amp | Texas Instruments | Tier 3 | Low-noise precision op-amp for higher-end DIY audio/measurement, niche. | imported |
+| `OP07` | Precision Op-amp | Analog Devices/TI | Tier 3 | Ultra-low offset precision op-amp for sensor/measurement circuits, niche. | imported |
+| `SN754410` | Quad Half-H Driver | Texas Instruments | Tier 3 | Higher-current pin-compatible replacement for L293D, popular in university/hobby robotics courses, niche. | imported |
+| `TL074` | Quad JFET Op-amp | Texas Instruments | Tier 3 | Quad version of TL072, used in synth/audio DIY builds, more niche. | imported |
  | `LM224` | Quad Op-amp | Texas Instruments | Tier 3 | Low-power quad op-amp bundled in an assortment kit, niche. | imported | 
-| `LM2902` | Quad Op-amp | Texas Instruments | Tier 3 | Automotive-grade equivalent of LM324, occasionally substituted. |  |
-| `LM348` | Quad Op-amp | Texas Instruments | Tier 3 | Quad version of LM741, used when four general op-amps needed, less common than LM324. |  |
-| `LT3476` | Quad Output LED Driver | Analog Devices | Tier 3 | Quad-channel high-current LED driver for multi-LED lighting, niche. |  |
+| `LM2902` | Quad Op-amp | Texas Instruments | Tier 3 | Automotive-grade equivalent of LM324, occasionally substituted. | imported |
+| `LM348` | Quad Op-amp | Texas Instruments | Tier 3 | Quad version of LM741, used when four general op-amps needed, less common than LM324. | imported |
+| `LT3476` | Quad Output LED Driver | Analog Devices | Tier 3 | Quad-channel high-current LED driver for multi-LED lighting, niche. | imported |
  | `DS1302` | RTC IC | Analog Devices (Maxim) | Tier 3 | Real-time clock chip included in an assortment kit, niche vs DS3231/DS1307. | imported | 
-| `MCP6002` | Rail-to-rail Dual Op-amp | Microchip | Tier 3 | Low-voltage rail-to-rail op-amp for 3.3V battery-powered builds, moderate use. |  |
-| `MCP6004` | Rail-to-rail Quad Op-amp | Microchip | Tier 3 | Quad rail-to-rail op-amp for low-voltage sensor front-ends. |  |
-| `74HC173` | Register | TI/Nexperia | Tier 3 | Quad D-type register with tri-state outputs, niche kit part. |  |
-| `74HC273` | Register | TI/Nexperia | Tier 3 | Octal D-type flip-flop with clear, niche parallel data latching. |  |
-| `74HC374` | Register | TI/Nexperia | Tier 3 | Octal D-type edge-triggered flip-flop, niche kit part. |  |
-| `74HC574` | Register | TI/Nexperia | Tier 3 | Pinout variant of 74HC374, niche kit part. |  |
-| `XC6206P332MR` | SOT-23 LDO, 3.3V | Torex | Tier 3 | Tiny cheap LDO common on ESP/sensor breakout boards, niche. |  |
+| `MCP6002` | Rail-to-rail Dual Op-amp | Microchip | Tier 3 | Low-voltage rail-to-rail op-amp for 3.3V battery-powered builds, moderate use. | imported |
+| `MCP6004` | Rail-to-rail Quad Op-amp | Microchip | Tier 3 | Quad rail-to-rail op-amp for low-voltage sensor front-ends. | imported |
+| `74HC173` | Register | TI/Nexperia | Tier 3 | Quad D-type register with tri-state outputs, niche kit part. | imported |
+| `74HC273` | Register | TI/Nexperia | Tier 3 | Octal D-type flip-flop with clear, niche parallel data latching. | imported |
+| `74HC374` | Register | TI/Nexperia | Tier 3 | Octal D-type edge-triggered flip-flop, niche kit part. | imported |
+| `74HC574` | Register | TI/Nexperia | Tier 3 | Pinout variant of 74HC374, niche kit part. | imported |
+| `XC6206P332MR` | SOT-23 LDO, 3.3V | Torex | Tier 3 | Tiny cheap LDO common on ESP/sensor breakout boards, niche. | imported |
  | `W25Q32` | SPI Flash Memory | Winbond | Tier 3 | Very common bare SPI NOR flash chip for external storage in MCU/ESP-based projects, niche. | imported | 
-| `IR2153` | Self-Oscillating Half-Bridge Driver | Infineon | Tier 3 | Self-oscillating driver for DIY induction heater/inverter projects, niche. |  |
-| `74HC164` | Shift Register | TI/Nexperia | Tier 3 | 8-bit SIPO shift register for LED driving, niche relative to 74HC595. |  |
-| `CD4015` | Shift Register | TI/ON Semi | Tier 3 | Dual 4-bit static shift register for LED chaser circuits, niche. |  |
-| `CD4094` | Shift Register | TI/ON Semi/Renesas | Tier 3 | 8-stage shift/store register for LED driving, niche. |  |
-| `OPA134` | Single Audio Op-amp | Texas Instruments | Tier 3 | Single-channel version of OPA2134, audiophile DIY niche. |  |
-| `LM311` | Single Comparator | Texas Instruments | Tier 3 | High-speed comparator for zero-crossing detectors, more specialized use case. |  |
-| `DRV8801` | Single H-Bridge Motor Driver | Texas Instruments | Tier 3 | Single brushed DC motor driver with current sensing, niche. |  |
-| `DRV8829` | Single H-Bridge Motor Driver | Texas Instruments | Tier 3 | High-current single brushed-DC motor driver, niche. |  |
-| `DRV8837` | Single H-Bridge Motor Driver | Texas Instruments | Tier 3 | Tiny low-voltage single-channel motor driver for compact robot boards, niche. |  |
-| `DRV8871` | Single H-Bridge Motor Driver | Texas Instruments | Tier 3 | Popular single-channel brushed DC motor driver breakout, niche. |  |
-| `TL081` | Single JFET Op-amp | Texas Instruments | Tier 3 | Single JFET op-amp alternative to 741 with lower bias current. |  |
-| `TC4420` | Single MOSFET Gate Driver | Microchip | Tier 3 | High-current single-channel driver for fast-switching buck/boost/motor circuits, niche. |  |
-| `TC4429` | Single MOSFET Gate Driver | Microchip | Tier 3 | Inverting counterpart of TC4420, niche. |  |
-| `MCP601` | Single Rail-to-rail Op-amp | Microchip | Tier 3 | Single-channel low-power op-amp for battery sensor circuits, niche. |  |
-| `DRV8880` | Stepper Motor Driver | Texas Instruments | Tier 3 | Auto-microstepping stepper driver in compact hobby control boards, niche. |  |
-| `LV8729` | Stepper Motor Driver | ON Semiconductor | Tier 3 | High microstepping (1/128) A4988-pinout-compatible upgrade, niche. |  |
-| `TB6560` | Stepper Motor Driver | Toshiba | Tier 3 | Predecessor to TB6600, still found in budget CNC boards, niche. |  |
-| `TMC2130` | Stepper Motor Driver | Trinamic | Tier 3 | SPI-configurable silent stepper driver with sensorless homing, niche/enthusiast. |  |
-| `78S12` | Switching Regulator, 12V, 2A | Generic | Tier 3 | Switching-mode alternative to linear 7812, niche. |  |
-| `FP6291` | Synchronous Buck Regulator | Feeling Technology | Tier 3 | Efficient LM2596 alternative on cheap buck modules, niche. |  |
-| `SY8205` | Synchronous Buck Regulator | Silergy | Tier 3 | Efficient MP1584 alternative on cheap buck modules, niche. |  |
-| `AP63200` | Synchronous Buck Regulator, 2A | Diodes Incorporated | Tier 3 | Modern efficient buck replacing linear regulators, niche/emerging. |  |
-| `AP63203WU-7` | Synchronous Buck Regulator, 3A | Diodes Incorporated | Tier 3 | Modern synchronous buck replacing LM2596 in newer modules, niche/emerging. |  |
-| `LM3671MF-3.3` | Synchronous Buck Regulator, Small Package | Texas Instruments | Tier 3 | Tiny sync buck for compact PCB power stages, niche. |  |
-| `TPS62203DBVT` | Synchronous Buck Regulator, Small Package | Texas Instruments | Tier 3 | Tiny efficient buck for battery-powered wearables, niche. |  |
-| `LTC3780EG` | Synchronous Buck-boost Controller, High Power | Analog Devices | Tier 3 | High-power solar/battery buck-boost converter builds, niche. |  |
-| `LT8610` | Synchronous Step-down Regulator, Low EMI | Analog Devices | Tier 3 | Low-noise buck for automotive/RC projects, niche. |  |
+| `IR2153` | Self-Oscillating Half-Bridge Driver | Infineon | Tier 3 | Self-oscillating driver for DIY induction heater/inverter projects, niche. | imported |
+| `74HC164` | Shift Register | TI/Nexperia | Tier 3 | 8-bit SIPO shift register for LED driving, niche relative to 74HC595. | imported |
+| `CD4015` | Shift Register | TI/ON Semi | Tier 3 | Dual 4-bit static shift register for LED chaser circuits, niche. | imported |
+| `CD4094` | Shift Register | TI/ON Semi/Renesas | Tier 3 | 8-stage shift/store register for LED driving, niche. | imported |
+| `OPA134` | Single Audio Op-amp | Texas Instruments | Tier 3 | Single-channel version of OPA2134, audiophile DIY niche. | imported |
+| `LM311` | Single Comparator | Texas Instruments | Tier 3 | High-speed comparator for zero-crossing detectors, more specialized use case. | imported |
+| `DRV8801` | Single H-Bridge Motor Driver | Texas Instruments | Tier 3 | Single brushed DC motor driver with current sensing, niche. | imported |
+| `DRV8829` | Single H-Bridge Motor Driver | Texas Instruments | Tier 3 | High-current single brushed-DC motor driver, niche. | imported |
+| `DRV8837` | Single H-Bridge Motor Driver | Texas Instruments | Tier 3 | Tiny low-voltage single-channel motor driver for compact robot boards, niche. | imported |
+| `DRV8871` | Single H-Bridge Motor Driver | Texas Instruments | Tier 3 | Popular single-channel brushed DC motor driver breakout, niche. | imported |
+| `TL081` | Single JFET Op-amp | Texas Instruments | Tier 3 | Single JFET op-amp alternative to 741 with lower bias current. | imported |
+| `TC4420` | Single MOSFET Gate Driver | Microchip | Tier 3 | High-current single-channel driver for fast-switching buck/boost/motor circuits, niche. | imported |
+| `TC4429` | Single MOSFET Gate Driver | Microchip | Tier 3 | Inverting counterpart of TC4420, niche. | imported |
+| `MCP601` | Single Rail-to-rail Op-amp | Microchip | Tier 3 | Single-channel low-power op-amp for battery sensor circuits, niche. | imported |
+| `DRV8880` | Stepper Motor Driver | Texas Instruments | Tier 3 | Auto-microstepping stepper driver in compact hobby control boards, niche. | imported |
+| `LV8729` | Stepper Motor Driver | ON Semiconductor | Tier 3 | High microstepping (1/128) A4988-pinout-compatible upgrade, niche. | imported |
+| `TB6560` | Stepper Motor Driver | Toshiba | Tier 3 | Predecessor to TB6600, still found in budget CNC boards, niche. | imported |
+| `TMC2130` | Stepper Motor Driver | Trinamic | Tier 3 | SPI-configurable silent stepper driver with sensorless homing, niche/enthusiast. | imported |
+| `78S12` | Switching Regulator, 12V, 2A | Generic | Tier 3 | Switching-mode alternative to linear 7812, niche. | imported |
+| `FP6291` | Synchronous Buck Regulator | Feeling Technology | Tier 3 | Efficient LM2596 alternative on cheap buck modules, niche. | imported |
+| `SY8205` | Synchronous Buck Regulator | Silergy | Tier 3 | Efficient MP1584 alternative on cheap buck modules, niche. | imported |
+| `AP63200` | Synchronous Buck Regulator, 2A | Diodes Incorporated | Tier 3 | Modern efficient buck replacing linear regulators, niche/emerging. | imported |
+| `AP63203WU-7` | Synchronous Buck Regulator, 3A | Diodes Incorporated | Tier 3 | Modern synchronous buck replacing LM2596 in newer modules, niche/emerging. | imported |
+| `LM3671MF-3.3` | Synchronous Buck Regulator, Small Package | Texas Instruments | Tier 3 | Tiny sync buck for compact PCB power stages, niche. | imported |
+| `TPS62203DBVT` | Synchronous Buck Regulator, Small Package | Texas Instruments | Tier 3 | Tiny efficient buck for battery-powered wearables, niche. | imported |
+| `LTC3780EG` | Synchronous Buck-boost Controller, High Power | Analog Devices | Tier 3 | High-power solar/battery buck-boost converter builds, niche. | imported |
+| `LT8610` | Synchronous Step-down Regulator, Low EMI | Analog Devices | Tier 3 | Low-noise buck for automotive/RC projects, niche. | imported |
  | `MAX6675` | Thermocouple-to-Digital Converter | Maxim Integrated (Analog Devices) | Tier 3 | Popular IC to read K-type thermocouples via SPI (e.g. 3D printers), niche. | imported | 
-| `CD4541` | Timer/Oscillator | TI/ON Semi | Tier 3 | CMOS long-duration timer alternative to 555, niche. |  |
-| `74HC125` | Tri-state Buffer | TI/Nexperia | Tier 3 | Quad tri-state buffer for level shifting/bus isolation, niche. |  |
-| `74HC126` | Tri-state Buffer | TI/Nexperia | Tier 3 | Companion buffer to 74HC125, niche bus-driver use. |  |
-| `TPS7A4700` | Ultra-low-noise Adjustable LDO | Texas Instruments | Tier 3 | Favorite of audio/RF hobbyists for ultra-clean supply rails, niche/high-end. |  |
-| `LM331` | Voltage-to-frequency Converter | Texas Instruments | Tier 3 | Sensor/frequency conversion IC, specialized use. |  |
-| `OPA333` | Zero-drift Op-amp | Texas Instruments | Tier 3 | Precision op-amp for load cell/weighing projects, niche precision use. |  |
+| `CD4541` | Timer/Oscillator | TI/ON Semi | Tier 3 | CMOS long-duration timer alternative to 555, niche. | imported |
+| `74HC125` | Tri-state Buffer | TI/Nexperia | Tier 3 | Quad tri-state buffer for level shifting/bus isolation, niche. | imported |
+| `74HC126` | Tri-state Buffer | TI/Nexperia | Tier 3 | Companion buffer to 74HC125, niche bus-driver use. | imported |
+| `TPS7A4700` | Ultra-low-noise Adjustable LDO | Texas Instruments | Tier 3 | Favorite of audio/RF hobbyists for ultra-clean supply rails, niche/high-end. | imported |
+| `LM331` | Voltage-to-frequency Converter | Texas Instruments | Tier 3 | Sensor/frequency conversion IC, specialized use. | imported |
+| `OPA333` | Zero-drift Op-amp | Texas Instruments | Tier 3 | Precision op-amp for load cell/weighing projects, niche precision use. | imported |
 
 ## Diodes, LEDs & passives
 
@@ -619,13 +619,13 @@ Candidate parts for future import into `entries/`, ranked by how often they turn
 
 | Part number | Subcategory | Manufacturer | Tier | Why it's common | Status |
 |---|---|---|---|---|---|
-| `L-53LID` | 3mm THT LED - Red | Kingbright | Tier 1 | Classic 3mm red diffused LED, staple small-form-factor indicator; explicitly called out as the best size for breadboarding in hobbyist guides. |  |
-| `L-7113LGD` | 5mm THT LED - Green | Kingbright | Tier 1 | Green variant of Kingbright's ubiquitous L-7113 5mm THT series, standard in breadboard/Arduino starter kits; represents equivalent green 5mm LEDs from many other brands. |  |
-| `L-7113ID` | 5mm THT LED - Red | Kingbright | Tier 1 | Classic 5mm red diffused THT LED, one of the most widely stocked/used red indicator LEDs in hobbyist kits; represents the near-universal common 5mm red LED (functionally equivalent parts exist from Vishay TLHR5400, Cree C503B-RAN, Lite-On LTL-4223, OptoSupply OSNX3131A, generic Chanzon assortments, etc., merged here as the same basic component). |  |
+| `L-53LID` | 3mm THT LED - Red | Kingbright | Tier 1 | Classic 3mm red diffused LED, staple small-form-factor indicator; explicitly called out as the best size for breadboarding in hobbyist guides. | imported |
+| `L-7113LGD` | 5mm THT LED - Green | Kingbright | Tier 1 | Green variant of Kingbright's ubiquitous L-7113 5mm THT series, standard in breadboard/Arduino starter kits; represents equivalent green 5mm LEDs from many other brands. | imported |
+| `L-7113ID` | 5mm THT LED - Red | Kingbright | Tier 1 | Classic 5mm red diffused THT LED, one of the most widely stocked/used red indicator LEDs in hobbyist kits; represents the near-universal common 5mm red LED (functionally equivalent parts exist from Vishay TLHR5400, Cree C503B-RAN, Lite-On LTL-4223, OptoSupply OSNX3131A, generic Chanzon assortments, etc., merged here as the same basic component). | imported |
  | `WS2812B` | Addressable RGB LED (5050 SMD) | Worldsemi | Tier 1 | The most widely used addressable/smart LED in hobbyist projects (Adafruit NeoPixel), integrating driver IC and RGB die in one 5050 package with single-wire control; absorbs package variants WS2812B-Mini and WS2812B-B (flat-top) as the same underlying part. | imported | 
-| `100nF ceramic (0.1µF, '104')` | Ceramic capacitor | generic | Tier 1 | The single most-stocked capacitor value overall; the classic IC decoupling/bypass cap placed near nearly every digital chip, sold in the largest quantities of any capacitor kit reviewed. |  |
-| `100µF electrolytic` | Electrolytic capacitor | generic | Tier 1 | Core electrolytic value widely used for power-supply bulk filtering, stocked in every standard capacitor kit. |  |
-| `10µF electrolytic` | Electrolytic capacitor | generic | Tier 1 | Core electrolytic value stocked in virtually every hobbyist assortment for decoupling/bulk capacitance. |  |
+| `100nF ceramic (0.1µF, '104')` | Ceramic capacitor | generic | Tier 1 | The single most-stocked capacitor value overall; the classic IC decoupling/bypass cap placed near nearly every digital chip, sold in the largest quantities of any capacitor kit reviewed. | imported |
+| `100µF electrolytic` | Electrolytic capacitor | generic | Tier 1 | Core electrolytic value widely used for power-supply bulk filtering, stocked in every standard capacitor kit. | imported |
+| `10µF electrolytic` | Electrolytic capacitor | generic | Tier 1 | Core electrolytic value stocked in virtually every hobbyist assortment for decoupling/bulk capacitance. | imported |
 | `10kΩ 1/4W 5%` | Fixed resistor | generic | Tier 1 | The single most universal pull-up/pull-down/reference resistor value, present in essentially every kit description reviewed. |  |
 | `1kΩ 1/4W 5%` | Fixed resistor | generic | Tier 1 | Extremely common general-purpose value used for pull-ups and transistor base resistors across nearly every kit. |  |
 | `220Ω 1/4W 5%` | Fixed resistor | generic | Tier 1 | The most-cited LED current-limiting resistor value at 5V, repeatedly called out as a classic bench-stock value across independent sourcing lists. |  |

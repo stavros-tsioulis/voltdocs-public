@@ -1,0 +1,46 @@
+id: analog.comparator.lm311
+revision: "1.0"
+title: LM311 — High-Speed Voltage Comparator with Strobe
+category: analog/comparator
+tags: [lm311, lm311p, lm311d, comparator, high-speed, open-collector, isolated-emitter, strobe, zero-crossing, ti, dip-8]
+status: published
+summary: >-
+  Texas Instruments classic high-speed voltage comparator with 200ns response time, strobe control, and an uncommitted open-collector output with isolated emitter capable of switching 50mA loads up to 40V referenced to ground or either supply rail.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics / ON Semiconductor
+  ic_part_numbers: [LM311, LM311P, LM311D, LM311N, LM211, LM111]
+  package: 8-pin DIP / SOIC-8 / TSSOP-8
+  comparator_channels: 1 (Single Comparator)
+  supply_voltage_single_v_min: 5.0
+  supply_voltage_single_v_max: 36.0
+  supply_voltage_split_v_min: 2.5
+  supply_voltage_split_v_max: 18.0
+  response_time_ns: 200
+  input_offset_voltage_mv: 3.0
+  input_bias_current_na: 100.0
+  output_sink_current_ma: 50.0
+  output_voltage_max_v: 40.0
+  quiescent_current_ma: 5.1
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Isolated Emitter and Collector Output, Inverting and Non-inverting Inputs, Strobe/Balance Inputs]
+highlights:
+  - comparator_channels
+  - supply_voltage_single_v_min
+  - supply_voltage_single_v_max
+  - response_time_ns
+  - output_sink_current_ma
+  - output_voltage_max_v
+  - interfaces
+references:
+  - targetId: analog.comparator.lm339
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/lm311.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/LM311" }

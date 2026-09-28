@@ -1,0 +1,42 @@
+id: power.controller.tl494
+revision: "1.0"
+title: TL494 — Pulse-Width-Modulation (PWM) Control Circuit
+category: power/controller
+tags: [tl494, tl494cn, tl494in, pwm, controller, smps, push-pull, half-bridge, inverter, switching-regulator, ti, dip-16]
+status: published
+summary: >-
+  Texas Instruments classic fixed-frequency pulse-width modulation (PWM) controller IC containing two error amplifiers, an on-chip oscillator, dead-time control comparator, pulse-steering flip-flop, 5V precision reference, and output control logic for push-pull or single-ended SMPS designs.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TL494, TL494C, TL494CN, TL494CD, TL494I, TL494IN]
+  package: 16-pin PDIP / SOIC-16 / TSSOP-16
+  controller_type: Fixed-Frequency PWM Controller
+  supply_voltage_min_v: 7.0
+  supply_voltage_max_v: 40.0
+  reference_voltage_v: 5.0
+  output_sink_source_current_ma: 200
+  oscillator_frequency_khz_max: 300
+  error_amplifiers: 2
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Dual Output Transistors (C1, E1, C2, E2), Dead-Time Control (DTC), Dual Error Amplifiers, Output Control (OUTPUT CTRL)]
+highlights:
+  - controller_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - reference_voltage_v
+  - output_sink_source_current_ma
+  - oscillator_frequency_khz_max
+  - interfaces
+references:
+  - targetId: power.controller.uc3842
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tl494.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TL494" }

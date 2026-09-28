@@ -1,0 +1,45 @@
+id: driver.motor.drv8801
+revision: "1.0"
+title: DRV8801 — Single Brushed-DC Motor Driver with Current Sense
+category: drivers/motor
+tags: [drv8801, drv8801rty, motor-driver, h-bridge, dc-motor, current-sense, brushed-dc, pololu, texas-instruments, qfn-16]
+status: published
+summary: >-
+  Texas Instruments single full-bridge brushed DC motor driver IC delivering up to 2.8A peak (1.5A RMS) across 8V to 38V with PHASE/ENABLE control, proportional current sensing output (VPROPI), brake mode, and low-power sleep state.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [DRV8801, DRV8801RTYR, DRV8801RTYT]
+  package: 16-pin QFN with Thermal Pad (RTY) / Pololu Carrier Breakout
+  driver_type: Single Full-Bridge Brushed DC Motor Driver
+  motor_type: Single Brushed DC Motor / Solenoid
+  supply_voltage_min_v: 8.0
+  supply_voltage_max_v: 38.0
+  peak_output_current_a: 2.8
+  rms_output_current_a: 1.5
+  rds_on_ohm: 0.65
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [PHASE/ENABLE Control, BRAKE, ~nSLEEP~, ~nFAULT~, Current Proportional Output (VPROPI)]
+highlights:
+  - driver_type
+  - motor_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - peak_output_current_a
+  - rms_output_current_a
+  - rds_on_ohm
+  - interfaces
+references:
+  - targetId: driver.motor.drv8848
+    relation: see-also
+  - targetId: driver.motor.drv8837
+    relation: alternative-to
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/drv8801.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/DRV8801" }

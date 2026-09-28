@@ -1,0 +1,48 @@
+id: analog.opamp.tl074
+revision: "1.0"
+title: TL074 — Quad Low-Noise JFET-Input Operational Amplifier
+category: analog/opamp
+tags: [tl074, tl074cn, tl074cd, tl074in, op-amp, operational-amplifier, jfet, low-noise, quad, audio, modular-synth, eurorack, ti, stmicroelectronics, dip-14]
+status: published
+summary: >-
+  Texas Instruments / STMicroelectronics low-noise quad JFET-input operational amplifier featuring high slew rate (13V/µs), 3MHz gain bandwidth, low harmonic distortion (0.003%), and high input impedance for audio preamps, active filter banks, and modular synthesizers.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments / STMicroelectronics
+  ic_part_numbers: [TL074, TL074CN, TL074CD, TL074IN, TL074ID, TL074H]
+  package: 14-pin PDIP / SOIC-14 / TSSOP-14
+  opamp_channels: 4
+  supply_voltage_single_v_min: 6.0
+  supply_voltage_single_v_max: 36.0
+  supply_voltage_split_v_min: 3.0
+  supply_voltage_split_v_max: 18.0
+  gain_bandwidth_product_mhz: 3.0
+  slew_rate_v_us: 13.0
+  equivalent_input_noise_nv_hz: 18.0
+  input_bias_current_pa: 65.0
+  input_offset_voltage_mv: 3.0
+  quiescent_current_ma: 5.6
+  operating_temp_min_c: 0
+  operating_temp_max_c: 70
+  interfaces: [Quad Op-Amp Analog Terminals (4 Inputs, 4 Outputs, Dual Power Rails)]
+highlights:
+  - opamp_channels
+  - supply_voltage_single_v_min
+  - supply_voltage_single_v_max
+  - gain_bandwidth_product_mhz
+  - slew_rate_v_us
+  - equivalent_input_noise_nv_hz
+  - interfaces
+references:
+  - targetId: analog.opamp.tl072
+    relation: companion-to
+  - targetId: analog.opamp.lm324
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tl074.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TL074" }

@@ -1,0 +1,45 @@
+id: driver.motor.drv8829
+revision: "1.0"
+title: DRV8829 — 5A High-Current Single Brushed-DC Motor Driver
+category: drivers/motor
+tags: [drv8829, drv8829pwp, motor-driver, h-bridge, high-current, brushed-dc, current-regulation, pwm, texas-instruments, htssop-28]
+status: published
+summary: >-
+  Texas Instruments high-current 45V 5A peak (3.5A RMS) single full-bridge brushed DC motor driver IC featuring internal fixed off-time PWM current regulation, low 0.3Ω RDS(on), and comprehensive system protection.
+updatedAt: "2026-09-04"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [DRV8829, DRV8829PWP, DRV8829PWPR]
+  package: 28-pin HTSSOP with PowerPAD (PWP)
+  driver_type: High-Current Single Full-Bridge Motor Driver
+  motor_type: Single High-Power Brushed DC Motor / Solenoid
+  supply_voltage_min_v: 8.2
+  supply_voltage_max_v: 45.0
+  peak_output_current_a: 5.0
+  rms_output_current_a: 3.5
+  rds_on_ohm: 0.30
+  operating_temp_min_c: -40
+  operating_temp_max_c: 85
+  interfaces: [PHASE/ENABLE Control, VREF Analog Input, ISEN Current Sense Terminal, ~nSLEEP~, ~nRESET~, ~nFAULT~]
+highlights:
+  - driver_type
+  - motor_type
+  - supply_voltage_min_v
+  - supply_voltage_max_v
+  - peak_output_current_a
+  - rms_output_current_a
+  - rds_on_ohm
+  - interfaces
+references:
+  - targetId: driver.stepper.drv8825
+    relation: companion-to
+  - targetId: driver.motor.drv8801
+    relation: see-also
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/drv8829.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/DRV8829" }

@@ -1,0 +1,51 @@
+id: power.ldo.tps7a4700
+revision: "1.0"
+title: TPS7A4700 — 36V 1A Ultra-Low-Noise (4.17µVrms) RF LDO Voltage Regulator
+category: power/regulator
+tags: [tps7a4700, tps7a4700rgwt, ldo, regulator, linear, ultra-low-noise, any-out, audio, rf, "1a", "36v", qfn-20, texas-instruments]
+status: published
+summary: >-
+  Texas Instruments TPS7A4700 36V 1A positive LDO linear regulator in 20-pin VQFN delivering ultra-low 4.17µVrms noise and 82dB PSRR with resistor-free ANY-OUT pin-programmable output from 1.4V to 20.5V.
+updatedAt: "2026-09-05"
+fields:
+  manufacturer: Texas Instruments
+  ic_part_numbers: [TPS7A4700, TPS7A4700RGWT, TPS7A4700RGWR, TPS7A4701]
+  package: 20-pin VQFN (5 x 5 mm, RGW) / Low-Noise Breakout Module
+  regulator_type: Ultra-Low-Noise Positive Linear Low-Dropout (LDO) Regulator
+  output_voltage_v_min: 1.4
+  output_voltage_v_max: 20.5
+  input_voltage_v_min: 3.0
+  input_voltage_v_max: 36.0
+  dropout_voltage_v: 0.307
+  output_current_a_max: 1.0
+  noise_uv_rms: 4.17
+  psrr_db: 82
+  operating_temp_min_c: -40
+  operating_temp_max_c: 125
+  interfaces: [DC Input, DC Output, Enable Control, ANY-OUT Voltage Select Pins]
+highlights:
+  - regulator_type
+  - output_voltage_v_min
+  - output_voltage_v_max
+  - input_voltage_v_min
+  - input_voltage_v_max
+  - dropout_voltage_v
+  - output_current_a_max
+  - noise_uv_rms
+  - psrr_db
+  - interfaces
+references:
+  - targetId: power.regulator.lm317
+    relation: see-also
+    comment: Classic adjustable regulator contrasted with modern ultra-low-noise ANY-OUT LDO.
+  - targetId: power.ldo.lt1963a-3.3
+    relation: see-also
+    comment: Low-noise linear LDO alternative popular in high-fidelity power stages.
+body: index.md
+assets:
+  - id: datasheet
+    kind: datasheet
+    location: { type: external, url: "https://www.ti.com/lit/ds/symlink/tps7a47.pdf" }
+  - id: product-page
+    kind: reference
+    location: { type: external, url: "https://www.ti.com/product/TPS7A47" }
