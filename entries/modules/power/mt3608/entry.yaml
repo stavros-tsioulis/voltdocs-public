@@ -32,7 +32,8 @@ highlights:
   - switching_frequency_mhz
   - efficiency_pct
 pinouts:
-  module: pinouts/module.json
+  - id: module
+    path: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

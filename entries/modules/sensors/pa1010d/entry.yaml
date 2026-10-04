@@ -38,7 +38,8 @@ highlights:
   - interfaces
 body: index.md
 pinouts:
-  module: pinouts/module.json
+  - id: module
+    path: pinouts/module.json
 
 assets:
   - id: datasheet

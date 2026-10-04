@@ -28,7 +28,8 @@ highlights:
   - angle_of_half_sensitivity_deg
 body: index.md
 pinouts:
-  module: pinouts/module.json
+  - id: module
+    path: pinouts/module.json
 
 assets:
   - id: datasheet

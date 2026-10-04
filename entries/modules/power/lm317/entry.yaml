@@ -31,7 +31,8 @@ highlights:
   - reference_voltage_v
   - interfaces
 pinouts:
-  module: pinouts/module.json
+  - id: module
+    path: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

@@ -30,7 +30,8 @@ highlights:
   - operating_current_ma
 body: index.md
 pinouts:
-  module: pinouts/module.json
+  - id: module
+    path: pinouts/module.json
 
 assets:
   - id: datasheet

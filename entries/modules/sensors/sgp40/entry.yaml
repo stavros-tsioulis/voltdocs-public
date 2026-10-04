@@ -34,7 +34,8 @@ highlights:
   - i2c_address_default
   - interfaces
 pinouts:
-  module: pinouts/module.json
+  - id: module
+    path: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet
