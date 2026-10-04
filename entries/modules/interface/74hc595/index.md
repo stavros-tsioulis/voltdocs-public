@@ -17,6 +17,10 @@ Containing an 8-bit D-type shift register feeding an 8-bit D-type storage (latch
 
 ## Pinout (DIP-16 Package)
 
+```pinout
+module
+```
+
 ```
              ┌───┴───┐
          QB ─┤ 1   16├─ VCC

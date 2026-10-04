@@ -27,6 +27,9 @@ highlights:
   - peak_sensitivity_wavelength_nm
   - angle_of_half_sensitivity_deg
 body: index.md
+pinouts:
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

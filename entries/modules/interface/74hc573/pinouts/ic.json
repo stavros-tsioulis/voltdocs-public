@@ -1,0 +1,175 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "OE'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin OE'"
+    },
+    {
+      "id": "2",
+      "name": "D0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D0"
+    },
+    {
+      "id": "3",
+      "name": "D1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D1"
+    },
+    {
+      "id": "4",
+      "name": "D2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D2"
+    },
+    {
+      "id": "5",
+      "name": "D3",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D3"
+    },
+    {
+      "id": "6",
+      "name": "D4",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D4"
+    },
+    {
+      "id": "7",
+      "name": "D5",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D5"
+    },
+    {
+      "id": "8",
+      "name": "D6",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D6"
+    },
+    {
+      "id": "9",
+      "name": "D7",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D7"
+    },
+    {
+      "id": "10",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin GND"
+    },
+    {
+      "id": "11",
+      "name": "LE",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin LE"
+    },
+    {
+      "id": "12",
+      "name": "Q7",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q7"
+    },
+    {
+      "id": "13",
+      "name": "Q6",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q6"
+    },
+    {
+      "id": "14",
+      "name": "Q5",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q5"
+    },
+    {
+      "id": "15",
+      "name": "Q4",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q4"
+    },
+    {
+      "id": "16",
+      "name": "Q3",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q3"
+    },
+    {
+      "id": "17",
+      "name": "Q2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q2"
+    },
+    {
+      "id": "18",
+      "name": "Q1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q1"
+    },
+    {
+      "id": "19",
+      "name": "Q0",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q0"
+    },
+    {
+      "id": "20",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "right": [
+        "20",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11"
+      ]
+    }
+  }
+}

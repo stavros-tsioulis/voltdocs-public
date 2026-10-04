@@ -19,6 +19,10 @@ Featuring a dedicated open-drain Over-temperature Shutdown (`OS`) output pin, th
 
 ## Pinout (SOIC-8 / TSSOP-8 Package & Breakout Header)
 
+```pinout
+ic
+```
+
 ```
              ┌───┴───┐
          SDA ─┤ 1    8├─ VCC

@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "S",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin S"
+    },
+    {
+      "id": "2",
+      "name": "1I0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1I0"
+    },
+    {
+      "id": "3",
+      "name": "1I1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1I1"
+    },
+    {
+      "id": "4",
+      "name": "1Y",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 1Y"
+    },
+    {
+      "id": "5",
+      "name": "2I0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2I0"
+    },
+    {
+      "id": "6",
+      "name": "2I1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2I1"
+    },
+    {
+      "id": "7",
+      "name": "2Y",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 2Y"
+    },
+    {
+      "id": "8",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin GND"
+    },
+    {
+      "id": "9",
+      "name": "3Y",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 3Y"
+    },
+    {
+      "id": "10",
+      "name": "3I1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 3I1"
+    },
+    {
+      "id": "11",
+      "name": "3I0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 3I0"
+    },
+    {
+      "id": "12",
+      "name": "4Y",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 4Y"
+    },
+    {
+      "id": "13",
+      "name": "4I1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 4I1"
+    },
+    {
+      "id": "14",
+      "name": "4I0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 4I0"
+    },
+    {
+      "id": "15",
+      "name": "E'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin E'"
+    },
+    {
+      "id": "16",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

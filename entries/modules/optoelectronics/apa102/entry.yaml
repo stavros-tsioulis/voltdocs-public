@@ -27,6 +27,9 @@ highlights:
   - max_clock_frequency_mhz
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

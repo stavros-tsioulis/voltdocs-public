@@ -19,6 +19,10 @@ Featuring a typical accuracy of **$\pm 0.25^\circ\text{C}$** from $-40^\circ\tex
 
 ## Pinout (8-Pin MSOP Package & Breakout Header)
 
+```pinout
+module
+```
+
 ```
              ┌───┴───┐
           VDD ─┤ 1    8├─ GND

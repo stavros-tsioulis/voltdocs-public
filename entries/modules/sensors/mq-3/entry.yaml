@@ -28,6 +28,9 @@ highlights:
   - heater_consumption_mw
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

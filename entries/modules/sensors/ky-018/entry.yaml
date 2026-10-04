@@ -29,6 +29,8 @@ highlights:
   - peak_spectral_wavelength_nm
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

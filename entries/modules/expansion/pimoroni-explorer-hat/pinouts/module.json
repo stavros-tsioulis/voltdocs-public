@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "title": "Pimoroni Explorer HAT Pro Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "Motor 1 +",
+        "type": "power",
+        "direction": "power-out",
+        "description": "DC Motor 1 Positive Output Terminal"
+      },
+      {
+        "designator": "2",
+        "name": "Motor 1 -",
+        "type": "power",
+        "direction": "power-out",
+        "description": "DC Motor 1 Negative Output Terminal"
+      },
+      {
+        "designator": "3",
+        "name": "Motor 2 +",
+        "type": "power",
+        "direction": "power-out",
+        "description": "DC Motor 2 Positive Output Terminal"
+      },
+      {
+        "designator": "4",
+        "name": "Motor 2 -",
+        "type": "power",
+        "direction": "power-out",
+        "description": "DC Motor 2 Negative Output Terminal"
+      },
+      {
+        "designator": "5",
+        "name": "Analog 1",
+        "type": "analog",
+        "direction": "input",
+        "description": "ADS1015 12-bit ADC Input Channel 1 (0V to 5V)"
+      },
+      {
+        "designator": "6",
+        "name": "Analog 2",
+        "type": "analog",
+        "direction": "input",
+        "description": "ADS1015 12-bit ADC Input Channel 2 (0V to 5V)"
+      },
+      {
+        "designator": "7",
+        "name": "Analog 3",
+        "type": "analog",
+        "direction": "input",
+        "description": "ADS1015 12-bit ADC Input Channel 3 (0V to 5V)"
+      },
+      {
+        "designator": "8",
+        "name": "Analog 4",
+        "type": "analog",
+        "direction": "input",
+        "description": "ADS1015 12-bit ADC Input Channel 4 (0V to 5V)"
+      },
+      {
+        "designator": "9",
+        "name": "Output 1",
+        "type": "digital",
+        "direction": "output",
+        "description": "5V Buffered Output 1 (500mA Sinking)"
+      },
+      {
+        "designator": "10",
+        "name": "Output 2",
+        "type": "digital",
+        "direction": "output",
+        "description": "5V Buffered Output 2 (500mA Sinking)"
+      },
+      {
+        "designator": "11",
+        "name": "Output 3",
+        "type": "digital",
+        "direction": "output",
+        "description": "5V Buffered Output 3 (500mA Sinking)"
+      },
+      {
+        "designator": "12",
+        "name": "Output 4",
+        "type": "digital",
+        "direction": "output",
+        "description": "5V Buffered Output 4 (500mA Sinking)"
+      },
+      {
+        "designator": "13",
+        "name": "Input 1",
+        "type": "digital",
+        "direction": "input",
+        "description": "5V Tolerant Digital Input 1"
+      },
+      {
+        "designator": "14",
+        "name": "Input 2",
+        "type": "digital",
+        "direction": "input",
+        "description": "5V Tolerant Digital Input 2"
+      },
+      {
+        "designator": "15",
+        "name": "Input 3",
+        "type": "digital",
+        "direction": "input",
+        "description": "5V Tolerant Digital Input 3"
+      },
+      {
+        "designator": "16",
+        "name": "Input 4",
+        "type": "digital",
+        "direction": "input",
+        "description": "5V Tolerant Digital Input 4"
+      },
+      {
+        "designator": "17",
+        "name": "5V",
+        "type": "power",
+        "direction": "power-out",
+        "description": "+5V Power Rail Output"
+      },
+      {
+        "designator": "18",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      }
+    ]
+  }
+}

@@ -20,6 +20,11 @@ Housed in a 3-pin **TO-92 plastic package**, the BC547 is rated for a collector-
 
 ## Pinout (TO-92 Package)
 
+```pinout
+ic
+```
+
+
 Looking at the **flat face** of the TO-92 package with leads pointing down:
 
 ```

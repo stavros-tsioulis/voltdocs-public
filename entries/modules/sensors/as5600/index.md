@@ -19,6 +19,10 @@ Unlike mechanical potentiometers or optical encoders that suffer from physical w
 
 ## Pinout (SOIC-8 Package & Breakout Header)
 
+```pinout
+module
+```
+
 ```
              ┌───┴───┐
           VDD ─┤ 1    8├─ VDD5V

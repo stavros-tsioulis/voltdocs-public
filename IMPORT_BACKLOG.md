@@ -105,114 +105,114 @@ Candidate parts for future import into `entries/`, ranked by how often they turn
  | `DRV8825` | Stepper Motor Driver | Texas Instruments | Tier 2 | Cited 3 times as the higher-current alternative to A4988 in 3D-printer/CNC hobby builds. | imported | complete |
  | `TB6600` | Stepper Motor Driver | Toshiba (module form) | Tier 2 | Cited 2 times as a common higher-power external stepper driver module for CNC/robotics. | imported | complete |
  | `ST7735` | TFT Display Driver | Sitronix | Tier 2 | Cited as a common small color TFT display driver used in Arduino UI projects. | imported | complete |
- | `ST7789` | TFT Display Driver | Sitronix | Tier 2 | Cited as widely used in modern colorful small TFT display modules with ESP32. | imported | pending |
- | `ILI9341` | TFT LCD Driver | ILI Technology/Ilitek | Tier 2 | Cited 3 times as a very common 2.4"-2.8" touchscreen TFT display controller. | imported | pending |
- | `AHT10/AHT20` | Temperature/Humidity Sensor | ASAIR | Tier 2 | Cited 4+ times (ESPHome component, Adafruit guide) as an increasingly popular cheap accurate DHT replacement. | imported | pending |
- | `SHT31` | Temperature/Humidity Sensor | Sensirion | Tier 2 | Cited 4+ times as a popular higher-accuracy I2C humidity sensor upgrade over DHT sensors. | imported | pending |
- | `VL53L0X` | Time-of-Flight Distance Sensor | STMicroelectronics | Tier 2 | Cited 6+ times (Adafruit, ESPHome, robotics guides) as the popular precise ToF upgrade over HC-SR04. | imported | pending |
- | `CCS811` | VOC/eCO2 Gas Sensor | ams (AMS OSRAM) | Tier 2 | Cited 5+ times (Adafruit, ESPHome dedicated component) as a common digital indoor-air-quality sensor. | imported | pending |
- | `SGP30` | VOC/eCO2 Gas Sensor | Sensirion | Tier 2 | Cited 4+ times as a popular Sensirion air-quality sensor, noted as eCO2 (estimated) rather than true CO2. | imported | pending |
- | `LD2410` | mmWave Presence Sensor | Hi-Link | Tier 2 | Dedicated ESPHome component and rapidly growing popularity as a modern presence sensor in the ESPHome/Home Assistant community. | imported | pending |
- | `MCP3208` | 12-bit SPI ADC | Microchip | Tier 3 | Single mention as the higher-resolution sibling of MCP3008. | imported | pending |
- | `LIS3DH` | 3-axis Accelerometer | STMicroelectronics | Tier 3 | Single Adafruit guide mention; niche low-power accelerometer. | imported | pending |
- | `L3GD20H` | 3-axis Gyroscope | STMicroelectronics | Tier 3 | Single Adafruit guide mention; standalone gyro niche compared to full IMUs. | imported | pending |
- | `PCF8591` | 8-bit I2C ADC/DAC | NXP | Tier 3 | Single mention; niche low-cost combined ADC/DAC module. | imported | pending |
- | `74HC595` | 8-bit Shift Register IC | Generic/Texas Instruments | Tier 3 | Single mention bundled in Elegoo kits for LED multiplexing projects. | imported | pending |
- | `MCP3008` | 8-channel SPI ADC | Microchip | Tier 3 | Single mention as the standard ADC to read analog sensors on Raspberry Pi, which lacks native ADC. | imported | pending |
- | `AMG8833` | 8x8 Thermal Camera Sensor | Panasonic | Tier 3 | Cited 2 times as a budget thermal-array sensor for presence detection/low-res imaging. | imported | pending |
- | `LSM9DS1` | 9-axis IMU | STMicroelectronics | Tier 3 | Single Adafruit long-running guide mention; niche compared to MPU6050/9250. | imported | pending |
- | `PZEM-004T` | AC Energy Monitoring Module | Peacefair | Tier 3 | Single ESPHome-component mention; niche standalone AC power meter. | imported | pending |
- | `ZMPT101B` | AC Voltage Sensor | Generic | Tier 3 | Single mention; specialized mains-AC voltage measurement module. | imported | pending |
- | `BMA180` | Accelerometer | Bosch | Tier 3 | Single mention; older SparkFun breakout, largely superseded. | imported | pending |
- | `APA102` | Addressable RGB LED | Generic (DotStar) | Tier 3 | Cited 2 times as a popular but more specialized SPI-clocked alternative to WS2812B. | imported | pending |
- | `ZMOD4410` | Air Quality/VOC Sensor | Renesas/IDT | Tier 3 | Single Tasmota-docs mention; niche gas sensor. | imported | pending |
- | `MQ-3` | Alcohol Gas Sensor | Winsen | Tier 3 | Single mention, niche breathalyzer/alcohol-detection use case. | imported | pending |
- | `APDS-9301` | Ambient Light Sensor | Broadcom/Avago | Tier 3 | Single SparkFun guide mention; niche older light sensor. | imported | pending |
- | `VEML7700` | Ambient Light Sensor | Vishay | Tier 3 | Cited 2 times (Adafruit, ESPHome component); niche lux sensor. | imported | pending |
- | `ADXL335` | Analog 3-axis Accelerometer | Analog Devices | Tier 3 | Single mention; classic but niche analog accelerometer predating digital IMUs. | imported | pending |
- | `TEMT6000` | Analog Ambient Light Sensor | Vishay | Tier 3 | Single SparkFun guide mention; simple niche analog light sensor. | imported | pending |
- | `GP2Y0A21YK` | Analog IR Distance Sensor | Sharp | Tier 3 | Cited 2 times; common but more specialized analog IR distance sensor for robotics. | imported | pending |
- | `BMP388` | Barometric Pressure Sensor | Bosch Sensortec | Tier 3 | Cited 3 times (Adafruit, ESPHome component) as a higher-precision pressure sensor for drone altitude-hold projects. | imported | pending |
- | `IMX219 (Raspberry Pi Camera Module 2)` | Camera Sensor | Sony/Raspberry Pi Foundation | Tier 3 | Single mention; the official Pi Camera Module 2 sensor, widely used but Pi-specific/niche in this general library. | imported | pending |
- | `IMX477 (Raspberry Pi HQ Camera)` | Camera Sensor | Sony | Tier 3 | Single mention; sensor for the Pi High Quality Camera, specialized/advanced use case. | imported | pending |
- | `OV2640` | Camera Sensor | OmniVision (clone) | Tier 3 | Single mention; camera sensor bundled with ESP32-CAM kits, specialized vision-project component. | imported | pending |
- | `MPR121 Capacitive Touch HAT` | Capacitive Touch HAT/IC | Adafruit/NXP (MPR121 IC) | Tier 3 | Single mention; specialized 12-input capacitive touch add-on. | imported | pending |
- | `TCS3200` | Color Sensor | AMS/TAOS | Tier 3 | Single mention as a color-sensing module for sorting-robot projects, less common than TCS34725. | imported | pending |
- | `INA226` | Current/Power Monitor | Texas Instruments | Tier 3 | Single ESPHome-component mention; niche higher-precision upgrade over INA219. | imported | pending |
- | `INA260` | Current/Voltage/Power Sensor | Texas Instruments | Tier 3 | Single Adafruit guide mention; niche precision power monitor. | imported | pending |
- | `A3144` | Digital Hall Effect Sensor | Generic (Allegro-type) | Tier 3 | Single mention; specialized RPM-counting/door-detection Hall sensor. | imported | pending |
- | `LM75A` | Digital Temperature Sensor | Texas Instruments/NXP | Tier 3 | Single ESPHome-component mention; niche simple digital temp sensor. | imported | pending |
- | `Waveshare 2.13inch e-Paper HAT` | E-Paper Display HAT | Waveshare | Tier 3 | Single mention; specialized low-power e-ink display add-on for Pi dashboards. | imported | pending |
- | `MyoWare Muscle Sensor (AT-04-001)` | EMG Muscle Sensor | Advancer Technologies/SparkFun | Tier 3 | Single mention; specialized EMG biosignal sensor. | imported | pending |
- | `MAX4466` | Electret Microphone Amplifier | Maxim Integrated | Tier 3 | Single Adafruit guide mention; niche simpler mic-amp alternative to MAX9814. | imported | pending |
- | `ATM90E26/ATM90E32` | Energy Monitoring IC | Microchip (Atmel) | Tier 3 | Cited 2 times (ESPHome components); specialized precision energy metering ICs. | imported | pending |
- | `BL0940` | Energy Monitoring IC | Belling | Tier 3 | Single ESPHome-component mention; niche Tasmota smart-plug energy chip. | imported | pending |
- | `HLW8012` | Energy Monitoring IC | HLW (Zhongshan Belling) | Tier 3 | Single ESPHome-component mention; used in Sonoff POW, niche smart-plug energy monitoring. | imported | pending |
- | `CSE7766` | Energy Monitoring IC (UART) | China Silergy/CSE | Tier 3 | Single ESPHome-component mention; niche Sonoff S31/POW R2 energy chip. | imported | pending |
- | `BME688` | Environmental + Gas Sensor (AI) | Bosch Sensortec | Tier 3 | Cited 2 times as the actively-maintained modern successor to BME680, still relatively niche. | imported | pending |
- | `ENC28J60` | Ethernet Controller Module | Microchip | Tier 3 | Single mention; niche wired-networking add-on for Pi Zero/no-ethernet builds. | imported | pending |
- | `W5500` | Ethernet Controller Module | WIZnet | Tier 3 | Single mention; niche hardware-TCP/IP SPI Ethernet module. | imported | pending |
- | `RDA5807` | FM Radio Receiver Module | RDA Microelectronics | Tier 3 | Single mention; niche FM tuner chip for DIY radio hobby projects. | imported | pending |
- | `AS608` | Fingerprint Sensor | Generic (optical sensor) | Tier 3 | Single mention as an affordable optical fingerprint module for security projects. | imported | pending |
- | `Flex Sensor (2.2in)` | Flex/Bend Sensor | Spectra Symbol/Adafruit | Tier 3 | Single SparkFun guide mention; specialized bend-sensing component. | imported | pending |
- | `FSR 402` | Force Sensitive Resistor | Interlink Electronics | Tier 3 | Single Adafruit long-running guide mention; specialized force/pressure sensing. | imported | pending |
- | `PA1010D` | GPS Module | GlobalTop/Adafruit | Tier 3 | Single Adafruit Ultimate GPS guide mention; niche compared to NEO-6M/M8N. | imported | pending |
- | `Pimoroni Explorer HAT` | General Purpose I/O HAT | Pimoroni | Tier 3 | Single mention; specialized beginner-friendly combined motor-driver/analog-input HAT. | imported | pending |
- | `YF-S201` | Hall-Effect Water Flow Sensor | Generic | Tier 3 | Cited 2 times as a specialized flow sensor for irrigation/water-metering projects. | imported | pending |
- | `TSL2591` | High Dynamic Range Light Sensor | ams (TAOS) | Tier 3 | Single Adafruit guide mention; niche successor to TSL2561. | imported | pending |
- | `TMP117` | High-Precision Temperature Sensor | Texas Instruments | Tier 3 | Single ESPHome-component mention; specialized high-precision temp sensing. | imported | pending |
- | `BMI160` | IMU (Accelerometer + Gyroscope) | Bosch Sensortec | Tier 3 | Single ESPHome-component mention; niche compared to MPU6050. | imported | pending |
- | `KY-026 / Flame Sensor Module` | IR Flame/Fire Sensor Module | Generic (Keyes clone / IR photodiode) | Tier 3 | Merged KY-026 and generic flame sensor mentions; niche fire-detection hobby module. | imported | pending |
- | `ENS160` | Indoor Air Quality Sensor | ScioSense | Tier 3 | Single SparkFun hookup-guide mention; modern but comparatively niche air quality sensor. | imported | pending |
- | `Pimoroni Unicorn HAT` | LED Matrix HAT | Pimoroni | Tier 3 | Single mention; specialized WS2812-based LED matrix HAT for light-art projects. | imported | pending |
- | `AS3935` | Lightning Detector IC | ams | Tier 3 | Single ESPHome-component mention; very niche lightning-detection sensor. | imported | pending |
- | `KY-024` | Linear Hall Effect Sensor Module | Generic (Keyes clone) | Tier 3 | Single mention; niche analog magnetic-field-strength sensing module. | imported | pending |
- | `SX1278` | LoRa Transceiver IC | Semtech | Tier 3 | Single mention as the core chip behind many cheap LoRa modules, more niche than the RFM95W module itself. | imported | pending |
- | `NAU7802` | Load Cell ADC | Nuvoton | Tier 3 | Single ESPHome-component mention; niche alternative to HX711. | imported | pending |
- | `IRLZ44N` | Logic-Level MOSFET | Infineon (International Rectifier) | Tier 3 | Single mention; common discrete part for switching motors/LEDs but niche as a standalone catalog entry. | imported | pending |
- | `IRF520` | MOSFET Driver Module | Infineon | Tier 3 | Single mention; bundled MOSFET breakout in some starter kits. | imported | pending |
- | `AS5600` | Magnetic Rotary Position Sensor | ams | Tier 3 | Single mention; specialized contactless angle sensor for robotics. | imported | pending |
- | `AM312` | Mini PIR Motion Sensor | Generic | Tier 3 | Single mention as a compact low-power PIR alternative for battery projects. | imported | pending |
- | `HC-SR505` | Mini PIR Motion Sensor | Generic | Tier 3 | Single mention; smaller/niche PIR variant. | imported | pending |
- | `Sense HAT` | Multi-Sensor HAT | Raspberry Pi Foundation | Tier 3 | Single mention; specialized integrated multi-sensor HAT for STEM/Astro Pi projects. | imported | pending |
- | `PN2222` | NPN Transistor | Generic | Tier 3 | Single mention; general-purpose transistor bundled in starter kits for relay/motor driving demos. | imported | pending |
- | `S8050` | NPN Transistor | Generic | Tier 3 | Single mention; second common NPN transistor type in Elegoo kit. | imported | pending |
- | `SCT-013-030` | Non-Invasive AC Current Clamp Sensor | YHDC | Tier 3 | Single mention; specialized whole-house energy monitoring clamp sensor. | imported | pending |
- | `MAX30105` | Particle/Pulse Sensor | Maxim Integrated | Tier 3 | Single SparkFun guide mention; niche particle-sensing variant. | imported | pending |
- | `HM3301` | Particulate Matter Sensor | Seeed Studio | Tier 3 | Single ESPHome-component mention; niche PM sensor. | imported | pending |
- | `SPS30` | Particulate Matter Sensor | Sensirion | Tier 3 | Single ESPHome-component mention; specialized PM sensing. | imported | pending |
- | `KY-018` | Photoresistor (LDR) Module | Generic (Keyes-style LDR module) | Tier 3 | Cited 3 times as a common but simple analog light sensor in beginner sensor kits. | imported | pending |
- | `MCP9808` | Precision Temperature Sensor | Microchip | Tier 3 | Cited 2 times (Adafruit, ESPHome component) as a precision digital temp sensor for specialized use. | imported | pending |
- | `VCNL4010` | Proximity/Ambient Light Sensor | Vishay | Tier 3 | Single Adafruit guide mention; niche combined proximity/light sensor. | imported | pending |
- | `MAX30100` | Pulse Oximeter/Heart-Rate Sensor | Maxim Integrated | Tier 3 | Cited 2 times as the predecessor to MAX30102, still used but less current. | imported | pending |
- | `MAX31865` | RTD Amplifier (PT100) | Maxim Integrated/Analog Devices | Tier 3 | Single ESPHome-component mention; specialized precision RTD interfacing. | imported | pending |
- | `PCF8563` | Real-Time Clock | NXP | Tier 3 | Single ESPHome-component mention; niche RTC alternative. | imported | pending |
- | `DS1302` | Real-Time Clock Module | Maxim/generic clone | Tier 3 | Cited 2 times (Elegoo/SunFounder kits) as a bundled but less accurate RTC option. | imported | pending |
- | `1N4007` | Rectifier Diode | Generic | Tier 3 | Single mention; standard flyback/rectifier diode bundled across kits, but a basic passive, not a sensor/module proper. | imported | pending |
- | `XPT2046` | Resistive Touchscreen Controller | Generic | Tier 3 | Single mention, frequently paired with ILI9341 displays for touch input. | imported | pending |
- | `W25Q32` | SPI Flash Memory | Winbond | Tier 3 | Single mention; niche external flash chip for data logging add-ons. | imported | pending |
- | `KY-038` | Sound Detection Sensor Module | Generic (Keyes clone, LM393-based) | Tier 3 | Cited 4 times as a common cheap sound-sensor module in beginner kits for clap-switch projects. | imported | pending |
- | `HX8357` | TFT LCD Driver | Himax | Tier 3 | Single mention as a display driver IC found in some hobbyist TFT screen modules. | imported | pending |
- | `HDC1080` | Temperature/Humidity Sensor | Texas Instruments | Tier 3 | Single ESPHome-component mention; niche alternative humidity sensor. | imported | pending |
- | `HTU21D` | Temperature/Humidity Sensor | TE Connectivity (Measurement Specialties) | Tier 3 | Cited 3 times as a long-standing but comparatively niche I2C humidity sensor. | imported | pending |
- | `SHT21` | Temperature/Humidity Sensor | Sensirion | Tier 3 | Cited 2 times as an earlier Sensirion humidity sensor superseded by the SHT3x/SHT4x series. | imported | pending |
- | `SHT40` | Temperature/Humidity Sensor | Sensirion | Tier 3 | Cited 2 times (ESPHome component) as the current-generation Sensirion humidity sensor. | imported | pending |
- | `SHTC3` | Temperature/Humidity Sensor | Sensirion | Tier 3 | Single ESPHome-component mention; niche compact humidity sensor. | imported | pending |
- | `Si7021` | Temperature/Humidity Sensor | Silicon Labs | Tier 3 | Cited 3 times as a specialized humidity sensor used in weather-station projects. | imported | pending |
- | `MLX90640` | Thermal Imaging Sensor Array | Melexis | Tier 3 | Cited 2 times (ESPHome component) as a popular low-cost thermal camera sensor, more specialized than MLX90614. | imported | pending |
- | `MAX31855` | Thermocouple Amplifier | Maxim Integrated/Analog Devices | Tier 3 | Cited 2 times (Adafruit, ESPHome component) for niche high-temperature thermocouple sensing. | imported | pending |
- | `MAX31856` | Thermocouple Amplifier | Maxim Integrated/Analog Devices | Tier 3 | Single ESPHome-component mention; niche thermocouple sensing IC. | imported | pending |
- | `MAX6675` | Thermocouple-to-Digital Converter | Maxim Integrated | Tier 3 | Older thermocouple IC, single mention, niche high-temp use case. | imported | pending |
- | `VL53L1X` | Time-of-Flight Distance Sensor (long range) | STMicroelectronics | Tier 3 | Cited 3 times as the longer-range (~4m) successor to VL53L0X. | imported | pending |
- | `VL6180X` | ToF/Ambient Light Sensor | STMicroelectronics | Tier 3 | Single Adafruit guide mention; niche combined proximity/light sensor. | imported | pending |
- | `INA3221` | Triple-Channel Current/Power Monitor | Texas Instruments | Tier 3 | Single ESPHome-component mention; specialized multi-channel monitoring. | imported | pending |
- | `PiJuice HAT` | UPS/Battery HAT | Pi Supply | Tier 3 | Single mention; niche uninterruptible power supply HAT for portable Pi builds. | imported | pending |
- | `VEML6070` | UV Light Sensor | Vishay | Tier 3 | Cited 3 times as a specialized UV-index sensor for weather-station add-ons. | imported | pending |
- | `SI1145` | UV/IR/Visible Light Sensor | Silicon Labs | Tier 3 | Single Adafruit guide mention; niche multi-band light sensor for weather stations. | imported | pending |
- | `SGP40` | VOC Gas Sensor | Sensirion | Tier 3 | Single ESPHome-component mention; niche VOC-only sensor. | imported | pending |
- | `SW-420` | Vibration/Shock Sensor Module | Generic | Tier 3 | Cited 2 times (SunFounder kit) as a niche vibration/shock-detection module. | imported | pending |
- | `TDS Meter Sensor (SEN0244)` | Water Quality (TDS) Sensor | DFRobot | Tier 3 | Single mention; specialized hydroponics/aquarium water-quality module. | imported | pending |
- | `JSN-SR04T` | Waterproof Ultrasonic Distance Sensor | Generic | Tier 3 | Cited 2 times as a niche waterproof variant of HC-SR04 for tank-level sensing. | imported | pending |
+ | `ST7789` | TFT Display Driver | Sitronix | Tier 2 | Cited as widely used in modern colorful small TFT display modules with ESP32. | imported | complete |
+ | `ILI9341` | TFT LCD Driver | ILI Technology/Ilitek | Tier 2 | Cited 3 times as a very common 2.4"-2.8" touchscreen TFT display controller. | imported | complete |
+ | `AHT10/AHT20` | Temperature/Humidity Sensor | ASAIR | Tier 2 | Cited 4+ times (ESPHome component, Adafruit guide) as an increasingly popular cheap accurate DHT replacement. | imported | complete |
+ | `SHT31` | Temperature/Humidity Sensor | Sensirion | Tier 2 | Cited 4+ times as a popular higher-accuracy I2C humidity sensor upgrade over DHT sensors. | imported | complete |
+ | `VL53L0X` | Time-of-Flight Distance Sensor | STMicroelectronics | Tier 2 | Cited 6+ times (Adafruit, ESPHome, robotics guides) as the popular precise ToF upgrade over HC-SR04. | imported | complete |
+ | `CCS811` | VOC/eCO2 Gas Sensor | ams (AMS OSRAM) | Tier 2 | Cited 5+ times (Adafruit, ESPHome dedicated component) as a common digital indoor-air-quality sensor. | imported | complete |
+ | `SGP30` | VOC/eCO2 Gas Sensor | Sensirion | Tier 2 | Cited 4+ times as a popular Sensirion air-quality sensor, noted as eCO2 (estimated) rather than true CO2. | imported | complete |
+ | `LD2410` | mmWave Presence Sensor | Hi-Link | Tier 2 | Dedicated ESPHome component and rapidly growing popularity as a modern presence sensor in the ESPHome/Home Assistant community. | imported | complete |
+ | `MCP3208` | 12-bit SPI ADC | Microchip | Tier 3 | Single mention as the higher-resolution sibling of MCP3008. | imported | complete |
+ | `LIS3DH` | 3-axis Accelerometer | STMicroelectronics | Tier 3 | Single Adafruit guide mention; niche low-power accelerometer. | imported | complete |
+ | `L3GD20H` | 3-axis Gyroscope | STMicroelectronics | Tier 3 | Single Adafruit guide mention; standalone gyro niche compared to full IMUs. | imported | complete |
+ | `PCF8591` | 8-bit I2C ADC/DAC | NXP | Tier 3 | Single mention; niche low-cost combined ADC/DAC module. | imported | complete |
+ | `74HC595` | 8-bit Shift Register IC | Generic/Texas Instruments | Tier 3 | Single mention bundled in Elegoo kits for LED multiplexing projects. | imported | complete |
+ | `MCP3008` | 8-channel SPI ADC | Microchip | Tier 3 | Single mention as the standard ADC to read analog sensors on Raspberry Pi, which lacks native ADC. | imported | complete |
+ | `AMG8833` | 8x8 Thermal Camera Sensor | Panasonic | Tier 3 | Cited 2 times as a budget thermal-array sensor for presence detection/low-res imaging. | imported | complete |
+ | `LSM9DS1` | 9-axis IMU | STMicroelectronics | Tier 3 | Single Adafruit long-running guide mention; niche compared to MPU6050/9250. | imported | complete |
+ | `PZEM-004T` | AC Energy Monitoring Module | Peacefair | Tier 3 | Single ESPHome-component mention; niche standalone AC power meter. | imported | complete |
+ | `ZMPT101B` | AC Voltage Sensor | Generic | Tier 3 | Single mention; specialized mains-AC voltage measurement module. | imported | complete |
+ | `BMA180` | Accelerometer | Bosch | Tier 3 | Single mention; older SparkFun breakout, largely superseded. | imported | complete |
+ | `APA102` | Addressable RGB LED | Generic (DotStar) | Tier 3 | Cited 2 times as a popular but more specialized SPI-clocked alternative to WS2812B. | imported | complete |
+ | `ZMOD4410` | Air Quality/VOC Sensor | Renesas/IDT | Tier 3 | Single Tasmota-docs mention; niche gas sensor. | imported | complete |
+ | `MQ-3` | Alcohol Gas Sensor | Winsen | Tier 3 | Single mention, niche breathalyzer/alcohol-detection use case. | imported | complete |
+ | `APDS-9301` | Ambient Light Sensor | Broadcom/Avago | Tier 3 | Single SparkFun guide mention; niche older light sensor. | imported | complete |
+ | `VEML7700` | Ambient Light Sensor | Vishay | Tier 3 | Cited 2 times (Adafruit, ESPHome component); niche lux sensor. | imported | complete |
+ | `ADXL335` | Analog 3-axis Accelerometer | Analog Devices | Tier 3 | Single mention; classic but niche analog accelerometer predating digital IMUs. | imported | complete |
+ | `TEMT6000` | Analog Ambient Light Sensor | Vishay | Tier 3 | Single SparkFun guide mention; simple niche analog light sensor. | imported | complete |
+ | `GP2Y0A21YK` | Analog IR Distance Sensor | Sharp | Tier 3 | Cited 2 times; common but more specialized analog IR distance sensor for robotics. | imported | complete |
+ | `BMP388` | Barometric Pressure Sensor | Bosch Sensortec | Tier 3 | Cited 3 times (Adafruit, ESPHome component) as a higher-precision pressure sensor for drone altitude-hold projects. | imported | complete |
+ | `IMX219 (Raspberry Pi Camera Module 2)` | Camera Sensor | Sony/Raspberry Pi Foundation | Tier 3 | Single mention; the official Pi Camera Module 2 sensor, widely used but Pi-specific/niche in this general library. | imported | complete |
+ | `IMX477 (Raspberry Pi HQ Camera)` | Camera Sensor | Sony | Tier 3 | Single mention; sensor for the Pi High Quality Camera, specialized/advanced use case. | imported | complete |
+ | `OV2640` | Camera Sensor | OmniVision (clone) | Tier 3 | Single mention; camera sensor bundled with ESP32-CAM kits, specialized vision-project component. | imported | complete |
+ | `MPR121 Capacitive Touch HAT` | Capacitive Touch HAT/IC | Adafruit/NXP (MPR121 IC) | Tier 3 | Single mention; specialized 12-input capacitive touch add-on. | imported | complete |
+ | `TCS3200` | Color Sensor | AMS/TAOS | Tier 3 | Single mention as a color-sensing module for sorting-robot projects, less common than TCS34725. | imported | complete |
+ | `INA226` | Current/Power Monitor | Texas Instruments | Tier 3 | Single ESPHome-component mention; niche higher-precision upgrade over INA219. | imported | complete |
+ | `INA260` | Current/Voltage/Power Sensor | Texas Instruments | Tier 3 | Single Adafruit guide mention; niche precision power monitor. | imported | complete |
+ | `A3144` | Digital Hall Effect Sensor | Generic (Allegro-type) | Tier 3 | Single mention; specialized RPM-counting/door-detection Hall sensor. | imported | complete |
+ | `LM75A` | Digital Temperature Sensor | Texas Instruments/NXP | Tier 3 | Single ESPHome-component mention; niche simple digital temp sensor. | imported | complete |
+ | `Waveshare 2.13inch e-Paper HAT` | E-Paper Display HAT | Waveshare | Tier 3 | Single mention; specialized low-power e-ink display add-on for Pi dashboards. | imported | complete |
+ | `MyoWare Muscle Sensor (AT-04-001)` | EMG Muscle Sensor | Advancer Technologies/SparkFun | Tier 3 | Single mention; specialized EMG biosignal sensor. | imported | complete |
+ | `MAX4466` | Electret Microphone Amplifier | Maxim Integrated | Tier 3 | Single Adafruit guide mention; niche simpler mic-amp alternative to MAX9814. | imported | complete |
+ | `ATM90E26/ATM90E32` | Energy Monitoring IC | Microchip (Atmel) | Tier 3 | Cited 2 times (ESPHome components); specialized precision energy metering ICs. | imported | complete |
+ | `BL0940` | Energy Monitoring IC | Belling | Tier 3 | Single ESPHome-component mention; niche Tasmota smart-plug energy chip. | imported | complete |
+ | `HLW8012` | Energy Monitoring IC | HLW (Zhongshan Belling) | Tier 3 | Single ESPHome-component mention; used in Sonoff POW, niche smart-plug energy monitoring. | imported | complete |
+ | `CSE7766` | Energy Monitoring IC (UART) | China Silergy/CSE | Tier 3 | Single ESPHome-component mention; niche Sonoff S31/POW R2 energy chip. | imported | complete |
+ | `BME688` | Environmental + Gas Sensor (AI) | Bosch Sensortec | Tier 3 | Cited 2 times as the actively-maintained modern successor to BME680, still relatively niche. | imported | complete |
+ | `ENC28J60` | Ethernet Controller Module | Microchip | Tier 3 | Single mention; niche wired-networking add-on for Pi Zero/no-ethernet builds. | imported | complete |
+ | `W5500` | Ethernet Controller Module | WIZnet | Tier 3 | Single mention; niche hardware-TCP/IP SPI Ethernet module. | imported | complete |
+ | `RDA5807` | FM Radio Receiver Module | RDA Microelectronics | Tier 3 | Single mention; niche FM tuner chip for DIY radio hobby projects. | imported | complete |
+ | `AS608` | Fingerprint Sensor | Generic (optical sensor) | Tier 3 | Single mention as an affordable optical fingerprint module for security projects. | imported | complete |
+ | `Flex Sensor (2.2in)` | Flex/Bend Sensor | Spectra Symbol/Adafruit | Tier 3 | Single SparkFun guide mention; specialized bend-sensing component. | imported | complete |
+ | `FSR 402` | Force Sensitive Resistor | Interlink Electronics | Tier 3 | Single Adafruit long-running guide mention; specialized force/pressure sensing. | imported | complete |
+ | `PA1010D` | GPS Module | GlobalTop/Adafruit | Tier 3 | Single Adafruit Ultimate GPS guide mention; niche compared to NEO-6M/M8N. | imported | complete |
+ | `Pimoroni Explorer HAT` | General Purpose I/O HAT | Pimoroni | Tier 3 | Single mention; specialized beginner-friendly combined motor-driver/analog-input HAT. | imported | complete |
+ | `YF-S201` | Hall-Effect Water Flow Sensor | Generic | Tier 3 | Cited 2 times as a specialized flow sensor for irrigation/water-metering projects. | imported | complete |
+ | `TSL2591` | High Dynamic Range Light Sensor | ams (TAOS) | Tier 3 | Single Adafruit guide mention; niche successor to TSL2561. | imported | complete |
+ | `TMP117` | High-Precision Temperature Sensor | Texas Instruments | Tier 3 | Single ESPHome-component mention; specialized high-precision temp sensing. | imported | complete |
+ | `BMI160` | IMU (Accelerometer + Gyroscope) | Bosch Sensortec | Tier 3 | Single ESPHome-component mention; niche compared to MPU6050. | imported | complete |
+ | `KY-026 / Flame Sensor Module` | IR Flame/Fire Sensor Module | Generic (Keyes clone / IR photodiode) | Tier 3 | Merged KY-026 and generic flame sensor mentions; niche fire-detection hobby module. | imported | complete |
+ | `ENS160` | Indoor Air Quality Sensor | ScioSense | Tier 3 | Single SparkFun hookup-guide mention; modern but comparatively niche air quality sensor. | imported | complete |
+ | `Pimoroni Unicorn HAT` | LED Matrix HAT | Pimoroni | Tier 3 | Single mention; specialized WS2812-based LED matrix HAT for light-art projects. | imported | complete |
+ | `AS3935` | Lightning Detector IC | ams | Tier 3 | Single ESPHome-component mention; very niche lightning-detection sensor. | imported | complete |
+ | `KY-024` | Linear Hall Effect Sensor Module | Generic (Keyes clone) | Tier 3 | Single mention; niche analog magnetic-field-strength sensing module. | imported | complete |
+ | `SX1278` | LoRa Transceiver IC | Semtech | Tier 3 | Single mention as the core chip behind many cheap LoRa modules, more niche than the RFM95W module itself. | imported | complete |
+ | `NAU7802` | Load Cell ADC | Nuvoton | Tier 3 | Single ESPHome-component mention; niche alternative to HX711. | imported | complete |
+ | `IRLZ44N` | Logic-Level MOSFET | Infineon (International Rectifier) | Tier 3 | Single mention; common discrete part for switching motors/LEDs but niche as a standalone catalog entry. | imported | complete |
+ | `IRF520` | MOSFET Driver Module | Infineon | Tier 3 | Single mention; bundled MOSFET breakout in some starter kits. | imported | complete |
+ | `AS5600` | Magnetic Rotary Position Sensor | ams | Tier 3 | Single mention; specialized contactless angle sensor for robotics. | imported | complete |
+ | `AM312` | Mini PIR Motion Sensor | Generic | Tier 3 | Single mention as a compact low-power PIR alternative for battery projects. | imported | complete |
+ | `HC-SR505` | Mini PIR Motion Sensor | Generic | Tier 3 | Single mention; smaller/niche PIR variant. | imported | complete |
+ | `Sense HAT` | Multi-Sensor HAT | Raspberry Pi Foundation | Tier 3 | Single mention; specialized integrated multi-sensor HAT for STEM/Astro Pi projects. | imported | complete |
+ | `PN2222` | NPN Transistor | Generic | Tier 3 | Single mention; general-purpose transistor bundled in starter kits for relay/motor driving demos. | imported | complete |
+ | `S8050` | NPN Transistor | Generic | Tier 3 | Single mention; second common NPN transistor type in Elegoo kit. | imported | complete |
+ | `SCT-013-030` | Non-Invasive AC Current Clamp Sensor | YHDC | Tier 3 | Single mention; specialized whole-house energy monitoring clamp sensor. | imported | complete |
+ | `MAX30105` | Particle/Pulse Sensor | Maxim Integrated | Tier 3 | Single SparkFun guide mention; niche particle-sensing variant. | imported | complete |
+ | `HM3301` | Particulate Matter Sensor | Seeed Studio | Tier 3 | Single ESPHome-component mention; niche PM sensor. | imported | complete |
+ | `SPS30` | Particulate Matter Sensor | Sensirion | Tier 3 | Single ESPHome-component mention; specialized PM sensing. | imported | complete |
+ | `KY-018` | Photoresistor (LDR) Module | Generic (Keyes-style LDR module) | Tier 3 | Cited 3 times as a common but simple analog light sensor in beginner sensor kits. | imported | complete |
+ | `MCP9808` | Precision Temperature Sensor | Microchip | Tier 3 | Cited 2 times (Adafruit, ESPHome component) as a precision digital temp sensor for specialized use. | imported | complete |
+ | `VCNL4010` | Proximity/Ambient Light Sensor | Vishay | Tier 3 | Single Adafruit guide mention; niche combined proximity/light sensor. | imported | complete |
+ | `MAX30100` | Pulse Oximeter/Heart-Rate Sensor | Maxim Integrated | Tier 3 | Cited 2 times as the predecessor to MAX30102, still used but less current. | imported | complete |
+ | `MAX31865` | RTD Amplifier (PT100) | Maxim Integrated/Analog Devices | Tier 3 | Single ESPHome-component mention; specialized precision RTD interfacing. | imported | complete |
+ | `PCF8563` | Real-Time Clock | NXP | Tier 3 | Single ESPHome-component mention; niche RTC alternative. | imported | complete |
+ | `DS1302` | Real-Time Clock Module | Maxim/generic clone | Tier 3 | Cited 2 times (Elegoo/SunFounder kits) as a bundled but less accurate RTC option. | imported | complete |
+ | `1N4007` | Rectifier Diode | Generic | Tier 3 | Single mention; standard flyback/rectifier diode bundled across kits, but a basic passive, not a sensor/module proper. | imported | complete |
+ | `XPT2046` | Resistive Touchscreen Controller | Generic | Tier 3 | Single mention, frequently paired with ILI9341 displays for touch input. | imported | complete |
+ | `W25Q32` | SPI Flash Memory | Winbond | Tier 3 | Single mention; niche external flash chip for data logging add-ons. | imported | complete |
+ | `KY-038` | Sound Detection Sensor Module | Generic (Keyes clone, LM393-based) | Tier 3 | Cited 4 times as a common cheap sound-sensor module in beginner kits for clap-switch projects. | imported | complete |
+ | `HX8357` | TFT LCD Driver | Himax | Tier 3 | Single mention as a display driver IC found in some hobbyist TFT screen modules. | imported | complete |
+ | `HDC1080` | Temperature/Humidity Sensor | Texas Instruments | Tier 3 | Single ESPHome-component mention; niche alternative humidity sensor. | imported | complete |
+ | `HTU21D` | Temperature/Humidity Sensor | TE Connectivity (Measurement Specialties) | Tier 3 | Cited 3 times as a long-standing but comparatively niche I2C humidity sensor. | imported | complete |
+ | `SHT21` | Temperature/Humidity Sensor | Sensirion | Tier 3 | Cited 2 times as an earlier Sensirion humidity sensor superseded by the SHT3x/SHT4x series. | imported | complete |
+ | `SHT40` | Temperature/Humidity Sensor | Sensirion | Tier 3 | Cited 2 times (ESPHome component) as the current-generation Sensirion humidity sensor. | imported | complete |
+ | `SHTC3` | Temperature/Humidity Sensor | Sensirion | Tier 3 | Single ESPHome-component mention; niche compact humidity sensor. | imported | complete |
+ | `Si7021` | Temperature/Humidity Sensor | Silicon Labs | Tier 3 | Cited 3 times as a specialized humidity sensor used in weather-station projects. | imported | complete |
+ | `MLX90640` | Thermal Imaging Sensor Array | Melexis | Tier 3 | Cited 2 times (ESPHome component) as a popular low-cost thermal camera sensor, more specialized than MLX90614. | imported | complete |
+ | `MAX31855` | Thermocouple Amplifier | Maxim Integrated/Analog Devices | Tier 3 | Cited 2 times (Adafruit, ESPHome component) for niche high-temperature thermocouple sensing. | imported | complete |
+ | `MAX31856` | Thermocouple Amplifier | Maxim Integrated/Analog Devices | Tier 3 | Single ESPHome-component mention; niche thermocouple sensing IC. | imported | complete |
+ | `MAX6675` | Thermocouple-to-Digital Converter | Maxim Integrated | Tier 3 | Older thermocouple IC, single mention, niche high-temp use case. | imported | complete |
+ | `VL53L1X` | Time-of-Flight Distance Sensor (long range) | STMicroelectronics | Tier 3 | Cited 3 times as the longer-range (~4m) successor to VL53L0X. | imported | complete |
+ | `VL6180X` | ToF/Ambient Light Sensor | STMicroelectronics | Tier 3 | Single Adafruit guide mention; niche combined proximity/light sensor. | imported | complete |
+ | `INA3221` | Triple-Channel Current/Power Monitor | Texas Instruments | Tier 3 | Single ESPHome-component mention; specialized multi-channel monitoring. | imported | complete |
+ | `PiJuice HAT` | UPS/Battery HAT | Pi Supply | Tier 3 | Single mention; niche uninterruptible power supply HAT for portable Pi builds. | imported | complete |
+ | `VEML6070` | UV Light Sensor | Vishay | Tier 3 | Cited 3 times as a specialized UV-index sensor for weather-station add-ons. | imported | complete |
+ | `SI1145` | UV/IR/Visible Light Sensor | Silicon Labs | Tier 3 | Single Adafruit guide mention; niche multi-band light sensor for weather stations. | imported | complete |
+ | `SGP40` | VOC Gas Sensor | Sensirion | Tier 3 | Single ESPHome-component mention; niche VOC-only sensor. | imported | complete |
+ | `SW-420` | Vibration/Shock Sensor Module | Generic | Tier 3 | Cited 2 times (SunFounder kit) as a niche vibration/shock-detection module. | imported | complete |
+ | `TDS Meter Sensor (SEN0244)` | Water Quality (TDS) Sensor | DFRobot | Tier 3 | Single mention; specialized hydroponics/aquarium water-quality module. | imported | complete |
+ | `JSN-SR04T` | Waterproof Ultrasonic Distance Sensor | Generic | Tier 3 | Cited 2 times as a niche waterproof variant of HC-SR04 for tank-level sensing. | imported | complete |
 
 ## ICs & transistors
 
@@ -222,75 +222,75 @@ Candidate parts for future import into `entries/`, ranked by how often they turn
 |---|---|---|---|---|---|---|
 | `DS18B20` | 1-Wire Temperature Sensor | Analog Devices (Maxim) | Tier 1 | Extremely popular bare digital temperature sensor using the 1-Wire protocol. | imported | complete |
 | `PCA9685` | 16-Channel PWM/Servo Driver | NXP Semiconductors | Tier 1 | Appears 3x; ubiquitously used for driving servos and dimmable LEDs in Arduino/RPi projects. | imported | complete |
- | `WS2812B` | Addressable RGB LED (Integrated Driver) | Worldsemi | Tier 1 | Appears 3+ times; the single most common addressable RGB LED (NeoPixel) used in hobbyist projects. | imported | pending |
- | `LM317` | Adjustable Linear Regulator | Texas Instruments/onsemi | Tier 1 | Merges LM317/LM317T; appears 6+ times — classic adjustable 1.25-37V regulator, staple of hobbyist power supplies/bench PSUs. | imported | pending |
- | `LM386` | Audio Power Amplifier | Texas Instruments | Tier 1 | Appears 4+ times; classic low-power audio amplifier chip used in countless speaker/amp DIY projects. | imported | pending |
- | `LM2596` | Buck Switching Regulator | Texas Instruments | Tier 1 | Merges LM2596/LM2596S-ADJ/5.0/3.3; the classic cheap adjustable buck IC ubiquitous on eBay/AliExpress buck modules. | imported | pending |
- | `HD44780` | Character LCD Controller | Hitachi (and compatibles) | Tier 1 | The classic controller IC (or compatible) behind virtually every hobbyist 16x2/20x4 character LCD. | imported | pending |
- | `PAM8403` | Class-D Audio Amplifier | Diodes Incorporated | Tier 1 | Extremely popular tiny class-D stereo amp chip used in countless DIY speaker projects. | imported | pending |
- | `ULN2003A` | Darlington Transistor Array | Texas Instruments/STMicroelectronics | Tier 1 | Merges ULN2003/ULN2003A; appears 4+ times; ubiquitous 7-channel Darlington array driving 28BYJ-48 steppers/relays/solenoids in beginner Arduino kits. | imported | pending |
+ | `WS2812B` | Addressable RGB LED (Integrated Driver) | Worldsemi | Tier 1 | Appears 3+ times; the single most common addressable RGB LED (NeoPixel) used in hobbyist projects. | imported | complete |
+ | `LM317` | Adjustable Linear Regulator | Texas Instruments/onsemi | Tier 1 | Merges LM317/LM317T; appears 6+ times — classic adjustable 1.25-37V regulator, staple of hobbyist power supplies/bench PSUs. | imported | complete |
+ | `LM386` | Audio Power Amplifier | Texas Instruments | Tier 1 | Appears 4+ times; classic low-power audio amplifier chip used in countless speaker/amp DIY projects. | imported | complete |
+ | `LM2596` | Buck Switching Regulator | Texas Instruments | Tier 1 | Merges LM2596/LM2596S-ADJ/5.0/3.3; the classic cheap adjustable buck IC ubiquitous on eBay/AliExpress buck modules. | imported | complete |
+ | `HD44780` | Character LCD Controller | Hitachi (and compatibles) | Tier 1 | The classic controller IC (or compatible) behind virtually every hobbyist 16x2/20x4 character LCD. | imported | complete |
+ | `PAM8403` | Class-D Audio Amplifier | Diodes Incorporated | Tier 1 | Extremely popular tiny class-D stereo amp chip used in countless DIY speaker projects. | imported | complete |
+ | `ULN2003A` | Darlington Transistor Array | Texas Instruments/STMicroelectronics | Tier 1 | Merges ULN2003/ULN2003A; appears 4+ times; ubiquitous 7-channel Darlington array driving 28BYJ-48 steppers/relays/solenoids in beginner Arduino kits. | imported | complete |
 | `L293D` | Dual H-Bridge Motor Driver | Texas Instruments/STMicroelectronics | Tier 1 | Appears 3+ times; classic DIP quad half-H driver, extremely common in beginner motor shields/breadboard robotics. | imported | complete |
 | `L298N` | Dual H-Bridge Motor Driver | STMicroelectronics | Tier 1 | Appears 4+ times; the most iconic hobbyist dual H-bridge module for driving DC motors/steppers in countless Arduino robot kits. | imported | complete |
- | `LM358` | Dual Op-amp | TI/ON Semi | Tier 1 | Appears 5+ times across kits and hobby guides; one of the most ubiquitous general-purpose dual op-amps. | imported | pending |
+ | `LM358` | Dual Op-amp | TI/ON Semi | Tier 1 | Appears 5+ times across kits and hobby guides; one of the most ubiquitous general-purpose dual op-amps. | imported | complete |
 | `BME280` | Environmental Sensor | Bosch Sensortec | Tier 1 | Extremely popular combined temp/humidity/pressure sensor used bare in hobbyist IoT weather projects. | imported | complete |
- | `LM7805` | Fixed 5V Linear Regulator | STMicroelectronics/TI/onsemi | Tier 1 | Merges LM7805, L7805CV, LM7805; appears 6+ times — the single most common hobbyist fixed regulator, ubiquitous in beginner power supplies. | imported | pending |
+ | `LM7805` | Fixed 5V Linear Regulator | STMicroelectronics/TI/onsemi | Tier 1 | Merges LM7805, L7805CV, LM7805; appears 6+ times — the single most common hobbyist fixed regulator, ubiquitous in beginner power supplies. | imported | complete |
 | `MPU6050` | IMU (Accelerometer+Gyro) | InvenSense (TDK) | Tier 1 | One of the most widely used bare 6-axis IMU chips in robotics/drones/balancing robots. | imported | complete |
- | `AMS1117-3.3` | LDO Regulator, Fixed 3.3V | Advanced Monolithic Systems | Tier 1 | Merges AMS1117-3.3/5.0/ADJ; near-universal 3.3V LDO on nearly every Arduino/ESP breakout board. | imported | pending |
+ | `AMS1117-3.3` | LDO Regulator, Fixed 3.3V | Advanced Monolithic Systems | Tier 1 | Merges AMS1117-3.3/5.0/ADJ; near-universal 3.3V LDO on nearly every Arduino/ESP breakout board. | imported | complete |
 | `MAX7219` | LED Matrix/7-Segment Driver | Maxim Integrated (Analog Devices) | Tier 1 | Appears 3+ times; extremely popular driver for 8x8 LED matrix/7-segment displays in Arduino projects. | imported | complete |
- | `TP4056` | Li-ion Battery Charger IC | Nanjing Top Power (and generic) | Tier 1 | Extremely common bare lithium battery charging chip found on nearly all hobbyist LiPo/Li-ion charger boards. | imported | pending |
- | `IRLZ44N` | Logic-level N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 1 | The go-to logic-level MOSFET for direct 5V/3.3V MCU gate drive, appears multiple times. | imported | pending |
- | `STM32F103C8T6` | MCU - ARM Cortex-M3 | STMicroelectronics | Tier 1 | The chip behind the ubiquitous 'Blue Pill' board, extremely popular as a bare MCU in hobbyist ARM projects. | imported | pending |
- | `ATmega328P` | MCU - AVR 8-bit | Microchip/Atmel | Tier 1 | The chip powering the Arduino Uno/Nano; by far the most common bare hobbyist MCU. | imported | pending |
- | `ATtiny85` | MCU - AVR 8-bit | Microchip/Atmel | Tier 1 | Appears twice; tiny 8-pin AVR favored for small, low-power DIY gadgets and Digispark-style boards. | imported | pending |
- | `RP2040` | MCU - Dual ARM Cortex-M0+ | Raspberry Pi | Tier 1 | Bare chip behind the Raspberry Pi Pico, increasingly used directly on custom hobbyist PCBs. | imported | pending |
+ | `TP4056` | Li-ion Battery Charger IC | Nanjing Top Power (and generic) | Tier 1 | Extremely common bare lithium battery charging chip found on nearly all hobbyist LiPo/Li-ion charger boards. | imported | complete |
+ | `IRLZ44N` | Logic-level N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 1 | The go-to logic-level MOSFET for direct 5V/3.3V MCU gate drive, appears multiple times. | imported | complete |
+ | `STM32F103C8T6` | MCU - ARM Cortex-M3 | STMicroelectronics | Tier 1 | The chip behind the ubiquitous 'Blue Pill' board, extremely popular as a bare MCU in hobbyist ARM projects. | imported | complete |
+ | `ATmega328P` | MCU - AVR 8-bit | Microchip/Atmel | Tier 1 | The chip powering the Arduino Uno/Nano; by far the most common bare hobbyist MCU. | imported | complete |
+ | `ATtiny85` | MCU - AVR 8-bit | Microchip/Atmel | Tier 1 | Appears twice; tiny 8-pin AVR favored for small, low-power DIY gadgets and Digispark-style boards. | imported | complete |
+ | `RP2040` | MCU - Dual ARM Cortex-M0+ | Raspberry Pi | Tier 1 | Bare chip behind the Raspberry Pi Pico, increasingly used directly on custom hobbyist PCBs. | imported | complete |
 | `ESP32-WROOM-32` | MCU Module - Wi-Fi/BLE SoC | Espressif | Tier 1 | Widely used bare module for embedding Wi-Fi/Bluetooth capability directly onto custom PCBs, extremely common. | imported | complete |
-| `ESP8266EX` | MCU/SoC - Wi-Fi | Espressif | Tier 1 | Bare low-cost Wi-Fi SoC underlying ESP-01/NodeMCU boards, hugely popular for IoT projects. | imported | pending |
- | `IRFZ44N` | N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 1 | Very widely used high-current MOSFET, staple in DIY motor controllers/solar/battery projects, appears multiple times. | imported | pending |
- | `2N7000` | N-channel MOSFET, TO-92 | ON Semi/Multi | Tier 1 | Ubiquitous small-signal MOSFET for low-power switching, appears multiple times across forums/kits. | imported | pending |
- | `2N2222` | NPN BJT, TO-18/TO-92 | Multi (Fairchild/ON Semi/etc.) | Tier 1 | Merges 2N2222/2N2222A; appears 5+ times across sources; one of the most iconic general-purpose NPN transistors, bundled in nearly every starter kit. | imported | pending |
- | `2N3904` | NPN BJT, TO-92 | ON Semi/Multi | Tier 1 | Appears 4+ times; standard general-purpose small-signal NPN, extremely common in tutorials/kits. | imported | pending |
- | `BC547` | NPN BJT, TO-92 | Multi (Fairchild/ON Semi/STM) | Tier 1 | Appears 4+ times; extremely popular general-purpose NPN, especially outside the US, ubiquitous in kits. | imported | pending |
+| `ESP8266EX` | MCU/SoC - Wi-Fi | Espressif | Tier 1 | Bare low-cost Wi-Fi SoC underlying ESP-01/NodeMCU boards, hugely popular for IoT projects. | imported | complete |
+ | `IRFZ44N` | N-channel MOSFET, TO-220 | Infineon (legacy IR) | Tier 1 | Very widely used high-current MOSFET, staple in DIY motor controllers/solar/battery projects, appears multiple times. | imported | complete |
+ | `2N7000` | N-channel MOSFET, TO-92 | ON Semi/Multi | Tier 1 | Ubiquitous small-signal MOSFET for low-power switching, appears multiple times across forums/kits. | imported | complete |
+ | `2N2222` | NPN BJT, TO-18/TO-92 | Multi (Fairchild/ON Semi/etc.) | Tier 1 | Merges 2N2222/2N2222A; appears 5+ times across sources; one of the most iconic general-purpose NPN transistors, bundled in nearly every starter kit. | imported | complete |
+ | `2N3904` | NPN BJT, TO-92 | ON Semi/Multi | Tier 1 | Appears 4+ times; standard general-purpose small-signal NPN, extremely common in tutorials/kits. | imported | complete |
+ | `BC547` | NPN BJT, TO-92 | Multi (Fairchild/ON Semi/STM) | Tier 1 | Appears 4+ times; extremely popular general-purpose NPN, especially outside the US, ubiquitous in kits. | imported | complete |
 | `SSD1306` | OLED Display Driver | Solomon Systech | Tier 1 | The ubiquitous OLED driver IC behind nearly all cheap hobbyist 128x64 I2C/SPI OLED displays. | imported | complete |
- | `2N3906` | PNP BJT, TO-92 | ON Semi/Multi | Tier 1 | Complementary PNP pair to 2N3904, used whenever a PNP switch is needed, appears multiple times. | imported | pending |
- | `BC557` | PNP BJT, TO-92 | Multi | Tier 1 | PNP complement to BC547, common pairing appearing in multiple kit listings. | imported | pending |
- | `LM324` | Quad Op-amp | Texas Instruments | Tier 1 | Appears repeatedly across hobbyist IC assortment kits as the standard quad op-amp. | imported | pending |
- | `nRF24L01+` | RF Transceiver | Nordic Semiconductor | Tier 1 | Extremely common low-cost 2.4GHz wireless transceiver module used bare in countless hobbyist wireless projects. | imported | pending |
- | `1N4001` | Rectifier Diode | Generic | Tier 1 | Standard general-purpose rectifier diode kept in every hobbyist bin for power-supply/protection circuits, essential supporting part. | imported | pending |
- | `74HC595` | Shift Register | TI/Nexperia/ON Semi | Tier 1 | Appears 3+ times; one of the most popular hobbyist ICs for expanding microcontroller outputs (LEDs, 7-seg displays). | imported | pending |
- | `1N4148` | Small-signal Switching Diode | Generic | Tier 1 | Universally cited as a must-stock signal diode in every hobbyist parts-bin discussion, functions as a routine supporting part alongside transistors/ICs. | imported | pending |
+ | `2N3906` | PNP BJT, TO-92 | ON Semi/Multi | Tier 1 | Complementary PNP pair to 2N3904, used whenever a PNP switch is needed, appears multiple times. | imported | complete |
+ | `BC557` | PNP BJT, TO-92 | Multi | Tier 1 | PNP complement to BC547, common pairing appearing in multiple kit listings. | imported | complete |
+ | `LM324` | Quad Op-amp | Texas Instruments | Tier 1 | Appears repeatedly across hobbyist IC assortment kits as the standard quad op-amp. | imported | complete |
+ | `nRF24L01+` | RF Transceiver | Nordic Semiconductor | Tier 1 | Extremely common low-cost 2.4GHz wireless transceiver module used bare in countless hobbyist wireless projects. | imported | complete |
+ | `1N4001` | Rectifier Diode | Generic | Tier 1 | Standard general-purpose rectifier diode kept in every hobbyist bin for power-supply/protection circuits, essential supporting part. | imported | complete |
+ | `74HC595` | Shift Register | TI/Nexperia/ON Semi | Tier 1 | Appears 3+ times; one of the most popular hobbyist ICs for expanding microcontroller outputs (LEDs, 7-seg displays). | imported | complete |
+ | `1N4148` | Small-signal Switching Diode | Generic | Tier 1 | Universally cited as a must-stock signal diode in every hobbyist parts-bin discussion, functions as a routine supporting part alongside transistors/ICs. | imported | complete |
 | `A4988` | Stepper Motor Driver | Allegro MicroSystems | Tier 1 | Appears twice; the definitive hobbyist stepper driver for 3D printers/CNC (RAMPS/Pololu boards). | imported | complete |
- | `DRV8825` | Stepper Motor Driver | Texas Instruments | Tier 1 | Appears 3+ times; higher-current, finer-microstepping successor/alternative to A4988, extremely popular in 3D printer electronics. | imported | pending |
+ | `DRV8825` | Stepper Motor Driver | Texas Instruments | Tier 1 | Appears 3+ times; higher-current, finer-microstepping successor/alternative to A4988, extremely popular in 3D printer electronics. | imported | complete |
 | `DHT11` | Temperature/Humidity Sensor | Aosong | Tier 1 | Cheaper, less accurate sibling of DHT22, ubiquitous in beginner sensor projects. | imported | complete |
-| `DHT22` | Temperature/Humidity Sensor | Aosong | Tier 1 | One of the most common bare digital temp/humidity sensor chips in hobbyist weather/IoT projects. | imported | pending |
- | `NE555` | Timer IC | TI/Signetics/ST | Tier 1 | Merges NE555, LM555, '555 timer (NE555)', 'NE555/555 Timer' — appears ~10x across sources; the single most iconic hobbyist IC, used in oscillators/timers/PWM in a huge fraction of beginner projects. | imported | pending |
- | `CH340G` | USB-to-UART Bridge | WCH | Tier 1 | Ultra-cheap USB-serial chip found on nearly all budget Arduino clones/hobbyist programmer boards. | imported | pending |
+| `DHT22` | Temperature/Humidity Sensor | Aosong | Tier 1 | One of the most common bare digital temp/humidity sensor chips in hobbyist weather/IoT projects. | imported | complete |
+ | `NE555` | Timer IC | TI/Signetics/ST | Tier 1 | Merges NE555, LM555, '555 timer (NE555)', 'NE555/555 Timer' — appears ~10x across sources; the single most iconic hobbyist IC, used in oscillators/timers/PWM in a huge fraction of beginner projects. | imported | complete |
+ | `CH340G` | USB-to-UART Bridge | WCH | Tier 1 | Ultra-cheap USB-serial chip found on nearly all budget Arduino clones/hobbyist programmer boards. | imported | complete |
 | `HC-SR04` | Ultrasonic Distance Sensor Module | Generic/various | Tier 1 | Ubiquitous low-cost ultrasonic ranging sensor used in nearly every hobbyist robotics obstacle-avoidance project. | imported | complete |
- | `TLC5940` | 16-Channel PWM LED Driver | Texas Instruments | Tier 2 | 16-channel constant-current PWM LED driver widely used in Arduino LED matrix/cube projects. | imported | pending |
- | `APA102` | Addressable RGB LED (Integrated Driver) | Various (clone of original) | Tier 2 | Clocked SPI-based addressable LED ('DotStar') preferred over WS2812B for faster/more reliable timing. | imported | pending |
- | `SK6812` | Addressable RGB(W) LED (Integrated Driver) | Opsco Optoelectronics | Tier 2 | WS2812B-compatible RGBW variant popular in DIY LED strip/cosplay projects. | imported | pending |
- | `TL431` | Adjustable Precision Shunt Regulator | Texas Instruments | Tier 2 | Extremely common precision reference/regulator IC in power-supply feedback circuits. | imported | pending |
- | `CD4051` | Analog Multiplexer | TI/ON Semi/Renesas | Tier 2 | Appears multiple times; very popular for expanding analog inputs on microcontrollers. | imported | pending |
-| `TDA2030` | Audio Power Amplifier | STMicroelectronics | Tier 2 | Classic 14W audio amplifier chip widely used in DIY amp boards, appears twice. | imported | pending |
- | `BMP280` | Barometric Pressure Sensor | Bosch Sensortec | Tier 2 | Common bare I2C/SPI pressure/altitude sensor chip used in weather station and drone projects. | imported | pending |
- | `HC-05` | Bluetooth Serial Module | Generic (based on CSR BC417) | Tier 2 | Ubiquitous bare Bluetooth-to-serial module used in countless hobbyist wireless-control projects. | imported | pending |
-| `MT3608` | Boost Switching Regulator, 2A | Aerosemi/generic | Tier 2 | The most common cheap step-up module IC for 3.7V-to-5V hobby chargers. | imported | pending |
-| `XL6009` | Boost/Buck-boost Switching Regulator, 4A | XLSEMI | Tier 2 | Merges XL6009/XL6009E1; very common low-cost DC-DC module chip in hobbyist adjustable boost converters, appears twice. | imported | pending |
-| `MC34063A` | Buck/Boost/Inverting Converter | onsemi/Texas Instruments | Tier 2 | Merges MC34063/MC34063A; classic versatile switcher IC used across many DIY DC-DC converter circuits, appears multiple times. | imported | pending |
-| `74HC245` | Bus Transceiver | TI/Nexperia | Tier 2 | Octal bidirectional bus transceiver, very common for logic-level shifting/bus buffering. | imported | pending |
+ | `TLC5940` | 16-Channel PWM LED Driver | Texas Instruments | Tier 2 | 16-channel constant-current PWM LED driver widely used in Arduino LED matrix/cube projects. | imported | complete |
+ | `APA102` | Addressable RGB LED (Integrated Driver) | Various (clone of original) | Tier 2 | Clocked SPI-based addressable LED ('DotStar') preferred over WS2812B for faster/more reliable timing. | imported | complete |
+ | `SK6812` | Addressable RGB(W) LED (Integrated Driver) | Opsco Optoelectronics | Tier 2 | WS2812B-compatible RGBW variant popular in DIY LED strip/cosplay projects. | imported | complete |
+ | `TL431` | Adjustable Precision Shunt Regulator | Texas Instruments | Tier 2 | Extremely common precision reference/regulator IC in power-supply feedback circuits. | imported | complete |
+ | `CD4051` | Analog Multiplexer | TI/ON Semi/Renesas | Tier 2 | Appears multiple times; very popular for expanding analog inputs on microcontrollers. | imported | complete |
+| `TDA2030` | Audio Power Amplifier | STMicroelectronics | Tier 2 | Classic 14W audio amplifier chip widely used in DIY amp boards, appears twice. | imported | complete |
+ | `BMP280` | Barometric Pressure Sensor | Bosch Sensortec | Tier 2 | Common bare I2C/SPI pressure/altitude sensor chip used in weather station and drone projects. | imported | complete |
+ | `HC-05` | Bluetooth Serial Module | Generic (based on CSR BC417) | Tier 2 | Ubiquitous bare Bluetooth-to-serial module used in countless hobbyist wireless-control projects. | imported | complete |
+| `MT3608` | Boost Switching Regulator, 2A | Aerosemi/generic | Tier 2 | The most common cheap step-up module IC for 3.7V-to-5V hobby chargers. | imported | complete |
+| `XL6009` | Boost/Buck-boost Switching Regulator, 4A | XLSEMI | Tier 2 | Merges XL6009/XL6009E1; very common low-cost DC-DC module chip in hobbyist adjustable boost converters, appears twice. | imported | complete |
+| `MC34063A` | Buck/Boost/Inverting Converter | onsemi/Texas Instruments | Tier 2 | Merges MC34063/MC34063A; classic versatile switcher IC used across many DIY DC-DC converter circuits, appears multiple times. | imported | complete |
+| `74HC245` | Bus Transceiver | TI/Nexperia | Tier 2 | Octal bidirectional bus transceiver, very common for logic-level shifting/bus buffering. | imported | complete |
 | `ACS712` | Current Sensor IC | Allegro MicroSystems | Tier 2 | Widely used bare Hall-effect current-sensing chip in hobbyist power-monitoring projects. | imported | complete |
 | `INA219` | Current/Power Monitor IC | Texas Instruments | Tier 2 | Very popular current-sense breakout chip for Arduino/RPi power monitoring, appears twice. | imported | complete |
-| `74HC74` | D Flip-Flop | TI/Nexperia | Tier 2 | Dual D-type flip-flop, staple for latch/divider circuits. | imported | pending |
-| `ULN2803A` | Darlington Transistor Array | Texas Instruments | Tier 2 | Merges ULN2803/ULN2803A; 8-channel version of ULN2003, common for driving relays/solenoids/small motors. | imported | pending |
-| `CD4017` | Decade Counter | TI/ON Semi/Renesas | Tier 2 | Appears 4+ times across sources; iconic LED chaser/sequencer chip, one of the most recognizable CD4000 parts. | imported | pending |
-| `74HC138` | Decoder/Demux | TI/Nexperia | Tier 2 | 3-to-8 decoder, one of the most commonly cited 74HC parts for address decoding. | imported | pending |
-| `TDA2822` | Dual Audio Power Amplifier | STMicroelectronics | Tier 2 | Very common low-voltage stereo audio amp used in small speaker/headphone amps, appears twice. | imported | pending |
+| `74HC74` | D Flip-Flop | TI/Nexperia | Tier 2 | Dual D-type flip-flop, staple for latch/divider circuits. | imported | complete |
+| `ULN2803A` | Darlington Transistor Array | Texas Instruments | Tier 2 | Merges ULN2803/ULN2803A; 8-channel version of ULN2003, common for driving relays/solenoids/small motors. | imported | complete |
+| `CD4017` | Decade Counter | TI/ON Semi/Renesas | Tier 2 | Appears 4+ times across sources; iconic LED chaser/sequencer chip, one of the most recognizable CD4000 parts. | imported | complete |
+| `74HC138` | Decoder/Demux | TI/Nexperia | Tier 2 | 3-to-8 decoder, one of the most commonly cited 74HC parts for address decoding. | imported | complete |
+| `TDA2822` | Dual Audio Power Amplifier | STMicroelectronics | Tier 2 | Very common low-voltage stereo audio amp used in small speaker/headphone amps, appears twice. | imported | complete |
  | `LM393` | Dual Comparator | Texas Instruments | Tier 2 | Very common dual comparator for sensor threshold circuits; appears in multiple kits and sources. | imported | pending |
  | `DRV8833` | Dual H-Bridge Motor Driver | Texas Instruments | Tier 2 | Compact dual H-bridge for low-voltage DC/stepper motors, common in Pololu-style boards. | imported | pending |
-| `L9110S` | Dual H-Bridge Motor Driver | Generic/various | Tier 2 | Merges L9110S/L9110; cheap small dual-channel driver popular in mini robot car kits. | imported | pending |
+| `L9110S` | Dual H-Bridge Motor Driver | Generic/various | Tier 2 | Merges L9110S/L9110; cheap small dual-channel driver popular in mini robot car kits. | imported | complete |
 | `TB6612FNG` | Dual H-Bridge Motor Driver | Toshiba | Tier 2 | Efficient MOSFET-based dual motor driver favored over L298N for lower heat/higher efficiency. | imported | complete |
 | `TL072` | Dual JFET Op-amp | Texas Instruments | Tier 2 | Popular low-noise JFET dual op-amp favored for audio and general 9V+ projects. | imported | pending |
 | `NJM4558` | Dual Op-amp | New Japan Radio (NJR) | Tier 2 | Merges NJM4558/JRC4558; famous Tube Screamer-clone chip, appears in multiple kit listings. | imported | pending |
-| `NE556` | Dual Timer IC | TI/ST | Tier 2 | Dual 555 in one package; appears twice (multiple assortment kit listings) for two-stage timing needs. | imported | pending |
+| `NE556` | Dual Timer IC | TI/ST | Tier 2 | Dual 555 in one package; appears twice (multiple assortment kit listings) for two-stage timing needs. | imported | complete |
 | `LM7812` | Fixed 12V Linear Regulator | STMicroelectronics/TI | Tier 2 | Merges LM7812/L7812CV; 78xx family regulator commonly paired with 7805. | imported | pending |
 | `NEO-6M` | GPS Receiver Module | u-blox | Tier 2 | Extremely common bare GPS module chip used in hobbyist tracking/drone/navigation projects. | imported | complete |
 | `MCP23017` | I2C I/O Expander | Microchip | Tier 2 | Popular 16-bit I2C GPIO expander chip for extra digital I/O needs. | imported | complete |

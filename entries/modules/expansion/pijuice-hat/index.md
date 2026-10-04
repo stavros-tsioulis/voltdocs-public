@@ -20,6 +20,9 @@ Equipped with an onboard **STM32 microcontroller**, a **1820 mAh Motorola BP6X L
 
 ## Pinout (Raspberry Pi 40-Pin GPIO Header Connections)
 
+```pinout module
+```
+
 The PiJuice HAT plugs directly onto the Raspberry Pi 40-pin GPIO header:
 
 | Pin | Name | Description |

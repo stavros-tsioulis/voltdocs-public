@@ -22,6 +22,10 @@ By subtracting Channel 1 from Channel 0 in software, the sensor compensates for 
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 5-pin 0.1" (2.54 mm) breakout module header:
 
 | Pin | Name | Type | Description |

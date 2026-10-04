@@ -20,6 +20,10 @@ Capable of handling a **$40\text{V}$ collector-emitter breakdown voltage ($V_{CE
 
 ## Pinout (TO-92 Package)
 
+```pinout
+ic
+```
+
 Looking at the **flat face** of the TO-92 package with leads pointing downwards:
 
 ```

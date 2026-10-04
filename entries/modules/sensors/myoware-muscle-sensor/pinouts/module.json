@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "title": "MyoWare Muscle Sensor Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "+ / VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Power Supply Input (+2.9V to +5.7V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "- / GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SIG / OUT",
+        "type": "analog",
+        "direction": "output",
+        "description": "Rectified & Integrated Analog Muscle Envelope Voltage (0V to VCC)"
+      },
+      {
+        "designator": "4",
+        "name": "RAW",
+        "type": "analog",
+        "direction": "output",
+        "description": "Raw AC EMG Waveform Output (Centered at VCC/2)"
+      },
+      {
+        "designator": "5",
+        "name": "SHLD",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Reference Cable Shield Connection"
+      }
+    ]
+  }
+}

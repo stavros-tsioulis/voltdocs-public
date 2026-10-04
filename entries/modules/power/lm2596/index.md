@@ -19,6 +19,9 @@ Operating at a **$150\text{ kHz}$ switching frequency**, the LM2596 achieves pow
 
 ## Pinout (TO-263 5-Lead Package & Module Terminals)
 
+```pinout module
+```
+
 ```
         ┌──────────────────┐
         │   LM2596S-ADJ    │  (Front Package Face)

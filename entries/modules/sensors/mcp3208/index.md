@@ -18,6 +18,10 @@ Capable of sampling up to **100 kSPS** (kilosamples per second) at 5 V supply, t
 
 ## Pin Configuration (DIP-16 / SOIC-16 Package)
 
+```pinout
+module
+```
+
 ```
              ┌───┴───┐
        CH0 ──┤ 1   16├─ VDD

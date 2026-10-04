@@ -1,0 +1,43 @@
+{
+  "version": "1",
+  "title": "VL6180X Breakout Module Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "VIN",
+      "type": "power-in",
+      "description": "Supply power input (+3.3 V to +5.0 V DC)"
+    },
+    {
+      "number": 2,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 3,
+      "name": "SCL",
+      "type": "input",
+      "description": "I2C Serial Clock"
+    },
+    {
+      "number": 4,
+      "name": "SDA",
+      "type": "inout",
+      "description": "I2C Serial Data"
+    },
+    {
+      "number": 5,
+      "name": "GPIO0",
+      "type": "input",
+      "description": "Active-Low shutdown input"
+    },
+    {
+      "number": 6,
+      "name": "GPIO1",
+      "type": "output",
+      "description": "Active-Low programmable interrupt output"
+    }
+  ]
+}

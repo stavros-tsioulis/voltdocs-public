@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "title": "ADXL335 Breakout Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Module Power Input (+3.3V to +5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "X / XOUT",
+        "type": "analog",
+        "direction": "output",
+        "description": "X-Axis Acceleration Analog Voltage Output"
+      },
+      {
+        "designator": "4",
+        "name": "Y / YOUT",
+        "type": "analog",
+        "direction": "output",
+        "description": "Y-Axis Acceleration Analog Voltage Output"
+      },
+      {
+        "designator": "5",
+        "name": "Z / ZOUT",
+        "type": "analog",
+        "direction": "output",
+        "description": "Z-Axis Acceleration Analog Voltage Output"
+      }
+    ]
+  }
+}

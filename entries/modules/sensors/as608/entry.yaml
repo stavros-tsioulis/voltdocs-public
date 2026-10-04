@@ -33,6 +33,9 @@ highlights:
   - search_time_sec
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

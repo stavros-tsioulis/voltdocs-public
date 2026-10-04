@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "HC-SR505 PIR Motion Sensor Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Voltage Input (+4.5V to +20.0V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "OUT",
+        "type": "digital",
+        "direction": "output",
+        "description": "3.3V Active-High Digital Motion Signal Output"
+      },
+      {
+        "designator": "3",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      }
+    ]
+  }
+}

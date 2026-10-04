@@ -38,6 +38,9 @@ references:
     relation: companion-to
   - targetId: transistor.bjt.2sa1015
     relation: see-also
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

@@ -18,6 +18,10 @@ Driven via a single hardware PWM/DMA channel (**GPIO 18**), the Unicorn HAT prov
 
 ## Pinout (Raspberry Pi 40-Pin GPIO Header)
 
+```pinout
+module
+```
+
 The Unicorn HAT connects to the Raspberry Pi 40-pin header:
 
 | Pin | Name | Type | Description |

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "MAX4466 Microphone Amplifier Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Module Power Input (+2.4V to +5.5V DC; 3.3V recommended)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "OUT",
+        "type": "analog",
+        "direction": "output",
+        "description": "Analog AC Audio Voltage Output (Centered at VCC/2)"
+      }
+    ]
+  }
+}

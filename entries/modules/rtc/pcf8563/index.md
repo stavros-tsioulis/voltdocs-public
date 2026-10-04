@@ -19,6 +19,10 @@ Operating down to **$1.0\text{V}$ DC** with a backup supply current of just **$0
 
 ## Pinout (8-Pin SOIC & Module Header)
 
+```pinout
+module
+```
+
 ```
              ┌───┴───┐
          OSCI ─┤ 1   8├─ VDD

@@ -19,6 +19,10 @@ Designed for high-end optical performance, the IMX477 module incorporates an int
 
 ## Connector & Physical Features
 
+```pinout
+module
+```
+
 - **Interface Connector:** 15-pin 1.0 mm pitch FPC ribbon cable (standard Pi CSI connector).
 - **Mount Thread:** 1/4"-20 tripod mounting socket.
 - **Lens Mount:** CS-mount ($12.5\text{ mm}$ back-focal length); includes $6\text{ mm}$ C-mount adapter ring ($17.526\text{ mm}$ back-focal length).

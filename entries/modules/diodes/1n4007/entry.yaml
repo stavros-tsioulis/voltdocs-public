@@ -29,6 +29,8 @@ highlights:
   - reverse_leakage_current_ir_ua
   - interfaces
 body: index.md
+pinouts:
+  ic: pinouts/ic.json
 assets:
   - id: datasheet
     kind: datasheet

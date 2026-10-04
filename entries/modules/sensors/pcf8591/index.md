@@ -18,6 +18,10 @@ Standard blue PCB breakout modules bundle the PCF8591 alongside three onboard an
 
 ## Pinout
 
+```pinout
+module
+```
+
 Common 4-pin $I^2C$ + 4-pin Analog breakout header:
 
 | Pin | Name | Type | Description |

@@ -19,6 +19,9 @@ Consisting of a sealed IP68 waterproof transducer probe ($2.5\text{ meter}$ cabl
 
 ## Pinout
 
+```pinout module
+```
+
 Driver processing board 4-pin header:
 
 | Pin | Name | Type | Description |

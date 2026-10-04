@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "title": "RDA5807M FM Radio Receiver Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "SDA",
+        "type": "bus",
+        "direction": "bidirectional",
+        "description": "I2C Serial Data"
+      },
+      {
+        "designator": "2",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock"
+      },
+      {
+        "designator": "3",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "4",
+        "name": "NC",
+        "type": "other",
+        "direction": "passive",
+        "description": "No Connection"
+      },
+      {
+        "designator": "5",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Power Supply Input (+2.7V to +3.6V DC)"
+      },
+      {
+        "designator": "6",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "7",
+        "name": "ROUT",
+        "type": "analog",
+        "direction": "output",
+        "description": "Right Channel Audio Output (32Ω Headphone / Amp)"
+      },
+      {
+        "designator": "8",
+        "name": "LOUT",
+        "type": "analog",
+        "direction": "output",
+        "description": "Left Channel Audio Output (32Ω Headphone / Amp)"
+      },
+      {
+        "designator": "9",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Audio Ground Reference"
+      },
+      {
+        "designator": "10",
+        "name": "ANT",
+        "type": "analog",
+        "direction": "input",
+        "description": "FM Antenna Connection (75 cm Wire)"
+      }
+    ]
+  }
+}

@@ -29,6 +29,8 @@ highlights:
   - cathode_current_max_ma
   - dynamic_output_impedance_ohm
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

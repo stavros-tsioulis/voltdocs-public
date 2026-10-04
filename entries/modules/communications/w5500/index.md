@@ -19,6 +19,10 @@ Unlike MAC/PHY-only controllers (like the ENC28J60) that require microcontroller
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 10-pin 0.1" (2.54 mm) breakout module header:
 
 | Pin | Name | Type | Description |

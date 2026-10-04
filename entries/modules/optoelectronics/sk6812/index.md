@@ -18,6 +18,11 @@ Functionally and pin-compatible with the WS2812B, the SK6812 uses an asynchronou
 
 ## Polarity & pin configuration
 
+```pinout
+package
+```
+
+
 | Pin | Name | Function | Description |
 |---|---|---|---|
 | 1 | `VDD` | Power | Positive supply voltage (+5V DC) |

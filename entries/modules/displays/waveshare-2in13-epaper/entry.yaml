@@ -35,6 +35,9 @@ highlights:
   - partial_refresh_time_s
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

@@ -18,6 +18,11 @@ Most commonly sold as a tiny $36\text{ mm} \times 17\text{ mm}$ blue breakout mo
 
 ## Pinout & Module Terminals
 
+```pinout
+module
+```
+
+
 ### SOT23-6 Package IC
 
 ```

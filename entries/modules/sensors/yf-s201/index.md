@@ -19,6 +19,10 @@ Housed in a durable black nylon body with standard 1/2" male parallel threads ($
 
 ## Pinout
 
+```pinout
+module
+```
+
 3-wire color-coded 0.1" (2.54 mm) connector:
 
 | Lead | Cable Color | Name | Type | Description |

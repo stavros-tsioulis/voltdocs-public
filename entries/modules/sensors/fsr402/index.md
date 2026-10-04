@@ -19,6 +19,10 @@ Unpressed, the FSR 402 acts as an open circuit with a baseline resistance exceed
 
 ## Terminal Layout & Mechanical Geometry
 
+```pinout
+module
+```
+
 ```
        ┌───────────────────────┐
        │     (O) Active Area   │  [=== Pin 1

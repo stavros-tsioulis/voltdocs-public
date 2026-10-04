@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "title": "STM32F103C8T6 Blue Pill Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "3.3V",
+      "type": "power-out",
+      "description": "Regulated 3.3V power rail"
+    },
+    {
+      "number": 2,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 3,
+      "name": "PA13",
+      "type": "inout",
+      "description": "SWDIO Serial Wire Debug Data Input/Output"
+    },
+    {
+      "number": 4,
+      "name": "PA14",
+      "type": "input",
+      "description": "SWCLK Serial Wire Debug Clock Input"
+    }
+  ]
+}

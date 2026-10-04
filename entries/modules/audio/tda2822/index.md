@@ -19,6 +19,10 @@ The chip can be configured in two distinct modes:
 
 ## Pinout (TDA2822M DIP-8 / SOIC-8)
 
+```pinout ic
+ic: pinouts/ic.json
+```
+
 ```
              ┌───┴───┐
        OUT1 1│ 1   8 │ OUT2

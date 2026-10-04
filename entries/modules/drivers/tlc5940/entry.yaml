@@ -30,6 +30,8 @@ highlights:
   - output_current_per_channel_ma_max
   - pwm_resolution_bits
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

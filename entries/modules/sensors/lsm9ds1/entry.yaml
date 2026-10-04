@@ -37,6 +37,10 @@ highlights:
   - i2c_address_accel_gyro
   - i2c_address_mag
 body: index.md
+pinouts:
+  - id: module
+    title: Standard breakout header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "title": "TMP117 Temperature Sensor Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Voltage Input (+1.8V to +5.5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Clock Signal"
+      },
+      {
+        "designator": "4",
+        "name": "SDA",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Data Signal"
+      },
+      {
+        "designator": "5",
+        "name": "ADD0",
+        "type": "digital",
+        "direction": "input",
+        "description": "I2C Address Select Pin (GND=0x48, VCC=0x49, SDA=0x4A, SCL=0x4B)"
+      },
+      {
+        "designator": "6",
+        "name": "ALERT",
+        "type": "digital",
+        "direction": "output",
+        "description": "Programmable Active-High/Low Temperature Alert Output"
+      }
+    ]
+  }
+}

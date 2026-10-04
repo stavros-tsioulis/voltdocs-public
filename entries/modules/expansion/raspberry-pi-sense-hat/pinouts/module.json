@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "title": "Raspberry Pi Sense HAT Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "2",
+        "name": "5V Rail 1",
+        "type": "power",
+        "direction": "power-in",
+        "description": "5V Supply Rail Input from Pi Header (Pin 2)"
+      },
+      {
+        "designator": "4",
+        "name": "5V Rail 2",
+        "type": "power",
+        "direction": "power-in",
+        "description": "5V Supply Rail Input from Pi Header (Pin 4)"
+      },
+      {
+        "designator": "3",
+        "name": "SDA",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Serial Data Signal Line (GPIO 2, Pin 3)"
+      },
+      {
+        "designator": "5",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock Signal Line (GPIO 3, Pin 5)"
+      },
+      {
+        "designator": "6",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (Pin 6)"
+      }
+    ]
+  }
+}

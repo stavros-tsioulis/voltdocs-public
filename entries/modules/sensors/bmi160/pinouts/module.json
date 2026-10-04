@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "BMI160 6-Axis IMU Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Input (+3.3V to +5.0V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SCL / SCK",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock / SPI Clock Input"
+      },
+      {
+        "designator": "4",
+        "name": "SDA / SDI",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Data Line / SPI Serial Data Input"
+      },
+      {
+        "designator": "5",
+        "name": "SDO / ADDR",
+        "type": "digital",
+        "direction": "output",
+        "description": "SPI Serial Data Output / I2C Address Select (Low=0x68, High=0x69)"
+      },
+      {
+        "designator": "6",
+        "name": "CS",
+        "type": "digital",
+        "direction": "input",
+        "description": "SPI Chip Select (High=I2C Mode, Low=SPI Mode)"
+      },
+      {
+        "designator": "7",
+        "name": "INT1",
+        "type": "digital",
+        "direction": "output",
+        "description": "Interrupt Line 1 (Motion / Tap / Step Interrupt)"
+      },
+      {
+        "designator": "8",
+        "name": "INT2",
+        "type": "digital",
+        "direction": "output",
+        "description": "Interrupt Line 2 (Data Ready / FIFO Watermark)"
+      }
+    ]
+  }
+}

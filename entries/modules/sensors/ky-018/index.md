@@ -18,6 +18,10 @@ The module pairs the LDR in series with an onboard **$10\ \text{k}\Omega$ fixed 
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 3-pin 0.1" (2.54 mm) module header:
 
 ```

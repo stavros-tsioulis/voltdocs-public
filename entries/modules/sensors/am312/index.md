@@ -19,6 +19,10 @@ Consuming a standby current of just **$15\ \mu\text{A}$** and supporting a wide 
 
 ## Pinout
 
+```pinout
+module
+```
+
 3-pin 0.1" (2.54 mm) connector header:
 
 ```

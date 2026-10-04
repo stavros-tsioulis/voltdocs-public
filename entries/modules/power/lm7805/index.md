@@ -19,6 +19,9 @@ Capable of delivering continuous output currents of **$> 1.5\text{ Amperes}$** (
 
 ## Pinout (TO-220 Package)
 
+```pinout module
+```
+
 Looking at the **front labeled face** of the TO-220 package with metal tab at top and leads pointing down:
 
 ```

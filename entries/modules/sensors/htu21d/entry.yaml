@@ -39,6 +39,8 @@ highlights:
   - humidity_accuracy_pct
   - i2c_address_default
   - interfaces
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

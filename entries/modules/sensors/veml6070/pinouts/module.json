@@ -1,0 +1,37 @@
+{
+  "version": "1",
+  "title": "VEML6070 Breakout Module Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "VDD",
+      "type": "power-in",
+      "description": "Supply power input (+2.7 V to +5.5 V DC)"
+    },
+    {
+      "number": 2,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 3,
+      "name": "SCL",
+      "type": "input",
+      "description": "I2C Serial Clock"
+    },
+    {
+      "number": 4,
+      "name": "SDA",
+      "type": "inout",
+      "description": "I2C Serial Data"
+    },
+    {
+      "number": 5,
+      "name": "ACK",
+      "type": "output",
+      "description": "Active-Low threshold interrupt pin"
+    }
+  ]
+}

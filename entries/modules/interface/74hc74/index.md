@@ -17,6 +17,11 @@ Data on the $D$ input meeting setup time requirements is transferred to the $Q$ 
 
 ## Pinout (DIP-14 Package)
 
+```pinout
+ic
+```
+
+
 ```
              ┌───┴───┐
       1/CLR 1│ 1   14│ VCC

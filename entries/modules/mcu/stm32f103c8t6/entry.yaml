@@ -32,6 +32,8 @@ highlights:
   - operating_voltage_max_v
   - gpio_count
   - interfaces
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

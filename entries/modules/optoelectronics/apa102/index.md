@@ -17,6 +17,10 @@ Unlike the ubiquitous WS2812B (NeoPixel), which relies on a strict single-wire $
 
 ## Pinout & Connector
 
+```pinout
+module
+```
+
 APA102 LEDs are integrated on strips or matrices exposing a 4-wire interface:
 
 | Lead | Cable Color | Name | Type | Description |

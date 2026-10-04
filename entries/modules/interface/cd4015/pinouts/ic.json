@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "CLK2",
+      "type": "clock",
+      "direction": "input",
+      "description": "Pin CLK2"
+    },
+    {
+      "id": "2",
+      "name": "Q2D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin Q2D"
+    },
+    {
+      "id": "3",
+      "name": "Q2C",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin Q2C"
+    },
+    {
+      "id": "4",
+      "name": "Q2B",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin Q2B"
+    },
+    {
+      "id": "5",
+      "name": "Q2A",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin Q2A"
+    },
+    {
+      "id": "6",
+      "name": "RST2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RST2"
+    },
+    {
+      "id": "7",
+      "name": "D2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D2"
+    },
+    {
+      "id": "8",
+      "name": "VSS",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "9",
+      "name": "D1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D1"
+    },
+    {
+      "id": "10",
+      "name": "RST1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RST1"
+    },
+    {
+      "id": "11",
+      "name": "Q1A",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin Q1A"
+    },
+    {
+      "id": "12",
+      "name": "Q1B",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin Q1B"
+    },
+    {
+      "id": "13",
+      "name": "Q1C",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin Q1C"
+    },
+    {
+      "id": "14",
+      "name": "Q1D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin Q1D"
+    },
+    {
+      "id": "15",
+      "name": "CLK1",
+      "type": "clock",
+      "direction": "input",
+      "description": "Pin CLK1"
+    },
+    {
+      "id": "16",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

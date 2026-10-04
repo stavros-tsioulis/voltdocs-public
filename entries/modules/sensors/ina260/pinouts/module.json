@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "INA260 Power Monitor Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Logic Power Supply (+2.7V to +5.5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock"
+      },
+      {
+        "designator": "4",
+        "name": "SDA",
+        "type": "bus",
+        "direction": "bidirectional",
+        "description": "I2C Serial Data"
+      },
+      {
+        "designator": "5",
+        "name": "ALERT",
+        "type": "digital",
+        "direction": "output",
+        "description": "Open-Drain Programmable Alert / Interrupt Output"
+      },
+      {
+        "designator": "6",
+        "name": "VBUS",
+        "type": "analog",
+        "direction": "input",
+        "description": "Bus Voltage Sense Input (0V to 36V DC)"
+      },
+      {
+        "designator": "7",
+        "name": "IN+ / V+",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Positive Heavy Current Terminal (Input from Power Supply +)"
+      },
+      {
+        "designator": "8",
+        "name": "IN- / V-",
+        "type": "power",
+        "direction": "power-out",
+        "description": "Negative Heavy Current Terminal (Output to Load +)"
+      }
+    ]
+  }
+}

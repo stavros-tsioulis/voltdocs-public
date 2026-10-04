@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "title": "BL0940 SSOP-10 IC Pinout",
+  "layout": {
+    "package": "ic",
+    "left": [
+      {
+        "designator": "1",
+        "name": "VDD",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Core Power Supply (+3.3V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "IP",
+        "type": "analog",
+        "direction": "input",
+        "description": "Positive Current Sense Input (from Shunt Resistor)"
+      },
+      {
+        "designator": "3",
+        "name": "IN",
+        "type": "analog",
+        "direction": "input",
+        "description": "Negative Current Sense Input"
+      },
+      {
+        "designator": "4",
+        "name": "VP",
+        "type": "analog",
+        "direction": "input",
+        "description": "Positive Voltage Sense Input (from Resistor Divider)"
+      },
+      {
+        "designator": "5",
+        "name": "VN",
+        "type": "analog",
+        "direction": "input",
+        "description": "Negative Voltage Sense Input"
+      }
+    ],
+    "right": [
+      {
+        "designator": "10",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "9",
+        "name": "RX / Mode",
+        "type": "digital",
+        "direction": "input",
+        "description": "UART Receive Data Input (4,800 bps)"
+      },
+      {
+        "designator": "8",
+        "name": "TX",
+        "type": "digital",
+        "direction": "output",
+        "description": "UART Transmit Data Output (4,800 bps)"
+      },
+      {
+        "designator": "7",
+        "name": "CF / OverCurrent",
+        "type": "digital",
+        "direction": "output",
+        "description": "Pulse Frequency Output / Over-Current Alarm"
+      },
+      {
+        "designator": "6",
+        "name": "NC / Test",
+        "type": "other",
+        "direction": "passive",
+        "description": "No Connect / Factory Test Pin"
+      }
+    ]
+  }
+}

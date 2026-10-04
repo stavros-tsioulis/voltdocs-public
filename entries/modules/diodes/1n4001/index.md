@@ -19,6 +19,11 @@ Housed in a black plastic **DO-41 axial package** with a silver cathode band mar
 
 ## Pinout (Axial DO-41 Package)
 
+```pinout
+ic
+```
+
+
 ```
         (Anode) ───[ BLACK CYLINDER ]═══(Cathode Silver Band)───
                       1N4001

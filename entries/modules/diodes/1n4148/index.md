@@ -19,6 +19,11 @@ Rated for **100 V** peak reverse voltage and roughly **200 mA** continuous forwa
 
 ## Polarity
 
+```pinout
+ic
+```
+
+
 > [!INFO] The band on the glass body marks the **cathode** (−). Forward current flows anode → cathode when the anode is ~0.6–0.7 V above the cathode.
 
 ```

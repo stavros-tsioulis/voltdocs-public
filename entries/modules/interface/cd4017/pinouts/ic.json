@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../../schemas/pinout.ic.schema.json",
+  "title": "CD4017 DIP-16 Pinout",
+  "package": "DIP-16",
+  "pins": [
+    { "number": 1, "name": "Q5", "type": "output", "description": "Decoded output 5" },
+    { "number": 2, "name": "Q1", "type": "output", "description": "Decoded output 1" },
+    { "number": 3, "name": "Q0", "type": "output", "description": "Decoded output 0" },
+    { "number": 4, "name": "Q2", "type": "output", "description": "Decoded output 2" },
+    { "number": 5, "name": "Q6", "type": "output", "description": "Decoded output 6" },
+    { "number": 6, "name": "Q7", "type": "output", "description": "Decoded output 7" },
+    { "number": 7, "name": "Q3", "type": "output", "description": "Decoded output 3" },
+    { "number": 8, "name": "VSS", "type": "ground", "description": "Ground reference (0V)" },
+    { "number": 9, "name": "Q8", "type": "output", "description": "Decoded output 8" },
+    { "number": 10, "name": "Q4", "type": "output", "description": "Decoded output 4" },
+    { "number": 11, "name": "Q9", "type": "output", "description": "Decoded output 9" },
+    { "number": 12, "name": "CARRY OUT", "type": "output", "description": "Carry out output (divides clock by 10)" },
+    { "number": 13, "name": "CLOCK INHIBIT", "type": "input", "description": "Clock inhibit input (active high)" },
+    { "number": 14, "name": "CLOCK", "type": "input", "description": "Clock input (low-to-high active)" },
+    { "number": 15, "name": "RESET", "type": "input", "description": "Reset input (active high)" },
+    { "number": 16, "name": "VDD", "type": "power", "description": "Positive supply voltage (+3.0V to +18.0V)" }
+  ]
+}

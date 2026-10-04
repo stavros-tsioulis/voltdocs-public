@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "CLR'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CLR'"
+    },
+    {
+      "id": "2",
+      "name": "CLK",
+      "type": "clock",
+      "direction": "input",
+      "description": "Pin CLK"
+    },
+    {
+      "id": "3",
+      "name": "A",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin A"
+    },
+    {
+      "id": "4",
+      "name": "B",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin B"
+    },
+    {
+      "id": "5",
+      "name": "C",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin C"
+    },
+    {
+      "id": "6",
+      "name": "D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D"
+    },
+    {
+      "id": "7",
+      "name": "ENP",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin ENP"
+    },
+    {
+      "id": "8",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin GND"
+    },
+    {
+      "id": "9",
+      "name": "LOAD'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin LOAD'"
+    },
+    {
+      "id": "10",
+      "name": "ENT",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin ENT"
+    },
+    {
+      "id": "11",
+      "name": "QD",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin QD"
+    },
+    {
+      "id": "12",
+      "name": "QC",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin QC"
+    },
+    {
+      "id": "13",
+      "name": "QB",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin QB"
+    },
+    {
+      "id": "14",
+      "name": "QA",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin QA"
+    },
+    {
+      "id": "15",
+      "name": "RCO",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RCO"
+    },
+    {
+      "id": "16",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

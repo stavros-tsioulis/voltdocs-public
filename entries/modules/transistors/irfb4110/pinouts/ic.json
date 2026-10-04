@@ -1,0 +1,37 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "Gate",
+      "type": "other",
+      "direction": "input",
+      "description": "Gate"
+    },
+    {
+      "id": "2",
+      "name": "Drain",
+      "type": "other",
+      "direction": "passive",
+      "description": "Drain"
+    },
+    {
+      "id": "3",
+      "name": "Source",
+      "type": "other",
+      "direction": "passive",
+      "description": "Source"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  }
+}

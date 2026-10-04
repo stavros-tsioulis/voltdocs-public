@@ -29,6 +29,9 @@ highlights:
   - measurement_accuracy_pct
   - interfaces
 body: index.md
+pinouts:
+  ic: pinouts/ic.json
+
 assets:
   - id: datasheet
     kind: datasheet

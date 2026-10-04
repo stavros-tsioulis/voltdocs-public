@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "MAX31865 RTD Converter Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VIN",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Power Input (+3.3V to +5.0V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "3V3",
+        "type": "power",
+        "direction": "power-out",
+        "description": "Regulated 3.3V Power Output Pin"
+      },
+      {
+        "designator": "4",
+        "name": "SDO / MISO",
+        "type": "digital",
+        "direction": "output",
+        "description": "SPI Master Input Slave Output Pin"
+      },
+      {
+        "designator": "5",
+        "name": "SDI / MOSI",
+        "type": "digital",
+        "direction": "input",
+        "description": "SPI Master Output Slave Input Pin"
+      },
+      {
+        "designator": "6",
+        "name": "CS",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low SPI Chip Select Pin"
+      },
+      {
+        "designator": "7",
+        "name": "CLK / SCLK",
+        "type": "clock",
+        "direction": "input",
+        "description": "SPI Serial Clock Input"
+      },
+      {
+        "designator": "8",
+        "name": "RDY",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-Low Data Ready Interrupt Output"
+      }
+    ]
+  }
+}

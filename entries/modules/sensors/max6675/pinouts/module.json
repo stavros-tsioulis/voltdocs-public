@@ -1,0 +1,37 @@
+{
+  "version": "1",
+  "title": "MAX6675 Breakout Module Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Supply power input (+3.0 V to +5.5 V DC)"
+    },
+    {
+      "number": 2,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 3,
+      "name": "SO",
+      "type": "output",
+      "description": "SPI Serial Data Output"
+    },
+    {
+      "number": 4,
+      "name": "CS",
+      "type": "input",
+      "description": "Active-Low SPI Chip Select"
+    },
+    {
+      "number": 5,
+      "name": "SCK",
+      "type": "input",
+      "description": "SPI Serial Clock"
+    }
+  ]
+}

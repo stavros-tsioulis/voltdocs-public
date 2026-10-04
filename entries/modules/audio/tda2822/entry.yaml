@@ -27,6 +27,8 @@ highlights:
   - output_power_w_bridge
   - quiescent_current_ma
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

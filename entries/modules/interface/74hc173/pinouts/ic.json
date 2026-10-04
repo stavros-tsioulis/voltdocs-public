@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "M",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin M"
+    },
+    {
+      "id": "2",
+      "name": "N",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin N"
+    },
+    {
+      "id": "3",
+      "name": "1D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1D"
+    },
+    {
+      "id": "4",
+      "name": "2D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2D"
+    },
+    {
+      "id": "5",
+      "name": "3D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 3D"
+    },
+    {
+      "id": "6",
+      "name": "4D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 4D"
+    },
+    {
+      "id": "7",
+      "name": "CLK",
+      "type": "clock",
+      "direction": "input",
+      "description": "Pin CLK"
+    },
+    {
+      "id": "8",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin GND"
+    },
+    {
+      "id": "9",
+      "name": "CLR",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CLR"
+    },
+    {
+      "id": "10",
+      "name": "1E'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1E'"
+    },
+    {
+      "id": "11",
+      "name": "2E'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2E'"
+    },
+    {
+      "id": "12",
+      "name": "1Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 1Q"
+    },
+    {
+      "id": "13",
+      "name": "2Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 2Q"
+    },
+    {
+      "id": "14",
+      "name": "3Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 3Q"
+    },
+    {
+      "id": "15",
+      "name": "4Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 4Q"
+    },
+    {
+      "id": "16",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

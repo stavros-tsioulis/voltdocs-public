@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "title": "SK6812 5050 SMD Addressable LED Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "VDD",
+      "type": "power-in",
+      "description": "Positive supply voltage (+5V DC)"
+    },
+    {
+      "number": 2,
+      "name": "DOUT",
+      "type": "output",
+      "description": "Data Output (Cascaded to next pixel DIN)"
+    },
+    {
+      "number": 3,
+      "name": "VSS / GND",
+      "type": "power-in",
+      "description": "Ground connection (0 V)"
+    },
+    {
+      "number": 4,
+      "name": "DIN",
+      "type": "input",
+      "description": "Data Input (NRZ 800kbps control signal)"
+    }
+  ]
+}

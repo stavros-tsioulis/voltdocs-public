@@ -34,6 +34,9 @@ references:
   - targetId: analog.comparator.lm311
     relation: see-also
     comment: Fast comparator often paired in analog signal-conditioning front ends.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

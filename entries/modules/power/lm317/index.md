@@ -19,6 +19,9 @@ Requiring only two external resistors to set the output voltage, the LM317 featu
 
 ## Pinout (TO-220 Package)
 
+```pinout module
+```
+
 Looking at the **front labeled face** of the TO-220 package with metal tab at top and leads pointing down:
 
 ```

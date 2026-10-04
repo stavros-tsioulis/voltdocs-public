@@ -31,6 +31,8 @@ highlights:
   - dc_current_gain_hfe_max
   - transition_frequency_ft_mhz
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

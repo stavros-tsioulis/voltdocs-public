@@ -31,6 +31,9 @@ highlights:
   - dc_current_gain_hfe
   - total_power_dissipation_w
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

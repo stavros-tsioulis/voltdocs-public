@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "title": "APA102 Module / Strip Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Power (+5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "CKI / CI",
+        "type": "clock",
+        "direction": "input",
+        "description": "Serial Clock Input"
+      },
+      {
+        "designator": "3",
+        "name": "SDI / DI",
+        "type": "bus",
+        "direction": "input",
+        "description": "Serial Data Input"
+      },
+      {
+        "designator": "4",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      },
+      {
+        "designator": "5",
+        "name": "CKO / CO",
+        "type": "clock",
+        "direction": "output",
+        "description": "Serial Clock Output (to next LED)"
+      },
+      {
+        "designator": "6",
+        "name": "SDO / DO",
+        "type": "bus",
+        "direction": "output",
+        "description": "Serial Data Output (to next LED)"
+      }
+    ]
+  }
+}

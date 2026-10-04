@@ -18,6 +18,10 @@ Operating across a wide supply voltage range (**$4.5\text{V}$ to $20.0\text{V}$ 
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 3-pin 0.1" (2.54 mm) header:
 
 | Pin | Name | Type | Description |

@@ -19,6 +19,11 @@ Found bare on QFN-32 packages and packaged inside **ESP-01**, **ESP-12F**, **Nod
 
 ## Pinout (ESP-12F Module Form Factor)
 
+```pinout
+module
+```
+
+
 ```
                        ┌─────────────┐
                 [REST] │             │ [ADC  ] (A0 - 10-bit ADC)

@@ -19,6 +19,11 @@ Housed in either a metal **TO-18 can** or a plastic **TO-92 package** (often des
 
 ## Pinout (TO-92 vs TO-18 Package Comparison)
 
+```pinout
+ic
+```
+
+
 Looking at the **flat face** of the plastic TO-92 package with leads pointing down:
 
 ```

@@ -1,0 +1,175 @@
+{
+  "version": "1",
+  "title": "TLC5940 DIP-28 16-Channel PWM LED Driver Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "OUT0",
+      "type": "output",
+      "description": "Constant-current LED sink output 0"
+    },
+    {
+      "number": 2,
+      "name": "OUT1",
+      "type": "output",
+      "description": "Constant-current LED sink output 1"
+    },
+    {
+      "number": 3,
+      "name": "OUT2",
+      "type": "output",
+      "description": "Constant-current LED sink output 2"
+    },
+    {
+      "number": 4,
+      "name": "OUT3",
+      "type": "output",
+      "description": "Constant-current LED sink output 3"
+    },
+    {
+      "number": 5,
+      "name": "OUT4",
+      "type": "output",
+      "description": "Constant-current LED sink output 4"
+    },
+    {
+      "number": 6,
+      "name": "VPRG",
+      "type": "input",
+      "description": "Voltage Program Mode (LOW = Grayscale PWM, HIGH = Dot Correction)"
+    },
+    {
+      "number": 7,
+      "name": "SIN",
+      "type": "input",
+      "description": "Serial Data Input"
+    },
+    {
+      "number": 8,
+      "name": "SCLK",
+      "type": "input",
+      "description": "Serial Data Shift Clock"
+    },
+    {
+      "number": 9,
+      "name": "XLAT",
+      "type": "input",
+      "description": "Data Latch Signal (Rising edge latches shift register data)"
+    },
+    {
+      "number": 10,
+      "name": "BLANK",
+      "type": "input",
+      "description": "Blanking Signal (HIGH turns off outputs and resets GS counter)"
+    },
+    {
+      "number": 11,
+      "name": "GSRP",
+      "type": "input",
+      "description": "Grayscale Register Select Power"
+    },
+    {
+      "number": 12,
+      "name": "GSCLK",
+      "type": "input",
+      "description": "Grayscale Clock (Drives 12-bit internal PWM counter)"
+    },
+    {
+      "number": 13,
+      "name": "SOUT",
+      "type": "output",
+      "description": "Serial Data Output (For daisy-chaining to next TLC5940 SIN)"
+    },
+    {
+      "number": 14,
+      "name": "XERR",
+      "type": "output",
+      "description": "Thermal Error & LED Open Fault Output (Open-drain, Active LOW)"
+    },
+    {
+      "number": 15,
+      "name": "IEF",
+      "type": "output",
+      "description": "Reference Current Output (Connect RIREF resistor to GND)"
+    },
+    {
+      "number": 16,
+      "name": "OUT5",
+      "type": "output",
+      "description": "Constant-current LED sink output 5"
+    },
+    {
+      "number": 17,
+      "name": "OUT6",
+      "type": "output",
+      "description": "Constant-current LED sink output 6"
+    },
+    {
+      "number": 18,
+      "name": "OUT7",
+      "type": "output",
+      "description": "Constant-current LED sink output 7"
+    },
+    {
+      "number": 19,
+      "name": "OUT8",
+      "type": "output",
+      "description": "Constant-current LED sink output 8"
+    },
+    {
+      "number": 20,
+      "name": "OUT9",
+      "type": "output",
+      "description": "Constant-current LED sink output 9"
+    },
+    {
+      "number": 21,
+      "name": "OUT10",
+      "type": "output",
+      "description": "Constant-current LED sink output 10"
+    },
+    {
+      "number": 22,
+      "name": "OUT11",
+      "type": "output",
+      "description": "Constant-current LED sink output 11"
+    },
+    {
+      "number": 23,
+      "name": "OUT12",
+      "type": "output",
+      "description": "Constant-current LED sink output 12"
+    },
+    {
+      "number": 24,
+      "name": "OUT13",
+      "type": "output",
+      "description": "Constant-current LED sink output 13"
+    },
+    {
+      "number": 25,
+      "name": "OUT14",
+      "type": "output",
+      "description": "Constant-current LED sink output 14"
+    },
+    {
+      "number": 26,
+      "name": "OUT15",
+      "type": "output",
+      "description": "Constant-current LED sink output 15"
+    },
+    {
+      "number": 27,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground connection (0 V)"
+    },
+    {
+      "number": 28,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Logic power supply (+3.0V to +5.5V DC)"
+    }
+  ]
+}

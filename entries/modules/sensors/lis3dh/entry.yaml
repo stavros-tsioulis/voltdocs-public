@@ -34,6 +34,10 @@ highlights:
   - accel_full_scale_g
   - i2c_address_default
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 8-pin breakout header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

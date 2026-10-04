@@ -19,6 +19,11 @@ Designed to operate from either a **single supply ($3.0\text{V}$ to $32.0\text{V
 
 ## Pinout (DIP-14 Package)
 
+```pinout
+ic
+```
+
+
 ```
              ┌───┴───┐
       OUT 1 ─┤ 1  14 ├─ OUT 4

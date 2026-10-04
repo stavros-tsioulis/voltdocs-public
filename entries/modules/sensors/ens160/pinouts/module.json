@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "ENS160 Air Quality Sensor Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Input (+3.3V to +5.0V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SCL / SCLK",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock / SPI Clock Input"
+      },
+      {
+        "designator": "4",
+        "name": "SDA / MOSI",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Serial Data / SPI Data Input"
+      },
+      {
+        "designator": "5",
+        "name": "MISO",
+        "type": "digital",
+        "direction": "output",
+        "description": "SPI Data Output (in SPI mode)"
+      },
+      {
+        "designator": "6",
+        "name": "CS",
+        "type": "digital",
+        "direction": "input",
+        "description": "Chip Select (High=I2C Mode, Low=SPI Mode)"
+      },
+      {
+        "designator": "7",
+        "name": "ADDR",
+        "type": "digital",
+        "direction": "input",
+        "description": "I2C Address Select (High=0x53, Low=0x52)"
+      },
+      {
+        "designator": "8",
+        "name": "INT",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-Low Interrupt Output (Data Ready)"
+      }
+    ]
+  }
+}

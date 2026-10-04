@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "title": "OV2640 Camera Module 24-Pin FPC Connector Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC / DOVDD",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Digital I/O Supply (+2.8V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "Y2 / D0",
+        "type": "digital",
+        "direction": "output",
+        "description": "Parallel Data Bit 2 (DVP D0)"
+      },
+      {
+        "designator": "4",
+        "name": "Y3 / D1",
+        "type": "digital",
+        "direction": "output",
+        "description": "Parallel Data Bit 3 (DVP D1)"
+      },
+      {
+        "designator": "5",
+        "name": "Y4 / D2",
+        "type": "digital",
+        "direction": "output",
+        "description": "Parallel Data Bit 4 (DVP D2)"
+      },
+      {
+        "designator": "6",
+        "name": "Y5 / D3",
+        "type": "digital",
+        "direction": "output",
+        "description": "Parallel Data Bit 5 (DVP D3)"
+      },
+      {
+        "designator": "7",
+        "name": "Y6 / D4",
+        "type": "digital",
+        "direction": "output",
+        "description": "Parallel Data Bit 6 (DVP D4)"
+      },
+      {
+        "designator": "8",
+        "name": "Y7 / D5",
+        "type": "digital",
+        "direction": "output",
+        "description": "Parallel Data Bit 7 (DVP D5)"
+      },
+      {
+        "designator": "9",
+        "name": "Y8 / D6",
+        "type": "digital",
+        "direction": "output",
+        "description": "Parallel Data Bit 8 (DVP D6)"
+      },
+      {
+        "designator": "10",
+        "name": "Y9 / D7",
+        "type": "digital",
+        "direction": "output",
+        "description": "Parallel Data Bit 9 (DVP D7)"
+      },
+      {
+        "designator": "11",
+        "name": "PCLK",
+        "type": "clock",
+        "direction": "output",
+        "description": "Pixel Clock Output"
+      },
+      {
+        "designator": "12",
+        "name": "XCLK",
+        "type": "clock",
+        "direction": "input",
+        "description": "Master Clock Input (20 MHz)"
+      },
+      {
+        "designator": "13",
+        "name": "HREF",
+        "type": "digital",
+        "direction": "output",
+        "description": "Horizontal Reference Output"
+      },
+      {
+        "designator": "14",
+        "name": "VSYNC",
+        "type": "digital",
+        "direction": "output",
+        "description": "Vertical Sync / Frame Output"
+      },
+      {
+        "designator": "15",
+        "name": "RESET",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low Reset Input"
+      },
+      {
+        "designator": "16",
+        "name": "PWDN",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-High Power Down Input"
+      },
+      {
+        "designator": "17",
+        "name": "SIOC / SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "SCCB Control Clock (I2C SCL)"
+      },
+      {
+        "designator": "18",
+        "name": "SIOD / SDA",
+        "type": "bus",
+        "direction": "bidirectional",
+        "description": "SCCB Control Data (I2C SDA)"
+      },
+      {
+        "designator": "19",
+        "name": "AGND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Analog Ground"
+      },
+      {
+        "designator": "20",
+        "name": "AVDD",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Analog Core Power Supply (+2.8V DC)"
+      },
+      {
+        "designator": "21",
+        "name": "DVDD",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Digital Core Power Supply (+1.2V DC)"
+      },
+      {
+        "designator": "22",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      },
+      {
+        "designator": "23",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      },
+      {
+        "designator": "24",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      }
+    ]
+  }
+}

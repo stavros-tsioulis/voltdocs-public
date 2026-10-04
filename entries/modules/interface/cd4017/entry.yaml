@@ -25,6 +25,8 @@ highlights:
   - outputs_count
   - max_clock_frequency_mhz
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

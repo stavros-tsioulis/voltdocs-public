@@ -17,6 +17,11 @@ Widely adopted across open-source hardware, budget microcontroller development b
 
 ## Pin configuration
 
+```pinout
+ic
+```
+
+
 | Pin | Name | Type | Description |
 |---|---|---|---|
 | 1 | `GND` | Power | Ground connection (0 V) |

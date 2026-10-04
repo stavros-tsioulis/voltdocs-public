@@ -19,6 +19,9 @@ Operating on a **$2.5\text{V}$ to $5.5\text{V}$ DC supply** (ideal for $5\text{V
 
 ## Pinout (SOP-16 Package & Module Terminals)
 
+```pinout module
+```
+
 ```
         ┌──────────────────┐
         │     PAM8403      │  (SOP-16 Package)

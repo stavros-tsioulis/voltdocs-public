@@ -17,6 +17,11 @@ The chip incorporates short-circuit protection and an automatic thermal shutdown
 
 ## Pin configuration (Pentawatt Package)
 
+```pinout
+ic
+```
+
+
 ```
         ┌───┴───┐
       1 │  +IN  │ Non-inverting Input

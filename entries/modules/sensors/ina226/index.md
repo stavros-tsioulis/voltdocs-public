@@ -20,6 +20,10 @@ Surpassing the popular 12-bit INA219, the INA226 features 16-bit ADC resolution 
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout module header & heavy-current terminal block:
 
 | Pin | Name | Type | Description |

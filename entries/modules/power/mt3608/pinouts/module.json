@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "title": "MT3608 Boost Converter Module Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "VIN+",
+      "type": "power-in",
+      "description": "Positive DC power input (+2.0V to +24V DC)"
+    },
+    {
+      "number": 2,
+      "name": "VIN-",
+      "type": "power-in",
+      "description": "Negative DC input ground reference (0 V)"
+    },
+    {
+      "number": 3,
+      "name": "VOUT-",
+      "type": "power-out",
+      "description": "Negative DC output ground reference (0 V)"
+    },
+    {
+      "number": 4,
+      "name": "VOUT+",
+      "type": "power-out",
+      "description": "Adjustable stepped-up DC output (+2.0V to +28V DC)"
+    }
+  ]
+}

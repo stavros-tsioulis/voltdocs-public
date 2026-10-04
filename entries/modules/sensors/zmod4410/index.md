@@ -18,6 +18,10 @@ Designed for high resistance to siloxane contamination, the ZMOD4410 uses config
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout module header:
 
 | Pin | Name | Type | Description |

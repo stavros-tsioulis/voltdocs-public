@@ -20,6 +20,11 @@ Rated for a drain-source voltage ($V_{DSS}$) of **$55\text{ Volts}$** and contin
 
 ## Pinout (TO-220AB Package)
 
+```pinout
+ic
+```
+
+
 Looking at the **front labeled face** of the TO-220 package with metal tab at top and leads pointing down:
 
 ```

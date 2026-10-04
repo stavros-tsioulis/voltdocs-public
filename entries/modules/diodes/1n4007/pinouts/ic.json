@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "title": "1N4007 Rectifier Diode Pinout",
+  "layout": {
+    "package": "ic",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "Cathode (-)",
+        "type": "power",
+        "direction": "power-out",
+        "description": "Cathode Terminal (Marked with silver/white band on body)"
+      },
+      {
+        "designator": "2",
+        "name": "Anode (+)",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Anode Terminal (Plain black body end)"
+      }
+    ]
+  }
+}

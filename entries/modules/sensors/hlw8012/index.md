@@ -22,6 +22,10 @@ It is natively supported in ESPHome, Tasmota, and the Arduino `HLW8012` library.
 
 ## Pinout (SOP-8 Package)
 
+```pinout
+ic
+```
+
 ```
              ┌───┴───┐
           VDD ─┤ 1    8├─ GND

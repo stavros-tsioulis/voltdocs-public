@@ -1,0 +1,115 @@
+{
+  "version": "1",
+  "title": "ULN2803A DIP-18 8-Channel Darlington Driver Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "1B",
+      "type": "input",
+      "description": "Digital Input Channel 1 (5V TTL/CMOS compatible)"
+    },
+    {
+      "number": 2,
+      "name": "2B",
+      "type": "input",
+      "description": "Digital Input Channel 2"
+    },
+    {
+      "number": 3,
+      "name": "3B",
+      "type": "input",
+      "description": "Digital Input Channel 3"
+    },
+    {
+      "number": 4,
+      "name": "4B",
+      "type": "input",
+      "description": "Digital Input Channel 4"
+    },
+    {
+      "number": 5,
+      "name": "5B",
+      "type": "input",
+      "description": "Digital Input Channel 5"
+    },
+    {
+      "number": 6,
+      "name": "6B",
+      "type": "input",
+      "description": "Digital Input Channel 6"
+    },
+    {
+      "number": 7,
+      "name": "7B",
+      "type": "input",
+      "description": "Digital Input Channel 7"
+    },
+    {
+      "number": 8,
+      "name": "8B",
+      "type": "input",
+      "description": "Digital Input Channel 8"
+    },
+    {
+      "number": 9,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Common Emitter Ground Reference (0 V)"
+    },
+    {
+      "number": 10,
+      "name": "COM",
+      "type": "power-in",
+      "description": "Common Cathode Flyback Suppression Diode Terminal (Connect to load V+)"
+    },
+    {
+      "number": 11,
+      "name": "8C",
+      "type": "output",
+      "description": "Open-Collector Output Channel 8 (Sinks up to 500mA)"
+    },
+    {
+      "number": 12,
+      "name": "7C",
+      "type": "output",
+      "description": "Open-Collector Output Channel 7"
+    },
+    {
+      "number": 13,
+      "name": "6C",
+      "type": "output",
+      "description": "Open-Collector Output Channel 6"
+    },
+    {
+      "number": 14,
+      "name": "5C",
+      "type": "output",
+      "description": "Open-Collector Output Channel 5"
+    },
+    {
+      "number": 15,
+      "name": "4C",
+      "type": "output",
+      "description": "Open-Collector Output Channel 4"
+    },
+    {
+      "number": 16,
+      "name": "3C",
+      "type": "output",
+      "description": "Open-Collector Output Channel 3"
+    },
+    {
+      "number": 17,
+      "name": "2C",
+      "type": "output",
+      "description": "Open-Collector Output Channel 2"
+    },
+    {
+      "number": 18,
+      "name": "1C",
+      "type": "output",
+      "description": "Open-Collector Output Channel 1 (Sinks up to 500mA)"
+    }
+  ]
+}

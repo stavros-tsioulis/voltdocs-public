@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "SH/LD'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SH/LD'"
+    },
+    {
+      "id": "2",
+      "name": "CLK",
+      "type": "clock",
+      "direction": "input",
+      "description": "Pin CLK"
+    },
+    {
+      "id": "3",
+      "name": "E",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin E"
+    },
+    {
+      "id": "4",
+      "name": "F",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin F"
+    },
+    {
+      "id": "5",
+      "name": "G",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin G"
+    },
+    {
+      "id": "6",
+      "name": "H",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin H"
+    },
+    {
+      "id": "7",
+      "name": "QH'",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin QH'"
+    },
+    {
+      "id": "8",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin GND"
+    },
+    {
+      "id": "9",
+      "name": "QH",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin QH"
+    },
+    {
+      "id": "10",
+      "name": "SER",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SER"
+    },
+    {
+      "id": "11",
+      "name": "A",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin A"
+    },
+    {
+      "id": "12",
+      "name": "B",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin B"
+    },
+    {
+      "id": "13",
+      "name": "C",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin C"
+    },
+    {
+      "id": "14",
+      "name": "D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D"
+    },
+    {
+      "id": "15",
+      "name": "CLK INH",
+      "type": "clock",
+      "direction": "input",
+      "description": "Pin CLK INH"
+    },
+    {
+      "id": "16",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

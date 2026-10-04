@@ -18,6 +18,10 @@ The MyoWare module attaches directly to skin using standard biomedical snap elec
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout header pins and electrode snap connectors:
 
 | Pin | Name | Type | Description |

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "YF-S201 Water Flow Sensor Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Voltage Input (+4.5V to +18V DC, Red Lead)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V, Black Lead)"
+      },
+      {
+        "designator": "3",
+        "name": "SIGNAL",
+        "type": "digital",
+        "direction": "output",
+        "description": "Pulse Frequency Open-Collector Output (Yellow Lead)"
+      }
+    ]
+  }
+}

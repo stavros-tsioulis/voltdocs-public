@@ -1,0 +1,91 @@
+{
+  "version": "1",
+  "title": "74HC74 DIP-14 Dual D-Type Flip-Flop Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "1/CLR",
+      "type": "input",
+      "description": "Flip-Flop 1 Active-LOW Clear / Async Reset"
+    },
+    {
+      "number": 2,
+      "name": "1D",
+      "type": "input",
+      "description": "Flip-Flop 1 Data input"
+    },
+    {
+      "number": 3,
+      "name": "1CLK",
+      "type": "input",
+      "description": "Flip-Flop 1 Clock input (Low-to-High edge triggered)"
+    },
+    {
+      "number": 4,
+      "name": "1/PRE",
+      "type": "input",
+      "description": "Flip-Flop 1 Active-LOW Preset / Async Set"
+    },
+    {
+      "number": 5,
+      "name": "1Q",
+      "type": "output",
+      "description": "Flip-Flop 1 True output"
+    },
+    {
+      "number": 6,
+      "name": "1/Q",
+      "type": "output",
+      "description": "Flip-Flop 1 Inverted output"
+    },
+    {
+      "number": 7,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 8,
+      "name": "2/Q",
+      "type": "output",
+      "description": "Flip-Flop 2 Inverted output"
+    },
+    {
+      "number": 9,
+      "name": "2Q",
+      "type": "output",
+      "description": "Flip-Flop 2 True output"
+    },
+    {
+      "number": 10,
+      "name": "2/PRE",
+      "type": "input",
+      "description": "Flip-Flop 2 Active-LOW Preset / Async Set"
+    },
+    {
+      "number": 11,
+      "name": "2CLK",
+      "type": "input",
+      "description": "Flip-Flop 2 Clock input (Low-to-High edge triggered)"
+    },
+    {
+      "number": 12,
+      "name": "2D",
+      "type": "input",
+      "description": "Flip-Flop 2 Data input"
+    },
+    {
+      "number": 13,
+      "name": "2/CLR",
+      "type": "input",
+      "description": "Flip-Flop 2 Active-LOW Clear / Async Reset"
+    },
+    {
+      "number": 14,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Positive power supply (+2V to +6V DC)"
+    }
+  ]
+}

@@ -18,6 +18,9 @@ Under non-vibrating stationary conditions, the internal contact spring remains c
 
 ## Pinout
 
+```pinout module
+```
+
 Standard 3-pin 0.1" (2.54 mm) module header:
 
 ```

@@ -19,6 +19,11 @@ The constant-current outputs sink up to 120 mA per channel (for `VCC` > 3.6V) an
 
 ## Pin configuration
 
+```pinout
+ic
+```
+
+
 | Pin (DIP-28) | Name | Type | Description |
 |---|---|---|---|
 | 1–5 | `OUT0`–`OUT4` | Output | Constant-current LED sink outputs 0 through 4 |

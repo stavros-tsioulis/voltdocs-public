@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "title": "2N3906 TO-92 PNP Transistor Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "Emitter",
+      "type": "power-in",
+      "description": "Emitter terminal (Connect to +VCC positive power rail)"
+    },
+    {
+      "number": 2,
+      "name": "Base",
+      "type": "input",
+      "description": "Base control terminal (Pull LOW to turn ON, via series base resistor)"
+    },
+    {
+      "number": 3,
+      "name": "Collector",
+      "type": "output",
+      "description": "Collector terminal (High-side load output connection, max -200mA)"
+    }
+  ]
+}

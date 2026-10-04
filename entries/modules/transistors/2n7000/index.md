@@ -19,6 +19,11 @@ Designed for low-power signal switching, LED indicators, small relay coil driver
 
 ## Pinout (TO-92 Package)
 
+```pinout
+ic
+```
+
+
 Looking at the **flat face** of the TO-92 package with leads pointing down:
 
 ```

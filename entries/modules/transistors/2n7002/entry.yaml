@@ -31,6 +31,9 @@ highlights:
   - gate_threshold_voltage_vgs_th_max_v
   - rds_on_vgs_10v_ohm
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

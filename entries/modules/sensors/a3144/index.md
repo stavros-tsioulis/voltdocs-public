@@ -20,6 +20,10 @@ Operating as an active-low **unipolar switch**, the A3144 turns **ON** (pulling 
 
 ### TO-92 Package (Front Branded Face)
 
+```pinout
+ic
+```
+
 ```
         ┌─────────┐
         │  A3144  │
@@ -35,6 +39,10 @@ Operating as an active-low **unipolar switch**, the A3144 turns **ON** (pulling 
 | 3 | `OUT` | Open-Collector Output | Active-Low digital output pin |
 
 ### Breakout Module Header (3-Pin Header)
+
+```pinout
+module
+```
 
 | Pin | Name | Type | Description |
 |---|---|---|---|

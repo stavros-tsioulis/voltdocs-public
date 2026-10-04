@@ -19,6 +19,10 @@ Featuring an internal state machine that continually measures electrode capacita
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard breakout board / Raspberry Pi HAT header:
 
 | Pin | Name | Type | Description |

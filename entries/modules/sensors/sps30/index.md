@@ -20,6 +20,10 @@ Featuring Sensirion's patented **contamination-resistant technology** and an **a
 
 ## Pinout (5-Pin JST-ZH 1.5mm Pitch Connector)
 
+```pinout
+module
+```
+
 ```
         ┌─────────────────────────┐
         │  [Sensirion SPS30 Module]│

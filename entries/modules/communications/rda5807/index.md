@@ -20,6 +20,10 @@ Integrating a fully digital synthesizer, IF selectivity, digital automatic gain 
 
 ## Pinout (RRD-102 Module 10-Pin Header)
 
+```pinout
+module
+```
+
 ```
         ┌───────────────────┐
         │  [RDA5807M IC]   │

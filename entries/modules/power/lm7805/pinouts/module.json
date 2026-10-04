@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "title": "LM7805 Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "IN",
+      "type": "power-in",
+      "description": "Unregulated DC input voltage pin (+7.0V to +35V DC)"
+    },
+    {
+      "number": 2,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V, connected to heatsink tab)"
+    },
+    {
+      "number": 3,
+      "name": "OUT",
+      "type": "power-out",
+      "description": "Fixed regulated +5.0V DC output pin"
+    }
+  ]
+}

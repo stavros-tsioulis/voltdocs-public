@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "title": "SPS30 Particulate Matter Sensor Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VDD",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Input (+4.5V to +5.5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "SDA / RX",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Serial Data / UART Receive Input"
+      },
+      {
+        "designator": "3",
+        "name": "SCL / TX",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock / UART Transmit Output"
+      },
+      {
+        "designator": "4",
+        "name": "SEL",
+        "type": "digital",
+        "direction": "input",
+        "description": "Interface Select (GND = I2C mode, Floating/High = UART mode)"
+      },
+      {
+        "designator": "5",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      }
+    ]
+  }
+}

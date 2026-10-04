@@ -20,6 +20,10 @@ Optimized for higher current handling than standard small-signal BJTs (such as t
 
 ## Pinout (TO-92 Package)
 
+```pinout
+ic
+```
+
 Looking at the **flat printed face** of the TO-92 package with leads pointing downwards:
 
 ```

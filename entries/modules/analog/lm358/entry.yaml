@@ -32,6 +32,8 @@ highlights:
   - slew_rate_v_us
   - input_offset_voltage_mv
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

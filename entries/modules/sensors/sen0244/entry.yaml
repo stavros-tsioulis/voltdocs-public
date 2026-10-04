@@ -34,6 +34,8 @@ highlights:
   - tds_accuracy_pct
   - probe_waterproof
   - interfaces
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

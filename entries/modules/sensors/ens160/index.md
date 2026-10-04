@@ -25,6 +25,10 @@ It is widely deployed on SparkFun Qwiic, Adafruit STEMMA QT, and ESPHome environ
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout module header & STEMMA QT / Qwiic connectors:
 
 | Pin | Name | Type | Description |

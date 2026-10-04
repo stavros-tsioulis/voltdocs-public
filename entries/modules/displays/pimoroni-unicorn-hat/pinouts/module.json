@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "title": "Pimoroni Unicorn HAT Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "2",
+        "name": "5V (Pin 2)",
+        "type": "power",
+        "direction": "power-in",
+        "description": "+5V Power Supply Input Rail (Pi Header Pin 2)"
+      },
+      {
+        "designator": "4",
+        "name": "5V (Pin 4)",
+        "type": "power",
+        "direction": "power-in",
+        "description": "+5V Power Supply Input Rail (Pi Header Pin 4)"
+      },
+      {
+        "designator": "6",
+        "name": "GND (Pin 6)",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (Pi Header Pin 6)"
+      },
+      {
+        "designator": "12",
+        "name": "GPIO 18",
+        "type": "digital",
+        "direction": "input",
+        "description": "WS2812B 800kHz Serial Data Control Line (PWM0 Channel, Pi Header Pin 12)"
+      }
+    ]
+  }
+}

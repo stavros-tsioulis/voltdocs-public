@@ -19,6 +19,10 @@ Consuming as little as $2\ \mu\text{A}$ in low-power operating mode (and $11\ \m
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout modules feature an 8-pin 0.1" (2.54 mm) header:
 
 | Pin | Name | Type | Description |

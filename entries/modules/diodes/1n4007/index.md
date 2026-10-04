@@ -20,6 +20,10 @@ Rated for a maximum **peak repetitive reverse voltage ($V_{RRM}$) of $1000\text{
 
 ## Physical Structure & Polarity Identification
 
+```pinout
+ic
+```
+
 ```
              Cathode (-)                  Anode (+)
            (Silver Band) 

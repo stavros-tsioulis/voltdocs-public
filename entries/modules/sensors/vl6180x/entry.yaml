@@ -35,6 +35,8 @@ highlights:
   - ambient_light_range_lux
   - i2c_address_default
   - interfaces
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

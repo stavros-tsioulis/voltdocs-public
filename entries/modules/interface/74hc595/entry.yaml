@@ -28,6 +28,10 @@ highlights:
   - max_clock_frequency_mhz
   - interfaces
 body: index.md
+pinouts:
+  - id: module
+    title: DIP-16 package / module pinout
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

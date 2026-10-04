@@ -18,6 +18,10 @@ The module features internal optocouplers that provide **galvanic isolation** be
 
 ## Terminals & Connection Blocks
 
+```pinout
+module
+```
+
 ### High-Voltage Mains Terminals (Screw Terminal Block)
 
 | Pin | Signal | Description |

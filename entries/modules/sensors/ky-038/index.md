@@ -22,6 +22,10 @@ It is widely used in DIY clap-activated light switches, noise-activated alarms, 
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 4-pin 0.1" (2.54 mm) module header:
 
 | Pin | Name | Type | Description |

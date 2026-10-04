@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "KY-018 Photoresistor Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "AO / SIGNAL",
+        "type": "analog",
+        "direction": "output",
+        "description": "Analog Output Voltage (Voltage increases as ambient light level increases)"
+      },
+      {
+        "designator": "2",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Power Input (+3.3V to +5.5V DC)"
+      },
+      {
+        "designator": "3",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      }
+    ]
+  }
+}

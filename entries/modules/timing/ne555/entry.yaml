@@ -27,6 +27,8 @@ highlights:
   - output_current_ma
   - timing_range
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

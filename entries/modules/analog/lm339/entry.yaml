@@ -30,6 +30,9 @@ highlights:
   - response_time_us
   - input_offset_voltage_mv
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

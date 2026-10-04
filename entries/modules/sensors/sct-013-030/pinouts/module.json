@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "SCT-013-030 Current Clamp Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "Tip",
+        "type": "analog",
+        "direction": "output",
+        "description": "Secondary Coil AC Voltage Signal Output (+) (0V to 1V RMS)"
+      },
+      {
+        "designator": "2",
+        "name": "Sleeve",
+        "type": "analog",
+        "direction": "output",
+        "description": "Secondary Coil AC Voltage Reference Output (-)"
+      },
+      {
+        "designator": "3",
+        "name": "Ring",
+        "type": "nc",
+        "direction": "passive",
+        "description": "Unconnected / No Internal Connection"
+      }
+    ]
+  }
+}

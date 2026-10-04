@@ -1,0 +1,88 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 5.0,
+        "max": 5.5
+      },
+      "description": "Supply input (+3.3 V to +5.0 V DC)."
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "3",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "I2C Serial Clock line."
+    },
+    {
+      "id": "4",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "level": "3.3 V / 5 V logic",
+      "description": "I2C Serial Data line."
+    },
+    {
+      "id": "5",
+      "name": "INT",
+      "type": "digital",
+      "direction": "output",
+      "drive": "open-drain",
+      "description": "Active-LOW interrupt output (triggers on temperature threshold)."
+    },
+    {
+      "id": "6",
+      "name": "ADDR",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "I2C Address select pin (Low = 0x68, High = 0x69)."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "label": "AMG8833",
+    "minSize": {
+      "width": 8,
+      "height": 5
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "1": "5V",
+        "2": "GND",
+        "3": "SCL",
+        "4": "SDA"
+      }
+    }
+  ]
+}

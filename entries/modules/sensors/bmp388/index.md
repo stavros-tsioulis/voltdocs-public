@@ -20,6 +20,10 @@ Offering exceptional relative altitude accuracy of **$\pm 0.5\text{ meters}$** (
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout modules expose a 6-pin 0.1" (2.54 mm) header or Qwiic / STEMMA QT connector:
 
 | Pin | Name | Type | Description |

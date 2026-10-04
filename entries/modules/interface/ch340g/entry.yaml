@@ -29,6 +29,8 @@ highlights:
   - max_baud_rate_bps
   - crystal_frequency_mhz
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

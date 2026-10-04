@@ -19,6 +19,9 @@ Integrating a 12-bit Analog-to-Digital Converter (ADC), cold-junction compensati
 
 ## Pinout
 
+```pinout module
+```
+
 Breakout module 5-pin header & 2-pin screw terminal block:
 
 | Pin | Name | Type | Description |

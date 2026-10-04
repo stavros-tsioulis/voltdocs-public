@@ -18,6 +18,10 @@ Unbent (flat), the 2.2-inch sensor has a nominal baseline resistance of **$10\ \
 
 ## Terminal Layout & Physical Structure
 
+```pinout
+module
+```
+
 ```
        ┌──────────────────────────────────────────────┐  [=== Pin 1
        │  Spectra Symbol Flex Sensor 2.2" (Ink Facing) │  [=== Pin 2

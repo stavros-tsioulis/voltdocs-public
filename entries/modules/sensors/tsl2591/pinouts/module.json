@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "title": "TSL2591 Light Sensor Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VIN",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Input (+3.3V to +5.0V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Clock Signal"
+      },
+      {
+        "designator": "4",
+        "name": "SDA",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Data Signal"
+      },
+      {
+        "designator": "5",
+        "name": "INT",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-Low Programmable Interrupt Output"
+      }
+    ]
+  }
+}

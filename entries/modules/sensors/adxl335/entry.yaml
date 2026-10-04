@@ -31,6 +31,9 @@ highlights:
   - output_type
   - sensitivity_mv_g
 body: index.md
+pinouts:
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

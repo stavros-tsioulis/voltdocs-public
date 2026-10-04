@@ -1,0 +1,82 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 5.0,
+        "nominal": 5.0,
+        "max": 12.0
+      },
+      "description": "Supply voltage input (+5.0 V to +12.0 V DC)."
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "3",
+      "name": "OUT",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "level": "3.3 V logic",
+      "description": "Digital presence output (HIGH = presence detected, LOW = clear)."
+    },
+    {
+      "id": "4",
+      "name": "TX",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "level": "3.3 V logic",
+      "description": "UART Transmit data pin (3.3V logic, default 256,000 bps)."
+    },
+    {
+      "id": "5",
+      "name": "RX",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V logic",
+      "description": "UART Receive command pin (3.3V logic)."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "label": "LD2410",
+    "minSize": {
+      "width": 7,
+      "height": 5
+    }
+  },
+  "wiring": [
+    {
+      "id": "esp32",
+      "label": "ESP32",
+      "targetId": "board.esp32",
+      "pins": {
+        "1": "5V",
+        "2": "GND",
+        "3": "GPIO15",
+        "4": "GPIO16",
+        "5": "GPIO17"
+      }
+    }
+  ]
+}

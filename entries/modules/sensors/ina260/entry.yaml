@@ -34,6 +34,9 @@ highlights:
   - integrated_shunt_resistance_mohm
   - i2c_address_default
 body: index.md
+pinouts:
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

@@ -20,6 +20,9 @@ Unlike older fixed K-type converters (such as MAX6675 or MAX31855), the MAX31856
 
 ## Pinout (TSSOP-14 Package & Breakout Header)
 
+```pinout module
+```
+
 | Pin | Name | Type | Description |
 |---|---|---|---|
 | 1 | `VIN` | Power | Supply power input (+3.3 V to +5.0 V DC) |

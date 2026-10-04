@@ -28,6 +28,8 @@ highlights:
   - switch_current_a_max
   - switching_frequency_khz
   - reference_voltage_v
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "A3144 Hall Sensor Breakout Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC / +",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Module Power Input (+3.3V to +5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND / -",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "OUT / S",
+        "type": "digital",
+        "direction": "output",
+        "description": "Digital Signal Output (Low = South Pole Detected)"
+      }
+    ]
+  }
+}

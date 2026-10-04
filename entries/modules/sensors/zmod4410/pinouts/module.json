@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "title": "ZMOD4410 Breakout Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Module Power Input (+3.3V to +5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock"
+      },
+      {
+        "designator": "4",
+        "name": "SDA",
+        "type": "bus",
+        "direction": "bidirectional",
+        "description": "I2C Serial Data"
+      },
+      {
+        "designator": "5",
+        "name": "RESET",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low Reset Input"
+      },
+      {
+        "designator": "6",
+        "name": "INT",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-Low Interrupt Data-Ready Output"
+      }
+    ]
+  }
+}

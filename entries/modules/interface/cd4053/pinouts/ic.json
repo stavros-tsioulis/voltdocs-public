@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "Y1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Y1"
+    },
+    {
+      "id": "2",
+      "name": "Y0",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Y0"
+    },
+    {
+      "id": "3",
+      "name": "Z1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin Z1"
+    },
+    {
+      "id": "4",
+      "name": "Z0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin Z0"
+    },
+    {
+      "id": "5",
+      "name": "Z",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin Z"
+    },
+    {
+      "id": "6",
+      "name": "INH",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin INH"
+    },
+    {
+      "id": "7",
+      "name": "VEE",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin VEE"
+    },
+    {
+      "id": "8",
+      "name": "VSS",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "9",
+      "name": "C",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin C"
+    },
+    {
+      "id": "10",
+      "name": "B",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin B"
+    },
+    {
+      "id": "11",
+      "name": "A",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin A"
+    },
+    {
+      "id": "12",
+      "name": "X0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin X0"
+    },
+    {
+      "id": "13",
+      "name": "X1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin X1"
+    },
+    {
+      "id": "14",
+      "name": "X",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin X"
+    },
+    {
+      "id": "15",
+      "name": "Y",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Y"
+    },
+    {
+      "id": "16",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

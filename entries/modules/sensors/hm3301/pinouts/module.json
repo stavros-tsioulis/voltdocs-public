@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "title": "HM3301 Particulate Matter Sensor Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock Input (Yellow Wire)"
+      },
+      {
+        "designator": "2",
+        "name": "SDA",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Serial Data Line (White Wire)"
+      },
+      {
+        "designator": "3",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Input (+3.3V to +5.5V DC, Red Wire)"
+      },
+      {
+        "designator": "4",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V, Black Wire)"
+      }
+    ]
+  }
+}

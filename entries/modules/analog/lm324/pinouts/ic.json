@@ -1,0 +1,91 @@
+{
+  "version": "1",
+  "title": "LM324 DIP-14 Quad Op-Amp Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "OUT 1",
+      "type": "output",
+      "description": "Op-Amp Channel 1 Output"
+    },
+    {
+      "number": 2,
+      "name": "-IN 1",
+      "type": "input",
+      "description": "Op-Amp Channel 1 Inverting Input"
+    },
+    {
+      "number": 3,
+      "name": "+IN 1",
+      "type": "input",
+      "description": "Op-Amp Channel 1 Non-Inverting Input"
+    },
+    {
+      "number": 4,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Positive power supply (+3.0V to +32V DC)"
+    },
+    {
+      "number": 5,
+      "name": "+IN 2",
+      "type": "input",
+      "description": "Op-Amp Channel 2 Non-Inverting Input"
+    },
+    {
+      "number": 6,
+      "name": "-IN 2",
+      "type": "input",
+      "description": "Op-Amp Channel 2 Inverting Input"
+    },
+    {
+      "number": 7,
+      "name": "OUT 2",
+      "type": "output",
+      "description": "Op-Amp Channel 2 Output"
+    },
+    {
+      "number": 8,
+      "name": "OUT 3",
+      "type": "output",
+      "description": "Op-Amp Channel 3 Output"
+    },
+    {
+      "number": 9,
+      "name": "-IN 3",
+      "type": "input",
+      "description": "Op-Amp Channel 3 Inverting Input"
+    },
+    {
+      "number": 10,
+      "name": "+IN 3",
+      "type": "input",
+      "description": "Op-Amp Channel 3 Non-Inverting Input"
+    },
+    {
+      "number": 11,
+      "name": "GND / -VCC",
+      "type": "power-in",
+      "description": "Ground reference (0V) or negative supply (-VCC)"
+    },
+    {
+      "number": 12,
+      "name": "+IN 4",
+      "type": "input",
+      "description": "Op-Amp Channel 4 Non-Inverting Input"
+    },
+    {
+      "number": 13,
+      "name": "-IN 4",
+      "type": "input",
+      "description": "Op-Amp Channel 4 Inverting Input"
+    },
+    {
+      "number": 14,
+      "name": "OUT 4",
+      "type": "output",
+      "description": "Op-Amp Channel 4 Output"
+    }
+  ]
+}

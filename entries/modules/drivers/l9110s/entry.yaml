@@ -27,6 +27,8 @@ highlights:
   - peak_output_current_a
   - channels
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

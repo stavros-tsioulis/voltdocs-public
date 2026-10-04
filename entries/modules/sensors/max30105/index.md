@@ -20,6 +20,10 @@ While similar to biometrics-only chips like the MAX30102, the MAX30105 includes 
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout module header & Qwiic / STEMMA QT connectors:
 
 | Pin | Name | Type | Description |

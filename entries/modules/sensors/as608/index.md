@@ -19,6 +19,10 @@ Storing up to **300 fingerprint templates** in its internal flash memory, the AS
 
 ## Pinout
 
+```pinout
+module
+```
+
 The module exposes a 6-pin 1.27 mm or 2.0 mm pitch cable connector:
 
 | Pin | Cable Color | Name | Type | Description |

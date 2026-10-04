@@ -19,6 +19,10 @@ Utilizing Semtech's patented **LoRa (Long Range)** chirp spread spectrum (CSS) m
 
 ## Pinout (AI-Thinker Ra-02 Module Header)
 
+```pinout
+module
+```
+
 ```
              ┌───────────┐
          GND ─┤ 1      16├─ GND

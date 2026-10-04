@@ -31,6 +31,8 @@ highlights:
   - color_depth_bits
   - data_transfer_rate_kbps
   - interfaces
+pinouts:
+  package: pinouts/package.json
 body: index.md
 assets:
   - id: datasheet

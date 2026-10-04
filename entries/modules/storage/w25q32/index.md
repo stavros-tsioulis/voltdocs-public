@@ -20,6 +20,10 @@ Supporting Standard SPI, Dual-SPI, and Quad-SPI at clock frequencies up to **104
 
 ## Pinout (8-Pin SOIC Package & Module Header)
 
+```pinout
+module
+```
+
 ```
              ┌───┴───┐
          /CS ─┤ 1   8├─ VCC

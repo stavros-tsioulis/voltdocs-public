@@ -21,6 +21,9 @@ Featuring a **940 nm VCSEL (Vertical Cavity Surface Emitting Laser)** class-1 em
 
 ## Pinout
 
+```pinout module
+```
+
 Breakout module header & Qwiic / STEMMA QT connectors:
 
 | Pin | Name | Type | Description |

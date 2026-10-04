@@ -1,0 +1,37 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "Emitter",
+      "type": "other",
+      "direction": "passive",
+      "description": "Emitter"
+    },
+    {
+      "id": "2",
+      "name": "Base",
+      "type": "other",
+      "direction": "input",
+      "description": "Base"
+    },
+    {
+      "id": "3",
+      "name": "Collector",
+      "type": "other",
+      "direction": "passive",
+      "description": "Collector"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  }
+}

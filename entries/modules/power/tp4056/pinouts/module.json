@@ -1,0 +1,43 @@
+{
+  "version": "1",
+  "title": "TP4056 Breakout Module Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "IN+",
+      "type": "power-in",
+      "description": "Positive 5.0V DC power input from USB"
+    },
+    {
+      "number": 2,
+      "name": "IN-",
+      "type": "power-in",
+      "description": "Input power ground reference (0 V)"
+    },
+    {
+      "number": 3,
+      "name": "BAT+",
+      "type": "power-out",
+      "description": "Connects to positive lead of 3.7V Li-Ion / LiPo battery"
+    },
+    {
+      "number": 4,
+      "name": "BAT-",
+      "type": "power-out",
+      "description": "Connects to negative lead of battery (via DW01A protection)"
+    },
+    {
+      "number": 5,
+      "name": "OUT+",
+      "type": "power-out",
+      "description": "Regulated load output (+)"
+    },
+    {
+      "number": 6,
+      "name": "OUT-",
+      "type": "power-out",
+      "description": "Regulated load output ground (-)"
+    }
+  ]
+}

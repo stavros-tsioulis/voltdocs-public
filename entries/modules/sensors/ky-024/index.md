@@ -22,6 +22,10 @@ It is widely used for measuring motor shaft RPM, detecting magnet proximity, sen
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 4-pin 0.1" (2.54 mm) breakout module header:
 
 | Pin | Name | Type | Description |

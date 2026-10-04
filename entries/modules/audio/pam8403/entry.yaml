@@ -30,6 +30,8 @@ highlights:
   - efficiency_pct
   - speaker_impedance_ohm
   - interfaces
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

@@ -19,6 +19,9 @@ Operating on a standard $5.0\text{V}$ USB power supply, the TP4056 implements a 
 
 ## Pinout (SOP-8 Package & Module Terminals)
 
+```pinout module
+```
+
 ```
              ┌───┴───┐
         TEMP ─┤ 1   8 ├─ VCC

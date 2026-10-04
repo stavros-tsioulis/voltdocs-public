@@ -19,6 +19,9 @@ Housed in a compact $2.35 \times 1.8\text{ mm}$ OPLGA package, the VEML6070 inte
 
 ## Pinout
 
+```pinout module
+```
+
 Breakout module 5-pin header:
 
 | Pin | Name | Type | Description |

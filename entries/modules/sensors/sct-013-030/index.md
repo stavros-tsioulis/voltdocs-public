@@ -19,6 +19,10 @@ Equipped with an internal **$62\ \Omega$ burden resistor**, the SCT-013-030 outp
 
 ## Connector Wiring & 3.5mm Jack Pinout
 
+```pinout
+module
+```
+
 ```
              ┌────────────────────────────────┐
              │ Tip: AC Voltage Signal (+)     │

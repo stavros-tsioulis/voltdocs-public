@@ -20,6 +20,11 @@ Despite its tiny footprint, the ATtiny85 features **$8\text{ KB}$ of Flash memor
 
 ## Pinout (DIP-8 Package)
 
+```pinout
+ic
+```
+
+
 ```
                        ┌───┴───┐
      (PCINT5/RESET) PB5 ─┤ 1   8 ├─ VCC (+2.7V to +5.5V)

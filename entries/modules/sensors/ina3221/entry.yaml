@@ -36,6 +36,8 @@ highlights:
   - max_current_per_channel_a
   - i2c_address_default
   - interfaces
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

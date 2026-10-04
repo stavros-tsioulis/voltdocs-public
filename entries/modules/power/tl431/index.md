@@ -18,6 +18,11 @@ With a low typical dynamic output impedance of 0.2 Ω and a sharp turn-on charac
 
 ## Pin configuration
 
+```pinout
+ic
+```
+
+
 | Pin (TO-92) | Name | Type | Description |
 |---|---|---|---|
 | 1 | `REF` | Input | Voltage Reference Input pin (2.495V feedback threshold) |

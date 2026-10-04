@@ -19,6 +19,10 @@ Housed in a compact 16-pin $3 \times 3\text{ mm}$ LGA package, the L3GD20H incor
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout modules expose an 8-pin or 9-pin 0.1" (2.54 mm) header:
 
 | Pin | Name | Type | Description |

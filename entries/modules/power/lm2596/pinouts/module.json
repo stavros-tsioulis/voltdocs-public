@@ -1,0 +1,37 @@
+{
+  "version": "1",
+  "title": "LM2596 Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "VIN",
+      "type": "power-in",
+      "description": "Unregulated DC power input pin (+4.5 V to +40 V DC)"
+    },
+    {
+      "number": 2,
+      "name": "SW",
+      "type": "output",
+      "description": "Internal NPN switch output (Connects to Schottky diode & 33µH inductor)"
+    },
+    {
+      "number": 3,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 4,
+      "name": "FB",
+      "type": "input",
+      "description": "Voltage feedback sensing pin (1.23V reference)"
+    },
+    {
+      "number": 5,
+      "name": "ON/OFF",
+      "type": "input",
+      "description": "Logic control input (Connect to GND for ON, High for OFF)"
+    }
+  ]
+}

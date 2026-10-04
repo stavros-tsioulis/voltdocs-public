@@ -38,6 +38,9 @@ references:
     relation: variant-of
   - targetId: transistor.mosfet.irlz44n
     relation: see-also
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

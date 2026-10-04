@@ -39,6 +39,9 @@ references:
     relation: see-also
   - targetId: transistor.bjt.tip31c
     relation: see-also
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

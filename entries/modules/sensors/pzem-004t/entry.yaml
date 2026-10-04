@@ -30,6 +30,10 @@ highlights:
   - measurement_accuracy_pct
   - baud_rate_bps
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 4-pin TTL UART header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

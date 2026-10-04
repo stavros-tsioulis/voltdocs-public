@@ -1,0 +1,109 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 3.3,
+        "nominal": 5.0,
+        "max": 5.5
+      },
+      "description": "Supply input (+3.3 V to +5.0 V DC)."
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "3",
+      "name": "SCL / SPC",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "I2C Serial Clock / SPI Clock line."
+    },
+    {
+      "id": "4",
+      "name": "SDA / SDI",
+      "type": "bus",
+      "direction": "bidirectional",
+      "level": "3.3 V / 5 V logic",
+      "description": "I2C Serial Data / SPI Serial Data Input line."
+    },
+    {
+      "id": "5",
+      "name": "SDO / SA0",
+      "type": "digital",
+      "direction": "output",
+      "drive": "tri-state",
+      "level": "3.3 V logic",
+      "description": "SPI Serial Data Out / I2C Address Bit 0 (High = 0x6B, Low = 0x6A)."
+    },
+    {
+      "id": "6",
+      "name": "CS",
+      "type": "bus",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "SPI Chip Select (High = I2C mode, Low = SPI mode)."
+    },
+    {
+      "id": "7",
+      "name": "INT1",
+      "type": "digital",
+      "direction": "output",
+      "drive": "open-drain",
+      "description": "Programmable Interrupt Line 1 (data ready / threshold trigger)."
+    },
+    {
+      "id": "8",
+      "name": "INT2 / DRDY",
+      "type": "digital",
+      "direction": "output",
+      "drive": "open-drain",
+      "description": "Interrupt Line 2 / Data Ready signal."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "label": "L3GD20H",
+    "minSize": {
+      "width": 10,
+      "height": 5
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "1": "5V",
+        "2": "GND",
+        "3": "SCL",
+        "4": "SDA",
+        "5": "5V",
+        "6": "5V"
+      }
+    }
+  ]
+}

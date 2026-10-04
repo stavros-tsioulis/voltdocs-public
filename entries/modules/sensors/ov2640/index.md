@@ -19,6 +19,10 @@ By compressing raw image frames into lightweight JPEG byte streams directly insi
 
 ## Pinout (24-Pin FPC Flex Connector)
 
+```pinout
+module
+```
+
 | Pin | Name | Type | Description |
 |---|---|---|---|
 | 1 | `VCC` / `DOVDD` | Power | Digital I/O supply (+2.8 V DC) |

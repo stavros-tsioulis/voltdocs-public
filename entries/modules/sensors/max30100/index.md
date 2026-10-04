@@ -20,6 +20,10 @@ Housed in a tiny 14-pin optical package, the MAX30100 combines two internal LEDs
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 5-pin breakout module header:
 
 | Pin | Name | Type | Description |

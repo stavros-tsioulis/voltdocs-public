@@ -1,0 +1,103 @@
+{
+  "version": "1",
+  "title": "ULN2003A DIP-16 IC Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "IN1",
+      "type": "input",
+      "description": "Channel 1 input control pin"
+    },
+    {
+      "number": 2,
+      "name": "IN2",
+      "type": "input",
+      "description": "Channel 2 input control pin"
+    },
+    {
+      "number": 3,
+      "name": "IN3",
+      "type": "input",
+      "description": "Channel 3 input control pin"
+    },
+    {
+      "number": 4,
+      "name": "IN4",
+      "type": "input",
+      "description": "Channel 4 input control pin"
+    },
+    {
+      "number": 5,
+      "name": "IN5",
+      "type": "input",
+      "description": "Channel 5 input control pin"
+    },
+    {
+      "number": 6,
+      "name": "IN6",
+      "type": "input",
+      "description": "Channel 6 input control pin"
+    },
+    {
+      "number": 7,
+      "name": "IN7",
+      "type": "input",
+      "description": "Channel 7 input control pin"
+    },
+    {
+      "number": 8,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Common ground reference (0 V)"
+    },
+    {
+      "number": 9,
+      "name": "COM",
+      "type": "power-in",
+      "description": "Common cathode clamp diode connection (Connect to +VLOAD)"
+    },
+    {
+      "number": 10,
+      "name": "OUT7",
+      "type": "output",
+      "description": "Open-collector output channel 7"
+    },
+    {
+      "number": 11,
+      "name": "OUT6",
+      "type": "output",
+      "description": "Open-collector output channel 6"
+    },
+    {
+      "number": 12,
+      "name": "OUT5",
+      "type": "output",
+      "description": "Open-collector output channel 5"
+    },
+    {
+      "number": 13,
+      "name": "OUT4",
+      "type": "output",
+      "description": "Open-collector output channel 4"
+    },
+    {
+      "number": 14,
+      "name": "OUT3",
+      "type": "output",
+      "description": "Open-collector output channel 3"
+    },
+    {
+      "number": 15,
+      "name": "OUT2",
+      "type": "output",
+      "description": "Open-collector output channel 2"
+    },
+    {
+      "number": 16,
+      "name": "OUT1",
+      "type": "output",
+      "description": "Open-collector output channel 1"
+    }
+  ]
+}

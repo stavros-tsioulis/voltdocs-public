@@ -41,6 +41,9 @@ references:
   - targetId: passive.capacitor.100nf-ceramic
     relation: companion-to
     comment: Ubiquitous companion for high-frequency ceramic decoupling alongside the 10µF local reservoir.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: product-page

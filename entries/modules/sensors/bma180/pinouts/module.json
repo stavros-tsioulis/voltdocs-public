@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "BMA180 Breakout Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Module Power Input (+3.3V to +5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SCK / SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock / SPI Clock"
+      },
+      {
+        "designator": "4",
+        "name": "SDO / ADDR",
+        "type": "digital",
+        "direction": "output",
+        "description": "SPI Data Output / I2C Address Select (Low = 0x40, High = 0x41)"
+      },
+      {
+        "designator": "5",
+        "name": "SDI / SDA",
+        "type": "bus",
+        "direction": "bidirectional",
+        "description": "I2C Serial Data / SPI Serial Data Input"
+      },
+      {
+        "designator": "6",
+        "name": "CS",
+        "type": "digital",
+        "direction": "input",
+        "description": "SPI Chip Select (High = I2C mode, Low = SPI mode)"
+      },
+      {
+        "designator": "7",
+        "name": "INT / INT1",
+        "type": "digital",
+        "direction": "output",
+        "description": "Programmable Interrupt Output"
+      },
+      {
+        "designator": "8",
+        "name": "VIO",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Logic Reference Voltage (1.62V to 3.6V)"
+      }
+    ]
+  }
+}

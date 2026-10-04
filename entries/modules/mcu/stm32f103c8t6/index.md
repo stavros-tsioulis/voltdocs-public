@@ -20,6 +20,11 @@ Equipped with **$64\text{ KB}$ of Flash memory** (frequently $128\text{ KB}$ in 
 
 ## Pinout (Blue Pill Development Board Header)
 
+```pinout
+module
+```
+
+
 ```
                        ┌─────────────┐
                  [GND] │             │ [GND]

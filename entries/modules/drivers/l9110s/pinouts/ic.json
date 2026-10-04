@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../../schemas/pinout.ic.schema.json",
+  "title": "L9110S SOP-8 Pinout",
+  "package": "SOP-8",
+  "pins": [
+    { "number": 1, "name": "OA", "type": "output", "description": "Output terminal A (motor lead 1)" },
+    { "number": 2, "name": "VCC", "type": "power", "description": "Power supply input (+2.5V to +12V)" },
+    { "number": 3, "name": "OB", "type": "output", "description": "Output terminal B (motor lead 2)" },
+    { "number": 4, "name": "GND", "type": "ground", "description": "Ground reference (0V)" },
+    { "number": 5, "name": "NC", "type": "n/c", "description": "Not connected" },
+    { "number": 6, "name": "IB", "type": "input", "description": "Control logic input B" },
+    { "number": 7, "name": "IA", "type": "input", "description": "Control logic input A" },
+    { "number": 8, "name": "NC", "type": "n/c", "description": "Not connected" }
+  ]
+}

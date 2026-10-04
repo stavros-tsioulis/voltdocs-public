@@ -30,6 +30,10 @@ highlights:
   - detection_distance_m_max
   - baud_rate_bps
 body: index.md
+pinouts:
+  - id: module
+    title: Standard 5-pin header
+    path: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

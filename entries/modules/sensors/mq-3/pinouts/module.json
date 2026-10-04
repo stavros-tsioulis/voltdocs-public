@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "title": "MQ-3 Alcohol Sensor Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Module Power Input (+5V DC Required)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "DO",
+        "type": "digital",
+        "direction": "output",
+        "description": "Digital Output (LM393 Threshold Comparator)"
+      },
+      {
+        "designator": "4",
+        "name": "AO",
+        "type": "analog",
+        "direction": "output",
+        "description": "Analog Output Voltage Proportional to Gas Concentration"
+      }
+    ]
+  }
+}

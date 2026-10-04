@@ -1,0 +1,37 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "IN",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Voltage Input"
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground"
+    },
+    {
+      "id": "3",
+      "name": "OUT",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Voltage Output"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  }
+}

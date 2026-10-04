@@ -30,6 +30,8 @@ highlights:
   - dropout_voltage_v
   - output_current_a_max
   - interfaces
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

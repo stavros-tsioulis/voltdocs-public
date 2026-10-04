@@ -19,6 +19,10 @@ Achieving Class 0.2 accuracy across a **6000:1 dynamic range**, the ATM90E32 com
 
 ## Pinout (48-Pin TQFP Package & SPI Header)
 
+```pinout
+module
+```
+
 SPI Header & Analog Sensing Pins:
 
 | Pin | Name | Type | Description |

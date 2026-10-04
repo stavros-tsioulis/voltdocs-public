@@ -20,6 +20,10 @@ Standard MQ-3 breakout boards pair the 6-pin sensor head with an LM393 voltage c
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 4-pin 0.1" (2.54 mm) breakout module header:
 
 | Pin | Name | Type | Description |

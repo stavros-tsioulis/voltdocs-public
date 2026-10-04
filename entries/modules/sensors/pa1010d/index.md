@@ -20,6 +20,10 @@ Unlike traditional GPS modules (such as the NEO-6M) that communicate strictly ov
 
 ## Pinout
 
+```pinout
+module
+```
+
 STEMMA QT / Qwiic 4-pin connector & 0.1" header pins:
 
 | Pin | Name | Type | Description |

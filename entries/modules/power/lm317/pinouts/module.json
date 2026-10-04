@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "title": "LM317 Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "ADJ",
+      "type": "input",
+      "description": "Voltage adjustment feedback pin"
+    },
+    {
+      "number": 2,
+      "name": "OUT",
+      "type": "power-out",
+      "description": "Regulated DC output voltage pin (connected to tab)"
+    },
+    {
+      "number": 3,
+      "name": "IN",
+      "type": "power-in",
+      "description": "Unregulated DC input voltage pin"
+    }
+  ]
+}

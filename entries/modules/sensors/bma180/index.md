@@ -19,6 +19,10 @@ Equipped with programmable low-pass filtering, self-test functions, an onboard t
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 8-pin 0.1" (2.54 mm) breakout module header:
 
 | Pin | Name | Type | Description |

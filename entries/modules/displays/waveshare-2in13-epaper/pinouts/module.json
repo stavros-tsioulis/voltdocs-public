@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "Waveshare 2.13-inch e-Paper Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Module Power Supply Input (+3.3V to +5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "DIN / MOSI",
+        "type": "bus",
+        "direction": "input",
+        "description": "SPI Serial Data Input (MOSI)"
+      },
+      {
+        "designator": "4",
+        "name": "CLK / SCK",
+        "type": "clock",
+        "direction": "input",
+        "description": "SPI Serial Clock Input (SCK)"
+      },
+      {
+        "designator": "5",
+        "name": "CS",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low SPI Chip Select Input"
+      },
+      {
+        "designator": "6",
+        "name": "DC",
+        "type": "digital",
+        "direction": "input",
+        "description": "Data/Command Control Select Pin (Low = Command, High = Data)"
+      },
+      {
+        "designator": "7",
+        "name": "RST",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low Reset Input"
+      },
+      {
+        "designator": "8",
+        "name": "BUSY",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-High Busy Output Signal (High = Screen Updating)"
+      }
+    ]
+  }
+}

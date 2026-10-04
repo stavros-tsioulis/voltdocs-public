@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "MCP9808 Temperature Sensor Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VDD",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Power Input (+2.7V to +5.5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock Input"
+      },
+      {
+        "designator": "3",
+        "name": "SDA",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Serial Data Line"
+      },
+      {
+        "designator": "4",
+        "name": "ALERT",
+        "type": "digital",
+        "direction": "output",
+        "description": "Programmable Open-Drain Temperature Alert Output"
+      },
+      {
+        "designator": "5",
+        "name": "A2",
+        "type": "digital",
+        "direction": "input",
+        "description": "I2C Address Select Bit 2 (Default GND)"
+      },
+      {
+        "designator": "6",
+        "name": "A1",
+        "type": "digital",
+        "direction": "input",
+        "description": "I2C Address Select Bit 1 (Default GND)"
+      },
+      {
+        "designator": "7",
+        "name": "A0",
+        "type": "digital",
+        "direction": "input",
+        "description": "I2C Address Select Bit 0 (Default GND)"
+      },
+      {
+        "designator": "8",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      }
+    ]
+  }
+}

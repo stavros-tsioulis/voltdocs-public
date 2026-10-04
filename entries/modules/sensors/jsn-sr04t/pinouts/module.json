@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "title": "JSN-SR04T Breakout Module Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Supply power input (+3.0 V to +5.5 V DC)"
+    },
+    {
+      "number": 2,
+      "name": "Trig",
+      "type": "input",
+      "description": "Trigger pulse input (Mode 0) / UART TX Output (Mode 1 & 2)"
+    },
+    {
+      "number": 3,
+      "name": "Echo",
+      "type": "output",
+      "description": "Echo pulse output (Mode 0) / UART RX Input (Mode 2)"
+    },
+    {
+      "number": 4,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    }
+  ]
+}

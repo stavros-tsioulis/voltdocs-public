@@ -18,6 +18,11 @@ Widely used to expand analog inputs on microcontrollers (such as reading 8 analo
 
 ## Pin configuration
 
+```pinout
+ic
+```
+
+
 | Pin (DIP-16) | Name | Type | Description |
 |---|---|---|---|
 | 13, 14, 15, 12, 1, 5, 2, 4 | `CH0`–`CH7` | Analog I/O | Independent channels 0 through 7 (`IN/OUT 0-7`) |

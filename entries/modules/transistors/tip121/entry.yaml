@@ -37,6 +37,9 @@ references:
     relation: variant-of
   - targetId: transistor.bjt.tip122
     relation: variant-of
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

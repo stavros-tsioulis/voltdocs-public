@@ -21,6 +21,11 @@ Unlike specialized single-topology regulators, the MC34063A is a **universal swi
 
 ## Pinout (DIP-8 Package)
 
+```pinout
+ic
+```
+
+
 ```
              ┌───┴───┐
      Switch  │ 1   8 │ Driver Collector

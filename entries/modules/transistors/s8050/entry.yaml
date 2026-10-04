@@ -32,6 +32,8 @@ highlights:
   - transition_frequency_ft_mhz
   - interfaces
 body: index.md
+pinouts:
+  ic: pinouts/ic.json
 assets:
   - id: datasheet
     kind: datasheet

@@ -32,6 +32,8 @@ highlights:
   - operating_frequency_hz_max
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

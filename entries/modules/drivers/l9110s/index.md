@@ -20,6 +20,10 @@ Most commonly sold as a low-cost $29\text{ mm} \times 23\text{ mm}$ dual-motor d
 
 ### SOP-8 Package IC (Single Channel H-Bridge)
 
+```pinout ic
+ic: pinouts/ic.json
+```
+
 ```
          ┌───┴───┐
      OA 1│ 1   8 │ NC

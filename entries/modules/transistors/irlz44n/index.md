@@ -20,6 +20,10 @@ Unlike standard power MOSFETs (such as the IRF540N or IRF520) that require $10\t
 
 ## Pinout (TO-220AB Package)
 
+```pinout
+ic
+```
+
 ```
         ┌─────────┐
         │  TO-220 │

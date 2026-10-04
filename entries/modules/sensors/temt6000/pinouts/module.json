@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "TEMT6000 Ambient Light Sensor Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC / V",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Voltage (+3.3V to +5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND / G",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "OUT / S",
+        "type": "analog",
+        "direction": "output",
+        "description": "Analog Output Voltage Proportional to Ambient Light"
+      }
+    ]
+  }
+}

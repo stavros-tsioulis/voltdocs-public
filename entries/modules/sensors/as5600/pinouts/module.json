@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "AS5600 Magnetic Rotary Sensor Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VDD",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Input (+3.3V or +5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "VDD3V3",
+        "type": "power",
+        "direction": "power-out",
+        "description": "Internal 3.3V LDO Output / Supply Pin in 3.3V Mode"
+      },
+      {
+        "designator": "3",
+        "name": "OUT",
+        "type": "analog",
+        "direction": "output",
+        "description": "Ratiometric Analog Voltage or 12-Bit PWM Output"
+      },
+      {
+        "designator": "4",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "5",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock Input"
+      },
+      {
+        "designator": "6",
+        "name": "SDA",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Serial Data Line"
+      },
+      {
+        "designator": "7",
+        "name": "PGO",
+        "type": "digital",
+        "direction": "input",
+        "description": "Programming Option Pin (Pull Low for I2C operation)"
+      },
+      {
+        "designator": "8",
+        "name": "DIR",
+        "type": "digital",
+        "direction": "input",
+        "description": "Direction Select (GND = Clockwise increase, VDD = Counter-clockwise)"
+      }
+    ]
+  }
+}

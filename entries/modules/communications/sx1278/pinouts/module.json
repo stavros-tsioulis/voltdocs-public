@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "title": "SX1278 (Ra-02) LoRa Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "2",
+        "name": "3.3V",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Input (+1.8V to +3.7V DC)"
+      },
+      {
+        "designator": "3",
+        "name": "RESET",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low Hardware Reset Pin"
+      },
+      {
+        "designator": "4",
+        "name": "DIO0",
+        "type": "digital",
+        "direction": "output",
+        "description": "Digital I/O 0 (RX Done / TX Done Interrupt)"
+      },
+      {
+        "designator": "5",
+        "name": "DIO1",
+        "type": "digital",
+        "direction": "output",
+        "description": "Digital I/O 1 (RX Timeout / CAD Done Interrupt)"
+      },
+      {
+        "designator": "6",
+        "name": "DIO2",
+        "type": "digital",
+        "direction": "output",
+        "description": "Digital I/O 2 (FHSS Change Channel Interrupt)"
+      },
+      {
+        "designator": "7",
+        "name": "DIO3",
+        "type": "digital",
+        "direction": "output",
+        "description": "Digital I/O 3 (Valid Header / Payload CRC Error)"
+      },
+      {
+        "designator": "8",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "9",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "10",
+        "name": "NSS / CS",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low SPI Chip Select Input"
+      },
+      {
+        "designator": "11",
+        "name": "SCK",
+        "type": "clock",
+        "direction": "input",
+        "description": "SPI Serial Clock Input"
+      },
+      {
+        "designator": "12",
+        "name": "MOSI",
+        "type": "digital",
+        "direction": "input",
+        "description": "SPI Master Output Slave Input"
+      },
+      {
+        "designator": "13",
+        "name": "MISO",
+        "type": "digital",
+        "direction": "output",
+        "description": "SPI Master Input Slave Output"
+      },
+      {
+        "designator": "14",
+        "name": "DIO4",
+        "type": "digital",
+        "direction": "output",
+        "description": "Digital I/O 4 (Mode Ready Interrupt)"
+      },
+      {
+        "designator": "15",
+        "name": "DIO5",
+        "type": "digital",
+        "direction": "output",
+        "description": "Digital I/O 5 (CLK Out Interrupt)"
+      },
+      {
+        "designator": "16",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      }
+    ]
+  }
+}

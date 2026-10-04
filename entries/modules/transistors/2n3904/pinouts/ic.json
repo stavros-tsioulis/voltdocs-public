@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "title": "2N3904 TO-92 NPN Transistor Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "Emitter",
+      "type": "power-in",
+      "description": "Emitter terminal (Ground reference 0 V)"
+    },
+    {
+      "number": 2,
+      "name": "Base",
+      "type": "input",
+      "description": "Base control terminal (Connect via series base resistor to MCU pin)"
+    },
+    {
+      "number": 3,
+      "name": "Collector",
+      "type": "output",
+      "description": "Collector terminal (Low-side load connection, max 200mA)"
+    }
+  ]
+}

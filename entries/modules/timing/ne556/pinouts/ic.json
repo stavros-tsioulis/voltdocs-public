@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../../schemas/pinout.ic.schema.json",
+  "title": "NE556 DIP-14 Pinout",
+  "package": "DIP-14",
+  "pins": [
+    { "number": 1, "name": "1DISCH", "type": "passive", "description": "Timer 1 discharge" },
+    { "number": 2, "name": "1THRES", "type": "input", "description": "Timer 1 threshold input" },
+    { "number": 3, "name": "1CONT", "type": "passive", "description": "Timer 1 control voltage" },
+    { "number": 4, "name": "1RESET", "type": "input", "description": "Timer 1 active-low reset" },
+    { "number": 5, "name": "1OUT", "type": "output", "description": "Timer 1 output" },
+    { "number": 6, "name": "1TRIG", "type": "input", "description": "Timer 1 trigger input" },
+    { "number": 7, "name": "GND", "type": "ground", "description": "Common ground (0V)" },
+    { "number": 8, "name": "2TRIG", "type": "input", "description": "Timer 2 trigger input" },
+    { "number": 9, "name": "2OUT", "type": "output", "description": "Timer 2 output" },
+    { "number": 10, "name": "2RESET", "type": "input", "description": "Timer 2 active-low reset" },
+    { "number": 11, "name": "2CONT", "type": "passive", "description": "Timer 2 control voltage" },
+    { "number": 12, "name": "2THRES", "type": "input", "description": "Timer 2 threshold input" },
+    { "number": 13, "name": "2DISCH", "type": "passive", "description": "Timer 2 discharge" },
+    { "number": 14, "name": "VCC", "type": "power", "description": "Positive supply voltage (+4.5V to +16.0V)" }
+  ]
+}

@@ -32,6 +32,9 @@ highlights:
   - frame_rate_max_fps
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

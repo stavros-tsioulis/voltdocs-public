@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "RS",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin RS"
+    },
+    {
+      "id": "2",
+      "name": "RS/C",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin RS/C"
+    },
+    {
+      "id": "3",
+      "name": "FOUT",
+      "type": "analog",
+      "direction": "output",
+      "description": "Pin FOUT"
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "5",
+      "name": "RC",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin RC"
+    },
+    {
+      "id": "6",
+      "name": "THRESH",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin THRESH"
+    },
+    {
+      "id": "7",
+      "name": "COMP_IN",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin COMP_IN"
+    },
+    {
+      "id": "8",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V+"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1",
+  "title": "1N4148 DO-35 Switching Diode Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "Anode",
+      "type": "input",
+      "description": "Anode (+) terminal (Clear glass body end)"
+    },
+    {
+      "number": 2,
+      "name": "Cathode",
+      "type": "output",
+      "description": "Cathode (-) terminal (Marked with black band on glass body)"
+    }
+  ]
+}

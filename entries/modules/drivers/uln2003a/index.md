@@ -18,6 +18,9 @@ Capable of sinking up to **$500\text{ mA}$ per channel** ($600\text{ mA}$ peak) 
 
 ## Pinout (DIP-16 Package)
 
+```pinout ic
+```
+
 ```
              ┌───┴───┐
         IN 1 ─┤ 1  16 ├─ OUT 1

@@ -18,6 +18,9 @@ Operating on a wide voltage supply range of **$4.0\text{V}$ to $12.0\text{V}$ DC
 
 ## Pinout (DIP-8 Package)
 
+```pinout ic
+```
+
 ```
              ┌───┴───┐
        GAIN ─┤ 1   8 ├─ GAIN

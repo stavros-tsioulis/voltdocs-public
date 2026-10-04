@@ -19,6 +19,10 @@ Integrating a fully compliant IEEE 802.3 MAC (Media Access Control) layer, 10 Mb
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 10-pin or 12-pin double-row 0.1" (2.54 mm) breakout module header:
 
 | Pin | Name | Type | Description |

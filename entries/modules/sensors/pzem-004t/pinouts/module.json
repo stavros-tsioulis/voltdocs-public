@@ -1,0 +1,71 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 4.5,
+        "nominal": 5.0,
+        "max": 5.5
+      },
+      "description": "Supply input for optocouplers (+5.0 V DC)."
+    },
+    {
+      "id": "2",
+      "name": "RX",
+      "type": "digital",
+      "direction": "input",
+      "level": "5 V logic",
+      "description": "UART Receive data pin (connect to MCU TX)."
+    },
+    {
+      "id": "3",
+      "name": "TX",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "level": "5 V logic",
+      "description": "UART Transmit data pin (connect to MCU RX)."
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Low-voltage ground reference (0 V)."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "label": "PZEM-004T",
+    "minSize": {
+      "width": 6,
+      "height": 4
+    }
+  },
+  "wiring": [
+    {
+      "id": "esp32",
+      "label": "ESP32",
+      "targetId": "board.esp32",
+      "pins": {
+        "1": "5V",
+        "2": "GPIO17",
+        "3": "GPIO16",
+        "4": "GND"
+      }
+    }
+  ]
+}

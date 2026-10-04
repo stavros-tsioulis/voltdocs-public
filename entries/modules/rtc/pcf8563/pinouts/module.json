@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "PCF8563 Real-Time Clock Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "OSCI",
+        "type": "analog",
+        "direction": "input",
+        "description": "32.768 kHz Crystal Oscillator Input"
+      },
+      {
+        "designator": "2",
+        "name": "OSCO",
+        "type": "analog",
+        "direction": "output",
+        "description": "32.768 kHz Crystal Oscillator Output"
+      },
+      {
+        "designator": "3",
+        "name": "INT",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-Low Open-Drain Interrupt Output Pin"
+      },
+      {
+        "designator": "4",
+        "name": "GND / VSS",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "5",
+        "name": "SDA",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Serial Data Line"
+      },
+      {
+        "designator": "6",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock Input"
+      },
+      {
+        "designator": "7",
+        "name": "CLKOUT",
+        "type": "digital",
+        "direction": "output",
+        "description": "Programmable Square-Wave Clock Output (Open-drain)"
+      },
+      {
+        "designator": "8",
+        "name": "VCC / VDD",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Power Input (+1.8V to +5.5V DC)"
+      }
+    ]
+  }
+}

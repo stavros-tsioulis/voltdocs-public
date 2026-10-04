@@ -19,6 +19,10 @@ Operating on the principle of **light scattering**, the sensor continuously draw
 
 ## Pinout (Grove 4-Pin Connector Header)
 
+```pinout
+module
+```
+
 | Pin | Wire Color | Name | Type | Description |
 |---|---|---|---|---|
 | 1 | Yellow | `SCL` | Digital Input | $I^2C$ Serial Clock |

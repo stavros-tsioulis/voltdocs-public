@@ -24,6 +24,9 @@ Communicating over $I^2C$ (**`0x33`** default) at speeds up to **1.0 MHz (Fast-M
 
 ## Pinout (TO-39 Metal Can & Breakout Header)
 
+```pinout module
+```
+
 ```
         ┌───────────────────┐
         │  [TO-39 Metal Can]│

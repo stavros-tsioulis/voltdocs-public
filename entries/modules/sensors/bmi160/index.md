@@ -19,6 +19,10 @@ Engineered for mobile devices, wearables, and battery-powered IoT nodes, the BMI
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 7-pin or 8-pin 0.1" (2.54 mm) breakout module header:
 
 | Pin | Name | Type | Description |

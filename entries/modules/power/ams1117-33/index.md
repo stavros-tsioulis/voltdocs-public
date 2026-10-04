@@ -19,6 +19,9 @@ Housed in a compact 3-pin **SOT-223 package**, the AMS1117 features a low dropou
 
 ## Pinout (SOT-223 Package)
 
+```pinout module
+```
+
 Looking at the **top face** of the SOT-223 package with large metal tab at top and 3 leads pointing down:
 
 ```

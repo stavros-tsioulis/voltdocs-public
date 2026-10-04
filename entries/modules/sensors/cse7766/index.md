@@ -18,6 +18,10 @@ Selected by manufacturers as the successor to pulse-counting ICs like the HLW801
 
 ## Pinout (SOP-8 Package)
 
+```pinout
+ic
+```
+
 ```
              ┌───┴───┐
           VDD ─┤ 1    8├─ GND

@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    },
+    {
+      "id": "2",
+      "name": "1Y",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 1Y"
+    },
+    {
+      "id": "3",
+      "name": "1A",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1A"
+    },
+    {
+      "id": "4",
+      "name": "2Y",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 2Y"
+    },
+    {
+      "id": "5",
+      "name": "2A",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2A"
+    },
+    {
+      "id": "6",
+      "name": "3Y",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 3Y"
+    },
+    {
+      "id": "7",
+      "name": "3A",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 3A"
+    },
+    {
+      "id": "8",
+      "name": "VSS",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "9",
+      "name": "4A",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 4A"
+    },
+    {
+      "id": "10",
+      "name": "4Y",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 4Y"
+    },
+    {
+      "id": "11",
+      "name": "5A",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 5A"
+    },
+    {
+      "id": "12",
+      "name": "5Y",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 5Y"
+    },
+    {
+      "id": "13",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "14",
+      "name": "6A",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 6A"
+    },
+    {
+      "id": "15",
+      "name": "6Y",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 6Y"
+    },
+    {
+      "id": "16",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

@@ -28,6 +28,9 @@ highlights:
   - counting_mode
   - clock_frequency_mhz
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

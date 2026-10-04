@@ -1,0 +1,19 @@
+{
+  "version": "1",
+  "title": "1N4001 DO-41 Rectifier Diode Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "Anode",
+      "type": "input",
+      "description": "Anode (+) terminal (Plain black body end)"
+    },
+    {
+      "number": 2,
+      "name": "Cathode",
+      "type": "output",
+      "description": "Cathode (-) terminal (Marked with silver/white band on body)"
+    }
+  ]
+}

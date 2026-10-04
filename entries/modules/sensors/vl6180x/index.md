@@ -20,6 +20,9 @@ Unlike IR intensity proximity sensors that are heavily affected by target color 
 
 ## Pinout
 
+```pinout module
+```
+
 Breakout module 6-pin header:
 
 | Pin | Name | Type | Description |

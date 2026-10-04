@@ -1,0 +1,55 @@
+{
+  "version": "1",
+  "title": "NE555 Timer IC Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 2,
+      "name": "TRIG",
+      "type": "input",
+      "description": "Trigger input (< 1/3 VCC sets output HIGH)"
+    },
+    {
+      "number": 3,
+      "name": "OUT",
+      "type": "output",
+      "description": "Timer output (Sink or source up to 200mA)"
+    },
+    {
+      "number": 4,
+      "name": "RESET",
+      "type": "input",
+      "description": "Active-LOW reset input (Tie to VCC if unused)"
+    },
+    {
+      "number": 5,
+      "name": "CONT",
+      "type": "input",
+      "description": "Control voltage (Bypass to GND with 10nF cap)"
+    },
+    {
+      "number": 6,
+      "name": "THRES",
+      "type": "input",
+      "description": "Threshold input (> 2/3 VCC resets output LOW)"
+    },
+    {
+      "number": 7,
+      "name": "DISCH",
+      "type": "output",
+      "description": "Open-collector discharge path to GND"
+    },
+    {
+      "number": 8,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Positive power supply (+4.5V to +16V DC)"
+    }
+  ]
+}

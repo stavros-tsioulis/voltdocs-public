@@ -21,6 +21,10 @@ Measuring surface temperatures from **$0^\circ\text{C}$ to $80^\circ\text{C}$** 
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 6-pin 0.1" (2.54 mm) header or Qwiic / STEMMA QT connector:
 
 | Pin | Name | Type | Description |

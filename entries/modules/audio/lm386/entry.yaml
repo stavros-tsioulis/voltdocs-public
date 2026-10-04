@@ -30,6 +30,8 @@ highlights:
   - voltage_gain_max
   - speaker_impedance_ohm
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

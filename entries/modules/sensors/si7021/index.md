@@ -19,6 +19,9 @@ Delivering typical accuracies of **$\pm 3\%\ \text{RH}$** and **$\pm 0.4^\circ\t
 
 ## Pinout
 
+```pinout module
+```
+
 Breakout module 4-pin header:
 
 | Pin | Name | Type | Description |

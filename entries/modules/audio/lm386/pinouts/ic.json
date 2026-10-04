@@ -1,0 +1,55 @@
+{
+  "version": "1",
+  "title": "LM386 DIP-8 IC Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "GAIN",
+      "type": "passive",
+      "description": "Gain setting pin 1 (Connect 10µF cap to Pin 8 for 200x gain)"
+    },
+    {
+      "number": 2,
+      "name": "-INPUT",
+      "type": "input",
+      "description": "Inverting audio signal input"
+    },
+    {
+      "number": 3,
+      "name": "+INPUT",
+      "type": "input",
+      "description": "Non-inverting audio signal input"
+    },
+    {
+      "number": 4,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 5,
+      "name": "VOUT",
+      "type": "output",
+      "description": "Amplified AC audio output pin"
+    },
+    {
+      "number": 6,
+      "name": "VS",
+      "type": "power-in",
+      "description": "Positive DC supply power input (+4V to +12V DC)"
+    },
+    {
+      "number": 7,
+      "name": "BYPASS",
+      "type": "passive",
+      "description": "Decoupling bypass pin"
+    },
+    {
+      "number": 8,
+      "name": "GAIN",
+      "type": "passive",
+      "description": "Gain setting pin 2"
+    }
+  ]
+}

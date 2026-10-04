@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "Q1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q1"
+    },
+    {
+      "id": "2",
+      "name": "Q0",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q0"
+    },
+    {
+      "id": "3",
+      "name": "Q2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q2"
+    },
+    {
+      "id": "4",
+      "name": "Q5",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q5"
+    },
+    {
+      "id": "5",
+      "name": "Q6",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q6"
+    },
+    {
+      "id": "6",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "7",
+      "name": "Q3",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q3"
+    },
+    {
+      "id": "8",
+      "name": "VSS",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "9",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "10",
+      "name": "Q7",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q7"
+    },
+    {
+      "id": "11",
+      "name": "Q4",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q4"
+    },
+    {
+      "id": "12",
+      "name": "CO",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CO"
+    },
+    {
+      "id": "13",
+      "name": "CLK_INH",
+      "type": "clock",
+      "direction": "input",
+      "description": "Pin CLK_INH"
+    },
+    {
+      "id": "14",
+      "name": "CLK",
+      "type": "clock",
+      "direction": "input",
+      "description": "Pin CLK"
+    },
+    {
+      "id": "15",
+      "name": "RST",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RST"
+    },
+    {
+      "id": "16",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "CH0",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog input channel 0."
+    },
+    {
+      "id": "2",
+      "name": "CH1",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog input channel 1."
+    },
+    {
+      "id": "3",
+      "name": "CH2",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog input channel 2."
+    },
+    {
+      "id": "4",
+      "name": "CH3",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog input channel 3."
+    },
+    {
+      "id": "5",
+      "name": "CH4",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog input channel 4."
+    },
+    {
+      "id": "6",
+      "name": "CH5",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog input channel 5."
+    },
+    {
+      "id": "7",
+      "name": "CH6",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog input channel 6."
+    },
+    {
+      "id": "8",
+      "name": "CH7",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog input channel 7."
+    },
+    {
+      "id": "9",
+      "name": "DGND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Digital ground reference."
+    },
+    {
+      "id": "10",
+      "name": "CS / SHDN",
+      "type": "bus",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Active-LOW Chip Select and Shutdown pin."
+    },
+    {
+      "id": "11",
+      "name": "DIN",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "SPI Serial Data Input (MOSI)."
+    },
+    {
+      "id": "12",
+      "name": "DOUT",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "level": "3.3 V / 5 V logic",
+      "description": "SPI Serial Data Output (MISO)."
+    },
+    {
+      "id": "13",
+      "name": "CLK",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "SPI Serial Clock input."
+    },
+    {
+      "id": "14",
+      "name": "AGND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Analog ground reference."
+    },
+    {
+      "id": "15",
+      "name": "VREF",
+      "type": "analog",
+      "direction": "input",
+      "description": "Voltage Reference input (0.25 V to VDD)."
+    },
+    {
+      "id": "16",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.7,
+        "nominal": 5.0,
+        "max": 5.5
+      },
+      "description": "Power supply input (+2.7 V to +5.5 V DC)."
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    },
+    "label": "MCP3208",
+    "minSize": {
+      "width": 6,
+      "height": 9
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "9": "GND",
+        "10": "D10",
+        "11": "D11",
+        "12": "D12",
+        "13": "D13",
+        "14": "GND",
+        "15": "5V",
+        "16": "5V"
+      }
+    }
+  ]
+}

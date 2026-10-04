@@ -35,6 +35,8 @@ highlights:
   - resolution_bits
   - resolution_c
   - interfaces
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

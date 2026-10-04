@@ -33,6 +33,9 @@ highlights:
 references:
   - targetId: interface.logic.74hc04
     relation: variant-of
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

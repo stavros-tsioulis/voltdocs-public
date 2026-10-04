@@ -28,6 +28,8 @@ highlights:
   - integration_time_ms
   - i2c_addresses
   - interfaces
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

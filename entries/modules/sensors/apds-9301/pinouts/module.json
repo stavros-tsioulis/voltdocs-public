@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "title": "APDS-9301 Breakout Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Voltage Input (+2.7V to +3.6V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SDA",
+        "type": "bus",
+        "direction": "bidirectional",
+        "description": "I2C Serial Data"
+      },
+      {
+        "designator": "4",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock"
+      },
+      {
+        "designator": "5",
+        "name": "INT",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-Low Interrupt Output (Programmable Lux Thresholds)"
+      }
+    ]
+  }
+}

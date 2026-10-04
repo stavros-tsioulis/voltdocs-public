@@ -31,6 +31,8 @@ highlights:
   - output_high_voltage_v
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

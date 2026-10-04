@@ -27,6 +27,8 @@ highlights:
   - non_repetitive_peak_forward_surge_current_ifsm_a
   - forward_voltage_drop_vf_v
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

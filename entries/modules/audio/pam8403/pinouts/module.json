@@ -1,0 +1,49 @@
+{
+  "version": "1",
+  "title": "PAM8403 Breakout Module Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "5V",
+      "type": "power-in",
+      "description": "Positive supply power input (+2.5 V to +5.5 V DC)"
+    },
+    {
+      "number": 2,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 3,
+      "name": "L",
+      "type": "input",
+      "description": "Left Channel audio input"
+    },
+    {
+      "number": 4,
+      "name": "G",
+      "type": "power-in",
+      "description": "Audio input signal ground"
+    },
+    {
+      "number": 5,
+      "name": "R",
+      "type": "input",
+      "description": "Right Channel audio input"
+    },
+    {
+      "number": 6,
+      "name": "L+",
+      "type": "output",
+      "description": "Left Channel positive BTL speaker output"
+    },
+    {
+      "number": 7,
+      "name": "L-",
+      "type": "output",
+      "description": "Left Channel negative BTL speaker output"
+    }
+  ]
+}

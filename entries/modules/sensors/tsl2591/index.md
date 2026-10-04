@@ -24,6 +24,10 @@ By calculating the difference between channels in software, the sensor accuratel
 
 ## Pinout
 
+```pinout
+module
+```
+
 STEMMA QT / Qwiic 4-pin connector & 0.1" header pins:
 
 | Pin | Name | Type | Description |

@@ -1,0 +1,49 @@
+{
+  "version": "1",
+  "title": "MAX31856 Breakout Module Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "VIN",
+      "type": "power-in",
+      "description": "Supply power input (+3.3 V to +5.0 V DC)"
+    },
+    {
+      "number": 2,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 3,
+      "name": "SDO",
+      "type": "output",
+      "description": "SPI Master Input Slave Output (MISO)"
+    },
+    {
+      "number": 4,
+      "name": "SDI",
+      "type": "input",
+      "description": "SPI Master Output Slave Input (MOSI)"
+    },
+    {
+      "number": 5,
+      "name": "CS",
+      "type": "input",
+      "description": "Active-Low SPI Chip Select"
+    },
+    {
+      "number": 6,
+      "name": "SCK",
+      "type": "input",
+      "description": "SPI Serial Clock"
+    },
+    {
+      "number": 7,
+      "name": "FLT",
+      "type": "output",
+      "description": "Active-Low Fault or Data Ready interrupt pin"
+    }
+  ]
+}

@@ -20,6 +20,11 @@ The RP2040 stands out for its large **$264\text{ KB}$ multi-bank SRAM**, native 
 
 ## Pinout (Raspberry Pi Pico Board Form Factor)
 
+```pinout
+module
+```
+
+
 ```
                        ┌─────────────┐
         (GP0/UART0 TX) [ GP0     VBUS] (5V USB Input)

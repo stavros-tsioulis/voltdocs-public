@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "title": "LM75A SOIC-8 / TSSOP-8 IC Pinout",
+  "layout": {
+    "package": "ic",
+    "left": [
+      {
+        "designator": "1",
+        "name": "SDA",
+        "type": "bus",
+        "direction": "bidirectional",
+        "description": "I2C Serial Data"
+      },
+      {
+        "designator": "2",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock"
+      },
+      {
+        "designator": "3",
+        "name": "OS",
+        "type": "digital",
+        "direction": "output",
+        "description": "Open-Drain Over-temperature Shutdown Output"
+      },
+      {
+        "designator": "4",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      }
+    ],
+    "right": [
+      {
+        "designator": "8",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Power Supply Input (+2.8V to +5.5V DC)"
+      },
+      {
+        "designator": "7",
+        "name": "A0",
+        "type": "digital",
+        "direction": "input",
+        "description": "I2C Address Selection Bit 0"
+      },
+      {
+        "designator": "6",
+        "name": "A1",
+        "type": "digital",
+        "direction": "input",
+        "description": "I2C Address Selection Bit 1"
+      },
+      {
+        "designator": "5",
+        "name": "A2",
+        "type": "digital",
+        "direction": "input",
+        "description": "I2C Address Selection Bit 2"
+      }
+    ]
+  }
+}

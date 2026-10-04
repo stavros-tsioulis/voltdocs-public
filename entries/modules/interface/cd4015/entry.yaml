@@ -31,6 +31,9 @@ references:
     relation: see-also
   - targetId: interface.logic.cd4094
     relation: companion-to
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

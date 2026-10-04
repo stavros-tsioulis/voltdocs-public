@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "title": "AS608 Optical Fingerprint Sensor Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Module Power Supply Input (+3.6V to +6.0V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "TX",
+        "type": "digital",
+        "direction": "output",
+        "description": "UART Transmit Output (3.3V Logic Level)"
+      },
+      {
+        "designator": "4",
+        "name": "RX",
+        "type": "digital",
+        "direction": "input",
+        "description": "UART Receive Input"
+      },
+      {
+        "designator": "5",
+        "name": "TOUCH / WAKE",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-High Finger Detection Touch Output"
+      },
+      {
+        "designator": "6",
+        "name": "3.3V",
+        "type": "power",
+        "direction": "power-out",
+        "description": "3.3V Regulated Output (Max 20 mA)"
+      }
+    ]
+  }
+}

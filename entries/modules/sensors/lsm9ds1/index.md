@@ -20,6 +20,10 @@ Outputting 16-bit resolution data over $I^2C$ or SPI, the LSM9DS1 enables full 3
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout modules expose a 10-pin or 12-pin 0.1" (2.54 mm) header:
 
 | Pin | Name | Type | Description |

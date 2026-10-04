@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "title": "DS1302 Real-Time Clock Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Main Supply Voltage Input (+2.0V to +5.5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "CLK / SCLK",
+        "type": "clock",
+        "direction": "input",
+        "description": "3-Wire Serial Clock Input"
+      },
+      {
+        "designator": "4",
+        "name": "DAT / I/O",
+        "type": "digital",
+        "direction": "bidirectional",
+        "description": "Bi-directional 3-Wire Serial Data Line"
+      },
+      {
+        "designator": "5",
+        "name": "RST / CE",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-High Chip Enable / Reset Input Pin"
+      }
+    ]
+  }
+}

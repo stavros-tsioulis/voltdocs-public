@@ -31,6 +31,9 @@ highlights:
   - operating_current_ua
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

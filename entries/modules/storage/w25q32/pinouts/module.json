@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "W25Q32 SPI Flash Memory Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "/CS",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low SPI Chip Select Input"
+      },
+      {
+        "designator": "2",
+        "name": "DO (IO1)",
+        "type": "digital",
+        "direction": "output",
+        "description": "SPI Serial Data Output / Dual & Quad I/O Pin 1"
+      },
+      {
+        "designator": "3",
+        "name": "/WP (IO2)",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low Write Protect Input / Quad I/O Pin 2"
+      },
+      {
+        "designator": "4",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "5",
+        "name": "DI (IO0)",
+        "type": "digital",
+        "direction": "input",
+        "description": "SPI Serial Data Input / Dual & Quad I/O Pin 0"
+      },
+      {
+        "designator": "6",
+        "name": "CLK",
+        "type": "clock",
+        "direction": "input",
+        "description": "SPI Serial Clock Input (Up to 104 MHz)"
+      },
+      {
+        "designator": "7",
+        "name": "/HOLD (IO3)",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low Hold/Pause Input / Quad I/O Pin 3"
+      },
+      {
+        "designator": "8",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Power Input (+2.7V to +3.6V DC)"
+      }
+    ]
+  }
+}

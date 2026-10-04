@@ -28,6 +28,9 @@ highlights:
   - sum_output_bits
   - propagation_delay_ns
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

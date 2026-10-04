@@ -18,6 +18,10 @@ The module pairs the IR photodiode with an LM393 differential voltage comparator
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 4-pin 0.1" (2.54 mm) breakout module header:
 
 | Pin | Name | Type | Description |

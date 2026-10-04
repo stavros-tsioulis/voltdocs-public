@@ -17,6 +17,10 @@ The module incorporates an **IRF520 N-channel power MOSFET** in a TO-220 package
 
 ## Module Interface & Terminal Layout
 
+```pinout
+module
+```
+
 ```
          Logic Header Pinout          Screw Terminal Block
             ┌─────────┐                ┌─────────────────┐

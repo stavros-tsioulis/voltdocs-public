@@ -17,6 +17,10 @@ Featuring an industry-leading Power Supply Rejection Ratio (**PSRR of 112 dB**),
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 3-pin 0.1" (2.54 mm) header:
 
 | Pin | Name | Type | Description |

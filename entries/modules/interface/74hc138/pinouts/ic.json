@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../../schemas/pinout.ic.schema.json",
+  "title": "74HC138 DIP-16 Pinout",
+  "package": "DIP-16",
+  "pins": [
+    { "number": 1, "name": "A0", "type": "input", "description": "Address input Bit 0 (LSB)" },
+    { "number": 2, "name": "A1", "type": "input", "description": "Address input Bit 1" },
+    { "number": 3, "name": "A2", "type": "input", "description": "Address input Bit 2 (MSB)" },
+    { "number": 4, "name": "/G2A", "type": "input", "description": "Active-low enable input A" },
+    { "number": 5, "name": "/G2B", "type": "input", "description": "Active-low enable input B" },
+    { "number": 6, "name": "G1", "type": "input", "description": "Active-high enable input" },
+    { "number": 7, "name": "/Y7", "type": "output", "description": "Active-low decoded output 7" },
+    { "number": 8, "name": "GND", "type": "ground", "description": "Ground reference (0V)" },
+    { "number": 9, "name": "/Y6", "type": "output", "description": "Active-low decoded output 6" },
+    { "number": 10, "name": "/Y5", "type": "output", "description": "Active-low decoded output 5" },
+    { "number": 11, "name": "/Y4", "type": "output", "description": "Active-low decoded output 4" },
+    { "number": 12, "name": "/Y3", "type": "output", "description": "Active-low decoded output 3" },
+    { "number": 13, "name": "/Y2", "type": "output", "description": "Active-low decoded output 2" },
+    { "number": 14, "name": "/Y1", "type": "output", "description": "Active-low decoded output 1" },
+    { "number": 15, "name": "/Y0", "type": "output", "description": "Active-low decoded output 0" },
+    { "number": 16, "name": "VCC", "type": "power", "description": "Positive supply voltage (+2.0V to +6.0V)" }
+  ]
+}

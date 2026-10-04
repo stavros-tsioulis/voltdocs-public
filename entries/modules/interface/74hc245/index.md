@@ -17,6 +17,11 @@ It is widely used in retro-computing, microcontroller development, LED matrix dr
 
 ## Pinout (DIP-20 Package)
 
+```pinout
+ic
+```
+
+
 ```
              ┌───┴───┐
        DIR 1 │ 1  20 │ VCC

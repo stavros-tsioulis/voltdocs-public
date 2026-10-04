@@ -1,0 +1,110 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.5,
+        "nominal": 5.0,
+        "max": 6.0
+      },
+      "description": "Supply voltage input (+2.5 V to +6.0 V DC)."
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "3",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "level": "3.3 V / 5 V logic",
+      "description": "I2C Serial Data line."
+    },
+    {
+      "id": "4",
+      "name": "SCL",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "I2C Serial Clock line."
+    },
+    {
+      "id": "5",
+      "name": "AIN0",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog Channel 0 input (connected to LDR on module jumper P5)."
+    },
+    {
+      "id": "6",
+      "name": "AIN1",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog Channel 1 input (connected to Thermistor on jumper P4)."
+    },
+    {
+      "id": "7",
+      "name": "AIN2",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog Channel 2 input (connected to Potentiometer on jumper P6)."
+    },
+    {
+      "id": "8",
+      "name": "AIN3",
+      "type": "analog",
+      "direction": "input",
+      "description": "Analog Channel 3 input (free external analog input)."
+    },
+    {
+      "id": "9",
+      "name": "AOUT",
+      "type": "analog",
+      "direction": "output",
+      "description": "8-bit DAC output voltage pin."
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    "label": "PCF8591",
+    "minSize": {
+      "width": 11,
+      "height": 5
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "1": "5V",
+        "2": "GND",
+        "3": "SDA",
+        "4": "SCL"
+      }
+    }
+  ]
+}

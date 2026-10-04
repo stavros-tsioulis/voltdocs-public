@@ -35,6 +35,9 @@ references:
     relation: see-also
   - targetId: interface.bus.74hc245
     relation: see-also
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

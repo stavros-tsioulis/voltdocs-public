@@ -18,6 +18,10 @@ Equipped with dual 16-bit Sigma-Delta ADCs, an internal high-precision temperatu
 
 ## Pinout (10-Pin SSOP Package)
 
+```pinout
+ic
+```
+
 ```
              ┌───┴───┐
          VDD ─┤ 1   10├─ GND

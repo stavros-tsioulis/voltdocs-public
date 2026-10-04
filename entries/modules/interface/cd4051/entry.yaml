@@ -29,6 +29,8 @@ highlights:
   - on_resistance_ohm_typ
   - bandwidth_mhz
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

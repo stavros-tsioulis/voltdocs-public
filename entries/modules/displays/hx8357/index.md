@@ -18,6 +18,10 @@ Integrating an internal **460.8 KB Graphic RAM (GRAM)** frame buffer, digital ga
 
 ## Pinout (SPI Mode Breakout Header)
 
+```pinout
+module
+```
+
 | Pin | Name | Type | Description |
 |---|---|---|---|
 | 1 | `VIN` | Power | Supply power input (+3.3 V to +5.0 V DC) |

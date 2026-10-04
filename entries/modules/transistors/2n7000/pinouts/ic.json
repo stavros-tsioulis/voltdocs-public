@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "title": "2N7000 TO-92 N-Channel MOSFET Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "Source",
+      "type": "power-in",
+      "description": "Source reference (Ground 0V connection)"
+    },
+    {
+      "number": 2,
+      "name": "Gate",
+      "type": "input",
+      "description": "Gate control input (Compatible with 3.3V and 5V GPIO logic)"
+    },
+    {
+      "number": 3,
+      "name": "Drain",
+      "type": "output",
+      "description": "Drain output (Low-side switched load connection, max 200mA)"
+    }
+  ]
+}

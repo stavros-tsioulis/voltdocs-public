@@ -21,6 +21,9 @@ Equipped with three onboard **$0.1\ \Omega\ (100\ \text{m}\Omega)$ precision shu
 
 ## Pinout
 
+```pinout module
+```
+
 Breakout board header & Terminal Blocks:
 
 | Pin | Name | Type | Description |

@@ -35,6 +35,9 @@ references:
     relation: alternative-to
   - targetId: interface.logic.74hc165
     relation: companion-to
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

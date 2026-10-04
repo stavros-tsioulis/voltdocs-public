@@ -31,6 +31,9 @@ highlights:
   - dc_current_gain_hfe
   - collector_saturation_voltage_vce_sat_v
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

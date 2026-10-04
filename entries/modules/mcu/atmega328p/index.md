@@ -20,6 +20,11 @@ Featuring **$32\text{ KB}$ of ISP Flash memory**, **$2\text{ KB}$ of SRAM**, and
 
 ## Pinout (28-Pin DIP Package - ATmega328P-PU)
 
+```pinout
+ic
+```
+
+
 ```
                        ┌───┴───┐
      (PC6/RESET) RESET ─┤ 1  28 ├─ PC5 (ADC5/SCL)

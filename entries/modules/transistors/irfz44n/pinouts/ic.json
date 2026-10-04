@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "title": "IRFZ44N TO-220 Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "Gate",
+      "type": "input",
+      "description": "Gate control input (Requires 10V VGS for full saturation)"
+    },
+    {
+      "number": 2,
+      "name": "Drain",
+      "type": "output",
+      "description": "Drain output / Connected internally to metal tab"
+    },
+    {
+      "number": 3,
+      "name": "Source",
+      "type": "power-in",
+      "description": "Source reference (Connected to system ground)"
+    }
+  ]
+}

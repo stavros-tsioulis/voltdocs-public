@@ -1,0 +1,175 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "OE'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin OE'"
+    },
+    {
+      "id": "2",
+      "name": "1Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 1Q"
+    },
+    {
+      "id": "3",
+      "name": "1D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1D"
+    },
+    {
+      "id": "4",
+      "name": "2D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2D"
+    },
+    {
+      "id": "5",
+      "name": "2Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 2Q"
+    },
+    {
+      "id": "6",
+      "name": "3Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 3Q"
+    },
+    {
+      "id": "7",
+      "name": "3D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 3D"
+    },
+    {
+      "id": "8",
+      "name": "4D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 4D"
+    },
+    {
+      "id": "9",
+      "name": "4Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 4Q"
+    },
+    {
+      "id": "10",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin GND"
+    },
+    {
+      "id": "11",
+      "name": "CLK",
+      "type": "clock",
+      "direction": "input",
+      "description": "Pin CLK"
+    },
+    {
+      "id": "12",
+      "name": "5Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 5Q"
+    },
+    {
+      "id": "13",
+      "name": "5D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 5D"
+    },
+    {
+      "id": "14",
+      "name": "6D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 6D"
+    },
+    {
+      "id": "15",
+      "name": "6Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 6Q"
+    },
+    {
+      "id": "16",
+      "name": "7Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 7Q"
+    },
+    {
+      "id": "17",
+      "name": "7D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 7D"
+    },
+    {
+      "id": "18",
+      "name": "8D",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 8D"
+    },
+    {
+      "id": "19",
+      "name": "8Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 8Q"
+    },
+    {
+      "id": "20",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "right": [
+        "20",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11"
+      ]
+    }
+  }
+}

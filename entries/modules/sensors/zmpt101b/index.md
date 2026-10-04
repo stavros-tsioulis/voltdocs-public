@@ -17,6 +17,10 @@ The module incorporates a precision micro current-type voltage transformer (ZMPT
 
 ## Terminals
 
+```pinout
+module
+```
+
 ### High-Voltage Mains Terminals (2-pin Screw Terminal)
 
 | Pin | Signal | Description |

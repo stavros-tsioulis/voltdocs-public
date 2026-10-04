@@ -19,6 +19,10 @@ Capable of estimating storm front distances from **$1\text{ km}$ to $40\text{ km
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout module header:
 
 | Pin | Name | Type | Description |

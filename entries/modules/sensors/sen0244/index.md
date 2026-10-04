@@ -18,6 +18,9 @@ Built around an AC excitation signal generator circuit (which prevents electroch
 
 ## Pinout
 
+```pinout module
+```
+
 Breakout board 3-pin 0.1" (2.54 mm) DFRobot Gravity connector:
 
 | Pin | Name | Type | Description |

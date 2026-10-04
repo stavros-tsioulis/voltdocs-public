@@ -17,6 +17,10 @@ Using **optical triangulation**, the sensor measures distance ($10\text{ cm to }
 
 ## Pinout
 
+```pinout
+module
+```
+
 The sensor terminates in a 3-pin JST-PH connector (wired cable provided):
 
 | Pin | Cable Color | Name | Type | Description |

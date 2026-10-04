@@ -21,6 +21,12 @@ Fitting onto the 40-pin GPIO header, the Sense HAT integrates:
 | **Environmental sensing**| Pressure $260\dots 1260\text{ hPa}$ (LPS25H) & Humidity $0\dots 100\%$ RH (HTS221) |
 | **Interface** | $I^2C$ bus 1 (`/dev/i2c-1`) |
 
+## Pinout
+
+```pinout
+module
+```
+
 ## Onboard ICs & $I^2C$ Addresses
 
 | Function | Integrated Circuit | $I^2C$ Address | Description |

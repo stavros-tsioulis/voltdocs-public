@@ -27,6 +27,8 @@ highlights:
   - vibration_sensitivity
   - output_type
   - interfaces
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

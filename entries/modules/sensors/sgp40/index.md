@@ -20,6 +20,9 @@ Built on Sensirion's **CMOSens MOX (Metal-Oxide)** technology with siloxane resi
 
 ## Pinout
 
+```pinout module
+```
+
 Breakout module header & STEMMA QT / Qwiic connectors:
 
 | Pin | Name | Type | Description |

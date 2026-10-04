@@ -1,0 +1,55 @@
+{
+  "version": "1",
+  "title": "ATtiny85 DIP-8 IC Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "PB5 (RESET)",
+      "type": "inout",
+      "description": "Reset pin (Active LOW) / ADC3 / PCINT5 / GPIO PB5"
+    },
+    {
+      "number": 2,
+      "name": "PB3 (ADC3)",
+      "type": "inout",
+      "description": "ADC Channel 3 / PCINT3 / XTAL1 / GPIO PB3"
+    },
+    {
+      "number": 3,
+      "name": "PB4 (ADC2)",
+      "type": "inout",
+      "description": "ADC Channel 2 / PCINT4 / XTAL2 / PWM / GPIO PB4"
+    },
+    {
+      "number": 4,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 5,
+      "name": "PB0 (MOSI)",
+      "type": "inout",
+      "description": "SPI MOSI / I2C SDA / AREF / PWM0 / GPIO PB0"
+    },
+    {
+      "number": 6,
+      "name": "PB1 (MISO)",
+      "type": "inout",
+      "description": "SPI MISO / DO / PWM1 / GPIO PB1"
+    },
+    {
+      "number": 7,
+      "name": "PB2 (SCK)",
+      "type": "inout",
+      "description": "SPI SCK / I2C SCL / ADC1 / PCINT2 / GPIO PB2"
+    },
+    {
+      "number": 8,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Supply voltage (+2.7V to +5.5V DC)"
+    }
+  ]
+}

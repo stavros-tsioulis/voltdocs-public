@@ -29,6 +29,8 @@ highlights:
   - enable_inputs
   - propagation_delay_ns
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

@@ -28,6 +28,8 @@ highlights:
   - thd_pct
   - speaker_impedance_ohm
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

@@ -1,0 +1,183 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "QB",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "description": "Parallel output B (Bit 1)."
+    },
+    {
+      "id": "2",
+      "name": "QC",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "description": "Parallel output C (Bit 2)."
+    },
+    {
+      "id": "3",
+      "name": "QD",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "description": "Parallel output D (Bit 3)."
+    },
+    {
+      "id": "4",
+      "name": "QE",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "description": "Parallel output E (Bit 4)."
+    },
+    {
+      "id": "5",
+      "name": "QF",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "description": "Parallel output F (Bit 5)."
+    },
+    {
+      "id": "6",
+      "name": "QG",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "description": "Parallel output G (Bit 6)."
+    },
+    {
+      "id": "7",
+      "name": "QH",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "description": "Parallel output H (Bit 7)."
+    },
+    {
+      "id": "8",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Ground reference (0 V)."
+    },
+    {
+      "id": "9",
+      "name": "QH'",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "description": "Serial data output for cascading to next shift register."
+    },
+    {
+      "id": "10",
+      "name": "SRCLR",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Active-LOW Shift Register Clear (connect to VCC for normal operation)."
+    },
+    {
+      "id": "11",
+      "name": "SRCLK",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Shift Register Clock Input (rising edge shifts data)."
+    },
+    {
+      "id": "12",
+      "name": "RCLK",
+      "type": "clock",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Storage Register (Latch) Clock Input (rising edge updates parallel outputs)."
+    },
+    {
+      "id": "13",
+      "name": "OE",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Active-LOW Output Enable (connect to GND to enable outputs)."
+    },
+    {
+      "id": "14",
+      "name": "SER / DS",
+      "type": "digital",
+      "direction": "input",
+      "level": "3.3 V / 5 V logic",
+      "description": "Serial Data Input."
+    },
+    {
+      "id": "15",
+      "name": "QA",
+      "type": "digital",
+      "direction": "output",
+      "drive": "push-pull",
+      "description": "Parallel output A (Bit 0)."
+    },
+    {
+      "id": "16",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "voltage": {
+        "min": 2.0,
+        "nominal": 5.0,
+        "max": 6.0
+      },
+      "description": "Power supply input (+2.0 V to +6.0 V DC)."
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    },
+    "label": "74HC595",
+    "minSize": {
+      "width": 6,
+      "height": 9
+    }
+  },
+  "wiring": [
+    {
+      "id": "arduino-uno",
+      "label": "Arduino Uno",
+      "targetId": "board.arduino.uno",
+      "pins": {
+        "8": "GND",
+        "10": "5V",
+        "11": "D13",
+        "12": "D8",
+        "13": "GND",
+        "14": "D11",
+        "16": "5V"
+      }
+    }
+  ]
+}

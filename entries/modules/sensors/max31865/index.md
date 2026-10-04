@@ -20,6 +20,10 @@ Supporting **2-wire, 3-wire, and 4-wire RTD configurations**, the MAX31865 achie
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout module header & Terminal Block:
 
 | Pin | Name | Type | Description |

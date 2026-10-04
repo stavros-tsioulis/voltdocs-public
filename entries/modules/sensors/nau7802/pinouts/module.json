@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "NAU7802 Load Cell ADC Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Input (+2.7V to +5.5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock Input"
+      },
+      {
+        "designator": "4",
+        "name": "SDA",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Serial Data Line"
+      },
+      {
+        "designator": "5",
+        "name": "E+",
+        "type": "power",
+        "direction": "power-out",
+        "description": "Load Cell Excitation Positive Power Output (AVDD LDO)"
+      },
+      {
+        "designator": "6",
+        "name": "E-",
+        "type": "ground",
+        "direction": "power-out",
+        "description": "Load Cell Excitation Ground Output (AGND)"
+      },
+      {
+        "designator": "7",
+        "name": "A+",
+        "type": "analog",
+        "direction": "input",
+        "description": "Channel 1 Differential Analog Positive Input (SIG+ Green Wire)"
+      },
+      {
+        "designator": "8",
+        "name": "A-",
+        "type": "analog",
+        "direction": "input",
+        "description": "Channel 1 Differential Analog Negative Input (SIG- White Wire)"
+      }
+    ]
+  }
+}

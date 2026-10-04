@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "title": "TL431 TO-92 Shunt Regulator Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "REF",
+      "type": "input",
+      "description": "Voltage Reference Input (2.495V feedback threshold)"
+    },
+    {
+      "number": 2,
+      "name": "ANODE",
+      "type": "power-in",
+      "description": "Anode terminal (Ground reference / negative terminal)"
+    },
+    {
+      "number": 3,
+      "name": "CATHODE",
+      "type": "output",
+      "description": "Cathode terminal (Positive shunt output, VKA 2.5V to 36V)"
+    }
+  ]
+}

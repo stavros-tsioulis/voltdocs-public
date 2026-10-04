@@ -1,0 +1,175 @@
+{
+  "version": "1",
+  "title": "ATmega328P DIP-28 IC Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "RESET",
+      "type": "input",
+      "description": "Reset pin (Active LOW)"
+    },
+    {
+      "number": 2,
+      "name": "PD0 (RXD)",
+      "type": "inout",
+      "description": "USART Receive / GPIO PD0"
+    },
+    {
+      "number": 3,
+      "name": "PD1 (TXD)",
+      "type": "inout",
+      "description": "USART Transmit / GPIO PD1"
+    },
+    {
+      "number": 4,
+      "name": "PD2 (INT0)",
+      "type": "inout",
+      "description": "External Interrupt 0 / GPIO PD2"
+    },
+    {
+      "number": 5,
+      "name": "PD3 (INT1)",
+      "type": "inout",
+      "description": "External Interrupt 1 / PWM / GPIO PD3"
+    },
+    {
+      "number": 6,
+      "name": "PD4",
+      "type": "inout",
+      "description": "GPIO PD4 / XCK / T0"
+    },
+    {
+      "number": 7,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Digital supply voltage (1.8V to 5.5V)"
+    },
+    {
+      "number": 8,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 9,
+      "name": "PB6 (XTAL1)",
+      "type": "inout",
+      "description": "Crystal Oscillator Input / GPIO PB6"
+    },
+    {
+      "number": 10,
+      "name": "PB7 (XTAL2)",
+      "type": "inout",
+      "description": "Crystal Oscillator Output / GPIO PB7"
+    },
+    {
+      "number": 11,
+      "name": "PD5 (OC0B)",
+      "type": "inout",
+      "description": "Timer0 PWM / GPIO PD5"
+    },
+    {
+      "number": 12,
+      "name": "PD6 (OC0A)",
+      "type": "inout",
+      "description": "Timer0 PWM / GPIO PD6"
+    },
+    {
+      "number": 13,
+      "name": "PD7",
+      "type": "inout",
+      "description": "GPIO PD7 / AIN1"
+    },
+    {
+      "number": 14,
+      "name": "PB0",
+      "type": "inout",
+      "description": "GPIO PB0 / ICP1"
+    },
+    {
+      "number": 15,
+      "name": "PB1 (OC1A)",
+      "type": "inout",
+      "description": "Timer1 PWM / GPIO PB1"
+    },
+    {
+      "number": 16,
+      "name": "PB2 (SS)",
+      "type": "inout",
+      "description": "SPI Slave Select / Timer1 PWM / GPIO PB2"
+    },
+    {
+      "number": 17,
+      "name": "PB3 (MOSI)",
+      "type": "inout",
+      "description": "SPI Master Out Slave In / PWM / GPIO PB3"
+    },
+    {
+      "number": 18,
+      "name": "PB4 (MISO)",
+      "type": "inout",
+      "description": "SPI Master In Slave Out / GPIO PB4"
+    },
+    {
+      "number": 19,
+      "name": "PB5 (SCK)",
+      "type": "inout",
+      "description": "SPI Serial Clock / Onboard LED / GPIO PB5"
+    },
+    {
+      "number": 20,
+      "name": "AVCC",
+      "type": "power-in",
+      "description": "Supply voltage for ADC"
+    },
+    {
+      "number": 21,
+      "name": "AREF",
+      "type": "input",
+      "description": "Analog reference voltage for ADC"
+    },
+    {
+      "number": 22,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 23,
+      "name": "PC0 (ADC0)",
+      "type": "inout",
+      "description": "ADC Channel 0 / GPIO PC0"
+    },
+    {
+      "number": 24,
+      "name": "PC1 (ADC1)",
+      "type": "inout",
+      "description": "ADC Channel 1 / GPIO PC1"
+    },
+    {
+      "number": 25,
+      "name": "PC2 (ADC2)",
+      "type": "inout",
+      "description": "ADC Channel 2 / GPIO PC2"
+    },
+    {
+      "number": 26,
+      "name": "PC3 (ADC3)",
+      "type": "inout",
+      "description": "ADC Channel 3 / GPIO PC3"
+    },
+    {
+      "number": 27,
+      "name": "PC4 (SDA)",
+      "type": "inout",
+      "description": "I2C Data / ADC Channel 4 / GPIO PC4"
+    },
+    {
+      "number": 28,
+      "name": "PC5 (SCL)",
+      "type": "inout",
+      "description": "I2C Clock / ADC Channel 5 / GPIO PC5"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "title": "ENC28J60 Ethernet Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC / 3.3V",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Module Power Input (+3.3V to +5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "CS / SS",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low SPI Chip Select Input"
+      },
+      {
+        "designator": "4",
+        "name": "SCK / CLK",
+        "type": "clock",
+        "direction": "input",
+        "description": "SPI Serial Clock Input"
+      },
+      {
+        "designator": "5",
+        "name": "SI / MOSI",
+        "type": "bus",
+        "direction": "input",
+        "description": "SPI Serial Data Input (MOSI)"
+      },
+      {
+        "designator": "6",
+        "name": "SO / MISO",
+        "type": "bus",
+        "direction": "output",
+        "description": "SPI Serial Data Output (MISO)"
+      },
+      {
+        "designator": "7",
+        "name": "WOL",
+        "type": "digital",
+        "direction": "output",
+        "description": "Wake-On-LAN Signal Output"
+      },
+      {
+        "designator": "8",
+        "name": "INT",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-Low Interrupt Output"
+      },
+      {
+        "designator": "9",
+        "name": "RST / RESET",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low Reset Input"
+      },
+      {
+        "designator": "10",
+        "name": "CLKOUT",
+        "type": "clock",
+        "direction": "output",
+        "description": "Programmable Clock Output Pin"
+      }
+    ]
+  }
+}

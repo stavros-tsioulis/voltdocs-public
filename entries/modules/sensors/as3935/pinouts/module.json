@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "title": "AS3935 Lightning Sensor Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Input (+2.4V to +5.5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SCL / SCK",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock / SPI Clock Input"
+      },
+      {
+        "designator": "4",
+        "name": "SDA / MOSI",
+        "type": "i2c",
+        "direction": "inout",
+        "description": "I2C Serial Data / SPI Serial Data Input"
+      },
+      {
+        "designator": "5",
+        "name": "MISO / ADD0",
+        "type": "digital",
+        "direction": "output",
+        "description": "SPI Data Out / I2C Address Bit 0 Select"
+      },
+      {
+        "designator": "6",
+        "name": "CS",
+        "type": "digital",
+        "direction": "input",
+        "description": "Chip Select (High=I2C Mode, Low=SPI Mode)"
+      },
+      {
+        "designator": "7",
+        "name": "SI",
+        "type": "digital",
+        "direction": "input",
+        "description": "Interface Select (High=I2C Mode, Low=SPI Mode)"
+      },
+      {
+        "designator": "8",
+        "name": "IRQ",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-High Interrupt Output (Lightning / Disturber Event)"
+      }
+    ]
+  }
+}

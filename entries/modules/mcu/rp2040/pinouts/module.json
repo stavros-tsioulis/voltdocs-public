@@ -1,0 +1,247 @@
+{
+  "version": "1",
+  "title": "Raspberry Pi Pico (RP2040) Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "GP0",
+      "type": "inout",
+      "description": "GPIO 0 / UART0 TX / I2C0 SDA / PWM0 A"
+    },
+    {
+      "number": 2,
+      "name": "GP1",
+      "type": "inout",
+      "description": "GPIO 1 / UART0 RX / I2C0 SCL / PWM0 B"
+    },
+    {
+      "number": 3,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 4,
+      "name": "GP2",
+      "type": "inout",
+      "description": "GPIO 2 / SPI0 SCK / PWM1 A"
+    },
+    {
+      "number": 5,
+      "name": "GP3",
+      "type": "inout",
+      "description": "GPIO 3 / SPI0 TX / PWM1 B"
+    },
+    {
+      "number": 6,
+      "name": "GP4",
+      "type": "inout",
+      "description": "GPIO 4 / I2C0 SDA / PWM2 A"
+    },
+    {
+      "number": 7,
+      "name": "GP5",
+      "type": "inout",
+      "description": "GPIO 5 / I2C0 SCL / PWM2 B"
+    },
+    {
+      "number": 8,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 9,
+      "name": "GP6",
+      "type": "inout",
+      "description": "GPIO 6 / SPI0 RX / PWM3 A"
+    },
+    {
+      "number": 10,
+      "name": "GP7",
+      "type": "inout",
+      "description": "GPIO 7 / SPI0 CS / PWM3 B"
+    },
+    {
+      "number": 11,
+      "name": "GP8",
+      "type": "inout",
+      "description": "GPIO 8 / UART1 TX / I2C0 SDA / PWM4 A"
+    },
+    {
+      "number": 12,
+      "name": "GP9",
+      "type": "inout",
+      "description": "GPIO 9 / UART1 RX / I2C0 SCL / PWM4 B"
+    },
+    {
+      "number": 13,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 14,
+      "name": "GP10",
+      "type": "inout",
+      "description": "GPIO 10 / SPI1 SCK / PWM5 A"
+    },
+    {
+      "number": 15,
+      "name": "GP11",
+      "type": "inout",
+      "description": "GPIO 11 / SPI1 TX / PWM5 B"
+    },
+    {
+      "number": 16,
+      "name": "GP12",
+      "type": "inout",
+      "description": "GPIO 12 / I2C1 SDA / PWM6 A"
+    },
+    {
+      "number": 17,
+      "name": "GP13",
+      "type": "inout",
+      "description": "GPIO 13 / I2C1 SCL / PWM6 B"
+    },
+    {
+      "number": 18,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 19,
+      "name": "GP14",
+      "type": "inout",
+      "description": "GPIO 14 / SPI1 RX / PWM7 A"
+    },
+    {
+      "number": 20,
+      "name": "GP15",
+      "type": "inout",
+      "description": "GPIO 15 / SPI1 CS / PWM7 B"
+    },
+    {
+      "number": 21,
+      "name": "GP16",
+      "type": "inout",
+      "description": "GPIO 16 / SPI0 RX / PWM0 A"
+    },
+    {
+      "number": 22,
+      "name": "GP17",
+      "type": "inout",
+      "description": "GPIO 17 / SPI0 CS / PWM0 B"
+    },
+    {
+      "number": 23,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 24,
+      "name": "GP18",
+      "type": "inout",
+      "description": "GPIO 18 / SPI0 SCK / PWM1 A"
+    },
+    {
+      "number": 25,
+      "name": "GP19",
+      "type": "inout",
+      "description": "GPIO 19 / SPI0 TX / PWM1 B"
+    },
+    {
+      "number": 26,
+      "name": "GP20",
+      "type": "inout",
+      "description": "GPIO 20 / I2C0 SDA / PWM2 A"
+    },
+    {
+      "number": 27,
+      "name": "GP21",
+      "type": "inout",
+      "description": "GPIO 21 / I2C0 SCL / PWM2 B"
+    },
+    {
+      "number": 28,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 29,
+      "name": "GP22",
+      "type": "inout",
+      "description": "GPIO 22 / PWM3 A"
+    },
+    {
+      "number": 30,
+      "name": "RUN",
+      "type": "input",
+      "description": "Reset pin (Active LOW, pull to GND to reset)"
+    },
+    {
+      "number": 31,
+      "name": "GP26 (ADC0)",
+      "type": "inout",
+      "description": "GPIO 26 / ADC Channel 0"
+    },
+    {
+      "number": 32,
+      "name": "GP27 (ADC1)",
+      "type": "inout",
+      "description": "GPIO 27 / ADC Channel 1"
+    },
+    {
+      "number": 33,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 34,
+      "name": "GP28 (ADC2)",
+      "type": "inout",
+      "description": "GPIO 28 / ADC Channel 2"
+    },
+    {
+      "number": 35,
+      "name": "ADC_VREF",
+      "type": "input",
+      "description": "ADC Reference voltage input (3.3V default)"
+    },
+    {
+      "number": 36,
+      "name": "3V3_OUT",
+      "type": "power-out",
+      "description": "3.3V Regulated power output (up to 300mA)"
+    },
+    {
+      "number": 37,
+      "name": "3V3_EN",
+      "type": "input",
+      "description": "Onboard 3.3V SMPS enable pin (Active HIGH)"
+    },
+    {
+      "number": 38,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 39,
+      "name": "VSYS",
+      "type": "power-in",
+      "description": "Main system input voltage (1.8V to 5.5V)"
+    },
+    {
+      "number": 40,
+      "name": "VBUS",
+      "type": "power-in",
+      "description": "5V Power from Micro-USB port"
+    }
+  ]
+}

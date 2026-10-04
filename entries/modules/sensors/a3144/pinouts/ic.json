@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "A3144 TO-92 IC Package Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Voltage Input (+4.5V to +24V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "OUT",
+        "type": "digital",
+        "direction": "output",
+        "description": "Open-Collector Active-Low Digital Output"
+      }
+    ]
+  }
+}

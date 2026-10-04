@@ -19,6 +19,10 @@ Capable of capturing full-resolution $3280 \times 2464$ pixel still images and s
 
 ## Connector Pinout (Raspberry Pi 15-Pin CSI Ribbon)
 
+```pinout
+module
+```
+
 ```
         Pin 1 (GND) ────────────────────── Pin 15 (GND)
         [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 ]

@@ -34,6 +34,9 @@ highlights:
   - resolution_c
   - i2c_address_default
 body: index.md
+pinouts:
+  ic: pinouts/ic.json
+
 assets:
   - id: datasheet
     kind: datasheet

@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "title": "AMS1117-3.3 Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V) for fixed versions"
+    },
+    {
+      "number": 2,
+      "name": "VOUT",
+      "type": "power-out",
+      "description": "Regulated +3.3V DC output pin (connected to large heatsink tab)"
+    },
+    {
+      "number": 3,
+      "name": "VIN",
+      "type": "power-in",
+      "description": "Unregulated DC input voltage pin (+4.5V to +15V DC)"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "version": "1",
+  "title": "ESP8266 (ESP-12F) Module Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "REST",
+      "type": "input",
+      "description": "Reset pin (Active LOW, pull HIGH for normal operation)"
+    },
+    {
+      "number": 2,
+      "name": "ADC",
+      "type": "input",
+      "description": "10-bit ADC channel A0 (0V to 1.0V max)"
+    },
+    {
+      "number": 3,
+      "name": "EN / CH_PD",
+      "type": "input",
+      "description": "Chip Enable (Active HIGH, pull HIGH with 10k resistor to run)"
+    },
+    {
+      "number": 4,
+      "name": "GPIO16",
+      "type": "inout",
+      "description": "GPIO 16 / Deep Sleep wake-up pin (Connect to REST for auto-wake)"
+    },
+    {
+      "number": 5,
+      "name": "GPIO14",
+      "type": "inout",
+      "description": "GPIO 14 / HSPI_CLK"
+    },
+    {
+      "number": 6,
+      "name": "GPIO12",
+      "type": "inout",
+      "description": "GPIO 12 / HSPI_MISO"
+    },
+    {
+      "number": 7,
+      "name": "GPIO13",
+      "type": "inout",
+      "description": "GPIO 13 / HSPI_MOSI / UART0 CTS"
+    },
+    {
+      "number": 8,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Main supply voltage (3.0V to 3.6V DC, 3.3V nominal)"
+    },
+    {
+      "number": 9,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 10,
+      "name": "GPIO15",
+      "type": "inout",
+      "description": "GPIO 15 / HSPI_CS / Boot strapping pin (Must be pulled LOW to boot)"
+    },
+    {
+      "number": 11,
+      "name": "GPIO2",
+      "type": "inout",
+      "description": "GPIO 2 / UART1 TX / Boot strapping pin (Must be pulled HIGH to boot)"
+    },
+    {
+      "number": 12,
+      "name": "GPIO0",
+      "type": "inout",
+      "description": "GPIO 0 / Boot strapping pin (LOW = Flashing mode, HIGH = Normal boot)"
+    },
+    {
+      "number": 13,
+      "name": "GPIO4",
+      "type": "inout",
+      "description": "GPIO 4 / I2C SDA"
+    },
+    {
+      "number": 14,
+      "name": "GPIO5",
+      "type": "inout",
+      "description": "GPIO 5 / I2C SCL"
+    },
+    {
+      "number": 15,
+      "name": "RXD0",
+      "type": "inout",
+      "description": "GPIO 3 / UART0 RXD"
+    },
+    {
+      "number": 16,
+      "name": "TXD0",
+      "type": "inout",
+      "description": "GPIO 1 / UART0 TXD"
+    }
+  ]
+}

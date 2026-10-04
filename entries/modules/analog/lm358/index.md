@@ -20,6 +20,9 @@ Designed to operate from either a **single supply ($3.0\text{V}$ to $32.0\text{V
 
 ## Pinout (DIP-8 Package)
 
+```pinout ic
+```
+
 ```
              ┌───┴───┐
       OUTPUT A ─┤ 1   8 ├─ VCC (+VCC)

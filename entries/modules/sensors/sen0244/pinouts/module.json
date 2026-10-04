@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "title": "SEN0244 Breakout Module Pinout",
+  "orientation": "horizontal",
+  "pins": [
+    {
+      "number": 1,
+      "name": "SIGNAL",
+      "type": "output",
+      "description": "0V to 2.3V analog voltage output"
+    },
+    {
+      "number": 2,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Supply power input (+3.3 V to +5.5 V DC)"
+    },
+    {
+      "number": 3,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    }
+  ]
+}

@@ -31,6 +31,8 @@ highlights:
   - output_current_a_max
   - switching_frequency_khz
   - efficiency_pct
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

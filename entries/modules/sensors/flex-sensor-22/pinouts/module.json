@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "title": "Flex Sensor 2.2\" Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "Pin 1",
+        "type": "analog",
+        "direction": "passive",
+        "description": "Variable Resistor Terminal 1 (Connect to VCC)"
+      },
+      {
+        "designator": "2",
+        "name": "Pin 2",
+        "type": "analog",
+        "direction": "passive",
+        "description": "Variable Resistor Terminal 2 (Connect to ADC & Pull-Down Resistor)"
+      }
+    ]
+  }
+}

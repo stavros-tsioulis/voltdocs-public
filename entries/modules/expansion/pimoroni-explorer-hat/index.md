@@ -30,6 +30,10 @@ The HAT integrates three specialized ICs:
 
 ## Pinout & Connector Headers
 
+```pinout
+module
+```
+
 ### Screw Terminals & 0.1" Female Headers
 
 | Header Label | Function | Voltage / Logic | Description |

@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "title": "XPT2046 Touch Controller Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "X+",
+        "type": "analog",
+        "direction": "bidirectional",
+        "description": "Touch Panel X+ Drive / Sense Terminal"
+      },
+      {
+        "designator": "2",
+        "name": "Y+",
+        "type": "analog",
+        "direction": "bidirectional",
+        "description": "Touch Panel Y+ Drive / Sense Terminal"
+      },
+      {
+        "designator": "3",
+        "name": "X-",
+        "type": "analog",
+        "direction": "bidirectional",
+        "description": "Touch Panel X- Drive / Sense Terminal"
+      },
+      {
+        "designator": "4",
+        "name": "Y-",
+        "type": "analog",
+        "direction": "bidirectional",
+        "description": "Touch Panel Y- Drive / Sense Terminal"
+      },
+      {
+        "designator": "5",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "6",
+        "name": "VBAT",
+        "type": "analog",
+        "direction": "input",
+        "description": "Auxiliary Battery Voltage Monitor Input"
+      },
+      {
+        "designator": "7",
+        "name": "AUX",
+        "type": "analog",
+        "direction": "input",
+        "description": "Auxiliary Analog Input Channel"
+      },
+      {
+        "designator": "8",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Power Input (+2.7V to +5.5V DC)"
+      },
+      {
+        "designator": "9",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Supply Power Input (+2.7V to +5.5V DC)"
+      },
+      {
+        "designator": "10",
+        "name": "VREF",
+        "type": "analog",
+        "direction": "bidirectional",
+        "description": "Internal 2.5V Voltage Reference Output / External Reference Input"
+      },
+      {
+        "designator": "11",
+        "name": "PENIRQ / T_IRQ",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-Low Touch Interrupt Output (Low when touched)"
+      },
+      {
+        "designator": "12",
+        "name": "DOUT / MISO",
+        "type": "digital",
+        "direction": "output",
+        "description": "SPI Serial Data Output"
+      },
+      {
+        "designator": "13",
+        "name": "BUSY",
+        "type": "digital",
+        "direction": "output",
+        "description": "ADC Busy Output Line"
+      },
+      {
+        "designator": "14",
+        "name": "DIN / MOSI",
+        "type": "digital",
+        "direction": "input",
+        "description": "SPI Serial Data Input"
+      },
+      {
+        "designator": "15",
+        "name": "CS",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low SPI Chip Select Input"
+      },
+      {
+        "designator": "16",
+        "name": "DCLK / SCLK",
+        "type": "clock",
+        "direction": "input",
+        "description": "SPI Clock Input (Up to 2.5 MHz)"
+      }
+    ]
+  }
+}

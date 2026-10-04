@@ -19,6 +19,10 @@ Capable of measuring continuous bidirectional currents up to **$\pm 15\text{ A}$
 
 ## Pinout & High-Current Terminal Block
 
+```pinout
+module
+```
+
 Breakout board screw terminal & 6-pin logic header:
 
 | Pin | Name | Type | Description |

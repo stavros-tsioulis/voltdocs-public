@@ -30,6 +30,8 @@ highlights:
   - serial_interface
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

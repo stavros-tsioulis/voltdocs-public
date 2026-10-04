@@ -28,6 +28,8 @@ highlights:
   - max_clock_frequency_mhz
   - propagation_delay_ns
   - interfaces
+pinouts:
+  ic: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

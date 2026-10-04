@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "REF_FB",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin REF_FB"
+    },
+    {
+      "id": "2",
+      "name": "OP_IN-",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin OP_IN-"
+    },
+    {
+      "id": "3",
+      "name": "OP_IN+",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin OP_IN+"
+    },
+    {
+      "id": "4",
+      "name": "V-",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V-"
+    },
+    {
+      "id": "5",
+      "name": "BALANCE",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin BALANCE"
+    },
+    {
+      "id": "6",
+      "name": "OP_OUT",
+      "type": "analog",
+      "direction": "output",
+      "description": "Pin OP_OUT"
+    },
+    {
+      "id": "7",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V+"
+    },
+    {
+      "id": "8",
+      "name": "REF_OUT",
+      "type": "analog",
+      "direction": "output",
+      "description": "Pin REF_OUT"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

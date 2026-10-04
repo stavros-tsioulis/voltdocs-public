@@ -17,6 +17,11 @@ Output can **sink or source up to 200 mA**, so it can drive LEDs, small buzzers,
 
 ## Pin configuration
 
+```pinout
+ic
+```
+
+
 ```
              ┌───┴───┐
        GND ─┤ 1   8 ├─ VCC

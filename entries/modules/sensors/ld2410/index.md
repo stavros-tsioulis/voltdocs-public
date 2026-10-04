@@ -19,6 +19,10 @@ Unlike traditional PIR motion sensors that rely on thermal infrared movement and
 
 ## Pinout
 
+```pinout
+module
+```
+
 5-pin 0.1" (2.54 mm) connector header:
 
 | Pin | Name | Type | Description |

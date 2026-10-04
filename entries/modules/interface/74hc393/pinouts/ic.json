@@ -1,0 +1,127 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "1CLK'",
+      "type": "clock",
+      "direction": "input",
+      "description": "Pin 1CLK'"
+    },
+    {
+      "id": "2",
+      "name": "1CLR",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1CLR"
+    },
+    {
+      "id": "3",
+      "name": "1QA",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1QA"
+    },
+    {
+      "id": "4",
+      "name": "1QB",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1QB"
+    },
+    {
+      "id": "5",
+      "name": "1QC",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1QC"
+    },
+    {
+      "id": "6",
+      "name": "1QD",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1QD"
+    },
+    {
+      "id": "7",
+      "name": "GND",
+      "type": "ground",
+      "direction": "passive",
+      "description": "Pin GND"
+    },
+    {
+      "id": "8",
+      "name": "2CLK'",
+      "type": "clock",
+      "direction": "input",
+      "description": "Pin 2CLK'"
+    },
+    {
+      "id": "9",
+      "name": "2CLR",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2CLR"
+    },
+    {
+      "id": "10",
+      "name": "2QA",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2QA"
+    },
+    {
+      "id": "11",
+      "name": "2QB",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2QB"
+    },
+    {
+      "id": "12",
+      "name": "2QC",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2QC"
+    },
+    {
+      "id": "13",
+      "name": "2QD",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2QD"
+    },
+    {
+      "id": "14",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "right": [
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8"
+      ]
+    }
+  }
+}

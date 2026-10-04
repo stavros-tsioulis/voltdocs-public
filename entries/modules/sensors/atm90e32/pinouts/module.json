@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "title": "ATM90E32 Polyphase Energy Meter Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VDD",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Digital Core Power Supply (+3.3V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "CS / SS",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low SPI Chip Select Input"
+      },
+      {
+        "designator": "4",
+        "name": "SCLK",
+        "type": "clock",
+        "direction": "input",
+        "description": "SPI Serial Clock Input"
+      },
+      {
+        "designator": "5",
+        "name": "SDI / MOSI",
+        "type": "bus",
+        "direction": "input",
+        "description": "SPI Serial Data Input (MOSI)"
+      },
+      {
+        "designator": "6",
+        "name": "SDO / MISO",
+        "type": "bus",
+        "direction": "output",
+        "description": "SPI Serial Data Output (MISO)"
+      },
+      {
+        "designator": "7",
+        "name": "IRQ0 / WARN",
+        "type": "digital",
+        "direction": "output",
+        "description": "Active-Low Interrupt Output (Voltage Sag / Over-Current)"
+      },
+      {
+        "designator": "8",
+        "name": "VP",
+        "type": "analog",
+        "direction": "input",
+        "description": "Phase A Voltage Sense Input"
+      },
+      {
+        "designator": "9",
+        "name": "VN",
+        "type": "analog",
+        "direction": "input",
+        "description": "Phase B Voltage Sense Input"
+      },
+      {
+        "designator": "10",
+        "name": "VP2",
+        "type": "analog",
+        "direction": "input",
+        "description": "Phase C Voltage Sense Input"
+      },
+      {
+        "designator": "11",
+        "name": "I1P / I1N",
+        "type": "analog",
+        "direction": "input",
+        "description": "Phase A Current Transformer Differential Input"
+      },
+      {
+        "designator": "12",
+        "name": "I2P / I2N",
+        "type": "analog",
+        "direction": "input",
+        "description": "Phase B Current Transformer Differential Input"
+      },
+      {
+        "designator": "13",
+        "name": "I3P / I3N",
+        "type": "analog",
+        "direction": "input",
+        "description": "Phase C Current Transformer Differential Input"
+      }
+    ]
+  }
+}

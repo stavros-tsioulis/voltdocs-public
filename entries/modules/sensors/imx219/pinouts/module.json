@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "title": "IMX219 Camera Module 15-Pin CSI Connector Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "2",
+        "name": "CAM_D0_N",
+        "type": "bus",
+        "direction": "output",
+        "description": "MIPI CSI Data Lane 0 Differential Negative"
+      },
+      {
+        "designator": "3",
+        "name": "CAM_D0_P",
+        "type": "bus",
+        "direction": "output",
+        "description": "MIPI CSI Data Lane 0 Differential Positive"
+      },
+      {
+        "designator": "4",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "5",
+        "name": "CAM_D1_N",
+        "type": "bus",
+        "direction": "output",
+        "description": "MIPI CSI Data Lane 1 Differential Negative"
+      },
+      {
+        "designator": "6",
+        "name": "CAM_D1_P",
+        "type": "bus",
+        "direction": "output",
+        "description": "MIPI CSI Data Lane 1 Differential Positive"
+      },
+      {
+        "designator": "7",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "8",
+        "name": "CAM_CLK_N",
+        "type": "clock",
+        "direction": "output",
+        "description": "MIPI CSI Clock Lane Differential Negative"
+      },
+      {
+        "designator": "9",
+        "name": "CAM_CLK_P",
+        "type": "clock",
+        "direction": "output",
+        "description": "MIPI CSI Clock Lane Differential Positive"
+      },
+      {
+        "designator": "10",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "11",
+        "name": "CAM_GPIO",
+        "type": "digital",
+        "direction": "input",
+        "description": "Camera Enable / Shutdown Control"
+      },
+      {
+        "designator": "12",
+        "name": "SCL",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C CCI Serial Clock"
+      },
+      {
+        "designator": "13",
+        "name": "SDA",
+        "type": "bus",
+        "direction": "bidirectional",
+        "description": "I2C CCI Serial Data"
+      },
+      {
+        "designator": "14",
+        "name": "3V3",
+        "type": "power",
+        "direction": "power-in",
+        "description": "+3.3V Power Supply"
+      },
+      {
+        "designator": "15",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      }
+    ]
+  }
+}

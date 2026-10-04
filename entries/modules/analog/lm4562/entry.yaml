@@ -29,6 +29,9 @@ highlights:
   - gain_bandwidth_mhz
   - slew_rate_v_us
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

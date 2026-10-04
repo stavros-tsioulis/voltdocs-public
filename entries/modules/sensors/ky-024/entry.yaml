@@ -27,6 +27,8 @@ highlights:
   - quiescent_voltage_v
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

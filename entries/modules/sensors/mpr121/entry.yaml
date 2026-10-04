@@ -32,6 +32,9 @@ highlights:
   - touch_channels
   - i2c_address_default
 body: index.md
+pinouts:
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

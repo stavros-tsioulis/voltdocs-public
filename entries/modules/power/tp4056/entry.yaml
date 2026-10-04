@@ -30,6 +30,8 @@ highlights:
   - max_charge_current_a
   - default_rprog_resistor_kohm
   - interfaces
+pinouts:
+  module: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

@@ -18,6 +18,11 @@ Each input includes an internal **$2.7\text{ k}\Omega$ series base resistor**, a
 
 ## Pinout (DIP-18 Package)
 
+```pinout
+ic
+```
+
+
 ```
              ┌───┴───┐
           1B 1│ 1   18│ 1C

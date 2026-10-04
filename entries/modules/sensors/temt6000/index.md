@@ -18,6 +18,10 @@ Designed specifically to adapt to the human eye's spectral sensitivity curve (ph
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 3-pin 0.1" (2.54 mm) header:
 
 | Pin | Name | Type | Description |

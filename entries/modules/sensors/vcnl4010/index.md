@@ -21,6 +21,10 @@ Designed to detect object reflection and distance from **$1\text{ mm}$ to $200\t
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout module header & STEMMA QT / Qwiic connectors:
 
 | Pin | Name | Type | Description |

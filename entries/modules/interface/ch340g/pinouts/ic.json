@@ -1,0 +1,103 @@
+{
+  "version": "1",
+  "title": "CH340G SOP-16 USB-to-UART IC Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground connection (0 V)"
+    },
+    {
+      "number": 2,
+      "name": "TXD",
+      "type": "output",
+      "description": "Transmit Data output (UART serial output to MCU RXD)"
+    },
+    {
+      "number": 3,
+      "name": "RXD",
+      "type": "input",
+      "description": "Receive Data input (UART serial input from MCU TXD, 5V tolerant)"
+    },
+    {
+      "number": 4,
+      "name": "V3",
+      "type": "power-in",
+      "description": "3.3V Regulator bypass (100nF cap to GND in 5V mode; tie to VCC in 3.3V mode)"
+    },
+    {
+      "number": 5,
+      "name": "UD+",
+      "type": "inout",
+      "description": "USB D+ Differential Data line"
+    },
+    {
+      "number": 6,
+      "name": "UD-",
+      "type": "inout",
+      "description": "USB D- Differential Data line"
+    },
+    {
+      "number": 7,
+      "name": "XI",
+      "type": "input",
+      "description": "12 MHz Crystal Oscillator Input"
+    },
+    {
+      "number": 8,
+      "name": "XO",
+      "type": "output",
+      "description": "12 MHz Crystal Oscillator Output"
+    },
+    {
+      "number": 9,
+      "name": "CTS#",
+      "type": "input",
+      "description": "Clear To Send modem control input (Active LOW)"
+    },
+    {
+      "number": 10,
+      "name": "DSR#",
+      "type": "input",
+      "description": "Data Set Ready modem control input (Active LOW)"
+    },
+    {
+      "number": 11,
+      "name": "RI#",
+      "type": "input",
+      "description": "Ring Indicator modem control input (Active LOW)"
+    },
+    {
+      "number": 12,
+      "name": "DCD#",
+      "type": "input",
+      "description": "Data Carrier Detect modem control input (Active LOW)"
+    },
+    {
+      "number": 13,
+      "name": "DTR#",
+      "type": "output",
+      "description": "Data Terminal Ready modem control output (Active LOW, for MCU auto-reset)"
+    },
+    {
+      "number": 14,
+      "name": "RTS#",
+      "type": "output",
+      "description": "Request To Send modem control output (Active LOW)"
+    },
+    {
+      "number": 15,
+      "name": "RS232",
+      "type": "input",
+      "description": "Auxiliary control pin (Tie LOW for normal UART mode)"
+    },
+    {
+      "number": 16,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Power supply input (3.3V or 5.0V DC)"
+    }
+  ]
+}

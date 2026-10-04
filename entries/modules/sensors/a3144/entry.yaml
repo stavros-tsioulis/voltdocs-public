@@ -30,6 +30,10 @@ highlights:
   - max_output_sink_current_ma
   - interfaces
 body: index.md
+pinouts:
+  ic: pinouts/ic.json
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

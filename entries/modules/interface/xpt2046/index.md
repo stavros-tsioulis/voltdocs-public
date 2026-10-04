@@ -19,6 +19,10 @@ Integrating a 12-bit Successive Approximation Register (SAR) ADC, internal $2.5\
 
 ## Pinout (TSSOP-16 Package & TFT Module Headers)
 
+```pinout
+module
+```
+
 ```
              ┌───┴───┐
           X+ ─┤ 1   16├─ DCLK

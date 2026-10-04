@@ -32,6 +32,8 @@ highlights:
   - programmable_outputs
   - interfaces
 body: index.md
+pinouts:
+  module: pinouts/module.json
 assets:
   - id: datasheet
     kind: datasheet

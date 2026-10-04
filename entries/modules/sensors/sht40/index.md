@@ -19,6 +19,9 @@ Operating across an extended supply range of **$1.08\text{V}$ to $3.6\text{V}$ D
 
 ## Pinout
 
+```pinout module
+```
+
 Breakout module header & STEMMA QT / Qwiic connectors:
 
 | Pin | Name | Type | Description |

@@ -1,0 +1,127 @@
+{
+  "version": "1",
+  "title": "74HC245 DIP-20 Octal Bus Transceiver Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "DIR",
+      "type": "input",
+      "description": "Direction Control (HIGH = A -> B, LOW = B -> A)"
+    },
+    {
+      "number": 2,
+      "name": "A1",
+      "type": "inout",
+      "description": "Side A Data Channel 1"
+    },
+    {
+      "number": 3,
+      "name": "A2",
+      "type": "inout",
+      "description": "Side A Data Channel 2"
+    },
+    {
+      "number": 4,
+      "name": "A3",
+      "type": "inout",
+      "description": "Side A Data Channel 3"
+    },
+    {
+      "number": 5,
+      "name": "A4",
+      "type": "inout",
+      "description": "Side A Data Channel 4"
+    },
+    {
+      "number": 6,
+      "name": "A5",
+      "type": "inout",
+      "description": "Side A Data Channel 5"
+    },
+    {
+      "number": 7,
+      "name": "A6",
+      "type": "inout",
+      "description": "Side A Data Channel 6"
+    },
+    {
+      "number": 8,
+      "name": "A7",
+      "type": "inout",
+      "description": "Side A Data Channel 7"
+    },
+    {
+      "number": 9,
+      "name": "A8",
+      "type": "inout",
+      "description": "Side A Data Channel 8"
+    },
+    {
+      "number": 10,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V)"
+    },
+    {
+      "number": 11,
+      "name": "B8",
+      "type": "inout",
+      "description": "Side B Data Channel 8"
+    },
+    {
+      "number": 12,
+      "name": "B7",
+      "type": "inout",
+      "description": "Side B Data Channel 7"
+    },
+    {
+      "number": 13,
+      "name": "B6",
+      "type": "inout",
+      "description": "Side B Data Channel 6"
+    },
+    {
+      "number": 14,
+      "name": "B5",
+      "type": "inout",
+      "description": "Side B Data Channel 5"
+    },
+    {
+      "number": 15,
+      "name": "B4",
+      "type": "inout",
+      "description": "Side B Data Channel 4"
+    },
+    {
+      "number": 16,
+      "name": "B3",
+      "type": "inout",
+      "description": "Side B Data Channel 3"
+    },
+    {
+      "number": 17,
+      "name": "B2",
+      "type": "inout",
+      "description": "Side B Data Channel 2"
+    },
+    {
+      "number": 18,
+      "name": "B1",
+      "type": "inout",
+      "description": "Side B Data Channel 1"
+    },
+    {
+      "number": 19,
+      "name": "/OE",
+      "type": "input",
+      "description": "Output Enable (Active LOW, HIGH = High-Z tri-state)"
+    },
+    {
+      "number": 20,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Positive power supply (+2V to +6V DC)"
+    }
+  ]
+}

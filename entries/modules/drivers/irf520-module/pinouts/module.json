@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "IRF520 MOSFET Driver Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "SIG",
+        "type": "digital",
+        "direction": "input",
+        "description": "PWM / Logic Signal Input (+3.3V to +5.0V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "VCC",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Auxiliary Supply Power Input / Unconnected"
+      },
+      {
+        "designator": "3",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      }
+    ]
+  }
+}

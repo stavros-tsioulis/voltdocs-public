@@ -18,6 +18,10 @@ Unlike digital accelerometers (such as the ADXL345 or MPU6050) that output $I^2C
 
 ## Pinout
 
+```pinout
+module
+```
+
 Common 5-pin GY-61 breakout board header:
 
 | Pin | Name | Type | Description |

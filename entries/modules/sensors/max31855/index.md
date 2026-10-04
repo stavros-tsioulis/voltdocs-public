@@ -19,6 +19,9 @@ Integrating a 14-bit Signed ADC, internal cold-junction temperature compensation
 
 ## Pinout
 
+```pinout module
+```
+
 Breakout module 5-pin header & 2-pin screw terminal block:
 
 | Pin | Name | Type | Description |

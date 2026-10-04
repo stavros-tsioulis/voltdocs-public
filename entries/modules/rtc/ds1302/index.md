@@ -19,6 +19,10 @@ Communicating over a simple **3-wire synchronous serial interface (`CE`, `I/O`, 
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout module 5-pin 0.1" (2.54 mm) connector header:
 
 ```

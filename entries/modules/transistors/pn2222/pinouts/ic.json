@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "PN2222A NPN Transistor Pinout",
+  "layout": {
+    "package": "ic",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "Emitter",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Emitter Terminal (Connected to ground / common reference)"
+      },
+      {
+        "designator": "2",
+        "name": "Base",
+        "type": "digital",
+        "direction": "input",
+        "description": "Base Control Terminal (Connected to MCU pin via base resistor)"
+      },
+      {
+        "designator": "3",
+        "name": "Collector",
+        "type": "power",
+        "direction": "power-out",
+        "description": "Collector Terminal (Switched low-side load terminal)"
+      }
+    ]
+  }
+}

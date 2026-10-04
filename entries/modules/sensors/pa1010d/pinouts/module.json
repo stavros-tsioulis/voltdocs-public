@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "title": "PA1010D GNSS Receiver Module Pinout",
+  "layout": {
+    "package": "module",
+    "bottom": [
+      {
+        "designator": "1",
+        "name": "VIN",
+        "type": "power",
+        "direction": "power-in",
+        "description": "Module Power Input (+3.3V to +5V DC)"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "type": "ground",
+        "direction": "power-in",
+        "description": "Ground Reference (0V)"
+      },
+      {
+        "designator": "3",
+        "name": "SCL / RX",
+        "type": "clock",
+        "direction": "input",
+        "description": "I2C Serial Clock / UART Receive Input"
+      },
+      {
+        "designator": "4",
+        "name": "SDA / TX",
+        "type": "bus",
+        "direction": "bidirectional",
+        "description": "I2C Serial Data / UART Transmit Output"
+      },
+      {
+        "designator": "5",
+        "name": "PPS",
+        "type": "digital",
+        "direction": "output",
+        "description": "Pulse-Per-Second Time Synchronization Output (1 Hz Pulse)"
+      },
+      {
+        "designator": "6",
+        "name": "RST",
+        "type": "digital",
+        "direction": "input",
+        "description": "Active-Low Reset Input"
+      }
+    ]
+  }
+}

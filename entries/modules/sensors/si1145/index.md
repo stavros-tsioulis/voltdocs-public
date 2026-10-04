@@ -19,6 +19,9 @@ Instead of directly measuring weak UV photons, the SI1145 calculates the UV Inde
 
 ## Pinout
 
+```pinout module
+```
+
 Breakout module 6-pin header:
 
 | Pin | Name | Type | Description |

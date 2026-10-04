@@ -36,6 +36,9 @@ highlights:
   - pressure_range_hpa_max
   - i2c_address_default
 body: index.md
+pinouts:
+  module: pinouts/module.json
+
 assets:
   - id: datasheet
     kind: datasheet

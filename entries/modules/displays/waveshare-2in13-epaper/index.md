@@ -20,6 +20,10 @@ Electronic paper displays reflect ambient light just like physical paper, elimin
 
 ## Pinout (8-Pin JST Connector & Raspberry Pi 40-Pin Header)
 
+```pinout
+module
+```
+
 | Pin | Cable Color | Name | Type | Pi GPIO Header Pin | Description |
 |---|---|---|---|---|---|
 | 1 | Red | `VCC` | Power | Pin 2 (5V) / Pin 1 (3.3V) | Power supply (+3.3 V to +5.0 V DC) |

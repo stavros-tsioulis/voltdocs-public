@@ -20,6 +20,10 @@ With a resolution of **$0.0078125^\circ\text{C}$** ($1/128^\circ\text{C}$ per LS
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout module header & STEMMA QT connector:
 
 | Pin | Name | Type | Description |

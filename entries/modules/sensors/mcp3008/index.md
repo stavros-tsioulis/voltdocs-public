@@ -18,6 +18,10 @@ Capable of sampling up to **200 kSPS** at 5.0 V supply (and **75 kSPS** at 2.7 V
 
 ## Pinout (DIP-16 Package)
 
+```pinout
+module
+```
+
 ```
              ┌───┴───┐
        CH0 ──┤ 1   16├─ VDD

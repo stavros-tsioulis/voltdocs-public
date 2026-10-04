@@ -18,6 +18,10 @@ Offering an extreme dynamic range from **0.0036 Lux to 120,000 Lux** (resolving 
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 4-pin 0.1" (2.54 mm) header or Qwiic / STEMMA QT connector:
 
 | Pin | Name | Type | Description |

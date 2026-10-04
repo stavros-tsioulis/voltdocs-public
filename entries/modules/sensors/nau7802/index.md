@@ -19,6 +19,10 @@ Integrating a low-noise Programmable Gain Amplifier (PGA with gains up to **$\ti
 
 ## Pinout
 
+```pinout
+module
+```
+
 Breakout module header & Qwiic / STEMMA QT connectors:
 
 | Pin | Name | Type | Description |

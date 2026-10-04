@@ -1,0 +1,55 @@
+{
+  "version": "1",
+  "title": "MC34063A DIP-8 Converter IC Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "Switch Collector",
+      "type": "output",
+      "description": "Collector of internal output Darlington switch"
+    },
+    {
+      "number": 2,
+      "name": "Switch Emitter",
+      "type": "output",
+      "description": "Emitter of internal output Darlington switch"
+    },
+    {
+      "number": 3,
+      "name": "Timing Capacitor",
+      "type": "input",
+      "description": "Timing capacitor CT connection to GND (sets oscillator frequency)"
+    },
+    {
+      "number": 4,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Power and signal ground reference (0 V)"
+    },
+    {
+      "number": 5,
+      "name": "Comparator Inverting Input",
+      "type": "input",
+      "description": "Feedback input (1.25V threshold) connected to output voltage divider"
+    },
+    {
+      "number": 6,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Positive supply voltage (+3.0V to +40V DC)"
+    },
+    {
+      "number": 7,
+      "name": "IPK Sense",
+      "type": "input",
+      "description": "Peak current sense pin (Connected to VCC via RSC sense resistor)"
+    },
+    {
+      "number": 8,
+      "name": "Driver Collector",
+      "type": "input",
+      "description": "Collector of internal driver transistor"
+    }
+  ]
+}

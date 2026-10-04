@@ -17,6 +17,10 @@ The $8 \times 8$ photodiode array is split into four color filter sets: 16 photo
 
 ## Pinout
 
+```pinout
+module
+```
+
 Standard 8-pin or 10-pin breakout board header:
 
 | Pin | Name | Type | Description |

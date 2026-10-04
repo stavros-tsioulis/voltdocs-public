@@ -18,6 +18,11 @@ Widely sold as a medium-to-high power adjustable DC-DC step-up module, it accept
 
 ## Pinout & Module Terminals
 
+```pinout
+module
+```
+
+
 ### TO-263-5L Package IC
 
 ```

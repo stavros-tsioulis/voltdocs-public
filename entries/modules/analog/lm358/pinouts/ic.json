@@ -1,0 +1,55 @@
+{
+  "version": "1",
+  "title": "LM358 DIP-8 IC Pinout",
+  "orientation": "vertical",
+  "pins": [
+    {
+      "number": 1,
+      "name": "OUTPUT A",
+      "type": "output",
+      "description": "Op-Amp A Output"
+    },
+    {
+      "number": 2,
+      "name": "-INPUT A",
+      "type": "input",
+      "description": "Op-Amp A Inverting Input"
+    },
+    {
+      "number": 3,
+      "name": "+INPUT A",
+      "type": "input",
+      "description": "Op-Amp A Non-Inverting Input"
+    },
+    {
+      "number": 4,
+      "name": "GND",
+      "type": "power-in",
+      "description": "Ground reference (0 V) or Negative Power Supply (-VCC)"
+    },
+    {
+      "number": 5,
+      "name": "+INPUT B",
+      "type": "input",
+      "description": "Op-Amp B Non-Inverting Input"
+    },
+    {
+      "number": 6,
+      "name": "-INPUT B",
+      "type": "input",
+      "description": "Op-Amp B Inverting Input"
+    },
+    {
+      "number": 7,
+      "name": "OUTPUT B",
+      "type": "output",
+      "description": "Op-Amp B Output"
+    },
+    {
+      "number": 8,
+      "name": "VCC",
+      "type": "power-in",
+      "description": "Positive Power Supply Input (+3.0V to +32V)"
+    }
+  ]
+}

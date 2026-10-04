@@ -1,0 +1,127 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "OUT2",
+      "type": "analog",
+      "direction": "output",
+      "description": "Pin OUT2"
+    },
+    {
+      "id": "2",
+      "name": "OUT1",
+      "type": "analog",
+      "direction": "output",
+      "description": "Pin OUT1"
+    },
+    {
+      "id": "3",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V+"
+    },
+    {
+      "id": "4",
+      "name": "IN1-",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN1-"
+    },
+    {
+      "id": "5",
+      "name": "IN1+",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN1+"
+    },
+    {
+      "id": "6",
+      "name": "IN2-",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN2-"
+    },
+    {
+      "id": "7",
+      "name": "IN2+",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN2+"
+    },
+    {
+      "id": "8",
+      "name": "IN3-",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN3-"
+    },
+    {
+      "id": "9",
+      "name": "IN3+",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN3+"
+    },
+    {
+      "id": "10",
+      "name": "IN4-",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN4-"
+    },
+    {
+      "id": "11",
+      "name": "IN4+",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN4+"
+    },
+    {
+      "id": "12",
+      "name": "V-",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V-"
+    },
+    {
+      "id": "13",
+      "name": "OUT4",
+      "type": "analog",
+      "direction": "output",
+      "description": "Pin OUT4"
+    },
+    {
+      "id": "14",
+      "name": "OUT3",
+      "type": "analog",
+      "direction": "output",
+      "description": "Pin OUT3"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "right": [
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8"
+      ]
+    }
+  }
+}

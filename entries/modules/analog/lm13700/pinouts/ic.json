@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "AMP_BIAS_IN_1",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin AMP_BIAS_IN_1"
+    },
+    {
+      "id": "2",
+      "name": "DIODE_BIAS_1",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin DIODE_BIAS_1"
+    },
+    {
+      "id": "3",
+      "name": "IN1+",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN1+"
+    },
+    {
+      "id": "4",
+      "name": "IN1-",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN1-"
+    },
+    {
+      "id": "5",
+      "name": "OUT1",
+      "type": "analog",
+      "direction": "output",
+      "description": "Pin OUT1"
+    },
+    {
+      "id": "6",
+      "name": "V-",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V-"
+    },
+    {
+      "id": "7",
+      "name": "BUF_IN_1",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin BUF_IN_1"
+    },
+    {
+      "id": "8",
+      "name": "BUF_OUT_1",
+      "type": "analog",
+      "direction": "output",
+      "description": "Pin BUF_OUT_1"
+    },
+    {
+      "id": "9",
+      "name": "BUF_OUT_2",
+      "type": "analog",
+      "direction": "output",
+      "description": "Pin BUF_OUT_2"
+    },
+    {
+      "id": "10",
+      "name": "BUF_IN_2",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin BUF_IN_2"
+    },
+    {
+      "id": "11",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V+"
+    },
+    {
+      "id": "12",
+      "name": "OUT2",
+      "type": "analog",
+      "direction": "output",
+      "description": "Pin OUT2"
+    },
+    {
+      "id": "13",
+      "name": "IN2-",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN2-"
+    },
+    {
+      "id": "14",
+      "name": "IN2+",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN2+"
+    },
+    {
+      "id": "15",
+      "name": "DIODE_BIAS_2",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin DIODE_BIAS_2"
+    },
+    {
+      "id": "16",
+      "name": "AMP_BIAS_IN_2",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin AMP_BIAS_IN_2"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}
