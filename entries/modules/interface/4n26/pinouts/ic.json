@@ -1,0 +1,72 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "A",
+      "type": "analog",
+      "direction": [
+        "digital",
+        "input"
+      ],
+      "description": "Pin A"
+    },
+    {
+      "id": "2",
+      "name": "K",
+      "type": "other",
+      "direction": "passive",
+      "description": "Pin K"
+    },
+    {
+      "id": "3",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "4",
+      "name": "E",
+      "type": "other",
+      "direction": "passive",
+      "description": "Pin E"
+    },
+    {
+      "id": "5",
+      "name": "C",
+      "type": "analog",
+      "direction": [
+        "digital",
+        "input"
+      ],
+      "description": "Pin C"
+    },
+    {
+      "id": "6",
+      "name": "B",
+      "type": "analog",
+      "direction": [
+        "digital",
+        "input"
+      ],
+      "description": "Pin B"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3"
+      ],
+      "right": [
+        "6",
+        "5",
+        "4"
+      ]
+    }
+  }
+}

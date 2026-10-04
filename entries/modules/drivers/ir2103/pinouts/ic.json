@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "2",
+      "name": "HIN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin HIN"
+    },
+    {
+      "id": "3",
+      "name": "LIN'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin LIN'"
+    },
+    {
+      "id": "4",
+      "name": "COM",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin COM"
+    },
+    {
+      "id": "5",
+      "name": "LO",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LO"
+    },
+    {
+      "id": "6",
+      "name": "VS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VS"
+    },
+    {
+      "id": "7",
+      "name": "HO",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin HO"
+    },
+    {
+      "id": "8",
+      "name": "VB",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VB"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

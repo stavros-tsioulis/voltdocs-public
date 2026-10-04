@@ -1,0 +1,85 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    },
+    {
+      "id": "2",
+      "name": "IN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin IN"
+    },
+    {
+      "id": "3",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "5",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "6",
+      "name": "OUT",
+      "type": "digital",
+      "direction": [
+        "analog",
+        "output"
+      ],
+      "description": "Pin OUT"
+    },
+    {
+      "id": "7",
+      "name": "OUT",
+      "type": "digital",
+      "direction": [
+        "analog",
+        "output"
+      ],
+      "description": "Pin OUT"
+    },
+    {
+      "id": "8",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

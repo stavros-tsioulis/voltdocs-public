@@ -35,6 +35,9 @@ highlights:
   - input_offset_voltage_uv
   - input_noise_voltage_nv_sqrt_hz
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

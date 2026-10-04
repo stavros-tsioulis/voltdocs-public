@@ -1,0 +1,127 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "LO",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LO"
+    },
+    {
+      "id": "2",
+      "name": "COM",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin COM"
+    },
+    {
+      "id": "3",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "4",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "5",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "6",
+      "name": "VS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VS"
+    },
+    {
+      "id": "7",
+      "name": "VB",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VB"
+    },
+    {
+      "id": "8",
+      "name": "HO",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin HO"
+    },
+    {
+      "id": "9",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "10",
+      "name": "HIN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin HIN"
+    },
+    {
+      "id": "11",
+      "name": "SD",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SD"
+    },
+    {
+      "id": "12",
+      "name": "LIN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin LIN"
+    },
+    {
+      "id": "13",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    },
+    {
+      "id": "14",
+      "name": "VSS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VSS"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "right": [
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8"
+      ]
+    }
+  }
+}

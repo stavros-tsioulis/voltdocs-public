@@ -1,0 +1,82 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "OFFSET_N1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin OFFSET_N1"
+    },
+    {
+      "id": "2",
+      "name": "IN-",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN-"
+    },
+    {
+      "id": "3",
+      "name": "IN+",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin IN+"
+    },
+    {
+      "id": "4",
+      "name": "V-",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V-"
+    },
+    {
+      "id": "5",
+      "name": "OFFSET_N2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin OFFSET_N2"
+    },
+    {
+      "id": "6",
+      "name": "OUT",
+      "type": "digital",
+      "direction": [
+        "analog",
+        "output"
+      ],
+      "description": "Pin OUT"
+    },
+    {
+      "id": "7",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V+"
+    },
+    {
+      "id": "8",
+      "name": "STROBE",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin STROBE"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

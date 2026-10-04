@@ -29,6 +29,9 @@ highlights:
   - collector_current_ic_ma
   - current_transfer_ratio_ctr_pct
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

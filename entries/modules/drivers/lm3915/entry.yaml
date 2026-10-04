@@ -28,6 +28,9 @@ highlights:
   - display_modes
   - dynamic_range_db
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

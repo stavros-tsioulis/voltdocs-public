@@ -35,6 +35,9 @@ references:
     relation: alternative-to
   - targetId: driver.motor.drv8801
     relation: see-also
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

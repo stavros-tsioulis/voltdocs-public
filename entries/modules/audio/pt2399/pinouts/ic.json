@@ -1,0 +1,155 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "2",
+      "name": "REF",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin REF"
+    },
+    {
+      "id": "3",
+      "name": "AGND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin AGND"
+    },
+    {
+      "id": "4",
+      "name": "DGND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin DGND"
+    },
+    {
+      "id": "5",
+      "name": "CLK_O",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CLK_O"
+    },
+    {
+      "id": "6",
+      "name": "VCO",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VCO"
+    },
+    {
+      "id": "7",
+      "name": "CC1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CC1"
+    },
+    {
+      "id": "8",
+      "name": "CC0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CC0"
+    },
+    {
+      "id": "9",
+      "name": "OP1_OUT",
+      "type": "digital",
+      "direction": [
+        "analog",
+        "output"
+      ],
+      "description": "Pin OP1_OUT"
+    },
+    {
+      "id": "10",
+      "name": "OP1_IN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin OP1_IN"
+    },
+    {
+      "id": "11",
+      "name": "OP2_IN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin OP2_IN"
+    },
+    {
+      "id": "12",
+      "name": "OP2_OUT",
+      "type": "digital",
+      "direction": [
+        "analog",
+        "output"
+      ],
+      "description": "Pin OP2_OUT"
+    },
+    {
+      "id": "13",
+      "name": "LPF2_IN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin LPF2_IN"
+    },
+    {
+      "id": "14",
+      "name": "LPF2_OUT",
+      "type": "digital",
+      "direction": [
+        "analog",
+        "output"
+      ],
+      "description": "Pin LPF2_OUT"
+    },
+    {
+      "id": "15",
+      "name": "LPF1_IN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin LPF1_IN"
+    },
+    {
+      "id": "16",
+      "name": "LPF1_OUT",
+      "type": "digital",
+      "direction": [
+        "analog",
+        "output"
+      ],
+      "description": "Pin LPF1_OUT"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

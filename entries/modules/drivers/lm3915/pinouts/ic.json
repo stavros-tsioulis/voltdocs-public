@@ -1,0 +1,162 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "LED1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LED1"
+    },
+    {
+      "id": "2",
+      "name": "V-",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V-"
+    },
+    {
+      "id": "3",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V+"
+    },
+    {
+      "id": "4",
+      "name": "RLO",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin RLO"
+    },
+    {
+      "id": "5",
+      "name": "SIG",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin SIG"
+    },
+    {
+      "id": "6",
+      "name": "RHI",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin RHI"
+    },
+    {
+      "id": "7",
+      "name": "REF_OUT",
+      "type": "digital",
+      "direction": [
+        "analog",
+        "output"
+      ],
+      "description": "Pin REF_OUT"
+    },
+    {
+      "id": "8",
+      "name": "REF_ADJ",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin REF_ADJ"
+    },
+    {
+      "id": "9",
+      "name": "MODE",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin MODE"
+    },
+    {
+      "id": "10",
+      "name": "LED10",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LED10"
+    },
+    {
+      "id": "11",
+      "name": "LED9",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LED9"
+    },
+    {
+      "id": "12",
+      "name": "LED8",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LED8"
+    },
+    {
+      "id": "13",
+      "name": "LED7",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LED7"
+    },
+    {
+      "id": "14",
+      "name": "LED6",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LED6"
+    },
+    {
+      "id": "15",
+      "name": "LED5",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LED5"
+    },
+    {
+      "id": "16",
+      "name": "LED4",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LED4"
+    },
+    {
+      "id": "17",
+      "name": "LED3",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LED3"
+    },
+    {
+      "id": "18",
+      "name": "LED2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LED2"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "right": [
+        "18",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10"
+      ]
+    }
+  }
+}

@@ -32,6 +32,9 @@ highlights:
   - peak_sink_current_ma
   - internal_deadtime_ns
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

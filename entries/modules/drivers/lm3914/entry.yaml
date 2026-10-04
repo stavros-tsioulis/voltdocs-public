@@ -27,6 +27,9 @@ highlights:
   - display_modes
   - reference_voltage_v
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet
