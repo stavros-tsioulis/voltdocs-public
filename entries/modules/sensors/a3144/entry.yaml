@@ -33,7 +33,8 @@ body: index.md
 pinouts:
   - id: ic
     path: pinouts/ic.json
-  module: pinouts/module.json
+  - id: module
+    path: pinouts/module.json
 
 assets:
   - id: datasheet
