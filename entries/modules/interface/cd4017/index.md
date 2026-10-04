@@ -17,8 +17,8 @@ It includes a `RESET` pin to zero the counter, a `CLOCK INHIBIT` pin to freeze c
 
 ## Pinout (DIP-16 Package)
 
-```pinout ic
-ic: pinouts/ic.json
+```pinout
+ic
 ```
 
 ```

@@ -30,7 +30,8 @@ highlights:
   - forward_voltage_drop_vf_v
   - interfaces
 pinouts:
-  ic: pinouts/ic.json
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

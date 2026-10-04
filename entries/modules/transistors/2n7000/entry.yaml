@@ -32,7 +32,8 @@ highlights:
   - rds_on_vgs_10v_ohm
   - interfaces
 pinouts:
-  ic: pinouts/ic.json
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

@@ -31,7 +31,8 @@ highlights:
   - pwm_resolution_bits
   - interfaces
 pinouts:
-  ic: pinouts/ic.json
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

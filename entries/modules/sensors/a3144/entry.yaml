@@ -31,7 +31,8 @@ highlights:
   - interfaces
 body: index.md
 pinouts:
-  ic: pinouts/ic.json
+  - id: ic
+    path: pinouts/ic.json
   module: pinouts/module.json
 
 assets:

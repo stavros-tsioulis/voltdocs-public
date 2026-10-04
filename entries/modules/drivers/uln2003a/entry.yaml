@@ -28,7 +28,8 @@ highlights:
   - integrated_flyback_diodes
   - interfaces
 pinouts:
-  ic: pinouts/ic.json
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

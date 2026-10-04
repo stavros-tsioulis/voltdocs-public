@@ -18,8 +18,8 @@ Operating across a supply range of **4.5V to 16.0V DC**, both output drivers can
 
 ## Pinout (DIP-14 Package)
 
-```pinout ic
-ic: pinouts/ic.json
+```pinout
+ic
 ```
 
 ```

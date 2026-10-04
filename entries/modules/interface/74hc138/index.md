@@ -18,8 +18,8 @@ The device incorporates three enable inputs: one active-HIGH (`G1`) and two acti
 
 ## Pinout (DIP-16 Package)
 
-```pinout ic
-ic: pinouts/ic.json
+```pinout
+ic
 ```
 
 ```

@@ -2,7 +2,7 @@ id: analog.opamp.lm324
 revision: "1.0"
 title: LM324 — Quad Low-Power Operational Amplifier
 category: analog/opamp
-tags: [lm324, lm324n, op-amp, operational-amplifier, quad, "4-channel", dip-14, ti, stmicroelectronics]
+tags: [lm324, lm324n, op-amp, operational-amplifier, quad, 4-channel, dip-14, ti, stmicroelectronics]
 status: published
 summary: >-
   Texas Instruments / STMicroelectronics industry-standard 4-channel (quad) op-amp IC in 14-pin DIP package operating from single (3V to 32V) or split (±1.5V to ±16V) power supplies.
@@ -33,7 +33,8 @@ highlights:
   - input_offset_voltage_mv
   - interfaces
 pinouts:
-  ic: pinouts/ic.json
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet
