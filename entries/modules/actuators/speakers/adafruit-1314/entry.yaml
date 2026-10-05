@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Adafruit 1314"
 category: actuators/speakers
 status: draft
-summary: "3" 4Ω 3W enclosure speaker widely used with the Speaker Bonnet/PAM8302 amps on Raspberry Pi projects; represents 3351, 4445, 1669."
+summary: '3" 4Ω 3W enclosure speaker widely used with the Speaker Bonnet/PAM8302 amps on Raspberry Pi projects; represents 3351, 4445, 1669.'
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []
