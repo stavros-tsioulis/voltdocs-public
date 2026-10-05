@@ -2,7 +2,7 @@ id: interface.switches.d2f-01l
 revision: "1.0.0"
 title: "D2F-01L"
 category: interface/switches
-status: stub
+status: draft
 summary: "D2F-01L imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

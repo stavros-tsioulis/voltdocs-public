@@ -2,7 +2,7 @@ id: diodes.bat54s
 revision: "1.0.0"
 title: "BAT54S"
 category: diodes
-status: stub
+status: draft
 summary: "BAT54S imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

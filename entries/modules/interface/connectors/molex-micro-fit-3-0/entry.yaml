@@ -2,7 +2,7 @@ id: interface.connectors.molex-micro-fit-3-0
 revision: "1.0.0"
 title: "Molex Micro-Fit 3.0 (43025/43045)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Molex Micro-Fit 3.0 (43025/43045) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

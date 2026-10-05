@@ -2,7 +2,7 @@ id: interface.connectors.4mm-bullet-connector
 revision: "1.0.0"
 title: "4mm bullet connector (banana-style)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "4mm bullet connector (banana-style) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: passives.fuses.gma-3a
 revision: "1.0.0"
 title: "GMA-3A"
 category: passives/fuses
-status: stub
+status: draft
 summary: "GMA-3A imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

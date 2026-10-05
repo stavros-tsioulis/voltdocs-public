@@ -2,7 +2,7 @@ id: diodes.smbj5-0a
 revision: "1.0.0"
 title: "SMBJ5.0A"
 category: diodes
-status: stub
+status: draft
 summary: "SMBJ5.0A imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

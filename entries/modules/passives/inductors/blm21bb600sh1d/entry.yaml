@@ -2,7 +2,7 @@ id: passives.inductors.blm21bb600sh1d
 revision: "1.0.0"
 title: "BLM21BB600SH1D"
 category: passives/inductors
-status: stub
+status: draft
 summary: "BLM21BB600SH1D imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

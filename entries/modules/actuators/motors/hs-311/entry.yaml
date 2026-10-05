@@ -2,7 +2,7 @@ id: actuators.motors.hs-311
 revision: "1.0.0"
 title: "HS-311"
 category: actuators/motors
-status: stub
+status: draft
 summary: "HS-311 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

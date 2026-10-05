@@ -2,7 +2,7 @@ id: interface.switches.ss12d00
 revision: "1.0.0"
 title: "SS12D00"
 category: interface/switches
-status: stub
+status: draft
 summary: "SS12D00 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

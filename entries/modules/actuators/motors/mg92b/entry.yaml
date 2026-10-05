@@ -2,7 +2,7 @@ id: actuators.motors.mg92b
 revision: "1.0.0"
 title: "MG92B"
 category: actuators/motors
-status: stub
+status: draft
 summary: "MG92B imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

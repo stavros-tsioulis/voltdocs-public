@@ -2,7 +2,7 @@ id: interface.connectors.kf128-series
 revision: "1.0.0"
 title: "KF128 series"
 category: interface/connectors
-status: stub
+status: draft
 summary: "KF128 series imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

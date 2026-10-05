@@ -2,7 +2,7 @@ id: passives.fuses.agc-2
 revision: "1.0.0"
 title: "AGC-2"
 category: passives/fuses
-status: stub
+status: draft
 summary: "AGC-2 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

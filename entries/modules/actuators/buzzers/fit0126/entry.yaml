@@ -2,7 +2,7 @@ id: actuators.buzzers.fit0126
 revision: "1.0.0"
 title: "FIT0126"
 category: actuators/buzzers
-status: stub
+status: draft
 summary: "FIT0126 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

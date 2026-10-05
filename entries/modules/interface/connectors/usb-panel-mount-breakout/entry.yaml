@@ -2,7 +2,7 @@ id: interface.connectors.usb-panel-mount-breakout
 revision: "1.0.0"
 title: "USB-A/B/C panel-mount breakout connector"
 category: interface/connectors
-status: stub
+status: draft
 summary: "USB-A/B/C panel-mount breakout connector imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

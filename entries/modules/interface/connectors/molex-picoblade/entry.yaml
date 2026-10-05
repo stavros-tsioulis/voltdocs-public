@@ -2,7 +2,7 @@ id: interface.connectors.molex-picoblade
 revision: "1.0.0"
 title: "Molex PicoBlade (53398/53047 series)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Molex PicoBlade (53398/53047 series) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

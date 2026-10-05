@@ -2,7 +2,7 @@ id: passives.capacitors.0-1uf-film-mkt
 revision: "1.0.0"
 title: "0.1µF film (polyester/MKT)"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "0.1µF film (polyester/MKT) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

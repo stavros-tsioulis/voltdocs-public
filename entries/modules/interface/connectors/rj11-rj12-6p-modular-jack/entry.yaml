@@ -2,7 +2,7 @@ id: interface.connectors.rj11-rj12-6p-modular-jack
 revision: "1.0.0"
 title: "RJ11/RJ12 6P modular jack"
 category: interface/connectors
-status: stub
+status: draft
 summary: "RJ11/RJ12 6P modular jack imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

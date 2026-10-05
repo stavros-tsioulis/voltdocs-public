@@ -2,7 +2,7 @@ id: passives.resistors.51-1-4w-5
 revision: "1.0.0"
 title: "51Ω 1/4W 5%"
 category: passives/resistors
-status: stub
+status: draft
 summary: "51Ω 1/4W 5% imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

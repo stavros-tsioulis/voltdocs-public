@@ -2,7 +2,7 @@ id: passives.fuses.mega-midi-maxi-blade-fuse
 revision: "1.0.0"
 title: "MEGA/MIDI/Maxi blade fuse"
 category: passives/fuses
-status: stub
+status: draft
 summary: "MEGA/MIDI/Maxi blade fuse imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

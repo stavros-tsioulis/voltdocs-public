@@ -2,7 +2,7 @@ id: passives.capacitors.1uf-electrolytic
 revision: "1.0.0"
 title: "1µF electrolytic"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "1µF electrolytic imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

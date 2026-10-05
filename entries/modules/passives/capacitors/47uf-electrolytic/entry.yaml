@@ -2,7 +2,7 @@ id: passives.capacitors.47uf-electrolytic
 revision: "1.0.0"
 title: "47µF electrolytic"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "47µF electrolytic imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

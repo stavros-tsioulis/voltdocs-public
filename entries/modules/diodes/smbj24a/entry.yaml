@@ -2,7 +2,7 @@ id: diodes.smbj24a
 revision: "1.0.0"
 title: "SMBJ24A"
 category: diodes
-status: stub
+status: draft
 summary: "SMBJ24A imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

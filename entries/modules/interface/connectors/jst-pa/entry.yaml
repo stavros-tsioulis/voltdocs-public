@@ -2,7 +2,7 @@ id: interface.connectors.jst-pa
 revision: "1.0.0"
 title: "JST PA (2/3-pin)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "JST PA (2/3-pin) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

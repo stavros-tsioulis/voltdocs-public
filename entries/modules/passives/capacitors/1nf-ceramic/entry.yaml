@@ -2,7 +2,7 @@ id: passives.capacitors.1nf-ceramic
 revision: "1.0.0"
 title: "1nF ceramic (1000pF)"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "1nF ceramic (1000pF) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

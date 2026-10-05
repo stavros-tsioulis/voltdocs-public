@@ -2,7 +2,7 @@ id: interface.connectors.fan-connector
 revision: "1.0.0"
 title: "PC/3D-printer fan connector (3/4-pin, JST-PH style)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "PC/3D-printer fan connector (3/4-pin, JST-PH style) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

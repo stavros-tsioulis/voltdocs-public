@@ -2,7 +2,7 @@ id: actuators.motors.17hs4401
 revision: "1.0.0"
 title: "17HS4401"
 category: actuators/motors
-status: stub
+status: draft
 summary: "17HS4401 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

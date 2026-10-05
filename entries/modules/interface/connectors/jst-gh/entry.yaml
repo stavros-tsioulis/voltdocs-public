@@ -2,7 +2,7 @@ id: interface.connectors.jst-gh
 revision: "1.0.0"
 title: "JST GH (1.25mm)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "JST GH (1.25mm) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

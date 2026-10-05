@@ -2,7 +2,7 @@ id: interface.connectors.usb-type-a-receptacle
 revision: "1.0.0"
 title: "USB Type-A receptacle"
 category: interface/connectors
-status: stub
+status: draft
 summary: "USB Type-A receptacle imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

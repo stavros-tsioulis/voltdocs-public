@@ -2,7 +2,7 @@ id: passives.inductors.srr1260-101m
 revision: "1.0.0"
 title: "SRR1260-101M"
 category: passives/inductors
-status: stub
+status: draft
 summary: "SRR1260-101M imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: actuators.motors.tt-motor
 revision: "1.0.0"
 title: "TT Motor (DC gearbox, 1:48)"
 category: actuators/motors
-status: stub
+status: draft
 summary: "TT Motor (DC gearbox, 1:48) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

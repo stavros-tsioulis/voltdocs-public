@@ -2,7 +2,7 @@ id: actuators.buzzers.com-07950
 revision: "1.0.0"
 title: "COM-07950"
 category: actuators/buzzers
-status: stub
+status: draft
 summary: "COM-07950 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

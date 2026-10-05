@@ -2,7 +2,7 @@ id: optoelectronics.leds.apa107
 revision: "1.0.0"
 title: "APA107"
 category: optoelectronics/leds
-status: stub
+status: draft
 summary: "APA107 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

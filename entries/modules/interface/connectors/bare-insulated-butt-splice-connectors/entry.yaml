@@ -2,7 +2,7 @@ id: interface.connectors.bare-insulated-butt-splice-connectors
 revision: "1.0.0"
 title: "Bare/insulated butt splice connectors"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Bare/insulated butt splice connectors imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: interface.connectors.dupont-2-54mm-crimp-connector
 revision: "1.0.0"
 title: "Dupont 2.54mm crimp connector housings + pins"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Dupont 2.54mm crimp connector housings + pins imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

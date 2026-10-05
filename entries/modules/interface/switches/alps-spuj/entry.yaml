@@ -2,7 +2,7 @@ id: interface.switches.alps-spuj
 revision: "1.0.0"
 title: "Alps SPUJ"
 category: interface/switches
-status: stub
+status: draft
 summary: "Alps SPUJ imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

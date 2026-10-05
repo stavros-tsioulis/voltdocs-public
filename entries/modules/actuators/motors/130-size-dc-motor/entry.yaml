@@ -2,7 +2,7 @@ id: actuators.motors.130-size-dc-motor
 revision: "1.0.0"
 title: "130 size DC motor"
 category: actuators/motors
-status: stub
+status: draft
 summary: "130 size DC motor imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

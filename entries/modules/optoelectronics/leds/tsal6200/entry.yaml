@@ -2,7 +2,7 @@ id: optoelectronics.leds.tsal6200
 revision: "1.0.0"
 title: "TSAL6200"
 category: optoelectronics/leds
-status: stub
+status: draft
 summary: "TSAL6200 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

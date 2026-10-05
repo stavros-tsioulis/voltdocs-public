@@ -2,7 +2,7 @@ id: passives.fuses.mf-usmf050-2
 revision: "1.0.0"
 title: "MF-USMF050-2"
 category: passives/fuses
-status: stub
+status: draft
 summary: "MF-USMF050-2 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

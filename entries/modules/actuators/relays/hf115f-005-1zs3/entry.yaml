@@ -2,7 +2,7 @@ id: actuators.relays.hf115f-005-1zs3
 revision: "1.0.0"
 title: "HF115F-005-1ZS3"
 category: actuators/relays
-status: stub
+status: draft
 summary: "HF115F-005-1ZS3 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

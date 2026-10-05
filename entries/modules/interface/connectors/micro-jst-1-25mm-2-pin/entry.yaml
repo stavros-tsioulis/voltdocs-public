@@ -2,7 +2,7 @@ id: interface.connectors.micro-jst-1-25mm-2-pin
 revision: "1.0.0"
 title: "Micro JST 1.25mm 2-pin"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Micro JST 1.25mm 2-pin imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

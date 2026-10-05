@@ -2,7 +2,7 @@ id: actuators.motors.a2212-13t-1000kv
 revision: "1.0.0"
 title: "A2212/13T 1000KV"
 category: actuators/motors
-status: stub
+status: draft
 summary: "A2212/13T 1000KV imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

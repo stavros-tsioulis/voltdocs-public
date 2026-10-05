@@ -2,7 +2,7 @@ id: actuators.ky-012
 revision: "1.0.0"
 title: "KY-012"
 category: actuators
-status: stub
+status: draft
 summary: "KY-012 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

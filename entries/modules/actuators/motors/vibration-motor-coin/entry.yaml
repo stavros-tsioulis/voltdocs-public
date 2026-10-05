@@ -2,7 +2,7 @@ id: actuators.motors.vibration-motor-coin
 revision: "1.0.0"
 title: "Vibration Motor (coin/pancake type)"
 category: actuators/motors
-status: stub
+status: draft
 summary: "Vibration Motor (coin/pancake type) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

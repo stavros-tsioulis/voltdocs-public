@@ -2,7 +2,7 @@ id: actuators.ps1240p02bt
 revision: "1.0.0"
 title: "PS1240P02BT"
 category: actuators
-status: stub
+status: draft
 summary: "PS1240P02BT imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

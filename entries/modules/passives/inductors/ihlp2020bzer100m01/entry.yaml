@@ -2,7 +2,7 @@ id: passives.inductors.ihlp2020bzer100m01
 revision: "1.0.0"
 title: "IHLP2020BZER100M01"
 category: passives/inductors
-status: stub
+status: draft
 summary: "IHLP2020BZER100M01 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

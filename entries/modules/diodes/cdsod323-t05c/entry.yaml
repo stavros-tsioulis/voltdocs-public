@@ -2,7 +2,7 @@ id: diodes.cdsod323-t05c
 revision: "1.0.0"
 title: "CDSOD323-T05C"
 category: diodes
-status: stub
+status: draft
 summary: "CDSOD323-T05C imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

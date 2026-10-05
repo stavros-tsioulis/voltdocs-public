@@ -2,7 +2,7 @@ id: interface.connectors.micro-usb-type-b
 revision: "1.0.0"
 title: "Micro-USB Type-B"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Micro-USB Type-B imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

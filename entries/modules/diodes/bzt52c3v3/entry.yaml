@@ -2,7 +2,7 @@ id: diodes.bzt52c3v3
 revision: "1.0.0"
 title: "BZT52C3V3"
 category: diodes
-status: stub
+status: draft
 summary: "BZT52C3V3 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

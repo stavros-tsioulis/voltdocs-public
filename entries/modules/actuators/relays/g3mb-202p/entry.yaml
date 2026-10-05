@@ -2,7 +2,7 @@ id: actuators.relays.g3mb-202p
 revision: "1.0.0"
 title: "G3MB-202P"
 category: actuators/relays
-status: stub
+status: draft
 summary: "G3MB-202P imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

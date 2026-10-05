@@ -2,7 +2,7 @@ id: transistors.triacs.bta16-600b
 revision: "1.0.0"
 title: "BTA16-600B"
 category: transistors/triacs
-status: stub
+status: draft
 summary: "BTA16-600B imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

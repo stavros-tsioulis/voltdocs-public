@@ -2,7 +2,7 @@ id: interface.connectors.butt-splice-connectors
 revision: "1.0.0"
 title: "Heat-shrink butt splice connectors"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Heat-shrink butt splice connectors imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

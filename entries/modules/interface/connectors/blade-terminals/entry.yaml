@@ -2,7 +2,7 @@ id: interface.connectors.blade-terminals
 revision: "1.0.0"
 title: "Quick-disconnect blade terminals (2.8/4.8/6.3mm)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Quick-disconnect blade terminals (2.8/4.8/6.3mm) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

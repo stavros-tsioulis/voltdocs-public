@@ -2,7 +2,7 @@ id: passives.fuses.mf-sm160
 revision: "1.0.0"
 title: "MF-SM160"
 category: passives/fuses
-status: stub
+status: draft
 summary: "MF-SM160 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

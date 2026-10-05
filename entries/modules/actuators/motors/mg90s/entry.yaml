@@ -2,7 +2,7 @@ id: actuators.motors.mg90s
 revision: "1.0.0"
 title: "MG90S"
 category: actuators/motors
-status: stub
+status: draft
 summary: "MG90S imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

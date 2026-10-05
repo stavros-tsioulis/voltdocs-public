@@ -2,7 +2,7 @@ id: interface.switches.kailh-box-white
 revision: "1.0.0"
 title: "Kailh Box White"
 category: interface/switches
-status: stub
+status: draft
 summary: "Kailh Box White imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

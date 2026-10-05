@@ -2,7 +2,7 @@ id: interface.connectors.degson-dg-terminal-blocks
 revision: "1.0.0"
 title: "Degson DG terminal blocks"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Degson DG terminal blocks imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

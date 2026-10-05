@@ -2,7 +2,7 @@ id: diodes.esd9b3-3st5g
 revision: "1.0.0"
 title: "ESD9B3.3ST5G"
 category: diodes
-status: stub
+status: draft
 summary: "ESD9B3.3ST5G imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

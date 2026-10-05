@@ -2,7 +2,7 @@ id: passives.inductors.ft50-43
 revision: "1.0.0"
 title: "FT50-43"
 category: passives/inductors
-status: stub
+status: draft
 summary: "FT50-43 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

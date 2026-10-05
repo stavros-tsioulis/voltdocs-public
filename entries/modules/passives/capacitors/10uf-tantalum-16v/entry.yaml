@@ -2,7 +2,7 @@ id: passives.capacitors.10uf-tantalum-16v
 revision: "1.0.0"
 title: "10µF tantalum (16V)"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "10µF tantalum (16V) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

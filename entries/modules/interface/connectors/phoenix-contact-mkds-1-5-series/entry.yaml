@@ -2,7 +2,7 @@ id: interface.connectors.phoenix-contact-mkds-1-5-series
 revision: "1.0.0"
 title: "Phoenix Contact MKDS 1.5 series"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Phoenix Contact MKDS 1.5 series imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

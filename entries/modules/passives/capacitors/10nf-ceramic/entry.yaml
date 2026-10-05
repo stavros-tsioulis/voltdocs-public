@@ -2,7 +2,7 @@ id: passives.capacitors.10nf-ceramic
 revision: "1.0.0"
 title: "10nF ceramic (0.01µF, '103')"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "10nF ceramic (0.01µF, '103') imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

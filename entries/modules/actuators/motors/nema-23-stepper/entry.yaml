@@ -2,7 +2,7 @@ id: actuators.motors.nema-23-stepper
 revision: "1.0.0"
 title: "NEMA 23 stepper (23HS series)"
 category: actuators/motors
-status: stub
+status: draft
 summary: "NEMA 23 stepper (23HS series) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: actuators.buzzers.cem-1203-42
 revision: "1.0.0"
 title: "CEM-1203(42)"
 category: actuators/buzzers
-status: stub
+status: draft
 summary: "CEM-1203(42) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

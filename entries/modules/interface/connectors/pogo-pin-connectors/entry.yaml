@@ -2,7 +2,7 @@ id: interface.connectors.pogo-pin-connectors
 revision: "1.0.0"
 title: "Spring-loaded pogo pin connectors"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Spring-loaded pogo pin connectors imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

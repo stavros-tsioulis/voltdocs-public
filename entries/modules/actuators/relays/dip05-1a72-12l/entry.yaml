@@ -2,7 +2,7 @@ id: actuators.relays.dip05-1a72-12l
 revision: "1.0.0"
 title: "DIP05-1A72-12L"
 category: actuators/relays
-status: stub
+status: draft
 summary: "DIP05-1A72-12L imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

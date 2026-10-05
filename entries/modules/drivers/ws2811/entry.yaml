@@ -2,7 +2,7 @@ id: drivers.ws2811
 revision: "1.0.0"
 title: "WS2811"
 category: drivers
-status: stub
+status: draft
 summary: "WS2811 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

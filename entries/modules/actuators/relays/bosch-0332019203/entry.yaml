@@ -2,7 +2,7 @@ id: actuators.relays.bosch-0332019203
 revision: "1.0.0"
 title: "Bosch 0332019203"
 category: actuators/relays
-status: stub
+status: draft
 summary: "Bosch 0332019203 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

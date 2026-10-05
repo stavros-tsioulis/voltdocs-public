@@ -2,7 +2,7 @@ id: passives.fuses.mf-r050
 revision: "1.0.0"
 title: "MF-R050"
 category: passives/fuses
-status: stub
+status: draft
 summary: "MF-R050 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: actuators.speakers.adafruit-3346
 revision: "1.0.0"
 title: "Adafruit 3346"
 category: actuators/speakers
-status: stub
+status: draft
 summary: "Adafruit 3346 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

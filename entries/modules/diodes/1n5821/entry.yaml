@@ -2,7 +2,7 @@ id: diodes.1n5821
 revision: "1.0.0"
 title: "1N5821"
 category: diodes
-status: stub
+status: draft
 summary: "1N5821 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

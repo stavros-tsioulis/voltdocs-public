@@ -2,7 +2,7 @@ id: interface.connectors.kf350-kf396-terminal-block
 revision: "1.0.0"
 title: "KF350 / KF396 terminal block"
 category: interface/connectors
-status: stub
+status: draft
 summary: "KF350 / KF396 terminal block imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

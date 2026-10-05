@@ -2,7 +2,7 @@ id: actuators.relays.ssr-25da
 revision: "1.0.0"
 title: "SSR-25DA"
 category: actuators/relays
-status: stub
+status: draft
 summary: "SSR-25DA imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

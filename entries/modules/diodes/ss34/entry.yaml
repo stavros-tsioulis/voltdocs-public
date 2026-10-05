@@ -2,7 +2,7 @@ id: diodes.ss34
 revision: "1.0.0"
 title: "SS34"
 category: diodes
-status: stub
+status: draft
 summary: "SS34 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

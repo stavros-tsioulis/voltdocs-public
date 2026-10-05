@@ -2,7 +2,7 @@ id: interface.connectors.jst-sh
 revision: "1.0.0"
 title: "JST SH (1.0mm 4-pin)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "JST SH (1.0mm 4-pin) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

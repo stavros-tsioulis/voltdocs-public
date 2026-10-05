@@ -2,7 +2,7 @@ id: interface.switches.b3f-1000
 revision: "1.0.0"
 title: "B3F-1000"
 category: interface/switches
-status: stub
+status: draft
 summary: "B3F-1000 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

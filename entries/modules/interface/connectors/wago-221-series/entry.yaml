@@ -2,7 +2,7 @@ id: interface.connectors.wago-221-series
 revision: "1.0.0"
 title: "Wago 221 series (Lever-Nuts)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Wago 221 series (Lever-Nuts) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

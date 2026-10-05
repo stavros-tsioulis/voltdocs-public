@@ -2,7 +2,7 @@ id: diodes.mur460
 revision: "1.0.0"
 title: "MUR460"
 category: diodes
-status: stub
+status: draft
 summary: "MUR460 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

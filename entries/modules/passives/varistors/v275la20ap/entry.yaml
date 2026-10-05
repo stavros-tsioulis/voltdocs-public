@@ -2,7 +2,7 @@ id: passives.varistors.v275la20ap
 revision: "1.0.0"
 title: "V275LA20AP"
 category: passives/varistors
-status: stub
+status: draft
 summary: "V275LA20AP imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

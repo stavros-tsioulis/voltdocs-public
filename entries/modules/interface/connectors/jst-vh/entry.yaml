@@ -2,7 +2,7 @@ id: interface.connectors.jst-vh
 revision: "1.0.0"
 title: "JST VH (3.96mm)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "JST VH (3.96mm) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: interface.connectors.te-amp-mta-100
 revision: "1.0.0"
 title: "TE/AMP MTA-100 (640456 series)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "TE/AMP MTA-100 (640456 series) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

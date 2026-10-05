@@ -2,7 +2,7 @@ id: diodes.smaj5-0a
 revision: "1.0.0"
 title: "SMAJ5.0A"
 category: diodes
-status: stub
+status: draft
 summary: "SMAJ5.0A imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

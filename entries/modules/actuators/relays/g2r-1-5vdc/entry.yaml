@@ -2,7 +2,7 @@ id: actuators.relays.g2r-1-5vdc
 revision: "1.0.0"
 title: "G2R-1-5VDC"
 category: actuators/relays
-status: stub
+status: draft
 summary: "G2R-1-5VDC imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: passives.capacitors.1uf-ceramic
 revision: "1.0.0"
 title: "1µF ceramic (X7R)"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "1µF ceramic (X7R) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

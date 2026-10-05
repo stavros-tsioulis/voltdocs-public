@@ -2,7 +2,7 @@ id: diodes.usblc6-2sc6
 revision: "1.0.0"
 title: "USBLC6-2SC6"
 category: diodes
-status: stub
+status: draft
 summary: "USBLC6-2SC6 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

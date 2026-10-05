@@ -2,7 +2,7 @@ id: interface.connectors.binding-posts
 revision: "1.0.0"
 title: "Binding posts (panel-mount, 4mm)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Binding posts (panel-mount, 4mm) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

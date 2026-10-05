@@ -2,7 +2,7 @@ id: interface.connectors.dc-barrel-jack-5-5x2-5mm
 revision: "1.0.0"
 title: "DC barrel jack 5.5x2.5mm"
 category: interface/connectors
-status: stub
+status: draft
 summary: "DC barrel jack 5.5x2.5mm imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

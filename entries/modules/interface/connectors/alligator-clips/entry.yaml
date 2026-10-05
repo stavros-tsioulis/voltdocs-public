@@ -2,7 +2,7 @@ id: interface.connectors.alligator-clips
 revision: "1.0.0"
 title: "Alligator clip test leads"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Alligator clip test leads imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

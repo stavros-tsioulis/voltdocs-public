@@ -2,7 +2,7 @@ id: diodes.uf4001
 revision: "1.0.0"
 title: "UF4001"
 category: diodes
-status: stub
+status: draft
 summary: "UF4001 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

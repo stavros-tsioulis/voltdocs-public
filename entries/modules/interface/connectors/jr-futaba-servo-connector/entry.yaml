@@ -2,7 +2,7 @@ id: interface.connectors.jr-futaba-servo-connector
 revision: "1.0.0"
 title: "JR/Futaba servo connector (3-pin)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "JR/Futaba servo connector (3-pin) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

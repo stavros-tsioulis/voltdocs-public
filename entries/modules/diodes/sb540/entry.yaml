@@ -2,7 +2,7 @@ id: diodes.sb540
 revision: "1.0.0"
 title: "SB540"
 category: diodes
-status: stub
+status: draft
 summary: "SB540 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: interface.connectors.db9-connector
 revision: "1.0.0"
 title: "DB9 connector"
 category: interface/connectors
-status: stub
+status: draft
 summary: "DB9 connector imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

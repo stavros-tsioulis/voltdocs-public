@@ -2,7 +2,7 @@ id: passives.capacitors.2200uf-electrolytic
 revision: "1.0.0"
 title: "2200µF electrolytic"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "2200µF electrolytic imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

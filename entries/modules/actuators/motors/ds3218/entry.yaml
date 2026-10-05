@@ -2,7 +2,7 @@ id: actuators.motors.ds3218
 revision: "1.0.0"
 title: "DS3218"
 category: actuators/motors
-status: stub
+status: draft
 summary: "DS3218 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

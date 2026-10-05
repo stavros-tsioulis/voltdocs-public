@@ -2,7 +2,7 @@ id: diodes.pesd5v0s1ba
 revision: "1.0.0"
 title: "PESD5V0S1BA"
 category: diodes
-status: stub
+status: draft
 summary: "PESD5V0S1BA imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: diodes.1n4750a
 revision: "1.0.0"
 title: "1N4750A"
 category: diodes
-status: stub
+status: draft
 summary: "1N4750A imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

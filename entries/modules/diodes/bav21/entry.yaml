@@ -2,7 +2,7 @@ id: diodes.bav21
 revision: "1.0.0"
 title: "BAV21"
 category: diodes
-status: stub
+status: draft
 summary: "BAV21 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

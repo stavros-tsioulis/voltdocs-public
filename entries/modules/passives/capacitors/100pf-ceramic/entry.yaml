@@ -2,7 +2,7 @@ id: passives.capacitors.100pf-ceramic
 revision: "1.0.0"
 title: "100pF ceramic"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "100pF ceramic imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

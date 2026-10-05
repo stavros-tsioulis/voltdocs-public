@@ -2,7 +2,7 @@ id: actuators.relays.moc3041
 revision: "1.0.0"
 title: "MOC3041"
 category: actuators/relays
-status: stub
+status: draft
 summary: "MOC3041 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

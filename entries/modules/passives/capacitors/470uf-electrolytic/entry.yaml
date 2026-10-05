@@ -2,7 +2,7 @@ id: passives.capacitors.470uf-electrolytic
 revision: "1.0.0"
 title: "470µF electrolytic"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "470µF electrolytic imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

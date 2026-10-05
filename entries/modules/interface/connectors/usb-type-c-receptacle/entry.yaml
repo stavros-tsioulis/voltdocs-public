@@ -2,7 +2,7 @@ id: interface.connectors.usb-type-c-receptacle
 revision: "1.0.0"
 title: "USB Type-C receptacle"
 category: interface/connectors
-status: stub
+status: draft
 summary: "USB Type-C receptacle imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

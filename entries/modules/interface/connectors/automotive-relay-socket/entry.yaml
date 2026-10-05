@@ -2,7 +2,7 @@ id: interface.connectors.automotive-relay-socket
 revision: "1.0.0"
 title: "Automotive mini relay socket/harness (5-pin)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Automotive mini relay socket/harness (5-pin) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: optoelectronics.leds.ws2813
 revision: "1.0.0"
 title: "WS2813"
 category: optoelectronics/leds
-status: stub
+status: draft
 summary: "WS2813 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

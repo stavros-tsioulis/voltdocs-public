@@ -2,7 +2,7 @@ id: interface.switches.obsf-30
 revision: "1.0.0"
 title: "OBSF-30"
 category: interface/switches
-status: stub
+status: draft
 summary: "OBSF-30 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

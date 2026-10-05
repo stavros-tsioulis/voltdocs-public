@@ -2,7 +2,7 @@ id: interface.connectors.ring-terminals
 revision: "1.0.0"
 title: "Insulated ring terminals"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Insulated ring terminals imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

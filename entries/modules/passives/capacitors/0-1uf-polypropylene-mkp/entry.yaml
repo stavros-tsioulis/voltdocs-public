@@ -2,7 +2,7 @@ id: passives.capacitors.0-1uf-polypropylene-mkp
 revision: "1.0.0"
 title: "0.1µF polypropylene (MKP)"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "0.1µF polypropylene (MKP) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

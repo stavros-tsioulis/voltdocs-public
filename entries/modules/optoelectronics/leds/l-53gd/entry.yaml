@@ -2,7 +2,7 @@ id: optoelectronics.leds.l-53gd
 revision: "1.0.0"
 title: "L-53GD"
 category: optoelectronics/leds
-status: stub
+status: draft
 summary: "L-53GD imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: interface.switches.cherry-mx-blue
 revision: "1.0.0"
 title: "Cherry MX Blue"
 category: interface/switches
-status: stub
+status: draft
 summary: "Cherry MX Blue imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

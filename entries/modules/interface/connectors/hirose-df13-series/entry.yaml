@@ -2,7 +2,7 @@ id: interface.connectors.hirose-df13-series
 revision: "1.0.0"
 title: "Hirose DF13 series"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Hirose DF13 series imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: diodes.smaj12a
 revision: "1.0.0"
 title: "SMAJ12A"
 category: diodes
-status: stub
+status: draft
 summary: "SMAJ12A imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

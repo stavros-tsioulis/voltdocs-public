@@ -2,7 +2,7 @@ id: diodes.1n4728a
 revision: "1.0.0"
 title: "1N4728A"
 category: diodes
-status: stub
+status: draft
 summary: "1N4728A imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

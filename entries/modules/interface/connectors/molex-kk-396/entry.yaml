@@ -2,7 +2,7 @@ id: interface.connectors.molex-kk-396
 revision: "1.0.0"
 title: "Molex KK 396 (5566 series)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Molex KK 396 (5566 series) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

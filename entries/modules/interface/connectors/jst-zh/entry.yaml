@@ -2,7 +2,7 @@ id: interface.connectors.jst-zh
 revision: "1.0.0"
 title: "JST ZH (1.5mm)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "JST ZH (1.5mm) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: interface.connectors.grove-connector
 revision: "1.0.0"
 title: "Grove connector (4-pin, JST-PH-like)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Grove connector (4-pin, JST-PH-like) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

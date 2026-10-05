@@ -2,7 +2,7 @@ id: actuators.relays.aqy212eh
 revision: "1.0.0"
 title: "AQY212EH"
 category: actuators/relays
-status: stub
+status: draft
 summary: "AQY212EH imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

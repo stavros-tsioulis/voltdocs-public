@@ -2,7 +2,7 @@ id: passives.inductors.fb-43-101
 revision: "1.0.0"
 title: "2643000101 (FB-43-101)"
 category: passives/inductors
-status: stub
+status: draft
 summary: "2643000101 (FB-43-101) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

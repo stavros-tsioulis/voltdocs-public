@@ -2,7 +2,7 @@ id: diodes.mbr1045
 revision: "1.0.0"
 title: "MBR1045"
 category: diodes
-status: stub
+status: draft
 summary: "MBR1045 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

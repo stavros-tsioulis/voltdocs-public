@@ -2,7 +2,7 @@ id: passives.inductors.mpz1608s101a
 revision: "1.0.0"
 title: "MPZ1608S101A"
 category: passives/inductors
-status: stub
+status: draft
 summary: "MPZ1608S101A imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

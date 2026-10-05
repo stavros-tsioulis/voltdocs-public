@@ -2,7 +2,7 @@ id: actuators.motors.parallax-standard-servo
 revision: "1.0.0"
 title: "Parallax Standard Servo (900-00005)"
 category: actuators/motors
-status: stub
+status: draft
 summary: "Parallax Standard Servo (900-00005) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

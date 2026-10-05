@@ -2,7 +2,7 @@ id: actuators.buzzers.cep-2260a
 revision: "1.0.0"
 title: "CEP-2260A"
 category: actuators/buzzers
-status: stub
+status: draft
 summary: "CEP-2260A imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

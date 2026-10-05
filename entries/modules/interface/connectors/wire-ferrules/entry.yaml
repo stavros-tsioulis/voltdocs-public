@@ -2,7 +2,7 @@ id: interface.connectors.wire-ferrules
 revision: "1.0.0"
 title: "Insulated wire ferrules"
 category: interface/connectors
-status: stub
+status: draft
 summary: "Insulated wire ferrules imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

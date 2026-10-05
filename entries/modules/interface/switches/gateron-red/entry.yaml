@@ -2,7 +2,7 @@ id: interface.switches.gateron-red
 revision: "1.0.0"
 title: "Gateron Red"
 category: interface/switches
-status: stub
+status: draft
 summary: "Gateron Red imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

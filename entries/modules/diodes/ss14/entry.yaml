@@ -2,7 +2,7 @@ id: diodes.ss14
 revision: "1.0.0"
 title: "SS14"
 category: diodes
-status: stub
+status: draft
 summary: "SS14 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: diodes.bzw04-5v8b
 revision: "1.0.0"
 title: "BZW04-5V8B"
 category: diodes
-status: stub
+status: draft
 summary: "BZW04-5V8B imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

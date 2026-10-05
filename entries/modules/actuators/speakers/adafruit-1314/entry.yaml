@@ -2,7 +2,7 @@ id: actuators.speakers.adafruit-1314
 revision: "1.0.0"
 title: "Adafruit 1314"
 category: actuators/speakers
-status: stub
+status: draft
 summary: "Adafruit 1314 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

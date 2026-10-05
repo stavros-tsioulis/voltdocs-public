@@ -2,7 +2,7 @@ id: passives.capacitors.220nf-ceramic
 revision: "1.0.0"
 title: "220nF ceramic"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "220nF ceramic imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

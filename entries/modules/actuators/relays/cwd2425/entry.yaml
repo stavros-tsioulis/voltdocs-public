@@ -2,7 +2,7 @@ id: actuators.relays.cwd2425
 revision: "1.0.0"
 title: "CWD2425"
 category: actuators/relays
-status: stub
+status: draft
 summary: "CWD2425 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

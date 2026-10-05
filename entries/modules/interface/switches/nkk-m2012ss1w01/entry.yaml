@@ -2,7 +2,7 @@ id: interface.switches.nkk-m2012ss1w01
 revision: "1.0.0"
 title: "NKK M2012SS1W01"
 category: interface/switches
-status: stub
+status: draft
 summary: "NKK M2012SS1W01 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

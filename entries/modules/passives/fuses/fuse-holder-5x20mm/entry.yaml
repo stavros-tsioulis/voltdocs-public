@@ -2,7 +2,7 @@ id: passives.fuses.fuse-holder-5x20mm
 revision: "1.0.0"
 title: "Fuse holder 5x20mm panel-mount"
 category: passives/fuses
-status: stub
+status: draft
 summary: "Fuse holder 5x20mm panel-mount imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

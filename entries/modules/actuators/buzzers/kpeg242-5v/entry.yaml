@@ -2,7 +2,7 @@ id: actuators.buzzers.kpeg242-5v
 revision: "1.0.0"
 title: "KPEG242-5V"
 category: actuators/buzzers
-status: stub
+status: draft
 summary: "KPEG242-5V imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

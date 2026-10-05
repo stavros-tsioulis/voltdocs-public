@@ -2,7 +2,7 @@ id: actuators.relays.tq2-5v
 revision: "1.0.0"
 title: "TQ2-5V"
 category: actuators/relays
-status: stub
+status: draft
 summary: "TQ2-5V imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

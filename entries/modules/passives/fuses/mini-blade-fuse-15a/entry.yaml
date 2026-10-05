@@ -2,7 +2,7 @@ id: passives.fuses.mini-blade-fuse-15a
 revision: "1.0.0"
 title: "Mini blade fuse 15A (APM/ATM)"
 category: passives/fuses
-status: stub
+status: draft
 summary: "Mini blade fuse 15A (APM/ATM) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

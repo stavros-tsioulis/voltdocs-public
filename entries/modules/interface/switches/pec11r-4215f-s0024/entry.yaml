@@ -2,7 +2,7 @@ id: interface.switches.pec11r-4215f-s0024
 revision: "1.0.0"
 title: "Bourns PEC11R-4215F-S0024"
 category: interface/switches
-status: stub
+status: draft
 summary: "Bourns PEC11R-4215F-S0024 imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

@@ -2,7 +2,7 @@ id: interface.connectors.2-54mm-2x40-double-row-pin-header
 revision: "1.0.0"
 title: "2.54mm 2x40 double-row pin header (GPIO)"
 category: interface/connectors
-status: stub
+status: draft
 summary: "2.54mm 2x40 double-row pin header (GPIO) imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

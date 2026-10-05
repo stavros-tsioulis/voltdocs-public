@@ -2,7 +2,7 @@ id: passives.capacitors.100uf-tantalum
 revision: "1.0.0"
 title: "100µF tantalum"
 category: passives/capacitors
-status: stub
+status: draft
 summary: "100µF tantalum imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}

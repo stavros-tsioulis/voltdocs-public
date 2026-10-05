@@ -2,7 +2,7 @@ id: diodes.sm6t15a
 revision: "1.0.0"
 title: "SM6T15A"
 category: diodes
-status: stub
+status: draft
 summary: "SM6T15A imported from backlog"
 updatedAt: "2026-10-05"
 fields: {}
