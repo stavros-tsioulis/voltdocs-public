@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "EXT",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin EXT"
+    },
+    {
+      "id": "2",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V+"
+    },
+    {
+      "id": "3",
+      "name": "FB",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin FB"
+    },
+    {
+      "id": "4",
+      "name": "SHDN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SHDN"
+    },
+    {
+      "id": "5",
+      "name": "REF",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin REF"
+    },
+    {
+      "id": "6",
+      "name": "AGND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin AGND"
+    },
+    {
+      "id": "7",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "8",
+      "name": "CS",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CS"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

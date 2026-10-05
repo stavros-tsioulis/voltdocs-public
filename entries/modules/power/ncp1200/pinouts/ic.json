@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "ADJ",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin ADJ"
+    },
+    {
+      "id": "2",
+      "name": "FB",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin FB"
+    },
+    {
+      "id": "3",
+      "name": "CS",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CS"
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "5",
+      "name": "DRV",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DRV"
+    },
+    {
+      "id": "6",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "7",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "8",
+      "name": "HV",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin HV"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

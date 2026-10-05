@@ -1,0 +1,13 @@
+id: passives.fuses.klk-series
+revision: "1.0.0"
+title: "KLK Series"
+category: passives/fuses
+status: stub
+summary: "KLK Series imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

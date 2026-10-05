@@ -40,6 +40,9 @@ references:
   - targetId: power.boost.xl6009
     relation: see-also
     comment: Higher-voltage (40V) and higher-current (4A) boost converter for heavier loads.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

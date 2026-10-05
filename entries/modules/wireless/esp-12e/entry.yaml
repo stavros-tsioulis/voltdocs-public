@@ -40,6 +40,9 @@ references:
     relation: variant-of
   - targetId: module.wireless.esp32-wroom-32
     relation: see-also
+pinouts:
+  - id: module
+    path: pinouts/module.json
 body: index.md
 assets:
   - id: datasheet

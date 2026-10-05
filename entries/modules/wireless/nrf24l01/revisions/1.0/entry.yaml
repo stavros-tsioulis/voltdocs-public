@@ -23,6 +23,9 @@ fields:
   operating_temp_max_c: 85
   interfaces: [SPI]
   spi_max_mbit_s: 8
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: photo

@@ -1,0 +1,147 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "CP2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CP2"
+    },
+    {
+      "id": "2",
+      "name": "CP1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CP1"
+    },
+    {
+      "id": "3",
+      "name": "VCP",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VCP"
+    },
+    {
+      "id": "4",
+      "name": "VBB",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VBB"
+    },
+    {
+      "id": "5",
+      "name": "OUT1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin OUT1"
+    },
+    {
+      "id": "6",
+      "name": "SENSE",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SENSE"
+    },
+    {
+      "id": "7",
+      "name": "OUT2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin OUT2"
+    },
+    {
+      "id": "8",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "9",
+      "name": "VREF",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VREF"
+    },
+    {
+      "id": "10",
+      "name": "VPROPI",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VPROPI"
+    },
+    {
+      "id": "11",
+      "name": "SLEEP'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SLEEP'"
+    },
+    {
+      "id": "12",
+      "name": "FAULT'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin FAULT'"
+    },
+    {
+      "id": "13",
+      "name": "DIR",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DIR"
+    },
+    {
+      "id": "14",
+      "name": "PWM",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PWM"
+    },
+    {
+      "id": "15",
+      "name": "BRAKE'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin BRAKE'"
+    },
+    {
+      "id": "16",
+      "name": "MODE1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin MODE1"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bottom": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "top": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    }
+  }
+}

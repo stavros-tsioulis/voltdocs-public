@@ -1,0 +1,13 @@
+id: actuators.motors.2205-2300kv
+revision: "1.0.0"
+title: "2205 2300KV"
+category: actuators/motors
+status: stub
+summary: "2205 2300KV imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

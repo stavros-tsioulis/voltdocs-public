@@ -1,0 +1,13 @@
+id: diodes.1n5236b
+revision: "1.0.0"
+title: "1N5236B"
+category: diodes
+status: stub
+summary: "1N5236B imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

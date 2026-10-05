@@ -1,0 +1,13 @@
+id: actuators.relays.cpc1017n
+revision: "1.0.0"
+title: "CPC1017N"
+category: actuators/relays
+status: stub
+summary: "CPC1017N imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

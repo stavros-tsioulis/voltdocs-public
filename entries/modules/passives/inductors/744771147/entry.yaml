@@ -1,0 +1,13 @@
+id: passives.inductors.744771147
+revision: "1.0.0"
+title: "744771147"
+category: passives/inductors
+status: stub
+summary: "744771147 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

@@ -1,0 +1,239 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "TXD",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin TXD"
+    },
+    {
+      "id": "2",
+      "name": "DTR#",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DTR#"
+    },
+    {
+      "id": "3",
+      "name": "RTS#",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RTS#"
+    },
+    {
+      "id": "4",
+      "name": "VCCIO",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCCIO"
+    },
+    {
+      "id": "5",
+      "name": "RXD",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin RXD"
+    },
+    {
+      "id": "6",
+      "name": "RI#",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin RI#"
+    },
+    {
+      "id": "7",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "8",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "9",
+      "name": "DSR#",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DSR#"
+    },
+    {
+      "id": "10",
+      "name": "DCD#",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DCD#"
+    },
+    {
+      "id": "11",
+      "name": "CTS#",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CTS#"
+    },
+    {
+      "id": "12",
+      "name": "CBUS4",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CBUS4"
+    },
+    {
+      "id": "13",
+      "name": "CBUS2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CBUS2"
+    },
+    {
+      "id": "14",
+      "name": "CBUS3",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CBUS3"
+    },
+    {
+      "id": "15",
+      "name": "USBDP",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin USBDP"
+    },
+    {
+      "id": "16",
+      "name": "USBDM",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin USBDM"
+    },
+    {
+      "id": "17",
+      "name": "3V3OUT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 3V3OUT"
+    },
+    {
+      "id": "18",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "19",
+      "name": "RESET#",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RESET#"
+    },
+    {
+      "id": "20",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "21",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "22",
+      "name": "CBUS1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CBUS1"
+    },
+    {
+      "id": "23",
+      "name": "CBUS0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CBUS0"
+    },
+    {
+      "id": "24",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "25",
+      "name": "AGND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin AGND"
+    },
+    {
+      "id": "26",
+      "name": "TEST",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin TEST"
+    },
+    {
+      "id": "27",
+      "name": "OSCI",
+      "type": "clock",
+      "direction": "bidirectional",
+      "description": "Pin OSCI"
+    },
+    {
+      "id": "28",
+      "name": "OSCO",
+      "type": "clock",
+      "direction": "bidirectional",
+      "description": "Pin OSCO"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "right": [
+        "28",
+        "27",
+        "26",
+        "25",
+        "24",
+        "23",
+        "22",
+        "21",
+        "20",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15"
+      ]
+    }
+  }
+}

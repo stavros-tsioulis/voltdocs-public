@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "P3.2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P3.2"
+    },
+    {
+      "id": "2",
+      "name": "P1.4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.4"
+    },
+    {
+      "id": "3",
+      "name": "P1.5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.5"
+    },
+    {
+      "id": "4",
+      "name": "P1.6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.6"
+    },
+    {
+      "id": "5",
+      "name": "P1.7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.7"
+    },
+    {
+      "id": "6",
+      "name": "RST",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin RST"
+    },
+    {
+      "id": "7",
+      "name": "RXD1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RXD1"
+    },
+    {
+      "id": "8",
+      "name": "TXD1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin TXD1"
+    },
+    {
+      "id": "9",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "10",
+      "name": "D+",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin D+"
+    },
+    {
+      "id": "11",
+      "name": "D-",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin D-"
+    },
+    {
+      "id": "12",
+      "name": "V33",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V33"
+    },
+    {
+      "id": "13",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "14",
+      "name": "P3.0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P3.0"
+    },
+    {
+      "id": "15",
+      "name": "P3.1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P3.1"
+    },
+    {
+      "id": "16",
+      "name": "P3.3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P3.3"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "2",
+      "name": "TRIG",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin TRIG"
+    },
+    {
+      "id": "3",
+      "name": "OUT",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Pin OUT"
+    },
+    {
+      "id": "4",
+      "name": "RESET",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RESET"
+    },
+    {
+      "id": "5",
+      "name": "CTRL",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CTRL"
+    },
+    {
+      "id": "6",
+      "name": "THR",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin THR"
+    },
+    {
+      "id": "7",
+      "name": "DIS",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DIS"
+    },
+    {
+      "id": "8",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

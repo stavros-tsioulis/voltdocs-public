@@ -29,6 +29,9 @@ highlights:
   - receivers_count
   - rs232_output_voltage_v
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

@@ -1,0 +1,13 @@
+id: diodes.prtr5v0u2x
+revision: "1.0.0"
+title: "PRTR5V0U2X"
+category: diodes
+status: stub
+summary: "PRTR5V0U2X imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    },
+    {
+      "id": "2",
+      "name": "GP5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin GP5"
+    },
+    {
+      "id": "3",
+      "name": "GP4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin GP4"
+    },
+    {
+      "id": "4",
+      "name": "GP3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin GP3"
+    },
+    {
+      "id": "5",
+      "name": "GP2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin GP2"
+    },
+    {
+      "id": "6",
+      "name": "GP1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin GP1"
+    },
+    {
+      "id": "7",
+      "name": "GP0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin GP0"
+    },
+    {
+      "id": "8",
+      "name": "VSS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VSS"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

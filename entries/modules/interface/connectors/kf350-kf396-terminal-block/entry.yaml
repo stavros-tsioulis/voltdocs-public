@@ -1,0 +1,13 @@
+id: interface.connectors.kf350-kf396-terminal-block
+revision: "1.0.0"
+title: "KF350 / KF396 terminal block"
+category: interface/connectors
+status: stub
+summary: "KF350 / KF396 terminal block imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

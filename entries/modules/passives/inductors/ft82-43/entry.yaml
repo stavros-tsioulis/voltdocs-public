@@ -1,0 +1,13 @@
+id: passives.inductors.ft82-43
+revision: "1.0.0"
+title: "FT82-43"
+category: passives/inductors
+status: stub
+summary: "FT82-43 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

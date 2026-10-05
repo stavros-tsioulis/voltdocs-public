@@ -1,0 +1,13 @@
+id: interface.connectors.jst-gh
+revision: "1.0.0"
+title: "JST GH (1.25mm)"
+category: interface/connectors
+status: stub
+summary: "JST GH (1.25mm) imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

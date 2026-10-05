@@ -1,0 +1,69 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "2",
+      "name": "IN",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin IN"
+    },
+    {
+      "id": "3",
+      "name": "INH",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin INH"
+    },
+    {
+      "id": "4",
+      "name": "OUT",
+      "type": "power",
+      "direction": "power-out",
+      "description": "Pin OUT"
+    },
+    {
+      "id": "5",
+      "name": "SR",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SR"
+    },
+    {
+      "id": "6",
+      "name": "IS",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin IS"
+    },
+    {
+      "id": "7",
+      "name": "VS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VS"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  }
+}

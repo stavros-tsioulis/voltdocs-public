@@ -1,0 +1,13 @@
+id: interface.switches.mpb16
+revision: "1.0.0"
+title: "MPB16"
+category: interface/switches
+status: stub
+summary: "MPB16 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

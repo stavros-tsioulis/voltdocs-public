@@ -28,6 +28,9 @@ highlights:
   - reference_voltage_v
   - gate_driver_type
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

@@ -1,0 +1,13 @@
+id: actuators.motors.n20-dc-gear-motor
+revision: "1.0.0"
+title: "N20 DC Gear Motor"
+category: actuators/motors
+status: stub
+summary: "N20 DC Gear Motor imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

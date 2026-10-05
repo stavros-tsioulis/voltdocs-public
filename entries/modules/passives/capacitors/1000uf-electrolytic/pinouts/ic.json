@@ -1,0 +1,31 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "1",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Terminal 1"
+    },
+    {
+      "id": "2",
+      "name": "2",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Terminal 2"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1"
+      ],
+      "right": [
+        "2"
+      ]
+    }
+  }
+}

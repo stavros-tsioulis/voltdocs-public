@@ -35,6 +35,9 @@ highlights:
   - bluetooth_version
   - tx_power_max_dbm
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

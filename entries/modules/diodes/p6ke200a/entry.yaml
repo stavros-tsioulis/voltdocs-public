@@ -1,0 +1,13 @@
+id: diodes.p6ke200a
+revision: "1.0.0"
+title: "P6KE200A"
+category: diodes
+status: stub
+summary: "P6KE200A imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

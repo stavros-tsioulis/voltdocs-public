@@ -1,0 +1,13 @@
+id: actuators.motors.micro-metal-gearmotor
+revision: "1.0.0"
+title: "Micro Metal Gearmotor HP 6V"
+category: actuators/motors
+status: stub
+summary: "Micro Metal Gearmotor HP 6V imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

@@ -34,6 +34,9 @@ references:
   - targetId: timing.oscillator.cd4060
     relation: see-also
     comment: 14-stage counter with multiple parallel stage outputs vs single programmable output on the CD4541.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

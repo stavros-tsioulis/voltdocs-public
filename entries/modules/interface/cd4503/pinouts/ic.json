@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "1OE'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1OE'"
+    },
+    {
+      "id": "2",
+      "name": "1A1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1A1"
+    },
+    {
+      "id": "3",
+      "name": "1Y1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 1Y1"
+    },
+    {
+      "id": "4",
+      "name": "1A2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1A2"
+    },
+    {
+      "id": "5",
+      "name": "1Y2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 1Y2"
+    },
+    {
+      "id": "6",
+      "name": "1A3",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1A3"
+    },
+    {
+      "id": "7",
+      "name": "1Y3",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 1Y3"
+    },
+    {
+      "id": "8",
+      "name": "VSS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "9",
+      "name": "1A4",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1A4"
+    },
+    {
+      "id": "10",
+      "name": "1Y4",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 1Y4"
+    },
+    {
+      "id": "11",
+      "name": "2A1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2A1"
+    },
+    {
+      "id": "12",
+      "name": "2Y1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 2Y1"
+    },
+    {
+      "id": "13",
+      "name": "2A2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2A2"
+    },
+    {
+      "id": "14",
+      "name": "2Y2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin 2Y2"
+    },
+    {
+      "id": "15",
+      "name": "2OE'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2OE'"
+    },
+    {
+      "id": "16",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

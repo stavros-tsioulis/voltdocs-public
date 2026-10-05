@@ -43,6 +43,9 @@ references:
   - targetId: power.buck.lm2596
     relation: alternative-to
     comment: Vastly higher efficiency (up to 95% vs 75%) and smaller footprint replacing bulky LM2596 modules.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

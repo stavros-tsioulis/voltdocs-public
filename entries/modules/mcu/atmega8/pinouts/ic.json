@@ -1,0 +1,239 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "PC6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PC6"
+    },
+    {
+      "id": "2",
+      "name": "PD0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD0"
+    },
+    {
+      "id": "3",
+      "name": "PD1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD1"
+    },
+    {
+      "id": "4",
+      "name": "PD2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD2"
+    },
+    {
+      "id": "5",
+      "name": "PD3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD3"
+    },
+    {
+      "id": "6",
+      "name": "PD4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD4"
+    },
+    {
+      "id": "7",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "8",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "9",
+      "name": "PB6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB6"
+    },
+    {
+      "id": "10",
+      "name": "PB7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB7"
+    },
+    {
+      "id": "11",
+      "name": "PD5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD5"
+    },
+    {
+      "id": "12",
+      "name": "PD6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD6"
+    },
+    {
+      "id": "13",
+      "name": "PD7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD7"
+    },
+    {
+      "id": "14",
+      "name": "PB0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB0"
+    },
+    {
+      "id": "15",
+      "name": "PB1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB1"
+    },
+    {
+      "id": "16",
+      "name": "PB2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB2"
+    },
+    {
+      "id": "17",
+      "name": "PB3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB3"
+    },
+    {
+      "id": "18",
+      "name": "PB4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB4"
+    },
+    {
+      "id": "19",
+      "name": "PB5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB5"
+    },
+    {
+      "id": "20",
+      "name": "AVCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin AVCC"
+    },
+    {
+      "id": "21",
+      "name": "AREF",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin AREF"
+    },
+    {
+      "id": "22",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "23",
+      "name": "PC0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PC0"
+    },
+    {
+      "id": "24",
+      "name": "PC1",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin PC1"
+    },
+    {
+      "id": "25",
+      "name": "PC2",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin PC2"
+    },
+    {
+      "id": "26",
+      "name": "PC3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PC3"
+    },
+    {
+      "id": "27",
+      "name": "PC4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PC4"
+    },
+    {
+      "id": "28",
+      "name": "PC5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PC5"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "right": [
+        "28",
+        "27",
+        "26",
+        "25",
+        "24",
+        "23",
+        "22",
+        "21",
+        "20",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15"
+      ]
+    }
+  }
+}

@@ -37,6 +37,9 @@ highlights:
   - wifi_standards
   - bluetooth_version
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

@@ -1,0 +1,13 @@
+id: diodes.smaj5-0a
+revision: "1.0.0"
+title: "SMAJ5.0A"
+category: diodes
+status: stub
+summary: "SMAJ5.0A imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

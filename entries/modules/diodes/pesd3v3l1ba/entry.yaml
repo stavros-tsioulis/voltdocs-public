@@ -1,0 +1,13 @@
+id: diodes.pesd3v3l1ba
+revision: "1.0.0"
+title: "PESD3V3L1BA"
+category: diodes
+status: stub
+summary: "PESD3V3L1BA imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

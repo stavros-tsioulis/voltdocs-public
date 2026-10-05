@@ -1,0 +1,13 @@
+id: interface.connectors.molex-kk-254
+revision: "1.0.0"
+title: "Molex KK 254 (2695 series)"
+category: interface/connectors
+status: stub
+summary: "Molex KK 254 (2695 series) imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

@@ -1,0 +1,207 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VSS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "2",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    },
+    {
+      "id": "3",
+      "name": "ROW0",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW0"
+    },
+    {
+      "id": "4",
+      "name": "ROW1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW1"
+    },
+    {
+      "id": "5",
+      "name": "ROW2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW2"
+    },
+    {
+      "id": "6",
+      "name": "ROW3",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW3"
+    },
+    {
+      "id": "7",
+      "name": "ROW4",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW4"
+    },
+    {
+      "id": "8",
+      "name": "ROW5",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW5"
+    },
+    {
+      "id": "9",
+      "name": "ROW6",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW6"
+    },
+    {
+      "id": "10",
+      "name": "ROW7",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW7"
+    },
+    {
+      "id": "11",
+      "name": "ROW8",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW8"
+    },
+    {
+      "id": "12",
+      "name": "ROW9",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW9"
+    },
+    {
+      "id": "13",
+      "name": "ROW10",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW10"
+    },
+    {
+      "id": "14",
+      "name": "ROW11",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW11"
+    },
+    {
+      "id": "15",
+      "name": "ROW12",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW12"
+    },
+    {
+      "id": "16",
+      "name": "ROW13",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW13"
+    },
+    {
+      "id": "17",
+      "name": "ROW14",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW14"
+    },
+    {
+      "id": "18",
+      "name": "ROW15",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin ROW15"
+    },
+    {
+      "id": "19",
+      "name": "COM3",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin COM3"
+    },
+    {
+      "id": "20",
+      "name": "COM2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin COM2"
+    },
+    {
+      "id": "21",
+      "name": "COM1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin COM1"
+    },
+    {
+      "id": "22",
+      "name": "COM0",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin COM0"
+    },
+    {
+      "id": "23",
+      "name": "SCL",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin SCL"
+    },
+    {
+      "id": "24",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin SDA"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "right": [
+        "24",
+        "23",
+        "22",
+        "21",
+        "20",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13"
+      ]
+    }
+  }
+}

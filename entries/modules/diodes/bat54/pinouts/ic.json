@@ -1,0 +1,39 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "Pin 1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin 1"
+    },
+    {
+      "id": "2",
+      "name": "Pin 2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin 2"
+    },
+    {
+      "id": "3",
+      "name": "Pin 3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin 3"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2"
+      ],
+      "right": [
+        "3"
+      ]
+    }
+  }
+}

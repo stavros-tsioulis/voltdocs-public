@@ -1,0 +1,127 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "DP1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DP1"
+    },
+    {
+      "id": "2",
+      "name": "SP1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SP1"
+    },
+    {
+      "id": "3",
+      "name": "G1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin G1"
+    },
+    {
+      "id": "4",
+      "name": "DN1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DN1"
+    },
+    {
+      "id": "5",
+      "name": "SN1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SN1"
+    },
+    {
+      "id": "6",
+      "name": "G2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin G2"
+    },
+    {
+      "id": "7",
+      "name": "VSS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "8",
+      "name": "DN2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DN2"
+    },
+    {
+      "id": "9",
+      "name": "SN2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SN2"
+    },
+    {
+      "id": "10",
+      "name": "G3",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin G3"
+    },
+    {
+      "id": "11",
+      "name": "DP3",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DP3"
+    },
+    {
+      "id": "12",
+      "name": "SP3",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SP3"
+    },
+    {
+      "id": "13",
+      "name": "DP2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DP2"
+    },
+    {
+      "id": "14",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "right": [
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8"
+      ]
+    }
+  }
+}

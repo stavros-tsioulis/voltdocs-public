@@ -32,6 +32,9 @@ highlights:
   - endurance_cycles
   - data_retention_years
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

@@ -44,6 +44,9 @@ references:
   - targetId: power.buck.tps54331
     relation: see-also
     comment: Asynchronous 3A industrial buck converter requiring external catch diode.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

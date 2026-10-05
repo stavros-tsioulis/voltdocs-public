@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "PB5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB5"
+    },
+    {
+      "id": "2",
+      "name": "PB3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB3"
+    },
+    {
+      "id": "3",
+      "name": "PB4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB4"
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "5",
+      "name": "PB0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB0"
+    },
+    {
+      "id": "6",
+      "name": "PB1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB1"
+    },
+    {
+      "id": "7",
+      "name": "PB2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB2"
+    },
+    {
+      "id": "8",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

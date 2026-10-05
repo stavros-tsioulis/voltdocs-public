@@ -1,0 +1,243 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "DCD",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DCD"
+    },
+    {
+      "id": "2",
+      "name": "RI",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RI"
+    },
+    {
+      "id": "3",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "4",
+      "name": "D+",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin D+"
+    },
+    {
+      "id": "5",
+      "name": "D-",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin D-"
+    },
+    {
+      "id": "6",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    },
+    {
+      "id": "7",
+      "name": "REGIN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin REGIN"
+    },
+    {
+      "id": "8",
+      "name": "VBUS",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VBUS"
+    },
+    {
+      "id": "9",
+      "name": "RST'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RST'"
+    },
+    {
+      "id": "10",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "11",
+      "name": "SUSPEND'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SUSPEND'"
+    },
+    {
+      "id": "12",
+      "name": "SUSPEND",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SUSPEND"
+    },
+    {
+      "id": "13",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "14",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "15",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "16",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "17",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "18",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "19",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "20",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "21",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "22",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "23",
+      "name": "CTS",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CTS"
+    },
+    {
+      "id": "24",
+      "name": "RTS",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin RTS"
+    },
+    {
+      "id": "25",
+      "name": "RXD",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin RXD"
+    },
+    {
+      "id": "26",
+      "name": "TXD",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin TXD"
+    },
+    {
+      "id": "27",
+      "name": "DSR",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DSR"
+    },
+    {
+      "id": "28",
+      "name": "DTR",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DTR"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "bottom": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "right": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "top": [
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ]
+    }
+  }
+}

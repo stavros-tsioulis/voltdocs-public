@@ -1,0 +1,13 @@
+id: actuators.relays.srd-05vdc-sl-c
+revision: "1.0.0"
+title: "SRD-05VDC-SL-C"
+category: actuators/relays
+status: stub
+summary: "SRD-05VDC-SL-C imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

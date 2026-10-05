@@ -1,0 +1,13 @@
+id: passives.inductors.ft37-43
+revision: "1.0.0"
+title: "FT37-43"
+category: passives/inductors
+status: stub
+summary: "FT37-43 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

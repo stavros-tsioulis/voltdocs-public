@@ -1,0 +1,193 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "RST",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin RST"
+    },
+    {
+      "id": "2",
+      "name": "ADC",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin ADC"
+    },
+    {
+      "id": "3",
+      "name": "EN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin EN"
+    },
+    {
+      "id": "4",
+      "name": "IO16",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin IO16"
+    },
+    {
+      "id": "5",
+      "name": "IO14",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin IO14"
+    },
+    {
+      "id": "6",
+      "name": "IO12",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin IO12"
+    },
+    {
+      "id": "7",
+      "name": "IO13",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin IO13"
+    },
+    {
+      "id": "8",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "9",
+      "name": "CS0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CS0"
+    },
+    {
+      "id": "10",
+      "name": "MISO",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin MISO"
+    },
+    {
+      "id": "11",
+      "name": "IO9",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin IO9"
+    },
+    {
+      "id": "12",
+      "name": "IO10",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin IO10"
+    },
+    {
+      "id": "13",
+      "name": "MOSI",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin MOSI"
+    },
+    {
+      "id": "14",
+      "name": "SCLK",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin SCLK"
+    },
+    {
+      "id": "15",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "16",
+      "name": "IO15",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin IO15"
+    },
+    {
+      "id": "17",
+      "name": "IO2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin IO2"
+    },
+    {
+      "id": "18",
+      "name": "IO0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin IO0"
+    },
+    {
+      "id": "19",
+      "name": "IO4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin IO4"
+    },
+    {
+      "id": "20",
+      "name": "IO5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin IO5"
+    },
+    {
+      "id": "21",
+      "name": "RXD",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin RXD"
+    },
+    {
+      "id": "22",
+      "name": "TXD",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin TXD"
+    }
+  ],
+  "layout": {
+    "package": "module",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "bottom": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "right": [
+        "22",
+        "21",
+        "20",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15"
+      ]
+    }
+  }
+}

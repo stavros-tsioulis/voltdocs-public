@@ -1,0 +1,13 @@
+id: interface.connectors.deans-connector
+revision: "1.0.0"
+title: "Deans connector (T-plug)"
+category: interface/connectors
+status: stub
+summary: "Deans connector (T-plug) imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

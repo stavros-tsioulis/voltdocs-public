@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VC1",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin VC1"
+    },
+    {
+      "id": "2",
+      "name": "VC2",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin VC2"
+    },
+    {
+      "id": "3",
+      "name": "VC3",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VC3"
+    },
+    {
+      "id": "4",
+      "name": "VC4",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VC4"
+    },
+    {
+      "id": "5",
+      "name": "VC5",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VC5"
+    },
+    {
+      "id": "6",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    },
+    {
+      "id": "7",
+      "name": "COP",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin COP"
+    },
+    {
+      "id": "8",
+      "name": "DOP",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DOP"
+    },
+    {
+      "id": "9",
+      "name": "VMP",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VMP"
+    },
+    {
+      "id": "10",
+      "name": "INI",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin INI"
+    },
+    {
+      "id": "11",
+      "name": "VSS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "12",
+      "name": "VINI",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VINI"
+    },
+    {
+      "id": "13",
+      "name": "CDT",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CDT"
+    },
+    {
+      "id": "14",
+      "name": "CCT",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CCT"
+    },
+    {
+      "id": "15",
+      "name": "SEL",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SEL"
+    },
+    {
+      "id": "16",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+id: diodes.usblc6-2sc6
+revision: "1.0.0"
+title: "USBLC6-2SC6"
+category: diodes
+status: stub
+summary: "USBLC6-2SC6 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

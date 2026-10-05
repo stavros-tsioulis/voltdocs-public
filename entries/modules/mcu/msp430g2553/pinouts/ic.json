@@ -1,0 +1,175 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "2",
+      "name": "P1.0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.0"
+    },
+    {
+      "id": "3",
+      "name": "P1.1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.1"
+    },
+    {
+      "id": "4",
+      "name": "P1.2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.2"
+    },
+    {
+      "id": "5",
+      "name": "P1.3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.3"
+    },
+    {
+      "id": "6",
+      "name": "P1.4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.4"
+    },
+    {
+      "id": "7",
+      "name": "P1.5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.5"
+    },
+    {
+      "id": "8",
+      "name": "P2.0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P2.0"
+    },
+    {
+      "id": "9",
+      "name": "P2.1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P2.1"
+    },
+    {
+      "id": "10",
+      "name": "P2.2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P2.2"
+    },
+    {
+      "id": "11",
+      "name": "P2.3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P2.3"
+    },
+    {
+      "id": "12",
+      "name": "P2.4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P2.4"
+    },
+    {
+      "id": "13",
+      "name": "P2.5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P2.5"
+    },
+    {
+      "id": "14",
+      "name": "P1.6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.6"
+    },
+    {
+      "id": "15",
+      "name": "P1.7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin P1.7"
+    },
+    {
+      "id": "16",
+      "name": "RST",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin RST"
+    },
+    {
+      "id": "17",
+      "name": "TEST",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin TEST"
+    },
+    {
+      "id": "18",
+      "name": "XOUT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin XOUT"
+    },
+    {
+      "id": "19",
+      "name": "XIN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin XIN"
+    },
+    {
+      "id": "20",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "right": [
+        "20",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11"
+      ]
+    }
+  }
+}

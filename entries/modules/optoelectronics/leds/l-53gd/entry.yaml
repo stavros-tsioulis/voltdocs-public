@@ -1,0 +1,13 @@
+id: optoelectronics.leds.l-53gd
+revision: "1.0.0"
+title: "L-53GD"
+category: optoelectronics/leds
+status: stub
+summary: "L-53GD imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

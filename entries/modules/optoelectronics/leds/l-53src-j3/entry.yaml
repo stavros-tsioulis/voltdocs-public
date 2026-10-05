@@ -1,0 +1,13 @@
+id: optoelectronics.leds.l-53src-j3
+revision: "1.0.0"
+title: "L-53SRC-J3"
+category: optoelectronics/leds
+status: stub
+summary: "L-53SRC-J3 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

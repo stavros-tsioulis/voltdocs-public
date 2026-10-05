@@ -1,0 +1,66 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "LX",
+      "type": "digital",
+      "direction": [
+        "power",
+        "power-out"
+      ],
+      "description": "Pin LX"
+    },
+    {
+      "id": "2",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "3",
+      "name": "FB",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin FB"
+    },
+    {
+      "id": "4",
+      "name": "EN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin EN"
+    },
+    {
+      "id": "5",
+      "name": "IN",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin IN"
+    },
+    {
+      "id": "6",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3"
+      ],
+      "right": [
+        "6",
+        "5",
+        "4"
+      ]
+    }
+  }
+}

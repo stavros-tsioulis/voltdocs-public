@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "A0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin A0"
+    },
+    {
+      "id": "2",
+      "name": "A1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin A1"
+    },
+    {
+      "id": "3",
+      "name": "A2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin A2"
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "5",
+      "name": "SDA",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin SDA"
+    },
+    {
+      "id": "6",
+      "name": "SCL",
+      "type": "bus",
+      "direction": "bidirectional",
+      "description": "Pin SCL"
+    },
+    {
+      "id": "7",
+      "name": "WP",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin WP"
+    },
+    {
+      "id": "8",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

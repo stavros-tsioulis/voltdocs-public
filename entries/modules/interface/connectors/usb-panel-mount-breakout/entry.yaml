@@ -1,0 +1,13 @@
+id: interface.connectors.usb-panel-mount-breakout
+revision: "1.0.0"
+title: "USB-A/B/C panel-mount breakout connector"
+category: interface/connectors
+status: stub
+summary: "USB-A/B/C panel-mount breakout connector imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

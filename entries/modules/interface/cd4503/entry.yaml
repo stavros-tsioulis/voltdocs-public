@@ -25,6 +25,9 @@ highlights:
   - bus_width_bits
   - propagation_delay_ns
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

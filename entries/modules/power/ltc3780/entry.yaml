@@ -39,6 +39,9 @@ references:
   - targetId: power.buck-boost.tps63020
     relation: see-also
     comment: Monolithic 4A buck-boost converter for handheld lithium applications.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

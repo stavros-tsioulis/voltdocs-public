@@ -36,6 +36,9 @@ highlights:
 references:
   - targetId: power.ldo.mic5219-3.3
     relation: see-also
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

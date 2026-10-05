@@ -1,0 +1,13 @@
+id: interface.connectors.idc-box-header-2-54mm
+revision: "1.0.0"
+title: "IDC box header 2.54mm (shrouded)"
+category: interface/connectors
+status: stub
+summary: "IDC box header 2.54mm (shrouded) imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

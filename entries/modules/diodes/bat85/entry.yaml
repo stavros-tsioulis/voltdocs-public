@@ -1,0 +1,13 @@
+id: diodes.bat85
+revision: "1.0.0"
+title: "BAT85"
+category: diodes
+status: stub
+summary: "BAT85 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

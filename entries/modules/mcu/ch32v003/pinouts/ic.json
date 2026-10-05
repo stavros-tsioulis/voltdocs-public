@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "PD6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD6"
+    },
+    {
+      "id": "2",
+      "name": "VSS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "3",
+      "name": "PA1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA1"
+    },
+    {
+      "id": "4",
+      "name": "PA2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA2"
+    },
+    {
+      "id": "5",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    },
+    {
+      "id": "6",
+      "name": "PC1",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin PC1"
+    },
+    {
+      "id": "7",
+      "name": "PC2",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin PC2"
+    },
+    {
+      "id": "8",
+      "name": "PD4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD4"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

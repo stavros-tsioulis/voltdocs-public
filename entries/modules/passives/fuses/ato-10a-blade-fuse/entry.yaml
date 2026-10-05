@@ -1,0 +1,13 @@
+id: passives.fuses.ato-10a-blade-fuse
+revision: "1.0.0"
+title: "ATO 10A blade fuse"
+category: passives/fuses
+status: stub
+summary: "ATO 10A blade fuse imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

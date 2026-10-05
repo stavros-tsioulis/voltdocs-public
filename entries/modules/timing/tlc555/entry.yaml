@@ -29,6 +29,9 @@ highlights:
   - quiescent_current_ua
   - max_frequency_mhz
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

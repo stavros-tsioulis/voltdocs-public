@@ -1,0 +1,13 @@
+id: diodes.mbr1045
+revision: "1.0.0"
+title: "MBR1045"
+category: diodes
+status: stub
+summary: "MBR1045 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

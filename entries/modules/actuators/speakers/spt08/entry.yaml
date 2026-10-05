@@ -1,0 +1,13 @@
+id: actuators.speakers.spt08
+revision: "1.0.0"
+title: "SPT08"
+category: actuators/speakers
+status: stub
+summary: "SPT08 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

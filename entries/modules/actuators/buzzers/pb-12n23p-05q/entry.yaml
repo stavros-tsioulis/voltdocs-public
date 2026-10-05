@@ -1,0 +1,13 @@
+id: actuators.buzzers.pb-12n23p-05q
+revision: "1.0.0"
+title: "PB-12N23P-05Q"
+category: actuators/buzzers
+status: stub
+summary: "PB-12N23P-05Q imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

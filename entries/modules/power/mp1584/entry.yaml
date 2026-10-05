@@ -32,6 +32,9 @@ highlights:
   - switching_frequency_khz
   - efficiency_pct
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

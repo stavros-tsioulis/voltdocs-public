@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "C1+",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin C1+"
+    },
+    {
+      "id": "2",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V+"
+    },
+    {
+      "id": "3",
+      "name": "C1-",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin C1-"
+    },
+    {
+      "id": "4",
+      "name": "C2+",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin C2+"
+    },
+    {
+      "id": "5",
+      "name": "C2-",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin C2-"
+    },
+    {
+      "id": "6",
+      "name": "V-",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V-"
+    },
+    {
+      "id": "7",
+      "name": "T2OUT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin T2OUT"
+    },
+    {
+      "id": "8",
+      "name": "R2IN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin R2IN"
+    },
+    {
+      "id": "9",
+      "name": "R2OUT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin R2OUT"
+    },
+    {
+      "id": "10",
+      "name": "T2IN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin T2IN"
+    },
+    {
+      "id": "11",
+      "name": "T1IN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin T1IN"
+    },
+    {
+      "id": "12",
+      "name": "R1OUT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin R1OUT"
+    },
+    {
+      "id": "13",
+      "name": "R1IN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin R1IN"
+    },
+    {
+      "id": "14",
+      "name": "T1OUT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin T1OUT"
+    },
+    {
+      "id": "15",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "16",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

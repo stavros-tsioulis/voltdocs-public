@@ -36,6 +36,9 @@ references:
   - targetId: driver.stepper.drv8825
     relation: see-also
     comment: Similar StepStick form factor with 1/32 microstepping vs 1/128 on the LV8729.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

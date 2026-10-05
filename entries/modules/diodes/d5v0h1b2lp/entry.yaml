@@ -1,0 +1,13 @@
+id: diodes.d5v0h1b2lp
+revision: "1.0.0"
+title: "D5V0H1B2LP"
+category: diodes
+status: stub
+summary: "D5V0H1B2LP imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

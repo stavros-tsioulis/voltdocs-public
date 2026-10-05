@@ -1,0 +1,13 @@
+id: diodes.mbr0520l
+revision: "1.0.0"
+title: "MBR0520L"
+category: diodes
+status: stub
+summary: "MBR0520L imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

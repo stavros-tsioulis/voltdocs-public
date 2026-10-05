@@ -1,0 +1,91 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "SOURCE",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin SOURCE"
+    },
+    {
+      "id": "2",
+      "name": "SOURCE",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin SOURCE"
+    },
+    {
+      "id": "3",
+      "name": "FB",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin FB"
+    },
+    {
+      "id": "4",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    },
+    {
+      "id": "5",
+      "name": "DRAIN",
+      "type": "digital",
+      "direction": [
+        "power",
+        "power-out"
+      ],
+      "description": "Pin DRAIN"
+    },
+    {
+      "id": "6",
+      "name": "DRAIN",
+      "type": "digital",
+      "direction": [
+        "power",
+        "power-out"
+      ],
+      "description": "Pin DRAIN"
+    },
+    {
+      "id": "7",
+      "name": "DRAIN",
+      "type": "digital",
+      "direction": [
+        "power",
+        "power-out"
+      ],
+      "description": "Pin DRAIN"
+    },
+    {
+      "id": "8",
+      "name": "DRAIN",
+      "type": "digital",
+      "direction": [
+        "power",
+        "power-out"
+      ],
+      "description": "Pin DRAIN"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

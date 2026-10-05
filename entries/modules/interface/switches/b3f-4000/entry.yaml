@@ -1,0 +1,13 @@
+id: interface.switches.b3f-4000
+revision: "1.0.0"
+title: "B3F-4000"
+category: interface/switches
+status: stub
+summary: "B3F-4000 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

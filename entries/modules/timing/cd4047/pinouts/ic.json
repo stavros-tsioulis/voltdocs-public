@@ -1,0 +1,130 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "C",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin C"
+    },
+    {
+      "id": "2",
+      "name": "R",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin R"
+    },
+    {
+      "id": "3",
+      "name": "RC_COM",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RC_COM"
+    },
+    {
+      "id": "4",
+      "name": "AST'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin AST'"
+    },
+    {
+      "id": "5",
+      "name": "AST",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin AST"
+    },
+    {
+      "id": "6",
+      "name": "-TRG",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin -TRG"
+    },
+    {
+      "id": "7",
+      "name": "VSS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "8",
+      "name": "+TRG",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin +TRG"
+    },
+    {
+      "id": "9",
+      "name": "EXT_RST",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin EXT_RST"
+    },
+    {
+      "id": "10",
+      "name": "Q",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q"
+    },
+    {
+      "id": "11",
+      "name": "Q'",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q'"
+    },
+    {
+      "id": "12",
+      "name": "RETRG",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RETRG"
+    },
+    {
+      "id": "13",
+      "name": "OSC_OUT",
+      "type": "digital",
+      "direction": [
+        "power",
+        "power-out"
+      ],
+      "description": "Pin OSC_OUT"
+    },
+    {
+      "id": "14",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "right": [
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8"
+      ]
+    }
+  }
+}

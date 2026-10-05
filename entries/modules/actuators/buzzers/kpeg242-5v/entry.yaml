@@ -1,0 +1,13 @@
+id: actuators.buzzers.kpeg242-5v
+revision: "1.0.0"
+title: "KPEG242-5V"
+category: actuators/buzzers
+status: stub
+summary: "KPEG242-5V imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

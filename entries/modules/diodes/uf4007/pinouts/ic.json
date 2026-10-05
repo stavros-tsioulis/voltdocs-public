@@ -1,0 +1,31 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "A",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Anode"
+    },
+    {
+      "id": "2",
+      "name": "K",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Cathode"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1"
+      ],
+      "right": [
+        "2"
+      ]
+    }
+  }
+}

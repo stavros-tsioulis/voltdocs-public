@@ -40,6 +40,9 @@ references:
   - targetId: diode.rectifier.1n4007
     relation: see-also
     comment: Companion semiconductor diode illustrating standard forward bias vs light-emitting PN junctions.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

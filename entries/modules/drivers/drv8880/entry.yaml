@@ -39,6 +39,9 @@ references:
   - targetId: driver.stepper.a4988
     relation: see-also
     comment: Pin-compatible carrier module format with similar STEP/DIR operation.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

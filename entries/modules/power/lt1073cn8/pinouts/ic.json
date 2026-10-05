@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "ILIM",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin ILIM"
+    },
+    {
+      "id": "2",
+      "name": "VIN",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VIN"
+    },
+    {
+      "id": "3",
+      "name": "SW1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SW1"
+    },
+    {
+      "id": "4",
+      "name": "SW2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SW2"
+    },
+    {
+      "id": "5",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "6",
+      "name": "AO",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin AO"
+    },
+    {
+      "id": "7",
+      "name": "SET",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin SET"
+    },
+    {
+      "id": "8",
+      "name": "FB",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin FB"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

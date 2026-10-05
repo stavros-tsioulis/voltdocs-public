@@ -1,0 +1,13 @@
+id: passives.fuses.gma-3a
+revision: "1.0.0"
+title: "GMA-3A"
+category: passives/fuses
+status: stub
+summary: "GMA-3A imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

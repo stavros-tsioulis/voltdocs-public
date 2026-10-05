@@ -42,6 +42,9 @@ references:
   - targetId: driver.stepper.a4988
     relation: alternative-to
     comment: Massive noise reduction, sensorless homing, and software current configuration upgrade over A4988.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

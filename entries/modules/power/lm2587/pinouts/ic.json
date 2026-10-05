@@ -1,0 +1,56 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "COMP",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin COMP"
+    },
+    {
+      "id": "2",
+      "name": "FB",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin FB"
+    },
+    {
+      "id": "3",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "4",
+      "name": "SW",
+      "type": "digital",
+      "direction": [
+        "power",
+        "power-out"
+      ],
+      "description": "Pin SW"
+    },
+    {
+      "id": "5",
+      "name": "VIN",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VIN"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "bottom": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  }
+}

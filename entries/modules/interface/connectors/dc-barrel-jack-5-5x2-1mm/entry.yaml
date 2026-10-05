@@ -1,0 +1,13 @@
+id: interface.connectors.dc-barrel-jack-5-5x2-1mm
+revision: "1.0.0"
+title: "DC barrel jack 5.5x2.1mm"
+category: interface/connectors
+status: stub
+summary: "DC barrel jack 5.5x2.1mm imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

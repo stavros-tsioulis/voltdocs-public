@@ -626,173 +626,173 @@ Candidate parts for future import into `entries/`, ranked by how often they turn
 | `100nF ceramic (0.1µF, '104')` | Ceramic capacitor | generic | Tier 1 | The single most-stocked capacitor value overall; the classic IC decoupling/bypass cap placed near nearly every digital chip, sold in the largest quantities of any capacitor kit reviewed. | imported | pending |
 | `100µF electrolytic` | Electrolytic capacitor | generic | Tier 1 | Core electrolytic value widely used for power-supply bulk filtering, stocked in every standard capacitor kit. | imported | pending |
 | `10µF electrolytic` | Electrolytic capacitor | generic | Tier 1 | Core electrolytic value stocked in virtually every hobbyist assortment for decoupling/bulk capacitance. | imported | pending |
-| `10kΩ 1/4W 5%` | Fixed resistor | generic | Tier 1 | The single most universal pull-up/pull-down/reference resistor value, present in essentially every kit description reviewed. |  | pending |
-| `1kΩ 1/4W 5%` | Fixed resistor | generic | Tier 1 | Extremely common general-purpose value used for pull-ups and transistor base resistors across nearly every kit. |  | pending |
-| `220Ω 1/4W 5%` | Fixed resistor | generic | Tier 1 | The most-cited LED current-limiting resistor value at 5V, repeatedly called out as a classic bench-stock value across independent sourcing lists. |  | pending |
-| `330Ω 1/4W 5%` | Fixed resistor | generic | Tier 1 | The most-cited Arduino LED series resistor value, explicitly named in maker/professional stocking recommendations. |  | pending |
+| `10kΩ 1/4W 5%` | Fixed resistor | generic | Tier 1 | The single most universal pull-up/pull-down/reference resistor value, present in essentially every kit description reviewed. | imported | complete |
+| `1kΩ 1/4W 5%` | Fixed resistor | generic | Tier 1 | Extremely common general-purpose value used for pull-ups and transistor base resistors across nearly every kit. | imported | complete |
+| `220Ω 1/4W 5%` | Fixed resistor | generic | Tier 1 | The most-cited LED current-limiting resistor value at 5V, repeatedly called out as a classic bench-stock value across independent sourcing lists. | imported | complete |
+| `330Ω 1/4W 5%` | Fixed resistor | generic | Tier 1 | The most-cited Arduino LED series resistor value, explicitly named in maker/professional stocking recommendations. | imported | complete |
  | `1N4007` | General-purpose rectifier diode | generic/multi (onsemi, Vishay, Diodes Inc) | Tier 1 | Highest-voltage (1000V), most-stocked member of the 1N400x family; cited repeatedly across independent sources as the universal safe-default rectifier for AC-adapter/bridge circuits. | imported | pending |
-| `1N5819` | Schottky rectifier | generic/multi (onsemi, Vishay, ST) | Tier 1 | 40V/1A Schottky; described as extremely common for reverse-polarity protection and DC-DC flyback duty across many independent sources. |  | pending |
+| `1N5819` | Schottky rectifier | generic/multi (onsemi, Vishay, ST) | Tier 1 | 40V/1A Schottky; described as extremely common for reverse-polarity protection and DC-DC flyback duty across many independent sources. | imported | complete |
  | `1N4148` | Small-signal switching diode | generic/multi (Vishay, onsemi, NXP, Diodes Inc) | Tier 1 | The classic small-signal switching/clamp diode; appears across nearly every independent source in the raw list for logic clamping, RF detection, and pedal clipping. Absorbs naming/package variants 1N914, 1N4448, LL4148, 1N4148W and bulk SMD-reel listings as the same functionally-interchangeable part. | imported | pending |
-| `1N4733A` | Zener regulator diode (1W) | generic/multi (onsemi, Vishay) | Tier 1 | 5.1V/1W zener, called out repeatedly as one of the most common hobbyist reference/regulation choices in the 1N4728A-1N4761A series. |  | pending |
-| `L-53GD` | 3mm THT LED - Green | Kingbright | Tier 2 | Common 3mm green diffused LED from Kingbright's widely used L-53 series, favored for breadboard prototyping. |  | pending |
-| `L-7113QBC-D` | 5mm THT LED - Blue | Kingbright | Tier 2 | Blue 5mm THT LED, part of Kingbright's standard L-7113 series used widely for indicator/hobby applications. |  | pending |
-| `TSAL6200` | 5mm THT LED - Infrared 940nm | Vishay | Tier 2 | One of the most widely used 5mm IR emitter LEDs in hobbyist remote-control and IR sensor projects; absorbs generic '940nm IR LED' listings as the same concrete part. |  | pending |
-| `VLHW4100` | 5mm THT LED - White | Vishay | Tier 2 | Standard 5mm white LED commonly used for general illumination in DIY electronics projects, representative of white 5mm LEDs across brands. |  | pending |
-| `L-7113SYC-E` | 5mm THT LED - Yellow | Kingbright | Tier 2 | Yellow 5mm THT LED from the widely used Kingbright L-7113 family found in most component assortments. |  | pending |
-| `L-59EGW` | 5mm THT RGB LED (common cathode) | Kingbright | Tier 2 | Classic 4-pin 5mm common-cathode RGB LED used extensively in beginner Arduino/microcontroller color-mixing tutorials; absorbs generic '5mm-RGB-common-cathode' listing as the same part. |  | pending |
+| `1N4733A` | Zener regulator diode (1W) | generic/multi (onsemi, Vishay) | Tier 1 | 5.1V/1W zener, called out repeatedly as one of the most common hobbyist reference/regulation choices in the 1N4728A-1N4761A series. | imported | complete |
+| `L-53GD` | 3mm THT LED - Green | Kingbright | Tier 2 | Common 3mm green diffused LED from Kingbright's widely used L-53 series, favored for breadboard prototyping. | imported | complete |
+| `L-7113QBC-D` | 5mm THT LED - Blue | Kingbright | Tier 2 | Blue 5mm THT LED, part of Kingbright's standard L-7113 series used widely for indicator/hobby applications. | imported | complete |
+| `TSAL6200` | 5mm THT LED - Infrared 940nm | Vishay | Tier 2 | One of the most widely used 5mm IR emitter LEDs in hobbyist remote-control and IR sensor projects; absorbs generic '940nm IR LED' listings as the same concrete part. | imported | complete |
+| `VLHW4100` | 5mm THT LED - White | Vishay | Tier 2 | Standard 5mm white LED commonly used for general illumination in DIY electronics projects, representative of white 5mm LEDs across brands. | imported | complete |
+| `L-7113SYC-E` | 5mm THT LED - Yellow | Kingbright | Tier 2 | Yellow 5mm THT LED from the widely used Kingbright L-7113 family found in most component assortments. | imported | complete |
+| `L-59EGW` | 5mm THT RGB LED (common cathode) | Kingbright | Tier 2 | Classic 4-pin 5mm common-cathode RGB LED used extensively in beginner Arduino/microcontroller color-mixing tutorials; absorbs generic '5mm-RGB-common-cathode' listing as the same part. | imported | complete |
  | `SK6812` | Addressable RGB LED (5050 SMD) | Opsco/SK | Tier 2 | Drop-in WS2812B-compatible addressable LED with improved PWM frequency, extremely common in hobbyist strips/matrices. | imported | pending |
  | `APA102C` | Addressable RGB LED (5050 SPI) | APA Corp | Tier 2 | SPI-controlled addressable LED (Adafruit DotStar) offering higher refresh rate and independent brightness control, a hobbyist favorite alternative to WS2812B. | imported | pending |
-| `WS2813` | Addressable RGB LED (dual signal line) | Worldsemi | Tier 2 | WS2812B variant with backup data line so a single dead pixel doesn't break the chain, popular for larger installations. |  | pending |
-| `10nF ceramic (0.01µF, '103')` | Ceramic capacitor | generic | Tier 2 | Classic 'monolithic 103' value used broadly for filtering, stocked in standard 10-value hobbyist capacitor kits. |  | pending |
-| `10µF ceramic (X5R/X7R)` | Ceramic capacitor | generic | Tier 2 | Common regulator bulk-capacitance value, replacing small electrolytics in many modern designs. |  | pending |
-| `1nF ceramic (1000pF)` | Ceramic capacitor | generic | Tier 2 | Common general-purpose ceramic value stocked in standard hobbyist capacitor kits. |  | pending |
-| `1µF ceramic (X7R)` | Ceramic capacitor | generic | Tier 2 | Increasingly recommended over 100nF for modern IC decoupling due to lower impedance at typical logic frequencies. |  | pending |
-| `22pF ceramic` | Ceramic capacitor | generic | Tier 2 | Standard crystal/resonator load capacitance value, stocked in hobbyist capacitor kits. |  | pending |
-| `1000µF electrolytic` | Electrolytic capacitor | generic | Tier 2 | Top-end value in standard capacitor kits' 10 most common values, used for large PSU ripple smoothing. |  | pending |
-| `1µF electrolytic` | Electrolytic capacitor | generic | Tier 2 | One of the three core aluminum electrolytic values (1/10/100µF) stocked in nearly every hobbyist kit. |  | pending |
-| `WS2811` | External addressable LED driver IC | Worldsemi | Tier 2 | Separate driver IC used to control standard RGB LEDs individually, common in DIY LED pixel strings. |  | pending |
-| `100kΩ 1/4W 5%` | Fixed resistor | generic | Tier 2 | Standard high-value resistor present across nearly all beginner/hobbyist resistor kit descriptions. |  | pending |
-| `100Ω 1/4W 5%` | Fixed resistor | generic | Tier 2 | Very commonly stocked value for current limiting and pull-ups. |  | pending |
-| `1MΩ 1/4W 5%` | Fixed resistor | generic | Tier 2 | Common top-end value in most hobbyist E12 assortment kits (10Ω-1MΩ range). |  | pending |
-| `2.2kΩ 1/4W 5%` | Fixed resistor | generic | Tier 2 | Frequently used pull-up value, common bench-stock item. |  | pending |
-| `4.7kΩ 1/4W 5%` | Fixed resistor | generic | Tier 2 | Classic I2C pull-up resistor value, very common bench-stock item. |  | pending |
-| `470Ω 1/4W 5%` | Fixed resistor | generic | Tier 2 | Common alternate LED/pull resistor value called out in professional stocking recommendations. |  | pending |
-| `47kΩ 1/4W 5%` | Fixed resistor | generic | Tier 2 | Common mid-range value included in standard beginner resistor kits. |  | pending |
+| `WS2813` | Addressable RGB LED (dual signal line) | Worldsemi | Tier 2 | WS2812B variant with backup data line so a single dead pixel doesn't break the chain, popular for larger installations. | imported | complete |
+| `10nF ceramic (0.01µF, '103')` | Ceramic capacitor | generic | Tier 2 | Classic 'monolithic 103' value used broadly for filtering, stocked in standard 10-value hobbyist capacitor kits. | imported | complete |
+| `10µF ceramic (X5R/X7R)` | Ceramic capacitor | generic | Tier 2 | Common regulator bulk-capacitance value, replacing small electrolytics in many modern designs. | imported | complete |
+| `1nF ceramic (1000pF)` | Ceramic capacitor | generic | Tier 2 | Common general-purpose ceramic value stocked in standard hobbyist capacitor kits. | imported | complete |
+| `1µF ceramic (X7R)` | Ceramic capacitor | generic | Tier 2 | Increasingly recommended over 100nF for modern IC decoupling due to lower impedance at typical logic frequencies. | imported | complete |
+| `22pF ceramic` | Ceramic capacitor | generic | Tier 2 | Standard crystal/resonator load capacitance value, stocked in hobbyist capacitor kits. | imported | complete |
+| `1000µF electrolytic` | Electrolytic capacitor | generic | Tier 2 | Top-end value in standard capacitor kits' 10 most common values, used for large PSU ripple smoothing. | imported | complete |
+| `1µF electrolytic` | Electrolytic capacitor | generic | Tier 2 | One of the three core aluminum electrolytic values (1/10/100µF) stocked in nearly every hobbyist kit. | imported | complete |
+| `WS2811` | External addressable LED driver IC | Worldsemi | Tier 2 | Separate driver IC used to control standard RGB LEDs individually, common in DIY LED pixel strings. | imported | complete |
+| `100kΩ 1/4W 5%` | Fixed resistor | generic | Tier 2 | Standard high-value resistor present across nearly all beginner/hobbyist resistor kit descriptions. | imported | complete |
+| `100Ω 1/4W 5%` | Fixed resistor | generic | Tier 2 | Very commonly stocked value for current limiting and pull-ups. | imported | complete |
+| `1MΩ 1/4W 5%` | Fixed resistor | generic | Tier 2 | Common top-end value in most hobbyist E12 assortment kits (10Ω-1MΩ range). | imported | complete |
+| `2.2kΩ 1/4W 5%` | Fixed resistor | generic | Tier 2 | Frequently used pull-up value, common bench-stock item. | imported | complete |
+| `4.7kΩ 1/4W 5%` | Fixed resistor | generic | Tier 2 | Classic I2C pull-up resistor value, very common bench-stock item. | imported | complete |
+| `470Ω 1/4W 5%` | Fixed resistor | generic | Tier 2 | Common alternate LED/pull resistor value called out in professional stocking recommendations. | imported | complete |
+| `47kΩ 1/4W 5%` | Fixed resistor | generic | Tier 2 | Common mid-range value included in standard beginner resistor kits. | imported | complete |
  | `1N4001` | General-purpose rectifier diode | generic/multi | Tier 2 | 50V/1A entry point of the 1N400x family, kept alongside 1N4007 as the cheap low-voltage option; referenced multiple times including a 'glass-passivated' marking variant (1N4001GP) merged here. | imported | pending |
-| `1N4004` | General-purpose rectifier diode | generic/multi | Tier 2 | 400V/1A member, repeatedly cited specifically for reverse-current/polarity protection in Arduino/DIY projects. |  | pending |
-| `SS14` | SMD Schottky rectifier | generic/multi | Tier 2 | 1A/40V SMA Schottky, ubiquitous on SMD hobby PCBs for reverse-voltage protection and DC-DC circuits; cited repeatedly. |  | pending |
-| `BZX84C3V3` | SMD Zener diode (SOT-23) | Nexperia/onsemi | Tier 2 | 3.3V SMD zener, SOT-23 surface-mount equivalent to BZX55, very common on modern ESP32/Arduino SMD shield PCBs. |  | pending |
-| `BZX84C5V1` | SMD Zener diode (SOT-23) | Nexperia/onsemi | Tier 2 | 5.1V SMD zener, extremely common on ESP32/Arduino shield PCBs for reference/clamp. |  | pending |
-| `1N5817` | Schottky rectifier | generic/multi (onsemi, ST, Vishay) | Tier 2 | 20V/1A Schottky with very low Vf, common in polarity-protection and pedal circuits, cited repeatedly. |  | pending |
-| `1N5822` | Schottky rectifier | generic/multi (onsemi, Vishay) | Tier 2 | 40V/3A Schottky, popular for solar charge-controller blocking diodes and buck-converter freewheeling; cited multiple times. |  | pending |
-| `BAT54` | Small-signal Schottky (SOT-23) | generic/multi (Nexperia, Diodes Inc) | Tier 2 | SMD Schottky widely used both as a substitute for 1N5817-class diodes and for GPIO overvoltage clamp protection on Arduino/ESP32 boards; cited repeatedly. |  | pending |
-| `P6KE6.8A` | TVS diode (600W, DO-15) | Littelfuse/Vishay | Tier 2 | 6.8V unidirectional through-hole TVS from the classic P6KE line, popular for hobbyist power/signal-line surge protection; merges alternate European-style notation 'P6KE6V8' for the same part. |  | pending |
-| `SMBJ5.0A` | TVS diode (600W, SMB) | Littelfuse/Diodes Inc | Tier 2 | 5V standoff SMBJ TVS commonly used on protection circuits of USB/5V hobby boards; cited multiple times. |  | pending |
-| `USBLC6-2SC6` | USB ESD protection diode array (SOT-23-6) | STMicroelectronics | Tier 2 | Very common dual-line ESD protection array for USB D+/D- lines, found on countless Arduino/ESP32-adjacent boards. |  | pending |
-| `1N4728A` | Zener regulator diode (1W) | generic/multi (onsemi, Vishay) | Tier 2 | 3.3V/1W zener, first/lowest of the standard 1W zener ladder, repeatedly cited across sources. |  | pending |
-| `1N4742A` | Zener regulator diode (1W) | generic/multi (onsemi, Vishay) | Tier 2 | 12V/1W zener, extremely common for 12V-rail overvoltage protection/clamping, cited multiple times. |  | pending |
-| `1N5231B` | Zener regulator diode (500mW) | generic/multi (onsemi) | Tier 2 | 5.1V small zener, common through-hole alternative to BZX55C5V1 in the 1N52xx series, cited multiple times. |  | pending |
-| `BZX55C3V3` | Zener regulator diode (DO-35, 0.5W) | generic/multi (Nexperia, Vishay) | Tier 2 | 3.3V zener, entry point of the widely used BZX55C series common in European-sourced hobby kits. |  | pending |
-| `BZX55C5V1` | Zener regulator diode (DO-35, 0.5W) | generic/multi | Tier 2 | 5.1V BZX55C zener, common general-purpose reference voltage. |  | pending |
-| `L-53SRC-J3` | 3mm THT LED - Super Bright Red | Kingbright | Tier 3 | Popular 3mm super-bright red LED used for compact indicator applications in DIY projects. |  | pending |
-| `L-53YD` | 3mm THT LED - Yellow | Kingbright | Tier 3 | Common 3mm yellow diffused LED from the same ubiquitous Kingbright L-53 line. |  | pending |
-| `C503B-RAN-CY0C0791` | 5mm THT LED - High-brightness Red | Cree | Tier 3 | Cree 5mm high-brightness red LED frequently referenced in Arduino/maker LED assortment guides where more brightness than a standard indicator LED is needed. |  | pending |
-| `WS2815` | Addressable RGB LED (12V, dual data line) | Worldsemi | Tier 3 | 12V addressable LED variant favored for reduced voltage-drop on long strips. |  | pending |
+| `1N4004` | General-purpose rectifier diode | generic/multi | Tier 2 | 400V/1A member, repeatedly cited specifically for reverse-current/polarity protection in Arduino/DIY projects. | imported | complete |
+| `SS14` | SMD Schottky rectifier | generic/multi | Tier 2 | 1A/40V SMA Schottky, ubiquitous on SMD hobby PCBs for reverse-voltage protection and DC-DC circuits; cited repeatedly. | imported | complete |
+| `BZX84C3V3` | SMD Zener diode (SOT-23) | Nexperia/onsemi | Tier 2 | 3.3V SMD zener, SOT-23 surface-mount equivalent to BZX55, very common on modern ESP32/Arduino SMD shield PCBs. | imported | complete |
+| `BZX84C5V1` | SMD Zener diode (SOT-23) | Nexperia/onsemi | Tier 2 | 5.1V SMD zener, extremely common on ESP32/Arduino shield PCBs for reference/clamp. | imported | complete |
+| `1N5817` | Schottky rectifier | generic/multi (onsemi, ST, Vishay) | Tier 2 | 20V/1A Schottky with very low Vf, common in polarity-protection and pedal circuits, cited repeatedly. | imported | complete |
+| `1N5822` | Schottky rectifier | generic/multi (onsemi, Vishay) | Tier 2 | 40V/3A Schottky, popular for solar charge-controller blocking diodes and buck-converter freewheeling; cited multiple times. | imported | complete |
+| `BAT54` | Small-signal Schottky (SOT-23) | generic/multi (Nexperia, Diodes Inc) | Tier 2 | SMD Schottky widely used both as a substitute for 1N5817-class diodes and for GPIO overvoltage clamp protection on Arduino/ESP32 boards; cited repeatedly. | imported | complete |
+| `P6KE6.8A` | TVS diode (600W, DO-15) | Littelfuse/Vishay | Tier 2 | 6.8V unidirectional through-hole TVS from the classic P6KE line, popular for hobbyist power/signal-line surge protection; merges alternate European-style notation 'P6KE6V8' for the same part. | imported | complete |
+| `SMBJ5.0A` | TVS diode (600W, SMB) | Littelfuse/Diodes Inc | Tier 2 | 5V standoff SMBJ TVS commonly used on protection circuits of USB/5V hobby boards; cited multiple times. | imported | complete |
+| `USBLC6-2SC6` | USB ESD protection diode array (SOT-23-6) | STMicroelectronics | Tier 2 | Very common dual-line ESD protection array for USB D+/D- lines, found on countless Arduino/ESP32-adjacent boards. | imported | complete |
+| `1N4728A` | Zener regulator diode (1W) | generic/multi (onsemi, Vishay) | Tier 2 | 3.3V/1W zener, first/lowest of the standard 1W zener ladder, repeatedly cited across sources. | imported | complete |
+| `1N4742A` | Zener regulator diode (1W) | generic/multi (onsemi, Vishay) | Tier 2 | 12V/1W zener, extremely common for 12V-rail overvoltage protection/clamping, cited multiple times. | imported | complete |
+| `1N5231B` | Zener regulator diode (500mW) | generic/multi (onsemi) | Tier 2 | 5.1V small zener, common through-hole alternative to BZX55C5V1 in the 1N52xx series, cited multiple times. | imported | complete |
+| `BZX55C3V3` | Zener regulator diode (DO-35, 0.5W) | generic/multi (Nexperia, Vishay) | Tier 2 | 3.3V zener, entry point of the widely used BZX55C series common in European-sourced hobby kits. | imported | complete |
+| `BZX55C5V1` | Zener regulator diode (DO-35, 0.5W) | generic/multi | Tier 2 | 5.1V BZX55C zener, common general-purpose reference voltage. | imported | complete |
+| `L-53SRC-J3` | 3mm THT LED - Super Bright Red | Kingbright | Tier 3 | Popular 3mm super-bright red LED used for compact indicator applications in DIY projects. | imported | complete |
+| `L-53YD` | 3mm THT LED - Yellow | Kingbright | Tier 3 | Common 3mm yellow diffused LED from the same ubiquitous Kingbright L-53 line. | imported | complete |
+| `C503B-RAN-CY0C0791` | 5mm THT LED - High-brightness Red | Cree | Tier 3 | Cree 5mm high-brightness red LED frequently referenced in Arduino/maker LED assortment guides where more brightness than a standard indicator LED is needed. | imported | complete |
+| `WS2815` | Addressable RGB LED (12V, dual data line) | Worldsemi | Tier 3 | 12V addressable LED variant favored for reduced voltage-drop on long strips. | imported | complete |
  | `WS2812` | Addressable RGB LED (5050 SMD, earlier gen) | Worldsemi | Tier 3 | Predecessor to WS2812B, still referenced in older hobbyist projects and strip products. | imported | pending |
  | `SK9822` | Addressable RGB LED (APA102-compatible, SPI) | Opsco/SK | Tier 3 | Lower-cost drop-in clone of APA102 widely used in budget hobbyist LED strips. | imported | pending |
-| `APA107` | Addressable RGB LED (SPI) | APA Corp | Tier 3 | APA102 sibling chip referenced in addressable LED matrix/panel comparison guides. |  | pending |
-| `HD107S` | Addressable RGB LED (high refresh SPI) | Huada/Opsco | Tier 3 | High-speed APA102-family addressable LED used for POV displays needing high refresh rates. |  | pending |
+| `APA107` | Addressable RGB LED (SPI) | APA Corp | Tier 3 | APA102 sibling chip referenced in addressable LED matrix/panel comparison guides. | imported | complete |
+| `HD107S` | Addressable RGB LED (high refresh SPI) | Huada/Opsco | Tier 3 | High-speed APA102-family addressable LED used for POV displays needing high refresh rates. | imported | complete |
  | `SK6812MINI` | Addressable RGB LED (miniature package) | Opsco/SK | Tier 3 | Compact SK6812 package variant used in high-density LED matrix hobbyist builds. | imported | pending |
  | `SK6812RGBW` | Addressable RGBW LED | Opsco/SK | Tier 3 | RGBW variant of SK6812 adding a dedicated white die, popular for lighting needing true white output. | imported | pending |
-| `100pF ceramic` | Ceramic capacitor | generic | Tier 3 | Common snubber/filter/coupling value stocked in standard capacitor kits. |  | pending |
-| `10pF ceramic` | Ceramic capacitor | generic | Tier 3 | Common crystal-loading value, included as one of the 10 most useful capacitor values in standard kits. |  | pending |
-| `220nF ceramic` | Ceramic capacitor | generic | Tier 3 | Common secondary decoupling value used alongside 100nF for broader frequency coverage. |  | pending |
-| `33pF ceramic` | Ceramic capacitor | generic | Tier 3 | Common crystal/resonator loading capacitance in general ceramic assortment kits. |  | pending |
-| `47pF ceramic` | Ceramic capacitor | generic | Tier 3 | Common RF/filter value in standard E12 ceramic assortments. |  | pending |
-| `BAT54S` | Dual small-signal Schottky diode | generic/multi (NXP, Diodes Inc) | Tier 3 | Common-cathode dual BAT54 pair used for bidirectional GPIO clamp protection. |  | pending |
-| `BAV99` | Dual switching diode (SOT-23) | generic/multi (Nexperia, Diodes Inc) | Tier 3 | Dual series-pair SOT-23 package of a 1N4148-equivalent diode, used to save board space on SMD designs. |  | pending |
-| `PESD3V3L1BA` | ESD protection diode | Nexperia | Tier 3 | 3.3V low-capacitance ESD diode commonly placed on ESP32/STM32 GPIO breakout boards. |  | pending |
-| `PESD5V0S1BA` | ESD protection diode (SOD-323) | Nexperia | Tier 3 | 5V unidirectional ESD protection diode widely used on USB/data-line inputs. |  | pending |
-| `ESD9B3.3ST5G` | ESD protection diode (SOD-923) | onsemi | Tier 3 | 3.3V ultra-low-capacitance ESD diode popular for protecting high-speed USB/I2C data lines. |  | pending |
-| `D5V0H1B2LP` | ESD protection diode (bidirectional) | Diodes Inc | Tier 3 | Bidirectional 5V ESD steering diode used to protect low-voltage data/GPIO lines. |  | pending |
-| `2200µF electrolytic` | Electrolytic capacitor | generic | Tier 3 | Common large reservoir capacitor value for linear power-supply hobby builds. |  | pending |
-| `220µF electrolytic` | Electrolytic capacitor | generic | Tier 3 | Common bulk filtering value included in electrolytic assortment kits for power-supply projects. |  | pending |
-| `22µF electrolytic` | Electrolytic capacitor | generic | Tier 3 | Common E12 value in electrolytic assortment kits. |  | pending |
-| `470µF electrolytic` | Electrolytic capacitor | generic | Tier 3 | Common large bulk-filtering value included in most electrolytic assortment kits. |  | pending |
-| `47µF electrolytic` | Electrolytic capacitor | generic | Tier 3 | Common E12 electrolytic value frequently used for local power-rail filtering. |  | pending |
-| `1N4933` | Fast recovery rectifier | generic/multi | Tier 3 | 1A/50V fast-recovery flyback/freewheeling diode for relay and motor-driver protection. |  | pending |
-| `1N4934` | Fast recovery rectifier | generic/multi | Tier 3 | 1A/100V fast recovery diode used for switching-supply freewheeling. |  | pending |
-| `1N4937` | Fast recovery rectifier | generic/multi | Tier 3 | 1A/600V fast recovery diode common in SMPS snubber/flyback applications. |  | pending |
-| `FR107` | Fast recovery rectifier | generic/multi | Tier 3 | 1A/1000V fast recovery diode used in SMPS and LED driver hobby projects. |  | pending |
-| `FR207` | Fast recovery rectifier | generic/multi | Tier 3 | 2A/1000V fast recovery diode, higher-current sibling of FR107. |  | pending |
-| `FT240-43` | Ferrite toroid core | Fair-Rite | Tier 3 | Widely used large toroid for high-power 1:1 current baluns in ham-radio homebrew antenna projects. |  | pending |
-| `FT37-43` | Ferrite toroid core | Fair-Rite | Tier 3 | Extremely common small toroid used for homebrew common-mode chokes and baluns in ham radio. |  | pending |
-| `FT50-43` | Ferrite toroid core | Fair-Rite | Tier 3 | Staple core size for 1:1 and 4:1 homebrew baluns in HF antenna projects. |  | pending |
-| `FT82-43` | Ferrite toroid core | Fair-Rite | Tier 3 | Popular mid-size toroid for QRP transceiver and balun projects among hobbyists. |  | pending |
-| `0.1µF film (polyester/MKT)` | Film capacitor | generic | Tier 3 | Common budget-friendly film capacitor value used for coupling and general filtering where ceramics are unsuitable. |  | pending |
-| `0.1µF polypropylene (MKP)` | Film capacitor | generic | Tier 3 | Preferred film capacitor type/value for critical audio signal-path coupling due to low dielectric absorption. |  | pending |
-| `10Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | Base low-value E12 member for current-sense/shunt and damping duty, included in nearly all standard resistor kits. |  | pending |
-| `1Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | Low-value E12 member sometimes included for current-sense/shunt use in extended kits. |  | pending |
-| `22Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | Common bench-stock value used for LED/logic current limiting in low-voltage circuits. |  | pending |
-| `2kΩ 1/4W 5%` | Fixed resistor | generic | Tier 3 | Called out among recommended resistor values to stock in maker-community kit guidance. |  | pending |
-| `47Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | Common bench-stock value for LED current limiting at higher supply voltages. |  | pending |
-| `51Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | Explicitly called out among recommended stock resistor values for termination/impedance matching. |  | pending |
-| `680Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | E12 series value common in hobbyist bench stock. |  | pending |
-| `1N4002` | General-purpose rectifier diode | generic/multi | Tier 3 | 100V/1A member of the 1N400x family; a real distinct JEDEC part but with thin individual evidence beyond the family listing. |  | pending |
-| `1N4003` | General-purpose rectifier diode | generic/multi | Tier 3 | 200V/1A member of the 1N400x family, low individual citation frequency. |  | pending |
-| `1N4005` | General-purpose rectifier diode | generic/multi | Tier 3 | 600V/1A member of the 1N400x family, low individual citation frequency. |  | pending |
-| `1N4006` | General-purpose rectifier diode | generic/multi | Tier 3 | 800V/1A member of the 1N400x family, low individual citation frequency. |  | pending |
-| `RL207` | General-purpose rectifier diode | generic/multi | Tier 3 | 2A rectifier bundled in standard hobbyist diode assortment kits alongside 1N4007/1N4148. |  | pending |
-| `1N5399` | General-purpose rectifier diode (higher current) | generic/multi (Vishay, onsemi) | Tier 3 | 1.5A/1000V, commonly substituted for 1N4007 when extra voltage headroom is wanted; representative of the 1N539x family. |  | pending |
-| `1N5404` | General-purpose rectifier diode (higher current) | generic/multi | Tier 3 | 3A/400V, popular in transformer-based bench power supplies; representative of the 1N540x family. |  | pending |
-| `1N5408` | General-purpose rectifier diode (higher current) | generic/multi | Tier 3 | 3A/1000V, top of the 1N540x series, used when more current than 1N4007 provides is needed. |  | pending |
-| `BAV21` | General-purpose switching diode | generic/multi (Nexperia) | Tier 3 | 250V/250mA switching diode, a higher-voltage 1N4148-class part used on hobby SMD boards. |  | pending |
-| `1N270` | Germanium detector diode | generic | Tier 3 | Common germanium point-contact diode used in signal-detector/RF hobby circuits. |  | pending |
-| `1N34A` | Germanium detector diode | generic/multi | Tier 3 | The archetypal germanium diode for crystal-radio/RF envelope-detector hobby builds. |  | pending |
-| `1N60` | Germanium detector diode | generic (formerly Panasonic) | Tier 3 | Classic germanium diode used in crystal radio/AM detector hobby projects. |  | pending |
-| `T50-2` | Iron powder toroid core | Micrometals | Tier 3 | Very common core in QRP low-pass filter and matching-network homebrew builds for HF. |  | pending |
-| `T68-2` | Iron powder toroid core | Micrometals | Tier 3 | Common size for homebrew HF low-pass filter and tank-circuit inductors. |  | pending |
-| `IHLP2020BZER100M01` | Low-profile shielded power inductor (10µH) | Vishay | Tier 3 | IHLP series widely used in hobbyist/prosumer SMPS designs for low EMI and high saturation current. |  | pending |
-| `RLB0812-473KL` | Radial-leaded power inductor (47µH) | Bourns | Tier 3 | Common through-hole choice for breadboard buck-converter prototyping. |  | pending |
-| `MBR0520L` | SMD Schottky rectifier | generic/multi (onsemi, Diodes Inc) | Tier 3 | 0.5A/20V SOD-123 Schottky, common on small SMD boards for reverse-polarity/output protection. |  | pending |
-| `MBR0530` | SMD Schottky rectifier | generic/multi (onsemi, Diodes Inc) | Tier 3 | 30V/0.5A SMD Schottky recommended specifically for low-power reverse-polarity protection on ESP32 boards. |  | pending |
-| `SS34` | SMD Schottky rectifier | generic/multi | Tier 3 | 3A/40V SMA Schottky widely used on hobby buck/boost converter boards. |  | pending |
-| `BZT52C3V3` | SMD Zener diode (SOD-123) | Diodes Inc/Nexperia | Tier 3 | 3.3V SOD-123 zener popular in compact SMD hobby designs. |  | pending |
-| `BZT52C5V1` | SMD Zener diode (SOD-123) | Diodes Inc/Nexperia | Tier 3 | 5.1V SOD-123 zener commonly used for USB/5V line clamping. |  | pending |
-| `BZX84C12` | SMD Zener diode (SOT-23) | Nexperia/onsemi | Tier 3 | 12V SMD zener used for surface-mount 12V rail protection. |  | pending |
-| `MPZ1608S101A` | SMD ferrite bead (100Ω) | TDK | Tier 3 | Widely used compact ferrite bead for filtering digital noise on power rails. |  | pending |
-| `BLM21BB600SH1D` | SMD ferrite bead (60Ω) | Murata | Tier 3 | Low-DCR EMI suppression bead popular for filtering power supply lines without significant voltage drop. |  | pending |
-| `SRR1260-101M` | SMD shielded power inductor (100µH) | Bourns | Tier 3 | Common shielded SMD choice for compact DC-DC converter modules built by hobbyists. |  | pending |
-| `MBR1045` | Schottky power rectifier | generic/multi (onsemi) | Tier 3 | 10A/45V Schottky common in DIY solar charge controllers and high-current DC-DC converters. |  | pending |
-| `MBR2045` | Schottky power rectifier | generic/multi | Tier 3 | 20A/45V Schottky used in higher-power hobby solar/battery projects. |  | pending |
-| `SB540` | Schottky power rectifier | generic/multi | Tier 3 | 5A/40V Schottky in DO-201, used for higher-current DIY power supplies. |  | pending |
-| `1N5818` | Schottky rectifier | generic/multi | Tier 3 | 30V/1A Schottky, midpoint of the 1N58xx family, low individual citation. |  | pending |
-| `1N5820` | Schottky rectifier | generic/multi | Tier 3 | 20V/3A Schottky in the higher-current 1N582x family. |  | pending |
-| `1N5821` | Schottky rectifier | generic/multi | Tier 3 | 30V/3A Schottky in the 1N582x family. |  | pending |
-| `SB140` | Schottky rectifier | generic/multi | Tier 3 | 1A/40V axial Schottky, common through-hole alternative to 1N5819. |  | pending |
-| `CDRH127-100` | Shielded SMD power inductor (10µH) | Sumida | Tier 3 | Widely used in DIY DC-DC converter kits for its low cost and decent saturation current. |  | pending |
-| `MSS1038-103ML` | Shielded SMD power inductor (10µH) | Coilcraft | Tier 3 | Widely used shielded ferrite-drum inductor for buck/boost DC-DC hobbyist and prototype boards. |  | pending |
-| `744771147` | Shielded SMD power inductor (WE-PD, 470µH) | Würth Elektronik | Tier 3 | Widely referenced in Würth's popular REDEXPERT/app-note buck converter reference designs used by hobbyists. |  | pending |
-| `DR127-100` | Shielded drum-core power inductor (10µH) | Eaton (Coiltronics) | Tier 3 | Popular choice in open-source buck/boost reference designs for good saturation current and low cost. |  | pending |
-| `BAT41` | Small-signal Schottky | generic/multi (STMicro) | Tier 3 | General-purpose small axial/SMD Schottky for low-drop rectification. |  | pending |
-| `BAT42` | Small-signal Schottky | generic/multi | Tier 3 | Common small Schottky used in detector/clamp circuits. |  | pending |
-| `BAT85` | Small-signal Schottky | generic/multi (STMicro, Vishay) | Tier 3 | Popular low-Vf (<0.5V) small Schottky used in RF detectors and pedal reverse-polarity protection. |  | pending |
-| `1N5711` | Small-signal Schottky (RF) | generic/multi (Vishay) | Tier 3 | Classic RF/microwave detector Schottky diode, popular in ham-radio hobby projects. |  | pending |
-| `1SS106` | Small-signal switching diode (SMD) | Toshiba | Tier 3 | Small SOD-323 SMD switching diode used as a compact 1N4148 substitute. |  | pending |
-| `2643000101 (FB-43-101)` | Snap-on ferrite EMI bead | Fair-Rite | Tier 3 | One of the most commonly cited EMI suppression beads for cable/wire noise suppression in hobby electronics. |  | pending |
-| `1.5KE18A` | TVS diode (1500W) | Littelfuse/Vishay | Tier 3 | 18V 1500W TVS for robust automotive/12V surge protection. |  | pending |
-| `1.5KE6.8A` | TVS diode (1500W, DO-201) | Littelfuse/Vishay | Tier 3 | 6.8V high-power through-hole TVS used where more surge energy absorption is needed than P6KE provides. |  | pending |
-| `SMAJ12A` | TVS diode (400W, SMA) | Littelfuse/Bourns/Diodes Inc | Tier 3 | 12V standoff SMAJ TVS for 12V power-rail surge protection. |  | pending |
-| `SMAJ24A` | TVS diode (400W, SMA) | Littelfuse/Bourns/Diodes Inc | Tier 3 | 24V standoff SMAJ TVS for 24V industrial/hobby power buses. |  | pending |
-| `SMAJ33A` | TVS diode (400W, SMA) | Littelfuse/Bourns/Diodes Inc | Tier 3 | 33V standoff SMAJ TVS for moderate-voltage surge suppression. |  | pending |
-| `SMAJ5.0A` | TVS diode (400W, SMA) | Littelfuse/Bourns/Diodes Inc | Tier 3 | 5V standoff unidirectional TVS from the popular SMAJ line for low-voltage logic-line ESD/surge protection; absorbs the generic SR5.0A cross-referenced substitute. |  | pending |
-| `P6KE18A` | TVS diode (600W, DO-15) | Littelfuse/Vishay | Tier 3 | 18V through-hole P6KE TVS used to clamp automotive/12V-derived transients. |  | pending |
-| `P6KE200A` | TVS diode (600W, DO-15) | Littelfuse/Vishay | Tier 3 | 200V through-hole P6KE TVS for high-voltage transient suppression. |  | pending |
-| `SMBJ24A` | TVS diode (600W, SMB) | Littelfuse/Diodes Inc | Tier 3 | 24V standoff SMBJ TVS for higher-energy surge protection in DIY power projects. |  | pending |
-| `SM6T15A` | TVS diode (600W, SMD) | STMicroelectronics/Littelfuse | Tier 3 | 15V unidirectional SM6T TVS used in SMD power-supply surge protection designs. |  | pending |
-| `CDSOD323-T05C` | TVS diode (SOD-323) | Bourns | Tier 3 | 5V low-capacitance TVS used for signal-line ESD protection in compact SMD hobby designs. |  | pending |
-| `BZW04-5V8B` | TVS diode (bidirectional, DO-204AL) | Vishay | Tier 3 | 5.8V bidirectional TVS used to protect symmetrical AC-coupled signal lines from transients. |  | pending |
-| `100µF tantalum` | Tantalum capacitor | generic | Tier 3 | Top value in typical tantalum assortment kits, used where electrolytics are too bulky. |  | pending |
-| `10µF tantalum (16V)` | Tantalum capacitor | generic | Tier 3 | Common tantalum assortment value used for stable, low-ESR bulk decoupling in space-constrained designs. |  | pending |
-| `1µF tantalum` | Tantalum capacitor | generic | Tier 3 | Common low-end value in tantalum assortment kits (1-100µF, 16V range). |  | pending |
-| `SP0503BAHT` | USB ESD protection array (SOT-23-6) | Littelfuse | Tier 3 | 4-line array TVS commonly used to protect USB connectors on DIY electronics. |  | pending |
-| `PRTR5V0U2X` | USB ESD protection diode array | Nexperia | Tier 3 | Dual-channel low-capacitance ESD protection device for USB 2.0 data-line protection. |  | pending |
-| `MUR410` | Ultrafast recovery rectifier | generic/multi (onsemi) | Tier 3 | 4A/100V ultrafast rectifier used in SMPS and motor-controller freewheeling duty. |  | pending |
-| `MUR460` | Ultrafast recovery rectifier | generic/multi | Tier 3 | 4A/600V ultrafast rectifier used in higher-voltage SMPS builds. |  | pending |
-| `UF4001` | Ultrafast recovery rectifier | generic/multi | Tier 3 | 1A/50V ultrafast diode, mechanical drop-in for 1N4001 with faster switching. |  | pending |
-| `UF4007` | Ultrafast recovery rectifier | generic/multi | Tier 3 | 1A/1000V ultrafast upgrade over 1N4007 for higher-frequency switching circuits; bundled in standard hobbyist diode kits. |  | pending |
-| `1N746A` | Zener diode (400mW) | onsemi/Vishay | Tier 3 | 3.3V low-power zener from the classic 1N746-1N759 series, still popular in analog hobby circuits. |  | pending |
-| `1N751A` | Zener diode (400mW) | onsemi/Vishay | Tier 3 | 5.1V zener, historic but still commonly referenced in tutorials. |  | pending |
-| `1N4735A` | Zener regulator diode (1W) | generic/multi | Tier 3 | 6.2V/1W zener, common shunt-regulation/temperature-compensated reference value. |  | pending |
-| `1N4744A` | Zener regulator diode (1W) | generic/multi | Tier 3 | 15V/1W zener, common automotive/12V-derived surge clamp value. |  | pending |
-| `1N4750A` | Zener regulator diode (1W) | generic/multi | Tier 3 | 27V/1W zener used for higher-voltage OVP clamping. |  | pending |
-| `BZX85C12` | Zener regulator diode (1W, DO-41) | generic/multi | Tier 3 | 12V 1W zener, common substitute for 1N4742A. |  | pending |
-| `1N5225B` | Zener regulator diode (500mW) | generic/multi (onsemi) | Tier 3 | 3.0V small zener from the widely available 1N5221-1N5267 series. |  | pending |
-| `1N5236B` | Zener regulator diode (500mW) | generic/multi | Tier 3 | 7.5V/6.8V small zener in the same DO-35 1N52xx series. |  | pending |
-| `1N5242B` | Zener regulator diode (500mW) | generic/multi (onsemi) | Tier 3 | 12V small zener, common in low-power protection circuits. |  | pending |
-| `1N5245B` | Zener regulator diode (500mW) | generic/multi | Tier 3 | 15V small zener in the 1N52xx series. |  | pending |
-| `BZX55C12` | Zener regulator diode (DO-35, 0.5W) | generic/multi | Tier 3 | 12V BZX55C zener widely used for 12V supply protection in through-hole builds. |  | pending |
-| `BZX79C5V1` | Zener regulator diode (glass) | generic/multi | Tier 3 | 5.1V zener in the BZX79 glass-package series, common European alternative to 1N52xx. |  | pending |
+| `100pF ceramic` | Ceramic capacitor | generic | Tier 3 | Common snubber/filter/coupling value stocked in standard capacitor kits. | imported | complete |
+| `10pF ceramic` | Ceramic capacitor | generic | Tier 3 | Common crystal-loading value, included as one of the 10 most useful capacitor values in standard kits. | imported | complete |
+| `220nF ceramic` | Ceramic capacitor | generic | Tier 3 | Common secondary decoupling value used alongside 100nF for broader frequency coverage. | imported | complete |
+| `33pF ceramic` | Ceramic capacitor | generic | Tier 3 | Common crystal/resonator loading capacitance in general ceramic assortment kits. | imported | complete |
+| `47pF ceramic` | Ceramic capacitor | generic | Tier 3 | Common RF/filter value in standard E12 ceramic assortments. | imported | complete |
+| `BAT54S` | Dual small-signal Schottky diode | generic/multi (NXP, Diodes Inc) | Tier 3 | Common-cathode dual BAT54 pair used for bidirectional GPIO clamp protection. | imported | complete |
+| `BAV99` | Dual switching diode (SOT-23) | generic/multi (Nexperia, Diodes Inc) | Tier 3 | Dual series-pair SOT-23 package of a 1N4148-equivalent diode, used to save board space on SMD designs. | imported | complete |
+| `PESD3V3L1BA` | ESD protection diode | Nexperia | Tier 3 | 3.3V low-capacitance ESD diode commonly placed on ESP32/STM32 GPIO breakout boards. | imported | complete |
+| `PESD5V0S1BA` | ESD protection diode (SOD-323) | Nexperia | Tier 3 | 5V unidirectional ESD protection diode widely used on USB/data-line inputs. | imported | complete |
+| `ESD9B3.3ST5G` | ESD protection diode (SOD-923) | onsemi | Tier 3 | 3.3V ultra-low-capacitance ESD diode popular for protecting high-speed USB/I2C data lines. | imported | complete |
+| `D5V0H1B2LP` | ESD protection diode (bidirectional) | Diodes Inc | Tier 3 | Bidirectional 5V ESD steering diode used to protect low-voltage data/GPIO lines. | imported | complete |
+| `2200µF electrolytic` | Electrolytic capacitor | generic | Tier 3 | Common large reservoir capacitor value for linear power-supply hobby builds. | imported | complete |
+| `220µF electrolytic` | Electrolytic capacitor | generic | Tier 3 | Common bulk filtering value included in electrolytic assortment kits for power-supply projects. | imported | complete |
+| `22µF electrolytic` | Electrolytic capacitor | generic | Tier 3 | Common E12 value in electrolytic assortment kits. | imported | complete |
+| `470µF electrolytic` | Electrolytic capacitor | generic | Tier 3 | Common large bulk-filtering value included in most electrolytic assortment kits. | imported | complete |
+| `47µF electrolytic` | Electrolytic capacitor | generic | Tier 3 | Common E12 electrolytic value frequently used for local power-rail filtering. | imported | complete |
+| `1N4933` | Fast recovery rectifier | generic/multi | Tier 3 | 1A/50V fast-recovery flyback/freewheeling diode for relay and motor-driver protection. | imported | complete |
+| `1N4934` | Fast recovery rectifier | generic/multi | Tier 3 | 1A/100V fast recovery diode used for switching-supply freewheeling. | imported | complete |
+| `1N4937` | Fast recovery rectifier | generic/multi | Tier 3 | 1A/600V fast recovery diode common in SMPS snubber/flyback applications. | imported | complete |
+| `FR107` | Fast recovery rectifier | generic/multi | Tier 3 | 1A/1000V fast recovery diode used in SMPS and LED driver hobby projects. | imported | complete |
+| `FR207` | Fast recovery rectifier | generic/multi | Tier 3 | 2A/1000V fast recovery diode, higher-current sibling of FR107. | imported | complete |
+| `FT240-43` | Ferrite toroid core | Fair-Rite | Tier 3 | Widely used large toroid for high-power 1:1 current baluns in ham-radio homebrew antenna projects. | imported | complete |
+| `FT37-43` | Ferrite toroid core | Fair-Rite | Tier 3 | Extremely common small toroid used for homebrew common-mode chokes and baluns in ham radio. | imported | complete |
+| `FT50-43` | Ferrite toroid core | Fair-Rite | Tier 3 | Staple core size for 1:1 and 4:1 homebrew baluns in HF antenna projects. | imported | complete |
+| `FT82-43` | Ferrite toroid core | Fair-Rite | Tier 3 | Popular mid-size toroid for QRP transceiver and balun projects among hobbyists. | imported | complete |
+| `0.1µF film (polyester/MKT)` | Film capacitor | generic | Tier 3 | Common budget-friendly film capacitor value used for coupling and general filtering where ceramics are unsuitable. | imported | complete |
+| `0.1µF polypropylene (MKP)` | Film capacitor | generic | Tier 3 | Preferred film capacitor type/value for critical audio signal-path coupling due to low dielectric absorption. | imported | complete |
+| `10Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | Base low-value E12 member for current-sense/shunt and damping duty, included in nearly all standard resistor kits. | imported | complete |
+| `1Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | Low-value E12 member sometimes included for current-sense/shunt use in extended kits. | imported | complete |
+| `22Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | Common bench-stock value used for LED/logic current limiting in low-voltage circuits. | imported | complete |
+| `2kΩ 1/4W 5%` | Fixed resistor | generic | Tier 3 | Called out among recommended resistor values to stock in maker-community kit guidance. | imported | complete |
+| `47Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | Common bench-stock value for LED current limiting at higher supply voltages. | imported | complete |
+| `51Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | Explicitly called out among recommended stock resistor values for termination/impedance matching. | imported | complete |
+| `680Ω 1/4W 5%` | Fixed resistor | generic | Tier 3 | E12 series value common in hobbyist bench stock. | imported | complete |
+| `1N4002` | General-purpose rectifier diode | generic/multi | Tier 3 | 100V/1A member of the 1N400x family; a real distinct JEDEC part but with thin individual evidence beyond the family listing. | imported | complete |
+| `1N4003` | General-purpose rectifier diode | generic/multi | Tier 3 | 200V/1A member of the 1N400x family, low individual citation frequency. | imported | complete |
+| `1N4005` | General-purpose rectifier diode | generic/multi | Tier 3 | 600V/1A member of the 1N400x family, low individual citation frequency. | imported | complete |
+| `1N4006` | General-purpose rectifier diode | generic/multi | Tier 3 | 800V/1A member of the 1N400x family, low individual citation frequency. | imported | complete |
+| `RL207` | General-purpose rectifier diode | generic/multi | Tier 3 | 2A rectifier bundled in standard hobbyist diode assortment kits alongside 1N4007/1N4148. | imported | complete |
+| `1N5399` | General-purpose rectifier diode (higher current) | generic/multi (Vishay, onsemi) | Tier 3 | 1.5A/1000V, commonly substituted for 1N4007 when extra voltage headroom is wanted; representative of the 1N539x family. | imported | complete |
+| `1N5404` | General-purpose rectifier diode (higher current) | generic/multi | Tier 3 | 3A/400V, popular in transformer-based bench power supplies; representative of the 1N540x family. | imported | complete |
+| `1N5408` | General-purpose rectifier diode (higher current) | generic/multi | Tier 3 | 3A/1000V, top of the 1N540x series, used when more current than 1N4007 provides is needed. | imported | complete |
+| `BAV21` | General-purpose switching diode | generic/multi (Nexperia) | Tier 3 | 250V/250mA switching diode, a higher-voltage 1N4148-class part used on hobby SMD boards. | imported | complete |
+| `1N270` | Germanium detector diode | generic | Tier 3 | Common germanium point-contact diode used in signal-detector/RF hobby circuits. | imported | complete |
+| `1N34A` | Germanium detector diode | generic/multi | Tier 3 | The archetypal germanium diode for crystal-radio/RF envelope-detector hobby builds. | imported | complete |
+| `1N60` | Germanium detector diode | generic (formerly Panasonic) | Tier 3 | Classic germanium diode used in crystal radio/AM detector hobby projects. | imported | complete |
+| `T50-2` | Iron powder toroid core | Micrometals | Tier 3 | Very common core in QRP low-pass filter and matching-network homebrew builds for HF. | imported | complete |
+| `T68-2` | Iron powder toroid core | Micrometals | Tier 3 | Common size for homebrew HF low-pass filter and tank-circuit inductors. | imported | complete |
+| `IHLP2020BZER100M01` | Low-profile shielded power inductor (10µH) | Vishay | Tier 3 | IHLP series widely used in hobbyist/prosumer SMPS designs for low EMI and high saturation current. | imported | complete |
+| `RLB0812-473KL` | Radial-leaded power inductor (47µH) | Bourns | Tier 3 | Common through-hole choice for breadboard buck-converter prototyping. | imported | complete |
+| `MBR0520L` | SMD Schottky rectifier | generic/multi (onsemi, Diodes Inc) | Tier 3 | 0.5A/20V SOD-123 Schottky, common on small SMD boards for reverse-polarity/output protection. | imported | complete |
+| `MBR0530` | SMD Schottky rectifier | generic/multi (onsemi, Diodes Inc) | Tier 3 | 30V/0.5A SMD Schottky recommended specifically for low-power reverse-polarity protection on ESP32 boards. | imported | complete |
+| `SS34` | SMD Schottky rectifier | generic/multi | Tier 3 | 3A/40V SMA Schottky widely used on hobby buck/boost converter boards. | imported | complete |
+| `BZT52C3V3` | SMD Zener diode (SOD-123) | Diodes Inc/Nexperia | Tier 3 | 3.3V SOD-123 zener popular in compact SMD hobby designs. | imported | complete |
+| `BZT52C5V1` | SMD Zener diode (SOD-123) | Diodes Inc/Nexperia | Tier 3 | 5.1V SOD-123 zener commonly used for USB/5V line clamping. | imported | complete |
+| `BZX84C12` | SMD Zener diode (SOT-23) | Nexperia/onsemi | Tier 3 | 12V SMD zener used for surface-mount 12V rail protection. | imported | complete |
+| `MPZ1608S101A` | SMD ferrite bead (100Ω) | TDK | Tier 3 | Widely used compact ferrite bead for filtering digital noise on power rails. | imported | complete |
+| `BLM21BB600SH1D` | SMD ferrite bead (60Ω) | Murata | Tier 3 | Low-DCR EMI suppression bead popular for filtering power supply lines without significant voltage drop. | imported | complete |
+| `SRR1260-101M` | SMD shielded power inductor (100µH) | Bourns | Tier 3 | Common shielded SMD choice for compact DC-DC converter modules built by hobbyists. | imported | complete |
+| `MBR1045` | Schottky power rectifier | generic/multi (onsemi) | Tier 3 | 10A/45V Schottky common in DIY solar charge controllers and high-current DC-DC converters. | imported | complete |
+| `MBR2045` | Schottky power rectifier | generic/multi | Tier 3 | 20A/45V Schottky used in higher-power hobby solar/battery projects. | imported | complete |
+| `SB540` | Schottky power rectifier | generic/multi | Tier 3 | 5A/40V Schottky in DO-201, used for higher-current DIY power supplies. | imported | complete |
+| `1N5818` | Schottky rectifier | generic/multi | Tier 3 | 30V/1A Schottky, midpoint of the 1N58xx family, low individual citation. | imported | complete |
+| `1N5820` | Schottky rectifier | generic/multi | Tier 3 | 20V/3A Schottky in the higher-current 1N582x family. | imported | complete |
+| `1N5821` | Schottky rectifier | generic/multi | Tier 3 | 30V/3A Schottky in the 1N582x family. | imported | complete |
+| `SB140` | Schottky rectifier | generic/multi | Tier 3 | 1A/40V axial Schottky, common through-hole alternative to 1N5819. | imported | complete |
+| `CDRH127-100` | Shielded SMD power inductor (10µH) | Sumida | Tier 3 | Widely used in DIY DC-DC converter kits for its low cost and decent saturation current. | imported | complete |
+| `MSS1038-103ML` | Shielded SMD power inductor (10µH) | Coilcraft | Tier 3 | Widely used shielded ferrite-drum inductor for buck/boost DC-DC hobbyist and prototype boards. | imported | complete |
+| `744771147` | Shielded SMD power inductor (WE-PD, 470µH) | Würth Elektronik | Tier 3 | Widely referenced in Würth's popular REDEXPERT/app-note buck converter reference designs used by hobbyists. | imported | complete |
+| `DR127-100` | Shielded drum-core power inductor (10µH) | Eaton (Coiltronics) | Tier 3 | Popular choice in open-source buck/boost reference designs for good saturation current and low cost. | imported | complete |
+| `BAT41` | Small-signal Schottky | generic/multi (STMicro) | Tier 3 | General-purpose small axial/SMD Schottky for low-drop rectification. | imported | complete |
+| `BAT42` | Small-signal Schottky | generic/multi | Tier 3 | Common small Schottky used in detector/clamp circuits. | imported | complete |
+| `BAT85` | Small-signal Schottky | generic/multi (STMicro, Vishay) | Tier 3 | Popular low-Vf (<0.5V) small Schottky used in RF detectors and pedal reverse-polarity protection. | imported | complete |
+| `1N5711` | Small-signal Schottky (RF) | generic/multi (Vishay) | Tier 3 | Classic RF/microwave detector Schottky diode, popular in ham-radio hobby projects. | imported | complete |
+| `1SS106` | Small-signal switching diode (SMD) | Toshiba | Tier 3 | Small SOD-323 SMD switching diode used as a compact 1N4148 substitute. | imported | complete |
+| `2643000101 (FB-43-101)` | Snap-on ferrite EMI bead | Fair-Rite | Tier 3 | One of the most commonly cited EMI suppression beads for cable/wire noise suppression in hobby electronics. | imported | complete |
+| `1.5KE18A` | TVS diode (1500W) | Littelfuse/Vishay | Tier 3 | 18V 1500W TVS for robust automotive/12V surge protection. | imported | complete |
+| `1.5KE6.8A` | TVS diode (1500W, DO-201) | Littelfuse/Vishay | Tier 3 | 6.8V high-power through-hole TVS used where more surge energy absorption is needed than P6KE provides. | imported | complete |
+| `SMAJ12A` | TVS diode (400W, SMA) | Littelfuse/Bourns/Diodes Inc | Tier 3 | 12V standoff SMAJ TVS for 12V power-rail surge protection. | imported | complete |
+| `SMAJ24A` | TVS diode (400W, SMA) | Littelfuse/Bourns/Diodes Inc | Tier 3 | 24V standoff SMAJ TVS for 24V industrial/hobby power buses. | imported | complete |
+| `SMAJ33A` | TVS diode (400W, SMA) | Littelfuse/Bourns/Diodes Inc | Tier 3 | 33V standoff SMAJ TVS for moderate-voltage surge suppression. | imported | complete |
+| `SMAJ5.0A` | TVS diode (400W, SMA) | Littelfuse/Bourns/Diodes Inc | Tier 3 | 5V standoff unidirectional TVS from the popular SMAJ line for low-voltage logic-line ESD/surge protection; absorbs the generic SR5.0A cross-referenced substitute. | imported | complete |
+| `P6KE18A` | TVS diode (600W, DO-15) | Littelfuse/Vishay | Tier 3 | 18V through-hole P6KE TVS used to clamp automotive/12V-derived transients. | imported | complete |
+| `P6KE200A` | TVS diode (600W, DO-15) | Littelfuse/Vishay | Tier 3 | 200V through-hole P6KE TVS for high-voltage transient suppression. | imported | complete |
+| `SMBJ24A` | TVS diode (600W, SMB) | Littelfuse/Diodes Inc | Tier 3 | 24V standoff SMBJ TVS for higher-energy surge protection in DIY power projects. | imported | complete |
+| `SM6T15A` | TVS diode (600W, SMD) | STMicroelectronics/Littelfuse | Tier 3 | 15V unidirectional SM6T TVS used in SMD power-supply surge protection designs. | imported | complete |
+| `CDSOD323-T05C` | TVS diode (SOD-323) | Bourns | Tier 3 | 5V low-capacitance TVS used for signal-line ESD protection in compact SMD hobby designs. | imported | complete |
+| `BZW04-5V8B` | TVS diode (bidirectional, DO-204AL) | Vishay | Tier 3 | 5.8V bidirectional TVS used to protect symmetrical AC-coupled signal lines from transients. | imported | complete |
+| `100µF tantalum` | Tantalum capacitor | generic | Tier 3 | Top value in typical tantalum assortment kits, used where electrolytics are too bulky. | imported | complete |
+| `10µF tantalum (16V)` | Tantalum capacitor | generic | Tier 3 | Common tantalum assortment value used for stable, low-ESR bulk decoupling in space-constrained designs. | imported | complete |
+| `1µF tantalum` | Tantalum capacitor | generic | Tier 3 | Common low-end value in tantalum assortment kits (1-100µF, 16V range). | imported | complete |
+| `SP0503BAHT` | USB ESD protection array (SOT-23-6) | Littelfuse | Tier 3 | 4-line array TVS commonly used to protect USB connectors on DIY electronics. | imported | complete |
+| `PRTR5V0U2X` | USB ESD protection diode array | Nexperia | Tier 3 | Dual-channel low-capacitance ESD protection device for USB 2.0 data-line protection. | imported | complete |
+| `MUR410` | Ultrafast recovery rectifier | generic/multi (onsemi) | Tier 3 | 4A/100V ultrafast rectifier used in SMPS and motor-controller freewheeling duty. | imported | complete |
+| `MUR460` | Ultrafast recovery rectifier | generic/multi | Tier 3 | 4A/600V ultrafast rectifier used in higher-voltage SMPS builds. | imported | complete |
+| `UF4001` | Ultrafast recovery rectifier | generic/multi | Tier 3 | 1A/50V ultrafast diode, mechanical drop-in for 1N4001 with faster switching. | imported | complete |
+| `UF4007` | Ultrafast recovery rectifier | generic/multi | Tier 3 | 1A/1000V ultrafast upgrade over 1N4007 for higher-frequency switching circuits; bundled in standard hobbyist diode kits. | imported | complete |
+| `1N746A` | Zener diode (400mW) | onsemi/Vishay | Tier 3 | 3.3V low-power zener from the classic 1N746-1N759 series, still popular in analog hobby circuits. | imported | complete |
+| `1N751A` | Zener diode (400mW) | onsemi/Vishay | Tier 3 | 5.1V zener, historic but still commonly referenced in tutorials. | imported | complete |
+| `1N4735A` | Zener regulator diode (1W) | generic/multi | Tier 3 | 6.2V/1W zener, common shunt-regulation/temperature-compensated reference value. | imported | complete |
+| `1N4744A` | Zener regulator diode (1W) | generic/multi | Tier 3 | 15V/1W zener, common automotive/12V-derived surge clamp value. | imported | complete |
+| `1N4750A` | Zener regulator diode (1W) | generic/multi | Tier 3 | 27V/1W zener used for higher-voltage OVP clamping. | imported | complete |
+| `BZX85C12` | Zener regulator diode (1W, DO-41) | generic/multi | Tier 3 | 12V 1W zener, common substitute for 1N4742A. | imported | complete |
+| `1N5225B` | Zener regulator diode (500mW) | generic/multi (onsemi) | Tier 3 | 3.0V small zener from the widely available 1N5221-1N5267 series. | imported | complete |
+| `1N5236B` | Zener regulator diode (500mW) | generic/multi | Tier 3 | 7.5V/6.8V small zener in the same DO-35 1N52xx series. | imported | complete |
+| `1N5242B` | Zener regulator diode (500mW) | generic/multi (onsemi) | Tier 3 | 12V small zener, common in low-power protection circuits. | imported | complete |
+| `1N5245B` | Zener regulator diode (500mW) | generic/multi | Tier 3 | 15V small zener in the 1N52xx series. | imported | complete |
+| `BZX55C12` | Zener regulator diode (DO-35, 0.5W) | generic/multi | Tier 3 | 12V BZX55C zener widely used for 12V supply protection in through-hole builds. | imported | complete |
+| `BZX79C5V1` | Zener regulator diode (glass) | generic/multi | Tier 3 | 5.1V zener in the BZX79 glass-package series, common European alternative to 1N52xx. | imported | complete |
 
 ## Electromechanical & connectors
 
@@ -800,162 +800,162 @@ Candidate parts for future import into `entries/`, ranked by how often they turn
 
 | Part number | Subcategory | Manufacturer | Tier | Why it's common | Status | Pinout graphic |
 |---|---|---|---|---|---|---|
-| `KY-012` | Active piezo buzzer module | generic (KY-series sensor module) | Tier 1 | Ubiquitous 3-pin active buzzer breakout that sounds a fixed tone just by driving the signal pin HIGH; represents HW-512, HCM1201X. |  | pending |
-| `ATO 10A blade fuse` | Automotive blade fuse | Littelfuse/Bussmann (generic ATO/ATC) | Tier 1 | Standard color-coded automotive blade fuse family (3/5/7.5/10/15/20/25/30A ratings all cited); one of the most-replaced automotive fuses and default choice for DIY 12V projects. |  | pending |
-| `XT60 connector` | Bullet-style power connector | Amass | Tier 1 | De facto standard high-current connector for RC LiPo battery packs and drones; soldered contact avoids the loose-contact failure mode reported with clone Andersons. |  | pending |
-| `JST PH (S2B-PH-K, PHR-2)` | Connector, 2.0mm pitch | JST | Tier 1 | Standard connector for single-cell LiPo packs and small sensor wiring; explicitly cited as 'the most versatile single JST series to stock'; includes pre-crimped battery pigtails. |  | pending |
-| `JST XH (B2B-XH-A / XHP-2/3/4)` | Connector, 2.5mm pitch | JST | Tier 1 | Most common connector for LiPo balance leads, 3D-printer wiring, RC battery packs and stepper connections; dominant across the raw list with XHP-2/3/4 plugs and B2B-XH-A headers repeated many times. |  | pending |
-| `JST SH (1.0mm 4-pin)` | Connector, fine-pitch board-to-board | JST | Tier 1 | SMD micro connector standard on FPV/flight-controller boards and the basis of the Qwiic/STEMMA QT plug-and-play I2C ecosystem. |  | pending |
-| `DC barrel jack 5.5x2.1mm` | DC power connector | generic | Tier 1 | Near-universal barrel connector for wall-wart power supplies on hobby electronics/dev boards; covers matching plugs, splitters and screw-terminal adapters. |  | pending |
-| `SRD-05VDC-SL-C` | Electromechanical relay | Songle | Tier 1 | Canonical relay used on the overwhelming majority of Arduino relay modules; merges voltage variants (SRD-03/12/24VDC-SL-C), cross-substitute relays (HK4100F-DC5V-SHG, JQC-3FF-S-Z, HLS8L-DC5V-S-C) and dozens of '1/4/8-channel relay module' listings (SainSmart, generic Songle boards) all built around this exact part. |  | pending |
-| `PS1240P02BT` | Externally-driven piezo buzzer | TDK Corporation | Tier 1 | Classic through-hole 12mm piezo element sold as Adafruit #160 and used in countless Arduino tone() tutorials; represents PS1240P02CT3, PS1240P02, PS1240P02BT-R1. |  | pending |
-| `2.54mm 2x40 double-row pin header (GPIO)` | Header | generic | Tier 1 | Standard 40-pin GPIO header used on all modern Raspberry Pi boards and compatible HAT accessories. |  | pending |
-| `2.54mm breakaway male pin headers` | Header | generic | Tier 1 | Universal 0.1in male header strip used on Arduino, Raspberry Pi HATs, and virtually all hobby prototyping boards. |  | pending |
-| `2.54mm female pin sockets` | Header socket | generic | Tier 1 | Mating female counterpart to 0.1in male headers, used for stackable shields and socketed ICs/modules; represents Arduino long-leg stacking headers. |  | pending |
-| `Dupont 2.54mm crimp connector housings + pins` | Jumper wire connector | generic (Chinese manufacturers) | Tier 1 | The classic Arduino/breadboard jumper-wire connector family every prototyper's bin needs to make custom-length jumpers; sold as KF2510, branded equivalent by Harwin (M20 series). |  | pending |
-| `MG90S` | Micro servo | TowerPro | Tier 1 | Metal-gear upgrade of the SG90 with the same footprint, widely used in RC and robotic arms; represents Smart Prototyping MG90S. |  | pending |
+| `KY-012` | Active piezo buzzer module | generic (KY-series sensor module) | Tier 1 | Ubiquitous 3-pin active buzzer breakout that sounds a fixed tone just by driving the signal pin HIGH; represents HW-512, HCM1201X. | imported | complete |
+| `ATO 10A blade fuse` | Automotive blade fuse | Littelfuse/Bussmann (generic ATO/ATC) | Tier 1 | Standard color-coded automotive blade fuse family (3/5/7.5/10/15/20/25/30A ratings all cited); one of the most-replaced automotive fuses and default choice for DIY 12V projects. | imported | complete |
+| `XT60 connector` | Bullet-style power connector | Amass | Tier 1 | De facto standard high-current connector for RC LiPo battery packs and drones; soldered contact avoids the loose-contact failure mode reported with clone Andersons. | imported | complete |
+| `JST PH (S2B-PH-K, PHR-2)` | Connector, 2.0mm pitch | JST | Tier 1 | Standard connector for single-cell LiPo packs and small sensor wiring; explicitly cited as 'the most versatile single JST series to stock'; includes pre-crimped battery pigtails. | imported | complete |
+| `JST XH (B2B-XH-A / XHP-2/3/4)` | Connector, 2.5mm pitch | JST | Tier 1 | Most common connector for LiPo balance leads, 3D-printer wiring, RC battery packs and stepper connections; dominant across the raw list with XHP-2/3/4 plugs and B2B-XH-A headers repeated many times. | imported | complete |
+| `JST SH (1.0mm 4-pin)` | Connector, fine-pitch board-to-board | JST | Tier 1 | SMD micro connector standard on FPV/flight-controller boards and the basis of the Qwiic/STEMMA QT plug-and-play I2C ecosystem. | imported | complete |
+| `DC barrel jack 5.5x2.1mm` | DC power connector | generic | Tier 1 | Near-universal barrel connector for wall-wart power supplies on hobby electronics/dev boards; covers matching plugs, splitters and screw-terminal adapters. | imported | complete |
+| `SRD-05VDC-SL-C` | Electromechanical relay | Songle | Tier 1 | Canonical relay used on the overwhelming majority of Arduino relay modules; merges voltage variants (SRD-03/12/24VDC-SL-C), cross-substitute relays (HK4100F-DC5V-SHG, JQC-3FF-S-Z, HLS8L-DC5V-S-C) and dozens of '1/4/8-channel relay module' listings (SainSmart, generic Songle boards) all built around this exact part. | imported | complete |
+| `PS1240P02BT` | Externally-driven piezo buzzer | TDK Corporation | Tier 1 | Classic through-hole 12mm piezo element sold as Adafruit #160 and used in countless Arduino tone() tutorials; represents PS1240P02CT3, PS1240P02, PS1240P02BT-R1. | imported | complete |
+| `2.54mm 2x40 double-row pin header (GPIO)` | Header | generic | Tier 1 | Standard 40-pin GPIO header used on all modern Raspberry Pi boards and compatible HAT accessories. | imported | complete |
+| `2.54mm breakaway male pin headers` | Header | generic | Tier 1 | Universal 0.1in male header strip used on Arduino, Raspberry Pi HATs, and virtually all hobby prototyping boards. | imported | complete |
+| `2.54mm female pin sockets` | Header socket | generic | Tier 1 | Mating female counterpart to 0.1in male headers, used for stackable shields and socketed ICs/modules; represents Arduino long-leg stacking headers. | imported | complete |
+| `Dupont 2.54mm crimp connector housings + pins` | Jumper wire connector | generic (Chinese manufacturers) | Tier 1 | The classic Arduino/breadboard jumper-wire connector family every prototyper's bin needs to make custom-length jumpers; sold as KF2510, branded equivalent by Harwin (M20 series). | imported | complete |
+| `MG90S` | Micro servo | TowerPro | Tier 1 | Metal-gear upgrade of the SG90 with the same footprint, widely used in RC and robotic arms; represents Smart Prototyping MG90S. | imported | complete |
 | `SG90` | Micro servo | TowerPro | Tier 1 | The most common 9g micro servo in hobbyist/Arduino kits; represents unbranded clones, Yahboom 9G Servo, VTS-08A, SG92R. | imported | complete |
-| `D2F-01L` | Microswitch/limit switch | Omron | Tier 1 | Classic lever microswitch ubiquitous as 3D-printer endstops and DIY CNC limit switches; represents KW11-3Z, V-156-1C25. |  | pending |
-| `17HS4401` | NEMA17 bipolar stepper | generic NEMA17/StepperOnline-style | Tier 1 | Very common compact NEMA17 stepper used in 3D printers, CNC, and robotics; represents 17HS8401, 17HS3401S, 17HS6401S, 17HS24-0644S, 42BYGH, 42HS40, 42HS48. |  | pending |
-| `KF350 / KF396 terminal block` | PCB screw terminal block | generic (DECHUANG/Kefa etc.) | Tier 1 | Extremely common low-cost pluggable screw terminal used on hobby power-supply and motor-driver boards. |  | pending |
-| `KY-006` | Passive piezo buzzer module | generic (KY-series sensor module) | Tier 1 | Ubiquitous 3-pin passive buzzer breakout in nearly every Arduino/Raspberry Pi sensor kit; represents HW-508 and MLT-8530 rebrands. |  | pending |
-| `JR/Futaba servo connector (3-pin)` | RC servo connector | generic | Tier 1 | Standard 3-pin connector used on virtually all hobby RC servos and many robotics projects; includes pre-made extension leads. |  | pending |
-| `KCD1-101` | Rocker switch | generic | Tier 1 | Basic 2-pin ON-OFF rocker switch, extremely common for enclosure power switches; represents KCD1-102, KCD1-203-2P2T, KCD3-101, KCD4-201, R13-112. |  | pending |
-| `EC11` | Rotary encoder | generic (Bourns/Alps equivalents) | Tier 1 | Default cheap rotary encoder module used in nearly every Arduino/ESP32 volume-knob or menu-navigation project; represents SEN0235, KY-040, genuine Alps EC11E15204A3. |  | pending |
+| `D2F-01L` | Microswitch/limit switch | Omron | Tier 1 | Classic lever microswitch ubiquitous as 3D-printer endstops and DIY CNC limit switches; represents KW11-3Z, V-156-1C25. | imported | complete |
+| `17HS4401` | NEMA17 bipolar stepper | generic NEMA17/StepperOnline-style | Tier 1 | Very common compact NEMA17 stepper used in 3D printers, CNC, and robotics; represents 17HS8401, 17HS3401S, 17HS6401S, 17HS24-0644S, 42BYGH, 42HS40, 42HS48. | imported | complete |
+| `KF350 / KF396 terminal block` | PCB screw terminal block | generic (DECHUANG/Kefa etc.) | Tier 1 | Extremely common low-cost pluggable screw terminal used on hobby power-supply and motor-driver boards. | imported | complete |
+| `KY-006` | Passive piezo buzzer module | generic (KY-series sensor module) | Tier 1 | Ubiquitous 3-pin passive buzzer breakout in nearly every Arduino/Raspberry Pi sensor kit; represents HW-508 and MLT-8530 rebrands. | imported | complete |
+| `JR/Futaba servo connector (3-pin)` | RC servo connector | generic | Tier 1 | Standard 3-pin connector used on virtually all hobby RC servos and many robotics projects; includes pre-made extension leads. | imported | complete |
+| `KCD1-101` | Rocker switch | generic | Tier 1 | Basic 2-pin ON-OFF rocker switch, extremely common for enclosure power switches; represents KCD1-102, KCD1-203-2P2T, KCD3-101, KCD4-201, R13-112. | imported | complete |
+| `EC11` | Rotary encoder | generic (Bourns/Alps equivalents) | Tier 1 | Default cheap rotary encoder module used in nearly every Arduino/ESP32 volume-knob or menu-navigation project; represents SEN0235, KY-040, genuine Alps EC11E15204A3. | imported | complete |
  | `MG996R` | Standard servo | TowerPro | Tier 1 | High-torque (~11kg-cm) metal-gear servo extremely popular for robot arms and RC car steering; represents MG995 and the MG996R continuous-rotation variant. | imported | pending |
-| `TT Motor (DC gearbox, 1:48)` | TT gear motor | generic/Adafruit | Tier 1 | Classic yellow 'TT motor' used almost universally in low-cost 2WD/4WD robot car chassis kits; represents the TT gearbox variant and FIT0185. |  | pending |
-| `USBLC6-2SC6` | TVS diode array (USB ESD protection) | STMicroelectronics | Tier 1 | Extremely popular low-capacitance ESD array specifically for USB D+/D- lines, ubiquitous in hobbyist boards. |  | pending |
-| `B3F-1000` | Tactile switch | Omron | Tier 1 | 6x6mm through-hole tactile switch, the canonical reference design used across countless hobbyist PCBs; represents dozens of cross-brand equivalents (PTS645, KSC221GLFS, EVQ-P7A01P, TL1105, SKRPACE010, 1825910-6, Adafruit 367, SparkFun COM-97700, KY-004, etc.). |  | pending |
-| `MTS-102` | Toggle switch | generic | Tier 1 | Ubiquitous 3-pin SPDT ON-ON mini toggle switch, default choice for hobbyist power/mode switching; represents MTS-101, MTS-103, MTS-202, MTS-203, SMTS-102. |  | pending |
-| `Micro-USB Type-B` | USB connector | generic | Tier 1 | Small 5-pin connector used on most pre-2020 smartphones, ESP8266/ESP32 dev boards, and power banks; represents THT breakout variant. |  | pending |
-| `USB Type-A receptacle` | USB connector | generic/Molex | Tier 1 | Ubiquitous rectangular host-side USB connector found on computers, chargers, and hobby dev boards. |  | pending |
-| `USB Type-C receptacle` | USB connector | generic | Tier 1 | Modern reversible connector now standard on most current hobby dev boards (Raspberry Pi 4/5, ESP32-S3 boards, Pico). |  | pending |
+| `TT Motor (DC gearbox, 1:48)` | TT gear motor | generic/Adafruit | Tier 1 | Classic yellow 'TT motor' used almost universally in low-cost 2WD/4WD robot car chassis kits; represents the TT gearbox variant and FIT0185. | imported | complete |
+| `USBLC6-2SC6` | TVS diode array (USB ESD protection) | STMicroelectronics | Tier 1 | Extremely popular low-capacitance ESD array specifically for USB D+/D- lines, ubiquitous in hobbyist boards. | imported | complete |
+| `B3F-1000` | Tactile switch | Omron | Tier 1 | 6x6mm through-hole tactile switch, the canonical reference design used across countless hobbyist PCBs; represents dozens of cross-brand equivalents (PTS645, KSC221GLFS, EVQ-P7A01P, TL1105, SKRPACE010, 1825910-6, Adafruit 367, SparkFun COM-97700, KY-004, etc.). | imported | complete |
+| `MTS-102` | Toggle switch | generic | Tier 1 | Ubiquitous 3-pin SPDT ON-ON mini toggle switch, default choice for hobbyist power/mode switching; represents MTS-101, MTS-103, MTS-202, MTS-203, SMTS-102. | imported | complete |
+| `Micro-USB Type-B` | USB connector | generic | Tier 1 | Small 5-pin connector used on most pre-2020 smartphones, ESP8266/ESP32 dev boards, and power banks; represents THT breakout variant. | imported | complete |
+| `USB Type-A receptacle` | USB connector | generic/Molex | Tier 1 | Ubiquitous rectangular host-side USB connector found on computers, chargers, and hobby dev boards. | imported | complete |
+| `USB Type-C receptacle` | USB connector | generic | Tier 1 | Modern reversible connector now standard on most current hobby dev boards (Raspberry Pi 4/5, ESP32-S3 boards, Pico). | imported | complete |
 | `28BYJ-48` | Unipolar stepper motor | generic | Tier 1 | The most common cheap 5V unipolar stepper motor for Arduino kits, typically bundled with a ULN2003 driver board; represents the 12V variant (28BYJ48-12-300-01) and the ULN2003 driver board/IC itself. | imported | pending |
-| `Wago 221 series (Lever-Nuts)` | Wire splice connector | Wago | Tier 1 | Extremely popular tool-free splicing connector for quick wire-to-wire joins in maker/DIY wiring; hobbyists report owning them 'in all shapes and sizes'; represents compact Wago 2273 series. |  | pending |
-| `OBSF-30` | Arcade pushbutton | Sanwa Denshi | Tier 2 | Standard 30mm Japanese arcade action button, ubiquitous in fightstick/arcade-cabinet builds; represents OBSF-24, Seimitsu PS-14-K, LB-30. |  | pending |
-| `Bosch 0332019203` | Automotive relay | Bosch | Tier 2 | Archetypal 12V mini ISO automotive relay ubiquitous in car-electronics/12V robotics switching; represents the automotive relay family (Song Chuan 896H-1C-C, V23092-A1005-A301, V23134-A0002-X036, HK19F-DC12V-1HS3) plus generic 'automotive-style 12V SPDT relay' listings. |  | pending |
-| `JST RCY / EL connector` | Battery connector | JST-style generic | Tier 2 | Ubiquitous 2-pin polarized battery connector for small robotics/RC packs, widely cloned by generic manufacturers. |  | pending |
-| `Micro JST 1.25mm 2-pin` | Battery connector | JST-compatible generic | Tier 2 | The tiny 2-pin connector on small single-cell LiPo pouch cells used in micro-drones and wearable electronics, frequently needing pigtail replacements. |  | pending |
-| `130 size DC motor` | Brushed DC motor | generic (Mabuchi-style) | Tier 2 | Classic small toy-grade brushed DC motor found in countless beginner electronics/robotics kits. |  | pending |
-| `XT30 connector` | Bullet-style power connector | Amass | Tier 2 | Small soldered bullet-style power connector popular on micro drones and small LiPo packs. |  | pending |
-| `XT90 connector` | Bullet-style power connector | Amass | Tier 2 | Higher-current XT-series sibling used for larger RC battery packs and robotics power buses. |  | pending |
-| `Molex KK 254 (2695 series)` | Connector, 2.54mm pitch | Molex | Tier 2 | Original 0.1in-pitch connector system the generic 'Dupont' connectors are modeled after; still used on many hobby boards and praised for easier hand-crimping. |  | pending |
-| `JST GH (1.25mm)` | Connector, fine-pitch | JST | Tier 2 | Compact locking connector for battery/board-to-board links in small consumer devices and FPV gear, and Pixhawk telemetry/GPS leads. |  | pending |
-| `JST VH (3.96mm)` | Connector, power | JST | Tier 2 | Higher-current (10A) connector for battery packs/power distribution in RC and robotics builds. |  | pending |
-| `Molex Micro-Fit 3.0 (43025/43045)` | Connector, power | Molex | Tier 2 | Popular higher-current connector series used on 3D-printer mainboards and power-electronics wiring for motor/PSU repairs. |  | pending |
-| `Molex Mini-Fit Jr. (5557/5559 series)` | Connector, power | Molex | Tier 2 | High-current PC-PSU-style connector family adopted in DIY high-power projects and battery packs. |  | pending |
-| `FS90R` | Continuous rotation micro servo | FEETECH | Tier 2 | Popular continuous-rotation micro servo used as small robot wheel drivers; represents FS5106R, FS5109M. |  | pending |
-| `219-4LPST` | DIP switch | CTS/Copal | Tier 2 | Widely referenced through-hole DIP switch used for hobbyist address/config selection on PCBs; represents KDC-A04, A6S-4104-N, E-Switch EG1218. |  | pending |
-| `G5V-2-5VDC` | Electromechanical (signal) relay | Omron | Tier 2 | Ultra-miniature signal relay family (G5V-1/G5V-2) standard for hobbyist low-current signal switching. |  | pending |
-| `G2R-1-5VDC` | Electromechanical relay | Omron | Tier 2 | Classic general-purpose 10A PCB relay widely cloned; represents the broader interchangeable power-relay family also cited as G5LE-1-VD-5VDC, G8P-1A4P-B, RM85-2011-35-1012, Finder 40.52/40.61, HF32F-G-005-HS1, HFE20/23-1A-05DE, Songle JQX-38F/62F, Panasonic ALDP124. |  | pending |
-| `Adafruit 1314` | Enclosure speaker | Adafruit Industries | Tier 2 | 3" 4Ω 3W enclosure speaker widely used with the Speaker Bonnet/PAM8302 amps on Raspberry Pi projects; represents 3351, 4445, 1669. |  | pending |
-| `CEM-1203(42)` | Externally-driven magnetic buzzer | CUI Devices (now Same Sky) | Tier 2 | Widely referenced magnetic transducer buzzer in Arduino forum buzzer circuits; represents CDM-12A05H078, CMI-1295-IC, CEM-1205-IC, CEM-1205C. |  | pending |
-| `PC/3D-printer fan connector (3/4-pin, JST-PH style)` | Fan connector | generic | Tier 2 | Matches computer/3D-printer cooling-fan headers for rewiring or extending fan cables. |  | pending |
-| `Anderson Powerpole (PP15/30/45)` | Genderless power connector | Anderson Power Products | Tier 2 | Genderless, hot-pluggable power connector standard in amateur radio and robotics battery wiring — any two mate regardless of orientation. |  | pending |
-| `GMA-3A` | Glass cartridge fuse (5x20mm) | Bussmann/Eaton | Tier 2 | Fast-acting 5x20mm glass fuse, one of the most common sizes sold on Amazon/Lowes; represents S500/219 series and Littelfuse metric equivalents (021706.3MXP, 0239003.MXP, 0217.250MXP). |  | pending |
-| `Deans connector (T-plug)` | High-current battery connector | W.S. Deans | Tier 2 | Classic high-current T-connector widely used for RC car/plane LiPo battery packs; still common for legacy battery compatibility. |  | pending |
+| `Wago 221 series (Lever-Nuts)` | Wire splice connector | Wago | Tier 1 | Extremely popular tool-free splicing connector for quick wire-to-wire joins in maker/DIY wiring; hobbyists report owning them 'in all shapes and sizes'; represents compact Wago 2273 series. | imported | complete |
+| `OBSF-30` | Arcade pushbutton | Sanwa Denshi | Tier 2 | Standard 30mm Japanese arcade action button, ubiquitous in fightstick/arcade-cabinet builds; represents OBSF-24, Seimitsu PS-14-K, LB-30. | imported | complete |
+| `Bosch 0332019203` | Automotive relay | Bosch | Tier 2 | Archetypal 12V mini ISO automotive relay ubiquitous in car-electronics/12V robotics switching; represents the automotive relay family (Song Chuan 896H-1C-C, V23092-A1005-A301, V23134-A0002-X036, HK19F-DC12V-1HS3) plus generic 'automotive-style 12V SPDT relay' listings. | imported | complete |
+| `JST RCY / EL connector` | Battery connector | JST-style generic | Tier 2 | Ubiquitous 2-pin polarized battery connector for small robotics/RC packs, widely cloned by generic manufacturers. | imported | complete |
+| `Micro JST 1.25mm 2-pin` | Battery connector | JST-compatible generic | Tier 2 | The tiny 2-pin connector on small single-cell LiPo pouch cells used in micro-drones and wearable electronics, frequently needing pigtail replacements. | imported | complete |
+| `130 size DC motor` | Brushed DC motor | generic (Mabuchi-style) | Tier 2 | Classic small toy-grade brushed DC motor found in countless beginner electronics/robotics kits. | imported | complete |
+| `XT30 connector` | Bullet-style power connector | Amass | Tier 2 | Small soldered bullet-style power connector popular on micro drones and small LiPo packs. | imported | complete |
+| `XT90 connector` | Bullet-style power connector | Amass | Tier 2 | Higher-current XT-series sibling used for larger RC battery packs and robotics power buses. | imported | complete |
+| `Molex KK 254 (2695 series)` | Connector, 2.54mm pitch | Molex | Tier 2 | Original 0.1in-pitch connector system the generic 'Dupont' connectors are modeled after; still used on many hobby boards and praised for easier hand-crimping. | imported | complete |
+| `JST GH (1.25mm)` | Connector, fine-pitch | JST | Tier 2 | Compact locking connector for battery/board-to-board links in small consumer devices and FPV gear, and Pixhawk telemetry/GPS leads. | imported | complete |
+| `JST VH (3.96mm)` | Connector, power | JST | Tier 2 | Higher-current (10A) connector for battery packs/power distribution in RC and robotics builds. | imported | complete |
+| `Molex Micro-Fit 3.0 (43025/43045)` | Connector, power | Molex | Tier 2 | Popular higher-current connector series used on 3D-printer mainboards and power-electronics wiring for motor/PSU repairs. | imported | complete |
+| `Molex Mini-Fit Jr. (5557/5559 series)` | Connector, power | Molex | Tier 2 | High-current PC-PSU-style connector family adopted in DIY high-power projects and battery packs. | imported | complete |
+| `FS90R` | Continuous rotation micro servo | FEETECH | Tier 2 | Popular continuous-rotation micro servo used as small robot wheel drivers; represents FS5106R, FS5109M. | imported | complete |
+| `219-4LPST` | DIP switch | CTS/Copal | Tier 2 | Widely referenced through-hole DIP switch used for hobbyist address/config selection on PCBs; represents KDC-A04, A6S-4104-N, E-Switch EG1218. | imported | complete |
+| `G5V-2-5VDC` | Electromechanical (signal) relay | Omron | Tier 2 | Ultra-miniature signal relay family (G5V-1/G5V-2) standard for hobbyist low-current signal switching. | imported | complete |
+| `G2R-1-5VDC` | Electromechanical relay | Omron | Tier 2 | Classic general-purpose 10A PCB relay widely cloned; represents the broader interchangeable power-relay family also cited as G5LE-1-VD-5VDC, G8P-1A4P-B, RM85-2011-35-1012, Finder 40.52/40.61, HF32F-G-005-HS1, HFE20/23-1A-05DE, Songle JQX-38F/62F, Panasonic ALDP124. | imported | complete |
+| `Adafruit 1314` | Enclosure speaker | Adafruit Industries | Tier 2 | 3" 4Ω 3W enclosure speaker widely used with the Speaker Bonnet/PAM8302 amps on Raspberry Pi projects; represents 3351, 4445, 1669. | imported | complete |
+| `CEM-1203(42)` | Externally-driven magnetic buzzer | CUI Devices (now Same Sky) | Tier 2 | Widely referenced magnetic transducer buzzer in Arduino forum buzzer circuits; represents CDM-12A05H078, CMI-1295-IC, CEM-1205-IC, CEM-1205C. | imported | complete |
+| `PC/3D-printer fan connector (3/4-pin, JST-PH style)` | Fan connector | generic | Tier 2 | Matches computer/3D-printer cooling-fan headers for rewiring or extending fan cables. | imported | complete |
+| `Anderson Powerpole (PP15/30/45)` | Genderless power connector | Anderson Power Products | Tier 2 | Genderless, hot-pluggable power connector standard in amateur radio and robotics battery wiring — any two mate regardless of orientation. | imported | complete |
+| `GMA-3A` | Glass cartridge fuse (5x20mm) | Bussmann/Eaton | Tier 2 | Fast-acting 5x20mm glass fuse, one of the most common sizes sold on Amazon/Lowes; represents S500/219 series and Littelfuse metric equivalents (021706.3MXP, 0239003.MXP, 0217.250MXP). | imported | complete |
+| `Deans connector (T-plug)` | High-current battery connector | W.S. Deans | Tier 2 | Classic high-current T-connector widely used for RC car/plane LiPo battery packs; still common for legacy battery compatibility. | imported | complete |
  | `WS2812B/NeoPixel strip connector (JST-SM 3-pin)` | LED strip connector | generic | Tier 2 | Matches the connector pre-installed on most addressable LED strips for extending or splicing runs; represents JST-SM series (SM2P/SM3P). | imported | pending |
-| `Cherry MX Blue` | Mechanical keyswitch | Cherry | Tier 2 | The most iconic clicky mechanical keyswitch, foundational reference part for the DIY mechanical-keyboard hobby. |  | pending |
-| `Cherry MX Brown` | Mechanical keyswitch | Cherry | Tier 2 | Most popular tactile (non-click) keyswitch, a default recommendation for DIY mechanical-keyboard hobbyists. |  | pending |
-| `Cherry MX Red` | Mechanical keyswitch | Cherry | Tier 2 | Best-selling linear mechanical keyswitch used across countless custom keyboard builds. |  | pending |
-| `Micro Metal Gearmotor HP 6V` | Micro DC gear motor | Pololu | Tier 2 | Well-documented, widely used precision micro gearmotor line popular in small robot builds. |  | pending |
-| `N20 DC Gear Motor` | Micro DC gear motor | generic/Adafruit | Tier 2 | Popular tiny brushed gear motor used in compact robots/camera gimbals; represents encoder variants, GA12-N20, and premium 50:1 variants. |  | pending |
-| `Adafruit 1890` | Mini metal speaker | Adafruit Industries | Tier 2 | 8Ω mini metal-cone speaker, a go-to small speaker for wearables/enclosures; represents 3923, 4227, 1898, 3968. |  | pending |
-| `NEMA 23 stepper (23HS series)` | NEMA23 bipolar stepper | generic/StepperOnline-style | Tier 2 | Larger-frame stepper used when NEMA17 lacks torque, common in DIY CNC routers. |  | pending |
-| `RJ45 8P8C modular jack` | Network connector | generic | Tier 2 | Standard Ethernet connector found on many single-board computers/networked hobby projects; also reused off-label for cheap 8-conductor cabling. |  | pending |
-| `MOC3021` | Opto-triac driver | various (Fairchild/ON Semi) | Tier 2 | Ubiquitous opto-triac at the core of countless DIY SSR/dimmer circuits. |  | pending |
-| `A2212/13T 1000KV` | Outrunner brushless motor | generic (A2212 series) | Tier 2 | Extremely common low-cost brushless outrunner motor for hobby quadcopters/RC planes; represents other A2212 KV variants and Suppo 2212/13. |  | pending |
-| `KF128 series` | PCB screw terminal block, 2.5mm | generic | Tier 2 | Small-pitch screw terminal block frequently used on Arduino shields/sensor breakouts; also covers generic fine-pitch pluggable terminal demand. |  | pending |
-| `MF-SM160` | PTC resettable fuse (SMD) | Bourns | Tier 2 | SMD Multifuse PTC common in higher-current DC protection; represents MF-SM030, MF-SM260. |  | pending |
-| `MF-USMF050-2` | PTC resettable fuse (USB) | Bourns | Tier 2 | PTC purpose-built for USB port overcurrent protection. |  | pending |
-| `MF-R050` | PTC resettable fuse (radial leaded) | Bourns | Tier 2 | Popular radial-leaded Multifuse used in hobbyist through-hole protection circuits; represents MF-R010, MF-R090. |  | pending |
-| `Phoenix Contact MKDS 1.5 series` | Pluggable PCB terminal block, 5.08mm | Phoenix Contact | Tier 2 | Popular pluggable terminal block series widely used in maker power-supply/motor-control projects; represents PT 1,5/2-5,0-H. |  | pending |
-| `IDC box header 2.54mm (shrouded)` | Ribbon cable header | generic | Tier 2 | Shrouded, polarized box header commonly used for ribbon-cable connections (JTAG/ISP programming headers), paired with matching IDC ribbon connectors. |  | pending |
-| `Bourns PEC11R-4215F-S0024` | Rotary encoder | Bourns | Tier 2 | Popular 12mm incremental encoder with push switch, a frequent upgrade recommendation over cheap EC11 clones; represents PEC11H, PEC12R, PEC16, Adafruit 377. |  | pending |
-| `PB-12N23P-05Q` | Self-drive Sonalert buzzer | Mallory Sonalert Products | Tier 2 | Archetype self-driven 'Sonalert' buzzer directly solderable to Arduino GPIO+power; represents PB-12N23P-03Q/12Q, AI-4228-TWT-R, AT-1224-TWT-5V-2-R. |  | pending |
-| `Grove connector (4-pin, JST-PH-like)` | Sensor module connector | Seeed Studio | Tier 2 | Proprietary 4-pin connector standard based on JST PH pitch, used throughout Seeed's Grove sensor/module ecosystem. |  | pending |
-| `SS12D00` | Slide switch | generic | Tier 2 | Extremely common miniature SPDT slide switch used for on/off selection on Arduino/breadboard projects; represents SS12D00G3, SS-12F15G3, CIT KAN-1, E-Switch KS02Q02, CW Industries GH1-2202. |  | pending |
-| `G3MB-202P` | Solid-state relay | Omron | Tier 2 | The SSR chip underlying most Chinese Arduino SSR modules; referenced directly and via numerous module products built around it (SainSmart, Keyestudio, Grove, Numato Lab, czh-labs, plus G3MC-202P sibling). |  | pending |
-| `SSR-25DA` | Solid-state relay | Fotek | Tier 2 | Extremely common panel-mount hobby SSR for AC load control (heaters, 3D-printer beds); represents the Fotek DA family (SSR-10DA/40DA/60DA/80DA/100DA, SSR-25DD). |  | pending |
-| `SMAJ5.0A` | TVS diode (SMD) | Littelfuse/Diodes Inc | Tier 2 | Common 5V, 400W SMD TVS for 5V rail/USB protection; represents SMAJ5.0CA, SMAJ12A. |  | pending |
-| `P6KE6.8A` | TVS diode (axial) | Littelfuse | Tier 2 | Classic through-hole 600W TVS widely used in hobbyist power protection circuits; represents P6KE18A. |  | pending |
-| `SP0503BAHT` | TVS diode array (USB/data line) | Littelfuse | Tier 2 | Widely used 4-line ESD array for USB 2.0 data protection. |  | pending |
-| `B3F-4000` | Tactile switch | Omron | Tier 2 | 12x12mm tactile switch, standard for Adafruit's 12mm tactile button packs used on many maker boards. |  | pending |
-| `Quick-disconnect blade terminals (2.8/4.8/6.3mm)` | Terminal - blade | generic | Tier 2 | Standard automotive-style disconnects used for relay and motor wiring where a full connector housing is overkill. |  | pending |
-| `Insulated wire ferrules` | Terminal - ferrule | generic | Tier 2 | Community reference point for properly terminating stranded wire ends into screw/Wago terminals; staple stock item once a crimper is owned. |  | pending |
-| `Insulated ring terminals` | Terminal - ring | generic | Tier 2 | Needed for bolting wires to battery terminals, chassis grounds, and terminal strips in 12V/automotive/robotics power builds. |  | pending |
-| `Insulated spade/fork terminals` | Terminal - spade | generic | Tier 2 | Common for quick-disconnect screw-terminal wiring on relays, motors and terminal blocks. |  | pending |
-| `Heat-shrink butt splice connectors` | Terminal - splice | generic | Tier 2 | Solder-and-shrink butt connectors repeatedly recommended as an 'always have some' item for permanent, weatherproof wire repairs. |  | pending |
-| `Alligator clip test leads` | Test connector | generic | Tier 2 | Quick temporary connections for prototyping and bench testing without soldering. |  | pending |
-| `Banana plug/jack pairs (4mm)` | Test/power connector | generic | Tier 2 | Standard bench power supply connector for patch cables to breadboards/projects. |  | pending |
-| `BTA16-600B` | Triac | STMicroelectronics | Tier 2 | Extremely popular triac paired with MOC3021/3041 to build DIY solid-state relays for AC loads; represents smaller BT136-600. |  | pending |
-| `USB Type-B` | USB connector | generic | Tier 2 | Square-shaped device-side connector historically used on Arduino Uno/Mega and printers. |  | pending |
-| `V275LA20AP` | Varistor (MOV, radial leaded) | Littelfuse | Tier 2 | 275V AC-rated MOV standard for mains surge suppression in power strips/PSUs; represents V140LA20AP, V330LA20AP, S14K275, 14D471K, 07D471K, UltraMOV 20D391K. |  | pending |
-| `KPEG242-5V` | Active piezo indicator | Kingstate Electronics | Tier 3 | Active piezo indicator from a major OEM buzzer supplier used in countless consumer/hobby designs; represents KPEG-272, KPEG-500, KPEG-353, KPEG-350. |  | pending |
-| `MEGA/MIDI/Maxi blade fuse` | Automotive high-current blade fuse | Littelfuse/Bussmann | Tier 3 | High-current bolt-down blade fuse standard for main battery/alternator protection in car-audio and automotive installs. |  | pending |
-| `Mini blade fuse 15A (APM/ATM)` | Automotive mini blade fuse | Littelfuse/Bussmann | Tier 3 | Compact mini blade fuse used in modern vehicle fuse boxes and 12V hobby builds. |  | pending |
-| `RS-380SH` | Brushed DC motor | Mabuchi | Tier 3 | Higher-power brushed motor used in RC boats and hobby drills/robots; represents RF-500TB. |  | pending |
-| `2205 2300KV` | Brushless FPV motor | generic | Tier 3 | Standard size/KV combination used across most 5-inch FPV racing quadcopter builds. |  | pending |
-| `4mm bullet connector (banana-style)` | Bullet power connector | generic | Tier 3 | Simple genderless bullet connector commonly used for motor phase wires on brushless motors and ESCs; represents 3.5mm/5mm gold bullet variants. |  | pending |
-| `EC3 / EC5 connector` | Bullet-style power connector | generic (Castle Creations style) | Tier 3 | Popular genderless bullet connectors used for RC ESC-to-battery power connections. |  | pending |
-| `JST PA (2/3-pin)` | Connector | JST | Tier 3 | Used on some cooling fans and small appliance wiring encountered in maker teardown/reuse projects. |  | pending |
-| `Hirose DF13 series` | Connector, 1.25mm pitch | Hirose | Tier 3 | Locking micro connector used on flight controllers and drone peripherals (Pixhawk/mRo boards). |  | pending |
-| `Hirose DF11 series` | Connector, 2.0mm pitch | Hirose | Tier 3 | Locking connector used on some ArduPilot/Pixhawk-family flight-controller wiring harnesses. |  | pending |
-| `Molex KK 396 (5566 series)` | Connector, 2.5/3.96mm pitch | Molex | Tier 3 | Higher-current wire-to-board connector used on 3D printers and power distribution boards. |  | pending |
-| `Molex SPOX (5264 series)` | Connector, 2.5mm pitch | Molex | Tier 3 | 2.5mm connector used on 3D printers/small appliances, functionally similar to JST XH. |  | pending |
-| `Molex PicoBlade (53398/53047 series)` | Connector, fine-pitch | Molex | Tier 3 | Compact 1.25mm connector often used as an alternative to JST GH on small drones/wearables. |  | pending |
-| `JST EH (2.5mm)` | Connector, locking | JST | Tier 3 | Locking alternative to XH used on some battery packs/power supply connections. |  | pending |
-| `JST ZH (1.5mm)` | Connector, small-pitch | JST | Tier 3 | Small-pitch connector frequently seen on drone flight controllers/receivers. |  | pending |
-| `DB25 connector` | D-sub connector | generic | Tier 3 | Parallel-port breakout connector still used on hobby CNC controller boards. |  | pending |
-| `DB9 connector` | D-sub connector | generic | Tier 3 | Still used for RS-232 serial interfacing with older equipment and CNC controllers. |  | pending |
-| `DC barrel jack 5.5x2.5mm` | DC power connector | generic | Tier 3 | Slightly larger barrel jack variant used on some higher-current hobby power adapters. |  | pending |
-| `Alps SPUJ` | Detented rotary encoder | Alps Alpine | Tier 3 | Detented rotary encoder line referenced as a step up from basic EC11 in audio DIY projects. |  | pending |
-| `DS3218` | Digital high-torque servo | generic/DSservo | Tier 3 | High-torque (20kg-cm+) digital metal-gear servo used in robot arms/RC crawlers; represents DS929MG. |  | pending |
-| `FIT0126` | Electromagnetic buzzer module | DFRobot | Tier 3 | Standard buzzer module sold for Arduino Gravity-series kits. |  | pending |
-| `HF115F-005-1ZS3` | Electromechanical relay | Hongfa | Tier 3 | Widely-used 10A Hongfa PCB relay cited as a common Songle-equivalent substitute; represents Hongfa cross-equivalents (HFD23/005-1ZS3). |  | pending |
-| `Fuse holder 5x20mm panel-mount` | Fuse holder accessory | Bulgin | Tier 3 | Extremely common panel-mount fuse holder pairing with 5x20mm glass fuses in hobbyist enclosures. |  | pending |
-| `AGC-2` | Glass cartridge fuse (3AG) | Bussmann/Eaton | Tier 3 | Classic American 3AG glass cartridge fuse standard used in test equipment/small appliances; represents AGC-1, AGC-1/2, AGC-5, BP/GMA-1A, and older AGU/AGA style fuses. |  | pending |
-| `Samtec FTSH / SHF series (1.27mm)` | Header/socket | Samtec | Tier 3 | Common low-profile header used for compact board-to-board and debug connections in maker electronics. |  | pending |
-| `Adafruit 3346` | I2S Stereo Speaker Bonnet kit | Adafruit Industries | Tier 3 | Popular Raspberry Pi audio add-on kit central to many Pi audio hobby builds. |  | pending |
-| `TE/AMP MTA-100 (640456 series)` | IDC connector | TE Connectivity | Tier 3 | Widely used insulation-displacement 0.1in connector for ribbon cable and wire-to-board connections in hobby electronics. |  | pending |
-| `Gateron Red` | Mechanical keyswitch | Gateron | Tier 3 | Popular budget-friendly linear switch heavily used in the custom mechanical-keyboard hobby. |  | pending |
-| `Kailh Box White` | Mechanical keyswitch | Kailh | Tier 3 | Popular clicky switch in the DIY/custom keyboard community for its crisp tactile click. |  | pending |
-| `MG92B` | Micro digital servo | TowerPro | Tier 3 | Compact digital metal-gear servo used in small RC helicopters/drones needing fast response. |  | pending |
-| `SPT08` | Micro speaker | Kingstate Electronics | Tier 3 | Representative tiny surface-mount micro speaker used in wearable/badge projects; represents CMS-13030X07L390R, AS01508MR-R, CDS-25164-L100, WM-034, HXT-2001. |  | pending |
-| `KLK Series` | Midget fast-acting fuse | Bussmann/Eaton | Tier 3 | Common branch-circuit/equipment fuse used in industrial control panels; represents FNQ, KLDR, FRN-R, and JJN/JJS Class T fuse families. |  | pending |
-| `NEMA 14 stepper (14HS series)` | NEMA14 bipolar stepper | generic | Tier 3 | Smaller-frame stepper used in compact 3D-printer extruders and small CNC axes. |  | pending |
-| `Grayhill 61A22-01-1-02N` | Optical rotary encoder | Grayhill | Tier 3 | Premium optical rotary encoder occasionally used in higher-end synth/DIY audio hobby projects. |  | pending |
-| `CPC1017N` | OptoMOS solid-state relay | IXYS/Clare | Tier 3 | OptoMOS SSR IC popular for silent DC switching; represents CPC1590. |  | pending |
-| `COM-07950` | PC-mount buzzer | SparkFun Electronics | Tier 3 | SparkFun's own PC-mount magnetic buzzer, used directly in the SparkFun Inventor's Kit buzzer experiment. |  | pending |
-| `Degson DG terminal blocks` | PCB screw terminal block | Degson | Tier 3 | Budget-friendly screw-terminal series commonly sourced as an alternative to Phoenix Contact parts. |  | pending |
-| `1206L050YR` | PTC resettable fuse (SMD) | Littelfuse | Tier 3 | SMD PTC widely used for USB/board-level overcurrent protection; represents 2920L100PR, 1210L020WR, 1812L110/33MR, NANOSMDC series, PFRA6L050, MF-NSMF110/16, MF-SMHT075, Polyswitch RXE series. |  | pending |
-| `CEP-2260A` | Panel-mount piezo buzzer | CUI Devices (now Same Sky) | Tier 3 | Panel-mount piezo buzzer used where a chassis-mount alarm sound is needed. |  | pending |
-| `MPB16` | Panel-mount pushbutton | generic (16mm anti-vandal series) | Tier 3 | Common 16mm metal panel-mount pushbutton widely used for hobbyist power/reset buttons; represents PB86-B1, NKK 41S1D1-BGE. |  | pending |
-| `AQY212EH` | PhotoMOS solid-state relay | Panasonic | Tier 3 | Popular PhotoMOS SSR IC for bounce-free low-power signal switching; represents AQY210EH, AQY221N2S. |  | pending |
-| `TLP3542` | Photorelay | Toshiba | Tier 3 | Photorelay IC used for MOSFET-based solid-state relay switching; represents TLP172A. |  | pending |
-| `Binding posts (panel-mount, 4mm)` | Power terminal | generic | Tier 3 | Panel-mount terminals for enclosure power input/output paired with banana plugs. |  | pending |
-| `Tamiya connector` | RC battery power connector | Tamiya | Tier 3 | Classic large 2-pin connector still found on many RC car battery packs and chargers. |  | pending |
-| `DIP05-1A72-12L` | Reed relay | Standex-Meder | Tier 3 | Very common DIP-package reed relay for fast, low-power signal switching; represents reed-relay niche (HE721A0500, PRMA1A05, MK16-1A66-12). |  | pending |
-| `Automotive mini relay socket/harness (5-pin)` | Relay socket | generic | Tier 3 | Matching pigtail socket for the mini automotive relay, needed to wire it without soldering directly to the relay pins. |  | pending |
-| `TQ2-5V` | Signal relay | Panasonic | Tier 3 | Compact logic-level signal relay; represents the small-signal-relay niche also cited as TX2-5V, NEC EB2-5NU, HFD27/005-S, HFD4/005-S. |  | pending |
-| `CWD2425` | Solid-state relay | Crydom | Tier 3 | Industrial-grade SSR frequently recommended as a reliable brand-name upgrade over Fotek clones; represents Crydom D-series (D2425). |  | pending |
-| `Wago 236 series` | Spring-cage PCB terminal block | Wago | Tier 3 | Tool-free spring-clamp PCB terminal block used as an alternative to screw terminals in hobby power wiring. |  | pending |
+| `Cherry MX Blue` | Mechanical keyswitch | Cherry | Tier 2 | The most iconic clicky mechanical keyswitch, foundational reference part for the DIY mechanical-keyboard hobby. | imported | complete |
+| `Cherry MX Brown` | Mechanical keyswitch | Cherry | Tier 2 | Most popular tactile (non-click) keyswitch, a default recommendation for DIY mechanical-keyboard hobbyists. | imported | complete |
+| `Cherry MX Red` | Mechanical keyswitch | Cherry | Tier 2 | Best-selling linear mechanical keyswitch used across countless custom keyboard builds. | imported | complete |
+| `Micro Metal Gearmotor HP 6V` | Micro DC gear motor | Pololu | Tier 2 | Well-documented, widely used precision micro gearmotor line popular in small robot builds. | imported | complete |
+| `N20 DC Gear Motor` | Micro DC gear motor | generic/Adafruit | Tier 2 | Popular tiny brushed gear motor used in compact robots/camera gimbals; represents encoder variants, GA12-N20, and premium 50:1 variants. | imported | complete |
+| `Adafruit 1890` | Mini metal speaker | Adafruit Industries | Tier 2 | 8Ω mini metal-cone speaker, a go-to small speaker for wearables/enclosures; represents 3923, 4227, 1898, 3968. | imported | complete |
+| `NEMA 23 stepper (23HS series)` | NEMA23 bipolar stepper | generic/StepperOnline-style | Tier 2 | Larger-frame stepper used when NEMA17 lacks torque, common in DIY CNC routers. | imported | complete |
+| `RJ45 8P8C modular jack` | Network connector | generic | Tier 2 | Standard Ethernet connector found on many single-board computers/networked hobby projects; also reused off-label for cheap 8-conductor cabling. | imported | complete |
+| `MOC3021` | Opto-triac driver | various (Fairchild/ON Semi) | Tier 2 | Ubiquitous opto-triac at the core of countless DIY SSR/dimmer circuits. | imported | complete |
+| `A2212/13T 1000KV` | Outrunner brushless motor | generic (A2212 series) | Tier 2 | Extremely common low-cost brushless outrunner motor for hobby quadcopters/RC planes; represents other A2212 KV variants and Suppo 2212/13. | imported | complete |
+| `KF128 series` | PCB screw terminal block, 2.5mm | generic | Tier 2 | Small-pitch screw terminal block frequently used on Arduino shields/sensor breakouts; also covers generic fine-pitch pluggable terminal demand. | imported | complete |
+| `MF-SM160` | PTC resettable fuse (SMD) | Bourns | Tier 2 | SMD Multifuse PTC common in higher-current DC protection; represents MF-SM030, MF-SM260. | imported | complete |
+| `MF-USMF050-2` | PTC resettable fuse (USB) | Bourns | Tier 2 | PTC purpose-built for USB port overcurrent protection. | imported | complete |
+| `MF-R050` | PTC resettable fuse (radial leaded) | Bourns | Tier 2 | Popular radial-leaded Multifuse used in hobbyist through-hole protection circuits; represents MF-R010, MF-R090. | imported | complete |
+| `Phoenix Contact MKDS 1.5 series` | Pluggable PCB terminal block, 5.08mm | Phoenix Contact | Tier 2 | Popular pluggable terminal block series widely used in maker power-supply/motor-control projects; represents PT 1,5/2-5,0-H. | imported | complete |
+| `IDC box header 2.54mm (shrouded)` | Ribbon cable header | generic | Tier 2 | Shrouded, polarized box header commonly used for ribbon-cable connections (JTAG/ISP programming headers), paired with matching IDC ribbon connectors. | imported | complete |
+| `Bourns PEC11R-4215F-S0024` | Rotary encoder | Bourns | Tier 2 | Popular 12mm incremental encoder with push switch, a frequent upgrade recommendation over cheap EC11 clones; represents PEC11H, PEC12R, PEC16, Adafruit 377. | imported | complete |
+| `PB-12N23P-05Q` | Self-drive Sonalert buzzer | Mallory Sonalert Products | Tier 2 | Archetype self-driven 'Sonalert' buzzer directly solderable to Arduino GPIO+power; represents PB-12N23P-03Q/12Q, AI-4228-TWT-R, AT-1224-TWT-5V-2-R. | imported | complete |
+| `Grove connector (4-pin, JST-PH-like)` | Sensor module connector | Seeed Studio | Tier 2 | Proprietary 4-pin connector standard based on JST PH pitch, used throughout Seeed's Grove sensor/module ecosystem. | imported | complete |
+| `SS12D00` | Slide switch | generic | Tier 2 | Extremely common miniature SPDT slide switch used for on/off selection on Arduino/breadboard projects; represents SS12D00G3, SS-12F15G3, CIT KAN-1, E-Switch KS02Q02, CW Industries GH1-2202. | imported | complete |
+| `G3MB-202P` | Solid-state relay | Omron | Tier 2 | The SSR chip underlying most Chinese Arduino SSR modules; referenced directly and via numerous module products built around it (SainSmart, Keyestudio, Grove, Numato Lab, czh-labs, plus G3MC-202P sibling). | imported | complete |
+| `SSR-25DA` | Solid-state relay | Fotek | Tier 2 | Extremely common panel-mount hobby SSR for AC load control (heaters, 3D-printer beds); represents the Fotek DA family (SSR-10DA/40DA/60DA/80DA/100DA, SSR-25DD). | imported | complete |
+| `SMAJ5.0A` | TVS diode (SMD) | Littelfuse/Diodes Inc | Tier 2 | Common 5V, 400W SMD TVS for 5V rail/USB protection; represents SMAJ5.0CA, SMAJ12A. | imported | complete |
+| `P6KE6.8A` | TVS diode (axial) | Littelfuse | Tier 2 | Classic through-hole 600W TVS widely used in hobbyist power protection circuits; represents P6KE18A. | imported | complete |
+| `SP0503BAHT` | TVS diode array (USB/data line) | Littelfuse | Tier 2 | Widely used 4-line ESD array for USB 2.0 data protection. | imported | complete |
+| `B3F-4000` | Tactile switch | Omron | Tier 2 | 12x12mm tactile switch, standard for Adafruit's 12mm tactile button packs used on many maker boards. | imported | complete |
+| `Quick-disconnect blade terminals (2.8/4.8/6.3mm)` | Terminal - blade | generic | Tier 2 | Standard automotive-style disconnects used for relay and motor wiring where a full connector housing is overkill. | imported | complete |
+| `Insulated wire ferrules` | Terminal - ferrule | generic | Tier 2 | Community reference point for properly terminating stranded wire ends into screw/Wago terminals; staple stock item once a crimper is owned. | imported | complete |
+| `Insulated ring terminals` | Terminal - ring | generic | Tier 2 | Needed for bolting wires to battery terminals, chassis grounds, and terminal strips in 12V/automotive/robotics power builds. | imported | complete |
+| `Insulated spade/fork terminals` | Terminal - spade | generic | Tier 2 | Common for quick-disconnect screw-terminal wiring on relays, motors and terminal blocks. | imported | complete |
+| `Heat-shrink butt splice connectors` | Terminal - splice | generic | Tier 2 | Solder-and-shrink butt connectors repeatedly recommended as an 'always have some' item for permanent, weatherproof wire repairs. | imported | complete |
+| `Alligator clip test leads` | Test connector | generic | Tier 2 | Quick temporary connections for prototyping and bench testing without soldering. | imported | complete |
+| `Banana plug/jack pairs (4mm)` | Test/power connector | generic | Tier 2 | Standard bench power supply connector for patch cables to breadboards/projects. | imported | complete |
+| `BTA16-600B` | Triac | STMicroelectronics | Tier 2 | Extremely popular triac paired with MOC3021/3041 to build DIY solid-state relays for AC loads; represents smaller BT136-600. | imported | complete |
+| `USB Type-B` | USB connector | generic | Tier 2 | Square-shaped device-side connector historically used on Arduino Uno/Mega and printers. | imported | complete |
+| `V275LA20AP` | Varistor (MOV, radial leaded) | Littelfuse | Tier 2 | 275V AC-rated MOV standard for mains surge suppression in power strips/PSUs; represents V140LA20AP, V330LA20AP, S14K275, 14D471K, 07D471K, UltraMOV 20D391K. | imported | complete |
+| `KPEG242-5V` | Active piezo indicator | Kingstate Electronics | Tier 3 | Active piezo indicator from a major OEM buzzer supplier used in countless consumer/hobby designs; represents KPEG-272, KPEG-500, KPEG-353, KPEG-350. | imported | complete |
+| `MEGA/MIDI/Maxi blade fuse` | Automotive high-current blade fuse | Littelfuse/Bussmann | Tier 3 | High-current bolt-down blade fuse standard for main battery/alternator protection in car-audio and automotive installs. | imported | complete |
+| `Mini blade fuse 15A (APM/ATM)` | Automotive mini blade fuse | Littelfuse/Bussmann | Tier 3 | Compact mini blade fuse used in modern vehicle fuse boxes and 12V hobby builds. | imported | complete |
+| `RS-380SH` | Brushed DC motor | Mabuchi | Tier 3 | Higher-power brushed motor used in RC boats and hobby drills/robots; represents RF-500TB. | imported | complete |
+| `2205 2300KV` | Brushless FPV motor | generic | Tier 3 | Standard size/KV combination used across most 5-inch FPV racing quadcopter builds. | imported | complete |
+| `4mm bullet connector (banana-style)` | Bullet power connector | generic | Tier 3 | Simple genderless bullet connector commonly used for motor phase wires on brushless motors and ESCs; represents 3.5mm/5mm gold bullet variants. | imported | complete |
+| `EC3 / EC5 connector` | Bullet-style power connector | generic (Castle Creations style) | Tier 3 | Popular genderless bullet connectors used for RC ESC-to-battery power connections. | imported | complete |
+| `JST PA (2/3-pin)` | Connector | JST | Tier 3 | Used on some cooling fans and small appliance wiring encountered in maker teardown/reuse projects. | imported | complete |
+| `Hirose DF13 series` | Connector, 1.25mm pitch | Hirose | Tier 3 | Locking micro connector used on flight controllers and drone peripherals (Pixhawk/mRo boards). | imported | complete |
+| `Hirose DF11 series` | Connector, 2.0mm pitch | Hirose | Tier 3 | Locking connector used on some ArduPilot/Pixhawk-family flight-controller wiring harnesses. | imported | complete |
+| `Molex KK 396 (5566 series)` | Connector, 2.5/3.96mm pitch | Molex | Tier 3 | Higher-current wire-to-board connector used on 3D printers and power distribution boards. | imported | complete |
+| `Molex SPOX (5264 series)` | Connector, 2.5mm pitch | Molex | Tier 3 | 2.5mm connector used on 3D printers/small appliances, functionally similar to JST XH. | imported | complete |
+| `Molex PicoBlade (53398/53047 series)` | Connector, fine-pitch | Molex | Tier 3 | Compact 1.25mm connector often used as an alternative to JST GH on small drones/wearables. | imported | complete |
+| `JST EH (2.5mm)` | Connector, locking | JST | Tier 3 | Locking alternative to XH used on some battery packs/power supply connections. | imported | complete |
+| `JST ZH (1.5mm)` | Connector, small-pitch | JST | Tier 3 | Small-pitch connector frequently seen on drone flight controllers/receivers. | imported | complete |
+| `DB25 connector` | D-sub connector | generic | Tier 3 | Parallel-port breakout connector still used on hobby CNC controller boards. | imported | complete |
+| `DB9 connector` | D-sub connector | generic | Tier 3 | Still used for RS-232 serial interfacing with older equipment and CNC controllers. | imported | complete |
+| `DC barrel jack 5.5x2.5mm` | DC power connector | generic | Tier 3 | Slightly larger barrel jack variant used on some higher-current hobby power adapters. | imported | complete |
+| `Alps SPUJ` | Detented rotary encoder | Alps Alpine | Tier 3 | Detented rotary encoder line referenced as a step up from basic EC11 in audio DIY projects. | imported | complete |
+| `DS3218` | Digital high-torque servo | generic/DSservo | Tier 3 | High-torque (20kg-cm+) digital metal-gear servo used in robot arms/RC crawlers; represents DS929MG. | imported | complete |
+| `FIT0126` | Electromagnetic buzzer module | DFRobot | Tier 3 | Standard buzzer module sold for Arduino Gravity-series kits. | imported | complete |
+| `HF115F-005-1ZS3` | Electromechanical relay | Hongfa | Tier 3 | Widely-used 10A Hongfa PCB relay cited as a common Songle-equivalent substitute; represents Hongfa cross-equivalents (HFD23/005-1ZS3). | imported | complete |
+| `Fuse holder 5x20mm panel-mount` | Fuse holder accessory | Bulgin | Tier 3 | Extremely common panel-mount fuse holder pairing with 5x20mm glass fuses in hobbyist enclosures. | imported | complete |
+| `AGC-2` | Glass cartridge fuse (3AG) | Bussmann/Eaton | Tier 3 | Classic American 3AG glass cartridge fuse standard used in test equipment/small appliances; represents AGC-1, AGC-1/2, AGC-5, BP/GMA-1A, and older AGU/AGA style fuses. | imported | complete |
+| `Samtec FTSH / SHF series (1.27mm)` | Header/socket | Samtec | Tier 3 | Common low-profile header used for compact board-to-board and debug connections in maker electronics. | imported | complete |
+| `Adafruit 3346` | I2S Stereo Speaker Bonnet kit | Adafruit Industries | Tier 3 | Popular Raspberry Pi audio add-on kit central to many Pi audio hobby builds. | imported | complete |
+| `TE/AMP MTA-100 (640456 series)` | IDC connector | TE Connectivity | Tier 3 | Widely used insulation-displacement 0.1in connector for ribbon cable and wire-to-board connections in hobby electronics. | imported | complete |
+| `Gateron Red` | Mechanical keyswitch | Gateron | Tier 3 | Popular budget-friendly linear switch heavily used in the custom mechanical-keyboard hobby. | imported | complete |
+| `Kailh Box White` | Mechanical keyswitch | Kailh | Tier 3 | Popular clicky switch in the DIY/custom keyboard community for its crisp tactile click. | imported | complete |
+| `MG92B` | Micro digital servo | TowerPro | Tier 3 | Compact digital metal-gear servo used in small RC helicopters/drones needing fast response. | imported | complete |
+| `SPT08` | Micro speaker | Kingstate Electronics | Tier 3 | Representative tiny surface-mount micro speaker used in wearable/badge projects; represents CMS-13030X07L390R, AS01508MR-R, CDS-25164-L100, WM-034, HXT-2001. | imported | complete |
+| `KLK Series` | Midget fast-acting fuse | Bussmann/Eaton | Tier 3 | Common branch-circuit/equipment fuse used in industrial control panels; represents FNQ, KLDR, FRN-R, and JJN/JJS Class T fuse families. | imported | complete |
+| `NEMA 14 stepper (14HS series)` | NEMA14 bipolar stepper | generic | Tier 3 | Smaller-frame stepper used in compact 3D-printer extruders and small CNC axes. | imported | complete |
+| `Grayhill 61A22-01-1-02N` | Optical rotary encoder | Grayhill | Tier 3 | Premium optical rotary encoder occasionally used in higher-end synth/DIY audio hobby projects. | imported | complete |
+| `CPC1017N` | OptoMOS solid-state relay | IXYS/Clare | Tier 3 | OptoMOS SSR IC popular for silent DC switching; represents CPC1590. | imported | complete |
+| `COM-07950` | PC-mount buzzer | SparkFun Electronics | Tier 3 | SparkFun's own PC-mount magnetic buzzer, used directly in the SparkFun Inventor's Kit buzzer experiment. | imported | complete |
+| `Degson DG terminal blocks` | PCB screw terminal block | Degson | Tier 3 | Budget-friendly screw-terminal series commonly sourced as an alternative to Phoenix Contact parts. | imported | complete |
+| `1206L050YR` | PTC resettable fuse (SMD) | Littelfuse | Tier 3 | SMD PTC widely used for USB/board-level overcurrent protection; represents 2920L100PR, 1210L020WR, 1812L110/33MR, NANOSMDC series, PFRA6L050, MF-NSMF110/16, MF-SMHT075, Polyswitch RXE series. | imported | complete |
+| `CEP-2260A` | Panel-mount piezo buzzer | CUI Devices (now Same Sky) | Tier 3 | Panel-mount piezo buzzer used where a chassis-mount alarm sound is needed. | imported | complete |
+| `MPB16` | Panel-mount pushbutton | generic (16mm anti-vandal series) | Tier 3 | Common 16mm metal panel-mount pushbutton widely used for hobbyist power/reset buttons; represents PB86-B1, NKK 41S1D1-BGE. | imported | complete |
+| `AQY212EH` | PhotoMOS solid-state relay | Panasonic | Tier 3 | Popular PhotoMOS SSR IC for bounce-free low-power signal switching; represents AQY210EH, AQY221N2S. | imported | complete |
+| `TLP3542` | Photorelay | Toshiba | Tier 3 | Photorelay IC used for MOSFET-based solid-state relay switching; represents TLP172A. | imported | complete |
+| `Binding posts (panel-mount, 4mm)` | Power terminal | generic | Tier 3 | Panel-mount terminals for enclosure power input/output paired with banana plugs. | imported | complete |
+| `Tamiya connector` | RC battery power connector | Tamiya | Tier 3 | Classic large 2-pin connector still found on many RC car battery packs and chargers. | imported | complete |
+| `DIP05-1A72-12L` | Reed relay | Standex-Meder | Tier 3 | Very common DIP-package reed relay for fast, low-power signal switching; represents reed-relay niche (HE721A0500, PRMA1A05, MK16-1A66-12). | imported | complete |
+| `Automotive mini relay socket/harness (5-pin)` | Relay socket | generic | Tier 3 | Matching pigtail socket for the mini automotive relay, needed to wire it without soldering directly to the relay pins. | imported | complete |
+| `TQ2-5V` | Signal relay | Panasonic | Tier 3 | Compact logic-level signal relay; represents the small-signal-relay niche also cited as TX2-5V, NEC EB2-5NU, HFD27/005-S, HFD4/005-S. | imported | complete |
+| `CWD2425` | Solid-state relay | Crydom | Tier 3 | Industrial-grade SSR frequently recommended as a reliable brand-name upgrade over Fotek clones; represents Crydom D-series (D2425). | imported | complete |
+| `Wago 236 series` | Spring-cage PCB terminal block | Wago | Tier 3 | Tool-free spring-clamp PCB terminal block used as an alternative to screw terminals in hobby power wiring. | imported | complete |
  | `S3003` | Standard analog servo | Futaba | Tier 3 | Classic Futaba standard servo widely referenced as a common RC/hobby servo baseline. | imported | pending |
-| `Parallax Standard Servo (900-00005)` | Standard hobby servo | Parallax | Tier 3 | Well-documented educational-robotics servo widely used with BASIC Stamp/Arduino tutorials; represents Parallax Continuous Rotation Servo (900-00008). |  | pending |
-| `HS-311` | Standard servo | Hitec | Tier 3 | One of the most widely used entry-level standard servos in RC hobby for decades; represents HS-82MG. |  | pending |
-| `Pico fuse 251 series` | Subminiature fuse (through-hole) | Littelfuse | Tier 3 | Very small axial pico fuse widely used inside consumer electronics and chargers; represents the Nano2 SMD fuse (0451.500MRL). |  | pending |
-| `SMCJ24A` | TVS diode (SMD, 1500W) | Littelfuse | Tier 3 | 1500W SMD TVS used for robust line protection in commercial equipment; represents 1.5KE15CA. |  | pending |
-| `SMBJ5.0A` | TVS diode (SMD, 600W) | Littelfuse/Diodes Inc | Tier 3 | 600W SMD TVS used where higher surge energy handling is needed than SMAJ. |  | pending |
-| `PESD5V0S1BA` | TVS diode (single-line ESD) | Nexperia | Tier 3 | Common single-channel ESD protection diode used on GPIO/signal lines. |  | pending |
-| `RJ11/RJ12 6P modular jack` | Telecom-style modular connector | generic | Tier 3 | Repurposed by some hobby projects (3D-printer control panel cables, hotend wiring) as a compact 4-6 wire connector. |  | pending |
-| `Bare/insulated butt splice connectors` | Terminal - splice | generic | Tier 3 | Non-heatshrink version for quick indoor splices; cheaper bulk stock item. |  | pending |
-| `Spring-loaded pogo pin connectors` | Test/programming connector | generic | Tier 3 | Used for tool-free temporary programming/test connections to PCBs without soldering headers on every board. |  | pending |
-| `FBMOV series` | Thermally-protected MOV+fuse | Littelfuse | Tier 3 | MOV with integrated thermal fuse to prevent fire risk, standard in modern surge protectors. |  | pending |
-| `NKK M2012SS1W01` | Toggle switch | NKK Switches | Tier 3 | Higher-end mini toggle switch used in prosumer audio/electronics projects; represents E-Switch 100SP1T1B4M2QEH/EG2358, C&K 7101, NKK G12AH. |  | pending |
-| `Mini-USB Type-B` | USB connector | generic | Tier 3 | Legacy compact 5-pin USB connector used on early Arduino Nano, digital cameras and MP3 players. |  | pending |
-| `USB-A/B/C panel-mount breakout connector` | USB connector, panel-mount | generic | Tier 3 | Panel-mount USB extensions let an enclosure expose a port without drilling precisely around a board's onboard connector. |  | pending |
-| `Vibration Motor (coin/pancake type)` | Vibration motor | generic | Tier 3 | Ubiquitous flat coin vibration motor used in haptic feedback hobby projects and wearables. |  | pending |
-| `MOC3041` | Zero-cross opto-triac driver | various (ON Semi/Fairchild) | Tier 3 | Zero-crossing variant of MOC3021 used in home-built AC SSR/dimmer designs. |  | pending |
+| `Parallax Standard Servo (900-00005)` | Standard hobby servo | Parallax | Tier 3 | Well-documented educational-robotics servo widely used with BASIC Stamp/Arduino tutorials; represents Parallax Continuous Rotation Servo (900-00008). | imported | complete |
+| `HS-311` | Standard servo | Hitec | Tier 3 | One of the most widely used entry-level standard servos in RC hobby for decades; represents HS-82MG. | imported | complete |
+| `Pico fuse 251 series` | Subminiature fuse (through-hole) | Littelfuse | Tier 3 | Very small axial pico fuse widely used inside consumer electronics and chargers; represents the Nano2 SMD fuse (0451.500MRL). | imported | complete |
+| `SMCJ24A` | TVS diode (SMD, 1500W) | Littelfuse | Tier 3 | 1500W SMD TVS used for robust line protection in commercial equipment; represents 1.5KE15CA. | imported | complete |
+| `SMBJ5.0A` | TVS diode (SMD, 600W) | Littelfuse/Diodes Inc | Tier 3 | 600W SMD TVS used where higher surge energy handling is needed than SMAJ. | imported | complete |
+| `PESD5V0S1BA` | TVS diode (single-line ESD) | Nexperia | Tier 3 | Common single-channel ESD protection diode used on GPIO/signal lines. | imported | complete |
+| `RJ11/RJ12 6P modular jack` | Telecom-style modular connector | generic | Tier 3 | Repurposed by some hobby projects (3D-printer control panel cables, hotend wiring) as a compact 4-6 wire connector. | imported | complete |
+| `Bare/insulated butt splice connectors` | Terminal - splice | generic | Tier 3 | Non-heatshrink version for quick indoor splices; cheaper bulk stock item. | imported | complete |
+| `Spring-loaded pogo pin connectors` | Test/programming connector | generic | Tier 3 | Used for tool-free temporary programming/test connections to PCBs without soldering headers on every board. | imported | complete |
+| `FBMOV series` | Thermally-protected MOV+fuse | Littelfuse | Tier 3 | MOV with integrated thermal fuse to prevent fire risk, standard in modern surge protectors. | imported | complete |
+| `NKK M2012SS1W01` | Toggle switch | NKK Switches | Tier 3 | Higher-end mini toggle switch used in prosumer audio/electronics projects; represents E-Switch 100SP1T1B4M2QEH/EG2358, C&K 7101, NKK G12AH. | imported | complete |
+| `Mini-USB Type-B` | USB connector | generic | Tier 3 | Legacy compact 5-pin USB connector used on early Arduino Nano, digital cameras and MP3 players. | imported | complete |
+| `USB-A/B/C panel-mount breakout connector` | USB connector, panel-mount | generic | Tier 3 | Panel-mount USB extensions let an enclosure expose a port without drilling precisely around a board's onboard connector. | imported | complete |
+| `Vibration Motor (coin/pancake type)` | Vibration motor | generic | Tier 3 | Ubiquitous flat coin vibration motor used in haptic feedback hobby projects and wearables. | imported | complete |
+| `MOC3041` | Zero-cross opto-triac driver | various (ON Semi/Fairchild) | Tier 3 | Zero-crossing variant of MOC3021 used in home-built AC SSR/dimmer designs. | imported | complete |
 
 ## Notes
 

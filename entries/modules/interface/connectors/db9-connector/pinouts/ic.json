@@ -1,0 +1,87 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "Pin 1",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Terminal 1"
+    },
+    {
+      "id": "2",
+      "name": "Pin 2",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Terminal 2"
+    },
+    {
+      "id": "3",
+      "name": "Pin 3",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Terminal 3"
+    },
+    {
+      "id": "4",
+      "name": "Pin 4",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Terminal 4"
+    },
+    {
+      "id": "5",
+      "name": "Pin 5",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Terminal 5"
+    },
+    {
+      "id": "6",
+      "name": "Pin 6",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Terminal 6"
+    },
+    {
+      "id": "7",
+      "name": "Pin 7",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Terminal 7"
+    },
+    {
+      "id": "8",
+      "name": "Pin 8",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Terminal 8"
+    },
+    {
+      "id": "9",
+      "name": "Pin 9",
+      "type": "passive",
+      "direction": "bidirectional",
+      "description": "Terminal 9"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "9",
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+id: interface.switches.kcd1-101
+revision: "1.0.0"
+title: "KCD1-101"
+category: interface/switches
+status: stub
+summary: "KCD1-101 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

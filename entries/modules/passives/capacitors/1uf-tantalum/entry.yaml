@@ -1,0 +1,13 @@
+id: passives.capacitors.1uf-tantalum
+revision: "1.0.0"
+title: "1µF tantalum"
+category: passives/capacitors
+status: stub
+summary: "1µF tantalum imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

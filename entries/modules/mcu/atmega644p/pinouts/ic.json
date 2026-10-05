@@ -1,0 +1,335 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "PB0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB0"
+    },
+    {
+      "id": "2",
+      "name": "PB1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB1"
+    },
+    {
+      "id": "3",
+      "name": "PB2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB2"
+    },
+    {
+      "id": "4",
+      "name": "PB3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB3"
+    },
+    {
+      "id": "5",
+      "name": "PB4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB4"
+    },
+    {
+      "id": "6",
+      "name": "PB5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB5"
+    },
+    {
+      "id": "7",
+      "name": "PB6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB6"
+    },
+    {
+      "id": "8",
+      "name": "PB7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB7"
+    },
+    {
+      "id": "9",
+      "name": "RESET'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RESET'"
+    },
+    {
+      "id": "10",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "11",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "12",
+      "name": "XTAL2",
+      "type": "clock",
+      "direction": "bidirectional",
+      "description": "Pin XTAL2"
+    },
+    {
+      "id": "13",
+      "name": "XTAL1",
+      "type": "clock",
+      "direction": "bidirectional",
+      "description": "Pin XTAL1"
+    },
+    {
+      "id": "14",
+      "name": "PD0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD0"
+    },
+    {
+      "id": "15",
+      "name": "PD1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD1"
+    },
+    {
+      "id": "16",
+      "name": "PD2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD2"
+    },
+    {
+      "id": "17",
+      "name": "PD3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD3"
+    },
+    {
+      "id": "18",
+      "name": "PD4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD4"
+    },
+    {
+      "id": "19",
+      "name": "PD5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD5"
+    },
+    {
+      "id": "20",
+      "name": "PD6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD6"
+    },
+    {
+      "id": "21",
+      "name": "PD7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD7"
+    },
+    {
+      "id": "22",
+      "name": "PC0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PC0"
+    },
+    {
+      "id": "23",
+      "name": "PC1",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin PC1"
+    },
+    {
+      "id": "24",
+      "name": "PC2",
+      "type": "analog",
+      "direction": "bidirectional",
+      "description": "Pin PC2"
+    },
+    {
+      "id": "25",
+      "name": "PC3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PC3"
+    },
+    {
+      "id": "26",
+      "name": "PC4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PC4"
+    },
+    {
+      "id": "27",
+      "name": "PC5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PC5"
+    },
+    {
+      "id": "28",
+      "name": "PC6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PC6"
+    },
+    {
+      "id": "29",
+      "name": "PC7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PC7"
+    },
+    {
+      "id": "30",
+      "name": "AVCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin AVCC"
+    },
+    {
+      "id": "31",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "32",
+      "name": "AREF",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin AREF"
+    },
+    {
+      "id": "33",
+      "name": "PA7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA7"
+    },
+    {
+      "id": "34",
+      "name": "PA6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA6"
+    },
+    {
+      "id": "35",
+      "name": "PA5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA5"
+    },
+    {
+      "id": "36",
+      "name": "PA4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA4"
+    },
+    {
+      "id": "37",
+      "name": "PA3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA3"
+    },
+    {
+      "id": "38",
+      "name": "PA2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA2"
+    },
+    {
+      "id": "39",
+      "name": "PA1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA1"
+    },
+    {
+      "id": "40",
+      "name": "PA0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA0"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "right": [
+        "40",
+        "39",
+        "38",
+        "37",
+        "36",
+        "35",
+        "34",
+        "33",
+        "32",
+        "31",
+        "30",
+        "29",
+        "28",
+        "27",
+        "26",
+        "25",
+        "24",
+        "23",
+        "22",
+        "21"
+      ]
+    }
+  }
+}

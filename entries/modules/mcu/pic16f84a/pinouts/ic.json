@@ -1,0 +1,159 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "RA2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RA2"
+    },
+    {
+      "id": "2",
+      "name": "RA3",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RA3"
+    },
+    {
+      "id": "3",
+      "name": "RA4",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RA4"
+    },
+    {
+      "id": "4",
+      "name": "MCLR'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin MCLR'"
+    },
+    {
+      "id": "5",
+      "name": "VSS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "6",
+      "name": "RB0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RB0"
+    },
+    {
+      "id": "7",
+      "name": "RB1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RB1"
+    },
+    {
+      "id": "8",
+      "name": "RB2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RB2"
+    },
+    {
+      "id": "9",
+      "name": "RB3",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RB3"
+    },
+    {
+      "id": "10",
+      "name": "RB4",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RB4"
+    },
+    {
+      "id": "11",
+      "name": "RB5",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RB5"
+    },
+    {
+      "id": "12",
+      "name": "RB6",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RB6"
+    },
+    {
+      "id": "13",
+      "name": "RB7",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RB7"
+    },
+    {
+      "id": "14",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    },
+    {
+      "id": "15",
+      "name": "OSC2",
+      "type": "clock",
+      "direction": "bidirectional",
+      "description": "Pin OSC2"
+    },
+    {
+      "id": "16",
+      "name": "OSC1",
+      "type": "clock",
+      "direction": "bidirectional",
+      "description": "Pin OSC1"
+    },
+    {
+      "id": "17",
+      "name": "RA0",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RA0"
+    },
+    {
+      "id": "18",
+      "name": "RA1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RA1"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "right": [
+        "18",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10"
+      ]
+    }
+  }
+}

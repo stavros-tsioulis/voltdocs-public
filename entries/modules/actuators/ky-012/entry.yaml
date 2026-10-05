@@ -1,0 +1,13 @@
+id: actuators.ky-012
+revision: "1.0.0"
+title: "KY-012"
+category: actuators
+status: stub
+summary: "KY-012 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

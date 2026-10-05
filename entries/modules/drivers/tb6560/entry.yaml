@@ -40,6 +40,9 @@ references:
   - targetId: driver.stepper.drv8825
     relation: see-also
     comment: Compact hobby alternative for lower-power NEMA 17 stepper motors.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

@@ -1,0 +1,13 @@
+id: actuators.buzzers.cep-2260a
+revision: "1.0.0"
+title: "CEP-2260A"
+category: actuators/buzzers
+status: stub
+summary: "CEP-2260A imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

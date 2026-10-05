@@ -1,0 +1,127 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "2",
+      "name": "PB0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB0"
+    },
+    {
+      "id": "3",
+      "name": "PB1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB1"
+    },
+    {
+      "id": "4",
+      "name": "PB3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB3"
+    },
+    {
+      "id": "5",
+      "name": "PB2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB2"
+    },
+    {
+      "id": "6",
+      "name": "PA7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA7"
+    },
+    {
+      "id": "7",
+      "name": "PA6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA6"
+    },
+    {
+      "id": "8",
+      "name": "PA5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA5"
+    },
+    {
+      "id": "9",
+      "name": "PA4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA4"
+    },
+    {
+      "id": "10",
+      "name": "PA3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA3"
+    },
+    {
+      "id": "11",
+      "name": "PA2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA2"
+    },
+    {
+      "id": "12",
+      "name": "PA1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA1"
+    },
+    {
+      "id": "13",
+      "name": "PA0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA0"
+    },
+    {
+      "id": "14",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "right": [
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8"
+      ]
+    }
+  }
+}

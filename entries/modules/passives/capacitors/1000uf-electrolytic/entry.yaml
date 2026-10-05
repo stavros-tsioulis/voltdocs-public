@@ -1,0 +1,13 @@
+id: passives.capacitors.1000uf-electrolytic
+revision: "1.0.0"
+title: "1000µF electrolytic"
+category: passives/capacitors
+status: stub
+summary: "1000µF electrolytic imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

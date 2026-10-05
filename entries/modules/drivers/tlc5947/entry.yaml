@@ -30,6 +30,9 @@ highlights:
   - pwm_resolution_bits
   - constant_current_range_ma
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

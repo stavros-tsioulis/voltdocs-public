@@ -1,0 +1,13 @@
+id: diodes.1n4003
+revision: "1.0.0"
+title: "1N4003"
+category: diodes
+status: stub
+summary: "1N4003 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

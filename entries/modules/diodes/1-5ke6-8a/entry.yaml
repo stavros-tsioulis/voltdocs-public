@@ -1,0 +1,13 @@
+id: diodes.1-5ke6-8a
+revision: "1.0.0"
+title: "1.5KE6.8A"
+category: diodes
+status: stub
+summary: "1.5KE6.8A imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

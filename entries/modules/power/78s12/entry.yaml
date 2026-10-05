@@ -34,6 +34,9 @@ references:
   - targetId: power.regulator.lm7812
     relation: variant-of
     comment: High-current 2.0A variant of the standard 1.5A 7812 linear voltage regulator.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

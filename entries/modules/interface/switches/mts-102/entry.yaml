@@ -1,0 +1,13 @@
+id: interface.switches.mts-102
+revision: "1.0.0"
+title: "MTS-102"
+category: interface/switches
+status: stub
+summary: "MTS-102 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

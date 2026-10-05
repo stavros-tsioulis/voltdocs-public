@@ -1,0 +1,463 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "Pin 1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 1"
+    },
+    {
+      "id": "2",
+      "name": "Pin 2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 2"
+    },
+    {
+      "id": "3",
+      "name": "Pin 3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 3"
+    },
+    {
+      "id": "4",
+      "name": "Pin 4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 4"
+    },
+    {
+      "id": "5",
+      "name": "Pin 5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 5"
+    },
+    {
+      "id": "6",
+      "name": "Pin 6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 6"
+    },
+    {
+      "id": "7",
+      "name": "Pin 7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 7"
+    },
+    {
+      "id": "8",
+      "name": "Pin 8",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 8"
+    },
+    {
+      "id": "9",
+      "name": "Pin 9",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 9"
+    },
+    {
+      "id": "10",
+      "name": "Pin 10",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 10"
+    },
+    {
+      "id": "11",
+      "name": "Pin 11",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 11"
+    },
+    {
+      "id": "12",
+      "name": "Pin 12",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 12"
+    },
+    {
+      "id": "13",
+      "name": "Pin 13",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 13"
+    },
+    {
+      "id": "14",
+      "name": "Pin 14",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 14"
+    },
+    {
+      "id": "15",
+      "name": "Pin 15",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 15"
+    },
+    {
+      "id": "16",
+      "name": "Pin 16",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 16"
+    },
+    {
+      "id": "17",
+      "name": "Pin 17",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 17"
+    },
+    {
+      "id": "18",
+      "name": "Pin 18",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 18"
+    },
+    {
+      "id": "19",
+      "name": "Pin 19",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 19"
+    },
+    {
+      "id": "20",
+      "name": "Pin 20",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 20"
+    },
+    {
+      "id": "21",
+      "name": "Pin 21",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 21"
+    },
+    {
+      "id": "22",
+      "name": "Pin 22",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 22"
+    },
+    {
+      "id": "23",
+      "name": "Pin 23",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 23"
+    },
+    {
+      "id": "24",
+      "name": "Pin 24",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 24"
+    },
+    {
+      "id": "25",
+      "name": "Pin 25",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 25"
+    },
+    {
+      "id": "26",
+      "name": "Pin 26",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 26"
+    },
+    {
+      "id": "27",
+      "name": "Pin 27",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 27"
+    },
+    {
+      "id": "28",
+      "name": "Pin 28",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 28"
+    },
+    {
+      "id": "29",
+      "name": "Pin 29",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 29"
+    },
+    {
+      "id": "30",
+      "name": "Pin 30",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 30"
+    },
+    {
+      "id": "31",
+      "name": "Pin 31",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 31"
+    },
+    {
+      "id": "32",
+      "name": "Pin 32",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 32"
+    },
+    {
+      "id": "33",
+      "name": "Pin 33",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 33"
+    },
+    {
+      "id": "34",
+      "name": "Pin 34",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 34"
+    },
+    {
+      "id": "35",
+      "name": "Pin 35",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 35"
+    },
+    {
+      "id": "36",
+      "name": "Pin 36",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 36"
+    },
+    {
+      "id": "37",
+      "name": "Pin 37",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 37"
+    },
+    {
+      "id": "38",
+      "name": "Pin 38",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 38"
+    },
+    {
+      "id": "39",
+      "name": "Pin 39",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 39"
+    },
+    {
+      "id": "40",
+      "name": "Pin 40",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 40"
+    },
+    {
+      "id": "41",
+      "name": "Pin 41",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 41"
+    },
+    {
+      "id": "42",
+      "name": "Pin 42",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 42"
+    },
+    {
+      "id": "43",
+      "name": "Pin 43",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 43"
+    },
+    {
+      "id": "44",
+      "name": "Pin 44",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 44"
+    },
+    {
+      "id": "45",
+      "name": "Pin 45",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 45"
+    },
+    {
+      "id": "46",
+      "name": "Pin 46",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 46"
+    },
+    {
+      "id": "47",
+      "name": "Pin 47",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 47"
+    },
+    {
+      "id": "48",
+      "name": "Pin 48",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 48"
+    },
+    {
+      "id": "49",
+      "name": "Pin 49",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 49"
+    },
+    {
+      "id": "50",
+      "name": "Pin 50",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 50"
+    },
+    {
+      "id": "51",
+      "name": "Pin 51",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 51"
+    },
+    {
+      "id": "52",
+      "name": "Pin 52",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 52"
+    },
+    {
+      "id": "53",
+      "name": "Pin 53",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 53"
+    },
+    {
+      "id": "54",
+      "name": "Pin 54",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 54"
+    },
+    {
+      "id": "55",
+      "name": "Pin 55",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 55"
+    },
+    {
+      "id": "56",
+      "name": "Pin 56",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Generic Pin 56"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "right": [
+        "56",
+        "55",
+        "54",
+        "53",
+        "52",
+        "51",
+        "50",
+        "49",
+        "48",
+        "47",
+        "46",
+        "45",
+        "44",
+        "43",
+        "42",
+        "41",
+        "40",
+        "39",
+        "38",
+        "37",
+        "36",
+        "35",
+        "34",
+        "33",
+        "32",
+        "31",
+        "30",
+        "29"
+      ]
+    }
+  }
+}

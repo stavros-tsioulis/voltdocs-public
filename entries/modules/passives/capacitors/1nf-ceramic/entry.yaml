@@ -1,0 +1,13 @@
+id: passives.capacitors.1nf-ceramic
+revision: "1.0.0"
+title: "1nF ceramic (1000pF)"
+category: passives/capacitors
+status: stub
+summary: "1nF ceramic (1000pF) imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

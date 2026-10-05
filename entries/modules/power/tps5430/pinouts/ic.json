@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "BOOT",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin BOOT"
+    },
+    {
+      "id": "2",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "3",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "4",
+      "name": "VSENSE",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin VSENSE"
+    },
+    {
+      "id": "5",
+      "name": "EN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin EN"
+    },
+    {
+      "id": "6",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "7",
+      "name": "VIN",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VIN"
+    },
+    {
+      "id": "8",
+      "name": "PH",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin PH"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+id: interface.connectors.banana-plugs
+revision: "1.0.0"
+title: "Banana plug/jack pairs (4mm)"
+category: interface/connectors
+status: stub
+summary: "Banana plug/jack pairs (4mm) imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

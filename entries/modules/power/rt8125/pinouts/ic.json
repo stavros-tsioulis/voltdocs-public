@@ -1,0 +1,79 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "BOOT",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin BOOT"
+    },
+    {
+      "id": "2",
+      "name": "UGATE",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin UGATE"
+    },
+    {
+      "id": "3",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "4",
+      "name": "LGATE",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin LGATE"
+    },
+    {
+      "id": "5",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "6",
+      "name": "FB",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin FB"
+    },
+    {
+      "id": "7",
+      "name": "COMP",
+      "type": "analog",
+      "direction": "input",
+      "description": "Pin COMP"
+    },
+    {
+      "id": "8",
+      "name": "PHASE",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin PHASE"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "right": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    }
+  }
+}

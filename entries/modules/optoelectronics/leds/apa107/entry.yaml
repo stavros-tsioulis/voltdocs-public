@@ -1,0 +1,13 @@
+id: optoelectronics.leds.apa107
+revision: "1.0.0"
+title: "APA107"
+category: optoelectronics/leds
+status: stub
+summary: "APA107 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

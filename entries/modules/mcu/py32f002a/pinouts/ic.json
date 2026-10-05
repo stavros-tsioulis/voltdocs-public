@@ -1,0 +1,143 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "PA1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA1"
+    },
+    {
+      "id": "2",
+      "name": "PA2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA2"
+    },
+    {
+      "id": "3",
+      "name": "PA3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA3"
+    },
+    {
+      "id": "4",
+      "name": "PA4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA4"
+    },
+    {
+      "id": "5",
+      "name": "PF4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PF4"
+    },
+    {
+      "id": "6",
+      "name": "PF2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PF2"
+    },
+    {
+      "id": "7",
+      "name": "PA13",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin PA13"
+    },
+    {
+      "id": "8",
+      "name": "PA14",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin PA14"
+    },
+    {
+      "id": "9",
+      "name": "VSS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "10",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    },
+    {
+      "id": "11",
+      "name": "PB5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB5"
+    },
+    {
+      "id": "12",
+      "name": "PB4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB4"
+    },
+    {
+      "id": "13",
+      "name": "PA7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA7"
+    },
+    {
+      "id": "14",
+      "name": "PA6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA6"
+    },
+    {
+      "id": "15",
+      "name": "PA5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA5"
+    },
+    {
+      "id": "16",
+      "name": "PA0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA0"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

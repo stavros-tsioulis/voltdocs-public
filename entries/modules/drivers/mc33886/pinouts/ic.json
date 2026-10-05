@@ -1,0 +1,175 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "AGND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin AGND"
+    },
+    {
+      "id": "2",
+      "name": "IN1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin IN1"
+    },
+    {
+      "id": "3",
+      "name": "IN2",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin IN2"
+    },
+    {
+      "id": "4",
+      "name": "D1",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin D1"
+    },
+    {
+      "id": "5",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "6",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "7",
+      "name": "EN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin EN"
+    },
+    {
+      "id": "8",
+      "name": "FS'",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin FS'"
+    },
+    {
+      "id": "9",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "10",
+      "name": "AGND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin AGND"
+    },
+    {
+      "id": "11",
+      "name": "PGND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin PGND"
+    },
+    {
+      "id": "12",
+      "name": "OUT1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin OUT1"
+    },
+    {
+      "id": "13",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V+"
+    },
+    {
+      "id": "14",
+      "name": "OUT2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin OUT2"
+    },
+    {
+      "id": "15",
+      "name": "PGND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin PGND"
+    },
+    {
+      "id": "16",
+      "name": "PGND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin PGND"
+    },
+    {
+      "id": "17",
+      "name": "OUT2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin OUT2"
+    },
+    {
+      "id": "18",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V+"
+    },
+    {
+      "id": "19",
+      "name": "OUT1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin OUT1"
+    },
+    {
+      "id": "20",
+      "name": "PGND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin PGND"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "right": [
+        "20",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11"
+      ]
+    }
+  }
+}

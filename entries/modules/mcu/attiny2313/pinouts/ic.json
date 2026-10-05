@@ -1,0 +1,175 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "PA2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA2"
+    },
+    {
+      "id": "2",
+      "name": "PD0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD0"
+    },
+    {
+      "id": "3",
+      "name": "PD1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD1"
+    },
+    {
+      "id": "4",
+      "name": "PA1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA1"
+    },
+    {
+      "id": "5",
+      "name": "PA0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PA0"
+    },
+    {
+      "id": "6",
+      "name": "PD2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD2"
+    },
+    {
+      "id": "7",
+      "name": "PD3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD3"
+    },
+    {
+      "id": "8",
+      "name": "PD4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD4"
+    },
+    {
+      "id": "9",
+      "name": "PD5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD5"
+    },
+    {
+      "id": "10",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "11",
+      "name": "PD6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PD6"
+    },
+    {
+      "id": "12",
+      "name": "PB0",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB0"
+    },
+    {
+      "id": "13",
+      "name": "PB1",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB1"
+    },
+    {
+      "id": "14",
+      "name": "PB2",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB2"
+    },
+    {
+      "id": "15",
+      "name": "PB3",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB3"
+    },
+    {
+      "id": "16",
+      "name": "PB4",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB4"
+    },
+    {
+      "id": "17",
+      "name": "PB5",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB5"
+    },
+    {
+      "id": "18",
+      "name": "PB6",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB6"
+    },
+    {
+      "id": "19",
+      "name": "PB7",
+      "type": "digital",
+      "direction": "bidirectional",
+      "description": "Pin PB7"
+    },
+    {
+      "id": "20",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "right": [
+        "20",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+id: interface.switches.grayhill-61a22-01-1-02n
+revision: "1.0.0"
+title: "Grayhill 61A22-01-1-02N"
+category: interface/switches
+status: stub
+summary: "Grayhill 61A22-01-1-02N imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

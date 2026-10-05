@@ -1,0 +1,207 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "DIN",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DIN"
+    },
+    {
+      "id": "2",
+      "name": "DIG0",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin DIG0"
+    },
+    {
+      "id": "3",
+      "name": "DIG4",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin DIG4"
+    },
+    {
+      "id": "4",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "5",
+      "name": "DIG6",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin DIG6"
+    },
+    {
+      "id": "6",
+      "name": "DIG2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin DIG2"
+    },
+    {
+      "id": "7",
+      "name": "DIG3",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin DIG3"
+    },
+    {
+      "id": "8",
+      "name": "DIG7",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin DIG7"
+    },
+    {
+      "id": "9",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "10",
+      "name": "DIG5",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin DIG5"
+    },
+    {
+      "id": "11",
+      "name": "DIG1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin DIG1"
+    },
+    {
+      "id": "12",
+      "name": "LOAD",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin LOAD"
+    },
+    {
+      "id": "13",
+      "name": "CLK",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CLK"
+    },
+    {
+      "id": "14",
+      "name": "SEG_A",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin SEG_A"
+    },
+    {
+      "id": "15",
+      "name": "SEG_F",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin SEG_F"
+    },
+    {
+      "id": "16",
+      "name": "SEG_B",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin SEG_B"
+    },
+    {
+      "id": "17",
+      "name": "SEG_G",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin SEG_G"
+    },
+    {
+      "id": "18",
+      "name": "SEG_C",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin SEG_C"
+    },
+    {
+      "id": "19",
+      "name": "V+",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin V+"
+    },
+    {
+      "id": "20",
+      "name": "SEG_E",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin SEG_E"
+    },
+    {
+      "id": "21",
+      "name": "SEG_DP",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin SEG_DP"
+    },
+    {
+      "id": "22",
+      "name": "SEG_D",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin SEG_D"
+    },
+    {
+      "id": "23",
+      "name": "ISET",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin ISET"
+    },
+    {
+      "id": "24",
+      "name": "DOUT",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin DOUT"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "right": [
+        "24",
+        "23",
+        "22",
+        "21",
+        "20",
+        "19",
+        "18",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+id: passives.inductors.rlb0812-473kl
+revision: "1.0.0"
+title: "RLB0812-473KL"
+category: passives/inductors
+status: stub
+summary: "RLB0812-473KL imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

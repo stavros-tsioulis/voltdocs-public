@@ -41,6 +41,9 @@ references:
   - targetId: power.regulator.ams1117-33
     relation: alternative-to
     comment: High-efficiency synchronous switching replacement for wasteful 3.3V linear regulators.
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

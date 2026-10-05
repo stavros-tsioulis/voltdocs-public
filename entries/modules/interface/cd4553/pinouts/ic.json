@@ -1,0 +1,146 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "CLK",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CLK"
+    },
+    {
+      "id": "2",
+      "name": "CLK_INH",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CLK_INH"
+    },
+    {
+      "id": "3",
+      "name": "C1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin C1"
+    },
+    {
+      "id": "4",
+      "name": "C2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin C2"
+    },
+    {
+      "id": "5",
+      "name": "DEI",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DEI"
+    },
+    {
+      "id": "6",
+      "name": "DEO",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DEO"
+    },
+    {
+      "id": "7",
+      "name": "MR",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin MR"
+    },
+    {
+      "id": "8",
+      "name": "VSS",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VSS"
+    },
+    {
+      "id": "9",
+      "name": "Q0",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q0"
+    },
+    {
+      "id": "10",
+      "name": "Q1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q1"
+    },
+    {
+      "id": "11",
+      "name": "Q2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q2"
+    },
+    {
+      "id": "12",
+      "name": "Q3",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin Q3"
+    },
+    {
+      "id": "13",
+      "name": "MR_OUT",
+      "type": "digital",
+      "direction": [
+        "power",
+        "power-out"
+      ],
+      "description": "Pin MR_OUT"
+    },
+    {
+      "id": "14",
+      "name": "O_F",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin O_F"
+    },
+    {
+      "id": "15",
+      "name": "NC",
+      "type": "nc",
+      "direction": "passive",
+      "description": "Pin NC"
+    },
+    {
+      "id": "16",
+      "name": "VDD",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VDD"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

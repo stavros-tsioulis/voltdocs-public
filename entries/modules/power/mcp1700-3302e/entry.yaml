@@ -36,6 +36,9 @@ references:
     relation: see-also
   - targetId: power.regulator.ams1117-33
     relation: see-also
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

@@ -31,6 +31,9 @@ highlights:
   - rise_time_ns
   - fall_time_ns
   - interfaces
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
 body: index.md
 assets:
   - id: datasheet

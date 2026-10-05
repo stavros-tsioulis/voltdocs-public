@@ -1,0 +1,29 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "A",
+      "type": "other",
+      "direction": "passive",
+      "description": "Pin A"
+    },
+    {
+      "id": "2",
+      "name": "K",
+      "type": "other",
+      "direction": "passive",
+      "description": "Pin K"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "bottom": [
+        "1",
+        "2"
+      ]
+    }
+  }
+}

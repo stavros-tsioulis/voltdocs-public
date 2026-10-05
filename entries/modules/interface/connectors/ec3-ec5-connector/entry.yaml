@@ -1,0 +1,13 @@
+id: interface.connectors.ec3-ec5-connector
+revision: "1.0.0"
+title: "EC3 / EC5 connector"
+category: interface/connectors
+status: stub
+summary: "EC3 / EC5 connector imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

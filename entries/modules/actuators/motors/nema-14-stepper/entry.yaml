@@ -1,0 +1,13 @@
+id: actuators.motors.nema-14-stepper
+revision: "1.0.0"
+title: "NEMA 14 stepper (14HS series)"
+category: actuators/motors
+status: stub
+summary: "NEMA 14 stepper (14HS series) imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

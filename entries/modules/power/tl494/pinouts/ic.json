@@ -1,0 +1,146 @@
+{
+  "$schema": "https://voltdocs.dev/schemas/pinout-1.json",
+  "version": 1,
+  "pins": [
+    {
+      "id": "1",
+      "name": "1IN+",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1IN+"
+    },
+    {
+      "id": "2",
+      "name": "1IN-",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 1IN-"
+    },
+    {
+      "id": "3",
+      "name": "FB",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin FB"
+    },
+    {
+      "id": "4",
+      "name": "DTC",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin DTC"
+    },
+    {
+      "id": "5",
+      "name": "CT",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin CT"
+    },
+    {
+      "id": "6",
+      "name": "RT",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin RT"
+    },
+    {
+      "id": "7",
+      "name": "GND",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin GND"
+    },
+    {
+      "id": "8",
+      "name": "C1",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin C1"
+    },
+    {
+      "id": "9",
+      "name": "E1",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin E1"
+    },
+    {
+      "id": "10",
+      "name": "E2",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin E2"
+    },
+    {
+      "id": "11",
+      "name": "C2",
+      "type": "digital",
+      "direction": "output",
+      "description": "Pin C2"
+    },
+    {
+      "id": "12",
+      "name": "VCC",
+      "type": "power",
+      "direction": "power-in",
+      "description": "Pin VCC"
+    },
+    {
+      "id": "13",
+      "name": "OUT_CTRL",
+      "type": "digital",
+      "direction": [
+        "power",
+        "power-out"
+      ],
+      "description": "Pin OUT_CTRL"
+    },
+    {
+      "id": "14",
+      "name": "REF",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin REF"
+    },
+    {
+      "id": "15",
+      "name": "2IN-",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2IN-"
+    },
+    {
+      "id": "16",
+      "name": "2IN+",
+      "type": "digital",
+      "direction": "input",
+      "description": "Pin 2IN+"
+    }
+  ],
+  "layout": {
+    "package": "ic",
+    "sides": {
+      "left": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "right": [
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ]
+    }
+  }
+}

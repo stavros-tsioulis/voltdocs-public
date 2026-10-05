@@ -1,0 +1,13 @@
+id: actuators.relays.tlp3542
+revision: "1.0.0"
+title: "TLP3542"
+category: actuators/relays
+status: stub
+summary: "TLP3542 imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json

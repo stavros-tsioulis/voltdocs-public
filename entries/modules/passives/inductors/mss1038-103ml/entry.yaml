@@ -1,0 +1,13 @@
+id: passives.inductors.mss1038-103ml
+revision: "1.0.0"
+title: "MSS1038-103ML"
+category: passives/inductors
+status: stub
+summary: "MSS1038-103ML imported from backlog"
+updatedAt: "2026-10-05"
+fields: {}
+highlights: []
+body: index.md
+pinouts:
+  - id: ic
+    path: pinouts/ic.json
