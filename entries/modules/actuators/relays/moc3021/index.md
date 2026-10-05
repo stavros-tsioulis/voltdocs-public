@@ -1,5 +1,7 @@
 ## Overview
 
+Ubiquitous opto-triac at the core of countless DIY SSR/dimmer circuits.
+
 ## Quick reference
 
 | | |

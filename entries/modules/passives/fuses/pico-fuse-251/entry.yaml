@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Pico fuse 251 series"
 category: passives/fuses
 status: draft
-summary: "Pico fuse 251 series imported from backlog"
+summary: "Very small axial pico fuse widely used inside consumer electronics and chargers; represents the Nano2 SMD fuse (0451.500MRL)."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

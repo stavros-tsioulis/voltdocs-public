@@ -1,5 +1,7 @@
 ## Overview
 
+Common 3mm yellow diffused LED from the same ubiquitous Kingbright L-53 line.
+
 ## Quick reference
 
 | | |

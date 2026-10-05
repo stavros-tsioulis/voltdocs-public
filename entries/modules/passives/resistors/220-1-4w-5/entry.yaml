@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "220Ω 1/4W 5%"
 category: passives/resistors
 status: draft
-summary: "220Ω 1/4W 5% imported from backlog"
+summary: "The most-cited LED current-limiting resistor value at 5V, repeatedly called out as a classic bench-stock value across independent sourcing lists."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

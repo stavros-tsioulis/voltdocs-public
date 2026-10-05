@@ -1,5 +1,7 @@
 ## Overview
 
+Popular genderless bullet connectors used for RC ESC-to-battery power connections.
+
 ## Quick reference
 
 | | |

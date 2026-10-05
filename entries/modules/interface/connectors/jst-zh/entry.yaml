@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "JST ZH (1.5mm)"
 category: interface/connectors
 status: draft
-summary: "JST ZH (1.5mm) imported from backlog"
+summary: "Small-pitch connector frequently seen on drone flight controllers/receivers."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

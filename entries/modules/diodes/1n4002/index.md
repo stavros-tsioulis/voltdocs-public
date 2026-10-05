@@ -1,5 +1,7 @@
 ## Overview
 
+100V/1A member of the 1N400x family; a real distinct JEDEC part but with thin individual evidence beyond the family listing.
+
 ## Quick reference
 
 | | |

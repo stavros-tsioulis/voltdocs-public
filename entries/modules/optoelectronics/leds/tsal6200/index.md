@@ -1,5 +1,7 @@
 ## Overview
 
+One of the most widely used 5mm IR emitter LEDs in hobbyist remote-control and IR sensor projects; absorbs generic '940nm IR LED' listings as the same concrete part.
+
 ## Quick reference
 
 | | |

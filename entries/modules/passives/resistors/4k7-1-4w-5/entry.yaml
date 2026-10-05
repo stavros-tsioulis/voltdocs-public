@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "4.7kΩ 1/4W 5%"
 category: passives/resistors
 status: draft
-summary: "4.7kΩ 1/4W 5% imported from backlog"
+summary: "Classic I2C pull-up resistor value, very common bench-stock item."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -1,5 +1,7 @@
 ## Overview
 
+E12 series value common in hobbyist bench stock.
+
 ## Quick reference
 
 | | |

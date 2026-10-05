@@ -1,5 +1,7 @@
 ## Overview
 
+Widely used large toroid for high-power 1:1 current baluns in ham-radio homebrew antenna projects.
+
 ## Quick reference
 
 | | |

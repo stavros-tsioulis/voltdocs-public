@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "47µF electrolytic"
 category: passives/capacitors
 status: draft
-summary: "47µF electrolytic imported from backlog"
+summary: "Common E12 electrolytic value frequently used for local power-rail filtering."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

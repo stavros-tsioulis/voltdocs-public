@@ -1,5 +1,7 @@
 ## Overview
 
+1A/100V fast recovery diode used for switching-supply freewheeling.
+
 ## Quick reference
 
 | | |

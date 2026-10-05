@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "CEP-2260A"
 category: actuators/buzzers
 status: draft
-summary: "CEP-2260A imported from backlog"
+summary: "Panel-mount piezo buzzer used where a chassis-mount alarm sound is needed."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

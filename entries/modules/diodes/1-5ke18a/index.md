@@ -1,5 +1,7 @@
 ## Overview
 
+18V 1500W TVS for robust automotive/12V surge protection.
+
 ## Quick reference
 
 | | |

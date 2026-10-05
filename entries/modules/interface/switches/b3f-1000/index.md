@@ -1,5 +1,7 @@
 ## Overview
 
+6x6mm through-hole tactile switch, the canonical reference design used across countless hobbyist PCBs; represents dozens of cross-brand equivalents (PTS645, KSC221GLFS, EVQ-P7A01P, TL1105, SKRPACE010, 1825910-6, Adafruit 367, SparkFun COM-97700, KY-004, etc.).
+
 ## Quick reference
 
 | | |

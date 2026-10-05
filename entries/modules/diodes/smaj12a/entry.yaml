@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "SMAJ12A"
 category: diodes
 status: draft
-summary: "SMAJ12A imported from backlog"
+summary: "12V standoff SMAJ TVS for 12V power-rail surge protection."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

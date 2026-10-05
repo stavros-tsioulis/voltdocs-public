@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "RS-380SH"
 category: actuators/motors
 status: draft
-summary: "RS-380SH imported from backlog"
+summary: "Higher-power brushed motor used in RC boats and hobby drills/robots; represents RF-500TB."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

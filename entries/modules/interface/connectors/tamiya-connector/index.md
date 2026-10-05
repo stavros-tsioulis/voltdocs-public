@@ -1,5 +1,7 @@
 ## Overview
 
+Classic large 2-pin connector still found on many RC car battery packs and chargers.
+
 ## Quick reference
 
 | | |

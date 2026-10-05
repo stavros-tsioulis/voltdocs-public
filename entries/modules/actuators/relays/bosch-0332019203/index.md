@@ -1,5 +1,7 @@
 ## Overview
 
+Archetypal 12V mini ISO automotive relay ubiquitous in car-electronics/12V robotics switching; represents the automotive relay family (Song Chuan 896H-1C-C, V23092-A1005-A301, V23134-A0002-X036, HK19F-DC12V-1HS3) plus generic 'automotive-style 12V SPDT relay' listings.
+
 ## Quick reference
 
 | | |

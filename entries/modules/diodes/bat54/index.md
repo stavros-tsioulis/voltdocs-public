@@ -1,5 +1,7 @@
 ## Overview
 
+SMD Schottky widely used both as a substitute for 1N5817-class diodes and for GPIO overvoltage clamp protection on Arduino/ESP32 boards; cited repeatedly.
+
 ## Quick reference
 
 | | |

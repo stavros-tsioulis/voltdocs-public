@@ -1,5 +1,7 @@
 ## Overview
 
+18V through-hole P6KE TVS used to clamp automotive/12V-derived transients.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BAT54"
 category: diodes
 status: draft
-summary: "BAT54 imported from backlog"
+summary: "SMD Schottky widely used both as a substitute for 1N5817-class diodes and for GPIO overvoltage clamp protection on Arduino/ESP32 boards; cited repeatedly."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

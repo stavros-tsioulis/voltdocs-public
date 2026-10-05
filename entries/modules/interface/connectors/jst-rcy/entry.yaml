@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "JST RCY / EL connector"
 category: interface/connectors
 status: draft
-summary: "JST RCY / EL connector imported from backlog"
+summary: "Ubiquitous 2-pin polarized battery connector for small robotics/RC packs, widely cloned by generic manufacturers."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

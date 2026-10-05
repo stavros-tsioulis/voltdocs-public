@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "JST SH (1.0mm 4-pin)"
 category: interface/connectors
 status: draft
-summary: "JST SH (1.0mm 4-pin) imported from backlog"
+summary: "SMD micro connector standard on FPV/flight-controller boards and the basis of the Qwiic/STEMMA QT plug-and-play I2C ecosystem."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

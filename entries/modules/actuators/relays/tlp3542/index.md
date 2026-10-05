@@ -1,5 +1,7 @@
 ## Overview
 
+Photorelay IC used for MOSFET-based solid-state relay switching; represents TLP172A.
+
 ## Quick reference
 
 | | |

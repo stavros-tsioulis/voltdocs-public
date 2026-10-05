@@ -1,5 +1,7 @@
 ## Overview
 
+Matching pigtail socket for the mini automotive relay, needed to wire it without soldering directly to the relay pins.
+
 ## Quick reference
 
 | | |

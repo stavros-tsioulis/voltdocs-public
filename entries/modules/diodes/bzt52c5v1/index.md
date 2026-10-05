@@ -1,5 +1,7 @@
 ## Overview
 
+5.1V SOD-123 zener commonly used for USB/5V line clamping.
+
 ## Quick reference
 
 | | |

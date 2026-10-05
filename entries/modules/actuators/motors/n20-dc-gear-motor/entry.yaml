@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "N20 DC Gear Motor"
 category: actuators/motors
 status: draft
-summary: "N20 DC Gear Motor imported from backlog"
+summary: "Popular tiny brushed gear motor used in compact robots/camera gimbals; represents encoder variants, GA12-N20, and premium 50:1 variants."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

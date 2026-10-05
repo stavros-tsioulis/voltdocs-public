@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "MF-USMF050-2"
 category: passives/fuses
 status: draft
-summary: "MF-USMF050-2 imported from backlog"
+summary: "PTC purpose-built for USB port overcurrent protection."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

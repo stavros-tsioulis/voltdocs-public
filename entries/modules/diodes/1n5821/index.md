@@ -1,5 +1,7 @@
 ## Overview
 
+30V/3A Schottky in the 1N582x family.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Common regulator bulk-capacitance value, replacing small electrolytics in many modern designs.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Matches computer/3D-printer cooling-fan headers for rewiring or extending fan cables.
+
 ## Quick reference
 
 | | |

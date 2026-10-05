@@ -1,5 +1,7 @@
 ## Overview
 
+Low-value E12 member sometimes included for current-sense/shunt use in extended kits.
+
 ## Quick reference
 
 | | |

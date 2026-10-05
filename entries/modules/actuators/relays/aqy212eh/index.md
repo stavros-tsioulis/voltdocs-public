@@ -1,5 +1,7 @@
 ## Overview
 
+Popular PhotoMOS SSR IC for bounce-free low-power signal switching; represents AQY210EH, AQY221N2S.
+
 ## Quick reference
 
 | | |

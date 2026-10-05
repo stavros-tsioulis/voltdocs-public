@@ -1,5 +1,7 @@
 ## Overview
 
+Standard 3-pin connector used on virtually all hobby RC servos and many robotics projects; includes pre-made extension leads.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+De facto standard high-current connector for RC LiPo battery packs and drones; soldered contact avoids the loose-contact failure mode reported with clone Andersons.
+
 ## Quick reference
 
 | | |

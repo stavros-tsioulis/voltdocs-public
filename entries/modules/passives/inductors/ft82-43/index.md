@@ -1,5 +1,7 @@
 ## Overview
 
+Popular mid-size toroid for QRP transceiver and balun projects among hobbyists.
+
 ## Quick reference
 
 | | |

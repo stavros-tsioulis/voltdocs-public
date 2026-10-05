@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N746A"
 category: diodes
 status: draft
-summary: "1N746A imported from backlog"
+summary: "3.3V low-power zener from the classic 1N746-1N759 series, still popular in analog hobby circuits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

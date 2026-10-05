@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "MBR0530"
 category: diodes
 status: draft
-summary: "MBR0530 imported from backlog"
+summary: "30V/0.5A SMD Schottky recommended specifically for low-power reverse-polarity protection on ESP32 boards."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

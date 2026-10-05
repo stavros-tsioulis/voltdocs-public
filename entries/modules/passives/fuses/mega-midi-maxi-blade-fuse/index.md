@@ -1,5 +1,7 @@
 ## Overview
 
+High-current bolt-down blade fuse standard for main battery/alternator protection in car-audio and automotive installs.
+
 ## Quick reference
 
 | | |

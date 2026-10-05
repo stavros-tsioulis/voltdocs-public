@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "FS90R"
 category: actuators/motors
 status: draft
-summary: "FS90R imported from backlog"
+summary: "Popular continuous-rotation micro servo used as small robot wheel drivers; represents FS5106R, FS5109M."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

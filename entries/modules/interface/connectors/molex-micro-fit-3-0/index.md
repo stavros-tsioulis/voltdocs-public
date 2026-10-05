@@ -1,5 +1,7 @@
 ## Overview
 
+Popular higher-current connector series used on 3D-printer mainboards and power-electronics wiring for motor/PSU repairs.
+
 ## Quick reference
 
 | | |

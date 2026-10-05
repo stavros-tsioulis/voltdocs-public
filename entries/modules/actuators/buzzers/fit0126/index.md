@@ -1,5 +1,7 @@
 ## Overview
 
+Standard buzzer module sold for Arduino Gravity-series kits.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "APA107"
 category: optoelectronics/leds
 status: draft
-summary: "APA107 imported from backlog"
+summary: "APA102 sibling chip referenced in addressable LED matrix/panel comparison guides."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

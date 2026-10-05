@@ -1,5 +1,7 @@
 ## Overview
 
+Common general-purpose ceramic value stocked in standard hobbyist capacitor kits.
+
 ## Quick reference
 
 | | |

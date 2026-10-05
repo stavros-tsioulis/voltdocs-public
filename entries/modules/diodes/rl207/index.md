@@ -1,5 +1,7 @@
 ## Overview
 
+2A rectifier bundled in standard hobbyist diode assortment kits alongside 1N4007/1N4148.
+
 ## Quick reference
 
 | | |

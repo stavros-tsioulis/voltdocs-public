@@ -1,5 +1,7 @@
 ## Overview
 
+Classic high-current T-connector widely used for RC car/plane LiPo battery packs; still common for legacy battery compatibility.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+5A/40V Schottky in DO-201, used for higher-current DIY power supplies.
+
 ## Quick reference
 
 | | |

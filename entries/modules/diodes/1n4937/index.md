@@ -1,5 +1,7 @@
 ## Overview
 
+1A/600V fast recovery diode common in SMPS snubber/flyback applications.
+
 ## Quick reference
 
 | | |

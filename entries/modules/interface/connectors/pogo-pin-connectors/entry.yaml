@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Spring-loaded pogo pin connectors"
 category: interface/connectors
 status: draft
-summary: "Spring-loaded pogo pin connectors imported from backlog"
+summary: "Used for tool-free temporary programming/test connections to PCBs without soldering headers on every board."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

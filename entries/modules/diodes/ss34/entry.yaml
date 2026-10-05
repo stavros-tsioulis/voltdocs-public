@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "SS34"
 category: diodes
 status: draft
-summary: "SS34 imported from backlog"
+summary: "3A/40V SMA Schottky widely used on hobby buck/boost converter boards."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

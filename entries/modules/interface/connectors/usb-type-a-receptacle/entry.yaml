@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "USB Type-A receptacle"
 category: interface/connectors
 status: draft
-summary: "USB Type-A receptacle imported from backlog"
+summary: "Ubiquitous rectangular host-side USB connector found on computers, chargers, and hobby dev boards."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

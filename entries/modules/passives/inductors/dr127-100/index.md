@@ -1,5 +1,7 @@
 ## Overview
 
+Popular choice in open-source buck/boost reference designs for good saturation current and low cost.
+
 ## Quick reference
 
 | | |

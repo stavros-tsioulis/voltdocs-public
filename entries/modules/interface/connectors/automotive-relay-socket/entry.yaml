@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Automotive mini relay socket/harness (5-pin)"
 category: interface/connectors
 status: draft
-summary: "Automotive mini relay socket/harness (5-pin) imported from backlog"
+summary: "Matching pigtail socket for the mini automotive relay, needed to wire it without soldering directly to the relay pins."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

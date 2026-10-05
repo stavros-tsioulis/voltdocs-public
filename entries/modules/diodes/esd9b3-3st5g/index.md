@@ -1,5 +1,7 @@
 ## Overview
 
+3.3V ultra-low-capacitance ESD diode popular for protecting high-speed USB/I2C data lines.
+
 ## Quick reference
 
 | | |

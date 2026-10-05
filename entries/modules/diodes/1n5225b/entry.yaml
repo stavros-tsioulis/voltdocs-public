@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N5225B"
 category: diodes
 status: draft
-summary: "1N5225B imported from backlog"
+summary: "3.0V small zener from the widely available 1N5221-1N5267 series."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

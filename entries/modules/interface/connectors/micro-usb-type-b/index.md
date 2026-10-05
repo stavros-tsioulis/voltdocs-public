@@ -1,5 +1,7 @@
 ## Overview
 
+Small 5-pin connector used on most pre-2020 smartphones, ESP8266/ESP32 dev boards, and power banks; represents THT breakout variant.
+
 ## Quick reference
 
 | | |

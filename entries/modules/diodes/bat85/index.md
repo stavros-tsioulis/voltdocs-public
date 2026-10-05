@@ -1,5 +1,7 @@
 ## Overview
 
+Popular low-Vf (<0.5V) small Schottky used in RF detectors and pedal reverse-polarity protection.
+
 ## Quick reference
 
 | | |

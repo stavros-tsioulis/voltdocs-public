@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "470Ω 1/4W 5%"
 category: passives/resistors
 status: draft
-summary: "470Ω 1/4W 5% imported from backlog"
+summary: "Common alternate LED/pull resistor value called out in professional stocking recommendations."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

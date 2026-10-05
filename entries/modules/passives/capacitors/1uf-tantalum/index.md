@@ -1,5 +1,7 @@
 ## Overview
 
+Common low-end value in tantalum assortment kits (1-100µF, 16V range).
+
 ## Quick reference
 
 | | |

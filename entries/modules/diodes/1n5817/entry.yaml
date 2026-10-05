@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N5817"
 category: diodes
 status: draft
-summary: "1N5817 imported from backlog"
+summary: "20V/1A Schottky with very low Vf, common in polarity-protection and pedal circuits, cited repeatedly."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

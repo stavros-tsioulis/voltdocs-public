@@ -1,5 +1,7 @@
 ## Overview
 
+Common snubber/filter/coupling value stocked in standard capacitor kits.
+
 ## Quick reference
 
 | | |

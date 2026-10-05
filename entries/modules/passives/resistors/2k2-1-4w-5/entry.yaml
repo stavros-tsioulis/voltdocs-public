@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "2.2kΩ 1/4W 5%"
 category: passives/resistors
 status: draft
-summary: "2.2kΩ 1/4W 5% imported from backlog"
+summary: "Frequently used pull-up value, common bench-stock item."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

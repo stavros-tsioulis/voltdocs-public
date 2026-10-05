@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N4742A"
 category: diodes
 status: draft
-summary: "1N4742A imported from backlog"
+summary: "12V/1W zener, extremely common for 12V-rail overvoltage protection/clamping, cited multiple times."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

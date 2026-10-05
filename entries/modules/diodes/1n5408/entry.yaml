@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N5408"
 category: diodes
 status: draft
-summary: "1N5408 imported from backlog"
+summary: "3A/1000V, top of the 1N540x series, used when more current than 1N4007 provides is needed."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

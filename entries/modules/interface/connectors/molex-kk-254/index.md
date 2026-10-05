@@ -1,5 +1,7 @@
 ## Overview
 
+Original 0.1in-pitch connector system the generic 'Dupont' connectors are modeled after; still used on many hobby boards and praised for easier hand-crimping.
+
 ## Quick reference
 
 | | |

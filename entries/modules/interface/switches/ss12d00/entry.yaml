@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "SS12D00"
 category: interface/switches
 status: draft
-summary: "SS12D00 imported from backlog"
+summary: "Extremely common miniature SPDT slide switch used for on/off selection on Arduino/breadboard projects; represents SS12D00G3, SS-12F15G3, CIT KAN-1, E-Switch KS02Q02, CW Industries GH1-2202."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

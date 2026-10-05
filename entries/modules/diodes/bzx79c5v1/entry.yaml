@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BZX79C5V1"
 category: diodes
 status: draft
-summary: "BZX79C5V1 imported from backlog"
+summary: "5.1V zener in the BZX79 glass-package series, common European alternative to 1N52xx."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -1,5 +1,7 @@
 ## Overview
 
+Low-DCR EMI suppression bead popular for filtering power supply lines without significant voltage drop.
+
 ## Quick reference
 
 | | |

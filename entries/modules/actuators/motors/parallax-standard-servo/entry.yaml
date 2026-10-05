@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Parallax Standard Servo (900-00005)"
 category: actuators/motors
 status: draft
-summary: "Parallax Standard Servo (900-00005) imported from backlog"
+summary: "Well-documented educational-robotics servo widely used with BASIC Stamp/Arduino tutorials; represents Parallax Continuous Rotation Servo (900-00008)."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

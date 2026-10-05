@@ -1,5 +1,7 @@
 ## Overview
 
+5.1V zener, historic but still commonly referenced in tutorials.
+
 ## Quick reference
 
 | | |

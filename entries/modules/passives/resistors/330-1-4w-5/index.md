@@ -1,5 +1,7 @@
 ## Overview
 
+The most-cited Arduino LED series resistor value, explicitly named in maker/professional stocking recommendations.
+
 ## Quick reference
 
 | | |

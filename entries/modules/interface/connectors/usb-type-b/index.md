@@ -1,5 +1,7 @@
 ## Overview
 
+Square-shaped device-side connector historically used on Arduino Uno/Mega and printers.
+
 ## Quick reference
 
 | | |

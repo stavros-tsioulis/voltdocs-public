@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N5242B"
 category: diodes
 status: draft
-summary: "1N5242B imported from backlog"
+summary: "12V small zener, common in low-power protection circuits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

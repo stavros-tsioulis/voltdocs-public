@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "KF350 / KF396 terminal block"
 category: interface/connectors
 status: draft
-summary: "KF350 / KF396 terminal block imported from backlog"
+summary: "Extremely common low-cost pluggable screw terminal used on hobby power-supply and motor-driver boards."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

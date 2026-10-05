@@ -1,5 +1,7 @@
 ## Overview
 
+Locking alternative to XH used on some battery packs/power supply connections.
+
 ## Quick reference
 
 | | |

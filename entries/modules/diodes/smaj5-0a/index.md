@@ -1,5 +1,7 @@
 ## Overview
 
+Common 5V, 400W SMD TVS for 5V rail/USB protection; represents SMAJ5.0CA, SMAJ12A.
+
 ## Quick reference
 
 | | |

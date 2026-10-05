@@ -1,5 +1,7 @@
 ## Overview
 
+Dual series-pair SOT-23 package of a 1N4148-equivalent diode, used to save board space on SMD designs.
+
 ## Quick reference
 
 | | |

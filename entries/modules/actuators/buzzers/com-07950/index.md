@@ -1,5 +1,7 @@
 ## Overview
 
+SparkFun's own PC-mount magnetic buzzer, used directly in the SparkFun Inventor's Kit buzzer experiment.
+
 ## Quick reference
 
 | | |

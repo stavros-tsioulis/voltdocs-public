@@ -1,5 +1,7 @@
 ## Overview
 
+Widely used compact ferrite bead for filtering digital noise on power rails.
+
 ## Quick reference
 
 | | |

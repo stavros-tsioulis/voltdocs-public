@@ -1,5 +1,7 @@
 ## Overview
 
+One of the most widely used entry-level standard servos in RC hobby for decades; represents HS-82MG.
+
 ## Quick reference
 
 | | |

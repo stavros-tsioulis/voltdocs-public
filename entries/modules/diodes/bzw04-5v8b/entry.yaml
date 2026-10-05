@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BZW04-5V8B"
 category: diodes
 status: draft
-summary: "BZW04-5V8B imported from backlog"
+summary: "5.8V bidirectional TVS used to protect symmetrical AC-coupled signal lines from transients."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

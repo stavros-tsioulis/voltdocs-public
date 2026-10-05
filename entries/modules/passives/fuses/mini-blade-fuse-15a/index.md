@@ -1,5 +1,7 @@
 ## Overview
 
+Compact mini blade fuse used in modern vehicle fuse boxes and 12V hobby builds.
+
 ## Quick reference
 
 | | |

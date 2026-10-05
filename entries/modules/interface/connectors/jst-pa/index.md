@@ -1,5 +1,7 @@
 ## Overview
 
+Used on some cooling fans and small appliance wiring encountered in maker teardown/reuse projects.
+
 ## Quick reference
 
 | | |

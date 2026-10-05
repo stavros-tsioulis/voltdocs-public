@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BAT85"
 category: diodes
 status: draft
-summary: "BAT85 imported from backlog"
+summary: "Popular low-Vf (<0.5V) small Schottky used in RF detectors and pedal reverse-polarity protection."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

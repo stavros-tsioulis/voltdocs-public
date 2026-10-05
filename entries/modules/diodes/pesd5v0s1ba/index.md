@@ -1,5 +1,7 @@
 ## Overview
 
+Common single-channel ESD protection diode used on GPIO/signal lines.
+
 ## Quick reference
 
 | | |

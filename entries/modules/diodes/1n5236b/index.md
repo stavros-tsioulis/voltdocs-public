@@ -1,5 +1,7 @@
 ## Overview
 
+7.5V/6.8V small zener in the same DO-35 1N52xx series.
+
 ## Quick reference
 
 | | |

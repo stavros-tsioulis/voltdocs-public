@@ -1,5 +1,7 @@
 ## Overview
 
+Common large bulk-filtering value included in most electrolytic assortment kits.
+
 ## Quick reference
 
 | | |

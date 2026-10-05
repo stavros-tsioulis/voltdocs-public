@@ -1,5 +1,7 @@
 ## Overview
 
+Extremely common low-cost brushless outrunner motor for hobby quadcopters/RC planes; represents other A2212 KV variants and Suppo 2212/13.
+
 ## Quick reference
 
 | | |

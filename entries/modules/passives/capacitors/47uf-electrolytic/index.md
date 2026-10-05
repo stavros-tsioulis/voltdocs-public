@@ -1,5 +1,7 @@
 ## Overview
 
+Common E12 electrolytic value frequently used for local power-rail filtering.
+
 ## Quick reference
 
 | | |

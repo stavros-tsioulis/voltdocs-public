@@ -1,5 +1,7 @@
 ## Overview
 
+Dual-channel low-capacitance ESD protection device for USB 2.0 data-line protection.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+1.5A/1000V, commonly substituted for 1N4007 when extra voltage headroom is wanted; representative of the 1N539x family.
+
 ## Quick reference
 
 | | |

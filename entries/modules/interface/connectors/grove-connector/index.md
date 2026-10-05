@@ -1,5 +1,7 @@
 ## Overview
 
+Proprietary 4-pin connector standard based on JST PH pitch, used throughout Seeed's Grove sensor/module ecosystem.
+
 ## Quick reference
 
 | | |

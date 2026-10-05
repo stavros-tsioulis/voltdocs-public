@@ -1,5 +1,7 @@
 ## Overview
 
+High-speed APA102-family addressable LED used for POV displays needing high refresh rates.
+
 ## Quick reference
 
 | | |

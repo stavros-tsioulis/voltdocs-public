@@ -1,5 +1,7 @@
 ## Overview
 
+10A/45V Schottky common in DIY solar charge controllers and high-current DC-DC converters.
+
 ## Quick reference
 
 | | |

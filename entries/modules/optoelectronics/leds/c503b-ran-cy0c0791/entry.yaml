@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "C503B-RAN-CY0C0791"
 category: optoelectronics/leds
 status: draft
-summary: "C503B-RAN-CY0C0791 imported from backlog"
+summary: "Cree 5mm high-brightness red LED frequently referenced in Arduino/maker LED assortment guides where more brightness than a standard indicator LED is needed."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

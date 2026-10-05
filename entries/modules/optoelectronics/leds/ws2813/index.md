@@ -1,5 +1,7 @@
 ## Overview
 
+WS2812B variant with backup data line so a single dead pixel doesn't break the chain, popular for larger installations.
+
 ## Quick reference
 
 | | |

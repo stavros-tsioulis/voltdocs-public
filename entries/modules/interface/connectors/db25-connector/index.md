@@ -1,5 +1,7 @@
 ## Overview
 
+Parallel-port breakout connector still used on hobby CNC controller boards.
+
 ## Quick reference
 
 | | |

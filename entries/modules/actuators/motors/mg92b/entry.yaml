@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "MG92B"
 category: actuators/motors
 status: draft
-summary: "MG92B imported from backlog"
+summary: "Compact digital metal-gear servo used in small RC helicopters/drones needing fast response."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

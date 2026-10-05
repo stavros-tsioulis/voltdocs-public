@@ -1,5 +1,7 @@
 ## Overview
 
+Higher-current XT-series sibling used for larger RC battery packs and robotics power buses.
+
 ## Quick reference
 
 | | |

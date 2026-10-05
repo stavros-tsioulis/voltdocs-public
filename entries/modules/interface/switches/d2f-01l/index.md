@@ -1,5 +1,7 @@
 ## Overview
 
+Classic lever microswitch ubiquitous as 3D-printer endstops and DIY CNC limit switches; represents KW11-3Z, V-156-1C25.
+
 ## Quick reference
 
 | | |

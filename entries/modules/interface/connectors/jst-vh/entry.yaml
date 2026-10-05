@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "JST VH (3.96mm)"
 category: interface/connectors
 status: draft
-summary: "JST VH (3.96mm) imported from backlog"
+summary: "Higher-current (10A) connector for battery packs/power distribution in RC and robotics builds."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

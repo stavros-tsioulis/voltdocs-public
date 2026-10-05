@@ -1,5 +1,7 @@
 ## Overview
 
+Widely used in DIY DC-DC converter kits for its low cost and decent saturation current.
+
 ## Quick reference
 
 | | |

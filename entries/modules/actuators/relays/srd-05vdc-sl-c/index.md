@@ -1,5 +1,7 @@
 ## Overview
 
+Canonical relay used on the overwhelming majority of Arduino relay modules; merges voltage variants (SRD-03/12/24VDC-SL-C), cross-substitute relays (HK4100F-DC5V-SHG, JQC-3FF-S-Z, HLS8L-DC5V-S-C) and dozens of '1/4/8-channel relay module' listings (SainSmart, generic Songle boards) all built around this exact part.
+
 ## Quick reference
 
 | | |

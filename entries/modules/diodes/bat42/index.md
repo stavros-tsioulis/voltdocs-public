@@ -1,5 +1,7 @@
 ## Overview
 
+Common small Schottky used in detector/clamp circuits.
+
 ## Quick reference
 
 | | |

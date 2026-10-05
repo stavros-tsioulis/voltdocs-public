@@ -1,5 +1,7 @@
 ## Overview
 
+Ubiquitous rectangular host-side USB connector found on computers, chargers, and hobby dev boards.
+
 ## Quick reference
 
 | | |

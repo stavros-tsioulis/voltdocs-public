@@ -1,5 +1,7 @@
 ## Overview
 
+4A/100V ultrafast rectifier used in SMPS and motor-controller freewheeling duty.
+
 ## Quick reference
 
 | | |

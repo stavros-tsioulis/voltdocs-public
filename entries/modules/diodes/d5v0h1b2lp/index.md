@@ -1,5 +1,7 @@
 ## Overview
 
+Bidirectional 5V ESD steering diode used to protect low-voltage data/GPIO lines.
+
 ## Quick reference
 
 | | |

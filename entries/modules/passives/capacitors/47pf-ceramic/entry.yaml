@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "47pF ceramic"
 category: passives/capacitors
 status: draft
-summary: "47pF ceramic imported from backlog"
+summary: "Common RF/filter value in standard E12 ceramic assortments."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

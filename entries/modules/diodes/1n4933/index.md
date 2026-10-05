@@ -1,5 +1,7 @@
 ## Overview
 
+1A/50V fast-recovery flyback/freewheeling diode for relay and motor-driver protection.
+
 ## Quick reference
 
 | | |

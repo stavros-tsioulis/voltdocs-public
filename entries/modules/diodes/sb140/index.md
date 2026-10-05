@@ -1,5 +1,7 @@
 ## Overview
 
+1A/40V axial Schottky, common through-hole alternative to 1N5819.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Standard high-value resistor present across nearly all beginner/hobbyist resistor kit descriptions.
+
 ## Quick reference
 
 | | |

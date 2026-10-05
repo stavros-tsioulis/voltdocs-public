@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BZX55C5V1"
 category: diodes
 status: draft
-summary: "BZX55C5V1 imported from backlog"
+summary: "5.1V BZX55C zener, common general-purpose reference voltage."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

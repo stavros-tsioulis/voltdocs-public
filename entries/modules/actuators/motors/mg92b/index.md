@@ -1,5 +1,7 @@
 ## Overview
 
+Compact digital metal-gear servo used in small RC helicopters/drones needing fast response.
+
 ## Quick reference
 
 | | |

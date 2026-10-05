@@ -1,5 +1,7 @@
 ## Overview
 
+Archetype self-driven 'Sonalert' buzzer directly solderable to Arduino GPIO+power; represents PB-12N23P-03Q/12Q, AI-4228-TWT-R, AT-1224-TWT-5V-2-R.
+
 ## Quick reference
 
 | | |

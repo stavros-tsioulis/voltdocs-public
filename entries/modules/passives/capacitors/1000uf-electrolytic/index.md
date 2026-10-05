@@ -1,5 +1,7 @@
 ## Overview
 
+Top-end value in standard capacitor kits' 10 most common values, used for large PSU ripple smoothing.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Higher-power brushed motor used in RC boats and hobby drills/robots; represents RF-500TB.
+
 ## Quick reference
 
 | | |

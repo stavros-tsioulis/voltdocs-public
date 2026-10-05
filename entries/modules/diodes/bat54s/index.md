@@ -1,5 +1,7 @@
 ## Overview
 
+Common-cathode dual BAT54 pair used for bidirectional GPIO clamp protection.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Classic 'monolithic 103' value used broadly for filtering, stocked in standard 10-value hobbyist capacitor kits.
+
 ## Quick reference
 
 | | |

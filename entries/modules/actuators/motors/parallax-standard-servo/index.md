@@ -1,5 +1,7 @@
 ## Overview
 
+Well-documented educational-robotics servo widely used with BASIC Stamp/Arduino tutorials; represents Parallax Continuous Rotation Servo (900-00008).
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+1A/1000V ultrafast upgrade over 1N4007 for higher-frequency switching circuits; bundled in standard hobbyist diode kits.
+
 ## Quick reference
 
 | | |

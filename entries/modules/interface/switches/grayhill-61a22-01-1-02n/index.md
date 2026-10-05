@@ -1,5 +1,7 @@
 ## Overview
 
+Premium optical rotary encoder occasionally used in higher-end synth/DIY audio hobby projects.
+
 ## Quick reference
 
 | | |

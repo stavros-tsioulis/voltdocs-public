@@ -1,5 +1,7 @@
 ## Overview
 
+Compact locking connector for battery/board-to-board links in small consumer devices and FPV gear, and Pixhawk telemetry/GPS leads.
+
 ## Quick reference
 
 | | |

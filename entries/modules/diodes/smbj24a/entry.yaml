@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "SMBJ24A"
 category: diodes
 status: draft
-summary: "SMBJ24A imported from backlog"
+summary: "24V standoff SMBJ TVS for higher-energy surge protection in DIY power projects."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

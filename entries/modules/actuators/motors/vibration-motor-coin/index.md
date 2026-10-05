@@ -1,5 +1,7 @@
 ## Overview
 
+Ubiquitous flat coin vibration motor used in haptic feedback hobby projects and wearables.
+
 ## Quick reference
 
 | | |

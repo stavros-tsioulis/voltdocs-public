@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BAV99"
 category: diodes
 status: draft
-summary: "BAV99 imported from backlog"
+summary: "Dual series-pair SOT-23 package of a 1N4148-equivalent diode, used to save board space on SMD designs."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

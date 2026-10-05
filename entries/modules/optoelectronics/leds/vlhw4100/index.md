@@ -1,5 +1,7 @@
 ## Overview
 
+Standard 5mm white LED commonly used for general illumination in DIY electronics projects, representative of white 5mm LEDs across brands.
+
 ## Quick reference
 
 | | |

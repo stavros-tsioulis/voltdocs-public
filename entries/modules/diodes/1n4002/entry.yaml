@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N4002"
 category: diodes
 status: draft
-summary: "1N4002 imported from backlog"
+summary: "100V/1A member of the 1N400x family; a real distinct JEDEC part but with thin individual evidence beyond the family listing."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

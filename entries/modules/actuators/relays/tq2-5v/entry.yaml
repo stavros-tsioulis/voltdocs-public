@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "TQ2-5V"
 category: actuators/relays
 status: draft
-summary: "TQ2-5V imported from backlog"
+summary: "Compact logic-level signal relay; represents the small-signal-relay niche also cited as TX2-5V, NEC EB2-5NU, HFD27/005-S, HFD4/005-S."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

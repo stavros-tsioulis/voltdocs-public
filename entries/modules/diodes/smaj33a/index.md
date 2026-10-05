@@ -1,5 +1,7 @@
 ## Overview
 
+33V standoff SMAJ TVS for moderate-voltage surge suppression.
+
 ## Quick reference
 
 | | |

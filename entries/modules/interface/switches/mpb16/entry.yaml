@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "MPB16"
 category: interface/switches
 status: draft
-summary: "MPB16 imported from backlog"
+summary: "Common 16mm metal panel-mount pushbutton widely used for hobbyist power/reset buttons; represents PB86-B1, NKK 41S1D1-BGE."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

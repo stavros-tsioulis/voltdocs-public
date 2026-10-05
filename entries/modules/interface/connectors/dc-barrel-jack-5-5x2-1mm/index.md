@@ -1,5 +1,7 @@
 ## Overview
 
+Near-universal barrel connector for wall-wart power supplies on hobby electronics/dev boards; covers matching plugs, splitters and screw-terminal adapters.
+
 ## Quick reference
 
 | | |

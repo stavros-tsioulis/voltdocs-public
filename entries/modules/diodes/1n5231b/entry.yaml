@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N5231B"
 category: diodes
 status: draft
-summary: "1N5231B imported from backlog"
+summary: "5.1V small zener, common through-hole alternative to BZX55C5V1 in the 1N52xx series, cited multiple times."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

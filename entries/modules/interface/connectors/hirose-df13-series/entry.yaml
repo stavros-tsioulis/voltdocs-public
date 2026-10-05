@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Hirose DF13 series"
 category: interface/connectors
 status: draft
-summary: "Hirose DF13 series imported from backlog"
+summary: "Locking micro connector used on flight controllers and drone peripherals (Pixhawk/mRo boards)."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

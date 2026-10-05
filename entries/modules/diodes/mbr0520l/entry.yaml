@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "MBR0520L"
 category: diodes
 status: draft
-summary: "MBR0520L imported from backlog"
+summary: "0.5A/20V SOD-123 Schottky, common on small SMD boards for reverse-polarity/output protection."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

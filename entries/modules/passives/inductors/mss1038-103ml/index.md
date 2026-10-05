@@ -1,5 +1,7 @@
 ## Overview
 
+Widely used shielded ferrite-drum inductor for buck/boost DC-DC hobbyist and prototype boards.
+
 ## Quick reference
 
 | | |

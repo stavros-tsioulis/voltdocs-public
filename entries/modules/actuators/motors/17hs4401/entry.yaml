@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "17HS4401"
 category: actuators/motors
 status: draft
-summary: "17HS4401 imported from backlog"
+summary: "Very common compact NEMA17 stepper used in 3D printers, CNC, and robotics; represents 17HS8401, 17HS3401S, 17HS6401S, 17HS24-0644S, 42BYGH, 42HS40, 42HS48."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

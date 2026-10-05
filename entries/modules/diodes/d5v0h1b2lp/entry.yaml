@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "D5V0H1B2LP"
 category: diodes
 status: draft
-summary: "D5V0H1B2LP imported from backlog"
+summary: "Bidirectional 5V ESD steering diode used to protect low-voltage data/GPIO lines."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

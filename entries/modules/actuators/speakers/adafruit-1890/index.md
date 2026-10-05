@@ -1,5 +1,7 @@
 ## Overview
 
+8Ω mini metal-cone speaker, a go-to small speaker for wearables/enclosures; represents 3923, 4227, 1898, 3968.
+
 ## Quick reference
 
 | | |

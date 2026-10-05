@@ -1,5 +1,7 @@
 ## Overview
 
+Shrouded, polarized box header commonly used for ribbon-cable connections (JTAG/ISP programming headers), paired with matching IDC ribbon connectors.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+SMD micro connector standard on FPV/flight-controller boards and the basis of the Qwiic/STEMMA QT plug-and-play I2C ecosystem.
+
 ## Quick reference
 
 | | |

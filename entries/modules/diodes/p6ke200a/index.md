@@ -1,5 +1,7 @@
 ## Overview
 
+200V through-hole P6KE TVS for high-voltage transient suppression.
+
 ## Quick reference
 
 | | |

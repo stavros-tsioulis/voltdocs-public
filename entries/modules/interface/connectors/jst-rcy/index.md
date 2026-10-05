@@ -1,5 +1,7 @@
 ## Overview
 
+Ubiquitous 2-pin polarized battery connector for small robotics/RC packs, widely cloned by generic manufacturers.
+
 ## Quick reference
 
 | | |

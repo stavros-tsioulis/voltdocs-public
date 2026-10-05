@@ -1,5 +1,7 @@
 ## Overview
 
+Classic RF/microwave detector Schottky diode, popular in ham-radio hobby projects.
+
 ## Quick reference
 
 | | |

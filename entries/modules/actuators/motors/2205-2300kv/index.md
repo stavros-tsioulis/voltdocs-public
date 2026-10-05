@@ -1,5 +1,7 @@
 ## Overview
 
+Standard size/KV combination used across most 5-inch FPV racing quadcopter builds.
+
 ## Quick reference
 
 | | |

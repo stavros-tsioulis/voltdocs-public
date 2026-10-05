@@ -1,5 +1,7 @@
 ## Overview
 
+Detented rotary encoder line referenced as a step up from basic EC11 in audio DIY projects.
+
 ## Quick reference
 
 | | |

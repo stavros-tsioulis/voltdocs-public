@@ -1,5 +1,7 @@
 ## Overview
 
+3.3V/1W zener, first/lowest of the standard 1W zener ladder, repeatedly cited across sources.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "WS2811"
 category: drivers
 status: draft
-summary: "WS2811 imported from backlog"
+summary: "Separate driver IC used to control standard RGB LEDs individually, common in DIY LED pixel strings."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

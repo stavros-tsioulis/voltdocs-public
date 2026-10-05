@@ -1,5 +1,7 @@
 ## Overview
 
+5.1V/1W zener, called out repeatedly as one of the most common hobbyist reference/regulation choices in the 1N4728A-1N4761A series.
+
 ## Quick reference
 
 | | |

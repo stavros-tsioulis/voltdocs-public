@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "2kΩ 1/4W 5%"
 category: passives/resistors
 status: draft
-summary: "2kΩ 1/4W 5% imported from backlog"
+summary: "Called out among recommended resistor values to stock in maker-community kit guidance."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

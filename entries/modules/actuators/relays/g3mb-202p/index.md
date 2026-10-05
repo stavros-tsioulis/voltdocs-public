@@ -1,5 +1,7 @@
 ## Overview
 
+The SSR chip underlying most Chinese Arduino SSR modules; referenced directly and via numerous module products built around it (SainSmart, Keyestudio, Grove, Numato Lab, czh-labs, plus G3MC-202P sibling).
+
 ## Quick reference
 
 | | |

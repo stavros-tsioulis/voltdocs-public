@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N4004"
 category: diodes
 status: draft
-summary: "1N4004 imported from backlog"
+summary: "400V/1A member, repeatedly cited specifically for reverse-current/polarity protection in Arduino/DIY projects."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

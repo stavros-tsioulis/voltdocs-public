@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "MUR460"
 category: diodes
 status: draft
-summary: "MUR460 imported from backlog"
+summary: "4A/600V ultrafast rectifier used in higher-voltage SMPS builds."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -1,5 +1,7 @@
 ## Overview
 
+Needed for bolting wires to battery terminals, chassis grounds, and terminal strips in 12V/automotive/robotics power builds.
+
 ## Quick reference
 
 | | |

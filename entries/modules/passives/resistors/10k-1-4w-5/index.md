@@ -1,5 +1,7 @@
 ## Overview
 
+The single most universal pull-up/pull-down/reference resistor value, present in essentially every kit description reviewed.
+
 ## Quick reference
 
 | | |

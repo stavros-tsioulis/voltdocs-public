@@ -1,5 +1,7 @@
 ## Overview
 
+5.8V bidirectional TVS used to protect symmetrical AC-coupled signal lines from transients.
+
 ## Quick reference
 
 | | |

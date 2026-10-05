@@ -1,5 +1,7 @@
 ## Overview
 
+The classic Arduino/breadboard jumper-wire connector family every prototyper's bin needs to make custom-length jumpers; sold as KF2510, branded equivalent by Harwin (M20 series).
+
 ## Quick reference
 
 | | |

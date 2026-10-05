@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "SB540"
 category: diodes
 status: draft
-summary: "SB540 imported from backlog"
+summary: "5A/40V Schottky in DO-201, used for higher-current DIY power supplies."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

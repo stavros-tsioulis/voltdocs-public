@@ -1,5 +1,7 @@
 ## Overview
 
+12V 1W zener, common substitute for 1N4742A.
+
 ## Quick reference
 
 | | |

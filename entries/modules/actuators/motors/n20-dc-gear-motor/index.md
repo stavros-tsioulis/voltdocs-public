@@ -1,5 +1,7 @@
 ## Overview
 
+Popular tiny brushed gear motor used in compact robots/camera gimbals; represents encoder variants, GA12-N20, and premium 50:1 variants.
+
 ## Quick reference
 
 | | |

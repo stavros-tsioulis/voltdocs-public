@@ -1,5 +1,7 @@
 ## Overview
 
+Industrial-grade SSR frequently recommended as a reliable brand-name upgrade over Fotek clones; represents Crydom D-series (D2425).
+
 ## Quick reference
 
 | | |

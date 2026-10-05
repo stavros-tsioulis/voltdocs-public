@@ -1,5 +1,7 @@
 ## Overview
 
+Popular continuous-rotation micro servo used as small robot wheel drivers; represents FS5106R, FS5109M.
+
 ## Quick reference
 
 | | |

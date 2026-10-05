@@ -1,5 +1,7 @@
 ## Overview
 
+3.3V SOD-123 zener popular in compact SMD hobby designs.
+
 ## Quick reference
 
 | | |

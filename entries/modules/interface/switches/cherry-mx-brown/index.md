@@ -1,5 +1,7 @@
 ## Overview
 
+Most popular tactile (non-click) keyswitch, a default recommendation for DIY mechanical-keyboard hobbyists.
+
 ## Quick reference
 
 | | |

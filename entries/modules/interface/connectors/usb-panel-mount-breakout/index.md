@@ -1,5 +1,7 @@
 ## Overview
 
+Panel-mount USB extensions let an enclosure expose a port without drilling precisely around a board's onboard connector.
+
 ## Quick reference
 
 | | |

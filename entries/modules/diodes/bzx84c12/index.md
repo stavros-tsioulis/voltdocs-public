@@ -1,5 +1,7 @@
 ## Overview
 
+12V SMD zener used for surface-mount 12V rail protection.
+
 ## Quick reference
 
 | | |

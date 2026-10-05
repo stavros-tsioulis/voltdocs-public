@@ -1,5 +1,7 @@
 ## Overview
 
+Classic 4-pin 5mm common-cathode RGB LED used extensively in beginner Arduino/microcontroller color-mixing tutorials; absorbs generic '5mm-RGB-common-cathode' listing as the same part.
+
 ## Quick reference
 
 | | |

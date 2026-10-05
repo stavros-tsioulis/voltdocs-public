@@ -1,5 +1,7 @@
 ## Overview
 
+One of the most commonly cited EMI suppression beads for cable/wire noise suppression in hobby electronics.
+
 ## Quick reference
 
 | | |

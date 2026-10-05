@@ -1,5 +1,7 @@
 ## Overview
 
+Top value in typical tantalum assortment kits, used where electrolytics are too bulky.
+
 ## Quick reference
 
 | | |

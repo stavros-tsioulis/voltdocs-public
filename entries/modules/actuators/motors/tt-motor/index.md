@@ -1,5 +1,7 @@
 ## Overview
 
+Classic yellow 'TT motor' used almost universally in low-cost 2WD/4WD robot car chassis kits; represents the TT gearbox variant and FIT0185.
+
 ## Quick reference
 
 | | |

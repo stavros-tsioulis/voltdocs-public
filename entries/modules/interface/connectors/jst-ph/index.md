@@ -1,5 +1,7 @@
 ## Overview
 
+Standard connector for single-cell LiPo packs and small sensor wiring; explicitly cited as 'the most versatile single JST series to stock'; includes pre-crimped battery pigtails.
+
 ## Quick reference
 
 | | |

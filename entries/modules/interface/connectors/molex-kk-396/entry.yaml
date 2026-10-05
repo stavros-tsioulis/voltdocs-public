@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Molex KK 396 (5566 series)"
 category: interface/connectors
 status: draft
-summary: "Molex KK 396 (5566 series) imported from backlog"
+summary: "Higher-current wire-to-board connector used on 3D printers and power distribution boards."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

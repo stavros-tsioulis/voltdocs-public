@@ -1,5 +1,7 @@
 ## Overview
 
+Community reference point for properly terminating stranded wire ends into screw/Wago terminals; staple stock item once a crimper is owned.
+
 ## Quick reference
 
 | | |

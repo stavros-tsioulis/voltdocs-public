@@ -1,5 +1,7 @@
 ## Overview
 
+1A/1000V fast recovery diode used in SMPS and LED driver hobby projects.
+
 ## Quick reference
 
 | | |

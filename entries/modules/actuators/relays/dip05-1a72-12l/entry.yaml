@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "DIP05-1A72-12L"
 category: actuators/relays
 status: draft
-summary: "DIP05-1A72-12L imported from backlog"
+summary: "Very common DIP-package reed relay for fast, low-power signal switching; represents reed-relay niche (HE721A0500, PRMA1A05, MK16-1A66-12)."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

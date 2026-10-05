@@ -1,5 +1,7 @@
 ## Overview
 
+20V/3A Schottky in the higher-current 1N582x family.
+
 ## Quick reference
 
 | | |

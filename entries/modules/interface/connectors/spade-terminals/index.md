@@ -1,5 +1,7 @@
 ## Overview
 
+Common for quick-disconnect screw-terminal wiring on relays, motors and terminal blocks.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "PC/3D-printer fan connector (3/4-pin, JST-PH style)"
 category: interface/connectors
 status: draft
-summary: "PC/3D-printer fan connector (3/4-pin, JST-PH style) imported from backlog"
+summary: "Matches computer/3D-printer cooling-fan headers for rewiring or extending fan cables."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

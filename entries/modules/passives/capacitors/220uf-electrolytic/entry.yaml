@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "220µF electrolytic"
 category: passives/capacitors
 status: draft
-summary: "220µF electrolytic imported from backlog"
+summary: "Common bulk filtering value included in electrolytic assortment kits for power-supply projects."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

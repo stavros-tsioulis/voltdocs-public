@@ -1,5 +1,7 @@
 ## Overview
 
+Quick temporary connections for prototyping and bench testing without soldering.
+
 ## Quick reference
 
 | | |

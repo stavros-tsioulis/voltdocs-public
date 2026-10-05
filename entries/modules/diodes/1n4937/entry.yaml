@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N4937"
 category: diodes
 status: draft
-summary: "1N4937 imported from backlog"
+summary: "1A/600V fast recovery diode common in SMPS snubber/flyback applications."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

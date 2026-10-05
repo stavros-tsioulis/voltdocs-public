@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BZX85C12"
 category: diodes
 status: draft
-summary: "BZX85C12 imported from backlog"
+summary: "12V 1W zener, common substitute for 1N4742A."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

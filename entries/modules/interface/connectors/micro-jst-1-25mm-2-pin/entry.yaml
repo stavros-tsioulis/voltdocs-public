@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Micro JST 1.25mm 2-pin"
 category: interface/connectors
 status: draft
-summary: "Micro JST 1.25mm 2-pin imported from backlog"
+summary: "The tiny 2-pin connector on small single-cell LiPo pouch cells used in micro-drones and wearable electronics, frequently needing pigtail replacements."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

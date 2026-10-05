@@ -1,5 +1,7 @@
 ## Overview
 
+Standard automotive-style disconnects used for relay and motor wiring where a full connector housing is overkill.
+
 ## Quick reference
 
 | | |

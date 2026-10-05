@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "FIT0126"
 category: actuators/buzzers
 status: draft
-summary: "FIT0126 imported from backlog"
+summary: "Standard buzzer module sold for Arduino Gravity-series kits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

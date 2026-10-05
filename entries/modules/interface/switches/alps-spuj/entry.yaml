@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Alps SPUJ"
 category: interface/switches
 status: draft
-summary: "Alps SPUJ imported from backlog"
+summary: "Detented rotary encoder line referenced as a step up from basic EC11 in audio DIY projects."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

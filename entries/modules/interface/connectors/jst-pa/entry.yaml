@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "JST PA (2/3-pin)"
 category: interface/connectors
 status: draft
-summary: "JST PA (2/3-pin) imported from backlog"
+summary: "Used on some cooling fans and small appliance wiring encountered in maker teardown/reuse projects."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

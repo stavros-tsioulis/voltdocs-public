@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "USB Type-C receptacle"
 category: interface/connectors
 status: draft
-summary: "USB Type-C receptacle imported from backlog"
+summary: "Modern reversible connector now standard on most current hobby dev boards (Raspberry Pi 4/5, ESP32-S3 boards, Pico)."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

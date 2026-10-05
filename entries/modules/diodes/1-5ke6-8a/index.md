@@ -1,5 +1,7 @@
 ## Overview
 
+6.8V high-power through-hole TVS used where more surge energy absorption is needed than P6KE provides.
+
 ## Quick reference
 
 | | |

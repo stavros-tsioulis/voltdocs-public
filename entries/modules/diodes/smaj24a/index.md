@@ -1,5 +1,7 @@
 ## Overview
 
+24V standoff SMAJ TVS for 24V industrial/hobby power buses.
+
 ## Quick reference
 
 | | |

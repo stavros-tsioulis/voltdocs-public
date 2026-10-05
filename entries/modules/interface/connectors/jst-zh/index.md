@@ -1,5 +1,7 @@
 ## Overview
 
+Small-pitch connector frequently seen on drone flight controllers/receivers.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Classic germanium diode used in crystal radio/AM detector hobby projects.
+
 ## Quick reference
 
 | | |

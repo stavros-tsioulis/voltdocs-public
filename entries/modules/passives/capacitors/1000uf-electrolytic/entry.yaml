@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1000µF electrolytic"
 category: passives/capacitors
 status: draft
-summary: "1000µF electrolytic imported from backlog"
+summary: "Top-end value in standard capacitor kits' 10 most common values, used for large PSU ripple smoothing."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

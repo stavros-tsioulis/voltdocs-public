@@ -1,5 +1,7 @@
 ## Overview
 
+800V/1A member of the 1N400x family, low individual citation frequency.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Ultra-miniature signal relay family (G5V-1/G5V-2) standard for hobbyist low-current signal switching.
+
 ## Quick reference
 
 | | |

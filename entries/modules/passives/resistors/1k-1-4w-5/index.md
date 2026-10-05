@@ -1,5 +1,7 @@
 ## Overview
 
+Extremely common general-purpose value used for pull-ups and transistor base resistors across nearly every kit.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Common germanium point-contact diode used in signal-detector/RF hobby circuits.
+
 ## Quick reference
 
 | | |

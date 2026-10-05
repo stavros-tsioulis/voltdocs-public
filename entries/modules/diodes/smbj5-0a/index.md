@@ -1,5 +1,7 @@
 ## Overview
 
+600W SMD TVS used where higher surge energy handling is needed than SMAJ.
+
 ## Quick reference
 
 | | |

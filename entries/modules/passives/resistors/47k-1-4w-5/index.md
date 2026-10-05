@@ -1,5 +1,7 @@
 ## Overview
 
+Common mid-range value included in standard beginner resistor kits.
+
 ## Quick reference
 
 | | |

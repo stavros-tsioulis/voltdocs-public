@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "SRR1260-101M"
 category: passives/inductors
 status: draft
-summary: "SRR1260-101M imported from backlog"
+summary: "Common shielded SMD choice for compact DC-DC converter modules built by hobbyists."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

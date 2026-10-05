@@ -1,5 +1,7 @@
 ## Overview
 
+3A/400V, popular in transformer-based bench power supplies; representative of the 1N540x family.
+
 ## Quick reference
 
 | | |

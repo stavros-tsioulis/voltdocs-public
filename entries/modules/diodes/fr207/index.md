@@ -1,5 +1,7 @@
 ## Overview
 
+2A/1000V fast recovery diode, higher-current sibling of FR107.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Locking connector used on some ArduPilot/Pixhawk-family flight-controller wiring harnesses.
+
 ## Quick reference
 
 | | |

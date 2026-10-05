@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "SS14"
 category: diodes
 status: draft
-summary: "SS14 imported from backlog"
+summary: "1A/40V SMA Schottky, ubiquitous on SMD hobby PCBs for reverse-voltage protection and DC-DC circuits; cited repeatedly."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

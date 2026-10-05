@@ -1,5 +1,7 @@
 ## Overview
 
+Common size for homebrew HF low-pass filter and tank-circuit inductors.
+
 ## Quick reference
 
 | | |

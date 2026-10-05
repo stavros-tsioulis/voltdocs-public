@@ -1,5 +1,7 @@
 ## Overview
 
+20V/1A Schottky with very low Vf, common in polarity-protection and pedal circuits, cited repeatedly.
+
 ## Quick reference
 
 | | |

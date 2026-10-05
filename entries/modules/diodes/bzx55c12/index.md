@@ -1,5 +1,7 @@
 ## Overview
 
+12V BZX55C zener widely used for 12V supply protection in through-hole builds.
+
 ## Quick reference
 
 | | |

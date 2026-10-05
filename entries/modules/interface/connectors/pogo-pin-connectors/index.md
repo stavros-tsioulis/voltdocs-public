@@ -1,5 +1,7 @@
 ## Overview
 
+Used for tool-free temporary programming/test connections to PCBs without soldering headers on every board.
+
 ## Quick reference
 
 | | |

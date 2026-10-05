@@ -1,5 +1,7 @@
 ## Overview
 
+Panel-mount terminals for enclosure power input/output paired with banana plugs.
+
 ## Quick reference
 
 | | |

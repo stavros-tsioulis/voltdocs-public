@@ -1,5 +1,7 @@
 ## Overview
 
+Blue 5mm THT LED, part of Kingbright's standard L-7113 series used widely for indicator/hobby applications.
+
 ## Quick reference
 
 | | |

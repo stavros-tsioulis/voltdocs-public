@@ -1,5 +1,7 @@
 ## Overview
 
+250V/250mA switching diode, a higher-voltage 1N4148-class part used on hobby SMD boards.
+
 ## Quick reference
 
 | | |

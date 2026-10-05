@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "47Ω 1/4W 5%"
 category: passives/resistors
 status: draft
-summary: "47Ω 1/4W 5% imported from backlog"
+summary: "Common bench-stock value for LED current limiting at higher supply voltages."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -1,5 +1,7 @@
 ## Overview
 
+Extremely common low-cost pluggable screw terminal used on hobby power-supply and motor-driver boards.
+
 ## Quick reference
 
 | | |

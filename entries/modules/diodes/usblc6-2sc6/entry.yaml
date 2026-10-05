@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "USBLC6-2SC6"
 category: diodes
 status: draft
-summary: "USBLC6-2SC6 imported from backlog"
+summary: "Extremely popular low-capacitance ESD array specifically for USB D+/D- lines, ubiquitous in hobbyist boards."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

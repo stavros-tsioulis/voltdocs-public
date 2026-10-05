@@ -1,5 +1,7 @@
 ## Overview
 
+Extremely common small toroid used for homebrew common-mode chokes and baluns in ham radio.
+
 ## Quick reference
 
 | | |

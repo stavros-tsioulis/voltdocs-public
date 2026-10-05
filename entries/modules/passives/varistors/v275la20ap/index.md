@@ -1,5 +1,7 @@
 ## Overview
 
+275V AC-rated MOV standard for mains surge suppression in power strips/PSUs; represents V140LA20AP, V330LA20AP, S14K275, 14D471K, 07D471K, UltraMOV 20D391K.
+
 ## Quick reference
 
 | | |

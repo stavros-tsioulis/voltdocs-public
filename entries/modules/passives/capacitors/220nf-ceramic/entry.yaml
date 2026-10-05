@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "220nF ceramic"
 category: passives/capacitors
 status: draft
-summary: "220nF ceramic imported from backlog"
+summary: "Common secondary decoupling value used alongside 100nF for broader frequency coverage."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

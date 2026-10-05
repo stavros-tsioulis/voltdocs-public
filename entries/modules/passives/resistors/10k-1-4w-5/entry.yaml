@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "10kΩ 1/4W 5%"
 category: passives/resistors
 status: draft
-summary: "10kΩ 1/4W 5% imported from backlog"
+summary: "The single most universal pull-up/pull-down/reference resistor value, present in essentially every kit description reviewed."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

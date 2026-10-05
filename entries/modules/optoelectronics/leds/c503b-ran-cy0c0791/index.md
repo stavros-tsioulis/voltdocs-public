@@ -1,5 +1,7 @@
 ## Overview
 
+Cree 5mm high-brightness red LED frequently referenced in Arduino/maker LED assortment guides where more brightness than a standard indicator LED is needed.
+
 ## Quick reference
 
 | | |

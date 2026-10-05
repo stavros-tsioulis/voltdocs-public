@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "KCD1-101"
 category: interface/switches
 status: draft
-summary: "KCD1-101 imported from backlog"
+summary: "Basic 2-pin ON-OFF rocker switch, extremely common for enclosure power switches; represents KCD1-102, KCD1-203-2P2T, KCD3-101, KCD4-201, R13-112."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

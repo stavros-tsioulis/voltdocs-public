@@ -1,5 +1,7 @@
 ## Overview
 
+2.5mm connector used on 3D printers/small appliances, functionally similar to JST XH.
+
 ## Quick reference
 
 | | |

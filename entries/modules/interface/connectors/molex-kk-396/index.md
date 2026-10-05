@@ -1,5 +1,7 @@
 ## Overview
 
+Higher-current wire-to-board connector used on 3D printers and power distribution boards.
+
 ## Quick reference
 
 | | |

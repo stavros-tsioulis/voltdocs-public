@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "RJ45 8P8C modular jack"
 category: interface/connectors
 status: draft
-summary: "RJ45 8P8C modular jack imported from backlog"
+summary: "Standard Ethernet connector found on many single-board computers/networked hobby projects; also reused off-label for cheap 8-conductor cabling."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

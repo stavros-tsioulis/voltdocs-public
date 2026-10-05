@@ -1,5 +1,7 @@
 ## Overview
 
+Mating female counterpart to 0.1in male headers, used for stackable shields and socketed ICs/modules; represents Arduino long-leg stacking headers.
+
 ## Quick reference
 
 | | |

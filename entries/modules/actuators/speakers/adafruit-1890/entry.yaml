@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Adafruit 1890"
 category: actuators/speakers
 status: draft
-summary: "Adafruit 1890 imported from backlog"
+summary: "8Ω mini metal-cone speaker, a go-to small speaker for wearables/enclosures; represents 3923, 4227, 1898, 3968."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

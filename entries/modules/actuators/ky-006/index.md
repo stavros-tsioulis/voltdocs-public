@@ -1,5 +1,7 @@
 ## Overview
 
+Ubiquitous 3-pin passive buzzer breakout in nearly every Arduino/Raspberry Pi sensor kit; represents HW-508 and MLT-8530 rebrands.
+
 ## Quick reference
 
 | | |

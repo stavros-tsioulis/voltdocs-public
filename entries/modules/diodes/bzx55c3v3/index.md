@@ -1,5 +1,7 @@
 ## Overview
 
+3.3V zener, entry point of the widely used BZX55C series common in European-sourced hobby kits.
+
 ## Quick reference
 
 | | |

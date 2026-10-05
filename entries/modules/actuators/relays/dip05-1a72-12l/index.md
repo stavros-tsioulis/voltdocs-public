@@ -1,5 +1,7 @@
 ## Overview
 
+Very common DIP-package reed relay for fast, low-power signal switching; represents reed-relay niche (HE721A0500, PRMA1A05, MK16-1A66-12).
+
 ## Quick reference
 
 | | |

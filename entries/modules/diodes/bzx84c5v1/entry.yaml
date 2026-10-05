@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BZX84C5V1"
 category: diodes
 status: draft
-summary: "BZX84C5V1 imported from backlog"
+summary: "5.1V SMD zener, extremely common on ESP32/Arduino shield PCBs for reference/clamp."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

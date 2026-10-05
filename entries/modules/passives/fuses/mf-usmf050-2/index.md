@@ -1,5 +1,7 @@
 ## Overview
 
+PTC purpose-built for USB port overcurrent protection.
+
 ## Quick reference
 
 | | |

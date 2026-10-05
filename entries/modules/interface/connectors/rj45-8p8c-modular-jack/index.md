@@ -1,5 +1,7 @@
 ## Overview
 
+Standard Ethernet connector found on many single-board computers/networked hobby projects; also reused off-label for cheap 8-conductor cabling.
+
 ## Quick reference
 
 | | |

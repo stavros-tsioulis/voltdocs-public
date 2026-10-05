@@ -1,5 +1,7 @@
 ## Overview
 
+Most common connector for LiPo balance leads, 3D-printer wiring, RC battery packs and stepper connections; dominant across the raw list with XHP-2/3/4 plugs and B2B-XH-A headers repeated many times.
+
 ## Quick reference
 
 | | |

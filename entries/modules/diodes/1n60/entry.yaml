@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N60"
 category: diodes
 status: draft
-summary: "1N60 imported from backlog"
+summary: "Classic germanium diode used in crystal radio/AM detector hobby projects."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

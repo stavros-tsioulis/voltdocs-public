@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N5399"
 category: diodes
 status: draft
-summary: "1N5399 imported from backlog"
+summary: "1.5A/1000V, commonly substituted for 1N4007 when extra voltage headroom is wanted; representative of the 1N539x family."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

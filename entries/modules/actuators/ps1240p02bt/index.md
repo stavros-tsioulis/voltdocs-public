@@ -1,5 +1,7 @@
 ## Overview
 
+Classic through-hole 12mm piezo element sold as Adafruit #160 and used in countless Arduino tone() tutorials; represents PS1240P02CT3, PS1240P02, PS1240P02BT-R1.
+
 ## Quick reference
 
 | | |

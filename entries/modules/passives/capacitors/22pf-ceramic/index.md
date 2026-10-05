@@ -1,5 +1,7 @@
 ## Overview
 
+Standard crystal/resonator load capacitance value, stocked in hobbyist capacitor kits.
+
 ## Quick reference
 
 | | |

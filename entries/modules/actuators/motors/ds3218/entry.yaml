@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "DS3218"
 category: actuators/motors
 status: draft
-summary: "DS3218 imported from backlog"
+summary: "High-torque (20kg-cm+) digital metal-gear servo used in robot arms/RC crawlers; represents DS929MG."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

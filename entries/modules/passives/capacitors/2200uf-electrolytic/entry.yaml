@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "2200µF electrolytic"
 category: passives/capacitors
 status: draft
-summary: "2200µF electrolytic imported from backlog"
+summary: "Common large reservoir capacitor value for linear power-supply hobby builds."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

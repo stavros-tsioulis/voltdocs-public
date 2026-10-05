@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Banana plug/jack pairs (4mm)"
 category: interface/connectors
 status: draft
-summary: "Banana plug/jack pairs (4mm) imported from backlog"
+summary: "Standard bench power supply connector for patch cables to breadboards/projects."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

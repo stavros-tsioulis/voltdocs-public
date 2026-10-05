@@ -1,5 +1,7 @@
 ## Overview
 
+Slightly larger barrel jack variant used on some higher-current hobby power adapters.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "219-4LPST"
 category: interface/switches
 status: draft
-summary: "219-4LPST imported from backlog"
+summary: "Widely referenced through-hole DIP switch used for hobbyist address/config selection on PCBs; represents KDC-A04, A6S-4104-N, E-Switch EG1218."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

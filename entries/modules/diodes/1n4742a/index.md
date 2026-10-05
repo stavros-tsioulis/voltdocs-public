@@ -1,5 +1,7 @@
 ## Overview
 
+12V/1W zener, extremely common for 12V-rail overvoltage protection/clamping, cited multiple times.
+
 ## Quick reference
 
 | | |

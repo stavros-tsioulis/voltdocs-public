@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BAT54S"
 category: diodes
 status: draft
-summary: "BAT54S imported from backlog"
+summary: "Common-cathode dual BAT54 pair used for bidirectional GPIO clamp protection."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

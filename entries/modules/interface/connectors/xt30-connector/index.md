@@ -1,5 +1,7 @@
 ## Overview
 
+Small soldered bullet-style power connector popular on micro drones and small LiPo packs.
+
 ## Quick reference
 
 | | |

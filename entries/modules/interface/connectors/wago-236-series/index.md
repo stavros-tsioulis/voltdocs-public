@@ -1,5 +1,7 @@
 ## Overview
 
+Tool-free spring-clamp PCB terminal block used as an alternative to screw terminals in hobby power wiring.
+
 ## Quick reference
 
 | | |

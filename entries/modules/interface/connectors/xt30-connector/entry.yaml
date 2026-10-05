@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "XT30 connector"
 category: interface/connectors
 status: draft
-summary: "XT30 connector imported from backlog"
+summary: "Small soldered bullet-style power connector popular on micro drones and small LiPo packs."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

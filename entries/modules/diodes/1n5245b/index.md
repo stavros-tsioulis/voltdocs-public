@@ -1,5 +1,7 @@
 ## Overview
 
+15V small zener in the 1N52xx series.
+
 ## Quick reference
 
 | | |

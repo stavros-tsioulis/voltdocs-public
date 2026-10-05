@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Molex SPOX (5264 series)"
 category: interface/connectors
 status: draft
-summary: "Molex SPOX (5264 series) imported from backlog"
+summary: "2.5mm connector used on 3D printers/small appliances, functionally similar to JST XH."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

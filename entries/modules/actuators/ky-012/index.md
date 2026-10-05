@@ -1,5 +1,7 @@
 ## Overview
 
+Ubiquitous 3-pin active buzzer breakout that sounds a fixed tone just by driving the signal pin HIGH; represents HW-512, HCM1201X.
+
 ## Quick reference
 
 | | |

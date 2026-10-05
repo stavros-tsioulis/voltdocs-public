@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "RLB0812-473KL"
 category: passives/inductors
 status: draft
-summary: "RLB0812-473KL imported from backlog"
+summary: "Common through-hole choice for breadboard buck-converter prototyping."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

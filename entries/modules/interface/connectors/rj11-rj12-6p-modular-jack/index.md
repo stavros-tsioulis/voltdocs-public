@@ -1,5 +1,7 @@
 ## Overview
 
+Repurposed by some hobby projects (3D-printer control panel cables, hotend wiring) as a compact 4-6 wire connector.
+
 ## Quick reference
 
 | | |

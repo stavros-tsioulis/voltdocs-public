@@ -1,5 +1,7 @@
 ## Overview
 
+Popular Raspberry Pi audio add-on kit central to many Pi audio hobby builds.
+
 ## Quick reference
 
 | | |

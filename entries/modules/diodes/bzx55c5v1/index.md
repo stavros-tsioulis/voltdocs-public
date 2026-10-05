@@ -1,5 +1,7 @@
 ## Overview
 
+5.1V BZX55C zener, common general-purpose reference voltage.
+
 ## Quick reference
 
 | | |

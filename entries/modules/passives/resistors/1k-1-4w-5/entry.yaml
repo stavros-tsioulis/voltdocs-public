@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1kΩ 1/4W 5%"
 category: passives/resistors
 status: draft
-summary: "1kΩ 1/4W 5% imported from backlog"
+summary: "Extremely common general-purpose value used for pull-ups and transistor base resistors across nearly every kit."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

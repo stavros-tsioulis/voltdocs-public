@@ -1,5 +1,7 @@
 ## Overview
 
+Locking micro connector used on flight controllers and drone peripherals (Pixhawk/mRo boards).
+
 ## Quick reference
 
 | | |

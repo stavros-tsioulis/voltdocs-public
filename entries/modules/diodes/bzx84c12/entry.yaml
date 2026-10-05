@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BZX84C12"
 category: diodes
 status: draft
-summary: "BZX84C12 imported from backlog"
+summary: "12V SMD zener used for surface-mount 12V rail protection."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

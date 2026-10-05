@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N4733A"
 category: diodes
 status: draft
-summary: "1N4733A imported from backlog"
+summary: "5.1V/1W zener, called out repeatedly as one of the most common hobbyist reference/regulation choices in the 1N4728A-1N4761A series."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

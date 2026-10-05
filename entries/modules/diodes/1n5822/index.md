@@ -1,5 +1,7 @@
 ## Overview
 
+40V/3A Schottky, popular for solar charge-controller blocking diodes and buck-converter freewheeling; cited multiple times.
+
 ## Quick reference
 
 | | |

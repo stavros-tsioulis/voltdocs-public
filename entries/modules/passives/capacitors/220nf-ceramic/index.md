@@ -1,5 +1,7 @@
 ## Overview
 
+Common secondary decoupling value used alongside 100nF for broader frequency coverage.
+
 ## Quick reference
 
 | | |

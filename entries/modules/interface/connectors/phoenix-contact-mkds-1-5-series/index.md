@@ -1,5 +1,7 @@
 ## Overview
 
+Popular pluggable terminal block series widely used in maker power-supply/motor-control projects; represents PT 1,5/2-5,0-H.
+
 ## Quick reference
 
 | | |

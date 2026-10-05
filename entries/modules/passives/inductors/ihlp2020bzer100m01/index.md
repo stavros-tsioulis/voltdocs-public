@@ -1,5 +1,7 @@
 ## Overview
 
+IHLP series widely used in hobbyist/prosumer SMPS designs for low EMI and high saturation current.
+
 ## Quick reference
 
 | | |

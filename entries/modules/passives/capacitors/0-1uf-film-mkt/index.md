@@ -1,5 +1,7 @@
 ## Overview
 
+Common budget-friendly film capacitor value used for coupling and general filtering where ceramics are unsuitable.
+
 ## Quick reference
 
 | | |

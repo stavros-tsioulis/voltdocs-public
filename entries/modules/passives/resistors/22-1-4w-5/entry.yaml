@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "22Ω 1/4W 5%"
 category: passives/resistors
 status: draft
-summary: "22Ω 1/4W 5% imported from backlog"
+summary: "Common bench-stock value used for LED/logic current limiting in low-voltage circuits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

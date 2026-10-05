@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "33pF ceramic"
 category: passives/capacitors
 status: draft
-summary: "33pF ceramic imported from backlog"
+summary: "Common crystal/resonator loading capacitance in general ceramic assortment kits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

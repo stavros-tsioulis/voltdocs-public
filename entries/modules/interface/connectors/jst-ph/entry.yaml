@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "JST PH (S2B-PH-K, PHR-2)"
 category: interface/connectors
 status: draft
-summary: "JST PH (S2B-PH-K, PHR-2) imported from backlog"
+summary: "Standard connector for single-cell LiPo packs and small sensor wiring; explicitly cited as 'the most versatile single JST series to stock'; includes pre-crimped battery pigtails."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

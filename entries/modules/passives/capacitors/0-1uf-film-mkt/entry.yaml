@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "0.1µF film (polyester/MKT)"
 category: passives/capacitors
 status: draft
-summary: "0.1µF film (polyester/MKT) imported from backlog"
+summary: "Common budget-friendly film capacitor value used for coupling and general filtering where ceramics are unsuitable."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

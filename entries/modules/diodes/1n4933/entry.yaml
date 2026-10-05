@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N4933"
 category: diodes
 status: draft
-summary: "1N4933 imported from backlog"
+summary: "1A/50V fast-recovery flyback/freewheeling diode for relay and motor-driver protection."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

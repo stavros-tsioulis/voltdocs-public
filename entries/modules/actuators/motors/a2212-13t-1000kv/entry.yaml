@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "A2212/13T 1000KV"
 category: actuators/motors
 status: draft
-summary: "A2212/13T 1000KV imported from backlog"
+summary: "Extremely common low-cost brushless outrunner motor for hobby quadcopters/RC planes; represents other A2212 KV variants and Suppo 2212/13."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

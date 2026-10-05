@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Molex PicoBlade (53398/53047 series)"
 category: interface/connectors
 status: draft
-summary: "Molex PicoBlade (53398/53047 series) imported from backlog"
+summary: "Compact 1.25mm connector often used as an alternative to JST GH on small drones/wearables."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

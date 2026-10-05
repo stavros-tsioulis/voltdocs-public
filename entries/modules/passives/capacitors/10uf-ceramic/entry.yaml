@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "10µF ceramic (X5R/X7R)"
 category: passives/capacitors
 status: draft
-summary: "10µF ceramic (X5R/X7R) imported from backlog"
+summary: "Common regulator bulk-capacitance value, replacing small electrolytics in many modern designs."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

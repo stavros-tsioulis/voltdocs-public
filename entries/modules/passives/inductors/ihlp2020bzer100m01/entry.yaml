@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "IHLP2020BZER100M01"
 category: passives/inductors
 status: draft
-summary: "IHLP2020BZER100M01 imported from backlog"
+summary: "IHLP series widely used in hobbyist/prosumer SMPS designs for low EMI and high saturation current."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

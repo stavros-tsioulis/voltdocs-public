@@ -1,5 +1,7 @@
 ## Overview
 
+Popular radial-leaded Multifuse used in hobbyist through-hole protection circuits; represents MF-R010, MF-R090.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "FR107"
 category: diodes
 status: draft
-summary: "FR107 imported from backlog"
+summary: "1A/1000V fast recovery diode used in SMPS and LED driver hobby projects."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

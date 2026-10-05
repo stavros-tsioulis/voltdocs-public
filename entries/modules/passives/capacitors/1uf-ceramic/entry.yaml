@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1µF ceramic (X7R)"
 category: passives/capacitors
 status: draft
-summary: "1µF ceramic (X7R) imported from backlog"
+summary: "Increasingly recommended over 100nF for modern IC decoupling due to lower impedance at typical logic frequencies."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -1,5 +1,7 @@
 ## Overview
 
+MOV with integrated thermal fuse to prevent fire risk, standard in modern surge protectors.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Best-selling linear mechanical keyswitch used across countless custom keyboard builds.
+
 ## Quick reference
 
 | | |

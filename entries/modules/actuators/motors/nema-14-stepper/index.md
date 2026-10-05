@@ -1,5 +1,7 @@
 ## Overview
 
+Smaller-frame stepper used in compact 3D-printer extruders and small CNC axes.
+
 ## Quick reference
 
 | | |

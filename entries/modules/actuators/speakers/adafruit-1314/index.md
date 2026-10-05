@@ -1,5 +1,7 @@
 ## Overview
 
+3" 4Ω 3W enclosure speaker widely used with the Speaker Bonnet/PAM8302 amps on Raspberry Pi projects; represents 3351, 4445, 1669.
+
 ## Quick reference
 
 | | |

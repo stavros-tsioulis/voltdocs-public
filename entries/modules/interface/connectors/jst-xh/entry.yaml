@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "JST XH (B2B-XH-A / XHP-2/3/4)"
 category: interface/connectors
 status: draft
-summary: "JST XH (B2B-XH-A / XHP-2/3/4) imported from backlog"
+summary: "Most common connector for LiPo balance leads, 3D-printer wiring, RC battery packs and stepper connections; dominant across the raw list with XHP-2/3/4 plugs and B2B-XH-A headers repeated many times."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

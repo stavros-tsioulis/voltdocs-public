@@ -1,5 +1,7 @@
 ## Overview
 
+Common large reservoir capacitor value for linear power-supply hobby builds.
+
 ## Quick reference
 
 | | |

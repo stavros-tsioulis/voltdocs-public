@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Hirose DF11 series"
 category: interface/connectors
 status: draft
-summary: "Hirose DF11 series imported from backlog"
+summary: "Locking connector used on some ArduPilot/Pixhawk-family flight-controller wiring harnesses."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

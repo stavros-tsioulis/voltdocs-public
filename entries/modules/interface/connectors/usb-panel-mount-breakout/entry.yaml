@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "USB-A/B/C panel-mount breakout connector"
 category: interface/connectors
 status: draft
-summary: "USB-A/B/C panel-mount breakout connector imported from backlog"
+summary: "Panel-mount USB extensions let an enclosure expose a port without drilling precisely around a board's onboard connector."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

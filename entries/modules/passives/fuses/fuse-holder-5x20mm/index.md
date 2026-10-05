@@ -1,5 +1,7 @@
 ## Overview
 
+Extremely common panel-mount fuse holder pairing with 5x20mm glass fuses in hobbyist enclosures.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Common shielded SMD choice for compact DC-DC converter modules built by hobbyists.
+
 ## Quick reference
 
 | | |

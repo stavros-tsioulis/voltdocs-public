@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Samtec FTSH / SHF series (1.27mm)"
 category: interface/connectors
 status: draft
-summary: "Samtec FTSH / SHF series (1.27mm) imported from backlog"
+summary: "Common low-profile header used for compact board-to-board and debug connections in maker electronics."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

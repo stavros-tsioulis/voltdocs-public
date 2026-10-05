@@ -1,5 +1,7 @@
 ## Overview
 
+0.5A/20V SOD-123 Schottky, common on small SMD boards for reverse-polarity/output protection.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Separate driver IC used to control standard RGB LEDs individually, common in DIY LED pixel strings.
+
 ## Quick reference
 
 | | |

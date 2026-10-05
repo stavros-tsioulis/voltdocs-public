@@ -1,5 +1,7 @@
 ## Overview
 
+Increasingly recommended over 100nF for modern IC decoupling due to lower impedance at typical logic frequencies.
+
 ## Quick reference
 
 | | |

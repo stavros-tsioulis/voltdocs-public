@@ -1,5 +1,7 @@
 ## Overview
 
+5.1V small zener, common through-hole alternative to BZX55C5V1 in the 1N52xx series, cited multiple times.
+
 ## Quick reference
 
 | | |

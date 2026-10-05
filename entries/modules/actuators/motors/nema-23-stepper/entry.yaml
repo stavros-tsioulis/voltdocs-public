@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "NEMA 23 stepper (23HS series)"
 category: actuators/motors
 status: draft
-summary: "NEMA 23 stepper (23HS series) imported from backlog"
+summary: "Larger-frame stepper used when NEMA17 lacks torque, common in DIY CNC routers."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

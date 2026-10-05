@@ -1,5 +1,7 @@
 ## Overview
 
+Standard 40-pin GPIO header used on all modern Raspberry Pi boards and compatible HAT accessories.
+
 ## Quick reference
 
 | | |

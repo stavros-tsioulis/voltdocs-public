@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "SMBJ5.0A"
 category: diodes
 status: draft
-summary: "SMBJ5.0A imported from backlog"
+summary: "600W SMD TVS used where higher surge energy handling is needed than SMAJ."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

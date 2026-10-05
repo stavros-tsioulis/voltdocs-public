@@ -1,5 +1,7 @@
 ## Overview
 
+One of the three core aluminum electrolytic values (1/10/100µF) stocked in nearly every hobbyist kit.
+
 ## Quick reference
 
 | | |

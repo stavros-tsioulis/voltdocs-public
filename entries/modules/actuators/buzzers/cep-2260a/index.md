@@ -1,5 +1,7 @@
 ## Overview
 
+Panel-mount piezo buzzer used where a chassis-mount alarm sound is needed.
+
 ## Quick reference
 
 | | |

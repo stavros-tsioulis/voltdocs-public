@@ -1,5 +1,7 @@
 ## Overview
 
+Standard 30mm Japanese arcade action button, ubiquitous in fightstick/arcade-cabinet builds; represents OBSF-24, Seimitsu PS-14-K, LB-30.
+
 ## Quick reference
 
 | | |

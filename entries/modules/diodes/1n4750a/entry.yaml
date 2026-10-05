@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N4750A"
 category: diodes
 status: draft
-summary: "1N4750A imported from backlog"
+summary: "27V/1W zener used for higher-voltage OVP clamping."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BZX84C3V3"
 category: diodes
 status: draft
-summary: "BZX84C3V3 imported from backlog"
+summary: "3.3V SMD zener, SOT-23 surface-mount equivalent to BZX55, very common on modern ESP32/Arduino SMD shield PCBs."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

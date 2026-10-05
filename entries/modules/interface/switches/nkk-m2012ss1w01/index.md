@@ -1,5 +1,7 @@
 ## Overview
 
+Higher-end mini toggle switch used in prosumer audio/electronics projects; represents E-Switch 100SP1T1B4M2QEH/EG2358, C&K 7101, NKK G12AH.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "PESD3V3L1BA"
 category: diodes
 status: draft
-summary: "PESD3V3L1BA imported from backlog"
+summary: "3.3V low-capacitance ESD diode commonly placed on ESP32/STM32 GPIO breakout boards."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

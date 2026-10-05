@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "KF128 series"
 category: interface/connectors
 status: draft
-summary: "KF128 series imported from backlog"
+summary: "Small-pitch screw terminal block frequently used on Arduino shields/sensor breakouts; also covers generic fine-pitch pluggable terminal demand."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

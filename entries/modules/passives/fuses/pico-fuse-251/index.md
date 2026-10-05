@@ -1,5 +1,7 @@
 ## Overview
 
+Very small axial pico fuse widely used inside consumer electronics and chargers; represents the Nano2 SMD fuse (0451.500MRL).
+
 ## Quick reference
 
 | | |

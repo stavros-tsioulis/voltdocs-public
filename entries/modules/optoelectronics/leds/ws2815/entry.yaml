@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "WS2815"
 category: optoelectronics/leds
 status: draft
-summary: "WS2815 imported from backlog"
+summary: "12V addressable LED variant favored for reduced voltage-drop on long strips."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

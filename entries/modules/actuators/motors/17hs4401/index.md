@@ -1,5 +1,7 @@
 ## Overview
 
+Very common compact NEMA17 stepper used in 3D printers, CNC, and robotics; represents 17HS8401, 17HS3401S, 17HS6401S, 17HS24-0644S, 42BYGH, 42HS40, 42HS48.
+
 ## Quick reference
 
 | | |

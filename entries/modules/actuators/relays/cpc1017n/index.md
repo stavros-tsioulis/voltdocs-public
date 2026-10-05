@@ -1,5 +1,7 @@
 ## Overview
 
+OptoMOS SSR IC popular for silent DC switching; represents CPC1590.
+
 ## Quick reference
 
 | | |

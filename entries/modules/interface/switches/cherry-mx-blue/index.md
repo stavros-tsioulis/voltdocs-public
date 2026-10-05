@@ -1,5 +1,7 @@
 ## Overview
 
+The most iconic clicky mechanical keyswitch, foundational reference part for the DIY mechanical-keyboard hobby.
+
 ## Quick reference
 
 | | |

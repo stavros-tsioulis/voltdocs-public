@@ -1,5 +1,7 @@
 ## Overview
 
+Common low-profile header used for compact board-to-board and debug connections in maker electronics.
+
 ## Quick reference
 
 | | |

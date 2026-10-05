@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "JST GH (1.25mm)"
 category: interface/connectors
 status: draft
-summary: "JST GH (1.25mm) imported from backlog"
+summary: "Compact locking connector for battery/board-to-board links in small consumer devices and FPV gear, and Pixhawk telemetry/GPS leads."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

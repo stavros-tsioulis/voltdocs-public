@@ -1,5 +1,7 @@
 ## Overview
 
+The most-cited LED current-limiting resistor value at 5V, repeatedly called out as a classic bench-stock value across independent sourcing lists.
+
 ## Quick reference
 
 | | |

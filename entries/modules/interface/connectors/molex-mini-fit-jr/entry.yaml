@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Molex Mini-Fit Jr. (5557/5559 series)"
 category: interface/connectors
 status: draft
-summary: "Molex Mini-Fit Jr. (5557/5559 series) imported from backlog"
+summary: "High-current PC-PSU-style connector family adopted in DIY high-power projects and battery packs."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

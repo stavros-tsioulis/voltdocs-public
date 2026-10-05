@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "FBMOV series"
 category: passives/varistors
 status: draft
-summary: "FBMOV series imported from backlog"
+summary: "MOV with integrated thermal fuse to prevent fire risk, standard in modern surge protectors."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

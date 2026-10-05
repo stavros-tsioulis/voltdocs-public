@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Phoenix Contact MKDS 1.5 series"
 category: interface/connectors
 status: draft
-summary: "Phoenix Contact MKDS 1.5 series imported from backlog"
+summary: "Popular pluggable terminal block series widely used in maker power-supply/motor-control projects; represents PT 1,5/2-5,0-H."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

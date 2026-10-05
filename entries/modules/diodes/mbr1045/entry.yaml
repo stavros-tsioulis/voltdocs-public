@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "MBR1045"
 category: diodes
 status: draft
-summary: "MBR1045 imported from backlog"
+summary: "10A/45V Schottky common in DIY solar charge controllers and high-current DC-DC converters."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

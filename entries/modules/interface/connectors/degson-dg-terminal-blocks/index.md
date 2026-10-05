@@ -1,5 +1,7 @@
 ## Overview
 
+Budget-friendly screw-terminal series commonly sourced as an alternative to Phoenix Contact parts.
+
 ## Quick reference
 
 | | |

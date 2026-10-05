@@ -1,5 +1,7 @@
 ## Overview
 
+12V small zener, common in low-power protection circuits.
+
 ## Quick reference
 
 | | |

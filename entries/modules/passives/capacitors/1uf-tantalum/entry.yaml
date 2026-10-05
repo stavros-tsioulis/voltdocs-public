@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1µF tantalum"
 category: passives/capacitors
 status: draft
-summary: "1µF tantalum imported from backlog"
+summary: "Common low-end value in tantalum assortment kits (1-100µF, 16V range)."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

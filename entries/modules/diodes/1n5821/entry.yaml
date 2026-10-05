@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N5821"
 category: diodes
 status: draft
-summary: "1N5821 imported from backlog"
+summary: "30V/3A Schottky in the 1N582x family."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

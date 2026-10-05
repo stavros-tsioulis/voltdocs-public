@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BAT42"
 category: diodes
 status: draft
-summary: "BAT42 imported from backlog"
+summary: "Common small Schottky used in detector/clamp circuits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

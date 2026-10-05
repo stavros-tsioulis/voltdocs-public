@@ -1,5 +1,7 @@
 ## Overview
 
+24V standoff SMBJ TVS for higher-energy surge protection in DIY power projects.
+
 ## Quick reference
 
 | | |

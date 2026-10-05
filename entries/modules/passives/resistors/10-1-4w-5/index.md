@@ -1,5 +1,7 @@
 ## Overview
 
+Base low-value E12 member for current-sense/shunt and damping duty, included in nearly all standard resistor kits.
+
 ## Quick reference
 
 | | |

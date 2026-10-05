@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Vibration Motor (coin/pancake type)"
 category: actuators/motors
 status: draft
-summary: "Vibration Motor (coin/pancake type) imported from backlog"
+summary: "Ubiquitous flat coin vibration motor used in haptic feedback hobby projects and wearables."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

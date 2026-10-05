@@ -1,5 +1,7 @@
 ## Overview
 
+27V/1W zener used for higher-voltage OVP clamping.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "XT90 connector"
 category: interface/connectors
 status: draft
-summary: "XT90 connector imported from backlog"
+summary: "Higher-current XT-series sibling used for larger RC battery packs and robotics power buses."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

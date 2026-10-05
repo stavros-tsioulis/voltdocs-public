@@ -1,5 +1,7 @@
 ## Overview
 
+Legacy compact 5-pin USB connector used on early Arduino Nano, digital cameras and MP3 players.
+
 ## Quick reference
 
 | | |

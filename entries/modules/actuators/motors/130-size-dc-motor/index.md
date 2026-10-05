@@ -1,5 +1,7 @@
 ## Overview
 
+Classic small toy-grade brushed DC motor found in countless beginner electronics/robotics kits.
+
 ## Quick reference
 
 | | |

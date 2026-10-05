@@ -1,5 +1,7 @@
 ## Overview
 
+Representative tiny surface-mount micro speaker used in wearable/badge projects; represents CMS-13030X07L390R, AS01508MR-R, CDS-25164-L100, WM-034, HXT-2001.
+
 ## Quick reference
 
 | | |

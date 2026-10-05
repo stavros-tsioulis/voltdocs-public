@@ -1,5 +1,7 @@
 ## Overview
 
+Ubiquitous 3-pin SPDT ON-ON mini toggle switch, default choice for hobbyist power/mode switching; represents MTS-101, MTS-103, MTS-202, MTS-203, SMTS-102.
+
 ## Quick reference
 
 | | |

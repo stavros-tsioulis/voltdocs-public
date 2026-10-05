@@ -1,5 +1,7 @@
 ## Overview
 
+Common bulk filtering value included in electrolytic assortment kits for power-supply projects.
+
 ## Quick reference
 
 | | |

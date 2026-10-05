@@ -1,5 +1,7 @@
 ## Overview
 
+Yellow 5mm THT LED from the widely used Kingbright L-7113 family found in most component assortments.
+
 ## Quick reference
 
 | | |

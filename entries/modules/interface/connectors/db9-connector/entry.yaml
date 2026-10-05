@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "DB9 connector"
 category: interface/connectors
 status: draft
-summary: "DB9 connector imported from backlog"
+summary: "Still used for RS-232 serial interfacing with older equipment and CNC controllers."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

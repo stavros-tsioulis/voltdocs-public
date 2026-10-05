@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Mini-USB Type-B"
 category: interface/connectors
 status: draft
-summary: "Mini-USB Type-B imported from backlog"
+summary: "Legacy compact 5-pin USB connector used on early Arduino Nano, digital cameras and MP3 players."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

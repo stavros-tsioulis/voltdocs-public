@@ -1,5 +1,7 @@
 ## Overview
 
+Extremely popular triac paired with MOC3021/3041 to build DIY solid-state relays for AC loads; represents smaller BT136-600.
+
 ## Quick reference
 
 | | |

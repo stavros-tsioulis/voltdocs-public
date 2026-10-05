@@ -1,5 +1,7 @@
 ## Overview
 
+1500W SMD TVS used for robust line protection in commercial equipment; represents 1.5KE15CA.
+
 ## Quick reference
 
 | | |

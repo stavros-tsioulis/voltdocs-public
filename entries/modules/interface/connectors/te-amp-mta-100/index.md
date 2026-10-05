@@ -1,5 +1,7 @@
 ## Overview
 
+Widely used insulation-displacement 0.1in connector for ribbon cable and wire-to-board connections in hobby electronics.
+
 ## Quick reference
 
 | | |

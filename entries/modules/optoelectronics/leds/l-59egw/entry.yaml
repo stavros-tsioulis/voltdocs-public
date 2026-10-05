@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "L-59EGW"
 category: optoelectronics/leds
 status: draft
-summary: "L-59EGW imported from backlog"
+summary: "Classic 4-pin 5mm common-cathode RGB LED used extensively in beginner Arduino/microcontroller color-mixing tutorials; absorbs generic '5mm-RGB-common-cathode' listing as the same part."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

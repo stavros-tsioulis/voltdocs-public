@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "NEMA 14 stepper (14HS series)"
 category: actuators/motors
 status: draft
-summary: "NEMA 14 stepper (14HS series) imported from backlog"
+summary: "Smaller-frame stepper used in compact 3D-printer extruders and small CNC axes."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

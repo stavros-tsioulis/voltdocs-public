@@ -1,5 +1,7 @@
 ## Overview
 
+Higher-current (10A) connector for battery packs/power distribution in RC and robotics builds.
+
 ## Quick reference
 
 | | |

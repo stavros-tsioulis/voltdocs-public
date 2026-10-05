@@ -1,5 +1,7 @@
 ## Overview
 
+1A/50V ultrafast diode, mechanical drop-in for 1N4001 with faster switching.
+
 ## Quick reference
 
 | | |

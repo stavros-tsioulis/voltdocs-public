@@ -1,5 +1,7 @@
 ## Overview
 
+Popular 12mm incremental encoder with push switch, a frequent upgrade recommendation over cheap EC11 clones; represents PEC11H, PEC12R, PEC16, Adafruit 377.
+
 ## Quick reference
 
 | | |

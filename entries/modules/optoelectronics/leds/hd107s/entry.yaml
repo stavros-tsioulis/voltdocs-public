@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "HD107S"
 category: optoelectronics/leds
 status: draft
-summary: "HD107S imported from backlog"
+summary: "High-speed APA102-family addressable LED used for POV displays needing high refresh rates."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

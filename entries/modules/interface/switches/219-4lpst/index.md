@@ -1,5 +1,7 @@
 ## Overview
 
+Widely referenced through-hole DIP switch used for hobbyist address/config selection on PCBs; represents KDC-A04, A6S-4104-N, E-Switch EG1218.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BZX55C12"
 category: diodes
 status: draft
-summary: "BZX55C12 imported from backlog"
+summary: "12V BZX55C zener widely used for 12V supply protection in through-hole builds."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

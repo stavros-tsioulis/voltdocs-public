@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Quick-disconnect blade terminals (2.8/4.8/6.3mm)"
 category: interface/connectors
 status: draft
-summary: "Quick-disconnect blade terminals (2.8/4.8/6.3mm) imported from backlog"
+summary: "Standard automotive-style disconnects used for relay and motor wiring where a full connector housing is overkill."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

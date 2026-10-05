@@ -1,5 +1,7 @@
 ## Overview
 
+1A/40V SMA Schottky, ubiquitous on SMD hobby PCBs for reverse-voltage protection and DC-DC circuits; cited repeatedly.
+
 ## Quick reference
 
 | | |

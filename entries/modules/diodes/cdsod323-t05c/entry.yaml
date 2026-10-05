@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "CDSOD323-T05C"
 category: diodes
 status: draft
-summary: "CDSOD323-T05C imported from backlog"
+summary: "5V low-capacitance TVS used for signal-line ESD protection in compact SMD hobby designs."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

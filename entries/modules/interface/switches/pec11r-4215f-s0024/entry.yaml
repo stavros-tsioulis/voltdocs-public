@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Bourns PEC11R-4215F-S0024"
 category: interface/switches
 status: draft
-summary: "Bourns PEC11R-4215F-S0024 imported from backlog"
+summary: "Popular 12mm incremental encoder with push switch, a frequent upgrade recommendation over cheap EC11 clones; represents PEC11H, PEC12R, PEC16, Adafruit 377."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

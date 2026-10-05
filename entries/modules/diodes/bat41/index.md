@@ -1,5 +1,7 @@
 ## Overview
 
+General-purpose small axial/SMD Schottky for low-drop rectification.
+
 ## Quick reference
 
 | | |

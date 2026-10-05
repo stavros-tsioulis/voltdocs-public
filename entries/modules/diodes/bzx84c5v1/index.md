@@ -1,5 +1,7 @@
 ## Overview
 
+5.1V SMD zener, extremely common on ESP32/Arduino shield PCBs for reference/clamp.
+
 ## Quick reference
 
 | | |

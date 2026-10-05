@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "22pF ceramic"
 category: passives/capacitors
 status: draft
-summary: "22pF ceramic imported from backlog"
+summary: "Standard crystal/resonator load capacitance value, stocked in hobbyist capacitor kits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

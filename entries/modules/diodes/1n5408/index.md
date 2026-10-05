@@ -1,5 +1,7 @@
 ## Overview
 
+3A/1000V, top of the 1N540x series, used when more current than 1N4007 provides is needed.
+
 ## Quick reference
 
 | | |

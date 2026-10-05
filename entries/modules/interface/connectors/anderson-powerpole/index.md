@@ -1,5 +1,7 @@
 ## Overview
 
+Genderless, hot-pluggable power connector standard in amateur radio and robotics battery wiring — any two mate regardless of orientation.
+
 ## Quick reference
 
 | | |

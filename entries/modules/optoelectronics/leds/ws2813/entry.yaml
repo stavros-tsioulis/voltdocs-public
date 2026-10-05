@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "WS2813"
 category: optoelectronics/leds
 status: draft
-summary: "WS2813 imported from backlog"
+summary: "WS2812B variant with backup data line so a single dead pixel doesn't break the chain, popular for larger installations."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

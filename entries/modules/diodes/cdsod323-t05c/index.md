@@ -1,5 +1,7 @@
 ## Overview
 
+5V low-capacitance TVS used for signal-line ESD protection in compact SMD hobby designs.
+
 ## Quick reference
 
 | | |

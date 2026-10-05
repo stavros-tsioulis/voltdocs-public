@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BLM21BB600SH1D"
 category: passives/inductors
 status: draft
-summary: "BLM21BB600SH1D imported from backlog"
+summary: "Low-DCR EMI suppression bead popular for filtering power supply lines without significant voltage drop."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

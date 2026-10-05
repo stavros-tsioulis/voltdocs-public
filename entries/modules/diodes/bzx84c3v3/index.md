@@ -1,5 +1,7 @@
 ## Overview
 
+3.3V SMD zener, SOT-23 surface-mount equivalent to BZX55, very common on modern ESP32/Arduino SMD shield PCBs.
+
 ## Quick reference
 
 | | |

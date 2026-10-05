@@ -1,5 +1,7 @@
 ## Overview
 
+Small-pitch screw terminal block frequently used on Arduino shields/sensor breakouts; also covers generic fine-pitch pluggable terminal demand.
+
 ## Quick reference
 
 | | |

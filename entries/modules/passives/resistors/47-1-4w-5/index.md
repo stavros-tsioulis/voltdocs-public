@@ -1,5 +1,7 @@
 ## Overview
 
+Common bench-stock value for LED current limiting at higher supply voltages.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Called out among recommended resistor values to stock in maker-community kit guidance.
+
 ## Quick reference
 
 | | |

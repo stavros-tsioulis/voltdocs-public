@@ -1,5 +1,7 @@
 ## Overview
 
+High-current PC-PSU-style connector family adopted in DIY high-power projects and battery packs.
+
 ## Quick reference
 
 | | |

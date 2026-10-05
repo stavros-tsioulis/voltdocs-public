@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "JR/Futaba servo connector (3-pin)"
 category: interface/connectors
 status: draft
-summary: "JR/Futaba servo connector (3-pin) imported from backlog"
+summary: "Standard 3-pin connector used on virtually all hobby RC servos and many robotics projects; includes pre-made extension leads."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

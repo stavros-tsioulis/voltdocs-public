@@ -1,5 +1,7 @@
 ## Overview
 
+Extremely common miniature SPDT slide switch used for on/off selection on Arduino/breadboard projects; represents SS12D00G3, SS-12F15G3, CIT KAN-1, E-Switch KS02Q02, CW Industries GH1-2202.
+
 ## Quick reference
 
 | | |

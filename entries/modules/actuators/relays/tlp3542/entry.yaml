@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "TLP3542"
 category: actuators/relays
 status: draft
-summary: "TLP3542 imported from backlog"
+summary: "Photorelay IC used for MOSFET-based solid-state relay switching; represents TLP172A."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -1,5 +1,7 @@
 ## Overview
 
+3.3V low-capacitance ESD diode commonly placed on ESP32/STM32 GPIO breakout boards.
+
 ## Quick reference
 
 | | |

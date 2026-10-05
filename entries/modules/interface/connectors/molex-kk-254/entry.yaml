@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Molex KK 254 (2695 series)"
 category: interface/connectors
 status: draft
-summary: "Molex KK 254 (2695 series) imported from backlog"
+summary: "Original 0.1in-pitch connector system the generic 'Dupont' connectors are modeled after; still used on many hobby boards and praised for easier hand-crimping."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

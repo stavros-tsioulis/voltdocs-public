@@ -1,5 +1,7 @@
 ## Overview
 
+Larger-frame stepper used when NEMA17 lacks torque, common in DIY CNC routers.
+
 ## Quick reference
 
 | | |

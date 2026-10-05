@@ -1,5 +1,7 @@
 ## Overview
 
+Common crystal-loading value, included as one of the 10 most useful capacitor values in standard kits.
+
 ## Quick reference
 
 | | |

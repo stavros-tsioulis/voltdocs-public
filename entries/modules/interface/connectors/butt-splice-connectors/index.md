@@ -1,5 +1,7 @@
 ## Overview
 
+Solder-and-shrink butt connectors repeatedly recommended as an 'always have some' item for permanent, weatherproof wire repairs.
+
 ## Quick reference
 
 | | |

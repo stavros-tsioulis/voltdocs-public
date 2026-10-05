@@ -1,5 +1,7 @@
 ## Overview
 
+Common 3mm green diffused LED from Kingbright's widely used L-53 series, favored for breadboard prototyping.
+
 ## Quick reference
 
 | | |

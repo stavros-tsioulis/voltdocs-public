@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "T68-2"
 category: passives/inductors
 status: draft
-summary: "T68-2 imported from backlog"
+summary: "Common size for homebrew HF low-pass filter and tank-circuit inductors."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

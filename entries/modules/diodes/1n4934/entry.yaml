@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N4934"
 category: diodes
 status: draft
-summary: "1N4934 imported from backlog"
+summary: "1A/100V fast recovery diode used for switching-supply freewheeling."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

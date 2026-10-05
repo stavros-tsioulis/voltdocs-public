@@ -1,5 +1,7 @@
 ## Overview
 
+Default cheap rotary encoder module used in nearly every Arduino/ESP32 volume-knob or menu-navigation project; represents SEN0235, KY-040, genuine Alps EC11E15204A3.
+
 ## Quick reference
 
 | | |

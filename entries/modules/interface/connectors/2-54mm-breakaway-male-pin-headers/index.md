@@ -1,5 +1,7 @@
 ## Overview
 
+Universal 0.1in male header strip used on Arduino, Raspberry Pi HATs, and virtually all hobby prototyping boards.
+
 ## Quick reference
 
 | | |

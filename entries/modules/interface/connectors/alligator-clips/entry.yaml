@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Alligator clip test leads"
 category: interface/connectors
 status: draft
-summary: "Alligator clip test leads imported from backlog"
+summary: "Quick temporary connections for prototyping and bench testing without soldering."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

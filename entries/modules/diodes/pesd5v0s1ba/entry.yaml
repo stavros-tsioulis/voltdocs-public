@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "PESD5V0S1BA"
 category: diodes
 status: draft
-summary: "PESD5V0S1BA imported from backlog"
+summary: "Common single-channel ESD protection diode used on GPIO/signal lines."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

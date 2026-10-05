@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "FR207"
 category: diodes
 status: draft
-summary: "FR207 imported from backlog"
+summary: "2A/1000V fast recovery diode, higher-current sibling of FR107."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

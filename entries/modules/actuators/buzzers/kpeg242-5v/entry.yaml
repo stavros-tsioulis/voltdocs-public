@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "KPEG242-5V"
 category: actuators/buzzers
 status: draft
-summary: "KPEG242-5V imported from backlog"
+summary: "Active piezo indicator from a major OEM buzzer supplier used in countless consumer/hobby designs; represents KPEG-272, KPEG-500, KPEG-353, KPEG-350."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

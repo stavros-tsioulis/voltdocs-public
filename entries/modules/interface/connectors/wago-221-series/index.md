@@ -1,5 +1,7 @@
 ## Overview
 
+Extremely popular tool-free splicing connector for quick wire-to-wire joins in maker/DIY wiring; hobbyists report owning them 'in all shapes and sizes'; represents compact Wago 2273 series.
+
 ## Quick reference
 
 | | |

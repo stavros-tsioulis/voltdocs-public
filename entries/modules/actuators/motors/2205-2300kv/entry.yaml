@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "2205 2300KV"
 category: actuators/motors
 status: draft
-summary: "2205 2300KV imported from backlog"
+summary: "Standard size/KV combination used across most 5-inch FPV racing quadcopter builds."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -1,5 +1,7 @@
 ## Overview
 
+Zero-crossing variant of MOC3021 used in home-built AC SSR/dimmer designs.
+
 ## Quick reference
 
 | | |

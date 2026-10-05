@@ -1,5 +1,7 @@
 ## Overview
 
+Explicitly called out among recommended stock resistor values for termination/impedance matching.
+
 ## Quick reference
 
 | | |

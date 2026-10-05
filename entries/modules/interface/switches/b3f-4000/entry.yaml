@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "B3F-4000"
 category: interface/switches
 status: draft
-summary: "B3F-4000 imported from backlog"
+summary: "12x12mm tactile switch, standard for Adafruit's 12mm tactile button packs used on many maker boards."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

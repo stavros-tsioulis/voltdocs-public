@@ -1,5 +1,7 @@
 ## Overview
 
+Popular 3mm super-bright red LED used for compact indicator applications in DIY projects.
+
 ## Quick reference
 
 | | |

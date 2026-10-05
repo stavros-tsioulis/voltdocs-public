@@ -1,5 +1,7 @@
 ## Overview
 
+Staple core size for 1:1 and 4:1 homebrew baluns in HF antenna projects.
+
 ## Quick reference
 
 | | |

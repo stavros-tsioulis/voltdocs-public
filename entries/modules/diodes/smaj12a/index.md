@@ -1,5 +1,7 @@
 ## Overview
 
+12V standoff SMAJ TVS for 12V power-rail surge protection.
+
 ## Quick reference
 
 | | |

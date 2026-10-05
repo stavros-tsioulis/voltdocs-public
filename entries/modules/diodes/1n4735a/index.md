@@ -1,5 +1,7 @@
 ## Overview
 
+6.2V/1W zener, common shunt-regulation/temperature-compensated reference value.
+
 ## Quick reference
 
 | | |

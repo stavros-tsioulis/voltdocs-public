@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "XT60 connector"
 category: interface/connectors
 status: draft
-summary: "XT60 connector imported from backlog"
+summary: "De facto standard high-current connector for RC LiPo battery packs and drones; soldered contact avoids the loose-contact failure mode reported with clone Andersons."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

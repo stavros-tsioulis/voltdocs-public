@@ -1,5 +1,7 @@
 ## Overview
 
+Common alternate LED/pull resistor value called out in professional stocking recommendations.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Common crystal/resonator loading capacitance in general ceramic assortment kits.
+
 ## Quick reference
 
 | | |

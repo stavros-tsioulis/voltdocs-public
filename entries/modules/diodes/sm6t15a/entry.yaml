@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "SM6T15A"
 category: diodes
 status: draft
-summary: "SM6T15A imported from backlog"
+summary: "15V unidirectional SM6T TVS used in SMD power-supply surge protection designs."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

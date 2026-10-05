@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Dupont 2.54mm crimp connector housings + pins"
 category: interface/connectors
 status: draft
-summary: "Dupont 2.54mm crimp connector housings + pins imported from backlog"
+summary: "The classic Arduino/breadboard jumper-wire connector family every prototyper's bin needs to make custom-length jumpers; sold as KF2510, branded equivalent by Harwin (M20 series)."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

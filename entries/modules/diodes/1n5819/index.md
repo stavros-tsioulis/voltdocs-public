@@ -1,5 +1,7 @@
 ## Overview
 
+40V/1A Schottky; described as extremely common for reverse-polarity protection and DC-DC flyback duty across many independent sources.
+
 ## Quick reference
 
 | | |

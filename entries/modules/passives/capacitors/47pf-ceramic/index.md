@@ -1,5 +1,7 @@
 ## Overview
 
+Common RF/filter value in standard E12 ceramic assortments.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+3.3V low-power zener from the classic 1N746-1N759 series, still popular in analog hobby circuits.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "KLK Series"
 category: passives/fuses
 status: draft
-summary: "KLK Series imported from backlog"
+summary: "Common branch-circuit/equipment fuse used in industrial control panels; represents FNQ, KLDR, FRN-R, and JJN/JJS Class T fuse families."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N751A"
 category: diodes
 status: draft
-summary: "1N751A imported from backlog"
+summary: "5.1V zener, historic but still commonly referenced in tutorials."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

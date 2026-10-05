@@ -1,5 +1,7 @@
 ## Overview
 
+Still used for RS-232 serial interfacing with older equipment and CNC controllers.
+
 ## Quick reference
 
 | | |

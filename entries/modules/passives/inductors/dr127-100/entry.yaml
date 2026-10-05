@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "DR127-100"
 category: passives/inductors
 status: draft
-summary: "DR127-100 imported from backlog"
+summary: "Popular choice in open-source buck/boost reference designs for good saturation current and low cost."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

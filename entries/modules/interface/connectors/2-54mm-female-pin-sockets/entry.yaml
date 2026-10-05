@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "2.54mm female pin sockets"
 category: interface/connectors
 status: draft
-summary: "2.54mm female pin sockets imported from backlog"
+summary: "Mating female counterpart to 0.1in male headers, used for stackable shields and socketed ICs/modules; represents Arduino long-leg stacking headers."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

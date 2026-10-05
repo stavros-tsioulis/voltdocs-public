@@ -1,5 +1,7 @@
 ## Overview
 
+Classic through-hole 600W TVS widely used in hobbyist power protection circuits; represents P6KE18A.
+
 ## Quick reference
 
 | | |

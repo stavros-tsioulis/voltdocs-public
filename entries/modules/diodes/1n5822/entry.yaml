@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N5822"
 category: diodes
 status: draft
-summary: "1N5822 imported from backlog"
+summary: "40V/3A Schottky, popular for solar charge-controller blocking diodes and buck-converter freewheeling; cited multiple times."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

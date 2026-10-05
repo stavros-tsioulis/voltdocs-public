@@ -1,5 +1,7 @@
 ## Overview
 
+3.0V small zener from the widely available 1N5221-1N5267 series.
+
 ## Quick reference
 
 | | |

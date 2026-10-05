@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "100pF ceramic"
 category: passives/capacitors
 status: draft
-summary: "100pF ceramic imported from backlog"
+summary: "Common snubber/filter/coupling value stocked in standard capacitor kits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

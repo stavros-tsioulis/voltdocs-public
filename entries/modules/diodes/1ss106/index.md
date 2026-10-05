@@ -1,5 +1,7 @@
 ## Overview
 
+Small SOD-323 SMD switching diode used as a compact 1N4148 substitute.
+
 ## Quick reference
 
 | | |

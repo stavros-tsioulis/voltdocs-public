@@ -1,5 +1,7 @@
 ## Overview
 
+12V addressable LED variant favored for reduced voltage-drop on long strips.
+
 ## Quick reference
 
 | | |

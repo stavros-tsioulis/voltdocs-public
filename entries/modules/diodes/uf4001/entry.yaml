@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "UF4001"
 category: diodes
 status: draft
-summary: "UF4001 imported from backlog"
+summary: "1A/50V ultrafast diode, mechanical drop-in for 1N4001 with faster switching."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

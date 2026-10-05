@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1.5KE6.8A"
 category: diodes
 status: draft
-summary: "1.5KE6.8A imported from backlog"
+summary: "6.8V high-power through-hole TVS used where more surge energy absorption is needed than P6KE provides."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

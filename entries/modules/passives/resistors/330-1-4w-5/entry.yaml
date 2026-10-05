@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "330Ω 1/4W 5%"
 category: passives/resistors
 status: draft
-summary: "330Ω 1/4W 5% imported from backlog"
+summary: "The most-cited Arduino LED series resistor value, explicitly named in maker/professional stocking recommendations."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

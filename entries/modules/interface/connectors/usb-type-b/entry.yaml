@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "USB Type-B"
 category: interface/connectors
 status: draft
-summary: "USB Type-B imported from backlog"
+summary: "Square-shaped device-side connector historically used on Arduino Uno/Mega and printers."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

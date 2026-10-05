@@ -1,5 +1,7 @@
 ## Overview
 
+30V/1A Schottky, midpoint of the 1N58xx family, low individual citation.
+
 ## Quick reference
 
 | | |

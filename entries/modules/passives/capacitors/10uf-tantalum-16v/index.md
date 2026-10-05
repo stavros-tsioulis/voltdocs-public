@@ -1,5 +1,7 @@
 ## Overview
 
+Common tantalum assortment value used for stable, low-ESR bulk decoupling in space-constrained designs.
+
 ## Quick reference
 
 | | |

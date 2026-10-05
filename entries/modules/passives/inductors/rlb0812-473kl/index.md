@@ -1,5 +1,7 @@
 ## Overview
 
+Common through-hole choice for breadboard buck-converter prototyping.
+
 ## Quick reference
 
 | | |

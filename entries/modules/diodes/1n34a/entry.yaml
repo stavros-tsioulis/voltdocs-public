@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N34A"
 category: diodes
 status: draft
-summary: "1N34A imported from backlog"
+summary: "The archetypal germanium diode for crystal-radio/RF envelope-detector hobby builds."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

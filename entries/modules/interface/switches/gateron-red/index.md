@@ -1,5 +1,7 @@
 ## Overview
 
+Popular budget-friendly linear switch heavily used in the custom mechanical-keyboard hobby.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "KY-006"
 category: actuators
 status: draft
-summary: "KY-006 imported from backlog"
+summary: "Ubiquitous 3-pin passive buzzer breakout in nearly every Arduino/Raspberry Pi sensor kit; represents HW-508 and MLT-8530 rebrands."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

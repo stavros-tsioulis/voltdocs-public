@@ -1,5 +1,7 @@
 ## Overview
 
+15V/1W zener, common automotive/12V-derived surge clamp value.
+
 ## Quick reference
 
 | | |

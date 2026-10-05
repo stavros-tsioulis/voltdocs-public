@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "MF-SM160"
 category: passives/fuses
 status: draft
-summary: "MF-SM160 imported from backlog"
+summary: "SMD Multifuse PTC common in higher-current DC protection; represents MF-SM030, MF-SM260."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

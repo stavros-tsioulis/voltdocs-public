@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "130 size DC motor"
 category: actuators/motors
 status: draft
-summary: "130 size DC motor imported from backlog"
+summary: "Classic small toy-grade brushed DC motor found in countless beginner electronics/robotics kits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

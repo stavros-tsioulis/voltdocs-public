@@ -1,5 +1,7 @@
 ## Overview
 
+High-torque (20kg-cm+) digital metal-gear servo used in robot arms/RC crawlers; represents DS929MG.
+
 ## Quick reference
 
 | | |

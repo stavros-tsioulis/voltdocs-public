@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "MG90S"
 category: actuators/motors
 status: draft
-summary: "MG90S imported from backlog"
+summary: "Metal-gear upgrade of the SG90 with the same footprint, widely used in RC and robotic arms; represents Smart Prototyping MG90S."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

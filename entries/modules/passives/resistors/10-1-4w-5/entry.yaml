@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "10Ω 1/4W 5%"
 category: passives/resistors
 status: draft
-summary: "10Ω 1/4W 5% imported from backlog"
+summary: "Base low-value E12 member for current-sense/shunt and damping duty, included in nearly all standard resistor kits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

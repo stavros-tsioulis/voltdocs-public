@@ -1,5 +1,7 @@
 ## Overview
 
+APA102 sibling chip referenced in addressable LED matrix/panel comparison guides.
+
 ## Quick reference
 
 | | |

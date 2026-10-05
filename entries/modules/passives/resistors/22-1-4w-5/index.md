@@ -1,5 +1,7 @@
 ## Overview
 
+Common bench-stock value used for LED/logic current limiting in low-voltage circuits.
+
 ## Quick reference
 
 | | |

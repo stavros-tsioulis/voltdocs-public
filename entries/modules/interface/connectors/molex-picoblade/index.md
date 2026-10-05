@@ -1,5 +1,7 @@
 ## Overview
 
+Compact 1.25mm connector often used as an alternative to JST GH on small drones/wearables.
+
 ## Quick reference
 
 | | |

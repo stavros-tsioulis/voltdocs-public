@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "ESD9B3.3ST5G"
 category: diodes
 status: draft
-summary: "ESD9B3.3ST5G imported from backlog"
+summary: "3.3V ultra-low-capacitance ESD diode popular for protecting high-speed USB/I2C data lines."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

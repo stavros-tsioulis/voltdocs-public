@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N270"
 category: diodes
 status: draft
-summary: "1N270 imported from backlog"
+summary: "Common germanium point-contact diode used in signal-detector/RF hobby circuits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

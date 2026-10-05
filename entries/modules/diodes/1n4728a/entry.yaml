@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N4728A"
 category: diodes
 status: draft
-summary: "1N4728A imported from backlog"
+summary: "3.3V/1W zener, first/lowest of the standard 1W zener ladder, repeatedly cited across sources."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

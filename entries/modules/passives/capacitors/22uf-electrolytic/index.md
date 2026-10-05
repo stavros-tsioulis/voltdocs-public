@@ -1,5 +1,7 @@
 ## Overview
 
+Common E12 value in electrolytic assortment kits.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Common top-end value in most hobbyist E12 assortment kits (10Ω-1MΩ range).
+
 ## Quick reference
 
 | | |

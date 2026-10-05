@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "4mm bullet connector (banana-style)"
 category: interface/connectors
 status: draft
-summary: "4mm bullet connector (banana-style) imported from backlog"
+summary: "Simple genderless bullet connector commonly used for motor phase wires on brushless motors and ESCs; represents 3.5mm/5mm gold bullet variants."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

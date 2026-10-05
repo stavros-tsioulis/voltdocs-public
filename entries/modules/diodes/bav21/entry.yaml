@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BAV21"
 category: diodes
 status: draft
-summary: "BAV21 imported from backlog"
+summary: "250V/250mA switching diode, a higher-voltage 1N4148-class part used on hobby SMD boards."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

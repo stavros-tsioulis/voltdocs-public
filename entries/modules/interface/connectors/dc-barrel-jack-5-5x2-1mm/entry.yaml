@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "DC barrel jack 5.5x2.1mm"
 category: interface/connectors
 status: draft
-summary: "DC barrel jack 5.5x2.1mm imported from backlog"
+summary: "Near-universal barrel connector for wall-wart power supplies on hobby electronics/dev boards; covers matching plugs, splitters and screw-terminal adapters."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

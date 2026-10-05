@@ -1,5 +1,7 @@
 ## Overview
 
+20A/45V Schottky used in higher-power hobby solar/battery projects.
+
 ## Quick reference
 
 | | |

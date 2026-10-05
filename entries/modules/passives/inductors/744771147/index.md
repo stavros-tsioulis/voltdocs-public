@@ -1,5 +1,7 @@
 ## Overview
 
+Widely referenced in Würth's popular REDEXPERT/app-note buck converter reference designs used by hobbyists.
+
 ## Quick reference
 
 | | |

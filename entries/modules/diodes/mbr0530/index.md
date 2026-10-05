@@ -1,5 +1,7 @@
 ## Overview
 
+30V/0.5A SMD Schottky recommended specifically for low-power reverse-polarity protection on ESP32 boards.
+
 ## Quick reference
 
 | | |

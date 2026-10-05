@@ -1,5 +1,7 @@
 ## Overview
 
+5.1V zener in the BZX79 glass-package series, common European alternative to 1N52xx.
+
 ## Quick reference
 
 | | |

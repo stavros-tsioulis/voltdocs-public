@@ -1,5 +1,7 @@
 ## Overview
 
+Standard bench power supply connector for patch cables to breadboards/projects.
+
 ## Quick reference
 
 | | |

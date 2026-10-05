@@ -1,5 +1,7 @@
 ## Overview
 
+Extremely popular low-capacitance ESD array specifically for USB D+/D- lines, ubiquitous in hobbyist boards.
+
 ## Quick reference
 
 | | |

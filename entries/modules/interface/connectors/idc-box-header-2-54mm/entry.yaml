@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "IDC box header 2.54mm (shrouded)"
 category: interface/connectors
 status: draft
-summary: "IDC box header 2.54mm (shrouded) imported from backlog"
+summary: "Shrouded, polarized box header commonly used for ribbon-cable connections (JTAG/ISP programming headers), paired with matching IDC ribbon connectors."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

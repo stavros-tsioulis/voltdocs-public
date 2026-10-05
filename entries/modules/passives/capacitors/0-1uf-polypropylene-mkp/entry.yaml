@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "0.1µF polypropylene (MKP)"
 category: passives/capacitors
 status: draft
-summary: "0.1µF polypropylene (MKP) imported from backlog"
+summary: "Preferred film capacitor type/value for critical audio signal-path coupling due to low dielectric absorption."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

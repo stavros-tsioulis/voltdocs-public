@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BZX55C3V3"
 category: diodes
 status: draft
-summary: "BZX55C3V3 imported from backlog"
+summary: "3.3V zener, entry point of the widely used BZX55C series common in European-sourced hobby kits."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

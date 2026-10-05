@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "G5V-2-5VDC"
 category: actuators/relays
 status: draft
-summary: "G5V-2-5VDC imported from backlog"
+summary: "Ultra-miniature signal relay family (G5V-1/G5V-2) standard for hobbyist low-current signal switching."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

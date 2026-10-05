@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "P6KE18A"
 category: diodes
 status: draft
-summary: "P6KE18A imported from backlog"
+summary: "18V through-hole P6KE TVS used to clamp automotive/12V-derived transients."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

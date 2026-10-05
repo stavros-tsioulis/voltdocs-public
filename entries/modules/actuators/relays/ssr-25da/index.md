@@ -1,5 +1,7 @@
 ## Overview
 
+Extremely common panel-mount hobby SSR for AC load control (heaters, 3D-printer beds); represents the Fotek DA family (SSR-10DA/40DA/60DA/80DA/100DA, SSR-25DD).
+
 ## Quick reference
 
 | | |

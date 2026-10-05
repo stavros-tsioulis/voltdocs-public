@@ -1,5 +1,7 @@
 ## Overview
 
+400V/1A member, repeatedly cited specifically for reverse-current/polarity protection in Arduino/DIY projects.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N5236B"
 category: diodes
 status: draft
-summary: "1N5236B imported from backlog"
+summary: "7.5V/6.8V small zener in the same DO-35 1N52xx series."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

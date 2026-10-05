@@ -1,5 +1,7 @@
 ## Overview
 
+Active piezo indicator from a major OEM buzzer supplier used in countless consumer/hobby designs; represents KPEG-272, KPEG-500, KPEG-353, KPEG-350.
+
 ## Quick reference
 
 | | |

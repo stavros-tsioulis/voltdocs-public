@@ -1,5 +1,7 @@
 ## Overview
 
+Basic 2-pin ON-OFF rocker switch, extremely common for enclosure power switches; represents KCD1-102, KCD1-203-2P2T, KCD3-101, KCD4-201, R13-112.
+
 ## Quick reference
 
 | | |

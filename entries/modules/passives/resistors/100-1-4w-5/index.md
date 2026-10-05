@@ -1,5 +1,7 @@
 ## Overview
 
+Very commonly stocked value for current limiting and pull-ups.
+
 ## Quick reference
 
 | | |

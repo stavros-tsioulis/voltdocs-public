@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "MOC3041"
 category: actuators/relays
 status: draft
-summary: "MOC3041 imported from backlog"
+summary: "Zero-crossing variant of MOC3021 used in home-built AC SSR/dimmer designs."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

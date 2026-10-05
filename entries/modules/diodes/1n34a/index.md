@@ -1,5 +1,7 @@
 ## Overview
 
+The archetypal germanium diode for crystal-radio/RF envelope-detector hobby builds.
+
 ## Quick reference
 
 | | |

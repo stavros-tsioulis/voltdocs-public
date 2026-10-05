@@ -1,5 +1,7 @@
 ## Overview
 
+Modern reversible connector now standard on most current hobby dev boards (Raspberry Pi 4/5, ESP32-S3 boards, Pico).
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "1N5404"
 category: diodes
 status: draft
-summary: "1N5404 imported from backlog"
+summary: "3A/400V, popular in transformer-based bench power supplies; representative of the 1N540x family."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -1,5 +1,7 @@
 ## Overview
 
+Well-documented, widely used precision micro gearmotor line popular in small robot builds.
+
 ## Quick reference
 
 | | |

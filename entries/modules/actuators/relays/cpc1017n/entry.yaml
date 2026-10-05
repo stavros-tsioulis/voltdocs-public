@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "CPC1017N"
 category: actuators/relays
 status: draft
-summary: "CPC1017N imported from backlog"
+summary: "OptoMOS SSR IC popular for silent DC switching; represents CPC1590."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

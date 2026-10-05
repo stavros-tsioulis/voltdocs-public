@@ -1,5 +1,7 @@
 ## Overview
 
+Widely used 4-line ESD array for USB 2.0 data protection.
+
 ## Quick reference
 
 | | |

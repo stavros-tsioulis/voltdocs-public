@@ -1,5 +1,7 @@
 ## Overview
 
+Metal-gear upgrade of the SG90 with the same footprint, widely used in RC and robotic arms; represents Smart Prototyping MG90S.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Non-heatshrink version for quick indoor splices; cheaper bulk stock item.
+
 ## Quick reference
 
 | | |

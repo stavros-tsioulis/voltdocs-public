@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "2.54mm breakaway male pin headers"
 category: interface/connectors
 status: draft
-summary: "2.54mm breakaway male pin headers imported from backlog"
+summary: "Universal 0.1in male header strip used on Arduino, Raspberry Pi HATs, and virtually all hobby prototyping boards."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

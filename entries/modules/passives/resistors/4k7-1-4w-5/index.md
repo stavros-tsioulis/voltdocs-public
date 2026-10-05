@@ -1,5 +1,7 @@
 ## Overview
 
+Classic I2C pull-up resistor value, very common bench-stock item.
+
 ## Quick reference
 
 | | |

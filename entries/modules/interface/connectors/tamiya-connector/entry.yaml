@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Tamiya connector"
 category: interface/connectors
 status: draft
-summary: "Tamiya connector imported from backlog"
+summary: "Classic large 2-pin connector still found on many RC car battery packs and chargers."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

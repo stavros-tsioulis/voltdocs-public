@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "BTA16-600B"
 category: transistors/triacs
 status: draft
-summary: "BTA16-600B imported from backlog"
+summary: "Extremely popular triac paired with MOC3021/3041 to build DIY solid-state relays for AC loads; represents smaller BT136-600."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

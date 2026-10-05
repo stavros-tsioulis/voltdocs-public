@@ -1,5 +1,7 @@
 ## Overview
 
+Widely-used 10A Hongfa PCB relay cited as a common Songle-equivalent substitute; represents Hongfa cross-equivalents (HFD23/005-1ZS3).
+
 ## Quick reference
 
 | | |

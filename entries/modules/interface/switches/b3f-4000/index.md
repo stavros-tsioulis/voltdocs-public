@@ -1,5 +1,7 @@
 ## Overview
 
+12x12mm tactile switch, standard for Adafruit's 12mm tactile button packs used on many maker boards.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Simple genderless bullet connector commonly used for motor phase wires on brushless motors and ESCs; represents 3.5mm/5mm gold bullet variants.
+
 ## Quick reference
 
 | | |

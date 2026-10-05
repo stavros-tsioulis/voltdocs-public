@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Deans connector (T-plug)"
 category: interface/connectors
 status: draft
-summary: "Deans connector (T-plug) imported from backlog"
+summary: "Classic high-current T-connector widely used for RC car/plane LiPo battery packs; still common for legacy battery compatibility."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

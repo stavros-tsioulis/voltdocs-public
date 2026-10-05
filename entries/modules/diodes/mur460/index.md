@@ -1,5 +1,7 @@
 ## Overview
 
+4A/600V ultrafast rectifier used in higher-voltage SMPS builds.
+
 ## Quick reference
 
 | | |

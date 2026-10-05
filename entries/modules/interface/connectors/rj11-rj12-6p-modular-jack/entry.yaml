@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "RJ11/RJ12 6P modular jack"
 category: interface/connectors
 status: draft
-summary: "RJ11/RJ12 6P modular jack imported from backlog"
+summary: "Repurposed by some hobby projects (3D-printer control panel cables, hotend wiring) as a compact 4-6 wire connector."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -1,5 +1,7 @@
 ## Overview
 
+3A/40V SMA Schottky widely used on hobby buck/boost converter boards.
+
 ## Quick reference
 
 | | |

@@ -1,5 +1,7 @@
 ## Overview
 
+Popular clicky switch in the DIY/custom keyboard community for its crisp tactile click.
+
 ## Quick reference
 
 | | |

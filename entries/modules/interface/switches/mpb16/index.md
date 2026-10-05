@@ -1,5 +1,7 @@
 ## Overview
 
+Common 16mm metal panel-mount pushbutton widely used for hobbyist power/reset buttons; represents PB86-B1, NKK 41S1D1-BGE.
+
 ## Quick reference
 
 | | |

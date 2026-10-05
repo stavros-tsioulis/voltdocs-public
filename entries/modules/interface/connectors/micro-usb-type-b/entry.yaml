@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Micro-USB Type-B"
 category: interface/connectors
 status: draft
-summary: "Micro-USB Type-B imported from backlog"
+summary: "Small 5-pin connector used on most pre-2020 smartphones, ESP8266/ESP32 dev boards, and power banks; represents THT breakout variant."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

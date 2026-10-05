@@ -1,5 +1,7 @@
 ## Overview
 
+The tiny 2-pin connector on small single-cell LiPo pouch cells used in micro-drones and wearable electronics, frequently needing pigtail replacements.
+
 ## Quick reference
 
 | | |

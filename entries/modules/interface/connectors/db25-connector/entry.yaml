@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "DB25 connector"
 category: interface/connectors
 status: draft
-summary: "DB25 connector imported from backlog"
+summary: "Parallel-port breakout connector still used on hobby CNC controller boards."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

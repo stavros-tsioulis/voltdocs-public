@@ -1,5 +1,7 @@
 ## Overview
 
+15V unidirectional SM6T TVS used in SMD power-supply surge protection designs.
+
 ## Quick reference
 
 | | |

@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "Insulated ring terminals"
 category: interface/connectors
 status: draft
-summary: "Insulated ring terminals imported from backlog"
+summary: "Needed for bolting wires to battery terminals, chassis grounds, and terminal strips in 12V/automotive/robotics power builds."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

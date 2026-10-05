@@ -3,7 +3,7 @@ revision: "1.0.0"
 title: "G3MB-202P"
 category: actuators/relays
 status: draft
-summary: "G3MB-202P imported from backlog"
+summary: "The SSR chip underlying most Chinese Arduino SSR modules; referenced directly and via numerous module products built around it (SainSmart, Keyestudio, Grove, Numato Lab, czh-labs, plus G3MC-202P sibling)."
 updatedAt: "2026-10-05"
 fields: {}
 highlights: []

@@ -1,5 +1,7 @@
 ## Overview
 
+Preferred film capacitor type/value for critical audio signal-path coupling due to low dielectric absorption.
+
 ## Quick reference
 
 | | |
